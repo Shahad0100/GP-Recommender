@@ -11,7 +11,7 @@ from typing import List, Dict
 
 
 # ─────────────────────────────────────────────────────────────────────────────
-# GRADE → WEIGHT  (grade 1–5 → embedding weight)
+# GRADE → WEIGHT  (grade A+ → F embedding weight)
 # ─────────────────────────────────────────────────────────────────────────────
 
 GRADE_WEIGHTS = {
