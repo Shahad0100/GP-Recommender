@@ -13,14 +13,14 @@ Late Fusion approach:
 What gets embedded:
   A. Courses   → one vector per course  (title+desc segment + each CLO separately)
   B. Projects  → one vector per project (10 segments encoded separately, then averaged)
-  C. Supervisors → one vector per supervisor (avg of all their project vectors)
+  
 
 Output saved to:
   embeddings/courses/{course_code}.npy
   embeddings/projects/{project_id}.npy
   embeddings/supervisors/{supervisor_id}.npy
   embeddings/project_index.json   ← metadata for all projects
-  embeddings/supervisor_index.json
+  
 
 Usage:
   python phase2_embed.py
@@ -54,7 +54,7 @@ ACM_PATH         = os.path.join(DATA_DIR, "ACM_CSS_taxonomy.json")
 EMBEDDINGS_DIR      = "embeddings"
 COURSES_EMB_DIR     = os.path.join(EMBEDDINGS_DIR, "courses")
 PROJECTS_EMB_DIR    = os.path.join(EMBEDDINGS_DIR, "projects")
-SUPERVISORS_EMB_DIR = os.path.join(EMBEDDINGS_DIR, "supervisors")
+
 
 # SBERT model — all-MiniLM-L6-v2 is fast (384-dim), good quality
 # Upgrade to all-mpnet-base-v2 (768-dim) for better accuracy at cost of speed
@@ -202,66 +202,6 @@ def embed_projects(
 
 
 # ─────────────────────────────────────────────────────────────────────────────
-# STEP C: Embed Supervisors
-# ─────────────────────────────────────────────────────────────────────────────
-
-def embed_supervisors(projects: list):
-    """
-    Build supervisor vectors from their already-computed project vectors.
-
-    Method: supervisor_vec = average of all their project vectors
-    (No re-encoding needed — reuses project vectors from Step B)
-
-    Saved as: embeddings/supervisors/{supervisor_id}.npy
-    """
-    print(f"\n[STEP C] Building supervisor embeddings from project vectors...")
-    os.makedirs(SUPERVISORS_EMB_DIR, exist_ok=True)
-
-    # Group project IDs by supervisor
-    supervisor_map: dict = {}
-    for p in projects:
-        sid  = p.get("supervisor_id", "")
-        name = p.get("supervisor_name", "")
-        pid  = p.get("id", "")
-        if sid and pid:
-            if sid not in supervisor_map:
-                supervisor_map[sid] = {"name": name, "project_ids": []}
-            supervisor_map[sid]["project_ids"].append(pid)
-
-    supervisor_index = {}
-
-    for sid, info in supervisor_map.items():
-        # Load the pre-computed vectors for each project this supervisor supervised
-        vecs = []
-        for pid in info["project_ids"]:
-            path = os.path.join(PROJECTS_EMB_DIR, f"{pid}.npy")
-            if os.path.exists(path):
-                vecs.append(np.load(path))
-
-        if not vecs:
-            print(f"  [WARNING] No project vectors found for supervisor {sid}, skipping.")
-            continue
-
-        # Average all project vectors → supervisor expertise vector
-        supervisor_vec = normalize(average_vectors(vecs))
-        save_vector(supervisor_vec, os.path.join(SUPERVISORS_EMB_DIR, f"{sid}.npy"))
-
-        supervisor_index[sid] = {
-            "supervisor_id":   sid,
-            "supervisor_name": info["name"],
-            "project_ids":     info["project_ids"],
-        }
-
-    # Save supervisor metadata index
-    index_path = os.path.join(EMBEDDINGS_DIR, "supervisor_index.json")
-    with open(index_path, "w", encoding="utf-8") as f:
-        json.dump(supervisor_index, f, ensure_ascii=False, indent=2)
-
-    print(f"  ✓ {len(supervisor_index)} supervisor vectors → {SUPERVISORS_EMB_DIR}/")
-    print(f"  ✓ supervisor_index.json saved")
-
-
-# ─────────────────────────────────────────────────────────────────────────────
 # MAIN
 # ─────────────────────────────────────────────────────────────────────────────
 
@@ -290,7 +230,7 @@ def main():
     # Run all three embedding steps
     embed_courses(model, course_map)
     embed_projects(model, projects, acm_map)
-    embed_supervisors(projects)   # reuses project vectors, no re-encoding
+  
 
     print("\n" + "=" * 60)
     print("  PHASE II COMPLETE")
