@@ -19,7 +19,6 @@ What each recommender gets from here:
   engine.project_matrix    → (N, D) numpy matrix of all project vectors
   engine.bm25              → BM25 index
   engine.bm25_order        → position → project_id mapping
-  engine.supervisor_index  → {sid: supervisor_metadata}
   engine.interest_map      → {name: description}
   engine.app_map           → {field: focus}
   engine.rdia_map          → {label: description}
@@ -66,9 +65,8 @@ ACM_PATH         = os.path.join(DATA_DIR, "ACM_CSS_taxonomy.json")
 
 PROJECTS_EMB_DIR      = os.path.join(EMBEDDINGS_DIR, "projects")
 COURSES_EMB_DIR       = os.path.join(EMBEDDINGS_DIR, "courses")
-SUPERVISORS_EMB_DIR   = os.path.join(EMBEDDINGS_DIR, "supervisors")
 PROJECT_INDEX_PATH    = os.path.join(EMBEDDINGS_DIR, "project_index.json")
-SUPERVISOR_INDEX_PATH = os.path.join(EMBEDDINGS_DIR, "supervisor_index.json")
+
 
 SBERT_MODEL = "all-MiniLM-L6-v2"
 
@@ -315,7 +313,3 @@ class EmbeddingEngine:
         path = os.path.join(PROJECTS_EMB_DIR, f"{pid}.npy")
         return load_vector(path) if os.path.exists(path) else None
 
-    def get_supervisor_vec(self, sid: str) -> np.ndarray:
-        """Load a single supervisor vector by ID."""
-        path = os.path.join(SUPERVISORS_EMB_DIR, f"{sid}.npy")
-        return load_vector(path) if os.path.exists(path) else None
