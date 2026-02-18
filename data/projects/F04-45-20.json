@@ -1,0 +1,59 @@
+{
+    "id": "F04-45-20",
+    "title": "CCIS Student Assistant Chatbot",
+    "supervisor_name": "Ahmed Mohammed Ahmed Gadallah",
+    "supervisor_id": "AMda",
+    "academic_year": "1445",
+    "semester": "20",
+    "abstract": "This project introduces a chatbot designed specifically for the College of Computer and Information Sciences (CCIS) students at Imam Muhammad Ibn Saud Islamic University. It's a helpful tool that offers support, reducing the need for humans. Using advanced natural language processing (NLP) techniques, it provides quick and accurate answers. It uses (FAISS) for efficient data retrieval and integrates with Falcon-Instructor LLM for adaptable responses. The focus is on accuracy, clarity, and relevance when addressing student questions. With a vast knowledge base, the chatbot acts as a virtual assistant for answering the students queries about professors' info, curriculum details, and academic support.",
+    "keywords": [
+        "Educational Chatbot",
+        "Natural Language Processing (NLP)",
+        "Student Support System",
+        "Higher Education",
+        "FAISS",
+        "Falcon-Instructor LLM",
+        "Information Retrieval",
+        "Academic Advising",
+        "FAQ Automation",
+        "Course Management",
+        "Professor Information",
+        "Virtual Assistant",
+        "College of Computer and Information Sciences (CCIS)",
+        "Imam Muhammad Ibn Saud Islamic University",
+        "Student Services"
+    ],
+    "introduction": {
+        "problem": "In terms of education, students often encounter many questions and uncertainties throughout their college journey. From clarifying course requirements to seeking academic guidance, having access to timely and accurate information is crucial for student success. In this chapter, we'll discuss the project's objective of creating a chatbot as a helpful guide and support system for CCIS Bachelor's students. We'll examine the challenges and obstacles that students encounter during their academic journey and emphasize the importance of a dependable and easily accessible solution for providing timely assistance. The introduction establishes the project's context, explains the chatbot's purpose in supporting CCIS Bachelor's students, and outlines the team's qualifications and methodology.",
+        "aim": "Our project aims to create a chatbot that functions as a helpful guide and support system for CCIS students.",
+        "objectives": [
+  "FAQ and General Information: The chatbot will provide quick answers to frequently asked questions about college college’s website procedures and student resources. This will reduce the need for human assistance and give students easy access to relevant information.",
+  "Professors Information: The chatbot will help students find their professors' contact information and office locations. This will make it simpler for students to communicate and access their professors when necessary.",
+  "Course Assistance: The chatbot will guide students through the process of adding or dropping courses from their schedules. It will help students access any available class dates, times, and locations. This feature will boost students' ability to manage their course schedules efficiently."
+]
+    },
+    "conclusion": {
+        "results": "We built the CCIS Student Assistant. It's like a helpful guide, ready to answer questions about classes, professors, and even schedules. No more endless searching or frustrating calls, just quick and easy answers. We made the chatbot because we care about student success, and we know how busy life can be. It's not just cool tech, it's a way to help students focus on what's important — learning and achieving their goals.",
+        "future_work": "Our vision for the CCIS Student Assistant Chatbot's future is bold. We aim to expand its functionalities, making it a truly comprehensive academic companion. This includes incorporating features like proactive exam reminders, personalized study planner recommendations, and seamless integration with student portals for real-time access to grades and schedules. By streamlining daily tasks and offering tailored support, we'll empower students to focus on their academic goals. Furthermore, we recognize the diverse needs of our students. Therefore, we plan to add multilingual capabilities, making the chatbot accessible to Arabic speakers and fostering a more inclusive environment. By breaking down language barriers, we can ensure everyone feels supported and empowered to navigate their academic journey."
+    },
+    "classification": {
+        "application": [
+            "Education"
+        ],
+        "interest": [
+            "Natural Language Processing",
+            "Artificial Intelligence / Machine Learning"
+        ],
+        "acm": [
+            "I.2.7",
+            "I.2.1",
+            "D.2.0",
+            "I.2.4",
+            "H.3.3",
+            "H.3.5"
+        ],
+        "rdia": [
+            "Economies of the Future"
+        ]
+    }
+}

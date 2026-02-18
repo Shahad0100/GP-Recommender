@@ -1,0 +1,60 @@
+{
+    "id": "F14-42-20",
+    "title": "Book Recommendation System based on Collaboration Filtering (RICO)",
+    "supervisor_name": " Wojdan Mohammed BinSaeedan",
+    "supervisor_id": "WMnS",
+    "academic_year": "42",
+    "semester": "20",
+    "abstract": "There is a need to filter the relevant information and arrange it in order of priority in the Internet world, because there are many options, it must also be presented efficiently to reduce the problem of data and information overload on the Internet, which in turn may cause many potential problems for Internet users. Recommendation systems solve this problem by researching the vast volume of information that is dynamically generated to provide users with the specific content and services they might want. Collaborative filtering algorithms provide recommendations to the user based on previous users' reviews (which may be similar to their tastes or personality) in the system. There are several algorithms with which to build a recommendation system and filter collaborative filtering, a technique used in many recommendation systems. Collaborative filtering consists of two senses, one of which is narrow and the other more general. Collaborative filtering is a technique or method for making automatic predictions of a user's interest by gathering a similar persona or personality from multiple users. In this study, we did not use collaborative filtering despite many attempts to link the knn algorithm with the system, but we found a ready-made method in Django called filter() that extracts results similar to the knn algorithm. A systematic review was also conducted to determine the type of user and recommendation data elements required by the general recommendation system. User model and element are suggested. Depending on the element classification that the user chooses or searches for, he will find the recommended elements, and some considerations regarding the specific parameters of the algorithm are explained.",
+    "keywords": [
+        "Recommendation System",
+        "Collaborative Filtering",
+        "User Preferences",
+        "KNN Algorithm",
+        "Django Framework",
+        "Information Filtering",
+        "Content Personalization",
+        "Data Overload Management"
+    ],
+    "introduction": {
+        "problem": "Recommendation systems play a major role in shortening the search for books that the user might prefer and suit his taste. We see that some people become lazy when they need to go to the library, because they spend a long time to find the desired book or it may be too far from home, and the book may have sold out. Touching books with hands or dropping them to the ground leads to the transmission of viruses, especially at present with the spread of (Covid 19). Our system supports the property of spacing and staying at home by browsing electronically. The proposed Rico system provides a search box for the book desired by the user, where he can enter the book category after that he clicks on the search mark and the desired book or a group of recommended books will appear for him.",
+        "aim": "The proposed project aims to improve and facilitate the search for books that the reader prefers while using the recommendation process by building a website for free books without the need to go to the library and touching the books by hand, which guarantees that viruses circulating in recent times are not transmitted.",
+        "objectives": [
+      "Create a page to create a user account, set a password, and verify the password.",
+      "Provide a search box based on the category.",
+      "Add a choice that enables users to show all books and navigate between them.",
+      "Create an integrated website using Django, which provides security and speeds up project completion in a short time.",
+      "Use the Python programming language in the project.",
+      "Provide a user rating feature.",
+      "Apply user-friendly and clear-colored interfaces to provide convenience to the reader.",
+      "Create a box that provides specific information about the book.",
+      "Provide admin authority to add users, books, and book ratings."
+    ]
+ },
+    "conclusion": {
+        "results": "Though System testing has been completed successfully, the Acceptance test is demanded by the customer. Tests conducted here are repetitive, as they would have been covered in System testing. After the testing stage we found out that we need to improve our system even further, we must apply a more reliable algorithm in the implementation of the recommendation process, and also, we must improve the site in terms of the user interface and make it more comfortable.",
+        "future_work": "features that can be targeted in the future to make the website more effective and safer. 1- Contain more than languages, 2- Support iOS and Android as an application, 3- Add a picture of the cover page for all books, 4- Add comment area under each book, 5- Add a description of each book, 6- Make more use of the website for writers, college students, and other users, 7- Use another algorithm e.g., the PSO algorithm to speed up the recommendation process."
+    },
+    "classification": {
+        "application": [
+            "Entertainment & Media"
+        ],
+        "interest": [
+            "Web Development",
+            "Artificial Intelligence / Machine Learning",
+            "Database Systems"
+        ],
+        "acm": [
+            "H.3.3",
+            "H.3.1",
+            "H.2.8",
+            "I.2.1",
+            "I.2.6",
+            "H.5.2",
+            "H.4.2"
+        ],
+        "rdia": [
+            "Economies of the Future"
+        ]
+    }
+}

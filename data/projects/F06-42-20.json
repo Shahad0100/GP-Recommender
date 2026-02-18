@@ -1,0 +1,50 @@
+{
+    "id": "F06-42-20",
+    "title": "Developing A Web Application for Automatic Code Generation",
+    "supervisor_name": " Aram Saleh Al-Sedrani ",
+    "supervisor_id": "ASSe",
+    "academic_year": "1442",
+    "semester": "20",
+    "abstract": "Automatic Code Generation (ACG) is an important part of today’s software development. It is a technique that processes a user description, algorithms, or a model to write programs and uses it for a small part of a code or entire applications by using different techniques. It increases software quality, decreases code errors, reduces effort and coding time. The objective of this project is to develop a web application for ACG to be an assistant for developers and Computer Science (CS) students. This report defines a comparative study of several research by examining the features and limitations, after the study, we detect some gaps, and we try to fill out these gaps by using a flowchart as input, Python, and Java as source code, and using the Extensible Markup Language (XML) parser technique. We analyze the user and system requirements for the web application that matches with user's needs. The report contains the system structure and organization, also, described the alternative methods of our web application, algorithms that we used. Additionally, we designed the graphical user interface for the web application. We concentrate on providing a detailed description of the implementation requirement and its details. Also, we examined the test and results for our ACG web.",
+    "keywords": [
+        "Automatic Code Generation",
+        "ACG",
+        "software development",
+        "web application",
+        "Python",
+        "Java",
+        "XML parser",
+        "flowchart",
+        "algorithms",
+        "GUI"
+    ],
+    "introduction": {
+        "problem": "Automatic Code Generation is an important part of today’s software development. It is a technique that processes a user description, algorithms, or a model to write programs and uses it for a small part of a code or entire applications by using different techniques. It is a standard method in software engineering to improve code reliability and prevent human errors of typing. There are other features to use ACG, for instance, it reduces the total development time during large projects or application development from writing the same repetitive and tedious code more often. The attractive reason to use ACG is for the software as well, it can build new components quickly and can be added to the present system to increase software quality. Also, allows the software to be easily maintainable, extendable, portable, productive, consistent, and more efficient. Without using code generation is almost difficult to develop large and sophisticated software.",
+        "aim": "Comparative study of the existing tools. Developing a new web application for ACG.",
+        "objectives": ["Develop a web application for ACG to serve as a developer's assistant."]
+    },
+    "conclusion": {
+        "results": "We developed and designed the web application to generate code in order to serve developers and students by generating Python and Java source code. We used the flowchart with drag-and-drop shapes and GoJS.net library to convert shapes into XML code. We tested 30 different examples, and all of these test syntaxes are correct. The generated code can run effectively on the compiler. The web application works on various browsers using JavaScript, , the web application depends on an internet connection, which could affect the time to display the output to the user, also the flowchart shapes that are developed not enough.",
+        "future_work": "This project is aiming to add more properties and shapes, for example, do-while, methods, classes, shapes such as document, multi-document, and database. In addition, the system could display a validation message to the user that verifying his/her drawn flowchart as feedback, also it could use compiler to run the generated code and edit it. Also, it could be extending the source code in many various languages like C++, C#, PHP, etc., and utilizing it with OOP. Moreover, developing it to be run on Android and iOS mobile apps to make it easier to reach."
+    },
+    "classification": {
+        "application": [
+            "Education"
+        ],
+        "interest": [
+            "Artificial Intelligence / Machine Learning",
+            "Web Development",
+            "Software Engineering"
+        ],
+        "acm": [
+            "D.1.2",
+            "D.2.2",
+            "I.2.2",
+            "H.5.2",
+            "D.3.4"
+        ],
+        "rdia": [
+            "Economies of the Future"
+        ]
+    }
+}

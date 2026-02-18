@@ -1,0 +1,59 @@
+{
+    "id": "F02-42-20",
+    "title": "Online Context-Aware Recommender System",
+    "supervisor_name": " Meznah Rashid Almutairy",
+    "supervisor_id": "MRmu",
+    "academic_year": "1442",
+    "semester": "20",
+    "abstract": "Large internet-based services companies such as Amazon and Netflix reported that a very large percentage of what users watches, or purchase are from the Recommender System. Due to the exponential increase in the number of users and items every day, it has become necessary to have a large-scale Recommender System. The data arrival could be very fast and dense with trends. So, there is a need to observe these data and reflect the new trends fast, which can be done through online learning. It’s also important to personalize user’s recommendations in order to increase their satisfaction by considering their current context in the process of recommendation. In this research project,we respond to all of the above-mentioned current needs in Recommender Systems by building a large-scale context-aware online-based Recommender System. We model an online context-aware Recommender System as a contextual multi-armed bandit problem, which is a classical reinforcement learning problem. We extended the state-of-art reinforcement learning algorithms LinTS and LinUCB and explored their capability by designing a large-scale algorithms that solve contextual multi-armed bandit problem for a large number of items by clustering items into clusters. We compared our proposed ClinTS and CLinUCB algorithm with state-of-art algorithms LinTS and LinUCB. Our experimental show a decrease in the Running Time (RT) of the proposed algorithms CLinTS and CLinUCB from its extended from state-of-art algorithms LinTS and LinUCB by 27.1% and 4.32%, respectively. Simultaneously, there is no decrease in the cumulative Click Through Rate (CTR) for CLinTS and a very relatively small decrease in CLinUCB by 1.29%.",
+    "keywords": [
+        "Recommender System",
+        "Large-scale",
+        "Online Learning",
+        "Context-aware",
+        "Multi-armed Bandit",
+        "Reinforcement Learning",
+        "Clustering"
+    ],
+    "introduction": {
+        "problem": "Our problem is to build a system that recommend an item to a user, based on the users and items context features. In RC, the products or services to be recommended can be referred to as an Item. The contextual information of the user and item represent the context. The reward or the performance of a recommendation is measured based on user response to the recommended items. In general, the goal of RC is to maximize user satisfaction by maximizing the recommendation reward. To provide good recommendations, our RC should be scalable to handle the large space of users and items based on the online ML algorithms. In this research, we focus on building large-scale context-aware online-based RC.",
+        "aim": "This project aims to design and build an efficient online-based context-aware large-scale RC.",
+        "objectives": [
+      "Review classical RC methods.",
+      "Survey the current researchers’ solutions in the field of online RC.",
+      "Survey the current researchers’ solutions in the field of context-aware RC.",
+      "Design an efficient RC.",
+      "Implement the designed RC.",
+      "Perform experimental studies to test RC.",
+      "Report the performance results of RC."
+    ]
+    },
+    "conclusion": {
+        "results": "Our experimental results implicate that when the dataset size of the application does not increase fast enough, the recommended algorithm to apply is Clustered Linear Upper Confidence Bound (CLinUCB). While Clustered Linear Thompson Sampling (CLinTS) is more recommended when the dataset size of the application does not increase fast enough. In addition, the results show a decrease in the Running Time (RT) of the proposed algorithms from its extended from state-of-art algorithms and no decrease in the cumulative Click Through Rate (CTR) for CLinTS and a very relatively small decrease in CLinUCB.",
+        "future_work": "In the future, we intend to evaluate the proposed algorithms on a dataset that have a larger number of items to recommend from and also other domains. Furthermore, We want to investigate the impact of feedback delay on the proposed algorithms. We plan to extend the proposed algorithm to cluster the items dynamically. Additionally, we would like to know the upper and lower bounds on the regret of CLinUCB and CLinTS. Lastly, we would like to employ the proposed algorithms to help local businesses recommend their products efficiently."
+    },
+    "classification": {
+        "application": [
+            "Entertainment & Media"
+        ],
+        "interest": [
+            "Artificial Intelligence / Machine Learning",
+            "Distributed Systems",
+            "Data Science"
+        ],
+        "acm": [
+            "I.2.6",
+            "I.2.8",
+            "I.2.11",
+            "H.3.3",
+            "H.1.2",
+            "H.4.2",
+            "F.2.0",
+            "I.2.1",
+            "G.3"
+        ],
+        "rdia": [
+            "Economies of the Future"
+        ]
+    }
+}

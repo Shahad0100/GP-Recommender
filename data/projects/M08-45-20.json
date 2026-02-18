@@ -1,0 +1,53 @@
+{
+    "id": "M08-45-20",
+    "title": "Nab’a Application",
+    "supervisor_name": "Mohammed Hussein Alkhatib",
+    "supervisor_id": "MHkh",
+    "academic_year": "1445",
+    "semester": "20",
+    "abstract": "In our fast-paced digital era, it’s tough to find trustworthy news. With so much information available online, and social media playing a big role in news distribution, misinformation can easily spread. 'Nab’a' is designed to tackle this issue head-on. 'Nab’a' is a unique platform focused on delivering news straight from official and verified sources, ensuring authenticity and reliability. It utilizes blockchain technology, a kind of digital ledger that securely and transparently records transactions or information. Once something is recorded in the blockchain, it cannot be altered, ensuring the integrity of the news published on 'Nab’a.' Blockchain technology is crucial in 'Nab’a' for several reasons. It provides transparency, showing exactly where the news is coming from. It ensures security, protecting information from being tampered with. And it adds a layer of accountability, as all information and its sources are permanently recorded and verifiable. The main problem 'Nab’a' aims to solve is the widespread dissemination of unverified and potentially false information. By creating a direct channel for official news, 'Nab’a' ensures that the public receives accurate and reliable information without the need to navigate through irrelevant or misleading content. The motivation behind 'Nab’a' is to create a trustworthy space for news consumption, where users can access important information quickly and confidently, knowing that what they are reading is the real deal. It’s about making news simpler, more direct, and more reliable for everyone.",
+    "keywords": [
+        "News",
+        "Verified News",
+        "Trusted Information",
+        "Misinformation",
+        "Blockchain"
+    ],
+    "introduction": {
+        "problem": "The absence of a robust and universally accessible mechanism for verifying the authenticity of news sources results in the rampant dissemination of unverified and potentially false information, undermining the public's trust in media credibility.",
+        "aim": "The aim of 'Nab’a' is to revolutionize news consumption by providing individuals with direct access to authentic news from official organizations, augmented by blockchain technology. It aims to address the challenges associated with misinformation, intermediaries, and distractions that may prevent the user from accessing important content in the digital news landscape.",
+        "objectives": ["Ensure Authenticity: 'Nab’a' aims to guarantee the authenticity of news by sourcing it directly from official organizations, eliminating the risk of misinformation and manipulation.",
+        "Utilize Blockchain Technology: The platform aims to leverage blockchain technology to verify the authenticity of news sources and content, enhancing trust and transparency.",
+        "Streamlined User Experience: 'Nab’a' seeks to offer a user-friendly and seamless experience, making it easy for users to access and interact with news content.",
+        "Eliminate Intermediaries: 'Nab’a' aims to bypass intermediaries and social media layers, ensuring that news reaches users directly from official sources.",
+        "Real-time Information: The platform aims to provide real-time news updates, keeping users informed about current events as they happen without distractions or doubts about legitimacy.",
+        "Trust and Credibility: 'Nab’a' seeks to establish itself as a trusted news source, ensuring users never doubt the integrity of the information.",
+        "Data Integrity: The platform strives to maintain data integrity and security, safeguarding user information and content authenticity via blockchain and other authentication services such as Firebase Authentication.",
+        "Distraction-Free: Users only read important and relevant content, avoiding unnecessary or misleading information."
+    ]
+    },
+    "conclusion": {
+        "results": "In conclusion, the implementation of the project marks a significant milestone in addressing the challenges of misinformation in the digital age. The integration of Node.js, JavaScript, Solidity, React.js, and Firebase has resulted in a robust and scalable solution. The use of Solidity for smart contracts on Ethereum ensures the integrity of information, while Firebase provides a seamless and secure backend infrastructure. The implementation successfully achieves the project's objectives, providing users with a reliable news platform backed by blockchain technology. Through the user-friendly React.js interface, users can access real-time news from official sources, enhancing transparency and credibility. The Firebase backend ensures data integrity, user authentication, and efficient storage.",
+        "future_work": "Implement the system in real world. Advanced Blockchain Integration. Collaboration with Official Sources. Mobile App Development. Multi-language Support."
+    },
+    "classification": {
+        "application": [
+            "Entertainment & Media"
+        ],
+        "interest": [
+            "Blockchain",
+            "Web Development",
+            "Mobile Development"
+        ],
+        "acm": [
+            "E.3",
+            "K.6.5",
+            "H.4.3",
+            "H.5.2",
+            "D.4.6"
+        ],
+        "rdia": [
+            "Economies of the Future"
+        ]
+    }
+}

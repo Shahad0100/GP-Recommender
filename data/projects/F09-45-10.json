@@ -1,0 +1,49 @@
+{
+    "id": "F09-45-10",
+    "title": "Detecting Cyberbullying in Twitter for Arabic Language",
+    "supervisor_name": " Haifa Hamad Alkasem",
+    "supervisor_id": "HHka",
+    "academic_year": "1445",
+    "semester": "10",
+    "abstract": "Cyberbullying is a growing concern in the digital age, and social media platforms have become a common ground for such behaviour. The objective of this project is to create a Cyberbullying for Arabic language detection tool on Twitter utilizing advanced deep-learning algorithms. The project involved conducting a literature review to identify techniques for detecting Cyberbullying in social media. Additionally, relevant datasets in the Arabic language have been collected and utilized to train and test the developed tool. The performance of the developed tool has been evaluated using appropriate metrics such as, Accuracy, Recall, and F1-Score, and the results are presented visually to gain insights into its effectiveness. ",
+    "keywords": [
+        "Cyberbullying",
+        "Twitter(X)",
+        "Deep learning"
+    ],
+    "introduction": {
+        "problem": "Cyberbullying is defined as” any aggressive, intentional action carried out repeatedly by individuals or groups using internet channels against a victim who is unable to react. Due to the diversity of users, fleeting nature of the problem, and the anonymity nature of social media, and other forms of aggression and bullying exist beyond verbal abuse, establishing efficient and effective approaches for detecting Cyberbullying involves many complications”. Cyberbullying can have severe psychological effects on individuals, leading to anxiety, depression, and even suicidal thoughts. Victims of Cyberbullying may feel isolated and helpless, as the bullying can occur at any time and in any place. Additionally, Cyberbullying can also affect an individual's academic or professional performance, as they may become distracted or lose motivation due to constant harassment. By detecting Cyberbullying early on and implementing measures to prevent it from occurring in the future, we can help protect individuals from these harmful effects and create a safer online environment for everyone .",
+        "aim": "To develop a system for detecting Cyberbullying in Arabic language on Twitter. ",
+        "objectives":  [
+      " Survey detecting Cyberbullying in Arabic language for social media using deep learning methods.\n",
+      " Collect dataset of Cyberbullying instances in Arabic language social media.\n",
+      " Analyse the linguistic features and patterns of Cyberbullying in Arabic language social media.\n",
+      " Build and train a deep learning model optimized for the detection of cyberbullying in Arabic language social media, considering the unique linguistic characteristics and patterns associated with cyberbullying in this context.\n",
+      " Evaluate the performance of the developed model using various metrics such as precision, Accuracy, recall, and F1-score.\n",
+      " Visualize the results."
+    ]
+   },
+    "conclusion": {
+        "results": "We achieved an accuracy of 80%, which is excellent compared to existing studies in the field. Previous studies indicate that achieving high accuracy in detecting cyberbullying is a significant challenge due to the complexity of Arabic language and the diverse patterns of bullying. Therefore, obtaining an accuracy of 80% indicates that the implemented model performs well in detecting cyberbullying in the Arabic language.",
+        "future_work": "In the future, we will replace the written text on Twitter with URL tweets because Twitter Developer currently does not allow direct access to tweet texts. Therefore, other contexts such as an image as well as video can be taken into consideration for cyberbullying detection. Since Twitter allows users to post text with images and videos, it is crucial to also analyse the content of those images and videos to enhance the performance of detection. In addition, Expanding the Dataset by collecting a larger and more diverse dataset of cyberbullying instances in Arabic social media would be beneficial. This can help improve the performance and generalization of the detection tool by capturing a wider range of linguistic patterns, cultural nuances, and evolving forms of cyberbullying. Establish collaborations with social media platforms, such as Twitter. This collaboration can facilitate the implementation of proactive measures or interventions to combat cyberbullying effectively on their platforms by labelling and covering any text or image that contain cyberbullying is considered"
+    },
+    "classification": {
+        "application": [
+            "Social Good & Community"
+        ],
+        "interest": [
+            "Natural Language Processing",
+            "Artificial Intelligence / Machine Learning"
+        ],
+        "acm": [
+            "I.2.7",
+            "I.2.6",
+            "I.5.4",
+            "H.3.3",
+            "K.4.2"
+        ],
+        "rdia": [
+            "Health & Wellness"
+        ]
+    }
+}

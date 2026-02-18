@@ -1,0 +1,52 @@
+{
+    "id": "F05-42-10",
+    "title": "Decentralized Social Application: Moments",
+    "supervisor_name": " Tahani Fahad Albalawi",
+    "supervisor_id": "TFba",
+    "academic_year": "1442",
+    "semester": "10",
+    "abstract": "Social applications have become one of the essential parts of our life that connects us with people. It is considered a source of information, entertainment, and a medium to learn various things anytime and anywhere. So, ensuring application security becomes one of the essential user needs. Most applications use the centralized system and increasingly relying on third parties for conducting services. These third parties continue to be targets of attack due to their weak cybersecurity measures. So the centralized system is one of the possible reasons for an attack, leading to unauthorized access to personal data and disruption of the system. Using blockchain technology can tackle some of the issues before they happen. The Blockchain is a \"peer-to-peer,\" distributed, shared, encrypted database and unchangeable. It enables decentralized systems (autonomous) organizations to operate over a network of computers without a third-party intervention to become more fluid and promote greater participation.",
+    "keywords": [
+        "Social applications",
+        "Centralized system",
+        "Blockchain technology",
+        "Security",
+        "Privacy",
+        "Decentralized systems"
+    ],
+    "introduction": {
+        "problem": "Most applications use the centralized system and increasingly relying on third parties for conducting services. These third parties continue to be targets of attack due to their weak cybersecurity measures. So the centralized system is one of the possible reasons for an attack, leading to unauthorized access to personal data and disruption of the system. One of the biggest problems that face the centralized application is prone to failures, which increases the security and privacy risks for users. The data resides on one centrally owned database controlled by a different service provider known as a third party in the centralized system.",
+        "aim": "Our project aims to develop a decentralized social application (Moments) using blockchain technology. To prevents the problems of the centralization, ensures data integrity, and eliminates the third party's rule.",
+        "objectives": [
+    "Use Ethereum platforms to develop a decentralized social application.",
+    "Develop the application's front-end design that supports the user experience design.",
+    "Develop the back-end design by creating smart contracts to enable writing and reading data from the blockchain network.",
+    "Test the application based on the test-driven development method used in blockchain testing."
+  ]
+},
+        
+    "conclusion": {
+        "results": "all that the user requires is high security in social applications, This is done in our application from our use of blockchain technology, as we mentioned that instead of storing data in a central server, the data is stored in every node in the network and the data is secured in an encrypted form. By using the concept of encryption, a secure data source is assured. Also, the data is stored in the smart contract store, which guarantees the integrity of the data and its source. And the front end/client-side application is hosted in the IPFS network.",
+        "future_work": "First we want to improve the important thing in the application, Response time of the application to do the tasks as fast as it can. also, we will work to increase the efficiency of the application to do everything the user expects it Adding other features draws user desires, and these are some of the advantages: 1- Republish (Re-moment) another user post. 2- Share the post with other applications. 3- Private messages. 4- Notifications. 5- Add other languages. 6- Add a 24-hour post (Your Moments Story). 7- user can give tip to another users."
+    },
+    "classification": {
+        "application": [
+            "Social Good & Community"
+        ],
+        "interest": [
+            "Blockchain",
+            "Web Development",
+            "Cybersecurity"
+        ],
+        "acm": [
+            "D.4.6",
+            "E.3",
+            "H.4.3",
+            "K.6.5",
+            "C.2.4"
+        ],
+        "rdia": [
+            "Economies of the Future"
+        ]
+    }
+}

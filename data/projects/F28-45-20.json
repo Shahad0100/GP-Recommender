@@ -1,0 +1,64 @@
+{
+    "id": "F28-45-20",
+    "title": "AI-trip planner and advisor",
+    "supervisor_name": " Raad Abdullah Alturki",
+    "supervisor_id": "RAtu",
+    "academic_year": "1445",
+    "semester": "20",
+    "abstract": "Travelers often struggle to create well-organized itineraries that match their preferences and budgets, and it can be overwhelming given the variety of options and information available. So, our project aims to enhance and improve the travel experience by alleviating the pressures of planning and ensuring that users have a hassle-free and unforgettable trip. They can create a fully organized trip that suits their personal preferences and budget by using artificial intelligence algorithms to generate a customized travel itinerary for them. Additionally, a personal smart assistant is available, allowing users to directly ask any question that comes to their mind",
+    "keywords": [
+        "AI Trip Planner",
+        "Travel Advisor",
+        "Personalized Itinerary",
+        "Artificial Intelligence",
+        "Recommendation System",
+        "Smart Assistant",
+        "Travel Planning",
+        "Budget Optimization",
+        "User Preferences",
+        "Multilingual Support",
+        "Arabic Language",
+        "English Language",
+        "Real-time Guidance",
+        "Chatbot",
+        "Travel Technology",
+        "Itinerary Generation",
+        "PDF Export",
+        "Tourism"
+    ],
+    "introduction": {
+        "problem": "Planning a trip can be exhausting due to the variety of options and information available. Travelers often struggle to create well-organized itineraries that align with their preferences and budgets. The resources available online can be overwhelming and time-consuming to navigate, leading to frustration. To address this problem, we propose a trip planner and advisor based on artificial intelligence. They can create a fully organized trip that suits their personal preferences and budget by using artificial intelligence model to generate a customized travel itinerary for them. Additionally, a personal smart assistant is available, allowing users to directly ask any question that comes to their mind.. This will streamline the planning process, making it easier for travelers to create enjoyable and efficient itineraries. Ultimately, this artificial intelligence solution aims to enhance the travel experience by alleviating the pressures of planning and ensuring that users have a memorable and hassle-free trip.",
+        "aim": " The aim of this project is to develop an AI-powered trip planner and advisor with the goal of revolutionizing the travel planning process to make it more enjoyable, convenient, and easy. It achieves this by utilizing AI model that suggests personalized travel plans based on the user's interests and budget. Additionally, a personal assistant is available, enabling users to ask any questions that come to mind directly to the personal assistant. The ultimate objective is to enhance the travel experience and provide users with a seamless and effortless trip planning process.",
+        "objectives": [
+    "Creating a suitable plan for the user's preferences and budget using AI.",
+    "Provide an easy-to-use interface.",
+    "Allow the users to request to re-plan his whole plan if they're not satisfied with it.",
+    "Provide a personal assistant to answer any questions.",
+    "Users can be able to save plan as pdf.",
+    "The System supports both Arabic and English languages."
+]
+ },
+    "conclusion": {
+        "results": "Therefore, our website allows users to adjust and replan their trips if the initial recommendations do not meet their liking. This flexibility ensures that users maintain control over their travel plans while still benefiting from the convenience and efficiency offered by our AI-trip planner. Additionally, we offer a personal AI assistant for real-time guidance and information. Our goal is to enhance the travel experience by providing tailored recommendations and valuable insights while simplifying the planning process. To further enhance user convenience, we also enable users to save their personalized travel plans as PDF documents for easy access and reference during their journeys.",
+        "future_work": "In the forthcoming enhancement, we intend to augment the Travel Planner website by integrating a sophisticated recommendation system. This system will leverage advanced algorithms to analyze user preferences, historical travel data, and emerging destination trends, thereby furnishing personalized recommendations. Users can anticipate receiving tailored suggestions for destinations that harmonize with their interests, budget constraints, and past travel experiences. The primary objective of this recommendation system is to enhance the overall user experience by offering valuable insights and fostering exploration of novel and captivating locales."
+    },
+    "classification": {
+        "application": [
+            "Transportation & Mobility"
+        ],
+        "interest": [
+            "Artificial Intelligence / Machine Learning",
+            "Natural Language Processing",
+            "Web Development"
+        ],
+        "acm": [
+            "I.2.6",
+            "I.2.7",
+            "I.2.1",
+            "H.5.2"
+        ],
+        "rdia": [
+            "Economies of the Future"
+        ]
+    }
+}

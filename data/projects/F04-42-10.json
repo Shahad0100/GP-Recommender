@@ -1,0 +1,49 @@
+{
+    "id": "F04-42-10",
+    "title": "Evaluating Website Quality Using Machine Learning",
+    "supervisor_name": "Aram Saleh Al-Sedrani ",
+    "supervisor_id": "ASSe",
+    "academic_year": "1442",
+    "semester": "10",
+    "abstract": "Academic websites are important references for every student and every teacher, it represents the quality of the university and the links between the university and its students or teachers. There are many academic websites, but not all of them are considered as a high-quality website. We implemented a quality evaluator to evaluate the quality of the academic websites using Random forest which is a supervised machine learning technique. The quality evaluator evaluates the academic website based on chosen features and standards. The features will be extracted automatically from the website source code. Our quality evaluator will help different domains such as website designers and education institution management.",
+    "keywords": [
+        "Academic websites",
+        "Quality evaluator",
+        "Random forest",
+        "Supervised machine learning",
+        "Feature extraction"
+    ],
+    "introduction": {
+        "problem": "There are some evaluation website tools that evaluate any kind of website, but it is not designed specially to evaluate the academic websites. These tools will not be perfect for evaluating the academic website; since the academic website has more specific standards and features that make it different from any regular website.",
+        "aim": "In this project, we developed a quality evaluator that evaluates the User Interface (UI) for the academic website depending on chosen standards and features. In this project, we developed a quality evaluator to evaluate the UI of the academic websites using machine learning and suggests the important features that improve the quality of the UI and make it more useful.",
+        "objectives": [
+      "Develop a quality evaluator that can evaluate the specific User Interface (UI) quality of academic websites.",
+      "Develop the quality evaluator using machine learning, supervised learning technique.",
+      "Create a dataset for the model to learn and train."
+    ]
+    },
+    "conclusion": {
+        "results": "We implemented the quality evaluator website using random forest technique since machine learning is rarely used in this field. We also built a dataset; 251 academic websites were collected to build the dataset and to train the quality evaluator website. Then we test and measure the accuracy of the quality evaluator website classification using confusion matrix testing. Which gives us an accuracy value equals to 92.31%. Evaluation process starts from taking the URL of the academic website from the user, then parsing the source code (HTML file) and extract its features automatically, after that, the random forest engine classifies it and displays the result as high/low quality.",
+        "future_work": "Improving the dataset with an additional number of websites . Include foreign academic websites in the dataset. Release the quality evaluator website as an IOS and Android application. Adding semantic evaluation to the quality evaluator website. Make the quality evaluator website evaluate both academic and non-academic websites. Increment the number of the extracted feature to improve the evaluation."
+    },
+    "classification": {
+        "application": [
+            "Education"
+        ],
+        "interest": [
+            "Artificial Intelligence / Machine Learning",
+            "Web Development",
+            "Data Science"
+        ],
+        "acm": [
+            "I.2.6",
+            "I.5.4",
+            "H.5.2",
+            "H.4.2",
+            "J.1"
+        ],
+        "rdia": [
+            "Economies of the Future"
+        ]
+    }
+}

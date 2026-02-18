@@ -1,0 +1,64 @@
+{
+    "id": "M02-45-20",
+    "title": "Detection of Adversarial Attacks Malwares Using Machine Learning Models",
+    "supervisor_name": "Wojdan Mohammed BinSaeedan",
+    "supervisor_id": "WMnS",
+    "academic_year": "1445",
+    "semester": "20",
+    "abstract": "The field of cybersecurity has been a constant battleground between malicious actors and defenders, with the perpetual evolution of malware representing a particularly pressing challenge. As Windows continues to be one of the most targeted operating systems, detecting and mitigating Windows malware remains a critical focus in this arena. In response to the ever-changing landscape of threats, innovative solutions are continuously sought to enhance the precision and adaptability of malware detection systems. This paper presents an approach to Windows malware detection by harnessing the capabilities of Machine Learning and Adversarial Attacks. It extends its reach to encompass various features of Windows malware, including the analysis of static files and elements such as imported DLLs. Furthermore, the study delves into the critical issue of identifying and addressing vulnerabilities stemming from adversarial attacks within this sophisticated malware detection framework, offering a comprehensive solution to enhance the security of Windows systems.",
+    "keywords": [
+        "Malware Detection",
+        "Adversarial Attacks",
+        "Machine Learning",
+        "Cybersecurity",
+        "Windows Malware",
+        "Fast Gradient Sign Method (FGSM)",
+        "Adversarial Machine Learning",
+        "XGBoost",
+        "AdaBoost",
+        "Random Forest",
+        "Decision Tree",
+        "Support Vector Machine (SVM)",
+        "K-Nearest Neighbors (KNN)",
+        "Static Analysis",
+        "DLL Analysis",
+        "Robustness Evaluation",
+        "Threat Detection",
+        "Adversarial Examples"
+    ],
+    "introduction": {
+        "problem": "Malicious software, also known as malware, is a significant threat to cybersecurity. Malware can steal sensitive data, disrupt business operations, and even damage critical infrastructure. Traditional malware detection methods, such as signature-based detection, are becoming increasingly ineffective as malware attackers develop new techniques to evade detection. Machine learning models and adversarial attacks have recently shown promising results for malware detection. This project focuses on training machine learning models and leveraging adversarial attacks to detect malware on a large labeled dataset. One common technique used for adversarial attacks is the Fast Gradient Sign Method (FGSM), which generates slightly altered inputs that can mislead models. FGSM can be applied to improve the robustness of detection models by generating adversarial malware examples for training, as well as to simulate potential attacks to test and strengthen cybersecurity defenses. The use of FGSM and similar methods highlights the dual role of AI in cybersecurity: it can both enhance defenses and expose vulnerabilities, making ongoing research critical to stay ahead of increasingly sophisticated threats.",
+        "aim": "The aim of this project is to develop robust and effective machine learning models for the detection of adversarial attack malware",
+        "objectives": ["Explore and survey the previous studies that are related to our work.", 
+        "Define the challenges of the previous adversarial attack malware detection models using Machine Learning.",
+        "Search and collect the best and suitable dataset for the selected method.",
+        "Build, implement, and train the deep learning model and Evaluate the model using the selected dataset.",
+        "Improve the existing Machine Learning model.",
+        "Test the model on a variety of datasets.",
+        "Compare the results based on the model’s performance."
+    ]
+    },
+    "conclusion": {
+        "results": "In conclusion, the experiment design and results presented in this project have provided valuable insights into the performance and robustness of machine learning models, particularly in the context of malware detection. Two key aspects were explored: comparative analysis of popular machine learning algorithms and an evaluation of model resilience against adversarial attacks using the Fast Gradient Sign Method (FGSM). The comparative analysis of six machine learning algorithms, including K-Nearest Neighbors, Support Vector Machines, Decision Trees, Random Forests, AdaBoost, and XGBoost, revealed varying levels of performance across different metrics. AdaBoost and XGBoost emerged as top performers, demonstrating their ability to strike a balance between precision and recall effectively. This analysis highlighted the importance of considering multiple metrics when selecting an algorithm for specific applications, as the choice should be informed by the specific requirements of each task. The FGSM experiment further delved into assessing model robustness in the context of malware detection. Despite achieving a high accuracy score under normal conditions, the model’s resilience was tested by introducing adversarial perturbations. The evaluation extended beyond accuracy to include precision, recall, and F1-score, revealing vulnerabilities not apparent in standard testing scenarios. This experiment demonstrated the critical importance of evaluating a model’s ability to maintain its performance in the face of deliberate attempts to deceive it, particularly in cybersecurity applications. In summary, this project’s findings underscore the significance of comprehensive performance evaluation in machine learning, including precision, recall, and F1-score, alongside accuracy. Additionally, the evaluation of model robustness against adversarial attacks has highlighted the need for models to adapt and defend against evolving threats in security-sensitive applications. Overall, this research contributes to a deeper understanding of machine learning model selection and evaluation, emphasizing the importance of considering various metrics and robustness to adversarial conditions for real-world deployment.",
+        "future_work": "Incorporating Reinforcement Learning: The integration of reinforcement learning techniques holds the promise of enhancing our model’s adaptability and resilience. By allowing the model to learn from interactions and dynamically adjust its responses to emerging threats, we can bolster its effectiveness in real-world cybersecurity scenarios. Improving Detection Accuracy: To stay ahead of evolving adversarial techniques, we must investigate ways to further enhance the model’s detection accuracy. This may involve exploring novel deep learning architectures or fine-tuning the existing model architecture to better discern subtle patterns in malware samples. Investigating Novel Features and Representations: To expand the model’s capabilities, we should delve into incorporating new features or representations of malware samples. Dynamic analysis data and behavior-based features are promising avenues to explore, as they may provide richer insights into the behavior of malicious software, enabling more accurate classification. Incorporating Real-Time Monitoring Capabilities: As the threat landscape continues to evolve, it is crucial to consider the feasibility of implementing our model in a real-time monitoring system. This would enable the detection and response to adversarial malware in near real-time, significantly enhancing overall cybersecurity posture. In conclusion, our journey in this research has laid a strong foundation, but the path ahead is filled with opportunities for innovation and enhancement. By embracing these future directions, we aim to fortify our model’s capabilities and contribute to the ongoing efforts to secure digital environments against ever-evolving threats."
+    },
+    "classification": {
+        "application": [
+            "Security & Privacy"
+        ],
+        "interest": [
+            "Cybersecurity",
+            "Artificial Intelligence / Machine Learning"
+        ],
+        "acm": [
+            "D.4.6",
+            "I.2.6",
+            "I.5.4",
+            "K.6.5",
+            "D.2.4"
+        ],
+        "rdia": [
+            "Economies of the Future"
+        ]
+    }
+}

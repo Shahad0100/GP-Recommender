@@ -1,0 +1,69 @@
+{
+    "id": "F22-45-20",
+    "title": "Smart Attendance Management System Using iBeacon Technology (حضورك)",
+    "supervisor_name": " Tahani Fahad Albalawi",
+    "supervisor_id": "TFba",
+    "academic_year": "1445",
+    "semester": "20",
+    "abstract": "Checking attendance is considered a valuable practice in many places, especially. in education. It serves various purposes, such as tracking students' attendance as required, monitoring their progress, and compliance with university regulations and policies. However, the current manual attendance systems have some drawbacks, such. as the time consumed to complete the process of checking and registering the students, which affects performance and productivity. Moreover, it's prone to errors, which is a common issue in manual attendance practices. This project introduces automated. attendance tool called (حضورك) by leveraging iBeacon technology to enhance the attendance process.",
+    "keywords": [
+        "Attendance Management System",
+        "iBeacon Technology",
+        "Bluetooth Low Energy (BLE)",
+        "Mobile Application",
+        "Automated Attendance",
+        "Educational Technology",
+        "Real-time Tracking",
+        "Student Authentication",
+        "Location Verification",
+        "Signal Processing",
+        "User Interface Design",
+        "Data Analytics",
+        "Higher Education",
+        "Proximity Detection",
+        "Hudurk",
+        "Classroom Management",
+        "Smart Campus"
+    ],
+    "introduction": {
+        "problem": "The overarching goal of our project is to enhance the university experience by integrating iBeacon devices and purpose-built mobile applications to streamline student attendance verification. While the introduction highlights the transformative potential of our initiative, it's essential to identify specific technical challenges that our project will address. The following are the refined research questions and technical challenges that form the core of our problem definition: 1. Efficient Signal Capture and Processing: - Research Question: How can we ensure the efficient and accurate capture of signals from iBeacon devices in diverse university environments? - Technical Challenge: Designing algorithms and systems that guarantee the real-time and reliable capture of Bluetooth Low Energy (BLE) signals, accounting for factors like signal interference and variations in device configurations. 2. User Authentication and Location Verification: - Research Question: How can the system verify the identity and location of students effectively using Beacon and Bluetooth technology? - Technical Challenge: Implementing robust mechanisms to authenticate students and verify their location based on iBeacon signals, ensuring accuracy and security in the attendance verification process. 3. Integration with Existing Educational Systems: - Research Question: What is the most effective way to integrate our application with the university's existing systems? - Technical Challenge: Developing seamless integration points to facilitate data exchange between our application and university systems, enhancing overall efficiency and collaboration. 4. User Interface Optimization: - Research Question: How can the user interface be optimized for both students and instructors to ensure a seamless and intuitive experience? - Technical Challenge: Designing a user-friendly interface that caters to the specific needs of students and instructors, promoting ease of use and efficient interaction with the application. By addressing these research questions and technical challenges, our project aims to provide a comprehensive solution that revolutionizes attendance verification, contributing to a more efficient and technologically advanced educational environment.",
+        "aim": "The aim of this project to create an application for recording student attendance using iBeacon technology to simplify and modernize the process of recording attendance in educational places. The proposed solution leverages iBeacons technology, which are small, low-power Bluetooth devices combined with a mobile app to realize multiple keys.",
+        "objectives": [
+  "Efficiency: Make the attendance recording process more efficient and less time-consuming for both students and teachers by automatically detecting student presence using iBeacons.",
+  "Cost Savings: Reduce administrative costs over time by automating attendance with iBeacons and the mobile app.",
+  "Save Time: Eliminate the need to call names and record attendance manually, saving valuable class time for teachers and students.",
+  "Accuracy: Provide a more accurate student attendance record and reduce human error compared to traditional manual methods.",
+  "Personalized Learning: Create a mobile app that customizes course materials, assignments, and schedules to fit individual students' needs.",
+  "Adaptability and Scalability: Develop a flexible and scalable system that can be adapted to various universities and educational institutions, evolving with future educational needs and technological advancements.",
+  "Real-time Tracking: Provide instructors with instant access to attendance data to monitor trends and take timely intervention if necessary.",
+  "Enhanced Student Engagement: Use technology to make the attendance process more interactive and engaging for students.",
+  "Data Analytics: Collect attendance data over time to provide insights into individual and class-wide patterns for instructors and administrators.",
+  "Notification and Alerts: Send notifications or alerts to students who are consistently late or absent to help improve overall attendance rates."
+]
+   },
+    "conclusion": {
+        "results": "In conclusion, the development and implementation of the Bluetooth-based Beacon device application represents a significant milestone in enhancing student and lecturer interaction within the educational environment. The successful completion of this graduation project has demonstrated the feasibility and effectiveness of utilizing beacon technology to capture signals for the purpose of taking attendance of students. Throughout the course of this project, we have achieved the following key objectives: 1. Efficient Signal Capture: The application has successfully captured signals from Bluetooth-based Beacon devices, providing valuable data for student and lecturer interactions. 2. User-Friendly Interface: The user interface has been designed with a focus on simplicity and accessibility, ensuring both students and lecturers can utilize the application seamlessly. 3. Real-time Interaction: The real-time nature of signal capture allows students’ attendance to be known and timely feedback made, enhancing the learning environment.",
+        "future_work": "While the current implementation has achieved its goals, there are several avenues for future exploration and enhancement: 1. Enhanced Data Analytics: Incorporate advanced analytics to derive deeper insights from the captured signals, allowing for a more comprehensive understanding of student engagement and interaction patterns. 2. Feedback Mechanism: Implement a feedback mechanism within the application, allowing students and lecturers to provide input on the effectiveness of the attendance process. 3. Providing direct chat: Implementing a chat mechanism between the student and a specific course instructor within the application, allowing students and instructors to communicate directly. 4. Continuous User Feedback: Establish a system for collecting and incorporating user feedback to iteratively improve the application based on the needs and preferences of the users. 5. Feature of displaying reports at the end of the semester: Displaying final reports can contribute to improving the quality of education by knowing the attendance and absence rates for specific courses by specific instructors. 6. Publish the (Hudurk) application to other operating systems such as iOS and expand the category of users. By addressing these areas in future work, the application can evolve into an even more robust tool for enhancing the educational experience and facilitating effective student attendance. In summary, the completion of this project opens the door to a range of possibilities for further refinement and innovation, contributing to the ongoing advancement of technology in the education sector."
+    },
+    "classification": {
+        "application": [
+            "Education"
+        ],
+        "interest": [
+            "Mobile Development",
+            "Human-Computer Interaction",
+            "Internet of Things (IoT)"
+        ],
+        "acm": [
+            "D.2.10",
+            "D.2.12",
+            "H.5.2",
+            "H.1.2",
+            "H.4.1",
+            "I.2.1"
+        ],
+        "rdia": [
+            "Economies of the Future"
+        ]
+    }
+}

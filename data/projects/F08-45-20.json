@@ -1,0 +1,54 @@
+{
+    "id": "F08-45-20",
+    "title": "XIPHER: Visualization Tool for Security Algorithms",
+    "supervisor_name": " Tahani Fahad Albalawi",
+    "supervisor_id": "TFba",
+    "academic_year": "1445",
+    "semester": "20",
+    "abstract": "Many students struggle to grasp complex mathematical procedures involved in security algorithms. Various efforts have been made to simplify these algorithms, focusing on visualization tools. However, existing security visualization solutions often lack a usability component, hindering their effectiveness. This project aims to develop a userfriendly security visualization tool to address this limitation. The primary objective is to create a website that offers educational resources related to security algorithms. The project follows a structured approach, beginning with a search for visualization tools for security algorithms. Then, evaluate these tools' usability notations to enhance the learning experience for students and learners. Subsequently, a security algorithms visualization tool is designed and developed. The project's final phase involves evaluating the developed tool's usability and effectiveness. This project intends to empower students and learners to better understand and utilize these algorithms for practical applications by creating a user-friendly and educational platform for security algorithms.",
+    "keywords": [
+        "Security Algorithms",
+        "Algorithm Visualization",
+        "Security Education",
+        "Usability Evaluation",
+        "Human-Computer Interaction (HCI)",
+        "Educational Web Platform",
+        "Visualization Tools",
+        "User Experience (UX)"
+    ],
+    "introduction": {
+        "problem": "this project addresses the technological challenges of improving usability of security visualization tools. The inability of current technologies to provide an interactive and intuitive platform affects users'' ability to understand complicated security algorithms.",
+        "aim": "This project aims to develop a security visualization tool to overcome the usability element limitations of the existing tools to enhance students' understanding of security algorithms. These limitations may include complex interfaces, lack of interactivity, or difficulties in interpreting visualizations. By improving usability, such as by simplifying interfaces, increasing interactivity, and providing clearer visual representations, students will find it easier to engage with and comprehend security concepts. Enhancing usability is essential for better learning outcomes as it enables students to grasp complex concepts more effectively. ",
+        "objectives": [
+      "Select the most security algorithms for education purposes.\n",
+      " Evaluate the visualization tools based on usability requirements.\n",
+      " Identify usability notations to make it a more effective and user-friendly learning experience for students, and learners.\n",
+      " Develop a security visualization tool.",
+      " Evaluate our tool."
+    ]
+   },
+    "conclusion": {
+        "results": "this project represents a concerted effort to address the challenges faced by students and learners in comprehending the intricate mathematical procedures inherent in security algorithms. By recognizing the limitations of existing visualization tools and prioritizing usability, our aim was to develop a user-friendly security visualization tool. Through a structured approach encompassing research, evaluation, design, development, and evaluation, we have endeavoured to create a website that serves as an educational resource for security algorithms. Our primary focus has been on enhancing the learning experience by providing clear and accessible visualizations, thereby empowering students and learners to engage more effectively with complex concepts. While our project marks a significant step forward, we acknowledge that there is still room for further refinement and expansion",
+        "future_work": "Future work of our tool will aim to incorporate additional fields of encryption, such as audio, video, and image encryption, to provide a more comprehensive learning experience, additional features to enhance user experience. The website will support the Arabic language as an option for users, providing multilingual content. Furthermore, a user registration feature will be implemented, enabling individuals to fully access the website's resources and engage with the content more extensively. In simple terms, this project represents a commitment to bridging the gap between the complexity of security algorithms and the accessibility of educational resources. By fostering understanding and practical application, we hope to equip students and learners with the knowledge and skills necessary to navigate the realm of security algorithms with confidence and proficiency"
+    },
+    "classification": {
+        "application": [
+            "Education"
+        ],
+        "interest": [
+            "Cybersecurity",
+            "Web Development",
+            "Human-Computer Interaction"
+        ],
+        "acm": [
+            "E.3",
+            "H.5.2",
+            "K.6.5",
+            "I.3.6",
+            "K.3.2"
+        ],
+        "rdia": [
+            "Economies of the Future"
+        ]
+    }
+}

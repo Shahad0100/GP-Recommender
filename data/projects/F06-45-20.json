@@ -1,0 +1,60 @@
+{
+    "id": "F06-45-20",
+    "title": "Predicting Programming Skills Among Novice Programmers",
+    "supervisor_name": " Basma Suleiman Alqadi ",
+    "supervisor_id": "BSqa",
+    "academic_year": "1445",
+    "semester": "20",
+    "abstract": "This project discussed predicting the programming skills of novice programmers while gaining insights into the challenges they face in debugging and programming. The primary objectives include analyzing common errors encountered during debugging, utilizing debugging assessment data to estimate programming abilities, evaluating the effectiveness of prediction models, and identifying obstacles in the learning and practice of programming. The methodology involves collecting data on grades and debugging capabilities, applying machine learning (ML) algorithms, and statistically evaluating the predictions. The research seeks to enhance our understanding of debugging assessments and improve the learning experience for novice programmers",
+    "keywords": [
+        "Programming Skills Prediction",
+        "Debugging Ability",
+        "Novice Programmers",
+        "Machine Learning",
+        "Educational Data Mining",
+        "Logical Errors",
+        "K-Nearest Neighbors (KNN)",
+        "Support Vector Machine (SVM)",
+        "Naive Bayes (NB)",
+        "Programming Education",
+        "Debugging Assessment",
+        "Correlation Analysis",
+        "Error Analysis",
+        "Code Debugging",
+        "Programming Proficiency",
+        "English Proficiency",
+        "Skill Prediction"
+    ],
+    "introduction": {
+        "problem": "Debugging is a necessary skill that is known to be difficult to learn and practice for expert and novice programmers. Developers need to understand the operation of the program and the execution of the buggy program; have knowledge in the application domain and the programming language; and have knowledge of (specific) bugs and debugging methods. The goal of this project is to study the relationship between programming ability and debugging ability. Previous studies report that good programmers are concurrently good debuggers. Hence, we hypothesize that using debugging assessment data can predict the programming ability of individuals.",
+        "aim": "The aim is to determine whether we can know the person's ability in programming by making a prediction of the person's level in debugging. This research will involve gathering data on participants' performance in various debugging tasks, such as identifying logical errors. To achieve this, we will explore the connection between programming competence and the capability to identify and fix coding errors. Additionally, we will investigate factors like educational background, previous programming experience, and problem-solving skills that may influence one's debugging abilities",
+        "objectives":  [
+"Seeks to investigate and analyze the common errors made by programmers during the debugging process. By identifying recurring types of errors, such as logic errors, or runtime errors, we can gain insights into the challenges programmers face and the areas where they may require additional support or training.",
+"Utilize the data collected through debugging assessments to make predictions about individuals' programming ability levels. By examining the relationship between debugging performance and broader programming skills, we can develop models or algorithms that can estimate an individual's programming proficiency based on their debugging aptitude.",
+"Evaluate and analyze the effectiveness of the prediction models or algorithms developed. By comparing the predicted programming ability levels with actual performance or assessments, we can assess the accuracy and reliability of the prediction methods. This evaluation will provide valuable insights into the validity and practicality of using debugging assessments as a means of predicting programming abilities.",
+"Identify roadblocks and challenges faced by programmers in learning and practicing programming and debugging. By collecting data on the difficulties encountered by individuals during the learning process, such as conceptual misunderstandings or inadequate resources, we can gain a deeper understanding of the factors that hinder skill development. This knowledge can inform the design of targeted interventions and educational approaches to address these challenges and enhance the learning experience for aspiring programmers."
+]
+},
+    "conclusion": {
+        "results": "The purpose of this study was to examine novice programmers' debugging and programming skills for common logical errors. The results indicate that most participants can properly solve at least four or more of the bugs, such as condition variable hasn’t been updated, misusing && and || operators, division by zero, down casting, array index out of bound, missing break. We observed that the questions with two bugs were not completely resolved by the participants. A logistic regression test analysis was performed to investigate the potential correlation between individuals' debugging performance and their broader programming skills. The resulting correlation coefficient of 0.510461 indicated a weak positive monotonic relationship between the variables. However, the corresponding p-value of 0.4894 indicated that this correlation was not statistically significant at a conventional significance level. Thus, based on the available data, there is insufficient evidence to support a significant correlation between individuals' debugging performance and their broader programming skills. It is important to note that correlation does not imply causation, and further research or a larger dataset may be necessary to delve deeper into this relationship. In our investigation to assess individuals' programming ability through their debugging performance, we utilized three machine learning models: SVM, KNN, and NB. Upon evaluating these models, we discovered that KNN exhibited the highest accuracy compared to SVM and NB. Notably, the accuracy of KNN also surpassed the accuracy reported in previous studies. However, it is worth mentioning that the accuracy of SVM and NB in previous studies was higher than our obtained accuracy. Consequently, our findings suggest that KNN can be a reliable choice for predicting programming skills based on the available data. Based on our study, which involved participants answering a survey, we aimed to determine if programming skills among novice programmers can be predicted. The survey results led us to the conclusion that there is no correlation between programming skills and debugging logical errors. However, we did find a correlation between the level of English proficiency and the ability to debug logical errors. It seems that individuals who are fluent in the English language also excel in debugging logical errors. Additionally, we observed that some of the younger participants performed better than others. This could be attributed to the fact that all participants were within the same age range and had not yet completed their undergraduate studies. Furthermore, we believe that female participants scored higher than their male counterparts. Lastly, our findings suggest that machine learning can be utilized to predict programming skills among novice programmers with a high level of accuracy, as demonstrated by our dataset.",
+        "future_work": "In future work, the subsequent phase of this study will focus on creating an assessment system in the form of a survey. The primary objective of this survey will be to identify the most effective instructional strategies for teaching and enhancing debugging expertise. To improve the reliability and accuracy of our results, we plan to augment the dataset by including a larger sample size and we will focus on making the participants more diverse in terms of age, experience, and gender. By expanding the dataset, we aim to obtain more comprehensive data to strengthen the correlation analysis and enhance the performance of the ML models."
+    },
+    "classification": {
+        "application": [
+            "Education"
+        ],
+        "interest": [
+            "Artificial Intelligence / Machine Learning",
+            "Data Science"
+        ],
+        "acm": [
+            "I.2.6",
+            "I.5.4",
+            "I.2.1",
+            "H.1.2"
+        ],
+        "rdia": [
+            "Economies of the Future"
+        ]
+    }
+}

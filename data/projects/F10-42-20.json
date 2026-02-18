@@ -1,0 +1,57 @@
+{
+    "id": "F10-42-20",
+    "title": "Monitoring and Tracking of Vulnerable Individuals Using Mini-UAVs",
+    "supervisor_name": " Areeb Abdullah Alowisheq",
+    "supervisor_id": "AAow",
+    "academic_year": "1442",
+    "semester": "20",
+    "abstract": "This project aims to develop a surveillance and tracking system using Unmanned Aerial Vehicle (UAV) to give vulnerable individuals such as children, elderly people, and special needs individuals, more freedom to conduct their activities. The system also helps caregivers to be assured of the vulnerable individual’s safety remotely. The tracking is implemented using vision-based control to guide the UAVs during autonomous flying. The images are processed to enable object detection and re-identification by fine-tuning existing pre-trained deep models to detect humans with 89% mAP, and 85% validation accuracy for person re-identification. In addition to programming the autonomous UAVs, a mobile application is developed for caregivers to communicate with the UAVs and receive information about the tracked individuals. The project is demonstrated using both prototyping and simulation. Thus, the detection task was demonstrated in both simulation and prototyping where the tracking task was demonstrated in simulation only.",
+    "keywords": [
+        "UAV Surveillance",
+        "Tracking System",
+        "Vision-Based Control",
+        "Autonomous Drones",
+        "Object Detection",
+        "Person Re-Identification",
+        "Deep Learning",
+        "Mobile Application",
+        "Simulation and Prototyping",
+        "Safety Monitoring"
+    ],
+    "introduction": {
+        "problem": "Monitoring and tracking vulnerable individuals (children, special needs, and elderly) has been in the literature for long. protect against the potential risks elderly might encounter outdoors, like sensors and wearable computing devices. Also, for tracking children, many wearable GPS trackers are designed and associated with a mobile application for the parents1. However, these solutions depend on wearable tools and phones which could be lost or forgotten. Moreover, most of these solutions do not provide a vision-based tracking feature (i.e. real-time video monitoring). The use of a camera for monitoring can be more informative than other sensors (e.g. GPS), where last taken images of the individual can tell more about what happened in the case of the individuals went missing or other risky situations. In addition, there is an interest in UAVs visionbased surveillance systems since the use of UAV-embedded camera covers more areas than the static surveillance cameras. Also, UAVs can detect and track human and objects thanks to the computer vision and deep learning techniques. In the light of UAVs vision-based surveillance, dedicated use of UAVs inspired us to help caregivers in monitoring and tracking vulnerable individuals outdoors.",
+        "aim": "to develop a surveillance system using mini-UAV in order to give vulnerable individuals more freedom to conduct their activities. The system also helps caregivers to be assured of the vulnerable individual’s safety remotely.",
+        "objectives":  [
+      "Programming and deployment of a mini-UAV as a physical prototype.",
+      "Developing the front-end of an Android mobile app to communicate with the mini-UAV.",
+      "Fine-tuning existing pre-trained deep learning models to detect vulnerable individuals.",
+      "Building Siamese neural networks to identify vulnerable individuals.",
+      "Developing navigation and tracking algorithms based on vision-based control in a developed simulation environment that mimics the movement of a vulnerable individual and a UAV.",
+      "Evaluating the system through unit testing."
+    ]
+ },
+    "conclusion": {
+        "results": "This project has achieved the following contributions and outcomes: 1. Developed, trained and tested an individual detection algorithm based on transfer learning, with a mean average precision of 89.39%. 2. Developed, trained and tested a one-shot learning algorithm to measure the similarity between images to enable tracking individuals, which achieved a validation accuracy of 85.44%. 3. Designed and implemented a tracking algorithm based on visual navigation to detect the location of the individual and move the UAV accordingly. 4. Assembled and programmed a physical prototype of the Crazyflie UAV to capture images and videos during the flight and deployed the detection algorithm on the Crazyflie-acquired images. 5. Designed a simulation environment for the UAV using AirSim on the Unreal Engine environment and deployed the detection and vision-based control navigation algorithms in the simulation. 6. As an outcome, the front-end of a mobile application prototype for tracking vulnerable individuals was implemented.",
+        "future_work": "For future work, one can consider the following points. The need for a more powerful hardware capability with GPUs, that enable execution of the computer vision tasks in real-time on the UAV platform. Also, integrating the enhanced re-identification model, using both face and body features, along with UAV navigation in a more realistic, complex environment with a lot of human beings. Besides, boosting the mobile application, where the caregivers can communicate with the UAV to perceive the streaming video and get a briefing about the UAV and the target. Besides that, we hope to enhance the idea of the project by adding new functionalities and rising the caregiver’s satisfaction about a complete monitoring task. Adding a GPS service to the UAV would improve the tracking task to perceive more information about the UAV and target location. Moreover, object detection can be extended to detect other hazardous environments for vulnerable individuals such as roads and water bodies. Furthermore, the tracking process can be elaborated for multi-UAVs to monitor and track a group of vulnerable individuals."
+    },
+    "classification": {
+        "application": [
+            "Social Good & Community"
+        ],
+        "interest": [
+            "Computer Vision",
+            "Artificial Intelligence / Machine Learning",
+            "Drones"
+        ],
+        "acm": [
+            "I.2.10",
+            "I.2.9",
+            "I.4.8",
+            "I.5.4",
+            "J.7"
+        ],
+        "rdia": [
+            "Health & Wellness"
+        ]
+    }
+}

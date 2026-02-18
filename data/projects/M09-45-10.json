@@ -1,0 +1,52 @@
+{
+    "id": "M09-45-10",
+    "title": "Qaimni: An Interactive, Web-Based System for Rating Faculty Members",
+    "supervisor_name": "Adel Ebrahim Al-Salem",
+    "supervisor_id": "AESa",
+    "academic_year": "1445",
+    "semester": "10",
+    "abstract": "Qaimni is a high-quality web application designed to address the need for a dedicated platform where students can review faculty members in the College of Computer and Information Sciences. The project aims to improve the efficiency of communication and interaction between students and instructors by enabling them to share experiences and provide honest, anonymous feedback. This application is inspired by the success of Mojadwel, a user-friendly platform that solved course registration problems by facilitating easy scheduling and management of course times and section numbers. The primary objectives of Qaimni are to create an accessible platform for students to submit and view reviews about instructors, allow anonymous reviewing, build a database to store reviews securely, ensure fast performance, provide clear overviews of instructors' strengths, and make the platform accessible to all students, including those with special needs. To understand the needs and preferences of college students concerning faculty rating applications, a survey titled 'The Need for A Faculty Rating System' was conducted. This survey targeted college students and featured five multiple-choice questions designed to gather data on the need for a faculty rating application, support for its development, preferences for anonymity, interest in a college-specific application, and willingness to use the application despite the existence of similar applications. Google Forms was used to design and deploy the survey, collecting around 120 responses from various college departments. The analysis of the survey data provided valuable insights into students' preferences and needs, which played a crucial role in the development and design of the Qaimni project. The majority of students expressed a need for a faculty rating application with anonymity features, guiding the project's direction. Consequently, Qaimni was tailored to address these preferences, resulting in a high-quality rating application specifically catering to the needs and preferences of college students, aiming to enhance the overall academic experience.",
+    "keywords": [
+        "Faculty Rating",
+        "Student Reviews",
+        "Anonymous Feedback",
+        "Web Application",
+        "College Platform"
+    ],
+    "introduction": {
+        "problem": "The college is in need of a high-quality web application for reviewing faculty members. Students helping each other and sharing their experiences can make a huge impact on their academic career. Platforms like Mojadwel solved a big problem in the college; the registration for courses is a problem due to the difficulty of scheduling courses whenever the student wants. Mojadwel solved the problem by providing a user-friendly web application that allows the student to easily manage their course time and section number. After the student makes the scheduling in the platform, it asks the student to prompt the necessary reference number of the courses in the official registration system. In our project, we will create a user-friendly and accessible web application that allows different kinds of students to review an instructor in an anonymous way, providing honest and open feedback to the instructors. Students can view instructors’ reviews and their overall rating including what makes this instructor special in different aspects such as teaching style, course materials, and taking attendance.",
+        "aim": "The primary aim of the project is to help students make an overview of an instructor to make the interaction and the communication between the student and the instructor more efficient, making the experience smoother and more engaging.",
+        "objectives": [
+      "Create an easy-to-use platform for students to submit and view reviews about their instructors.",
+      "Allow the student to review anonymously.",
+      "Build a database that stores all students' reviews anonymously.",
+      "Make the platform as fast as possible.",
+      "View the instructor's advantages to make a clear overview.",
+      "All different types of students can access the platform even students with special needs."
+    ]
+  },
+    "conclusion": {
+        "results": "The Qaimni project successfully created a platform for students to review their faculty members. We began by conducting a survey to understand what students really need and want. Based on this feedback, we designed the application to be user-friendly and secure. The platform effectively meets its main goals: it allows students to submit and read reviews, ensures that these reviews are anonymous, and securely stores all the data. However, there are some limitations. Currently, the platform is only available on the web.",
+        "future_work": "There are several areas where the platform could be improved: Scalability: The platform is currently limited to the web; we could employ our web skills to build a cross-platform mobile application. Improve Analytics: Advanced tools could be used to provide a deeper understanding of the reviews submitted. Enhance Security: While the platform is secure, additional security measures could make it even safer. Increase Accessibility: Further updates could make the platform more accessible to students with special needs."
+    },
+    "classification": {
+        "application": [
+            "Education"
+        ],
+        "interest": [
+            "Web Development",
+            "Database Systems",
+            "Human-Computer Interaction"
+        ],
+        "acm": [
+            "H.5.2",
+            "H.2.8",
+            "H.4.2",
+            "K.3.2",
+            "H.3.5"
+        ],
+        "rdia": [
+            "Economies of the Future"
+        ]
+    }
+}

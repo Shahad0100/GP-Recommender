@@ -1,0 +1,62 @@
+{
+    "id": "F04-45-10",
+    "title": "Baseera بصيرة : Accessible Mobile App for Blind Children",
+    "supervisor_name": " Manan Mohammed Almusallam ",
+    "supervisor_id": "MMmu",
+    "academic_year": "1445",
+    "semester": "10",
+    "abstract": "Blindness or visual impairment is a functional limitation of the eyes that has an impact on people, particularly children. Children in pre-school age with vision impairment can have delayed motor, language, emotional, social, and cognitive development, which can strongly affect their future life. Assistive technology can improve their condition and help both children and their parents. Accessible mobile applications can meet their needs and offer them an opportunity to learn in ways similar to sighted children. In this project, we develop an inclusive application that is accessible for blind preschoolers. The application teaches children numbers and the basics of counting through an interactive game that provides audio feedback.",
+    "keywords": [
+        "Accessible Mobile Application",
+        "Blind Children",
+        "Visual Impairment",
+        "Assistive Technology",
+        "Educational Game",
+        "Arabic Language Support",
+        "Preschool Education",
+        "Audio Feedback",
+        "Numbers Learning",
+        "Counting Skills",
+        "Inclusive Design",
+        "Accessibility Standards",
+        "Child Development",
+        "Habilitation",
+        "Touch-screen Accessibility"
+    ],
+    "introduction": {
+        "problem": "Mobile applications play an important role in everyday life and have become increasingly accessible for people with disabilities. Using mobile devices is now essential, and owning one is especially important for individuals with special needs, including people with visual impairments. Thanks to assistive technology, blind individuals can access touch-screen devices and perform many tasks similarly to sighted users. Globally, a large number of children suffer from visual conditions that require treatment, with millions experiencing some form of sight loss. Children with visual impairment require habilitation, which involves teaching and developing mobility, orientation, and independence skills to prepare them for adulthood. However, there is a lack of accessible educational applications tailored to blind children, particularly in Arabic. Providing equal learning opportunities is essential to support their development. Technology can empower blind children to grow and learn like their sighted peers while also offering valuable resources for parents and educators. Therefore, this project addresses the need for an accessible mobile application that teaches blind children numbers through an interactive game, with a specific focus on Arabic-speaking blind children.",
+        "aim": "The project aims to develop an educational and entertaining app for Arab blind preschoolers, that teaches the children numbers and the basics of counting",
+        "objectives": [
+  "Collect information about blind preschoolers from parents and professionals who deal with blind preschoolers.",
+  "Review similar accessible educational apps for blind children.",
+  "Analyze the requirements of the target accessible app for blind preschoolers.",
+  "Design the app based on accessibility standards for the blind.",
+  "Implement the app using tools that support accessibility.",
+  "Test the app on preschoolers."
+]
+    },
+    "conclusion": {
+        "results": "Throughout the experiment, we observed the positive impact of including support for the Arabic language on user performance. It offers guidance and a user-friendly environment that users can comprehend. Furthermore, it was beneficial to use a variety of sound categories, such as animal sounds, and vehicle sounds which most users knew or had heard before, as well as natural sounds, tool sounds, and musical instrument sounds which were totally new to most users. Learning these sounds in an enjoyable manner is essential, as they can have practical applications in users' daily lives.",
+        "future_work": "For future work, Baseerah application could be improved by adding more diverse sounds and randomized choices of sounds and images to make it more like a puzzle game that is entertaining, and that will not make the game repetitive and unenjoyable for the child. The app could have more levels to include challenge and excitement. The UI could be optimized for a more immersive gaming experience, incorporating a visually appealing aesthetic. It could have a better scoring system, where there is a Star Rating System. The game could use cloud-based storage rather than being stored locally. It could have more audio guides like a story or a unique character that interacts with the child. AI could be used to improve the scoring system. It could support multiple languages and different Arabic Accents to suit Arab Childrens’ different backgrounds. The audio feedback and sounds of objects could be customized."
+    },
+    "classification": {
+        "application": [
+            "Education"
+        ],
+        "interest": [
+            "Human-Computer Interaction",
+            "Mobile Development"
+        ],
+        "acm": [
+            "H.5.2",
+            "H.5.1",
+            "I.2.1",
+            "J.3",
+            "H.5.5",
+            "D.2.0"
+        ],
+        "rdia": [
+            "Health & Wellness"
+        ]
+    }
+}

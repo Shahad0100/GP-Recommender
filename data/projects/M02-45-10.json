@@ -1,0 +1,55 @@
+{
+    "id": "M02-45-10",
+    "title": "Automated Attendance System Using Facial Recognition (FRA)",
+    "supervisor_name": "Hachemi Ahmed Nasser",
+    "supervisor_id": "HAss",
+    "academic_year": "1445",
+    "semester": "10",
+    "abstract": "Traditional attendance tracking in educational institutions with paper-based attendance lists is error prone and time-consuming for students and teachers. One solution to this problem is to use facial recognition technology for automatic attendance tracking. The system aims to simplify and speed up the educational environment while saving time for students and professors. The main goal is to provide accurate student attendance, eliminate the need for manual attendance, and allow students to access attendance and view their attendance history. The system includes a camera and a control unit (Raspberry Pi) to connect the camera to software written on the Raspberry Pi. The software is linked to the server and has facial recognition functionality. As students face the camera and are recognized, their attendance is then recorded in the database. The system provides an efficient and reliable method of attendance registration, avoiding errors and saving time. Students and professors can access their attendance records through the website, giving them easy access to attendance information. Using facial recognition technology ensures a high level of security and accuracy, making it a practical and effective solution for attendance tracking. Overall, the implementation of facial recognition technology in attendance tracking is an important step to improve the educational environment and increase the efficiency of attendance management",
+    "keywords": [
+        "Facial Recognition",
+        "Automated Attendance System",
+        "Computer Vision",
+        "Raspberry Pi",
+        "Image Processing",
+        "Database Management",
+        "Web Application",
+        "Educational Technology",
+        "Biometric Authentication",
+        "Real-Time Recognition"
+    ],
+    "introduction": {
+        "problem": "The traditional way of taking students' attendance involves the use of paper-based attendance sheets where teachers would manually record the names of students present or absent in class. This process is time-consuming and prone to errors as it relies heavily on the teacher's memory and accuracy in recording the attendance. Additionally, these attendance sheets may get lost or damaged over time, making it difficult to retrieve accurate attendance records. Overall, the traditional way of taking attendance may not be efficient or reliable in tracking student attendance.",
+        "aim": "By using a camera to identify students and then automatically attend them, the system aims to make the educational environment simpler, faster, and more effective while saving both students and professors time that would otherwise be wasted in attendance. Through the website, both the professor and students can view the attendance and absence records for each student as well as the total number of absences. Our goal is to be able to offer a method that is highly accurate and error-free.",
+        "objectives": [
+      "The main objective of this project is Time-saving Manual attendance taking can betime-consuming, especially in large classrooms.",
+      "provide accurate attendance records of students.",
+      "allows students to access their attendance records and view their attendance history.",
+      "faculty members can track, review and edit student attendance easily."
+    ]
+    },
+    "conclusion": {
+        "results": "The journey of designing and implementing our automatic attendance system has been an enlightening and challenging experience. This project, with its sophisticated interplay between hardware and software components, not only showcased the potential of integrating multiple technologies but also highlighted the importance of adaptability in the face of unforeseen challenges. The integration of a capturing device, the Raspberry Pi Model 4B equipped with Raspbian OS and a camera, coupled with a powerful web application built on technologies like MySQL, React.js, Express.js, and Node.js, marked a significant step in automating an age-old educational process. Our proactive approach in pivoting from a 3.5 LCD to a 7-inch HDMI touch screen, addressing code complexities, and continually iterating on user feedback demonstrated our commitment to delivering excellence. The trials and triumphs encountered along the way have not only enriched our technical prowess but have also offered invaluable lessons in project management, team collaboration, and innovative problem-solving. ",
+        "future_work": "Several areas of advancement have been identified to further enhance the system's performance and capabilities: 1. Enhanced Fraud Detection: ● Addressing the system's vulnerability to fraudulent attendance through recorded videos remains a top priority. ● The exploration of other efficient libraries or the development of a proprietary solution that can swiftly detect and negate such attempts is on the agenda. 2. Database Integration: ● Currently, the administrative process of entering each course and associating students is manual. ● Seamless integration with the university's existing database would allow for automatic data retrieval, drastically reducing the manual entry workload and potential for errors. 3. Database Scalability: ● As more institutions adopt our system, ensuring the MySQL database's capability to handle the increased load is paramount. ● Consideration of distributed databases or transitioning to cloud-based solutions may become necessary. 4. Integration with Other Systems: ● The possibility of syncing our attendance system with existing academic management software or Learning Management Systems (LMS) presents an exciting avenue. ● Such integration would facilitate the fluid exchange of data and reduce administrative hassles. 5. Environmental Adaptability: ● Assessing the system's robustness under different lighting conditions or dynamic student movements will be crucial. ● Investigating advanced facial recognition technologies or incorporating additional camera types might be a strategic move. 6. User Experience Refinements: ● Continuous feedback from users will be invaluable in identifying areas in the user interface and experience that can be improved upon. By addressing these facets, our vision is to position the automatic attendance system as a benchmark solution in educational institutions, optimizing both efficiency and adaptability."
+    },
+    "classification": {
+        "application": [
+            "Education"
+        ],
+        "interest": [
+            "Computer Vision",
+            "Artificial Intelligence / Machine Learning",
+            "Embedded Systems"
+        ],
+        "acm": [
+            "I.2.10",
+            "I.4.8",
+            "I.5.4",
+            "H.2.8",
+            "K.3.2"
+        ],
+        "rdia": [
+            "Economies of the Future"
+        ]
+    }
+}

@@ -1,0 +1,863 @@
+{
+  "program_learning_outcomes": [
+    {
+      "plo_id":"K1",
+      "plo_description":"Recognize the concepts of computing and mathematics appropriate to the discipline."
+    },
+    {
+      "plo_id":"K2",
+      "plo_description":"Identify the current techniques, skills, and tools necessary for the computing practice."
+    },
+    {
+      "plo_id":"K3",
+      "plo_description":"Recognize local and global impact of computing on individuals, organizations, and the society."
+    },
+    {
+      "plo_id":"S1",
+      "plo_description":"Analyze a complex computing problem and apply principles of computing and other relevant disciplines to identify solutions."
+    },
+    {
+      "plo_id":"S2",
+      "plo_description":"Design, implement, and evaluate a computing-based solution to meet a given set of computing requirements in the context of the program’s discipline."
+    },
+    {
+      "plo_id":"S3",
+      "plo_description":"Communicate effectively in a variety of professional contexts."
+    },
+    {
+      "plo_id":"S4",
+      "plo_description":"Apply computer science theory and software development fundamentals to produce computing-based solutions."
+    },
+    {
+      "plo_id":"V1",
+      "plo_description":"Recognize professional responsibilities and make informed judgments in computing practice based on legal and ethical principles."
+    },
+    {
+      "plo_id":"V2",
+      "plo_description":"Function effectively as a member or leader of a team engaged in activities appropriate to the program’s discipline."
+    },
+    {
+      "plo_id":"V3",
+      "plo_description":"Recognize the need for and an ability to engage in continuing professional development."
+    }
+  ],
+  "courses": [
+    {
+      "course_code": "CS1424",
+      "course_title": "Introduction to Robotics",
+      "credit_hours": 3,
+      "course_description": "This course aims to familiarize you with the fundamentals of robot system modeling, design, planning, and control. Topics include planar and spatial kinematics, and motion planning.",
+      "course_learning_outcomes": {
+        "knowledge": [
+          {
+            "clo_number": "CLO1.1",
+            "mapped_plos": ["K1", "K2"],
+            "clo_statement": "Describe and discuss the terms, application of Robotics."
+          },
+          {
+            "clo_number": "CLO1.2",
+            "mapped_plos": ["K1", "K2"],
+            "clo_statement": "Understanding Kinematics, Dynamics, and control systems."
+          }
+        ],
+        "skills": [
+          {
+            "clo_number": "CLO2.1",
+            "mapped_plos": ["S2", "S3"],
+            "clo_statement": "Develop and deepen programming skills in robotics."
+          },
+          {
+            "clo_number": "CLO2.2",
+            "mapped_plos": ["S4"],
+            "clo_statement": "Implementing different algorithms of motion planning, pathfinding, and computer vision."
+          },
+          {
+            "clo_number": "CLO2.3",
+            "mapped_plos": ["S3", "S4"],
+            "clo_statement": "Preparing research reports that imply some emergent topics about future trends in robotics."
+          },
+          {
+            "clo_number": "CLO2.4",
+            "mapped_plos": ["S4"],
+            "clo_statement": "Provide a challenging, highly engaging project to apply all Robotics concepts."
+          }
+        ],
+        "values": []
+      }
+    },
+
+    {
+      "course_code": "CS1425",
+      "course_title": "Embedded Systems",
+      "credit_hours": 3,
+      "course_description": "This course introduces the principles and practices of embedded systems design and programming. Students will explore hardware-software integration, microcontrollers, sensors, actuators, real-time operating systems, and application development.",
+      "course_learning_outcomes": {
+        "knowledge": [
+          {
+            "clo_number": "CLO1.1",
+            "mapped_plos": ["K1", "K2"],
+            "clo_statement": "Explain the concepts, architecture, and components of embedded systems. Differentiate between embedded systems and general-purpose computing systems."
+          },
+          {
+            "clo_number": "CLO1.2",
+            "mapped_plos": ["K1", "K2"],
+            "clo_statement": "Describe the working of microcontrollers, microprocessors, and their peripherals. Select appropriate hardware components for an embedded application."
+          }
+        ],
+        "skills": [
+          {
+            "clo_number": "CLO2.1",
+            "mapped_plos": ["S2", "S3"],
+            "clo_statement": "Write, compile, and debug programs for embedded systems using C/C++ or assembly language. Develop and test embedded applications using IDEs and toolchains."
+          },
+          {
+            "clo_number": "CLO2.2",
+            "mapped_plos": ["S3", "S4"],
+            "clo_statement": "Explain the role of RTOS in embedded systems. Implement multitasking, scheduling, and synchronization in embedded applications."
+          },
+          {
+            "clo_number": "CLO2.3",
+            "mapped_plos": ["S4"],
+            "clo_statement": "Analyze power consumption and efficiency of embedded systems. Optimize code and hardware design for better performance."
+          },
+          {
+            "clo_number": "CLO2.4",
+            "mapped_plos": ["S4"],
+            "clo_statement": "Interface embedded systems with sensors, actuators, and communication protocols (I2C, SPI, UART, etc.). Design and implement embedded communication with external devices."
+          }
+        ],
+        "values": []
+      }
+    },
+
+    {
+      "course_code": "CS1426",
+      "course_title": "Advanced Computer Architecture",
+      "credit_hours": 3,
+      "course_description": "This course explores advanced topics in computer architecture, including parallelism, memory hierarchy, multi-core processing, and high-performance computing. It emphasizes performance analysis, optimization techniques, and emerging trends in computer design.",
+      "course_learning_outcomes": {
+        "knowledge": [
+          {
+            "clo_number": "CLO1.1",
+            "mapped_plos": ["K1", "K2"],
+            "clo_statement": "Investigating modern design alternatives for parallelism such as pipelining thread, and data-level parallelism."
+          },
+          {
+            "clo_number": "CLO1.2",
+            "mapped_plos": ["K1", "K2"],
+            "clo_statement": "Become acquainted with recent computer architectures (SMP, NUMA, and Hyperthreading, ect.)"
+          }
+        ],
+        "skills": [
+          {
+            "clo_number": "CLO2.1",
+            "mapped_plos": ["S2", "S3"],
+            "clo_statement": "Evaluate the performance of modern computing architectures."
+          },
+          {
+            "clo_number": "CLO2.2",
+            "mapped_plos": ["S3", "S4"],
+            "clo_statement": "Implement different cache coherence protocols."
+          },
+          {
+            "clo_number": "CLO2.3",
+            "mapped_plos": ["S4"],
+            "clo_statement": "Prepare research reports that address emerging topics about future trends in computing."
+          },
+          {
+            "clo_number": "CLO2.4",
+            "mapped_plos": ["S4"],
+            "clo_statement": "Design and implement building blocks of a computer architecture."
+          }
+        ],
+        "values": []
+      }
+    },
+
+    {
+      "course_code": "CS1433",
+      "course_title": "Distributed Systems",
+      "credit_hours": 3,
+      "course_description": "The main purpose for this course is to introduce students to the distributed systems principles, key challenges, and related technologies.",
+      "course_learning_outcomes": {
+        "knowledge": [
+          {
+            "clo_number": "CLO1.1",
+            "mapped_plos": ["K2"],
+            "clo_statement": "Identify core concepts of distributed systems."
+          },
+          {
+            "clo_number": "CLO1.2",
+            "mapped_plos": ["K1"],
+            "clo_statement": "Distinguish goals and architectures of distributed systems."
+          }
+        ],
+        "skills": [
+          {
+            "clo_number": "CLO2.1",
+            "mapped_plos": ["S2"],
+            "clo_statement": "Implement a demo using trending technologies that support distributed applications (e.g., RPC, REST)."
+          },
+          {
+            "clo_number": "CLO2.2",
+            "mapped_plos": ["S4"],
+            "clo_statement": "Apply knowledge of distributed systems techniques and algorithms."
+          }
+        ],
+        "values": [
+          {
+            "clo_number": "CLO3.1",
+            "mapped_plos": ["V1"],
+            "clo_statement": "Self-learn a use case of emerging distributed systems."
+          }
+        ]
+      }
+    },
+
+    {
+      "course_code": "CS1434",
+      "course_title": "Fundamentals of Internet of Things (IoT)",
+      "credit_hours": 3,
+      "course_description": "This course introduces the fundamentals of the Internet of Things (IoT), including its architecture, protocols, and applications. Students will gain theoretical knowledge and practical skills to design, develop, and deploy IoT solutions using sensors, microcontrollers, and communication technologies.",
+      "course_learning_outcomes": {
+        "knowledge": [
+          {
+            "clo_number": "CLO1.1",
+            "mapped_plos": ["K1", "K2"],
+            "clo_statement": "Describe and discuss the terms, application of IoT and the evolution of cloud computing."
+          },
+          {
+            "clo_number": "CLO1.2",
+            "mapped_plos": ["K1", "K2"],
+            "clo_statement": "Identify appropriate components of IoT ( sensors, actuators, and controllers)."
+          },
+          {
+            "clo_number": "CLO1.3",
+            "mapped_plos": ["K1", "K2"],
+            "clo_statement": "Discriminate between different communication protocols used with IoT."
+          }
+        ],
+        "skills": [
+          {
+            "clo_number": "CLO2.1",
+            "mapped_plos": ["S2", "S3"],
+            "clo_statement": "Evaluate the security and privacy in IoT."
+          },
+          {
+            "clo_number": "CLO2.2",
+            "mapped_plos": ["S3", "S4"],
+            "clo_statement": "Prepare research reports that imply some emergent topics about future trends in computing."
+          },
+          {
+            "clo_number": "CLO2.3",
+            "mapped_plos": ["S4"],
+            "clo_statement": "Design IoT systems including hardware and software."
+          }
+        ],
+        "values": []
+      }
+    },
+
+    {
+      "course_code": "CS1439",
+      "course_title": "Selected Topics in Cyber Security and Networks",
+      "credit_hours": 3,
+      "course_description": "The course covers selected topics in the field of cybersecurity and computer networks. The course content will be continuously improved to reflect recent advances in the field of study and provide students with highly demanded relevant skills and knowledge required for industry and labor market.",
+      "course_learning_outcomes": {
+        "knowledge": [
+          {
+            "clo_number": "CLO1.1",
+            "mapped_plos": ["K1"],
+            "clo_statement": "Describe recent trends in the field of cybersecurity and computer networks."
+          },
+          {
+            "clo_number": "CLO1.2",
+            "mapped_plos": ["K3"],
+            "clo_statement": "Recognize the current cybersecurity threats and potential impacts on individuals, organizations, and society."
+          }
+        ],
+        "skills": [
+          {
+            "clo_number": "CLO2.1",
+            "mapped_plos": ["S3"],
+            "clo_statement": "Apply state-of-the-art tools related to cybersecurity and computer networks."
+          },
+          {
+            "clo_number": "CLO2.2",
+            "mapped_plos": ["S4"],
+            "clo_statement": "Use latest technologies in the field of computer networks and cybersecurity."
+          },
+          {
+            "clo_number": "CLO2.3",
+            "mapped_plos": ["S4"],
+            "clo_statement": "Develop effective solutions using acquired skills related to cybersecurity and networks."
+          }
+        ],
+        "values": [
+          {
+            "clo_number": "CLO3.1",
+            "mapped_plos": ["V1"],
+            "clo_statement": "Work effectively in a team to solve problems related to cybersecurity and computer networks."
+          }
+        ]
+      }
+    },
+
+    {
+      "course_code": "CS1445",
+      "course_title": "Web Application Development",
+      "credit_hours": 3,
+      "course_description": "This course explains to students Internet concepts, technologies, and tools and introduces their usage for creating websites and developing web applications.",
+      "course_learning_outcomes": {
+        "knowledge": [
+          {
+            "clo_number": "CLO1.1",
+            "mapped_plos": ["K1"],
+            "clo_statement": "Understand the typical components of the client server application paradigm."
+          },
+          {
+            "clo_number": "CLO1.2",
+            "mapped_plos": ["K1"],
+            "clo_statement": "Describe usage of tools and languages for web page design, client side scripting, server side scripting, and data exchange."
+          }
+        ],
+        "skills": [
+          {
+            "clo_number": "CLO2.1",
+            "mapped_plos": ["S2", "S3"],
+            "clo_statement": "Design web pages for a specific application based on standard guidelines."
+          },
+          {
+            "clo_number": "CLO2.2",
+            "mapped_plos": ["S2", "S3"],
+            "clo_statement": "Develop web applications for specific usage based on software requirements analysis."
+          },
+          {
+            "clo_number": "CLO2.3",
+            "mapped_plos": ["S2", "S3"],
+            "clo_statement": "Clearly communicate ideas and solutions of programming problems to others."
+          },
+          {
+            "clo_number": "CLO2.4",
+            "mapped_plos": ["S2", "S3"],
+            "clo_statement": "Use word processing tools to prepare software documentation and reports."
+          },
+          {
+            "clo_number": "CLO2.5",
+            "mapped_plos": ["S2", "S3"],
+            "clo_statement": "Write software documentation effectively within a case study project."
+          }
+        ],
+        "values": [
+          {
+            "clo_number": "CLO3.1",
+            "mapped_plos": ["V2"],
+            "clo_statement": "Work effectively in teams to develop web-based solutions."
+          }
+        ]
+      }
+    },
+
+    {
+      "course_code": "CS1446",
+      "course_title": "Mobile Application Development",
+      "credit_hours": 3,
+      "course_description": "This course introduces mobile software development for students who have Java programming skills. Students will learn to build mobile apps for phones and tablets using the Android Java SDK. Students will explore the emerging mobile ecosystem, location-aware software, and advanced programming topics including threads, sensors, APIs and databases.",
+      "course_learning_outcomes": {
+        "knowledge": [
+          {
+            "clo_number": "CLO1.1",
+            "mapped_plos": ["K1"],
+            "clo_statement": "Describe the evolution of modern mobile operating platforms and their operating systems."
+          }
+        ],
+        "skills": [
+          {
+            "clo_number": "CLO2.1",
+            "mapped_plos": ["S4"],
+            "clo_statement": "Creating and applying mobile applications that use a graphical user interface, event handling, persistent data storage, media processing, and communicating through the communication interfaces available on mobile devices"
+          },
+          {
+            "clo_number": "CLO2.2",
+            "mapped_plos": ["S2"],
+            "clo_statement": "Develop Android apps using the right programming techniques."
+          }
+        ],
+        "values": [
+          {
+            "clo_number": "CLO3.1",
+            "mapped_plos": ["V2"],
+            "clo_statement": "Collaborate and work in a group on the specification and implementation of mobile applications, taking on different roles in the team on the course topics."
+          }
+        ]
+      }
+    },
+
+    {
+      "course_code": "CS1447",
+      "course_title": "Game Application Development",
+      "credit_hours": 3,
+      "course_description": "This course teaches students effective and structured procedures used to design and develop game software. It provides students with the foundation in game design and development necessary for use in the workforce or for further study in the field of game development and creation.",
+      "course_learning_outcomes": {
+        "knowledge": [
+          {
+            "clo_number": "CLO1.1",
+            "mapped_plos": ["K1"],
+            "clo_statement": "Describe the history and evolution of video and computer games and game genres"
+          }
+        ],
+        "skills": [
+          {
+            "clo_number": "CLO2.1",
+            "mapped_plos": ["S4"],
+            "clo_statement": "Develop Action Games"
+          },
+          {
+            "clo_number": "CLO2.2",
+            "mapped_plos": ["S2"],
+            "clo_statement": "Evaluate the Level Design in Game Programming"
+          },
+          {
+            "clo_number": "CLO2.3",
+            "mapped_plos": ["S2"],
+            "clo_statement": "Use a programming language and game platforms to Code Game Programs"
+          }
+        ],
+        "values": [
+          {
+            "clo_number": "CLO3.1",
+            "mapped_plos": ["V2"],
+            "clo_statement": "Collaborate and work in a group on the specification and implementation of games applications, taking on different roles in the team on the course topics."
+          }
+        ]
+      }
+    },
+
+    {
+      "course_code": "CS1448",
+      "course_title": "Selected Topics in Platform based Application Development",
+      "credit_hours": 3,
+      "course_description": "The course presents essential and advanced knowledge relating to Platform based Application Development. Students will have the ability to work on research related topics and understand the latest trends in industry. They will also work on improving current solutions to problems in both academia and industry. This course is a research-based course. The topics and papers are reviewed, determined, and finalized before the beginning of each semester.",
+      "course_learning_outcomes": {
+        "knowledge": [
+          {
+            "clo_number": "CLO1.1",
+            "mapped_plos": ["K1"],
+            "clo_statement": "Describe recent trends in research and industry for Platform based Application Development"},
+            {
+             "clo_number": "CLO1.2",
+             "mapped_plos": ["K2"],
+             "clo_statement": "Define the different approaches to develop applications"
+            },
+            {
+              "clo_number": "CLO1.3",
+              "mapped_plos": ["K3"],
+              "clo_statement": "Recall application development requirements using standards and best practices"
+            }
+        ],
+        "skills": [
+          {
+            "clo_number": "CLO2.1",
+            "mapped_plos": ["S1"],
+            "clo_statement": "Use recent techniques for developing a platform-based application"
+          }
+        ],
+        "values": [
+          {
+          "clo_number": "CLO3.1",
+          "mapped_plos": ["V1"],
+          "clo_statement": "Work effectively in a team to solve problem related to the field of platform-based application development"
+          }
+        ]
+      }
+    },
+    {
+      "course_code": "CS1476",
+      "course_title": "Digital Forensics​",
+      "credit_hours": 3,
+      "course_description": "Digital forensics is the process of collecting, analyzing, and preserving electronic data to investigate and solve crimes involving digital devices or networks. This course provides a broad introduction to the digital forensics profession, the investigator’s office and laboratory, data acquisition, Windows forensics, Linux forensics, processing crime and incident scenes, recovering graphics files, cloud forensics, digital forensics analysis and validation, E-mail and social media investigations, mobile device forensics and the internet of anything, virtual machine forensics, network forensics, current digital forensics tools, report writing for high-tech investigations, expert testimony in digital investigations and ethics for the expert witness.",
+      "course_learning_outcomes": {
+        "knowledge": [
+          {
+            "clo_number": "CLO1.1",
+            "mapped_plos": ["K1"],
+            "clo_statement": "Recognize the concepts and theory of digital forensics."
+          },
+          {
+            "clo_number": "CLO1.2",
+            "mapped_plos": ["K2"],
+            "clo_statement": "Identify different techniques and tools of digital forensics."
+          }
+        ],
+        "skills": [
+          {
+            "clo_number": "CLO2.1",
+            "mapped_plos": ["S1"],
+            "clo_statement": "Apply digital forensics methods."
+          },
+          {
+            "clo_number": "CLO2.2",
+            "mapped_plos": ["S2"],
+            "clo_statement": "Utilize various digital forensics tools."
+          }
+        ],
+        "values": [
+          {
+            "clo_number": "CLO3.1",
+            "mapped_plos": ["V1"],
+            "clo_statement": "Work effectively on teams to accomplish a common goal."
+          },
+          {
+            "clo_number": "CLO3.2",
+            "mapped_plos": ["V3"],
+            "clo_statement": "Realize professional, ethical, legal, security and social issues and responsibilities."
+          }
+        ]
+      }
+    },
+    {
+      "course_code": "CS1475",
+      "course_title": "​ٍSoftware Security",
+      "credit_hours": 3,
+      "course_description": "The course details secure programming techniques to defend against software vulnerabilities such as buffer overflow and code injection. It also covers how to avoid mistakes and pitfalls when using cryptographic libraries. The course also explores secure software development through the use of secure design, secure coding, program analysis, and advanced testing.",
+      "course_learning_outcomes": {
+        "knowledge": [
+          {
+            "clo_number": "CLO1.1",
+            "mapped_plos": ["K2"],
+            "clo_statement": "Describe an advanced secure software development framework and its applications for real world software design."
+          },
+          {
+            "clo_number": "CLO1.2",
+            "mapped_plos": ["K1"],
+            "clo_statement": "Comprehend advanced software security vulnerabilities and how to defend against them."
+          }
+        ],
+        "skills": [
+          {
+            "clo_number": "CLO2.1",
+            "mapped_plos": ["S4"],
+            "clo_statement": "Apply secure software development processes to real world software development."
+          },
+          {
+            "clo_number": "CLO2.2",
+            "mapped_plos": ["S2"],
+            "clo_statement": "Implement security vulnerabilities, and their associated countermeasures."
+          },
+          {
+            "clo_number": "CLO2.3",
+            "mapped_plos": ["S4"],
+            "clo_statement": "Utilize various tools to help secure code."
+          }
+
+        ],
+        "values": [
+          
+        ]
+      }
+    },
+    {
+      "course_code": "CS1474",
+      "course_title": "​Network Security​",
+      "credit_hours": 3,
+      "course_description": "Network security is an important course to secure network protocols and its application. With the growth of network cyber-attacks students has to grasp concepts and sharpen their skills to apply practices of securing network applications.",
+      "course_learning_outcomes": {
+        "knowledge": [
+          {
+            "clo_number": "CLO1.1",
+            "mapped_plos": ["K1"],
+            "clo_statement": "Describe virtues and limitations of security technologies at each layer of the network stack."
+          },
+          {
+            "clo_number": "CLO1.2",
+            "mapped_plos": ["K2"],
+            "clo_statement": "Discuss how cyberattacks can be identified and mitigated in different medium such as Wireless, and web attacks."
+          },
+          {
+            "clo_number": "CLO1.3",
+            "mapped_plos": ["K1"],
+            "clo_statement": "Explain how public key infrastructure supports digital signing and encryption and discuss the imitations/vulnerabilities."
+          }
+        ],
+        "skills": [
+          {
+            "clo_number": "CLO2.1",
+            "mapped_plos": ["S3"],
+            "clo_statement": "Evaluate the cost and tradeoffs associated with designing security protocols."
+          },
+          {
+            "clo_number": "CLO2.2",
+            "mapped_plos": ["S2"],
+            "clo_statement": "Analyze and detect system and network vulnerabilities."
+          },
+          {
+            "clo_number": "CLO2.3",
+            "mapped_plos": ["S4"],
+            "clo_statement": "Develop effective solutions using acquired skills related to network security."
+          }
+        ],
+        "values": [
+          {
+            "clo_number": "CLO3.1",
+            "mapped_plos": ["V1"],
+            "clo_statement": "Work effectively in a team to solve particular problem related to the field of network security."
+          }
+        ]
+      }
+    },
+    {
+      "course_code": "CS1471",
+      "course_title": "​Advanced Databases​",
+      "credit_hours": 3,
+      "course_description": "This course covers the fundamental of advanced database management systems that are essential to handle massive amount of data. The course focus on topic related to storing, accessing, and querying persistent large data. It covers in depth the use of indexes to answer efficiently queries over stored data, and data information retrieval.",
+      "course_learning_outcomes": {
+        "knowledge": [
+          {
+            "clo_number": "CLO1.1",
+            "mapped_plos": ["K2"],
+            "clo_statement": "Outline the main benefits of and actors in a database system."
+          },
+          {
+            "clo_number": "CLO1.2",
+            "mapped_plos": ["K1"],
+            "clo_statement": "Recognize the components of a conceptual model namely the ER model."
+          },
+          {
+            "clo_number": "CLO1.3",
+            "mapped_plos": ["K2"],
+            "clo_statement": "Recall the syntax of the main SQL statements."
+          }
+        ],
+        "skills": [
+          {
+            "clo_number": "CLO2.1",
+            "mapped_plos": ["S4"],
+            "clo_statement": "Design the ER model from a description."
+          },
+          {
+            "clo_number": "CLO2.2",
+            "mapped_plos": ["S2"],
+            "clo_statement": "Create a relational model out of an ER model."
+          },
+          {
+            "clo_number": "CLO2.3",
+            "mapped_plos": ["S5"],
+            "clo_statement": "Develop a database implementation using the SQL."
+          }
+        ],
+        "values": [
+          {
+            "clo_number": "CLO3.1",
+            "mapped_plos": ["V1"],
+            "clo_statement": "Work effectively on teams to accomplish a common goal."
+          }
+        ]
+      }
+    },
+    {
+      "course_code": "CS1466",
+      "course_title": "​​Selected Topics in Artificial Intelligence​",
+      "credit_hours": 3,
+      "course_description": "This undergraduate level course introduces latest trends in industry related to the field of Artificial Intelligence (AI). The course has a mix of traditional lectures and papers/notices study about recent developments if the AI fields. The students will learn recent development of topics in a select field of AI Professors responsible for teaching this course will continuously update its content according to recent trends in AI and the research interest of the AI research team in the department.",
+      "course_learning_outcomes": {
+        "knowledge": [
+          {
+            "clo_number": "CLO1.1",
+            "mapped_plos": ["K1"],
+            "clo_statement": "Understand a recent selected topic of Artificial Intelligence tools, concepts, algorithms, strategies, and technologies."
+          },
+          {
+            "clo_number": "CLO1.2",
+            "mapped_plos": ["K3"],
+            "clo_statement": "Recognize recent trends of industry in the field of Artificial Intelligence."
+          }
+        ],
+        "skills": [
+          {
+            "clo_number": "CLO2.1",
+            "mapped_plos": ["S2"],
+            "clo_statement": "Formulate AI problems of the selected topic and design an intelligent system to solve them."
+          },
+          {
+            "clo_number": "CLO2.2",
+            "mapped_plos": ["S2"],
+            "clo_statement": "Study recent developments related to Artificial Intelligence to find out their objectives as well as academic and industrial applications."
+          }
+        ],
+        "values": [
+          {
+            "clo_number": "CLO3.1",
+            "mapped_plos": ["V1"],
+            "clo_statement": "Work effectively in a team to solve particular problem related to the fields of AI."
+          }
+        ]
+      }
+    },
+    {
+      "course_code": "CS1465",
+      "course_title": "Neural Networks and Deep Learning​​",
+      "credit_hours": 3,
+      "course_description": "The aim of this course is to introduce concepts of Deep Learning and its role in Artificial Intelligence. It covers the underlying concepts in machine learning. The course addresses the regularization and optimization of Deep Neural Networks (DNNs). The course also covers the anatomy of several DNN architectures and their applications, such as Convolutional Neural Networks, Sequence to Sequence Models, Attention Models, Autoencoders, Variational Autoencoders, and Deep Boltzmann Machines.",
+      "course_learning_outcomes": {
+        "knowledge": [
+          {
+            "clo_number": "CLO1.1",
+            "mapped_plos": ["K1"],
+            "clo_statement": "Describe concepts of DNNs and their related background."
+          },
+          {
+            "clo_number": "CLO1.2",
+            "mapped_plos": ["K2"],
+            "clo_statement": "Identify approaches for regularization and optimization."
+          },
+          {
+            "clo_number": "CLO1.3",
+            "mapped_plos": ["K3"],
+            "clo_statement": "Explain the anatomy of different DNN architectures."
+          }
+        ],
+        "skills": [
+          {
+            "clo_number": "CLO2.1",
+            "mapped_plos": ["S1"],
+            "clo_statement": "Design appropriate DNN architectures for different tasks."
+          },
+          {
+            "clo_number": "CLO2.2",
+            "mapped_plos": ["S2"],
+            "clo_statement": "Develop, train and test DNNs to tackle specific problems."
+          }
+        ],
+        "values": [
+          {
+            "clo_number": "CLO3.1",
+            "mapped_plos": ["V1","V2"],
+            "clo_statement": "Work effectively in teams to design and implement a Deep Neural Network to solve a practical problem."
+          }
+        ]
+      }
+    },
+    {
+      "course_code": "CS1464",
+      "course_title": "Digital Image Processing​​​",
+      "credit_hours": 3,
+      "course_description": "This course is an elective and provides an in-depth introduction to digital image processing and computer vision, equipping students with foundational skills and concepts crucial for analyzing and interpreting visual data. Topics include digital image modeling and representation, covering processes such as image formation, scanning, digitization, sampling, and quantization. Students will explore various morphological operations like erosion and dilation, as well as image enhancement techniques, including intensity transformations, spatial filtering, and filtering in the spatial and frequency domain. Feature extraction is another major focus, teaching methods for detecting and analyzing image features like edges and corners, which are essential for further analysis. Additionally, students will gain skills in describing and matching features, which play a significant role in recognizing patterns and objects within images. The course also covers image segmentation and object recognition techniques, foundational for dividing images into meaningful segments and identifying objects in complex scenes. By the end of the course, students will have a strong grasp of image processing techniques for real-world applications in computer vision.",
+      "course_learning_outcomes": {
+        "knowledge": [
+          {
+            "clo_number": "CLO1.1",
+            "mapped_plos": ["K1"],
+            "clo_statement": "Show a wide knowledge of fundamental image processing and image analysis techniques and concepts (linear and non-linear filtering, morphological operators, de-noising, edge detection, compression, shape metrics and feature based recognition)."
+          }
+        ],
+        "skills": [
+          {
+            "clo_number": "CLO2.1",
+            "mapped_plos": ["S1"],
+            "clo_statement": "Analyze, demonstrate, and apply their expertise by examining image processing issues and identifying and implementing appropriate solutions."
+          },
+          {
+            "clo_number": "CLO2.2",
+            "mapped_plos": ["S2"],
+            "clo_statement": "Students will design and implement realistic solutions to a variety of typical image processing challenges and evaluate the results of their solutions, including defects, critically."
+          }
+        ],
+        "values": [
+          {
+            "clo_number": "CLO3.1",
+            "mapped_plos": ["V2"],
+            "clo_statement": "Work in a team to effectively and efficiently solve problems."
+          }
+        ]
+      }
+    },
+    {
+      "course_code": "CS1463",
+      "course_title": "Optimization and Metaheuristics​​",
+      "credit_hours": 3,
+      "course_description": "This course presents an overview of the main metaheuristics used to solve hard optimization problem. Many real-life applications in several disciplines such as engineering, operational research, bioinformatics, robotics, etc. involve hard optimization problems. This course aims to introduce the fundamentals of metaheuristic optimization, as well as some popular metaheuristic algorithms, such as genetic algorithms, simulated annealing, tabu search and others.",
+      "course_learning_outcomes": {
+        "knowledge": [
+          {
+            "clo_number": "CLO1.1",
+            "mapped_plos": ["K1"],
+            "clo_statement": "Recognize the concepts and theory of optimization and metaheuristics."
+          },
+          {
+            "clo_number": "CLO1.2",
+            "mapped_plos": ["K2"],
+            "clo_statement": "Identify different techniques and tools of optimization and metaheuristics."
+          }
+        ],
+        "skills": [
+          {
+            "clo_number": "CLO2.1",
+            "mapped_plos": ["S1"],
+            "clo_statement": "Design metaheuristic algorithm for a specific optimization problem."
+          },
+          {
+            "clo_number": "CLO2.2",
+            "mapped_plos": ["S2"],
+            "clo_statement": "Critically analyze the performance of metaheuristics."
+          },
+          {
+            "clo_number": "CLO2.3",
+            "mapped_plos": ["S4"],
+            "clo_statement": "Apply metaheuristics in solve an optimization problem."
+          }
+        ],
+        "values": [
+          {
+            "clo_number": "CLO3.1",
+            "mapped_plos": ["V1"],
+            "clo_statement": "Work effectively on teams to accomplish a common goal."
+          }
+        ]
+      }
+    },
+    {
+      "course_code": "CS1462",
+      "course_title": " ​Natural Language Processing​​​",
+      "credit_hours": 3,
+      "course_description": "This course introduces the basic concepts of Natural Language Processing (NLP) including the NLP levels (i.e., morphological, lexical, syntactic, and semantic analysis levels) and the techniques and methods for addressing each one of these four levels. Examples include the methods for POS text tokenization and segmentation, POS tagging, syntactic parsing, and disambiguation. The course covers various topics of language modelling as an approach to utilize pre-trained language models for many other downstream tasks such as Information Extraction, Dialog, and text generation systems, and relating these concepts to other CS fields such as Machine & Deep Learning and AI.  In addition, the course offers practical application of those concepts through assignments and projects.",
+      "course_learning_outcomes": {
+        "knowledge": [
+          {
+            "clo_number": "CLO1.1",
+            "mapped_plos": ["K1"],
+            "clo_statement": "Describe fundamental concepts and tasks of natural language processing."
+          },
+          {
+            "clo_number": "CLO1.2",
+            "mapped_plos": ["K2"],
+            "clo_statement": "Understand the NLP processing pipeline at  morphological, lexical, syntactic, semantic analysis level."
+          }
+        ],
+        "skills": [
+          {
+            "clo_number": "CLO2.1",
+            "mapped_plos": ["S1"],
+            "clo_statement": "Analyze natural language related problems using NLP algorithms and techniques."
+          },
+          {
+            "clo_number": "CLO2.2",
+            "mapped_plos": ["S4"],
+            "clo_statement": "Develop NLP-based systems to meet the goals of a natural language task."
+          },
+          {
+            "clo_number": "CLO2.3",
+            "mapped_plos": ["S2"],
+            "clo_statement": "Evaluate performance of different NLP-based systems."
+          }
+        ],
+        "values": [
+          {
+            "clo_number": "CLO3.1",
+            "mapped_plos": ["V2"],
+            "clo_statement": "Work effectively in teams to design and implement a program to solve an NLP task."
+          }
+        ]
+      }
+    }
+  ]
+}

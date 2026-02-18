@@ -1,0 +1,50 @@
+{
+    "id": "F09-42-20",
+    "title": "Finding Deleted Regions in Human DNA",
+    "supervisor_name": " Eman AbdulHamid Alzaid",
+    "supervisor_id": "EAza",
+    "academic_year": "1442",
+    "semester": "20",
+    "abstract": "Deleted regions in the human DNA are responsible for serious diseases, for that reason, it is important to find these regions accurately. Unfortunately, there is no software yet easy to use by end-user because all available tools are with a command-line interface only. The aim of this project is to develop a software with a friendly graphical user interface to interact with it easily, the system should also allow the user to view the details of the deleted regions. The proposed software will analyze the Next-generation sequencing dataset to find missing regions in the human DNA. The deep learning techniques will be used to improve the accuracy of finding deleted regions.",
+    "keywords": [
+        "Human DNA Analysis",
+        "Deleted Regions Detection",
+        "Next-Generation Sequencing (NGS)",
+        "Deep Learning",
+        "Bioinformatics Software",
+        "Graphical User Interface (GUI)",
+        "Genomic Data Analysis"
+    ],
+    "introduction": {
+        "problem": "Within a DNA sequence numerous different types of variations can happen due to radiation, chemicals or broken protein that fails to insert nucleotide bases which cause loss of the DNA sequence. Variations in human genome are classified into Single Nucleotide Polymorphisms (SNP) and Structural Variations (SVs). The SNP is a result from the substitutions of one nucleotide base for another. Structural variations are genomic rearrangements that affect at least 50 base pairs of DNA sequence. Structural variation have several forms including deletions, insertions, inversions and duplications. The importance of finding variations in human DNA lies on detects severe hereditary diseases like Huntington disease, Cystic fibrosis, Hemophilia, Sickle cell disease, Thalassemia and Duchenne muscular dystrophy. Due to the importance of finding variations it become an active research area that leads to develop some applications like BreaKmer, BreakSeek, MultiBreak-SV and CREST. It is important to detect the deletions since remove important genes are responsible for human disorders for example; DiGeorge syndrome is associated with a large 3 Mb deletion on human chromosome 22. Since regular users cannot operate with available applications, so, the primary motivation of our project is designing an application with friendly user interface used to detect these regions that helps study some diseases.",
+        "aim": "The core aim of this project is building a software does not require specialist user in computer, to find deleted regions in human DNA since it may leads to serious defect",
+        "objectives": [
+      "Develop and design an application to find missing regions in DNA with a user-friendly Graphical User Interface (GUI) that is easy to use by end users.",
+      "Validate the software to ensure its efficiency."
+    ]
+  },
+    "conclusion": {
+        "results": "To test our classifier we used 36107 images, 24 of them where actually deletion and the result of the classifier became as: TP= 1 , FP= 0 , FN= 23 and TN= 36083. Depending on these results the Accuracy, Sensitivity and Specificity of classifier was computed and it became like Accuracy 99%, Sensitivity 4% and Specificity 100%. Classifier performance gave poor results in identifying actual deletion, but gave better performance in identifying regions without deletion which led to high accuracy.",
+        "future_work": "we plan to support more references genome, also, DeepFinder application to have its own database for genes and diseases, finally, we are looking for improving model’s accuracy since it is an important factor to the application."
+    },
+    "classification": {
+        "application": [
+            "Healthcare / Medical"
+        ],
+        "interest": [
+            "Artificial Intelligence / Machine Learning",
+            "Bioinformatics",
+            "Data Science"
+        ],
+        "acm": [
+            "I.2.6",
+            "I.5.4",
+            "J.3",
+            "I.4.9",
+            "H.2.8"
+        ],
+        "rdia": [
+            "Health & Wellness"
+        ]
+    }
+}

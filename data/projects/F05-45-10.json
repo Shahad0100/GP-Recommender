@@ -1,0 +1,66 @@
+{
+    "id": "F05-45-10",
+    "title": "Visualize: A Software Tool for Visualizing the Impact of Climate Change on Cities",
+    "supervisor_name": "Waad Mohammed Alhoshan, Tasniem Nasser Alyahya",
+    "supervisor_id": "WMho, TNya",
+    "academic_year": "1445",
+    "semester": "10",
+    "abstract": "Climate change is the most common issue facing our planet today, but public awareness and understanding of this issue remain limited for several reasons. The complexity of the topic itself makes it difficult for communities to understand. The media plays an important role in spreading awareness of climate change, but media coverage is often sporadic and contentious, which reduces the coverage of the impacts of climate change and potential solutions. Economic factors also influence public awareness of climate change. There may be powerful economic interests that depend on industries contributing to carbon emissions, leading to resistance to adopting policies aimed at reducing those emissions. This report aims to design and implement a software tool called \"visualize\" that employs techniques from Artificial Intelligence (AI), Deep Learning (DL), and Image Processing, to depict the impact of climate change on cities. By making the consequences of climate change more tangible. Hopefully, this tool will increase public awareness and promote understanding of climate change. Current approaches to awareness of climate change impacts are often complex and technical, making them difficult to access and understand for the public. Additionally, these approaches often focus on global or regional scales, which can make it difficult for people to see the impact of climate change on their own communities. This project addresses these gaps through the tool, which will be able to generate visualizations of climate change for their cities, allowing users to see how their own community will be affected by climate change. This can help to raise awareness and promote understanding of climate change and empower people to take action to reduce their carbon emissions and protect their communities through the use of \"visualize\" developed by using Cycle-GAN and AI bot. We trained the model using Cycle-GAN by dividing the dataset into 80% training and 20% testing. Also, we utilized the DeepAI bot to offer a new perspective of image generating approach. The tool has the potential to increase public understanding of climate change's effects on cities, motivating individuals to act towards addressing this global issue",
+    "keywords": [
+        "Climate Change Visualization",
+        "Artificial Intelligence (AI)",
+        "Deep Learning",
+        "Cycle-Consistent Generative Adversarial Network (Cycle-GAN)",
+        "Image Processing",
+        "Computer Vision",
+        "Public Awareness",
+        "Environmental Education",
+        "Urban Impact",
+        "Sandstorm Visualization",
+        "AI Bot",
+        "DeepAI",
+        "Climate Communication",
+        "Global Warming",
+        "Sustainable Communities",
+        "Image Generation"
+    ],
+    "introduction": {
+        "problem": "One of the most serious issues affecting our planet right now is climate change. Its effects are already being felt in many parts of the world, from rising sea levels to more frequent and severe weather events. As individuals and communities, we have a responsibility to take action to mitigate and adapt to these changes. Global warming refers to the Earth's surface temperature increasing over a long time due to human activities that produce more greenhouse gases in the air. The study also suggests that global warming is not only a scientific matter but also a social and economic concern. The effects of global warming, like the rise of sea levels, heat waves, and droughts, will probably have significant social and economic outcomes. Paying attention to environmental issues, particularly climate change, is crucial due to their significant impact on human beings, including health implications. According to the study conducted by the Intergovernmental Panel on Climate Change (IPCC), the global average temperature has already risen by approximately 1 degree celsius compared to pre-industrial levels. If no action is taken, it is projected to reach 1.5 degrees celsius between 2030 and 2052, which is a matter of great concern. The same study also indicates that the sea level has increased by around 15 centimeters since the 19th century and is expected to continue rising, with predictions ranging from 26 to 77 centimeters by 2100. Moreover, the study emphasizes the need for adopting various strategies to address climate change effectively. We need to encourage people to care more about the issue emotionally and understand it better. Even though there is a lot of information available about climate change, many people still find it hard to understand how serious the problem is. Study has shown that images have many properties that help in the exchange of information and can effectively raise awareness of climate change by guiding viewers through vivid and emotionally impactful visuals. Education plays a crucial role in tackling climate change by enhancing people's comprehension of the effects of global warming, raising awareness about climate-related issues, promoting a shift in attitudes and behaviors, and facilitating adaptation to climate change trends. Education empowers individuals to lead sustainable lives in the face of climate change. Proactive awareness of climate change can help communities take proactive measures to mitigate the impact of climate change and adapt to its consequences. While numerous tools exist for visualizing currently, there is no single tool that visualizes all the effects of climate change taking place on Earth",
+        "aim": "In this project, our aim is to design and implement a software tool that utilizes Artificial Intelligence (AI), specifically techniques related to computer vision and image processing, to visualize the potential impact of climate change on cities before any damage occurs. The tool will allow users to observe and understand the potential consequences of climate change on cities",
+        "objectives": [
+  "Dataset collection: Gathering a collection of images depicting the impact of climate change on cities.",
+  "Model training: Developing and training a Cycle-Consistent Generative Adversarial Network (Cycle-GAN) model using the collected dataset to recognize and analyze the climate change-related impacts on cities.",
+  "Model testing and evaluation: Assessing the performance and effectiveness of the trained model by conducting rigorous testing and evaluation procedures.",
+  "User-friendly graphic interface: Creating and designing an intuitive and user-friendly graphical interface that allows users to interact with the model and AI bot, enabling them to input images and obtain visualized results of climate change impacts on cities."
+]
+    },
+    "conclusion": {
+        "results": "To achieve our aims,project successfully accomplished all of our objectives. Firstly, undertook dataset collection by gathering a comprehensive collection of sandstorm images. Secondly, focused on model training, developed and trained a model using the collected dataset. Thirdly, conducted thorough testing and evaluation to assess the performance and effectiveness of the trained model. Lastly, created and designed a user-friendly graphical interface that enables users to input images and obtain visualized results depicting the impacts of climate change on cities. During this project, we faced several difficulties, particularly in assembling the dataset. due to the lack of a comprehensive set of before and after images depicting the effects of climate change. In AI bot, we encountered difficulty in obtaining satisfactory results specifically when attempting to depict the effects of sandstorms caused by climate change in cities.",
+        "future_work": "Looking to the future, there are several potential avenues for future work that can advance and improve our project: • Expanding and improving our dataset. By including a wider range of diverse data, we can enhance the accuracy and reliability of our results. • Explore advanced techniques like object detection, density analysis, and segmentation to enhance the performance of our tool and achieve better outcomes. • The tool should be able to visualize all the effects of climate change around the world. • Create a database that allows the user to save all the images they have tried. • The tool utilized various models and AI bots to provide a more precise outcome. • Allow users to select different models and AI bots to apply to different climate change impacts, ensuring that the outcome satisfies the user. • Enhance our existing tool to establish a connection with climate change satellite datasets and predict images for specific time periods. The tool should retrieve relevant data from the satellite datasets, analyze it, and generate accurate and reliable predictions based on the selected time period. These predictions will help us to better understand the impact of climate change on our environment"
+    },
+    "classification": {
+        "application": [
+            "Sustainability & Environment"
+        ],
+        "interest": [
+            "Artificial Intelligence / Machine Learning",
+            "Computer Vision",
+            "Data Science"
+        ],
+        "acm": [
+            "I.2.6",
+            "I.4.9",
+            "I.3.8",
+            "D.2.0",
+            "I.2.1",
+            "I.2.10",
+            "I.4.0",
+            "H.5.2",
+            "G.4",
+            "I.4.8"
+        ],
+        "rdia": [
+            "Sustainable Environment & Supply of Essential Needs"
+        ]
+    }
+}

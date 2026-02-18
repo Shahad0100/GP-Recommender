@@ -1,0 +1,71 @@
+{
+    "id": "F27-45-20",
+    "title": "Maseer: Advanced Pilgrimage Mapping for Effective Crowd Management during Hajj",
+    "supervisor_name": " Huda AbdulRahman Al-Muzaini ",
+    "supervisor_id": "HAMu",
+    "academic_year": "1445",
+    "semester": "20",
+    "abstract": "Hajj, the fifth pillar of Islam, is one of the most massive gathering events in the world. Every year around 3 million Muslims across the globe visit Makkah to perform Hajj. This project aims to develop a smart system for crowd management during the Hajj pilgrimage, focusing on monitoring the density of pilgrim movement and making informed decisions regarding gate status. The system utilizes Fully Convolutional Neural Network (FCNN) model to provide real-time information to administrators and pilgrims. The objectives of the project include exploring the latest research in crowd management, assessing image processing and object detection techniques, organize the necessary dataset and information, designing a monitoring system for pilgrim density and gate operations, creating a practical navigation map for pilgrims, and testing the implemented system. The methodology involves conducting a comprehensive literature review, comparing different methodologies, and testing the system using the collected dataset. The system caters to administrators by enabling effective control of entry and exit points, analyzing crowd density and movement patterns, and implementing crowd control measures. For pilgrims, the system provides notifications about gate closures. The proposed smart system aims to enhance safety, efficiency, and the overall experience of pilgrims during the Hajj pilgrimage. Notably, we trained the model on three different datasets. The model used in the system demonstrated exceptional performance, achieving 100% accuracy, precision, and F1 score for both training and testing on the Version2 dataset. These outstanding results, obtained after training the model on multiple datasets, reinforce the reliability and effectiveness of the implemented system, setting a strong foundation for its successful integration into crowd management during the Hajj pilgrimage.",
+    "keywords": [
+        "Crowd Management",
+        "Hajj Pilgrimage",
+        "Pilgrim Safety",
+        "Fully Convolutional Neural Network (FCNN)",
+        "Object Detection",
+        "Image Processing",
+        "Real-time Monitoring",
+        "Smart Navigation",
+        "Crowd Density Estimation",
+        "Holy Sites",
+        "Makkah",
+        "Mina",
+        "Arafat",
+        "Gate Management",
+        "Deep Learning",
+        "Computer Vision",
+        "Crowd Counting",
+        "HAJJ Crowd Dataset",
+        "Maseer System",
+        "Umrah Management"
+    ],
+    "introduction": {
+        "problem": "Once pilgrims reach to Makkah, they become bounded by certain religious obligations. They are required to perform a series of Hajj rituals restricted with time and place. There are five spatial zones in Hajj (See Figure 2), which is the pilgrims required to perform Hajj rituals within a week (from 8th to 13th day of Dhu al-Hijjah), These spatial zones are Masjid Al Haram (the Grand Mosque), Mina, Muzdalifah, Arafat, and al-Jamarat. On the first day of Hajj, (8th day of Dhu al-Hijjah), pilgrims wear special clothes called 'Ihram' and go to Mina where they stay for a day. In the next day, the pilgrims head towards the Arafat for a day of prayer, after sunset, pilgrims go to Muzdalifah to stay overnight. The following day (the day of Sacrifice), the pilgrims go to Jamarat al Aqaba, and pelt it with seven pebbles. For the next two days, pilgrims are required to repeat the Rami Al-Jamarat twice. After that, pilgrims have three main tasks left, visiting Masjid Al Haram to perform Tawaf and Sa'y, sacrificing the animal, shaving, or trimming hair. Pilgrims can perform these rituals during the remaining days of the Hajj.  The Hajj is a yearly religious gathering where many people come from all over the world to the holy city of Mecca in Saudi Arabia. Hajj is an example of a massive crowd where most of the pilgrims are attending the event for the first time in their lives. Alazbah & Zafar defined the crowd as 'the group of people gathered in one place, regardless of their language, nationality, sex, or profession'. Ensuring the safety and security of pilgrims is of utmost importance during the Hajj pilgrimage. Managing and controlling large crowds has always been a top priority for authorities, especially during the Hajj season when a substantial number of people gather at holy sites. The Saudi government, through the Ministry of Hajj and Umrah as well as other departments and ministries, plans, implements and monitors the entire Hajj event. The task of effectively controlling and managing these crowds carries a significant responsibility. Therefore, there is a need to use a crowd management system during the Hajj season to save time and effort.  Crowd management systems (CMS) generally aim to provide a proactive step to avoid risks. In the past, people used their physical abilities to manage crowds through visual vision, or the distribution of several observers. Nowadays, crowd management systems are receiving great attention. Related studies categorized crowd management systems into three main approaches: crowd behavior, crowd counting, crowd tracking, and crowd congestion detection (See Figure 3). While all four approaches are essential, the focus in this project toward managing crowds during Hajj season is primarily on crowd counting using deep learning techniques. Crowd counting using deep learning involves training computer vision models on large datasets to accurately estimate the number of individuals in a crowd. These models can analyze images captured by surveillance cameras, and through object detection and segmentation algorithms, count the number of people present. This information is crucial for crowd management as it helps organizers gauge crowd density, identify congested areas, and make informed decisions to ensure the safety and well-being of the pilgrims. This project aims to develop Maseer system, which enables administrators to monitor the density of pilgrim movement and make decisions regarding gate operations to guide pilgrims.",
+        "aim": "This project aims to develop Maseer system, which is enables administrators to monitor the density of pilgrim movement, and make decisions regarding gates operations to guide pilgrims, with the status of the gate shown to the pilgrim based on the new updates, via a smart map shows possible routes to holy sites and identify the locations of public and impor tant facilities to guide pilgrims towards a safe pilgrimage journey, by applying object detection and image processing algorithms.",
+        "objectives": [
+    "1. Explore the latest research in Crowd Management, focusing on Hajj applications, featuring advanced technologies and best practices to enhance pilgrim safety, efficiency, and experience.",
+    "2. Assess state-of-the-art image processing and object detection techniques, highlighting their strengths, weaknesses, and applicability to various scenarios, particularly in the context of Hajj.",
+    "3. Organize, arrange, and collect the dataset and information required for the project, including maps and images.",
+    "4. Design a real-time monitoring system for pilgrim density and gate operations, enabling informed decision-making for safer Hajj experiences.",
+    "5. Create a practical navigation map for pilgrims, displaying up-to-date gate information and guiding them safely throughout their journey.",
+    "6. Test the implemented system using the organized dataset"
+  ]
+ },
+    "conclusion": {
+        "results": "The model was trained on three different datasets for image analysis with the aim of developing a model capable of identifying and classifying important areas in the Holy Mosque. Deep learning techniques were used to train the model on these datasets and evaluate its performance. Each dataset was independently divided into 80% for training and 20% for testing. The first dataset (HAJJ Crowd Dataset) consists of a collection of images covering only the Tawaf area and contains 548 images. This dataset was used to train the model and evaluate its performance. Accuracy, precision, and F1 score were calculated to assess the model's performance on this dataset. The second dataset (version2) was created to broaden the model's scope, covering not only the Tawaf area but also our desired region Mina, and it contains 634 images. The model was trained on this dataset and tested to evaluate its performance in classifying important areas more effectively. Finally, the third dataset (version3) includes the Tawaf and Mina area, in addition to six different areas inside the Grand Mosque. This dataset consists of 1362 images. In the first dataset (HAJJ Crowd Dataset), the accuracy achieved a percentage of 100%, precision was 100%, and the F1 score was 100% in both training and testing. These results are considered high and very good. However, it should be noted that the dataset was small, which makes achieving these optimal results unlikely, and it does not cover our desired region. In the second dataset (version2), the accuracy achieved a percentage of 100%, precision was 100%, and the F1 score was 100% in both training and testing. These results are excellent and very high, surpassing the results of the first dataset, and it includes our desired region. As for the third dataset (version3), in training, the accuracy achieved a percentage of 97%, precision was 96%, and the F1 score was 96%. In testing, the accuracy achieved a percentage of 92%, precision was 90%, and the F1 score was 90%. These results are good but lower compared to the previous datasets. The drop in performance on Dataset 3 is understandable due to its increased complexity. It signifies a more realistic test of the model's generalization ability. The larger size, additional regions which are 7 regions in Dataset 3 led to a drop in performance. It shows the model is generalizing beyond memorization and tackling real-world complexity. Ultimately, the performance might still be considered good depending on our specific needs such as concerned with covering the largest possible amount of Hajj regions.",
+        "future_work": "In future, Maseer website can be extended and built as a mobile app with more features such as adding other Hajj areas that were not included, providing additional classifications for crowding levels, and providing the shortest route for the pilgrim from h is location to his arrival point, and the arrival time. In addition, more details can be added to the user's main page, such as: daily alerts about rituals, actions for each day of Hajj, and expected times for ease of movement. Finally, the datasets can be expanded to include more real and actual datasets for the Hajj season"
+    },
+    "classification": {
+        "application": [
+            "Government & Public Sector"
+        ],
+        "interest": [
+            "Computer Vision",
+            "Artificial Intelligence / Machine Learning",
+            "Web Development"
+        ],
+        "acm": [
+            "I.2.10",
+            "I.4.9",
+            "I.5.4",
+            "I.2.6",
+            "I.2.1",
+            "J.m",
+            "D.2.0",
+            "G.4",
+            "I.4.8"
+        ],
+        "rdia": [
+            "Economies of the Future"
+        ]
+    }
+}

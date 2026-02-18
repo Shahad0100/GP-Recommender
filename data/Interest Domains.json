@@ -1,0 +1,92 @@
+{
+  "DOMAIN_CATEGORIES": [
+    {
+      "name": "Artificial Intelligence / Machine Learning",
+      "description": "Focuses on building systems that learn from data, make predictions, and perform intelligent tasks without explicit programming."
+    },
+    {
+      "name": "Web Development",
+      "description": "Covers the design and implementation of websites and web applications, including frontend, backend, and full‑stack development."
+    },
+    {
+      "name": "Mobile Development",
+      "description": "Involves creating applications for mobile platforms such as iOS and Android, focusing on performance, UI, and device integration."
+    },
+    {
+      "name": "Cybersecurity",
+      "description": "Deals with protecting systems, networks, and data from attacks, vulnerabilities, and unauthorized access."
+    },
+    {
+      "name": "Internet of Things (IoT)",
+      "description": "Focuses on connecting physical devices to the internet to collect, exchange, and analyze data for automation and smart systems."
+    },
+    {
+      "name": "Data Science",
+      "description": "Involves extracting insights from structured and unstructured data using statistics, machine learning, and analytical techniques."
+    },
+    {
+      "name": "Cloud Computing",
+      "description": "Covers delivering computing services such as storage, servers, and applications over the internet using cloud platforms."
+    },
+    {
+      "name": "Blockchain",
+      "description": "Focuses on decentralized ledger technologies used for secure transactions, smart contracts, and distributed applications."
+    },
+    {
+      "name": "Computer Vision",
+      "description": "Enables machines to interpret and understand visual information from images and videos using AI techniques."
+    },
+    {
+      "name": "Natural Language Processing",
+      "description": "Deals with enabling computers to understand, interpret, and generate human language in text or speech form."
+    },
+    {
+      "name": "Robotics",
+      "description": "Involves designing, building, and programming robots capable of performing autonomous or semi‑autonomous tasks."
+    },
+    {
+      "name": "Game Development",
+      "description": "Covers the creation of video games, including game engines, graphics, physics, storytelling, and interactive design."
+    },
+    {
+      "name": "DevOps",
+      "description": "Combines software development and IT operations to automate deployment, improve reliability, and accelerate delivery cycles."
+    },
+    {
+      "name": "Database Systems",
+      "description": "Focuses on designing, managing, and optimizing databases for efficient data storage, retrieval, and integrity."
+    },
+    {
+      "name": "Network Systems",
+      "description": "Covers the design and management of computer networks, communication protocols, and network infrastructure."
+    },
+    {
+      "name": "Embedded Systems",
+      "description": "Involves programming and designing specialized computing systems integrated into hardware devices."
+    },
+    {
+      "name": "Software Engineering",
+      "description": "Covers systematic approaches to designing, developing, testing, and maintaining high‑quality software systems."
+    },
+    {
+      "name": "Human-Computer Interaction",
+      "description": "Focuses on designing user interfaces and interactive systems that are intuitive, efficient, and user‑friendly."
+    },
+    {
+      "name": "Distributed Systems",
+      "description": "Deals with systems where components run on multiple machines but operate as a single coordinated system."
+    },
+    {
+      "name": "Computer Graphics",
+      "description": "Involves generating and manipulating visual content such as 2D/3D models, animations, and rendering techniques."
+    },
+    {
+      "name": "Bioinformatics",
+      "description": "Applies computational methods to analyze biological data, such as DNA sequences, proteins, and medical datasets."
+    },
+    {
+      "name": "Drones",
+      "description": "Focuses on unmanned aerial systems, including navigation, control algorithms, autonomous flight, and aerial data processing."
+    }
+  ]
+}

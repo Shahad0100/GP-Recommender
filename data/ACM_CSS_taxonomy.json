@@ -1,0 +1,1208 @@
+{
+  "ACM_CSS_taxonomy": [
+    {
+      "name": "Software",
+      "description": "The study, design, development, testing, and maintenance of software systems and programs.",
+      "subcategories": [
+        {
+          "name": "GENERAL",
+          "description": "Encompasses general concepts and frameworks applicable across the software domain.",
+          "id": "D.0"
+        },
+        {
+          "name": "PROGRAMMING TECHNIQUES",
+          "description": "The methods and methodologies used to write, structure, and organize source code.",
+          "subcategories": [
+            {
+              "name": "General",
+              "description": "Basic and non-specific programming techniques.",
+              "id": "D.1.0"
+            },
+            {
+              "name": "Applicative (Functional) Programming",
+              "description": "Programming using functions as first-class entities (e.g., Lisp, Haskell).",
+              "id": "D.1.1"
+            },
+            {
+              "name": "Automatic Programming",
+              "description": "Systems that enable computers to write or modify their own programs.",
+              "id": "D.1.2"
+            },
+            {
+              "name": "Concurrent Programming",
+              "description": "Designing programs to execute multiple tasks simultaneously or in overlapping time periods.",
+              "id": "D.1.3"
+            },
+            {
+              "name": "Sequential Programming",
+              "description": "Designing programs where instructions execute in a single, linear, step-by-step order.",
+              "id": "D.1.4"
+            },
+            {
+              "name": "Object-oriented Programming",
+              "description": "A paradigm based on the concept of 'objects' to structure code and data.",
+              "id": "D.1.5"
+            },
+            {
+              "name": "Logic Programming",
+              "description": "Programming based on formal logic (e.g., Prolog).",
+              "id": "D.1.6"
+            },
+            {
+              "name": "Visual Programming",
+              "description": "Programming using graphical elements rather than textual code (e.g., drag-and-drop interfaces).",
+              "id": "D.1.7"
+            },
+            {
+              "name": "Miscellaneous",
+              "description": "Other programming topics and techniques not specifically listed above.",
+              "id": "D.1.m"
+            }
+          ]
+        },
+        {
+          "name": "SOFTWARE ENGINEERING",
+          "description": "The systematic, disciplined, quantifiable approach to the development, operation, and maintenance of software.",
+          "subcategories": [
+            {
+              "name": "General",
+              "description": "Fundamental concepts and definitions in the field of software engineering.",
+              "id": "D.2.0"
+            },
+            {
+              "name": "Requirements/Specifications",
+              "description": "The processes of identifying, documenting, and analyzing system needs and goals.",
+              "id": "D.2.1"
+            },
+            {
+              "name": "Design Tools and Techniques",
+              "description": "The methods and aids used during the architectural design phase of a system.",
+              "id": "D.2.2"
+            },
+            {
+              "name": "Coding Tools and Techniques",
+              "description": "The tools and practices supporting the implementation (coding) phase.",
+              "id": "D.2.3"
+            },
+            {
+              "name": "Software/Program Verification",
+              "description": "Ensuring that the software product meets its specified requirements.",
+              "id": "D.2.4"
+            },
+            {
+              "name": "Testing and Debugging",
+              "description": "Strategies for discovering and correcting errors and faults in code.",
+              "id": "D.2.5"
+            },
+            {
+              "name": "Programming Environments",
+              "description": "Integrated toolsets and systems that support software development (IDEs).",
+              "id": "D.2.6"
+            },
+            {
+              "name": "Distribution, Maintenance, and Enhancement",
+              "description": "Managing software delivery, bug fixes, updates, and future development after release.",
+              "id": "D.2.7"
+            },
+            {
+              "name": "Metrics",
+              "description": "The measurement of software quality, product characteristics, and development processes.",
+              "id": "D.2.8"
+            },
+            {
+              "name": "Management",
+              "description": "The administration of software projects, resources, and teams.",
+              "id": "D.2.9"
+            },
+            {
+              "name": "Design",
+              "description": "Principles and practices for structuring a software solution.",
+              "id": "D.2.10"
+            },
+            {
+              "name": "Software Architectures",
+              "description": "The fundamental structures and organization patterns of any software system.",
+              "id": "D.2.11"
+            },
+            {
+              "name": "Interoperability",
+              "description": "The ability of different systems or components to work together and exchange information.",
+              "id": "D.2.12"
+            },
+            {
+              "name": "Reusable Software",
+              "description": "Software components designed for re-application across various distinct applications.",
+              "id": "D.2.13"
+            },
+            {
+              "name": "Miscellaneous",
+              "description": "Advanced or miscellaneous topics in software engineering.",
+              "id": "D.2.m"
+            }
+          ]
+        },
+        {
+          "name": "PROGRAMMING LANGUAGES",
+          "description": "The study of programming language design, theory, development, and execution mechanisms.",
+          "subcategories": [
+            {
+              "name": "General",
+              "description": "Concepts and issues applicable to all programming languages.",
+              "id": "D.3.0"
+            },
+            {
+              "name": "Formal Definitions and Theory",
+              "description": "Mathematical and theoretical rules that describe language structure and meaning.",
+              "id": "D.3.1"
+            },
+            {
+              "name": "Language Classifications",
+              "description": "Categorizing languages by their underlying paradigm (e.g., procedural, functional, object-oriented).",
+              "id": "D.3.2"
+            },
+            {
+              "name": "Language Constructs and Features",
+              "description": "The structural elements and functionalities available within a language (e.g., inheritance, loops).",
+              "id": "D.3.3"
+            },
+            {
+              "name": "Processors",
+              "description": "Programs that process source code (e.g., compilers, interpreters, assemblers).",
+              "id": "D.3.4"
+            },
+            {
+              "name": "Miscellaneous",
+              "description": "Other topics related to programming languages.",
+              "id": "D.3.m"
+            }
+          ]
+        },
+        {
+          "name": "OPERATING SYSTEMS",
+          "description": "The systems responsible for managing and controlling computer hardware resources and providing a platform for applications.",
+          "subcategories": [
+            {
+              "name": "General",
+              "description": "The overarching concepts and goals of operating systems.",
+              "id": "D.4.0"
+            },
+            {
+              "name": "Process Management",
+              "description": "The handling of tasks, processes, synchronization, and processor scheduling.",
+              "id": "D.4.1"
+            },
+            {
+              "name": "Storage Management",
+              "description": "The administration of primary memory, virtual memory, and caching.",
+              "id": "D.4.2"
+            },
+            {
+              "name": "File Systems Management",
+              "description": "Organizing, storing, and retrieving data on permanent storage media.",
+              "id": "D.4.3"
+            },
+            {
+              "name": "Communications Management",
+              "description": "Controlling communication and information exchange between processes or systems.",
+              "id": "D.4.4"
+            },
+            {
+              "name": "Reliability",
+              "description": "Ensuring the system's ability to operate without failure for specified time periods.",
+              "id": "D.4.5"
+            },
+            {
+              "name": "Security and Protection",
+              "description": "Mechanisms for access control and safeguarding resources and data.",
+              "id": "D.4.6"
+            },
+            {
+              "name": "Organization and Design",
+              "description": "The architectural structure and internal design of operating systems.",
+              "id": "D.4.7"
+            },
+            {
+              "name": "Performance",
+              "description": "Measuring and optimizing the efficiency and speed of the operating system.",
+              "id": "D.4.8"
+            },
+            {
+              "name": "Systems Programs and Utilities",
+              "description": "Auxiliary programs providing system administration services (e.g., shells, file managers).",
+              "id": "D.4.9"
+            },
+            {
+              "name": "Miscellaneous",
+              "description": "Other diverse topics in operating systems.",
+              "id": "D.4.m"
+            }
+          ]
+        },
+        {
+          "name": "MISCELLANEOUS",
+          "description": "Areas or miscellaneous topics not fully covered in the main Software subcategories.",
+          "id": "D.m"
+        }
+      ]
+    },
+    {
+      "name": "Data",
+      "description": "Classification concerning the organization, encryption, storage, and retrieval of information.",
+      "subcategories": [
+        {
+          "name": "GENERAL",
+          "description": "General concepts and topics related to data.",
+          "id": "E.0"
+        },
+        {
+          "name": "DATA STRUCTURES",
+          "description": "Specific ways of organizing data in a computer (e.g., arrays, lists, trees).",
+          "id": "E.1"
+        },
+        {
+          "name": "DATA STORAGE REPRESENTATIONS",
+          "description": "How data is physically represented on storage media (e.g., sequential or direct access).",
+          "id": "E.2"
+        },
+        {
+          "name": "DATA ENCRYPTION",
+          "description": "The transformation of data into a secret code for security purposes (cryptography).",
+          "id": "E.3"
+        },
+        {
+          "name": "CODING AND INFORMATION THEORY",
+          "description": "Mathematical principles for measuring the efficiency, capacity, and security of data transmission and storage.",
+          "id": "E.4"
+        },
+        {
+          "name": "FILES",
+          "description": "The organization and management of collections of persistently stored data.",
+          "id": "E.5"
+        },
+        {
+          "name": "MISCELLANEOUS",
+          "description": "Other diverse topics in the data domain.",
+          "id": "E.m"
+        }
+      ]
+    },
+    {
+      "name": "Theory of Computation",
+      "description": "The study of the limits, capabilities, and efficiency of computation (what can be computed and how).",
+      "subcategories": [
+        {
+          "name": "GENERAL",
+          "description": "General concepts and goals of the theory of computation.",
+          "id": "F.0"
+        },
+        {
+          "name": "COMPUTATION BY ABSTRACT DEVICES",
+          "description": "Abstract models of computation that define the mechanisms of calculation (e.g., Turing Machines).",
+          "subcategories": [
+            {
+              "name": "General",
+              "description": "General topics for abstract models of computation.",
+              "id": "F.1.0"
+            },
+            {
+              "name": "Models of Computation",
+              "description": "Theoretical systems representing the calculation process (e.g., finite automata).",
+              "id": "F.1.1"
+            },
+            {
+              "name": "Modes of Computation",
+              "description": "Methods of conducting computation (e.g., parallel, sequential, randomized).",
+              "id": "F.1.2"
+            },
+            {
+              "name": "Complexity Measures and Classes",
+              "description": "Categorizing problems by the resources required for their solution (e.g., P and NP).",
+              "id": "F.1.3"
+            },
+            {
+              "name": "Miscellaneous",
+              "description": "Other topics within computation by abstract devices.",
+              "id": "F.1.m"
+            }
+          ]
+        },
+        {
+          "name": "ANALYSIS OF ALGORITHMS AND PROBLEM COMPLEXITY",
+          "description": "Analyzing the efficiency of algorithms in terms of time and space required to solve problems.",
+          "subcategories": [
+            {
+              "name": "General",
+              "description": "General concepts of algorithm analysis.",
+              "id": "F.2.0"
+            },
+            {
+              "name": "Numerical Algorithms and Problems",
+              "description": "Analysis of algorithms related to digital mathematical operations (e.g., solving equations).",
+              "id": "F.2.1"
+            },
+            {
+              "name": "Nonnumerical Algorithms and Problems",
+              "description": "Analysis of non-digital algorithms (e.g., sorting, searching, graph traversal).",
+              "id": "F.2.2"
+            },
+            {
+              "name": "Tradeoffs between Complexity Measures",
+              "description": "The compromises between different complexity metrics (e.g., space vs. time).",
+              "id": "F.2.3"
+            },
+            {
+              "name": "Miscellaneous",
+              "description": "Other topics within the analysis of algorithms and problem complexity.",
+              "id": "F.2.m"
+            }
+          ]
+        },
+        {
+          "name": "LOGICS AND MEANINGS OF PROGRAMS",
+          "description": "The use of formal logic to describe and verify the correctness and integrity of programs.",
+          "subcategories": [
+            {
+              "name": "General",
+              "description": "Fundamental concepts of logic in the programming context.",
+              "id": "F.3.0"
+            },
+            {
+              "name": "Specifying and Verifying and Reasoning about Programs",
+              "description": "Formal methodologies for proving program correctness and behavior.",
+              "id": "F.3.1"
+            },
+            {
+              "name": "Semantics of Programming Languages",
+              "description": "The study of the precise meaning of programming language statements (formal and informal).",
+              "id": "F.3.2"
+            },
+            {
+              "name": "Studies of Program Constructs",
+              "description": "Analysis of the structural elements of programs from a logical standpoint.",
+              "id": "F.3.3"
+            },
+            {
+              "name": "Miscellaneous",
+              "description": "Other topics within logics and meanings of programs.",
+              "id": "F.3.m"
+            }
+          ]
+        },
+        {
+          "name": "MATHEMATICAL LOGIC AND FORMAL LANGUAGES",
+          "description": "The mathematical foundations that study valid inference and languages processable by machines.",
+          "subcategories": [
+            {
+              "name": "General",
+              "description": "Basic concepts in mathematical logic and formal languages.",
+              "id": "F.4.0"
+            },
+            {
+              "name": "Mathematical Logic",
+              "description": "The study of logic as a mathematical tool (e.g., first-order logic).",
+              "id": "F.4.1"
+            },
+            {
+              "name": "Grammars and Other Rewriting Systems",
+              "description": "Formal systems that describe language structure (e.g., Chomsky grammars).",
+              "id": "F.4.2"
+            },
+            {
+              "name": "Formal Languages",
+              "description": "Languages defined by precise syntactic rules (e.g., regular languages, context-free languages).",
+              "id": "F.4.3"
+            },
+            {
+              "name": "Miscellaneous",
+              "description": "Other diverse topics.",
+              "id": "F.4.m"
+            }
+          ]
+        },
+        {
+          "name": "MISCELLANEOUS",
+          "description": "Other diverse topics in the theory of computation.",
+          "id": "F.m"
+        }
+      ]
+    },
+    {
+      "name": "Mathematics of Computing",
+      "description": "Mathematical disciplines considered fundamental to the concepts and applications of computer science.",
+      "subcategories": [
+        {
+          "name": "GENERAL",
+          "description": "General concepts and goals of the mathematics of computing.",
+          "id": "G.0"
+        },
+        {
+          "name": "NUMERICAL ANALYSIS",
+          "description": "The study of algorithms that use numerical approximation to solve continuous mathematical problems.",
+          "subcategories": [
+            {
+              "name": "General",
+              "description": "Fundamental concepts of numerical analysis.",
+              "id": "G.1.0"
+            },
+            {
+              "name": "Interpolation",
+              "description": "Estimating unknown points within the range of known data points.",
+              "id": "G.1.1"
+            },
+            {
+              "name": "Approximation",
+              "description": "Using simpler functions to approximate functions.",
+              "id": "G.1.2"
+            },
+            {
+              "name": "Numerical Linear Algebra",
+              "description": "Numerically solving linear problems (e.g., systems of linear equations, eigenvalues).",
+              "id": "G.1.3"
+            },
+            {
+              "name": "Quadrature and Numerical Differentiation",
+              "description": "Numerically calculating integrals and derivatives.",
+              "id": "G.1.4"
+            },
+            {
+              "name": "Roots of Nonlinear Equations",
+              "description": "Finding solutions to nonlinear equations numerically.",
+              "id": "G.1.5"
+            },
+            {
+              "name": "Optimization",
+              "description": "Techniques for finding the best possible solution to a problem (maxima and minima).",
+              "id": "G.1.6"
+            },
+            {
+              "name": "Ordinary Differential Equations",
+              "description": "Numerically solving ordinary differential equations.",
+              "id": "G.1.7"
+            },
+            {
+              "name": "Partial Differential Equations",
+              "description": "Numerically solving partial differential equations.",
+              "id": "G.1.8"
+            },
+            {
+              "name": "Integral Equations",
+              "description": "Solving equations containing an unknown function under an integral sign.",
+              "id": "G.1.9"
+            },
+            {
+              "name": "Applications",
+              "description": "Real-world uses of numerical analysis techniques.",
+              "id": "G.1.10"
+            },
+            {
+              "name": "Miscellaneous",
+              "description": "Other topics within numerical analysis.",
+              "id": "G.1.m"
+            }
+          ]
+        },
+        {
+          "name": "DISCRETE MATHEMATICS",
+          "description": "The study of countable, distinctly separate mathematical structures, fundamental to algorithms and data structures.",
+          "subcategories": [
+            {
+              "name": "General",
+              "description": "Basic concepts of discrete mathematics.",
+              "id": "G.2.0"
+            },
+            {
+              "name": "Combinatorics",
+              "description": "The study of finite, discrete structures and counting.",
+              "id": "G.2.1"
+            },
+            {
+              "name": "Graph Theory",
+              "description": "The study of graphs, which are mathematical structures used to model pairwise relations between objects.",
+              "id": "G.2.2"
+            },
+            {
+              "name": "Applications",
+              "description": "Real-world uses of discrete mathematics.",
+              "id": "G.2.3"
+            },
+            {
+              "name": "Miscellaneous",
+              "description": "Other topics within discrete mathematics.",
+              "id": "G.2.m"
+            }
+          ]
+        },
+        {
+          "name": "PROBABILITY AND STATISTICS",
+          "description": "The mathematical modeling of uncertainty and the analysis of data to draw inferences.",
+          "id": "G.3"
+        },
+        {
+          "name": "MATHEMATICAL SOFTWARE",
+          "description": "Software tools and packages designed for mathematical computation and modeling.",
+          "id": "G.4"
+        },
+        {
+          "name": "MISCELLANEOUS",
+          "description": "Other topics in the mathematics of computing.",
+          "id": "G.m"
+        }
+      ]
+    },
+    {
+      "name": "Information Systems",
+      "description": "The study of systems for collecting, storing, retrieving, processing, and disseminating information.",
+      "subcategories": [
+        {
+          "name": "GENERAL",
+          "description": "General concepts and topics related to information systems.",
+          "id": "H.0"
+        },
+        {
+          "name": "MODELS AND PRINCIPLES",
+          "description": "The theoretical frameworks and foundational concepts underlying information systems.",
+          "subcategories": [
+            {
+              "name": "General",
+              "description": "General concepts of information system models and principles.",
+              "id": "H.1.0"
+            },
+            {
+              "name": "Systems and Information Theory",
+              "description": "The application of theoretical concepts of information and systems to IS design.",
+              "id": "H.1.1"
+            },
+            {
+              "name": "User/Machine Systems",
+              "description": "The study of interaction between users and information systems.",
+              "id": "H.1.2"
+            },
+            {
+              "name": "Miscellaneous",
+              "description": "Other topics within models and principles.",
+              "id": "H.1.m"
+            }
+          ]
+        },
+        {
+          "name": "DATABASE MANAGEMENT",
+          "description": "The design, implementation, and maintenance of systems for storing and retrieving large volumes of structured data.",
+          "subcategories": [
+            {
+              "name": "General",
+              "description": "Fundamental concepts and definitions in database management.",
+              "id": "H.2.0"
+            },
+            {
+              "name": "Logical Design",
+              "description": "The abstract structure of the database (e.g., relational, object-oriented models).",
+              "id": "H.2.1"
+            },
+            {
+              "name": "Physical Design",
+              "description": "How the database is physically stored on disk and accessed efficiently.",
+              "id": "H.2.2"
+            },
+            {
+              "name": "Languages",
+              "description": "Languages used to interact with the database (e.g., SQL, DDL, DML).",
+              "id": "H.2.3"
+            },
+            {
+              "name": "Systems",
+              "description": "The architecture and functionality of Database Management Systems (DBMSs).",
+              "id": "H.2.4"
+            },
+            {
+              "name": "Heterogeneous Databases",
+              "description": "Systems that integrate multiple distinct and independent databases.",
+              "id": "H.2.5"
+            },
+            {
+              "name": "Database Machines",
+              "description": "Hardware systems optimized specifically for database operations.",
+              "id": "H.2.6"
+            },
+            {
+              "name": "Database Administration",
+              "description": "The operational tasks of managing, securing, and maintaining a database system.",
+              "id": "H.2.7"
+            },
+            {
+              "name": "Database Applications",
+              "description": "Practical uses and systems built on top of database technology.",
+              "id": "H.2.8"
+            },
+            {
+              "name": "Miscellaneous",
+              "description": "Other topics in database management.",
+              "id": "H.2.m"
+            }
+          ]
+        },
+        {
+          "name": "INFORMATION STORAGE AND RETRIEVAL",
+          "description": "The techniques and methods for indexing, searching, and accessing information, especially text and documents.",
+          "subcategories": [
+            {
+              "name": "General",
+              "description": "Core concepts of information storage and retrieval (ISR).",
+              "id": "H.3.0"
+            },
+            {
+              "name": "Content Analysis and Indexing",
+              "description": "Analyzing content to extract terms and create indexes for efficient searching.",
+              "id": "H.3.1"
+            },
+            {
+              "name": "Information Storage",
+              "description": "Methods and architectures for the organization and permanent saving of information.",
+              "id": "H.3.2"
+            },
+            {
+              "name": "Information Search and Retrieval",
+              "description": "Algorithms and strategies for querying and retrieving relevant items from a store.",
+              "id": "H.3.3"
+            },
+            {
+              "name": "Systems and Software",
+              "description": "The platforms and programs that implement ISR functionalities.",
+              "id": "H.3.4"
+            },
+            {
+              "name": "Online Information Services",
+              "description": "Web-based and remote services for accessing information.",
+              "id": "H.3.5"
+            },
+            {
+              "name": "Library Automation",
+              "description": "Using computer systems to manage library operations.",
+              "id": "H.3.6"
+            },
+            {
+              "name": "Digital Libraries",
+              "description": "Organized collections of digital content accessible online.",
+              "id": "H.3.7"
+            },
+            {
+              "name": "Miscellaneous",
+              "description": "Other topics in information storage and retrieval.",
+              "id": "H.3.m"
+            }
+          ]
+        },
+        {
+          "name": "INFORMATION SYSTEMS APPLICATIONS",
+          "description": "The use of information systems principles to solve real-world problems in various organizational settings.",
+          "subcategories": [
+            {
+              "name": "General",
+              "description": "General applications of information systems.",
+              "id": "H.4.0"
+            },
+            {
+              "name": "Office Automation",
+              "description": "Using technology to streamline and automate routine office tasks.",
+              "id": "H.4.1"
+            },
+            {
+              "name": "Types of Systems",
+              "description": "Classification of systems by function (e.g., TPS, MIS, EIS).",
+              "id": "H.4.2"
+            },
+            {
+              "name": "Communications Applications",
+              "description": "IS used for internal and external communication (e.g., email, groupware).",
+              "id": "H.4.3"
+            },
+            {
+              "name": "Miscellaneous",
+              "description": "Other applications of information systems.",
+              "id": "H.4.m"
+            }
+          ]
+        },
+        {
+          "name": "INFORMATION INTERFACES AND PRESENTATION (e.g., HCI)",
+          "description": "The design, evaluation, and study of the interfaces through which users interact with information systems (now often called HCI).",
+          "subcategories": [
+            {
+              "name": "General",
+              "description": "Core concepts of information interfaces and presentation.",
+              "id": "H.5.0"
+            },
+            {
+              "name": "Multimedia Information Systems",
+              "description": "Systems that handle and present information using multiple media formats (audio, video, text).",
+              "id": "H.5.1"
+            },
+            {
+              "name": "User Interfaces",
+              "description": "The design and evaluation of the points of interaction between humans and computers.",
+              "id": "H.5.2"
+            },
+            {
+              "name": "Group and Organization Interfaces",
+              "description": "Interfaces supporting collaborative work and organizational communication (Groupware).",
+              "id": "H.5.3"
+            },
+            {
+              "name": "Hypertext/Hypermedia",
+              "description": "Non-linear organization of information links (e.g., the World Wide Web).",
+              "id": "H.5.4"
+            },
+            {
+              "name": "Sound and Music Computing",
+              "description": "Processing, analysis, and generation of audio and musical data.",
+              "id": "H.5.5"
+            },
+            {
+              "name": "Miscellaneous",
+              "description": "Other topics in interfaces and presentation.",
+              "id": "H.5.6"
+            }
+          ]
+        },
+        {
+          "name": "MISCELLANEOUS",
+          "description": "Other topics in information systems.",
+              "id": "H.m"
+        }
+      ]
+    },
+    {
+      "name": "Computing Methodologies",
+      "description": "The methods and techniques used to solve complex computational problems (often involving non-numerical symbolic processing).",
+      "subcategories": [
+        {
+          "name": "GENERAL",
+          "description": "General concepts and topics related to computing methodologies.",
+          "id": "I.0"
+        },
+        {
+          "name": "SYMBOLIC AND ALGEBRAIC MANIPULATION",
+          "description": "Systems and techniques for manipulating mathematical expressions and symbols rather than numerical values.",
+          "subcategories": [
+            {
+              "name": "General",
+              "description": "Core concepts of symbolic and algebraic manipulation.",
+              "id": "I.1.0"
+            },
+            {
+              "name": "Expressions and Their Representation",
+              "description": "How mathematical formulas and terms are structured and stored.",
+              "id": "I.1.1"
+            },
+            {
+              "name": "Algorithms",
+              "description": "Algorithms for operations like simplification, differentiation, and integration of symbolic expressions.",
+              "id": "I.1.2"
+            },
+            {
+              "name": "Languages and Systems",
+              "description": "Programming languages and software dedicated to symbolic manipulation (e.g., Mathematica, Maple).",
+              "id": "I.1.3"
+            },
+            {
+              "name": "Applications",
+              "description": "Real-world uses of symbolic and algebraic manipulation.",
+              "id": "I.1.4"
+            },
+            {
+              "name": "Miscellaneous",
+              "description": "Other topics in symbolic manipulation.",
+              "id": "I.1.m"
+            }
+          ]
+        },
+        {
+          "name": "ARTIFICIAL INTELLIGENCE",
+          "description": "The theory and development of computer systems able to perform tasks normally requiring human intelligence.",
+          "subcategories": [
+            {
+              "name": "General",
+              "description": "Fundamental concepts and goals of artificial intelligence (AI).",
+              "id": "I.2.0"
+            },
+            {
+              "name": "Applications and Expert Systems",
+              "description": "AI systems designed to solve real-world problems or mimic human experts.",
+              "id": "I.2.1"
+            },
+            {
+              "name": "Automatic Programming",
+              "description": "AI techniques used to generate or modify programs.",
+              "id": "I.2.2"
+            },
+            {
+              "name": "Deduction and Theorem Proving",
+              "description": "Systems that derive logical conclusions from given premises.",
+              "id": "I.2.3"
+            },
+            {
+              "name": "Knowledge Representation Formalisms and Methods",
+              "description": "The structure and rules used to encode information for use by an AI system.",
+              "id": "I.2.4"
+            },
+            {
+              "name": "Programming Languages and Software",
+              "description": "Languages and tools optimized for AI development (e.g., Lisp, Prolog).",
+              "id": "I.2.5"
+            },
+            {
+              "name": "Learning",
+              "description": "Algorithms enabling systems to improve performance based on data or experience (Machine Learning).",
+              "id": "I.2.6"
+            },
+            {
+              "name": "Natural Language Processing",
+              "description": "Systems for understanding, interpreting, and generating human language.",
+              "id": "I.2.7"
+            },
+            {
+              "name": "Problem Solving, Control Methods, and Search",
+              "description": "Algorithms for finding solutions in a search space (e.g., heuristic search, planning).",
+              "id": "I.2.8"
+            },
+            {
+              "name": "Robotics",
+              "description": "The design and control of intelligent, programmable machines.",
+              "id": "I.2.9"
+            },
+            {
+              "name": "Vision and Scene Understanding",
+              "description": "Interpreting visual data to reconstruct a model of the physical world (Computer Vision).",
+              "id": "I.2.10"
+            },
+            {
+              "name": "Distributed Artificial Intelligence",
+              "description": "Cooperative intelligent agents and multi-agent systems.",
+              "id": "I.2.11"
+            },
+            {
+              "name": "Miscellaneous",
+              "description": "Other diverse topics in artificial intelligence.",
+              "id": "I.2.m"
+            }
+          ]
+        },
+        {
+          "name": "COMPUTER GRAPHICS",
+          "description": "The creation, manipulation, and display of visual content using computers.",
+          "subcategories": [
+            {
+              "name": "General",
+              "description": "Fundamental concepts and definitions in computer graphics.",
+              "id": "I.3.0"
+            },
+            {
+              "name": "Hardware Architecture",
+              "description": "Specialized hardware components for graphics processing (e.g., GPUs, display systems).",
+              "id": "I.3.1"
+            },
+            {
+              "name": "Graphics Systems",
+              "description": "Software and hardware configurations for rendering and display.",
+              "id": "I.3.2"
+            },
+            {
+              "name": "Picture/Image Generation",
+              "description": "Techniques for creating images (e.g., rasterization, ray tracing).",
+              "id": "I.3.3"
+            },
+            {
+              "name": "Graphics Utilities",
+              "description": "Software tools and functions for graphics manipulation.",
+              "id": "I.3.4"
+            },
+            {
+              "name": "Computational Geometry and Object Modeling",
+              "description": "Mathematical and algorithmic methods for representing and manipulating 2D/3D shapes.",
+              "id": "I.3.5"
+            },
+            {
+              "name": "Methodology and Techniques",
+              "description": "General methods for rendering and visual representation.",
+              "id": "I.3.6"
+            },
+            {
+              "name": "Three-Dimensional Graphics and Realism",
+              "description": "Creating realistic or non-realistic 3D representations and animation.",
+              "id": "I.3.7"
+            },
+            {
+              "name": "Applications",
+              "description": "Real-world uses of computer graphics (e.g., CAD, visualization).",
+              "id": "I.3.8"
+            },
+            {
+              "name": "Miscellaneous",
+              "description": "Other topics in computer graphics.",
+              "id": "I.3.m"
+            }
+          ]
+        },
+        {
+          "name": "IMAGE PROCESSING AND COMPUTER VISION",
+          "description": "Techniques for manipulating digital images and deriving high-level understanding from visual data.",
+          "subcategories": [
+            {
+              "name": "General",
+              "description": "Core concepts of image processing and computer vision.",
+              "id": "I.4.0"
+            },
+            {
+              "name": "Digitization and Image Capture",
+              "description": "Converting physical images into digital format.",
+              "id": "I.4.1"
+            },
+            {
+              "name": "Compression (Coding)",
+              "description": "Algorithms for reducing the size of image data (e.g., JPEG, MPEG).",
+              "id": "I.4.2"
+            },
+            {
+              "name": "Enhancement",
+              "description": "Improving the visual quality of an image (e.g., contrast, sharpness).",
+              "id": "I.4.3"
+            },
+            {
+              "name": "Restoration",
+              "description": "Recovering a degraded image to its original state (e.g., noise removal).",
+              "id": "I.4.4"
+            },
+            {
+              "name": "Reconstruction",
+              "description": "Creating an image from non-image data (e.g., medical scans).",
+              "id": "I.4.5"
+            },
+            {
+              "name": "Segmentation",
+              "description": "Dividing an image into meaningful regions or objects.",
+              "id": "I.4.6"
+            },
+            {
+              "name": "Feature Measurement",
+              "description": "Quantifying characteristics of objects in an image (e.g., size, shape).",
+              "id": "I.4.7"
+            },
+            {
+              "name": "Scene Analysis",
+              "description": "Interpreting the content and structure of a visual scene.",
+              "id": "I.4.8"
+            },
+            {
+              "name": "Applications",
+              "description": "Practical uses of image processing (e.g., remote sensing, medical imaging).",
+              "id": "I.4.9"
+            },
+            {
+              "name": "Image Representation",
+              "description": "How images are formally structured and stored in a computer.",
+              "id": "I.4.10"
+            },
+            {
+              "name": "Miscellaneous",
+              "description": "Other topics in image processing and computer vision.",
+              "id": "I.4.m"
+            }
+          ]
+        },
+        {
+          "name": "PATTERN RECOGNITION",
+          "description": "The automatic discovery of regularities in data using computer algorithms, and the use of these regularities to classify data.",
+          "subcategories": [
+            {
+              "name": "General",
+              "description": "Fundamental concepts of pattern recognition.",
+              "id": "I.5.0"
+            },
+            {
+              "name": "Models",
+              "description": "Mathematical models used for pattern classification (e.g., statistical, syntactic).",
+              "id": "I.5.1"
+            },
+            {
+              "name": "Design Methodology",
+              "description": "Systematic approaches for building pattern recognition systems.",
+              "id": "I.5.2"
+            },
+            {
+              "name": "Clustering",
+              "description": "Grouping a set of objects such that objects in the same group are more similar to each other than to those in other groups.",
+              "id": "I.5.3"
+            },
+            {
+              "name": "Applications",
+              "description": "Practical uses of pattern recognition (e.g., voice recognition, biometrics).",
+              "id": "I.5.4"
+            },
+            {
+              "name": "Implementation",
+              "description": "The realization of pattern recognition algorithms in hardware or software.",
+              "id": "I.5.5"
+            },
+            {
+              "name": "Miscellaneous",
+              "description": "Other topics in pattern recognition.",
+              "id": "I.5.m"
+            }
+          ]
+        },
+        {
+          "name": "SIMULATION AND MODELING",
+          "description": "The development and use of abstract models to imitate the behavior of real-world systems over time.",
+          "subcategories": [
+            {
+              "name": "General",
+              "description": "Core concepts of simulation and modeling.",
+              "id": "I.6.0"
+            },
+            {
+              "name": "Simulation Theory",
+              "description": "Mathematical and logical principles underlying simulation.",
+              "id": "I.6.1"
+            },
+            {
+              "name": "Simulation Languages",
+              "description": "Specialized languages for building simulation models (e.g., SIMULA).",
+              "id": "I.6.2"
+            },
+            {
+              "name": "Applications",
+              "description": "Real-world uses of simulation (e.g., traffic flow, climate modeling).",
+              "id": "I.6.3"
+            },
+            {
+              "name": "Model Validation and Analysis",
+              "description": "Checking if the model accurately represents the real system.",
+              "id": "I.6.4"
+            },
+            {
+              "name": "Model Development",
+              "description": "The process of creating and refining a simulation model.",
+              "id": "I.6.5"
+            },
+            {
+              "name": "Simulation Output Analysis",
+              "description": "Interpreting and deriving conclusions from simulation results.",
+              "id": "I.6.6"
+            },
+            {
+              "name": "Simulation Support Systems",
+              "description": "Software tools that aid in the development and execution of simulations.",
+              "id": "I.6.7"
+            },
+            {
+              "name": "Types of Simulation",
+              "description": "Categorization by methodology (e.g., discrete event, continuous, Monte Carlo).",
+              "id": "I.6.8"
+            },
+            {
+              "name": "Miscellaneous",
+              "description": "Other topics in simulation and modeling.",
+              "id": "I.6.m"
+            }
+          ]
+        },
+        {
+          "name": "DOCUMENT AND TEXT PROCESSING",
+          "description": "The creation, editing, formatting, storage, and retrieval of documents and large volumes of text.",
+          "subcategories": [
+            {
+              "name": "General",
+              "description": "Core concepts of document and text processing.",
+              "id": "I.7.0"
+            },
+            {
+              "name": "Document and Text Editing",
+              "description": "Tools and techniques for modifying textual content.",
+              "id": "I.7.1"
+            },
+            {
+              "name": "Document Preparation",
+              "description": "Formatting and structuring documents for output (e.g., word processors, LaTeX).",
+              "id": "I.7.2"
+            },
+            {
+              "name": "Index Generation",
+              "description": "Automated creation of indexes for fast retrieval.",
+              "id": "I.7.3"
+            },
+            {
+              "name": "Electronic Publishing",
+              "description": "Using electronic means to prepare and distribute publications.",
+              "id": "I.7.4"
+            },
+            {
+              "name": "Document Capture",
+              "description": "Converting paper documents into digital formats (e.g., scanning, OCR).",
+              "id": "I.7.5"
+            },
+            {
+              "name": "Miscellaneous",
+              "description": "Other topics in document and text processing.",
+              "id": "I.7.m"
+            }
+          ]
+        },
+        {
+          "name": "MISCELLANEOUS",
+          "description": "Other diverse topics in computing methodologies.",
+          "id": "I.m"
+        }
+      ]
+    },
+    {
+      "name": "Computer Applications",
+      "description": "The practical use of computer systems and software across various non-computer science domains and industries.",
+      "subcategories": [
+        {
+          "name": "GENERAL",
+          "description": "General concepts of computer applications.",
+          "id": "J.0"
+        },
+        {
+          "name": "ADMINISTRATIVE DATA PROCESSING",
+          "description": "Computer use in business, finance, and record-keeping (e.g., payroll, accounting).",
+          "id": "J.1"
+        },
+        {
+          "name": "PHYSICAL SCIENCES AND ENGINEERING",
+          "description": "Computer applications in fields like physics, chemistry, geology, and civil/electrical engineering.",
+          "id": "J.2"
+        },
+        {
+          "name": "LIFE AND MEDICAL SCIENCES",
+          "description": "Computer use in biology, bioinformatics, medicine, and healthcare (e.g., imaging, modeling).",
+          "id": "J.3"
+        },
+        {
+          "name": "SOCIAL AND BEHAVIORAL SCIENCES",
+          "description": "Applications in fields like psychology, sociology, economics, and political science.",
+          "id": "J.4"
+        },
+        {
+          "name": "ARTS AND HUMANITIES",
+          "description": "Computer use in music, visual arts, literature, and history.",
+          "id": "J.5"
+        },
+        {
+          "name": "COMPUTER-AIDED ENGINEERING",
+          "description": "Systems supporting engineering design and manufacturing (e.g., CAD/CAM).",
+          "id": "J.6"
+        },
+        {
+          "name": "COMPUTERS IN OTHER SYSTEMS",
+          "description": "Embedded and dedicated computer systems within larger machines (e.g., control systems, industrial automation).",
+          "id": "J.7"
+        },
+        {
+          "name": "MISCELLANEOUS",
+          "description": "Other diverse topics in computer applications.",
+          "id": "J.m"
+        }
+      ]
+    }
+  ]
+}

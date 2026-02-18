@@ -1,0 +1,67 @@
+{
+    "id": "F25-45-20",
+    "title": "Automatic Recognition of Children's Handwritten Arabic Characters",
+    "supervisor_name": " Asma Badr AlSaleh ",
+    "supervisor_id": "ABSa",
+    "academic_year": "1445",
+    "semester": "20",
+    "abstract": "Handwritten recognition has wide applications across multiple domains, such as natural language processing and computer vision. Most of the research studies on handwritten recognition have predominantly focused on the English language and adult handwriting. Therefore, this project proposes Arabic character recognition models specifically designed for children's handwriting. The proposed models include a convolutional neural network (CNN) based model, a hybrid model combining CNN with support vector machine (SVM) that merges CNN's feature extraction with SVM's classification accuracy, a fine-tuned CNN model employing transfer learning from a pre-trained CNN model, and an ensemble model that consolidates predictions from the first three models using voting mechanisms. These models have been evaluated using Hijja dataset, a comprehensive collection of Arabic children's handwritten characters. The results were promising, demonstrating accuracy rates of 93.12%, 93.05%, and 93.15% on the testing data for the hybrid CNN-SVM, ensemble soft voting, and ensemble hard voting, respectively.",
+    "keywords": [
+        "Handwritten Character Recognition",
+        "Arabic Handwriting",
+        "Children's Handwriting",
+        "Deep Learning",
+        "Convolutional Neural Networks (CNN)",
+        "Hybrid CNN-SVM",
+        "Ensemble Learning",
+        "Transfer Learning",
+        "Hijja Dataset",
+        "Optical Character Recognition (OCR)",
+        "Feature Extraction",
+        "Support Vector Machine (SVM)",
+        "Voting Mechanisms",
+        "AHCD Dataset",
+        "Educational Technology",
+        "Arabic Language Processing",
+        "Computer Vision",
+        "Pattern Recognition"
+    ],
+    "introduction": {
+        "problem": "Despite the world's shift towards digitization, handwriting remains a significant aspect of our lives. In fact, the use of pen is indispensable in many situations, such as in confidential notes, handwriting enhancement tutors, spelling mentors, and legal affidavits. Therefore, the development of handwritten recognition (HWR) systems becomes paramount. These systems are designed to convert handwritten text or characters into digital, machine-readable text to enable computers to understand and interpret human handwriting to perform various tasks and functions. Most of the research in HWR field is about Latin languages and adult handwriting. Yet, there's a significant gap when it comes to studying Arabic handwriting. This is partly due to the challenges posed by the unique and varied styles of the language. These challenges become even more pronounced when considering children's handwriting. Therefore, this project aims to bridge the research gap by introducing machine learning models tailored for children's Arabic Handwritten Character Recognition (AHCR). According to our knowledge, ensemble learning has not been applied before in children’s AHCR, so this project proposes the first ensemble model for children’s AHCR. Such a model has the potential to be adapted for various applications, ranging from educational platforms and learning tools to entertainment, gaming, and the digital transcription of children’s handwritten documents, including testimonies and affidavits.",
+        "aim": "The aim of this project is to propose machine and deep learning models that can recognize Arabic letters written by children.",
+        "objectives": [
+  "Review the state-of-the-art methods in HWR in general and Arabic children's HWR in specific.",
+  "Based on the above objective, propose Arabic children's handwritten characters recognition models using deep learning algorithms.",
+  "Conduct a comprehensive evaluation of the proposed models’ performance, analyze the derived outcomes, and benchmark against prevailing state-of-the-art methodologies.",
+  "Construct a prototype to provide a tangible representation of the system's functionality."
+]
+   },
+    "conclusion": {
+        "results": "The optimization of the CNN architecture involved careful consideration of several key factors. Initially, a limited number of layers was insufficient in extracting features, compromising accuracy. Increasing the number of layers and kernels enhanced feature extraction capabilities, and the strategic placement of max-pooling layers after every two convolutional layers mitigated the risk of dimensionality reduction and loss of crucial features. In the classification segment, three fully connected layers (FCLs) sufficed, while a higher dropout rate balanced classification performance and reduced overfitting. A smaller learning rate of 0.0005 facilitated gradual weight updates, improving model convergence and overall performance.   For the hybrid CNN-SVM model, using an RBF kernel with appropriate hyperparameters and features from the first FCL yielded the best accuracy of 93.127%, highlighting the importance of selecting the correct feature layer and tuning hyperparameters. Variations in testing accuracies emphasized the critical role of hyperparameter fine-tuning, particularly for the RBF kernel.   The fine-tuned CNN model, pretrained on the AHCD dataset and adapted to the Hijja dataset, achieved a peak accuracy of 90.72%, with the slightly lower accuracy attributed to the increased complexity and variance of the Hijja dataset.   In summary, CNN, hybrid CNN-SVM, fine-tuned CNN, and ensemble methods were evaluated to improve classification accuracy. The CNN model achieved 92.9% accuracy, the hybrid CNN-SVM model improved to 93.12%, and ensemble methods showed slight differences: hard voting reached 93.15%, slightly higher than soft voting at 93.05%.   Performance was generally lower on the Hijja dataset compared to AHCD due to the unique challenges of children's handwriting, including unconventional strokes, letter rotations, variations in size and spacing, and connected letter forms. These factors contributed to the increased complexity of recognition in children's handwriting compared to adult handwriting.   Overall, the proposed CNN-SVM and ensemble models outperformed existing methods, achieving robust and competitive accuracy for Arabic children's handwritten character recognition on the Hijja dataset.",
+        "future_work": "This project could be extended in many ways, including but not limited to: 1. Study various successful models like VGG-16, VGG-19, and ResNet, and try different other approaches, such as unsupervised learning for feature extraction through the use of autoencoders. 2. Address the limitations in children's datasets, including the existence of only one children’s Arabic datasets, confining to Arabic letters only, and poor quality of images, by collecting a new dataset specifically for children’s Arabic handwritten words. 3. Integrate the proposed models into a pipeline dedicated to recognizing and segmenting children's Arabic handwritten words. 4. Develop an application for children, by incorporating the proposed models to create an engaging platform for teaching Arabic spelling."
+    },
+    "classification": {
+        "application": [
+            "Education"
+        ],
+        "interest": [
+            "Artificial Intelligence / Machine Learning",
+            "Computer Vision",
+            "Natural Language Processing"
+        ],
+        "acm": [
+            "I.2.6",
+            "I.2.7",
+            "I.2.10",
+            "G.4",
+            "I.4.7",
+            "I.5.1",
+            "I.4.9",
+            "I.5.4",
+            "J.m"
+        ],
+        "rdia": [
+            "Economies of the Future"
+        ]
+    }
+}

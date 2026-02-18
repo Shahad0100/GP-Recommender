@@ -1,0 +1,42 @@
+[
+  {
+    "Field": "Education",
+    "Focus": "Focuses on systems and applications for learning, teaching, and academic support."
+  },
+  {
+    "Field": "Healthcare / Medical",
+    "Focus": "Relates to the use of technology to improve medical processes and patient care."
+  },
+  {
+    "Field": "Business & Productivity",
+    "Focus": "Involves the application of computing to enhance business operations."
+  },
+  {
+    "Field": "Security & Privacy",
+    "Focus": "Pertains to protecting data, networks, and systems from unauthorized access."
+  },
+  {
+    "Field": "Sustainability & Environment",
+    "Focus": "Deals with using technology to address environmental challenges."
+  },
+  {
+    "Field": "Social Good & Community",
+    "Focus": "Relates to technology that aims to benefit society."
+  },
+  {
+    "Field": "Entertainment & Media",
+    "Focus": "Covers applications for leisure and content creation."
+  },
+  {
+    "Field": "Government & Public Sector",
+    "Focus": "Involves the use of technology in public services and administration."
+  },
+  {
+    "Field": "Transportation & Mobility",
+    "Focus": "Pertains to technology related to the movement of people and goods."
+  },
+  {
+    "Field": "Finance & Economics",
+    "Focus": "Deals with the application of computing in the financial sector."
+  }
+]

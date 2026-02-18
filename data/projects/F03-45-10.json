@@ -1,0 +1,50 @@
+{
+    "id": "F03-45-10",
+    "title": "Energy-aware Multi-Object Detection and Compression in WMSN",
+    "supervisor_name": " Manal Khaled Alsabhan ",
+    "supervisor_id": "MKsa",
+    "academic_year": "1445",
+    "semester": "10",
+    "abstract": "The Wireless Sensor Network (WMSN) is a network of nodes equipped with cameras and other sensors that monitor the environment. In this study, our main goal is to enhance image recognition in WMSNs with low-power sensors. In our experiment, an image-based target recognition method was developed using segment Region of Interest, image feature extraction, and matching equation. Followed by notifying the end user of methods based on the least power-consuming method, to conserve resources such as battery and memory life. So that bandwidth is not overloaded, and heavy traffic is avoided. As part of the evaluation, the energy consumption of the proposed scheme was taken into consideration. The results demonstrated reduced energy consumption, confirming the effectiveness of the resource optimization approach",
+    "keywords": [
+        "Wireless Multimedia Sensor Networks (WMSNs)",
+        "Wireless Sensor Networks (WSNs)",
+        "Multimedia",
+        "Recognition of Interest",
+        "Feature Extraction"
+    ],
+    "introduction": {
+        "problem": "Regularly transmitted images in WMSN can overload the network bandwidth with unnecessary data. This can rapidly deplete the sensors' energy and occupy the limited bandwidth with redundant and non-essential data. This research aims to design a low-power sensing system for WMSN capable of efficiently partitioning transmitted images before compression. This system should be able to perform this operation locally within the monitored area, consuming minimal power to extend the wireless sensor network's lifespan",
+        "aim": "The primary aim of this project is to enhance the energy efficiency of WMSN by reducing power consumption in sensor devices, thus prolonging their operational lifespan within the network.",
+        "objectives": [
+"Capture data efficiently: We will implement object segmentation in images using the SAM to improve the accuracy of data capture.",
+"Improve data transfer: Use Haar Wavelet image compression to reduce the size of sent images and improve data transfer.",
+"Network Performance Evaluation: perform network performance simulations and evaluations using the LEACH routing protocol to ensure efficient and energy-efficient data routing."
+]
+    },
+    "conclusion": {
+        "results": "In conclusion, our project focuses on addressing a major challenge in Wireless Multimedia Sensor Networks (WMSNs) by enhancing the energy efficiency of sensor devices while ensuring the efficient collection and transmission of data. By employing innovative techniques such as object segmentation using the \"Segment Anything\" model and image compression using the Haar wavelet algorithm, quick progress has been made towards achieving this goal. Our research results indicate that this combined approach to technologies effectively reduces energy consumption in WMSNs, thereby enhancing the lifespan of wireless sensor devices. This achievement holds great significance as it ensures the sustainability of the network and significantly improves its efficiency. The use of the LEACH routing protocol for network performance evaluation and process simulation has confirmed the feasibility and energy efficiency of these enhancements. As a result, the project's goal has been successfully achieved by reducing the size of transmitted images through compression and segmentation processes. This not only conserves energy but also optimizes the utilization of bandwidth within the network.",
+        "future_work": "Based on our research and the results we have obtained, there is ample room for further exploration and improvement in the future. It is recommended to direct future research toward deeper feature extraction and analysis, including exploring ways to enhance network performance and energy management. Practical applications and effective integration of the developed technology in environmental and healthcare domains should also be considered. Additionally, future work may involve improving performance and achieving practical applications through publishing results in peer-reviewed scientific journals and presenting them at scientific conferences."
+    },
+    "classification": {
+        "application": [
+            "Sustainability & Environment"
+        ],
+        "interest": [
+            "Internet of Things (IoT)",
+            "Computer Vision",
+            "Embedded Systems"
+        ],
+        "acm": [
+            "G.4",
+            "J.2",
+            "I.2.1",
+            "I.4.6",
+            "I.2.10",
+            "I.4.7"
+        ],
+        "rdia": [
+            "Sustainable Environment & Supply of Essential Needs"
+        ]
+    }
+}

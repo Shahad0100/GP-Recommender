@@ -1,0 +1,58 @@
+{
+    "id": "F01-45-20",
+    "title": "Baasyir:A YOLO Based approach to Assist Visually  Impaired People by leveraging Smart Glasses System",
+    "supervisor_name": "Dhouha Ahmed Ben Noureddine",
+    "supervisor_id": "DAur",
+    "academic_year": "1445",
+    "semester": "20",
+    "abstract": "In this project, we aim to address the challenges faced by blind individuals due to resource limitations by introducing the ’Baasyir’ smart glasses system, incorporating Deep Learning for obstacle detection. The system aims to assist blind people in recognizing objects, overcoming obstacles, and enhancing their independence. We proposed an approach that integrates two models the YOLO version 7 real-time object detection algorithm and the YOLOv7-tiny model, supported by an extensive literature review and we used relevant datasets. The developed approach’s performance is evaluated using metrics such as Precision, Recall, F1-Score, IoU, and mAP. We conducted multiple experiments with YOLOv7 and YOLOv7-tiny implementation and parameter optimization on target datasets that showed promising results, achieving a higher mAP. The object detection models YOLOv7_Furniture, YOLOv7-tiny_Furniture, YOLOv7_Baasyir, and YOLOv7-tiny_Baasyir achieved detection accuracies of 75.3%, 71.1%, 49.4%, and 42.7%, respectively, on their respective datasets. Following the implementation of the object detection model, the Baasyir smart glass system was developed on the Raspberry Pi 3 Model B+. We concluded by suggesting potential future directions and areas for further research in this field",
+    "keywords": [
+        "Baasyir Smart glasseses",
+        "Deep Learning",
+        "Object Detection",
+        "YOLOv7",
+        "YOLOv7-tiny",
+        "Baasyir dataset",
+        "Furniture-detection dataset",
+        "Raspberry Pi"
+    ],
+    "introduction": {
+        "problem": "In recent years, there has been a notable increase in interest surrounding the advancement of innovative solutions to enhance the quality of life for individuals with visual impairments. Among these solutions, smart glasses (SG) have emerged as a promising platform to address the challenges faced by visually impaired individuals, providing real-time assistance in various activities. In the past decade, Artificial Intelligence (AI) has achieved significant success in a variety of fields, including the domain of computer vision especially in object detection. Utilizing Machine Learning (ML) and Deep Learning (DL) models has become a cornerstone in the development of SG applications, enabling them to extract valuable information and make informed decisions. smart glasses can leverage DL model for various object detection applications. Imagine a person wearing SG with an integrated camera and DL-based object detection software. As the user goes about their day, the SG continuously captures the scene in real-time through the camera. The DL model running on the SG processes the video feed and identifies objects in the wearer’s field of vision. This can include: • Face recognition: DL can be used for face recognition to identify people and provide information about them, such as their name, profession, or relationship to the wearer. • Language translation: if the glasses recognize text, they can offer instant translation for foreign languages. • Augmented reality information: SG can overlay relevant information based on the detected objects on the user’s display. • Navigation assistance: if the DL model identifies road signs or traffic signals, SG can provide turn-by-turn navigation instructions and real-time traffic updates. • Object recognition: the glasses can help visually impaired users by identifying and describing objects in their surroundings, such as \"a person,\" \"an animal,\" or \"a car.\" • Safety alerts: DL can detect potential safety hazards, like warning signs, construction zones, or obstacles, and alert the wearer to avoid them. • Inventory management: in a warehouse or retail setting, SG can use DL to track and identify products or items on shelves for inventory management. In this project, we examine the performance of Convolutional Neural Networks (CNN) models in object detection to develop our Baasyir SG approach. We present our work as a comparative study where we experiment with different DL architectures. In this chapter, we give a preamble to the project aim, objectives, and methodology, along with a list of qualifications of each team member.",
+        "aim": "The main aim of this research project is to build a smart glasses system based on the DL model to detect and classify objects in real-time accurately.",
+        "objectives": [
+      "Provide background and summary of research efforts in the field of smart glasses system that employs computer vision techniques and DL models for Blind people.",
+      "Data collection and preparation: select an appropriate dataset that includes sensor data for wearable sensors.",
+      "Data pre-processing: pre-process the raw measurements recorded in the selected datasets.",
+      "Model architecture: implement deep learning classification models.",
+      "Training, Evaluation, and Tuning: train and evaluate the performance of the implemented classification models.",
+      "Deployment to smart glasses.",
+      "Testing and Optimization"
+    ]
+    },
+    "conclusion": {
+        "results": "Our research into the development of the Baasyir smart glasses system has been a dynamic journey encompassing deep learning, computer vision, and hardware integration. Starting with meticulous data collection and model training using YOLOv7, we seamlessly transitioned from virtual to physical with successful hardware integration. The multidisciplinary approach showcased our team’s adaptability and a holistic understanding of the end-to-end process. Notably, the YOLOv7 model demonstrated impressive performance with a precision of 58.5%, recall of 49.8%, and an mAP of 49.4%. The YOLOv7-tiny model, despite reduced complexity, maintained comparable accuracy with a precision of 61.5% and a recall of 43.4%, albeit with a slightly lower mAP of 42.7%. Looking ahead, our results underscore the potential for widespread applications and lay a robust foundation for future exploration at the intersection of deep learning and computer vision. Continuous refinement of both software and hardware components will be critical for staying at the forefront of innovation.",
+        "future_work": "In our future work, we aim to enhance the dataset by incorporating additional variants, specifically focusing on small everyday objects such as pens, cups, and other items that play a vital role in the daily lives of individuals with impaired people. This expansion is intended to refine and diversify the model’s ability to detect and interact with a broader range of objects, contributing to its practical utility in real-world scenarios. Furthermore, we have aspirations to optimize and develop the hardware, aiming to make it more compact and impactful in everyday life. The goal is to create a hardware system that seamlessly integrates into daily routines, providing valuable assistance to individuals with specific needs. This involves not only downsizing the hardware but also refining its functionalities to enhance user experience and overall effectiveness. In essence, our future work is geared towards continuous improvement, both in terms of the model’s capabilities through dataset enrichment and the hardware’s design to better align with the needs of individuals with impaired dependencies. By addressing these aspects, we strive to create a more robust and user-friendly system that can make a meaningful impact in the lives of those who benefit from assistive technologies."
+    },
+    "classification": {
+        "application": [
+            "Healthcare / Medical"
+        ],
+        "interest": [
+            "Computer Vision",
+            "Embedded Systems",
+            "Artificial Intelligence / Machine Learning"
+        ],
+        "acm": [
+            "J.3",
+            "I.5.5",
+            "I.4.9",
+            "I.2.10",
+            "I.2.1",
+            "I.2.6",
+            "G.4"
+        ],
+        "rdia": [
+            "Health & Wellness"
+        ]
+    }
+}

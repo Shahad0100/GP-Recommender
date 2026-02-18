@@ -1,0 +1,52 @@
+{
+    "id": "F01-42-20",
+    "title": "COVID-19 Detection Using Deep Neural Networks",
+    "supervisor_name": "Siwar Abdelfattah Rekik",
+    "supervisor_id": "SAki",
+    "academic_year": "1442",
+    "semester": "20",
+    "abstract": "On December 31, 2019, the first confirmed case of the COVID-19 pandemic was announced. COVID-19 disease causes a dry cough, muscle pain, headache, fever, loss of smell and taste, shortness of breath, and more symptoms. Also, some infected patients may not have any symptoms at all; that makes the detection of those patients challenging. However, since that time, many researchers have worked in this field doing different studies, research, and experiments in order to find a solution to the COVID-19 detection problem. This research project’s importance came from the significant need to limit the spreading of the COVID-19 pandemic to save more lives as much as we can, and that is our high goal. However, this research project aimed to develop a model for detecting COVID-19 patients using deep neural networks with chest x-ray images. We use chest x-ray because it is often used for emergency diagnosis due to its fast and easy to use and a small amount of radiation. Furthermore, we used the YOLOv5 model that has been useful to accomplish our goal. We finally found that the fast and accurate way to detect COVID-19 infected people with accuracy equals approximately 99.7%, and we achieved our purpose.",
+    "keywords": [
+        "COVID-19",
+        "Deep Neural Networks",
+        "YOLOv5",
+        "Chest X-ray Images",
+        "Detection"
+    ],
+    "introduction": {
+        "problem": "Clinical study reveals that a COVID-19 has a long incubation period, ranging from 3 days to 13 days, and until now, there is no medicine found. COVID-19 infected person may experience a dry cough, muscle pain, headache, fever, shortness of breath, loss of smell and taste, sore throat, and mild to moderate respiratory illness qualifications. Simultaneously, it affects the lungs badly with virus infection. Also, the disease might not show any symptoms at all, which makes it hard to detect. Therefore, it is critical to identify the positive cases as early as possible to avoid further spreading this epidemic and treat affected patients rapidly. However, the necessity of using supplementary diagnostic tools has augmented as there are no accurate automated toolkits available. The latest findings obtained are using the radiology image technique since the lung can be a prominent internal organ to diagnose the gravity of COVID-19. The application of advanced Artificial Intelligence (AI) technology can be used with radiology images, which will help the accurate detection of the diseases. In this project, we will develop a model for automatic COVID-19 detection using an x-ray. However, deep learning has many models that may use to detect coronavirus; one of them is Convolutional Neural Networks (CNN). CNN is created by stacking multiple layers together, each layer has its function in order to analyze the input image. It uses a local connection to get high performance and efficiency results. These local connecters are called local receptive and weight-sharing. Our project will develop a model that employs CNN to immediately classify the patient’s Chest X-Ray Radiography (CXR) images as multi-class classification, whether COVID-19, Pneumonia, or Normal.",
+        "aim": "This project aims to develop a model that supports hospitals, clinics, and any healthcare community to increase the accuracy and detect COVID-19 patients rapidly and be helpful for medical use.",
+        "objectives": [
+      "Read and explore scientific papers related to the project’s problem.",
+      "Prepare CXR images of people who are COVID-19 infected, normal, and pneumonia patients.",
+      "Use Deep Neural Networks (DNN) model to classify CXR images to COVID-19, normal, or pneumonia.",
+      "Train and test the CNN model."
+    ]
+    },
+    "conclusion": {
+        "results": "Generally, our project has many contributions since we reached our goal and used YOLOv5 in order to detect COVID-19 patients by usingCXR images and get high accuracy result of approximately 99.7%. Furthermore, we labeled the CXR images using an automated way to create a custom labeled dataset with COVID-19, normal, and pneumonia patient lunge.",
+        "future_work": "In the future, we are looking forward to see our project being useful for the medical departments, also scientific department. Our future work we are looking to collect and test the model with bigger dataset, improve the way of using the model by creating an application and website, coupled with keeping the result we got which the high accuracy result."
+    },
+    "classification": {
+        "application": [
+            "Healthcare / Medical"
+        ],
+        "interest": [
+            "Computer Vision",
+            "Artificial Intelligence / Machine Learning",
+            "Bioinformatics"
+        ],
+        "acm": [
+            "I.2.6",
+            "I.2.10",
+            "I.4.9",
+            "I.4.7",
+            "I.5.1",
+            "I.2.1",
+            "J.3"
+        ],
+        "rdia": [
+            "Health & Wellness"
+        ]
+    }
+}

@@ -1,0 +1,56 @@
+{
+    "id": "F01-43-10",
+    "title": "Treatment of stuttering problems in children Application - TSA",
+    "supervisor_name": "Amal Suleiman Alsaif",
+    "supervisor_id": "ASsa",
+    "academic_year": "1443",
+    "semester": "10",
+    "abstract": "The project is an application focused on treating children who suffer from stuttering problems in speech, allowing them to practice at home without needing to visit a specialist. It presents explanatory videos understandable to children, followed by exercises where the child repeatedly pronounces sentences. Finally, the child is trained to synchronize inhalation and exhalation with natural speech duration. These exercises are carefully designed under the supervision and guidance of speech therapists. The application specifically targets Arabic-speaking children, addressing a gap in available apps, which primarily serve speakers of other languages such as English.",
+    "keywords": [
+        "Treatment",
+        "Speech",
+        "Recognition",
+        "Stuttering",
+        "Application",
+        "Therapist",
+        "Analyze",
+        "Error findings",
+        "Speech problems",
+        "Children"
+    ],
+    "introduction": {
+        "problem": "Speech therapists face challenges in accurately assessing patients' speech and breathing volume during diagnostic sessions, which is time-consuming. Social distancing further complicates communication with specialists, highlighting the need for an electronic application to assist in the treatment process and support therapists in managing patients remotely.",
+        "aim": "The TSA application supports children in addressing stuttering issues in Arabic. It allows children or their parents to practice traditional therapist-guided exercises at home. The system records the child's voice, converts it to text, detects stuttering errors using a post-processing algorithm, and provides instructions and exercises to improve speech.",
+        "objectives": [
+      "Collect treatment mechanisms from clinics containing Arabic sentences for children.",
+      "Use speech recognition to convert the child's recorded voice into text without correction.",
+      "Develop a post-processing algorithm to identify stuttering issues in speech.",
+      "Create a treatment cycle algorithm including guided videos, spelling practice, and breath regulation exercises.",
+      "Develop an easy and engaging graphical user interface suitable for children."
+    ]
+    },
+    "conclusion": {
+        "results": "The project resulted in an interactive application that guides children in correct pronunciation and breathing coordination. Children can practice repeatedly, test themselves, and track progress. The application also assists therapists in assigning exercises between sessions and allows parents to contact administrators for questions or suggestions. Challenges included selecting suitable programming languages and meeting project deadlines, with limitations such as Wi-Fi dependency, Android-only support, and mandatory user registration.",
+        "future_work": "Measure and improve the accuracy of stuttering detection, enhance post-detection word processing, add English language support, increase the number of exercises, and implement live chat with an external therapist for consultations."
+    },
+    "classification": {
+        "application": [
+            "Healthcare / Medical"
+        ],
+        "interest": [
+            "Artificial Intelligence / Machine Learning",
+            "Natural Language Processing",
+            "Mobile Development"
+        ],
+        "acm": [
+            "I.2.7",
+            "I.2.1",
+            "I.5.4",
+            "H.5.2",
+            "J.3"
+        ],
+        "rdia": [
+            "Health & Wellness"
+        ]
+    }
+}

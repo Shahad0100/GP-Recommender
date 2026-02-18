@@ -1,0 +1,62 @@
+{
+    "id": "F05-45-10",
+    "title": "Walyattawafou: Crowd Counting in Hajj and Umrah",
+    "supervisor_name": " Haifa Hamad Alkasem ",
+    "supervisor_id": "HHka",
+    "academic_year": "1445",
+    "semester": "10",
+    "abstract": "The Kingdom of Saudi Arabia hosts a large number of pilgrims and Umrah pilgrims every year, so estimating their number in crowded areas has become important to ensure their safety. This proposal aims to improve crowd management during Hajj and Umrah by developing software that uses deep learning techniques to calculate the number of crowds. The proposed program aims to help the Ministry of Hajj and Umrah and other relevant authorities improve crowd flow and reduce congestion around the holy sites. By leveraging deep learning models, this software has the potential to enhance crowd management and improve the overall Hajj experience for millions of Muslims.",
+    "keywords": [
+        "Crowd Counting",
+        "Deep Learning",
+        "Hajj Management",
+        "Umrah Management",
+        "Crowd Monitoring",
+        "Holy Sites",
+        "Makkah",
+        "Pilgrim Safety",
+        "Image Processing",
+        "Computer Vision",
+        "Crowd Density Estimation",
+        "Real-time Monitoring",
+        "Ministry of Hajj and Umrah",
+        "GPU Processing",
+        "Attention Models",
+        "Crowd Flow Optimization"
+    ],
+    "introduction": {
+        "problem": "Every year, Muslims perform the rites of Hajj in Makkah. Over time, the number of Muslims participating in these rites has grown significantly, making it challenging to accurately count people in different areas and manage the crowds effectively. To address this issue and improve the organization of the pilgrimage, counting technology can be im plemented. One of the primary objectives for this technology is to ensure the safety and security of pilgrims. Authorities can make sure that there are enough resourc es at each site to give help, uphold order, and quickly respond to emergencies by knowing the approximate population of different areas.",
+        "aim": "The core aim of this proposal is building software that counts the crowd to assist stakeholders (The Royal Commission for Makkah along with other government authorities and security agencies) in improving crowd management such as optimizing the flow of people in and around holy sites, which can help to reduce congestion and improve the overall experience of pilgrims using deep learning models to achieve this goal",
+        "objectives": [
+  "Build software that counts the crowd to help the Ministry of Hajj and Umrah (MHU) in crowd management using deep learning algorithms.",
+  "Collect the dataset of Hajj and Umrah."
+]
+    },
+    "conclusion": {
+        "results": "Our project is a crowd counting that is built based on a deep learning model. The system allows administrators to upload media files through a user-friendly application interface. The deep learning model accurately counts the crowd in the uploaded media files and returns the processed media file to the view page. This seamless process greatly facilitates efficient crowd monitoring and empowers decision-making for crowd management strategies during Hajj and Umrah. We implemented the project using Python, JavaScript, HTML, and CSS, along with the aid of existing tools such as Electron.js, SQLite, and Node.js. Upon testing the model, we discovered that its results did not meet our initial expectations, and we believe that better results could have been achieved if not for the challenges we encountered. One of the most significant challenges we faced was finding the right balance between processing time and accurate results. Dealing with images inherently requires a considerable amount of time. To mitigate this challenge, we employed Graphics Processing Units (GPUs) to expedite the processing speed. However, we realized that more powerful high-performance computing resources are necessary to further enhance the model's performance and improve the obtained results.",
+        "future_work": "Moving forward, our future work will primarily focus on improving the model's performance, as it is a critical factor in the success of the application. One potential improvement we plan to explore is the incorporation of attention models. Attention models have proven effective in enhancing the accuracy and robustness of deep learning models, particularly in image-related tasks. By integrating attention mechanisms into our crowd counting model, we aim to improve its ability to focus on relevant features and regions of interest within the images, ultimately enhancing the accuracy of crowd counting. By investing in more powerful computing resources and exploring attention models, we aim to enhance the performance of our model and ensure its effectiveness in the crowd management strategies during Hajj and Umrah."
+    },
+    "classification": {
+        "application": [
+            "Government & Public Sector"
+        ],
+        "interest": [
+            "Artificial Intelligence / Machine Learning",
+            "Computer Vision"
+        ],
+        "acm": [
+            "I.2.6",
+            "I.2.10",
+            "I.4.9",
+            "I.4.8",
+            "I.5.4",
+            "D.2.0",
+            "J.m",
+            "I.2.1",
+            "H.5.1"
+        ],
+        "rdia": [
+            "Economies of the Future"
+        ]
+    }
+}

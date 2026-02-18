@@ -1,0 +1,57 @@
+{
+    "id": "F02-43-10",
+    "title": "Facial Expression Recognition for Investigations",
+    "supervisor_name": "Lamees Abdullah Alhazzaa",
+    "supervisor_id": "LAha",
+    "academic_year": "1443",
+    "semester": "10",
+    "abstract": "Facial expressions are non-verbal movements that convey a person's emotions, such as happiness, sadness, surprise, or fear. These expressions can indicate a person's state in various situations, particularly when verbal communication is limited due to disabilities, fear, or immaturity. In law enforcement, understanding facial expressions is crucial for evaluating the truthfulness of interviewees. This project develops a system that automatically recognizes and analyzes human facial expressions to assist investigators in interpreting emotions during police interrogations, improving the quality and accuracy of investigations.",
+    "keywords": [
+        "Facial Expression Analysis",
+        "Non-Verbal Communication",
+        "Emotion Recognition",
+        "Computer Vision",
+        "Police Investigations",
+        "Interview Analysis",
+        "Human Behavior Analysis",
+        "Automated Facial Recognition",
+        "Deception Detection"
+    ],
+    "introduction": {
+        "problem": "During criminal investigations, witnesses or suspects may lie or conceal the truth due to stress or fear, hindering investigators from accurately understanding the situation. Detecting deception is critical to determining whether further investigation is needed and understanding the accused's emotional state.",
+        "aim": "To develop a Facial Expression Recognition (FER) system that assists police and social workers in interviews by analyzing human emotions using Machine Learning and Deep Learning techniques.",
+        "objectives": [
+      "Create a software system capable of detecting facial expressions.",
+      "Collect facial expression images from existing databases for training and testing.",
+      "Use ML and DL algorithms to analyze facial expressions and detect emotions.",
+      "Enable the system to recognize emotions of women wearing a niqab.",
+      "Enable the system to recognize emotions of individuals wearing face masks.",
+      "Ensure the system can recognize at least 70% of a person's emotions.",
+      "Use sentiment analysis results to help determine whether the accused is lying."
+    ]
+    },
+    "conclusion": {
+        "results": "The system captures live video, detects faces, and performs sentiment analysis to classify emotions as happy, angry, surprised, sad, fearful, neutral, or disgusted, even if the person wears a mask or niqab. Investigators can access the individual's personal information and view emotion data. The project addresses challenges in real-time AI processing and integrates HTML, CSS, JavaScript, and PHP for database connectivity.",
+        "future_work": "Future improvements include increasing the accuracy of detecting emotions for women wearing niqab, developing a website to summarize sentiment analysis results after interviews, and allowing live video recordings to be saved and reviewed."
+    },
+    "classification": {
+        "application": [
+            "Security & Privacy"
+        ],
+        "interest": [
+            "Computer Vision",
+            "Artificial Intelligence / Machine Learning",
+            "Cybersecurity"
+        ],
+        "acm": [
+            "I.2.10",
+            "I.4.8",
+            "I.5.4",
+            "I.4.9",
+            "J.7"
+        ],
+        "rdia": [
+            "Health & Wellness"
+        ]
+    }
+}

@@ -1,0 +1,61 @@
+{
+    "id": "F17-45-20",
+    "title": "Mu’nis: Enhancing Deaf Communication with Realtime Subtitles in Arabic Language",
+    "supervisor_name": " Tasniem Nasser Alyahya ",
+    "supervisor_id": "TNya",
+    "academic_year": "1445",
+    "semester": "20",
+    "abstract": "Arabic Sign Language (ArSL) serves as the primary means of communication for the Deaf and Hard of Hearing (DHH) community in Arabic - speaking regions, promoting social engagement and reducing social isolation. To our knowledge, ArSL applications lack real time translation of sign language into text. Mu’nis is a mobile application that supports real time communication in ArSL. The application provides two way communication by translating sign language to text and enabling audio-to-text transformation. Mu’nis employs Core Machin Learning ( CoreML ) , a machine learning framework developed by Apple, along with the Hand Action tool that supports the capture of hand gestures. It utilizes the KFUPM Arabic Sign Language (KArSL) dataset, which is the largest dataset for ArSL. Mu’nis's innovative approach helps overcome communication barriers, promising improved connectivity within the DHH community.",
+    "keywords": [
+        "Arabic Sign Language (ArSL)",
+        "Deaf and Hard of Hearing (DHH)",
+        "Real-time Translation",
+        "Sign Language Recognition",
+        "Mobile Application",
+        "Core ML",
+        "Hand Gesture Recognition",
+        "KArSL Dataset",
+        "Assistive Technology",
+        "Human-Computer Interaction",
+        "Accessibility",
+        "Two-way Communication",
+        "Audio-to-Text",
+        "Sign-to-Text",
+        "Hand Action Tool",
+        "Inclusive Design",
+        "Communication Barriers"
+    ],
+    "introduction": {
+        "problem": "The unique way that people communicate using ArSL poses a significant challenge for Deaf and Hard of Hearing ( DHH ) individuals. The fact that there isn't a specialized real - time translation system designed for ArSL creates a major obstacle. While apps like Signer are available for other sign languages, the absence of Arabic support makes it even more difficult for DHH individuals who use ArSL to communicate. This not only hinders their ability to interact effectively and access important information but also limits their social interactions . Unlike some other languages, ArSL doesn't have a similar solution except for situations involving converting spoken language to sign language . Even though their text, sources like human interpreters and educational videos, these options aren't sufficient for meeting the immediate and direct communication needs of the Arabic - signing DHH community. This urgent problem highlights the importance of exploring comprehensive solutions that empower DHH individuals who use ArSL, allowing them to bridge the communication gap and participate fully in various aspects of life.",
+        "aim": "Our goal is to create a mobile app that can convert sign language to written text for Arabic-speaking deaf individuals.",
+        "objectives": [
+      "Design an easy-to-use interface tailored to the requirements of deaf users.",
+      "Create a mobile app that can identify and understand sentences in ArSL.",
+      "Develop a mobile app that can translate ArSL in real time."
+    ]
+   },
+    "conclusion": {
+        "results": "In conclusion, our project set out to create a mobile application tailored to the communication needs of Arabic - speaking deaf individuals, converting sign language into written text. Our focused objectives have been successfully realized. Firstly, we prioritized our focus on enhancing user accessibility by designing an interface tailored to meet the diverse needs of all users, ensuring a user - friendly experience . Secondly, the integration of a sophisticated hand action classification model empowers our mobile app to adeptly recognize and understand sentences in Arabic Sign Language (ArSL), encompassing a diverse vocabulary of around 60 words, letters, and numbers . Lastly, our application seamlessly translates ArSL words into written Arabic text. These achievements collectively fulfill our project's core objective, effectively bridging communication gaps and markedly improving accessibility for the Arabic - speaking sign language community . Leveraging dynamic datasets and advanced technologies, we've crafted a robust solution that positively impacts the lives of individuals who are deaf or hard of hearing, fostering inclusive and effective communication.",
+        "future_work": "Given the constraints of time, the objective is to expand and enrich the capabilities of the application. Upcoming plans encompass extending the array of signs recognized by the application and refining the accuracy of the hand action classification model. Additionally, the future enhancements will include incorporating support for multiple languages."
+    },
+    "classification": {
+        "application": [
+            "Social Good & Community"
+        ],
+        "interest": [
+            "Natural Language Processing",
+            "Human-Computer Interaction",
+            "Artificial Intelligence / Machine Learning"
+        ],
+        "acm": [
+            "I.2.10",
+            "I.2.6",
+            "I.4.7",
+            "I.3.0",
+            "H.5.2"
+        ],
+        "rdia": [
+            "Health & Wellness"
+        ]
+    }
+}

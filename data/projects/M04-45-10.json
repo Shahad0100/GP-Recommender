@@ -1,0 +1,56 @@
+{
+    "id": "M04-45-10",
+    "title": "Smart Car Parking Manager (SCPM)",
+    "supervisor_name": " Mostafa Elsayed Ahmed Ibrahim",
+    "supervisor_id": "MEra",
+    "academic_year": "1445",
+    "semester": "10",
+    "abstract": "The Smart Car Parking System is a system that monitors and manages parking areas. The system optimizes the parking process by automating the opening and closing of the entrance and exit gates and providing real-time information to drivers and administrators. The system lessens human interactions, provides statistics about parking spots, computes fees per hour, provides security via allowing only authorized (registered) people to use the parking, and reduces the waiting time, cost, and errors associated with manual or card-based parking methods, the aim of the project is to design and implement a smart car parking system that monitors and manages parking areas. The objectives include designing and developing a system with Raspberry Pi board with sensors and a camera to detect a car and to register the license plates then calculate the final fee. Developing a web application to relate to the system for admin operations (e.g., manually registering license plates, removing license plates, changing the fees). Designing an SQL database to track time and number of cars in the parking. By achieving these objectives, the project will improve the user experience and satisfaction of parking in urban areas. The methodology of the project consists of four main phases: analysis, design, implementation, and testing. In each phase, the team will follow the steps and guidelines of the agile software development approach to ensure the quality and efficiency of their project.",
+    "keywords": [
+        "Smart Parking System",
+        "Parking Management",
+        "Raspberry Pi",
+        "Sensor-Based Detection",
+        "License Plate Recognition",
+        "Computer Vision",
+        "Web Application",
+        "SQL Database",
+        "Real-Time Monitoring",
+        "Agile Development"
+    ],
+    "introduction": {
+        "problem": "As students, we had a problem with the university’s campus parking; it was significantly crowded, it would take time to find a parking spot, thus making us late to our classes, and since the public transportation project will be completed soon, we want to promote the use of it. So, we had an idea of a parking system that would implement a fee per hour to the parking area, reducing the amount of cars and the unnecessary time a student will park for, and making them use these public transportations instead, and it can be profitable for the university.",
+        "aim": "To design and implement a smart car parking system that monitors and manages parking areas. The system should optimize the parking process by automating the opening and closing of the entrance and exit gates and providing real-time information to drivers and administrators. The system should lessen human interactions, provide statistics about parking spots. It also computes the fees per hour. The system can also provide security via allowing only authorized(registered) people to use the parking. The system should also reduce the waiting time, cost, and errors associated with manual or card-based parking methods. ",
+        "objectives":[
+      "Design and develop a system with Raspberry Pi board with sensors and two cameras to detect a car and to register the license plates then calculate the final fee.",
+      "Developing a web application to relate to the system for admin operations (e.g.,manually registering license plates, removing license plates, changing the fees).",
+      "Designing an SQL database to track time and number of cars in the parking.",
+      "Enhance our communication skills via working in a team. Improve our technical writing skills via writing efficient technical reports.",
+      "By achieving these objectives, our project will improve the user experience and satisfaction of parking in urban areas, especially in universities."
+    ]
+ },
+    "conclusion": {
+        "results": "After conducting comprehensive testing using a dataset of 30 images, we initially observed that our image recognition system achieved an accuracy level of 60%. While this provided a commendable starting point, we were aware of the potential for improvement. Utilizing the PIL (Python Imaging Library) library, we implemented a contrast enhancement method and converted the images to grayscale. These measures had a profound impact on the system's performance, leading to a remarkable transformation. After the application of these enhancements, the accuracy of our image recognition system surged to an impressive 80%. This substantial improvement underlines the effectiveness of the chosen image processing techniques in tackling image recognition challenges, particularly in scenarios marked by variable lighting conditions and other complexities",
+        "future_work": "Looking ahead, there are several avenues for future work and improvement: Enhanced Security Measures: Ongoing enhancements in security measures are essential. Regular security audits, penetration testing, and updates to address vulnerabilities are critical in safeguarding user data and system integrity. Additional Features: As requirements evolve, additional features, such as advanced reporting, access control, and analytics, can be integrated to further enhance the system's capabilities. Enhancing Image Recognition: To further improve the system's capabilities, exploring advanced image recognition techniques and models can enhance the accuracy and speed of recognition, especially in challenging scenarios. Statistics Implementation: The introduction of statistics and analytics tools can provide valuable insights into system usage, vehicle access patterns, and data trends. This datadriven approach can assist in making informed decisions and optimizations. Implementation of Fees: If applicable, introducing a fee structure for system usage can be considered. This may include subscription models, pay-per-use, or other revenue-generating strategies to sustain and further develop the system."
+    },
+    "classification": {
+        "application": [
+            "Transportation & Mobility"
+        ],
+        "interest": [
+            "Computer Vision",
+            "Internet of Things (IoT)",
+            "Embedded Systems"
+        ],
+        "acm": [
+            "I.4.9",
+            "I.5.4",
+            "J.7",
+            "C.3",
+            "H.2.8"
+        ],
+        "rdia": [
+            "Sustainable Environment & Supply of Essential Needs"
+        ]
+    }
+}

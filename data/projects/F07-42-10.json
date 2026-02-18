@@ -1,0 +1,53 @@
+{
+    "id": "F07-42-10",
+    "title": "Text Similarity Search with Application to kNN Classifier",
+    "supervisor_name": " Meznah Rashid Almutairy ",
+    "supervisor_id": "MRmu",
+    "academic_year": "1442",
+    "semester": "10",
+    "abstract": "Nowadays with the huge development of Technology, patents have a major interference of changing the path of human life. And make it easier and more efficient. Therefore, in this research, we will use the patent dataset to explore the similarity between documents, so the easiest access to the information may cause similarity of texts and an increase in fraud or impersonation. The project aims to find the percentage of similarity between them by using text representation and measuring similarity through similarity measures. Afterwards to increase the efficiency and speed up the process we intent to apply KNN classification to classify the documents to multiple categories. In this research We will compare the performance of Text representation with performance other related vectorization methods, and as well as our similarity measurement method , also we will experiment the efficiency of the classification method (KNN).",
+    "keywords": [
+        "Patent Analysis",
+        "Document Similarity",
+        "Text Representation",
+        "Vectorization Methods",
+        "Similarity Measures",
+        "KNN Classification",
+        "Text Classification"
+    ],
+    "introduction": {
+        "problem": "Across the world the patents are familiar with its distinction, we want to inspect the process of preventing the occurrence of similar patent. In this project we will apply multiple similarity measure to find the similarity between two texts. Also we will apply K-Nearest Neighbor (KNN) separately to specify the domains of the documents.",
+        "aim": "The aim of this graduation project is to develop a healthcare exchange platform that enhances the safe sharing of patient information among healthcare providers, allows patients to keep their health data on hand for easy access, and improves care coordination and reduces cost and errors. The project objectives: 1.Provide patients with the ability to share their medical records securely with healthcare providers. Between different healthcare providers. 2.Provide the healthcare provider access to the patient medical records. 3. User-Friendly Interface 4. Ensure Data Security and Privacy.",
+        "objectives": [
+      "Survey possible ways to define similar texts.",
+      "Survey possible ways to measure similar texts.",
+      "Design and implement an algorithm to search for similar texts.",
+      "Apply kNN classifier.",
+      "Test and validate the searching algorithm and the kNN classifier."
+    ]
+    },
+    "conclusion": {
+        "results": "we successfully accomplished our aim and done the objectives we defined similar text, measured similarity, implemented the algorithm for measurement and classification, we companied the use of kNN classification with cosine similarity which is rare,the implementation could have been more modified if it compares between the similarities itself and calculate the accurate.",
+        "future_work": "Effects of using k-means instead of kNN classification. Effects of using cosine distance with kNN classification. Effects of using jacard similarity instead of cosine similarity. Applying similarity measures for Arabic language."
+    },
+    "classification": {
+        "application": [
+            "Business & Productivity"
+        ],
+        "interest": [
+            "Artificial Intelligence / Machine Learning",
+            "Natural Language Processing",
+            "Data Science"
+        ],
+        "acm": [
+            "I.2.6",
+            "I.5.3",
+            "H.3.3",
+            "F.2.2",
+            "I.7.0"
+        ],
+        "rdia": [
+            "Economies of the Future"
+        ]
+    }
+}

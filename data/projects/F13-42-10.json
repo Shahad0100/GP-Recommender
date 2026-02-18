@@ -1,0 +1,53 @@
+{
+    "id": "F13-42-10",
+    "title": "Dolphin Application ",
+    "supervisor_name": " Eman AbdulHamid Alzaid ",
+    "supervisor_id": "EAza",
+    "academic_year": "42",
+    "semester": "10",
+    "abstract": "With the widespread use of smartphones, the number of videos has increased significantly in the last years. This poses challenges to the management of these video data and especially to the retrieval of a specific video. This project aims to develop a mobile application Dolphin to manage and retrieve videos easily. Machine learning techniques will be used to organize and index the videos efficiently.",
+    "keywords": [
+        "Mobile Application",
+        "Video Management",
+        "Video Retrieval",
+        "Machine Learning",
+        "Video Indexing",
+        "Smartphone Videos"
+    ],
+    "introduction": {
+        "problem": "With the development of smartphones, it has become easy to share videos. Videos have occupied a large part of social media and education. But the situation is not without some problems, as the increase in the number of saved videos has become difficult to recover the video in a short time and effectively. So the purpose of this project is to build an easy-to-use application for managing, retrieving and categorizing video.",
+        "aim": "This project is based on building an application for video management, retrieval, and classification",
+        "objectives":  [
+      "Explore the latest technology in video recognition and classification.",
+      "Build a user-friendly application for managing and retrieving videos on smartphones.",
+      "Ensure the efficiency of the application and the effectiveness of its use."
+    ]
+  },
+    "conclusion": {
+        "results": "we have implemented some requirements such as searching for data by describing the objects in the pictures or video. We also implemented a speech recognition algorithm that helped us search for videos by the speech in them. We also tried to support the Arabic language and we succeeded in achieving some of this goal. But there are still some requirements that have not been implemented",
+        "future_work": " we aim in the future to focus on implementing the rest of the requirements in addition to adding some methods and technologies that serve the users"
+    },
+    "classification": {
+        "application": [
+            "Entertainment & Media"
+        ],
+        "interest": [
+            "Artificial Intelligence / Machine Learning",
+            "Mobile Development",
+            "Computer Vision"
+        ],
+        "acm": [
+            "H.5.2",
+            "H.5.1",
+            "H.3.1",
+            "I.2.6",
+            "I.2.7",
+            "I.2.10",
+            "I.4.9",
+            "I.5.1"
+        ],
+        "rdia": [
+            "Economies of the Future"
+        ]
+    }
+}

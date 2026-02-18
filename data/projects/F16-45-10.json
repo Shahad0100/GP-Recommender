@@ -1,0 +1,61 @@
+{
+    "id": "F16-45-10",
+    "title": "Automatic audio files summarization System, EJAZ Website",
+    "supervisor_name": " Manal Khaled Alsabhan ",
+    "supervisor_id": "MKsa",
+    "academic_year": "1445",
+    "semester": "10",
+    "abstract": "In our fast-paced, time-constrained lives flooded with audio files and text, there is a pressing need for an innovative solution. This project proposes to develop a website called “EJAZ” designed to automatically summarize spoken content. Using speech recognition technology, the app transcribes audio files and then uses natural language processing to extract basic information. The importance of this application extends beyond just saving time, as it not only eliminates manual copying of various sources, but also enhances the overall quality of information extraction. Furthermore, the application opens up avenues to build a repository of extensive, searchable content, providing valuable resources for future reference in our information-rich environment",
+    "keywords": [
+        "Audio Summarization",
+        "Speech Recognition",
+        "Natural Language Processing (NLP)",
+        "Automatic Transcription",
+        "Text Summarization",
+        "Pegasus Model",
+        "BART Model",
+        "T5 Model",
+        "Meeting Summarization",
+        "Information Extraction",
+        "Audio Processing",
+        "Deep Learning",
+        "Collaborative Tools",
+        "Time Efficiency",
+        "Content Accessibility",
+        "Multilingual Support",
+        "Cloud Storage",
+        "EJAZ Website"
+    ],
+    "introduction": {
+        "problem": "Audio and text files are an integral part of the daily functions of any organization. In today's fast-paced and competitive environment, optimizing processes becomes crucial to making the most of your time. Currently, summaries are often prepared manually, either by an appointed note-taker or a volunteer participant. However, this manual process has proven to be time-consuming and error-prone, relying on human memory and attention to detail. Furthermore, taking notes by hand can divert participants' focus from ongoing discussions and decision-making processes. Adding to the challenge is that manually generated summaries tend to be incomplete, lacking important details or context. It may also carry biases toward the interests of the note-taker, rather than providing a comprehensive view of the collaboration. This predisposition can lead to misunderstandings, miscommunication, and missed opportunities for effective collaboration and decision-making. To overcome these obstacles, this project presents the development of EJAZ, a website designed to automatically record and condense collaborative interactions. By harnessing the capabilities of speech recognition and natural language processing technology, EJAZ aims to provide accurate, comprehensive, and unbiased summaries. This approach allows participants to focus on discussions and decision-making without the burden of taking notes. In addition, it serves as a valuable resource for future reference, enabling participants to revisit and build on previous discussions and decisions. The proposed web prioritizes ease of use, accessibility, and efficiency. It can summarize audio files in real time. All participants and stakeholders can access the summaries generated, providing a transparent and consistent record.",
+        "aim": "This graduation project aims to design and develop a website capable of automatically summarizing audio files. This will be achieved by applying speech recognition technology, which accurately converts spoken words into written text. The text is then analyzed using natural language processing techniques to identify critical points and create effective summaries. By automating the abstract generation process for discussions, this system can significantly reduce the time and effort required for this task, while at the same time enhancing the overall quality of the resulting summaries.",
+        "objectives": [
+      "Develop a website with the ability to accurately transcribe audio recordings. The application must transcribe audio into text with high accuracy, and this is done through a speech recognition model that has been trained on a wide data set of audio recordings.",
+      "Text summarization using natural language processing. The website should be equipped to summarize important aspects using natural language processing. This involves developing a model capable of recognizing keywords and key phrases of context.",
+      "Make the summary accessible to participants and other stakeholders. The summary should be readily available to participants and other stakeholders. This can be done by storing it in a cloud repository, sending it to participants via email, downloading audio of the summary text, or uploading it in PDF format."
+    ]
+ },
+    "conclusion": {
+        "results": "The EJAZ website emerges as a beacon of innovation in the realm of audio content summarization, addressing the critical need for time-efficient information processing in today's fast-paced world. The platform's unique capability to transform audio files into succinct, accessible summaries through cutting-edge AI models like Pegasus, BART, and T5 represents a significant leap forward in information consumption. This project has meticulously detailed the system's architecture, from preprocessing and stemming to scoring and extracting, culminating in the generation of high-quality summaries. The conclusion drawn from the development and deployment of EJAZ is twofold. Firstly, it validates the increasing reliance on and the potential of AI-driven solutions in streamlining content consumption, making it more accessible and manageable. Secondly, it highlights the dynamic nature of technological advancement, underscoring the necessity for continuous improvement and adaptation to meet evolving user needs and harness emerging technological trends. As we look to the future, the roadmap for EJAZ is clear—expansion, enhancement, and evolution. By incorporating user feedback, embracing new technologies, and continuously refining the platform, EJAZ is poised to set new benchmarks in the field of audio summarization, making it an indispensable tool in the arsenal of students, professionals, and anyone looking to maximize their time and efficiently navigate the ever-expanding ocean of audio content.",
+        "future_work": "The development of the EJAZ website, while comprehensive, is viewed as an ongoing process. Given the constraints of time, certain functionalities were prioritized, leaving room for the integration of additional features in the future. These enhancements are envisaged to elevate user experience and broaden the utility of the platform: • Cross-Platform Compatibility: Enhancing the website's responsiveness to ensure seamless operation across various devices, including smartphones and tablets, catering to the needs of users on the go. • Expanded File Support: Broadening the spectrum of acceptable file formats for input beyond audio to include text documents (.doc, .pdf) and even content from web URLs. This expansion would accommodate a wider range of user preferences and needs. • Diverse Export Options: Introducing flexibility in the export formats of summaries, allowing users to choose from formats like .doc, enabling ease of use in professional and academic contexts. • Editable Summaries: Implementing features that allow users to personalize summaries by adding highlights, deleting irrelevant sections, or enriching them with images, catering to diverse user requirements for information presentation. • Email Integration: Facilitating the direct sharing of summaries via email, enhancing the platform's utility for collaborative and academic purposes. • Customizable Summaries: Offering users the option to omit titles from summaries and to categorize them, providing a tailored summary experience. • Adjustable Summary Length: Allowing users to specify the desired length of summaries, accommodating varied depth of detail requirements. • User Interface Enhancements: Continuously improving the graphical user interface to enhance usability and accessibility for a diverse user base, ensuring an intuitive and engaging experience. • Advanced Summarization Models: Exploring the integration of newer and more sophisticated summarization algorithms to improve the quality and accuracy of summaries, keeping pace with advancements in AI and machine learning. • Multilingual Support: Expanding the platform to support multiple languages, thereby increasing its global accessibility and utility. • Community Features: Developing a community aspect where users can share and discuss summaries, fostering a collaborative environment. • Privacy and Security Enhancements: Strengthening data protection measures to safeguard user uploads and personal information, ensuring a secure and trustworthy platform."
+    },
+    "classification": {
+        "application": [
+            "Business & Productivity"
+        ],
+        "interest": [
+            "Natural Language Processing",
+            "Artificial Intelligence / Machine Learning",
+            "Web Development"
+        ],
+        "acm": [
+            "I.3.0",
+            "I.2.6",
+            "H.3.0",
+            "H.5.2"
+        ],
+        "rdia": [
+            "Economies of the Future"
+        ]
+    }
+}

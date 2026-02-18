@@ -1,0 +1,57 @@
+{
+    "id": "F02-45-20",
+    "title": "DeepFake Videos Detection Based on A Hybrid Model Using Deep Learning",
+    "supervisor_name": "Waleed Ahmed Alrodhan",
+    "supervisor_id": "WAro",
+    "academic_year": "1445",
+    "semester": "20",
+    "abstract": "The exponential growth of digital data in various domains, such as digital marketing, legal forensics imagery, and medical imagery, has raised concerns about trustworthiness and vulnerability. Particularly, the emergence of DeepFakes, high - quality fake photos and videos generated using deep learning technologies, poses significant challenges. This study addresses the problem of DeepFake detection by proposing a specialized deep learning model trained on comprehensive DeepFake datasets. The model employs a hybrid approach, combining Convolutional Neural Networks (CNN) and Multi - Layer Perceptron (MLP), and utilizes facial landmark detection for data extraction. Performance evaluation demonstrates high accuracy for individual models: DeepFakes (92%), Face2Face (98%), FaceSwap (90%), and NeuralTextures (95%). To enhance the final decision - making process, an ensemble of these models is employed. The proposed approach aims to restore trust in digital multimedia and mitigate the potential harm caused by the proliferation of DeepFakes, contributing to the fields of digital forensics, media authentication, and online security.",
+    "keywords": [
+        "DeepFake Detection",
+        "Deep Learning",
+        "Convolutional Neural Network (CNN)",
+        "Multi-Layer Perceptron (MLP)",
+        "Hybrid Model",
+        "Ensemble Learning",
+        "Facial Landmark Detection",
+        "Digital Forensics",
+        "Media Authentication",
+        "Video Manipulation",
+        "FaceForensics++",
+        "DFDC Dataset"
+    ],
+    "introduction": {
+        "problem": "The rapid advancement of deep fake technology presents a pressing concern regarding the authenticity and trustworthiness of digital media content. Deep fakes, which are convincingly manipulated videos or images, have the potential to deceive viewers and cause significant harm by spreading misinformation, and damaging reputations. Consequently, there is an immediate need to develop effective techniques for detecting deep fakes and mitigating their detrimental impact. The creation of DeepFakes reduces people’s trust in digital media content since they can no longer believe the images they are seeing. for example, many people with sinister intentions have utilized these technologies to make fake videos of female celebrities and members of the general public in ways that have created significant societal issues. In the absence of deep learning, research on identifying or detecting fake manipulated media is considered traditional research. At present, generative deep models are very powerful for creating DeepFakes, which are difficult to distinguish by traditional methods. This gap creates the need for DeepFake detection research to maintain people’s trust in digital multimedia. In this project we proposed an accurate and efficient model that can effectively identify manipulated media and distinguish it from authentic content. By leveraging advanced deep learning techniques, this project will contribute to combating the spread of misinformation, protecting individuals' privacy, and preserving the credibility of digital media. Ultimately, the outcome of this research will aid in building robust defense mechanisms against the harmful impacts of deepfakes and fostering trust in digital content.",
+        "aim": "The aim of this project is to develop and evaluate a deep learning model for detecting Deepfake videos using DL.",
+        "objectives": [
+  "Select and preprocess a large and diverse dataset of Deepfake videos, including both synthetic and real-world examples.",
+  "GP F2 Final Report.pdf 12",
+  "Develop and train the deep learning model for Deepfake detection.",
+  "Evaluate the performance of the model on the Deepfake dataset, using metrics such as accuracy, precision, recall, and F1 score"
+]
+    },
+    "conclusion": {
+        "results": "Our experiment on fake video detection using the CNN-MLB model has yielded several significant contributions to the field. Training on various types of fake videos: The project trained the model on four different types of fake videos, representing distinct manipulation methods. These categories included computer graphics-based approaches such as Face2Face and FaceSwap, as well as learning-based approaches like DeepFakes and NeuralTextures. By combining these videos into a single dataset and training the model on it, the research project expanded the model's ability to detect a wide range of manipulation techniques. Comparative analysis using additional data: The project utilized the DFDC dataset in conjunction with the FaceForensics++ dataset to compare the impact of different fake video manipulation methods on the extracted features, specifically on the shapes. By incorporating the DFDC dataset, the research project enhanced the understanding of how different manipulation methods affect feature correlations and detection accuracy. Impact of video compression on model performance: One of the notable contributions is that the research project tested the model with C23, a dataset consisting of compressed videos. The study observed a significant decrease in accuracy when dealing with compressed videos. This finding highlights the critical impact of video compression on the model's performance in fake video detection and emphasizes the need for considering video compression artifacts and developing techniques to mitigate their effects on detection accuracy. Ensemble modeling approach: The project utilized the trained models as a multi-model ensemble to make the final decision. By combining the outputs of multiple models, the research project aimed to improve the overall detection performance and enhance the robustness of the fake video detection system.",
+        "future_work": "The present study has identified several areas for future research and improvement in the detection of deep fake videos. One important aspect that remains unaddressed is the detection of deep fake videos when the person is turning left or right. Developing techniques tailored to identify deep fake videos during head movements would enhance the model's effectiveness in real-world scenarios. Another avenue for future research is the exploration of different datasets containing a wider variety of deep fake video types and manipulation techniques to enhance generalizability and robustness. To further improve accuracy and reliability, incorporating other modalities such as audio analysis or motion patterns is recommended. A multi-modal approach combining visual, audio, and motion features would provide a more comprehensive understanding of deep fake video characteristics. Additionally, the utilization of memory-based models like Recurrent Neural Networks (RNNs) could help capture long-term dependencies in video frames, enabling detection of more sophisticated deep fake techniques. Finally, considering video quality factors beyond compression level, such as resolution, frame rate, and platform-specific artifacts, would further improve detection performance across varying video qualities."
+    },
+    "classification": {
+        "application": [
+            "Security & Privacy"
+        ],
+        "interest": [
+            "Artificial Intelligence / Machine Learning",
+            "Computer Vision",
+            "Data Science"
+        ],
+        "acm": [
+            "I.2.6",
+            "I.2.10",
+            "I.2.1",
+            "I.5.1",
+            "G.4"
+        ],
+        "rdia": [
+            "Economies of the Future"
+        ]
+    }
+}

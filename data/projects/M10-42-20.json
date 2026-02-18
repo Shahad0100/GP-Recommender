@@ -1,0 +1,51 @@
+{
+    "id": "M10-45-10",
+    "title": "School Bus Tracking and Management system",
+    "supervisor_name": "Ahmed Mohammed Ahmed Gadallah",
+    "supervisor_id": "AMda",
+    "academic_year": "1445",
+    "semester": "10",
+    "abstract": "The School Bus Tracking and Management System is a comprehensive solution designed to enhance the safety, security, and efficiency of school bus transportation. This system caters to the needs of parents, administrators, and drivers, ensuring a seamless and worry-free experience. For parents, the system offers the capability to track their children's school bus in real-time. They receive notifications when their child boards or disembarks from the bus, ensuring peace of mind and timely updates about their child's safety and location. This level of transparency allows parents to plan their schedules effectively, confident in the knowledge that their children are safe during their school commutes. Administrators benefit from simplified student registration processes. The system streamlines the student enrollment process, making it easy to assign students to the appropriate bus routes and monitor ridership data. This leads to improved operational efficiency, as administrators can make informed decisions regarding bus routes and resource allocation. Drivers can access a user-friendly interface, integrated with Google Maps API, enabling them to efficiently navigate their routes. Drivers can view the exact locations of students' homes on the map, select any location, and even open the Google Maps app to find the shortest path to the selected location. This feature enhances route optimization, reducing travel time and improving the overall transportation experience for students. In summary, the School Bus Tracking and Management System offers a holistic approach to school bus transportation, fostering safety, efficiency, and peace of mind for parents, administrators, and drivers alike. By leveraging advanced technology and intuitive design, this system is a valuable asset for educational institutions seeking to modernize and enhance their student transportation services.",
+    "keywords": [
+        "School Bus Tracking",
+        "Student Transportation Management",
+        "Real-Time Location Tracking",
+        "Route Optimization",
+        "Google Maps API",
+        "Parent Notifications",
+        "Operational Efficiency",
+        "User-Friendly Interface"
+    ],
+    "introduction": {
+        "problem": "Reducing the time for students to move between schools and homes. Save time for the interest of the student to increase the efficiency of education. Also, inform parents with any delay in the transportation process and try to predict the expected time for arrival. Ease of use of the application. Measuring the travel time between homes. Verify the selection of the best path to move between homes. Test all the features in the app.",
+        "aim": "Reducing the time for students to move between schools and homes. Save time for the interest of the student to increase the efficiency of education. Also, inform parents with any delay in the transportation process and try to predict the expected time for arrival. Ease of use of the application. Measuring the travel time between homes. Verify the selection of the best path to move between homes. Test all the features in the app",
+        "objectives": [
+      "The main objective of this work is concerned with reaching the shortest path for bus navigation between students’ homes until reaching their school and vice versa.",
+      "Also, on-time informing of any bus delays to both parents and bus managerial."
+    ]
+   },
+    "conclusion": {
+        "results": "Finally school bus tracking and management app help the users to track and manage the bus. For parents they can receive notifications for track their children, For admin it easy to manage the bus, easy to register new student and remove and assign student to specific bus and can send notifications to both student and driver, For driver he can see the locations of student home in google maps API, using google maps app to see the routes of student home.",
+        "future_work": "In the future, we may add some features to our app: 1- Automated preparation using a GPS device 2- Show one path to all student locations in the Google Maps interface 3- Show alternative paths according to certain criteria 4- Send notifications automatically using GPS 5- Sending notifications when the bus is late 6- Find out how much time is left for the bus to arrive 7- Use smart watch that help to track the students by using maps by using GPS"
+    },
+    "classification": {
+        "application": [
+            "Transportation & Mobility"
+        ],
+        "interest": [
+            "Internet of Things (IoT)",
+            "Mobile Development",
+            "Web Development"
+        ],
+        "acm": [
+            "C.2.4",
+            "H.4.2",
+            "J.7",
+            "H.3.5",
+            "C.3"
+        ],
+        "rdia": [
+            "Sustainable Environment & Supply of Essential Needs"
+        ]
+    }
+}

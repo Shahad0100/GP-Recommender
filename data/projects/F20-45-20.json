@@ -1,0 +1,63 @@
+{
+    "id": "F20-45-20",
+    "title": "Abnormal Event Detection for Video Surveillance (SecuritEye)",
+    "supervisor_name": " Wojdan Mohammed BinSaeedan ",
+    "supervisor_id": "WMnS",
+    "academic_year": "1445",
+    "semester": "20",
+    "abstract": "Abnormal event detection (AED) is a critical task in video surveillance systems, aiming to identify and report abnormal events. As the demand for enhanced security measures and the availability of surveillance cameras increase, effective AED algorithms have become essential. This project introduces a developed convolutional network model that utilizes Deep Learning (DL) techniques to detect abnormal events. This study seeks to evaluate the performance of DL algorithms, Convolutional Long Short-Term Memory (ConvLSTM), and Long-term Recurrent Convolutional Networks (LRCN), on the UCF crime dataset provided by the University of Central Florida (UCF crime). We conducted several experiments to implement ConvLSTM and LRCN and optimize their parameters on the target dataset. Our findings indicate that both models achieved an average accuracy of 94%, demonstrating promising results for this research. The LRCN model performed slightly better than the ConvLSTM, with an accuracy of 96%.",
+    "keywords": [
+        "Abnormal Event Detection",
+        "Video Surveillance",
+        "Deep Learning",
+        "ConvLSTM",
+        "Long-term Recurrent Convolutional Networks (LRCN)",
+        "Smart Cities",
+        "Public Safety",
+        "UCF Crime Dataset",
+        "Anomaly Detection",
+        "Computer Vision",
+        "Convolutional Neural Networks (CNN)",
+        "Recurrent Neural Networks (RNN)",
+        "Long Short-Term Memory (LSTM)",
+        "Real-time Monitoring",
+        "Security Systems",
+        "Crime Detection",
+        "Video Analysis",
+        "SecuritEye"
+    ],
+    "introduction": {
+        "problem": "The basic goal of smart cities is to produce a more efficient, sustainable, and most importantly secure environment. These smart cities use innovative technology and data-driven solutions to improve inhabitants' quality of life while also enhancing resource allocation and public safety. Surveillance cameras carry out an important role in security by monitoring objects and locations and assisting in the identification and mitigation of possible threats. However, the necessity to recognize and respond to abnormal events gathered by these surveillance systems poses a considerable problem. Abnormal incidents might range from robbery and vandalism to unforeseeable accidents or natural calamities. The prompt detection of such events is critical for the success of smart city security systems. These proactive and responsive systems are essential to the continued evolution of smart cities, which prioritize public safety. This project was done to answer the following questions that will achieve the goal of this project: • How is the process of detecting abnormal events carried out? • What are abnormal events and what are the results of current research and studies? • What dataset matches our requirements? • What model will be used? • What are the expected results of this project?",
+        "aim": "Our aim in this project is to develop an advanced video processing detection system in smart cities, ensuring integration through accurate detection of normal and abnormal events across diverse scenarios using the latest technologies in computer vision and AI",
+        "objectives": [
+          "Survey the previous studies related to our work and define the limitations.",
+          "Address the challenge of Abnormal Event Detection (AED) for video surveillance.",
+          "Develop an advanced AED for video surveillance for smart cities.",
+          "Evaluation and compare to enhance the effectiveness of security systems in smart cities by AED for video surveillance and to accurately assess the security situation to take appropriate action"
+        ]
+       },
+    "conclusion": {
+        "results": "Our study aims to present our findings and focus on the ConvLSTM and LRCN models. We are aware of the promising work of CNN in the field of detection and classification, as well as LSTM, but several models have been combined with each other. During our study, we created a ConvLSTM model and found good results, as the accuracy reached approximately 92% after the success of our attempts to prevent overfitting and by changing the parameters and experimenting more than road. With this great result, when we built the LRCN model (CNN + RNN + LSTM), we noticed that despite using the same data and preprocessing procedures, the LRCN model resulted in a significantly faster training process. The accuracy of the LRCN model also improves over time, reaching 96%. However, as mentioned we faced a hurdle due to limited data availability. To address this problem, we used cross-validation methods specifically K-Folds, which yielded promising results. We then ran tests on different parts of the data set using both models. We entered the video track that would be classified to test the two models. The prediction accuracy varied between the categories and was affected by similarities within the categories. However, after carefully analyzing the results, we discovered that LRCN was always more accurate. In contrast, the ConvLSTM model produced close to correct results. Based on these results, we can clearly state that LRCN is a more accurate choice for this type of data than ConvLSTM, as demonstrated by the results of our study.",
+        "future_work": "• Deploy the model for real-world use. • Train the model on numerous datasets to ensure generality across them. • Deploy the model to detect and classify in real-time. • The model is incorporated into a network connected to employee devices and sends notifications in the event of abnormal events."
+    },
+    "classification": {
+        "application": [
+            "Security & Privacy"
+        ],
+        "interest": [
+            "Artificial Intelligence / Machine Learning",
+            "Computer Vision",
+            "Data Science"
+        ],
+        "acm": [
+            "I.2.10",
+            "I.4.8",
+            "I.2.6",
+            "I.5.4",
+            "I.5.1"
+        ],
+        "rdia": [
+            "Economies of the Future"
+        ]
+    }
+}

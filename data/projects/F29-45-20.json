@@ -1,0 +1,64 @@
+{
+    "id": "F29-45-20",
+    "title": "Hudhud: AI-based Remote Rehabilitation",
+    "supervisor_name": " Manan Mohammed Almusallam ",
+    "supervisor_id": "MMmu",
+    "academic_year": "1445",
+    "semester": "20",
+    "abstract": "Rehabilitation is critical to regaining physical health, but its effectiveness depends on accurate monitoring and feedback mechanisms. Traditional methods often rely on manual observation, which requires more effort and time. Sometimes patients must travel to the hospital to receive physical therapy, and it may require more time or an increase in the number of physical therapists to serve a larger number of patients. This project presents an innovative solution that uses AI-based posture estimation to improve rehabilitation monitoring. The proposed system uses AI to automatically estimate body positions during rehabilitation exercises, providing healthcare professionals with an objective tool to evaluate the progression of patients. In addition, patients receive immediate visual feedback about their form, encouraging proper exercise performance and reducing the risk of injury. The system records and stores workout performance data, facilitating long-term trend tracking and analysis. This project bridges the gap between traditional rehabilitation monitoring methods and AI posture estimation, providing accurate real-time feedback during exercises, thereby improving quality and outcomes of rehabilitation programs. In this project, we utilized Mediapipe, a computer vision model, to recognize and count knee rehabilitation exercises. As the field of rehabilitation monitoring evolves, this approach will have a significant impact on the health of countless people throughout their recovery journey.",
+    "keywords": [
+        "Remote Rehabilitation",
+        "Artificial Intelligence",
+        "Pose Estimation",
+        "Computer Vision",
+        "Mediapipe",
+        "Physical Therapy",
+        "Healthcare Technology",
+        "Exercise Monitoring",
+        "Real-time Feedback",
+        "Patient Progress Tracking",
+        "Telerehabilitation",
+        "Knee Rehabilitation",
+        "Motion Detection",
+        "Body Posture Analysis",
+        "Injury Prevention",
+        "Therapeutic Exercises"
+    ],
+    "introduction": {
+        "problem": "Rehabilitation patients struggle with adherence to workouts protocols and therapists find it difficult to keep track of patients' progress at home. Traditional solutions lack personalized guidance and real-time feedback. There is a need to support remote rehabilitation monitoring by leveraging AI to provide healthcare professionals with an objective tool to assess patient progress and provide patients with instant feedback",
+        "aim": "The project aims to develop a remote rehabilitation monitoring system that uses AI to track patients’ progress while performing at-home exercise",
+        "objectives": [
+  "Investigate the traditional state of rehabilitation programs in healthcare facilities.",
+  "Review related applications and research efforts in the same domain to identify the requirements of the proposed system.",
+  "Analyse the requirements for remote rehabilitation monitoring.",
+  "Design the system according to requirements.",
+  "Implement the system using necessary tools.",
+  "Apply software testing to evaluate the system"
+]
+  },
+    "conclusion": {
+        "results": "Overall, our project is driven by the goal of improving pose estimation experience for users. \"HUDHUD\" is a pose estimation website for helping rehabilitation patients, to improve their recovering monitoring experience by connecting rehabilitation workouts with digital camera and enabling real-time and pose detection. \"HUDHUD\" provides three main features, perform exercise by patient, view progress for patients and physiotherapist to monitor patients and physiotherapist follow up with patients.",
+        "future_work": "The website developed in this project can only classify two rehab workouts. In the future, we will make it recognize multiple workouts. The project aims to expand its capabilities by implementing a more comprehensive and adaptable solution for human pose detection in rehabilitation scenarios."
+    },
+    "classification": {
+        "application": [
+            "Healthcare / Medical"
+        ],
+        "interest": [
+            "Artificial Intelligence / Machine Learning",
+            "Computer Vision",
+            "Human-Computer Interaction"
+        ],
+        "acm": [
+            "I.2.6",
+            "I.2.10",
+            "I.4.7",
+            "I.4.9",
+            "I.2.1",
+            "J.3"
+        ],
+        "rdia": [
+            "Health & Wellness"
+        ]
+    }
+}

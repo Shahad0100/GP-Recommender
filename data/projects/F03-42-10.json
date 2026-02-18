@@ -1,0 +1,54 @@
+{
+    "id": "F03-42-10",
+    "title": "Examining the effectiveness of pretrained language models for Arabic NLP tasks",
+    "supervisor_name": "Areeb Abdullah Alowisheq , Waad Mohammed Alhoshan",
+    "supervisor_id": "AAow, WMho",
+    "academic_year": "1442",
+    "semester": "10",
+    "abstract": "Using natural language processing (NLP) enables computers to understand, process, and analyze human language. Recently transformer models such as, BERT and others have gained increasing interest for their enhanced performance, especially in English. However further studies are need for Arabic NLP, particularly for smaller datasets. This research aims to study the effectiveness of recent pre-trained transformer models such as AraBERT for Arabic sentiment analysis compared to simpler SVM classifiers using various feature extraction techniques such as TF-IDF and word embeddings. Several classifiers are developedand compared. The comparisons are conducted using experiments using the Hotel Arabic- Reviews Dataset (HARD). Results is almost the same for SVM with both TF-IDF and Word2Vec features processing, but TF-IDF is slightly better. AraBERT Transformers results are better despite that we could not test it on the whole dataset.",
+    "keywords": [
+        "Arabic NLP",
+        "Sentiment Analysis",
+        "AraBERT",
+        "Transformer Models",
+        "SVM",
+        "TF-IDF",
+        "Hotel Arabic Reviews Dataset"
+    ],
+    "introduction": {
+        "problem": "By defining the Arabic human language, it's a rich language but it contains few resources and less explored on the level of syntax and computing. On the other hand, we find a lot of resources of syntax in the English language. So, we can find it's a huge challenge for Arabic language.",
+        "aim": "In this project aim to study the effectiveness of pretrained models for classifying the Arabic text on the domain of NLP tasks, based on sentiment analysis.",
+        "objectives": [
+      "To utilize an existing dataset, the Hotel Arabic Reviews Dataset (HARD), which contains hotel reviews in the Arabic language.",
+      "To pre-process the dataset to achieve good results in Arabic NLP tasks.",
+      "To apply feature extraction techniques using approaches such as TF-IDF and Word Embedding (e.g., Word2Vec).",
+      "To implement a text classification model using SVM for the dataset.",
+      "To implement a classification system based on pretrained transformer models, specifically AraBERT.",
+      "To compare the performance of SVM classifier models using TF-IDF and Word Embedding (e.g., Word2Vec) as features to the performance of the classification model built on the pretrained transformer model."
+    ]
+    },
+    "conclusion": {
+        "results": "The question is why the results of the TF-IDF was better than Word2Vec. Despite that we have used a rich Arabic trained model in Word2Vec, any missing words (exists in the Dataset and not in the trained model) trained model affects the results. So, the results might be better with word2Vec if we try another Trained-Model. We cannot compare the results of the AraBERT as we are only using small sample of the corpus. Fortunately, the AraBERT author did the same implementation on HARD Data and the results is share in his article. The author didn’t share all the values in his article but shared the average accuracy which 96.1. As expected, the accuracy of Deep learning transformers algorithm like AraBERT is better than SVM",
+        "future_work": "All the trials and challenges that have been done are listed as a reference for future work."
+    },
+    "classification": {
+        "application": [
+            "Business & Productivity"
+        ],
+        "interest": [
+            "Natural Language Processing",
+            "Artificial Intelligence / Machine Learning",
+            "Web Development"
+        ],
+        "acm": [
+            "I.2.7",
+            "I.2.6",
+            "I.5.1",
+            "I.5.4",
+            "H.3.1"
+        ],
+        "rdia": [
+            "Economies of the Future"
+        ]
+    }
+}

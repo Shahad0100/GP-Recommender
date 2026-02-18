@@ -1,0 +1,62 @@
+{
+    "id": "F24-45-20",
+    "title": "Botnet Attack Detection Using Machine Learning",
+    "supervisor_name": " Fatmah Ratiyan Alanazi ",
+    "supervisor_id": "FRan",
+    "academic_year": "1445",
+    "semester": "20",
+    "abstract": "The increasing threat of cyberattacks, particularly botnet activities, has underscored the necessity for adaptive defensive strategies. This research project aims to enhance botnet attack detection accuracy in the context of Internet of Things (IoT) environments through the application of machine learning. The project emphasizes the critical need to address IoT device security vulnerabilities and mitigate botnet threats. The research methodology comprises data preprocessing, feature selection, model training, and performance evaluation. The N-BaIoT dataset, which captures network traffic data before and after infection by the BASHLITE and Mirai botnets, is used for training and evaluation. To address the imbalanced nature of the dataset, resampling techniques are applied for each attack type. The data is subjected to various preprocessing steps, including cleaning, shuffling, feature extraction using Principal Component Analysis (PCA), and label encoding. The dataset is split into training and testing subsets, and data normalization and standardization techniques are applied. The models are trained using an ensemble technique called Voting Classifier, which combines the predictions of Decision Tree, KNN , and Support Vector Classifier models. Performance evaluation metrics such as accuracy, precision, recall, and F1 - score are used to assess the effectiveness of the models. The results are compared with existing research to provide insights into the strengths and weaknesses of the proposed approach. This project aims to contribute to the advancement of IoT security and the prevention of botnet attacks, ultimately enhancing the cybersecurity landscape",
+    "keywords": [
+        "Botnet Detection",
+        "Machine Learning",
+        "Ensemble Learning",
+        "Voting Classifier",
+        "Internet of Things (IoT) Security",
+        "Cybersecurity",
+        "N-BaIoT Dataset",
+        "BASHLITE Botnet",
+        "Mirai Botnet",
+        "Principal Component Analysis (PCA)",
+        "Decision Tree",
+        "K-Nearest Neighbors (KNN)",
+        "Support Vector Classifier (SVC)",
+        "Network Intrusion Detection",
+        "Anomaly Detection",
+        "Class Imbalance",
+        "Resampling Techniques",
+        "Feature Extraction"
+    ],
+    "introduction": {
+        "problem": "The problem addressed in this project is the need for effective identification and mitigation of botnet attacks in the realm of cybersecurity. With the increasing frequency and complexity of cyberattacks, traditional defensive tactics, such as deep packet inspection and intrusion detection, have limitations when it comes to effectively identifying and mitigating botnet attacks. As a result, there is a pressing need for innovative approaches that can enhance the accuracy of botnet attack detection and prevention.",
+        "aim": "The aim of this project is to improve the accuracy of botnet attack detection using machine learning techniques, with a specific emphasis on ensemble learning models.",
+        "objectives": [
+    "Employ ensemble learning, which combines multiple base learners, to create a more robust and accurate predictive model for detecting botnet attacks.",
+    "Leverage the collective intelligence of diverse models to address limitations inherent in individual algorithms, aiming to enhance the overall effectiveness of botnet detection.",
+    "Focus on achieving higher accuracy in botnet attack detection by capitalizing on the strengths of different models within the ensemble, effectively compensating for their respective weaknesses."
+]
+   },
+    "conclusion": {
+        "results": "The Voting model showed exceptional performance in accurately classifying instances within the N-BaIoT dataset, outperforming individual base learners. The Confusion Matrix analysis confirmed the model's success in correctly classifying instances across various classes, while the ROC Curve evaluation further reinforced its outstanding performance. Our proposed method surpassed accuracies achieved by other ensemble learning techniques discussed in the literature review, showcasing its potential as an efficient solution for botnet detection. These findings contribute to advancing the field by demonstrating the effectiveness of ensemble learning techniques in detecting botnet attacks. In the next chapter, we will provide a comprehensive summary of the project, including problem definition, objectives, design, and implementation, along with suggestions for future improvement.",
+        "future_work": "While our research has yielded promising results, there remain several opportunities for further exploration and improvement. Some potential avenues for future work include: Exploring Advanced Ensemble Techniques: Investigating more sophisticated ensemble methods or combining multiple ensemble approaches could further enhance the detection capabilities. Techniques such as meta-learning, ensemble pruning, or ensemble stacking could be explored to optimize the ensemble's decision-making process and improve model performance. Enhancing Feature Extraction: Experimenting with more advanced feature extraction techniques beyond Principal Component Analysis (PCA) could yield more discriminative features and enhance model generalization. Techniques such as deep learning-based feature extraction or domain-specific feature engineering tailored to IoT botnet traffic data could be explored to capture more nuanced patterns. Handling Class Imbalance: Further research is needed to explore the impact of different resampling techniques for handling class imbalance in the dataset. Experimenting with oversampling, undersampling, or hybrid approaches tailored to the characteristics of the N-BaIoT dataset could lead to better model performance and robustness. Evaluation on Multiple Datasets: Conducting experiments on multiple datasets would help assess the generalization capability of the model and evaluate its performance across different scenarios. Testing the model on diverse datasets would provide a more comprehensive understanding of its effectiveness and practical utility. Real-world Deployment: Evaluating the model's performance in real-world scenarios or deploying it in a practical environment for live monitoring and detection could provide valuable insights into its effectiveness and practical utility. This would involve testing the model's scalability, reliability, and efficiency in real-time botnet detection scenarios."
+    },
+    "classification": {
+        "application": [
+            "Security & Privacy"
+        ],
+        "interest": [
+            "Artificial Intelligence / Machine Learning",
+            "Cybersecurity",
+            "Data Science"
+        ],
+        "acm": [
+            "I.2.6",
+            "I.5.1",
+            "H.3.1",
+            "H.1.1",
+            "D.4.6"
+        ],
+        "rdia": [
+            "Economies of the Future"
+        ]
+    }
+}

@@ -1,0 +1,59 @@
+{
+    "id": "F11-42-20",
+    "title": "Energy-Efficient Data Reduction Techniques for Sensor-based ECG Monitoring Applications",
+    "supervisor_name": " Manan Mohammed Almusallam",
+    "supervisor_id": "MMmu",
+    "academic_year": "42",
+    "semester": "20",
+    "abstract": "Recently, deaths of people suffering from heart disease have increased. To save their lives and their health, an Internet of Things (IoT) trending technology provides an appropriate care to the patient. This technology known as remote heart monitoring that uses Wireless Body Sensor Network (WBSN) to provide real-time monitoring. On this project, we interested on detecting Arrhythmias, specifically the types that can be discovered by Heart Rate (HR) such as Bradycardia and Tachycardia. Wireless sensors are attached to human body to capture and transmit ECG signals to remote server. However, the size of data transmitted wirelessly from the sensor consumes a large portion of the sensors battery. To address this problem. We use data reduction techniques (ECG compression and feature extraction) to decrease the consumption by reducing the amount of transmitted data. Our goal in this project is to study and evaluate the effect of the data reduction techniques on sensors battery and maintain the level of efficiency. We design two algorithms one for each technique, the feature extraction algorithm achieved SE and P+ with an average of 95.48% and 100% respectively. However, compression algorithm achieved CR and average PRD with 75% and 45.11% respectively. We conclude our study by choosing the compression algorithm to be more suitable to be implemented on sensors.",
+    "keywords": [
+        "Remote Heart Monitoring",
+        "IoT Healthcare",
+        "Wireless Body Sensor Network (WBSN)",
+        "ECG Signal Processing",
+        "Arrhythmia Detection",
+        "Data Reduction Techniques",
+        "Feature Extraction",
+        "ECG Compression",
+        "Heart Rate Monitoring",
+        "Sensor Efficiency"
+    ],
+    "introduction": {
+        "problem": "The problem in the current wireless ECG sensors is it’s battery lifetime. Sensorbased ECG monitoring systems require continuous transmitting of ECG signals. This setting exhausts and shortens the sensor’s lifetime. We are trying to extend the life of the sensor by implementing data reduction techniques",
+        "aim": "to evaluate two data reduction techniques to clarify the best in terms of reducing the transmitted data, and maintaining the level of efficiency of the transmitted signals. The two techniques that will be compared are: 1-Compress ECG signals before transmitting them to the server. 2-Extract features from ECG signals so that only those features are transmitted to the server.",
+        "objectives":  [
+      "Investigate the related studies in both ECG feature extraction and ECG compression.",
+      "Design and implement an ECG signal compression algorithm.",
+      "Design and implement an ECG features extraction algorithm.",
+      "Evaluate the reliability of the algorithm's output in terms of the clinical condition of the signal.",
+      "Evaluate the energy consumption of each algorithm.",
+      "Evaluate the accuracy of each algorithm."
+    ]
+  },
+    "conclusion": {
+        "results": "In this study, we were aiming to solve the problem of the high consumptions on the sensors used in remote heart monitoring systems. To address this problem, we use data reduction techniques: Feature Extraction and ECG Compression to design one algorithms for each technique. We use GNU Octave to implement the two algorithms and apply them on several records from MIT-BIH, NSR, and QT databases. Our feature extraction algorithm adapted from Pan and Tomkins achieved SE and +P with an average of 95.48% and 100% respectively. However, the Haar-based compression algorithm achieved CR and average PRD with 57% and 45.11% respectively. After applying the reconstructed signal on Pan and Tompkins (PT) the algorithm achieved an average SE and +P with 90.91% and 99% respectively which means the algorithm does not effect the structure of the signal. Both algorithms achieve high results on the performance metrics and satisfactory clinical evaluation. However, in the energy consumption, the Haar-based compression algorithm consumes very low energy compared to the feature extrication algorithm. Finally, We conclude our study by choosing the Haar-based compression algorithm to be more suitable to be implemented on sensors used in remote heart monitoring systems.",
+        "future_work": "In future work, we are interested in optimizing the Threshold-based R peak detection by reducing the complexity of operations. Also, we interested in modifying the haar-based compression algorithm to have a minimum PRD to be used in more applications than the R peak detections. In addition, we want to extend the data set on all records of the databases used in this study."
+    },
+    "classification": {
+        "application": [
+            "Healthcare / Medical"
+        ],
+        "interest": [
+            "Embedded Systems",
+            "Data Science",
+            "Bioinformatics"
+        ],
+        "acm": [
+            "H.3.4",
+            "J.3",
+            "I.4.7",
+            "I.4.9",
+            "G.1.6",
+            "G.1.2",
+            "I.5.2"
+        ],
+        "rdia": [
+            "Health & Wellness"
+        ]
+    }
+}

@@ -1,0 +1,62 @@
+{
+    "id": "M05-45-20",
+    "title": "Musanif (مصنف): A Categorization and Product Information API for E-Commerce Product Images)",
+    "supervisor_name": "Sultan Shuraidah Al-dera",
+    "supervisor_id": "SSde",
+    "academic_year": "1445",
+    "semester": "20",
+    "abstract": "Musanif is an innovative API that leverages the power of AI and machine learning to revolutionize the way store owners add products to their apps and websites. W ith Musanif, store owners can easily upload product images and extract a plethora of information, including labels, categories, and other relevant data, all in an automated and ef ficient way . The Musanif API employs innovative image recognition algorithms to identify and categorize products accurately . By automating this process, it minimizes the need for manual data entry . store owners can significantly reduce the time and ef fort required to add new products to their apps and websites, allowing them to focus on other aspects of their business. Overall, Musanif aims to improve how store owners manage their products and streamline their operations. W ith its powerful AI and machine learning capabilities, Musanif is a game-changer for the e-commerce industry , of fering ef ficiency , accuracy , and convenience. Store_owner: With the growing demand for online shopping and the surge of products with their different types and information, store owners must keep track of their inventory and manually review and add products to their websites. They must also ensure that the product information is valid and helpful to customers. This process is difficult, time-consuming, and may lead to mislabeling or inaccurate product information.",
+    "keywords": [
+        "E-commerce",
+        "Image Recognition",
+        "Product Categorization",
+        "API Development",
+        "Machine Learning",
+        "AWS Rekognition",
+        "Web Scraping",
+        "Product Information Extraction",
+        "Automated Data Entry",
+        "Inventory Management",
+        "REST API",
+        "Image Classification",
+        "Product Labeling",
+        "React",
+        "Node.js",
+        "Cloud Computing",
+        "Retail Technology",
+        "Musanif"
+    ],
+    "introduction": {
+        "problem": "We would like to break the problem into two parts: the problem from the customer side and the problem from the store owner side. This differentiation will help us in finding the solution and how it will impact the customer and the store owner. Customer: In online stores, we often see sellers intentionally using the wrong categories and labels for their products, causing them to appear higher in search results, whether on the website itself or a seller on that website (e.g., Amazon, Noon). This practice is unethical and harmful to both the store owner and the customer. While it may give the seller an advantage, it worsens the shopping experience for the customer, as they are recommended different products than the ones they are looking for. Ultimately, this leads to customer dissatisfaction and erodes trust. By automating the process of product labeling and information retrieval, the solution strives to achieve the following outcomes: ● Enhanced Customer Experience: By accurately assigning labels to products, customers can rely on the authenticity and relevance of the provided tags. This enables easier product discovery and instills confidence in the website's labeling system. Customers will benefit from improved search results and can quickly find the products they are looking for . ● Str eamlined Pr oduct Management for Stor e Owners: The API will not only provide accurate product categorization but also of fer automated information retrieval about the products. This automation will significantly simplify the process of adding new products to the website. Store owners can focus on other aspects of their business while relying on the API to streamline and expedite the product management workflow . ● V ersatile Implementation: As an API, the solution can be implemented in various ways based on user requirements. Users can choose to integrate the API for individual product labeling or employ it to automate batch processing. The flexibility of the API allows it to be utilized in diverse scenarios and tailored to specific business needs",
+        "aim": "The proposed solution aims to develop an API that leverages machine learning and image recognition technology to identify products based on images and extract relevant labels for product categorization",
+        "objectives": ["Utilize AWS Rekognition for Product Identification: Integrate AWS Rekognition, a powerful image analysis service provided by Amazon Web Services, to enable accurate product identification based on images. Leverage the advanced machine learning capabilities of AWS Rekognition to train and deploy a model that can precisely recognize products and extract relevant labels. Ensure seamless integration with the API to leverage the capabilities of AWS Rekognition for efficient and accurate product identification.",
+        "Build an API: Build an API that utilizes the AWS Rekognition to receive image inputs and provide corresponding product labels and information. The API should be efficient, scalable, and capable of handling requests from various users.",
+        "Integrate Product Information Retrieval: Enhance the API to not only assign labels but also extract relevant information about the identified products. This includes retrieving details such as product descriptions, specifications, pricing, and other relevant data.",
+        "Ensure Reliability and Performance: Ensure that the API performs reliably with minimal downtime, handles concurrent requests effectively , and delivers responses in a timely manner . Implement appropriate measures to optimize performance and handle potential issues or errors gracefully"
+    ]
+  },
+    "conclusion": {
+        "results": "In conclusion, the Musanif project has successfully achieved its goal of automating and enhancing the process of adding products to e-commerce websites. By leveraging advanced technologies such as image recognition, web scraping, and REST API architecture, Musanif has revolutionized product data entry. Through the extraction of labels from provided images, Musanif simplifies the categorization and cataloging of products, saving valuable time and effort for businesses. The integration of web scraping enables the retrieval of extensive product information from the web, including names, colors, tags, descriptions, and specifications. This automated data gathering process ensures accurate and comprehensive product listings. By utilizing React for the front-end and Node.js with Express for the back-end, Musanif offers a robust and scalable architecture. The integration of AWS services further enhances the project's reliability and scalability, enabling seamless communication between the client and server. With Musanif, e-commerce businesses can significantly streamline their operations, reduce manual data entry tasks, and improve the overall efficiency and accuracy of their product listings. The project's success lies in its ability to automate processes, leverage advanced technologies, and provide valuable insights from images and web data. The Musanif project stands as a testament to the power of automation, intelligent data extraction, and modern web technologies. It opens up new possibilities for e-commerce businesses to save time, increase productivity, and enhance the user experience. Our project has a dependency on other services to operate; this is a good and a bad thing depending on how you look at it. On one hand, the services that we are using do provide a high level of accurate results. On the other hand, having a high dependency on other services will introduce problems such as service reliability issues, limited control over infrastructure and technology, performance bottlenecks, security and privacy risks, and potential service changes or discontinuation. These problems can impact the functionality, availability, flexibility, performance, and data security of our project. But we opted to use them for two main reasons. The first one was the time limitation, since we only had two months to build the project. The second reason is the lack of data to make our own model. Also, our system is relatively fast, but not as fast as it should be. It takes around 30–40 seconds at most, and that could lead to a lot of downtime for the users. We acknowledge that openly, and we are hopeful that in the future we will be able to overcome that limitation with better infrastructure and resources at our disposal.",
+        "future_work": "As the project draws to a close and we look to the future, we are excited and full of hope. As we look ahead, we've identified a number of areas we want to improve and develop further: Better Product Categorization: Our objective is to create a model that can recognize product names and categories with high accuracy in both Arabic and English. Improved Data Collection: Our goal is to investigate different ways to collect product information from the internet, avoiding dependence on Google Shopping and finding more effective and thorough solutions. Customer-Centric System: Our goal is to create a fully operational system that meets the demands of our clients. This entails offering API keys that are fully functional, a variety of subscription options, an intuitive dashboard, and a safe payment mechanism. Performance and Dependability: We will improve the overall speed, robustness, and dependability of our system by achieving the previously specified goals, leading to a more dependable and resilient solution."
+    },
+    "classification": {
+        "application": [
+            "Business & Productivity"
+        ],
+        "interest": [
+            "Computer Vision",
+            "Artificial Intelligence / Machine Learning",
+            "Web Development"
+        ],
+        "acm": [
+            "I.2.10",
+            "I.4.9",
+            "I.5.4",
+            "H.3.3",
+            "H.4.2"
+        ],
+        "rdia": [
+            "Economies of the Future"
+        ]
+    }
+}

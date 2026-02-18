@@ -1,0 +1,58 @@
+{
+    "id": "F08-42-20",
+    "title": "Detecting Malicious PowerShell Scripts using Machine Learning",
+    "supervisor_name": " Wojdan Mohammed BinSaeedan",
+    "supervisor_id": "WMnS",
+    "academic_year": "1442",
+    "semester": "20",
+    "abstract": "PowerShell is an important tool used to automate administrative tasks. It is an opensource tool that is incorporated in Windows machines and many other operating systems. Administrators utilize PowerShell to carry out a range of typical management tasks such as, adding and deleting accounts, editing groups, and accessing hard-to-find user information. However, researchers recently have found that PowerShell was used to execute different types of attacks. These attacks used PowerShell to either access privileged information, gain control of the entire machine or spread over an organization. This project presents MPSdetect, a detection model that relies on machine learning (ML) techniques to detect malicious PowerShell scripts. MPSdetect leverages stacked denoising autoencoders (SdA) during the process of extracting features, which is executed automatically. These features will be fed to a number of ML classifiers which are, support vector machine (SVM), Gaussian Naïve Bayes, Random Forest (RF) and eXtreme Gradiant Boosting (XGBoost), which are used to detect the malicious PowerShell scripts. MPSdetect is implemented and evaluated with respect to two collected datasets of varying ratios of benign and malicious PowerShell samples. The experiments conducted with the collected datasets were to evaluate the performance of the model. The result showed that MPSdetect with the XGBoost classifier, maintained a low 0.6% false positive rate (FPR) and a high 98% true positive rate (TPR).",
+    "keywords": [
+        "PowerShell Security",
+        "Malicious Script Detection",
+        "Machine Learning",
+        "Stacked Denoising Autoencoders (SdA)",
+        "Feature Extraction",
+        "Support Vector Machine (SVM)",
+        "Gaussian Naïve Bayes",
+        "Random Forest (RF)",
+        "XGBoost",
+        "Detection Model",
+        "Cybersecurity"
+    ],
+    "introduction": {
+        "problem": "Cybercriminals exploit PowerShell as a part of their attacks, since it provides substantial access to the operating system services. In practice, the attackers create a malicious PowerShell script to gain access to sensitive data and run administrative commands. Additionally, Powershell is preinstalled on Windows machines allowing attackers to leverage this feature to perform “Living of the Land” attacks. Even more, attackers are using automatic off-the-shelf tools to repeatedly obfuscate scripts, resulting in a more challenging detection scheme. Eventually, due to PowerShell’s flexible syntax, conventional detection methods proved to be insufficient. Therefore, in this project we develop the MPSdetect model to identify malicious PowerShell scripts. In order to achieve our aim, this project fixates on answering the following questions: • What are malicious PowerShell scripts? • What are the consequences of this kind of attacks? • What are the useful features that PowerShell provide that are used to do malicious attacks? • How could this attack be detected?",
+        "aim": "his project aims to detect malicious PowerShell scripts by building an efficient MPSdetect model leveraging ML techniques.",
+        "objectives": [
+      "Establish a background by examining both malicious and benign PowerShell scripts.",
+      "Define and understand the downsides of the previous researchers’ solutions.",
+      "Collect a dataset that consists of malicious and benign PowerShell scripts.",
+      "Perform a preprocessing step on the collected dataset.",
+      "Implement an algorithm to extract malicious and benign PowerShell features.",
+      "Integrate a classifier to achieve detection.",
+      "Evaluate the efficiency of the model."
+    ]
+ },
+    "conclusion": {
+        "results": "In this project, we studied attacks done using PowerShell scripts and constructed a MPSdetect model to distinguish the scripts’ maliciousness. To the extent of our awareness, this is the first work that fixates on an effortless feature extracting method to aid in the detection process’ simplicity. A comprehensive evaluation process has been performed on the model whilst comparing its performance with every experiment conducted. MPSdetect demonstrated satisfactory results with a low 0.6% FPR and a high 98% TPR. In the future, we aim to introduce unlabeled scripts due to their availability, making the model semi-supervised.",
+        "future_work": "Collect more malicious samples to keep the model effective with changing attack techniques. Extend the approach to detect attacks written in different programming languages. Increase the specificality of the classification into script’s malware families and assessing whether an introduction of a new malware family can be detected. Integrate the use of unlabeled scripts due to their availability, making the model semi-supervised. Develop a tool to detect malicious scripts raising warnings to users."
+    },
+    "classification": {
+        "application": [
+            "Security & Privacy"
+        ],
+        "interest": [
+            "Cybersecurity",
+            "Artificial Intelligence / Machine Learning"
+        ],
+        "acm": [
+            "D.4.6",
+            "I.2.6",
+            "I.5.4",
+            "K.6.5",
+            "D.2.4"
+        ],
+        "rdia": [
+            "Economies of the Future"
+        ]
+    }
+}
