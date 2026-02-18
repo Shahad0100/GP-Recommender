@@ -14,11 +14,21 @@ from typing import List, Dict
 # GRADE → WEIGHT  (grade 1–5 → embedding weight)
 # ─────────────────────────────────────────────────────────────────────────────
 
-GRADE_WEIGHTS = {5: 1.00, 4: 0.85, 3: 0.70, 2: 0.55, 1: 0.40}
+GRADE_WEIGHTS = {
+    "A+": 1.00,
+    "A": 0.95,
+    "B+": 0.85,
+    "B": 0.75,
+    "C+": 0.65,
+    "C": 0.55,
+    "D": 0.45,
+    "F": 0.30
+}
 
-def grade_to_weight(grade: float) -> float:
-    """Convert grade (1.0–5.0) to embedding weight."""
-    return GRADE_WEIGHTS.get(max(1, min(5, round(float(grade)))), 0.50)
+def grade_to_weight(grade: str) -> float:
+    """Convert letter grade to embedding weight."""
+    grade = grade.strip().upper()
+    return GRADE_WEIGHTS.get(grade, 0.50)
 
 
 # ─────────────────────────────────────────────────────────────────────────────
