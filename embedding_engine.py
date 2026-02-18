@@ -102,8 +102,6 @@ class EmbeddingEngine:
         with open(PROJECT_INDEX_PATH, "r", encoding="utf-8") as f:
             self.project_index: Dict[str, dict] = json.load(f)
 
-        with open(SUPERVISOR_INDEX_PATH, "r", encoding="utf-8") as f:
-            self.supervisor_index: Dict[str, dict] = json.load(f)
 
         self._load_project_matrix()
         self._build_bm25()
