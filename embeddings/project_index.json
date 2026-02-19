@@ -462,6 +462,56 @@
   },
   "F05-45-10": {
     "id": "F05-45-10",
+    "title": "Visualize: A Software Tool for Visualizing the Impact of Climate Change on Cities",
+    "supervisor_name": "Waad Mohammed Alhoshan, Tasniem Nasser Alyahya",
+    "supervisor_id": "WMho, TNya",
+    "academic_year": "1445",
+    "semester": "10",
+    "keywords": [
+      "Climate Change Visualization",
+      "Artificial Intelligence (AI)",
+      "Deep Learning",
+      "Cycle-Consistent Generative Adversarial Network (Cycle-GAN)",
+      "Image Processing",
+      "Computer Vision",
+      "Public Awareness",
+      "Environmental Education",
+      "Urban Impact",
+      "Sandstorm Visualization",
+      "AI Bot",
+      "DeepAI",
+      "Climate Communication",
+      "Global Warming",
+      "Sustainable Communities",
+      "Image Generation"
+    ],
+    "abstract": "Climate change is the most common issue facing our planet today, but public awareness and understanding of this issue remain limited for several reasons. The complexity of the topic itself makes it difficult for communities to understand. The media plays an important role in spreading awareness of climate change, but media coverage is often sporadic and contentious, which reduces the coverage of the impacts of climate change and potential solutions. Economic factors also influence public awareness of climate change. There may be powerful economic interests that depend on industries contributing to carbon emissions, leading to resistance to adopting policies aimed at reducing those emissions. This report aims to design and implement a software tool called \"visualize\" that employs techniques from Artificial Intelligence (AI), Deep Learning (DL), and Image Processing, to depict the impact of climate change on cities. By making the consequences of climate change more tangible. Hopefully, this tool will increase public awareness and promote understanding of climate change. Current approaches to awareness of climate change impacts are often complex and technical, making them difficult to access and understand for the public. Additionally, these approaches often focus on global or regional scales, which can make it difficult for people to see the impact of climate change on their own communities. This project addresses these gaps through the tool, which will be able to generate visualizations of climate change for their cities, allowing users to see how their own community will be affected by climate change. This can help to raise awareness and promote understanding of climate change and empower people to take action to reduce their carbon emissions and protect their communities through the use of \"visualize\" developed by using Cycle-GAN and AI bot. We trained the model using Cycle-GAN by dividing the dataset into 80% training and 20% testing. Also, we utilized the DeepAI bot to offer a new perspective of image generating approach. The tool has the potential to increase public understanding of climate change's effects on cities, motivating individuals to act towards addressing this global issue",
+    "application": [
+      "Sustainability & Environment"
+    ],
+    "interest": [
+      "Artificial Intelligence / Machine Learning",
+      "Computer Vision",
+      "Data Science"
+    ],
+    "rdia": [
+      "Sustainable Environment & Supply of Essential Needs"
+    ],
+    "acm": [
+      "I.2.6",
+      "I.4.9",
+      "I.3.8",
+      "D.2.0",
+      "I.2.1",
+      "I.2.10",
+      "I.4.0",
+      "H.5.2",
+      "G.4",
+      "I.4.8"
+    ]
+  },
+  "F05-45-20": {
+    "id": "F05-45-20",
     "title": "Walyattawafou: Crowd Counting in Hajj and Umrah",
     "supervisor_name": " Haifa Hamad Alkasem ",
     "supervisor_id": "HHka",

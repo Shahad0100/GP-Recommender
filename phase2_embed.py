@@ -169,7 +169,7 @@ def embed_projects(
             print(f"  [WARNING] No text segments for project {pid}, skipping.")
             skipped += 1
             continue
-
+        
         vector = encode_late_fusion(model, segments)
         save_vector(vector, os.path.join(PROJECTS_EMB_DIR, f"{pid}.npy"))
 
