@@ -35,10 +35,13 @@ def grade_to_weight(grade: str) -> float:
 # DATA LOADERS
 # ─────────────────────────────────────────────────────────────────────────────
 
+
 def load_courses(path: str) -> Dict[str, dict]:
     """Load courses.json → {course_code: course_dict}"""
     with open(path, "r", encoding="utf-8") as f:
         data = json.load(f)
+    # Convert list → dict for constant-time lookup
+    # Access by course_code becomes O(1) instead of O(n) list search
     return {c["course_code"]: c for c in data["courses"]}
 
 
@@ -191,7 +194,6 @@ def get_project_segments(project: dict, acm_map: Dict[str, str]) -> List[str]:
     # ACM descriptions as one segment
     if acm_texts:
         segments.append(" ".join(acm_texts))
-
     return [s.strip() for s in segments if s.strip()]
 
 
@@ -232,6 +234,7 @@ def encode_late_fusion_engine(model, segments: list) -> np.ndarray:
     """
     Late Fusion encoding for use inside EmbeddingEngine at query time.
     Encodes each text segment separately, then averages the vectors.
+    Prevents long-text dilution and improves retrieval accuracy
     """
     if not segments:
         raise ValueError("No segments provided.")
