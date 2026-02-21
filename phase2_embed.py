@@ -235,8 +235,7 @@ def main():
     print("  PHASE II COMPLETE")
     print(f"  All vectors saved to: {EMBEDDINGS_DIR}/")
     print("=" * 60)
-    print("\nNext step: run the recommender system.")
-    print("  from recommender_system import RecommenderSystem")
+    
 
 
 if __name__ == "__main__":
