@@ -18,7 +18,6 @@ What gets embedded:
 Output saved to:
   embeddings/courses/{course_code}.npy
   embeddings/projects/{project_id}.npy
-  embeddings/supervisors/{supervisor_id}.npy
   embeddings/project_index.json   ← metadata for all projects
   
 
