@@ -165,12 +165,11 @@ def get_project_segments(project: dict, acm_map: Dict[str, str]) -> List[str]:
     keywords = project.get("keywords", [])
     if keywords:
         segments.append(" ".join(keywords))
-
-    if intro.get("problem"):
-        segments.append(intro["problem"])
-
-    if intro.get("aim"):
-        segments.append(intro["aim"])
+   
+    # problem and aim joined as one segment
+    problem_aim = " ".join(filter(None, [intro.get("problem"), intro.get("aim")]))
+    if problem_aim:
+        segments.append(problem_aim)
 
     objectives = intro.get("objectives", [])
     if objectives:
