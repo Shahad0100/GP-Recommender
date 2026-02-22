@@ -136,13 +136,12 @@ def get_project_segments(project: dict, acm_map: Dict[str, str]) -> List[str]:
       1. title
       2. abstract
       3. keywords joined
-      4. problem statement
-      5. aim
-      6. objectives joined
-      7. results
-      8. future work
-      9. domain labels (application + interest + rdia joined)
-     10. ACM descriptions (codes resolved to text)
+      4. problem statement + aim
+      5. objectives joined
+      6. results
+      7. future work
+      8. domain labels (application + interest + rdia joined)
+     9. ACM descriptions (codes resolved to text)
 
     Excludes: id, supervisor_name, supervisor_id, academic_year, semester, acm codes directly
     """
