@@ -342,9 +342,4 @@ if __name__ == "__main__":
     print(f"Detailed results printed above for each successful group")
     print(f"Individual results saved in 'test_results/' directory")
     if all_results:
-        print(f"Combined results saved in 'test_results/all_results.json'")
-    
-    if failed_groups > 0:
-        print(f"\nNote: If you see errors about grade format, you may need to add")
-        print("   the grade conversion functions back. Your file has letter grades")
-        print("   (A+, B+, etc.) but the system might expect numeric grades.")
+        print(f"Combined results saved in 'test_results/all_results.json'") 

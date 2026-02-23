@@ -2,20 +2,20 @@
   "group_id": "G003",
   "group_profile": {
     "selected_interests": [
-      "Bioinformatics",
       "Robotics",
-      "Game Development",
-      "Embedded Systems",
-      "Network Systems",
+      "Cybersecurity",
       "Internet of Things (IoT)",
-      "Cybersecurity"
+      "Embedded Systems",
+      "Game Development",
+      "Bioinformatics",
+      "Network Systems"
     ],
     "selected_applications": [
+      "Sustainability & Environment",
+      "Entertainment & Media",
       "Transportation & Mobility",
       "Healthcare / Medical",
-      "Finance & Economics",
-      "Entertainment & Media",
-      "Sustainability & Environment"
+      "Finance & Economics"
     ],
     "selected_rdia": [
       "Energy & Industrial Leadership",

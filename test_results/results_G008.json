@@ -3,14 +3,14 @@
   "group_profile": {
     "selected_interests": [
       "Robotics",
-      "Embedded Systems",
-      "Network Systems",
       "Distributed Systems",
-      "Internet of Things (IoT)"
+      "Internet of Things (IoT)",
+      "Embedded Systems",
+      "Network Systems"
     ],
     "selected_applications": [
-      "Business & Productivity",
-      "Transportation & Mobility"
+      "Transportation & Mobility",
+      "Business & Productivity"
     ],
     "selected_rdia": [
       "Energy & Industrial Leadership"

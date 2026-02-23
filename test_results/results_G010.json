@@ -2,17 +2,17 @@
   "group_id": "G010",
   "group_profile": {
     "selected_interests": [
-      "Cloud Computing",
-      "Software Engineering",
-      "Network Systems",
       "Blockchain",
       "Cybersecurity",
-      "Database Systems"
+      "Database Systems",
+      "Software Engineering",
+      "Cloud Computing",
+      "Network Systems"
     ],
     "selected_applications": [
+      "Government & Public Sector",
       "Finance & Economics",
-      "Security & Privacy",
-      "Government & Public Sector"
+      "Security & Privacy"
     ],
     "selected_rdia": [
       "Economies of the Future"

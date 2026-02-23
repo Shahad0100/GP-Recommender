@@ -2,23 +2,23 @@
   "total_groups": 15,
   "successful": 15,
   "failed": 0,
-  "timestamp": "2026-02-23 17:00:01.245035",
+  "timestamp": "2026-02-23 17:12:21.543343",
   "results": [
     {
       "group_id": "G001",
       "group_profile": {
         "selected_interests": [
           "Computer Vision",
-          "Artificial Intelligence / Machine Learning",
-          "Natural Language Processing"
+          "Natural Language Processing",
+          "Artificial Intelligence / Machine Learning"
         ],
         "selected_applications": [
-          "Healthcare / Medical",
-          "Government & Public Sector",
           "Security & Privacy",
           "Education",
-          "Business & Productivity",
-          "Finance & Economics"
+          "Government & Public Sector",
+          "Healthcare / Medical",
+          "Finance & Economics",
+          "Business & Productivity"
         ],
         "selected_rdia": [
           "Economies of the Future",
@@ -597,17 +597,17 @@
       "group_id": "G002",
       "group_profile": {
         "selected_interests": [
-          "Web Development",
+          "Database Systems",
           "Cloud Computing",
-          "Database Systems"
+          "Web Development"
         ],
         "selected_applications": [
-          "Education",
-          "Social Good & Community"
+          "Social Good & Community",
+          "Education"
         ],
         "selected_rdia": [
-          "Sustainable Environment & Supply of Essential Needs",
-          "Economies of the Future"
+          "Economies of the Future",
+          "Sustainable Environment & Supply of Essential Needs"
         ]
       },
       "recommended_projects": [
@@ -1151,20 +1151,20 @@
       "group_id": "G003",
       "group_profile": {
         "selected_interests": [
-          "Bioinformatics",
           "Robotics",
-          "Game Development",
-          "Embedded Systems",
-          "Network Systems",
+          "Cybersecurity",
           "Internet of Things (IoT)",
-          "Cybersecurity"
+          "Embedded Systems",
+          "Game Development",
+          "Bioinformatics",
+          "Network Systems"
         ],
         "selected_applications": [
+          "Sustainability & Environment",
+          "Entertainment & Media",
           "Transportation & Mobility",
           "Healthcare / Medical",
-          "Finance & Economics",
-          "Entertainment & Media",
-          "Sustainability & Environment"
+          "Finance & Economics"
         ],
         "selected_rdia": [
           "Energy & Industrial Leadership",
@@ -1715,17 +1715,17 @@
       "group_id": "G004",
       "group_profile": {
         "selected_interests": [
-          "DevOps",
-          "Mobile Development",
-          "Human-Computer Interaction",
           "Cloud Computing",
-          "Database Systems"
+          "Database Systems",
+          "Mobile Development",
+          "DevOps",
+          "Human-Computer Interaction"
         ],
         "selected_applications": [
-          "Business & Productivity",
+          "Entertainment & Media",
           "Healthcare / Medical",
           "Government & Public Sector",
-          "Entertainment & Media"
+          "Business & Productivity"
         ],
         "selected_rdia": [
           "Economies of the Future",
@@ -2291,12 +2291,12 @@
         "selected_interests": [
           "Computer Vision",
           "Embedded Systems",
-          "Artificial Intelligence / Machine Learning",
-          "Internet of Things (IoT)"
+          "Internet of Things (IoT)",
+          "Artificial Intelligence / Machine Learning"
         ],
         "selected_applications": [
-          "Healthcare / Medical",
-          "Sustainability & Environment"
+          "Sustainability & Environment",
+          "Healthcare / Medical"
         ],
         "selected_rdia": [
           "Health & Wellness"
@@ -2862,26 +2862,26 @@
       "group_id": "G006",
       "group_profile": {
         "selected_interests": [
-          "DevOps",
           "Robotics",
+          "Blockchain",
           "Computer Vision",
-          "Drones",
-          "Software Engineering",
           "Distributed Systems",
-          "Blockchain"
+          "Software Engineering",
+          "Drones",
+          "DevOps"
         ],
         "selected_applications": [
+          "Sustainability & Environment",
+          "Energy & Industrial Leadership",
+          "Government & Public Sector",
           "Transportation & Mobility",
           "Finance & Economics",
-          "Government & Public Sector",
-          "Business & Productivity",
-          "Energy & Industrial Leadership",
-          "Sustainability & Environment"
+          "Business & Productivity"
         ],
         "selected_rdia": [
-          "Sustainable Environment & Supply of Essential Needs",
           "Energy & Industrial Leadership",
-          "Economies of the Future"
+          "Economies of the Future",
+          "Sustainable Environment & Supply of Essential Needs"
         ]
       },
       "recommended_projects": [
@@ -3445,15 +3445,15 @@
       "group_id": "G007",
       "group_profile": {
         "selected_interests": [
-          "Drones",
           "Data Science",
           "Internet of Things (IoT)",
-          "Cloud Computing",
-          "Artificial Intelligence / Machine Learning"
+          "Artificial Intelligence / Machine Learning",
+          "Drones",
+          "Cloud Computing"
         ],
         "selected_applications": [
-          "Social Good & Community",
-          "Sustainability & Environment"
+          "Sustainability & Environment",
+          "Social Good & Community"
         ],
         "selected_rdia": [
           "Sustainable Environment & Supply of Essential Needs"
@@ -4017,14 +4017,14 @@
       "group_profile": {
         "selected_interests": [
           "Robotics",
-          "Embedded Systems",
-          "Network Systems",
           "Distributed Systems",
-          "Internet of Things (IoT)"
+          "Internet of Things (IoT)",
+          "Embedded Systems",
+          "Network Systems"
         ],
         "selected_applications": [
-          "Business & Productivity",
-          "Transportation & Mobility"
+          "Transportation & Mobility",
+          "Business & Productivity"
         ],
         "selected_rdia": [
           "Energy & Industrial Leadership"
@@ -4598,17 +4598,17 @@
           "Web Development",
           "Game Development",
           "Computer Graphics",
-          "Human-Computer Interaction",
-          "Mobile Development"
+          "Mobile Development",
+          "Human-Computer Interaction"
         ],
         "selected_applications": [
-          "Education",
           "Social Good & Community",
-          "Entertainment & Media"
+          "Entertainment & Media",
+          "Education"
         ],
         "selected_rdia": [
-          "Sustainable Environment & Supply of Essential Needs",
           "Economies of the Future",
+          "Sustainable Environment & Supply of Essential Needs",
           "Health & Wellness"
         ]
       },
@@ -5164,17 +5164,17 @@
       "group_id": "G010",
       "group_profile": {
         "selected_interests": [
-          "Cloud Computing",
-          "Software Engineering",
-          "Network Systems",
           "Blockchain",
           "Cybersecurity",
-          "Database Systems"
+          "Database Systems",
+          "Software Engineering",
+          "Cloud Computing",
+          "Network Systems"
         ],
         "selected_applications": [
+          "Government & Public Sector",
           "Finance & Economics",
-          "Security & Privacy",
-          "Government & Public Sector"
+          "Security & Privacy"
         ],
         "selected_rdia": [
           "Economies of the Future"
@@ -5745,8 +5745,8 @@
           "Natural Language Processing"
         ],
         "selected_applications": [
-          "Education",
-          "Security & Privacy"
+          "Security & Privacy",
+          "Education"
         ],
         "selected_rdia": [
           "Economies of the Future"
@@ -6318,34 +6318,34 @@
       "group_id": "G012",
       "group_profile": {
         "selected_interests": [
-          "DevOps",
-          "Web Development",
           "Robotics",
-          "Embedded Systems",
-          "Network Systems",
-          "Mobile Development",
-          "Data Science",
           "Blockchain",
-          "Internet of Things (IoT)",
-          "Cloud Computing",
+          "Data Science",
           "Cybersecurity",
-          "Artificial Intelligence / Machine Learning"
+          "Internet of Things (IoT)",
+          "Embedded Systems",
+          "Web Development",
+          "Artificial Intelligence / Machine Learning",
+          "Mobile Development",
+          "DevOps",
+          "Cloud Computing",
+          "Network Systems"
         ],
         "selected_applications": [
+          "Sustainability & Environment",
+          "Security & Privacy",
+          "Education",
+          "Social Good & Community",
+          "Government & Public Sector",
           "Transportation & Mobility",
           "Healthcare / Medical",
           "Finance & Economics",
-          "Government & Public Sector",
-          "Security & Privacy",
-          "Education",
-          "Business & Productivity",
-          "Social Good & Community",
-          "Sustainability & Environment"
+          "Business & Productivity"
         ],
         "selected_rdia": [
-          "Sustainable Environment & Supply of Essential Needs",
-          "Economies of the Future",
           "Energy & Industrial Leadership",
+          "Economies of the Future",
+          "Sustainable Environment & Supply of Essential Needs",
           "Health & Wellness"
         ]
       },
@@ -6897,8 +6897,8 @@
       "group_id": "G013",
       "group_profile": {
         "selected_interests": [
-          "Artificial Intelligence / Machine Learning",
-          "Data Science"
+          "Data Science",
+          "Artificial Intelligence / Machine Learning"
         ],
         "selected_applications": [
           "Healthcare / Medical"
@@ -7459,9 +7459,9 @@
           "Artificial Intelligence / Machine Learning"
         ],
         "selected_applications": [
+          "Security & Privacy",
           "Entertainment & Media",
-          "Transportation & Mobility",
-          "Security & Privacy"
+          "Transportation & Mobility"
         ],
         "selected_rdia": [
           "Energy & Industrial Leadership",
@@ -8047,12 +8047,12 @@
       "group_id": "G015",
       "group_profile": {
         "selected_interests": [
-          "Web Development",
-          "Database Systems"
+          "Database Systems",
+          "Web Development"
         ],
         "selected_applications": [
-          "Education",
-          "Finance & Economics"
+          "Finance & Economics",
+          "Education"
         ],
         "selected_rdia": [
           "Economies of the Future"

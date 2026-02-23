@@ -3,16 +3,16 @@
   "group_profile": {
     "selected_interests": [
       "Computer Vision",
-      "Artificial Intelligence / Machine Learning",
-      "Natural Language Processing"
+      "Natural Language Processing",
+      "Artificial Intelligence / Machine Learning"
     ],
     "selected_applications": [
-      "Healthcare / Medical",
-      "Government & Public Sector",
       "Security & Privacy",
       "Education",
-      "Business & Productivity",
-      "Finance & Economics"
+      "Government & Public Sector",
+      "Healthcare / Medical",
+      "Finance & Economics",
+      "Business & Productivity"
     ],
     "selected_rdia": [
       "Economies of the Future",
