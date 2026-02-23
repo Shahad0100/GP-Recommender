@@ -1,0 +1,1765 @@
+{
+  "F01-42-20": {
+    "id": "F01-42-20",
+    "title": "COVID-19 Detection Using Deep Neural Networks",
+    "supervisor_name": "Siwar Abdelfattah Rekik",
+    "supervisor_id": "SAki",
+    "academic_year": "1442",
+    "semester": "20",
+    "keywords": [
+      "COVID-19",
+      "Deep Neural Networks",
+      "YOLOv5",
+      "Chest X-ray Images",
+      "Detection"
+    ],
+    "abstract": "On December 31, 2019, the first confirmed case of the COVID-19 pandemic was announced. COVID-19 disease causes a dry cough, muscle pain, headache, fever, loss of smell and taste, shortness of breath, and more symptoms. Also, some infected patients may not have any symptoms at all; that makes the detection of those patients challenging. However, since that time, many researchers have worked in this field doing different studies, research, and experiments in order to find a solution to the COVID-19 detection problem. This research project’s importance came from the significant need to limit the spreading of the COVID-19 pandemic to save more lives as much as we can, and that is our high goal. However, this research project aimed to develop a model for detecting COVID-19 patients using deep neural networks with chest x-ray images. We use chest x-ray because it is often used for emergency diagnosis due to its fast and easy to use and a small amount of radiation. Furthermore, we used the YOLOv5 model that has been useful to accomplish our goal. We finally found that the fast and accurate way to detect COVID-19 infected people with accuracy equals approximately 99.7%, and we achieved our purpose.",
+    "application": [
+      "Healthcare / Medical"
+    ],
+    "interest": [
+      "Computer Vision",
+      "Artificial Intelligence / Machine Learning",
+      "Bioinformatics"
+    ],
+    "rdia": [
+      "Health & Wellness"
+    ],
+    "acm": [
+      "I.2.6",
+      "I.2.10",
+      "I.4.9",
+      "I.4.7",
+      "I.5.1",
+      "I.2.1",
+      "J.3"
+    ]
+  },
+  "F01-43-10": {
+    "id": "F01-43-10",
+    "title": "Treatment of stuttering problems in children Application - TSA",
+    "supervisor_name": "Amal Suleiman Alsaif",
+    "supervisor_id": "ASsa",
+    "academic_year": "1443",
+    "semester": "10",
+    "keywords": [
+      "Treatment",
+      "Speech",
+      "Recognition",
+      "Stuttering",
+      "Application",
+      "Therapist",
+      "Analyze",
+      "Error findings",
+      "Speech problems",
+      "Children"
+    ],
+    "abstract": "The project is an application focused on treating children who suffer from stuttering problems in speech, allowing them to practice at home without needing to visit a specialist. It presents explanatory videos understandable to children, followed by exercises where the child repeatedly pronounces sentences. Finally, the child is trained to synchronize inhalation and exhalation with natural speech duration. These exercises are carefully designed under the supervision and guidance of speech therapists. The application specifically targets Arabic-speaking children, addressing a gap in available apps, which primarily serve speakers of other languages such as English.",
+    "application": [
+      "Healthcare / Medical"
+    ],
+    "interest": [
+      "Artificial Intelligence / Machine Learning",
+      "Natural Language Processing",
+      "Mobile Development"
+    ],
+    "rdia": [
+      "Health & Wellness"
+    ],
+    "acm": [
+      "I.2.7",
+      "I.2.1",
+      "I.5.4",
+      "H.5.2",
+      "J.3"
+    ]
+  },
+  "F01-45-20": {
+    "id": "F01-45-20",
+    "title": "Baasyir:A YOLO Based approach to Assist Visually  Impaired People by leveraging Smart Glasses System",
+    "supervisor_name": "Dhouha Ahmed Ben Noureddine",
+    "supervisor_id": "DAur",
+    "academic_year": "1445",
+    "semester": "20",
+    "keywords": [
+      "Baasyir Smart glasseses",
+      "Deep Learning",
+      "Object Detection",
+      "YOLOv7",
+      "YOLOv7-tiny",
+      "Baasyir dataset",
+      "Furniture-detection dataset",
+      "Raspberry Pi"
+    ],
+    "abstract": "In this project, we aim to address the challenges faced by blind individuals due to resource limitations by introducing the ’Baasyir’ smart glasses system, incorporating Deep Learning for obstacle detection. The system aims to assist blind people in recognizing objects, overcoming obstacles, and enhancing their independence. We proposed an approach that integrates two models the YOLO version 7 real-time object detection algorithm and the YOLOv7-tiny model, supported by an extensive literature review and we used relevant datasets. The developed approach’s performance is evaluated using metrics such as Precision, Recall, F1-Score, IoU, and mAP. We conducted multiple experiments with YOLOv7 and YOLOv7-tiny implementation and parameter optimization on target datasets that showed promising results, achieving a higher mAP. The object detection models YOLOv7_Furniture, YOLOv7-tiny_Furniture, YOLOv7_Baasyir, and YOLOv7-tiny_Baasyir achieved detection accuracies of 75.3%, 71.1%, 49.4%, and 42.7%, respectively, on their respective datasets. Following the implementation of the object detection model, the Baasyir smart glass system was developed on the Raspberry Pi 3 Model B+. We concluded by suggesting potential future directions and areas for further research in this field",
+    "application": [
+      "Healthcare / Medical"
+    ],
+    "interest": [
+      "Computer Vision",
+      "Embedded Systems",
+      "Artificial Intelligence / Machine Learning"
+    ],
+    "rdia": [
+      "Health & Wellness"
+    ],
+    "acm": [
+      "J.3",
+      "I.5.5",
+      "I.4.9",
+      "I.2.10",
+      "I.2.1",
+      "I.2.6",
+      "G.4"
+    ]
+  },
+  "F02-42-20": {
+    "id": "F02-42-20",
+    "title": "Online Context-Aware Recommender System",
+    "supervisor_name": " Meznah Rashid Almutairy",
+    "supervisor_id": "MRmu",
+    "academic_year": "1442",
+    "semester": "20",
+    "keywords": [
+      "Recommender System",
+      "Large-scale",
+      "Online Learning",
+      "Context-aware",
+      "Multi-armed Bandit",
+      "Reinforcement Learning",
+      "Clustering"
+    ],
+    "abstract": "Large internet-based services companies such as Amazon and Netflix reported that a very large percentage of what users watches, or purchase are from the Recommender System. Due to the exponential increase in the number of users and items every day, it has become necessary to have a large-scale Recommender System. The data arrival could be very fast and dense with trends. So, there is a need to observe these data and reflect the new trends fast, which can be done through online learning. It’s also important to personalize user’s recommendations in order to increase their satisfaction by considering their current context in the process of recommendation. In this research project,we respond to all of the above-mentioned current needs in Recommender Systems by building a large-scale context-aware online-based Recommender System. We model an online context-aware Recommender System as a contextual multi-armed bandit problem, which is a classical reinforcement learning problem. We extended the state-of-art reinforcement learning algorithms LinTS and LinUCB and explored their capability by designing a large-scale algorithms that solve contextual multi-armed bandit problem for a large number of items by clustering items into clusters. We compared our proposed ClinTS and CLinUCB algorithm with state-of-art algorithms LinTS and LinUCB. Our experimental show a decrease in the Running Time (RT) of the proposed algorithms CLinTS and CLinUCB from its extended from state-of-art algorithms LinTS and LinUCB by 27.1% and 4.32%, respectively. Simultaneously, there is no decrease in the cumulative Click Through Rate (CTR) for CLinTS and a very relatively small decrease in CLinUCB by 1.29%.",
+    "application": [
+      "Entertainment & Media"
+    ],
+    "interest": [
+      "Artificial Intelligence / Machine Learning",
+      "Distributed Systems",
+      "Data Science"
+    ],
+    "rdia": [
+      "Economies of the Future"
+    ],
+    "acm": [
+      "I.2.6",
+      "I.2.8",
+      "I.2.11",
+      "H.3.3",
+      "H.1.2",
+      "H.4.2",
+      "F.2.0",
+      "I.2.1",
+      "G.3"
+    ]
+  },
+  "F02-43-10": {
+    "id": "F02-43-10",
+    "title": "Facial Expression Recognition for Investigations",
+    "supervisor_name": "Lamees Abdullah Alhazzaa",
+    "supervisor_id": "LAha",
+    "academic_year": "1443",
+    "semester": "10",
+    "keywords": [
+      "Facial Expression Analysis",
+      "Non-Verbal Communication",
+      "Emotion Recognition",
+      "Computer Vision",
+      "Police Investigations",
+      "Interview Analysis",
+      "Human Behavior Analysis",
+      "Automated Facial Recognition",
+      "Deception Detection"
+    ],
+    "abstract": "Facial expressions are non-verbal movements that convey a person's emotions, such as happiness, sadness, surprise, or fear. These expressions can indicate a person's state in various situations, particularly when verbal communication is limited due to disabilities, fear, or immaturity. In law enforcement, understanding facial expressions is crucial for evaluating the truthfulness of interviewees. This project develops a system that automatically recognizes and analyzes human facial expressions to assist investigators in interpreting emotions during police interrogations, improving the quality and accuracy of investigations.",
+    "application": [
+      "Security & Privacy"
+    ],
+    "interest": [
+      "Computer Vision",
+      "Artificial Intelligence / Machine Learning",
+      "Cybersecurity"
+    ],
+    "rdia": [
+      "Health & Wellness"
+    ],
+    "acm": [
+      "I.2.10",
+      "I.4.8",
+      "I.5.4",
+      "I.4.9",
+      "J.7"
+    ]
+  },
+  "F02-45-20": {
+    "id": "F02-45-20",
+    "title": "DeepFake Videos Detection Based on A Hybrid Model Using Deep Learning",
+    "supervisor_name": "Waleed Ahmed Alrodhan",
+    "supervisor_id": "WAro",
+    "academic_year": "1445",
+    "semester": "20",
+    "keywords": [
+      "DeepFake Detection",
+      "Deep Learning",
+      "Convolutional Neural Network (CNN)",
+      "Multi-Layer Perceptron (MLP)",
+      "Hybrid Model",
+      "Ensemble Learning",
+      "Facial Landmark Detection",
+      "Digital Forensics",
+      "Media Authentication",
+      "Video Manipulation",
+      "FaceForensics++",
+      "DFDC Dataset"
+    ],
+    "abstract": "The exponential growth of digital data in various domains, such as digital marketing, legal forensics imagery, and medical imagery, has raised concerns about trustworthiness and vulnerability. Particularly, the emergence of DeepFakes, high - quality fake photos and videos generated using deep learning technologies, poses significant challenges. This study addresses the problem of DeepFake detection by proposing a specialized deep learning model trained on comprehensive DeepFake datasets. The model employs a hybrid approach, combining Convolutional Neural Networks (CNN) and Multi - Layer Perceptron (MLP), and utilizes facial landmark detection for data extraction. Performance evaluation demonstrates high accuracy for individual models: DeepFakes (92%), Face2Face (98%), FaceSwap (90%), and NeuralTextures (95%). To enhance the final decision - making process, an ensemble of these models is employed. The proposed approach aims to restore trust in digital multimedia and mitigate the potential harm caused by the proliferation of DeepFakes, contributing to the fields of digital forensics, media authentication, and online security.",
+    "application": [
+      "Security & Privacy"
+    ],
+    "interest": [
+      "Artificial Intelligence / Machine Learning",
+      "Computer Vision",
+      "Data Science"
+    ],
+    "rdia": [
+      "Economies of the Future"
+    ],
+    "acm": [
+      "I.2.6",
+      "I.2.10",
+      "I.2.1",
+      "I.5.1",
+      "G.4"
+    ]
+  },
+  "F03-42-10": {
+    "id": "F03-42-10",
+    "title": "Examining the effectiveness of pretrained language models for Arabic NLP tasks",
+    "supervisor_name": "Areeb Abdullah Alowisheq , Waad Mohammed Alhoshan",
+    "supervisor_id": "AAow, WMho",
+    "academic_year": "1442",
+    "semester": "10",
+    "keywords": [
+      "Arabic NLP",
+      "Sentiment Analysis",
+      "AraBERT",
+      "Transformer Models",
+      "SVM",
+      "TF-IDF",
+      "Hotel Arabic Reviews Dataset"
+    ],
+    "abstract": "Using natural language processing (NLP) enables computers to understand, process, and analyze human language. Recently transformer models such as, BERT and others have gained increasing interest for their enhanced performance, especially in English. However further studies are need for Arabic NLP, particularly for smaller datasets. This research aims to study the effectiveness of recent pre-trained transformer models such as AraBERT for Arabic sentiment analysis compared to simpler SVM classifiers using various feature extraction techniques such as TF-IDF and word embeddings. Several classifiers are developedand compared. The comparisons are conducted using experiments using the Hotel Arabic- Reviews Dataset (HARD). Results is almost the same for SVM with both TF-IDF and Word2Vec features processing, but TF-IDF is slightly better. AraBERT Transformers results are better despite that we could not test it on the whole dataset.",
+    "application": [
+      "Business & Productivity"
+    ],
+    "interest": [
+      "Natural Language Processing",
+      "Artificial Intelligence / Machine Learning",
+      "Web Development"
+    ],
+    "rdia": [
+      "Economies of the Future"
+    ],
+    "acm": [
+      "I.2.7",
+      "I.2.6",
+      "I.5.1",
+      "I.5.4",
+      "H.3.1"
+    ]
+  },
+  "F03-45-10": {
+    "id": "F03-45-10",
+    "title": "Energy-aware Multi-Object Detection and Compression in WMSN",
+    "supervisor_name": " Manal Khaled Alsabhan ",
+    "supervisor_id": "MKsa",
+    "academic_year": "1445",
+    "semester": "10",
+    "keywords": [
+      "Wireless Multimedia Sensor Networks (WMSNs)",
+      "Wireless Sensor Networks (WSNs)",
+      "Multimedia",
+      "Recognition of Interest",
+      "Feature Extraction"
+    ],
+    "abstract": "The Wireless Sensor Network (WMSN) is a network of nodes equipped with cameras and other sensors that monitor the environment. In this study, our main goal is to enhance image recognition in WMSNs with low-power sensors. In our experiment, an image-based target recognition method was developed using segment Region of Interest, image feature extraction, and matching equation. Followed by notifying the end user of methods based on the least power-consuming method, to conserve resources such as battery and memory life. So that bandwidth is not overloaded, and heavy traffic is avoided. As part of the evaluation, the energy consumption of the proposed scheme was taken into consideration. The results demonstrated reduced energy consumption, confirming the effectiveness of the resource optimization approach",
+    "application": [
+      "Sustainability & Environment"
+    ],
+    "interest": [
+      "Internet of Things (IoT)",
+      "Computer Vision",
+      "Embedded Systems"
+    ],
+    "rdia": [
+      "Sustainable Environment & Supply of Essential Needs"
+    ],
+    "acm": [
+      "G.4",
+      "J.2",
+      "I.2.1",
+      "I.4.6",
+      "I.2.10",
+      "I.4.7"
+    ]
+  },
+  "F04-42-10": {
+    "id": "F04-42-10",
+    "title": "Evaluating Website Quality Using Machine Learning",
+    "supervisor_name": "Aram Saleh Al-Sedrani ",
+    "supervisor_id": "ASSe",
+    "academic_year": "1442",
+    "semester": "10",
+    "keywords": [
+      "Academic websites",
+      "Quality evaluator",
+      "Random forest",
+      "Supervised machine learning",
+      "Feature extraction"
+    ],
+    "abstract": "Academic websites are important references for every student and every teacher, it represents the quality of the university and the links between the university and its students or teachers. There are many academic websites, but not all of them are considered as a high-quality website. We implemented a quality evaluator to evaluate the quality of the academic websites using Random forest which is a supervised machine learning technique. The quality evaluator evaluates the academic website based on chosen features and standards. The features will be extracted automatically from the website source code. Our quality evaluator will help different domains such as website designers and education institution management.",
+    "application": [
+      "Education"
+    ],
+    "interest": [
+      "Artificial Intelligence / Machine Learning",
+      "Web Development",
+      "Data Science"
+    ],
+    "rdia": [
+      "Economies of the Future"
+    ],
+    "acm": [
+      "I.2.6",
+      "I.5.4",
+      "H.5.2",
+      "H.4.2",
+      "J.1"
+    ]
+  },
+  "F04-45-10": {
+    "id": "F04-45-10",
+    "title": "Baseera بصيرة : Accessible Mobile App for Blind Children",
+    "supervisor_name": " Manan Mohammed Almusallam ",
+    "supervisor_id": "MMmu",
+    "academic_year": "1445",
+    "semester": "10",
+    "keywords": [
+      "Accessible Mobile Application",
+      "Blind Children",
+      "Visual Impairment",
+      "Assistive Technology",
+      "Educational Game",
+      "Arabic Language Support",
+      "Preschool Education",
+      "Audio Feedback",
+      "Numbers Learning",
+      "Counting Skills",
+      "Inclusive Design",
+      "Accessibility Standards",
+      "Child Development",
+      "Habilitation",
+      "Touch-screen Accessibility"
+    ],
+    "abstract": "Blindness or visual impairment is a functional limitation of the eyes that has an impact on people, particularly children. Children in pre-school age with vision impairment can have delayed motor, language, emotional, social, and cognitive development, which can strongly affect their future life. Assistive technology can improve their condition and help both children and their parents. Accessible mobile applications can meet their needs and offer them an opportunity to learn in ways similar to sighted children. In this project, we develop an inclusive application that is accessible for blind preschoolers. The application teaches children numbers and the basics of counting through an interactive game that provides audio feedback.",
+    "application": [
+      "Education"
+    ],
+    "interest": [
+      "Human-Computer Interaction",
+      "Mobile Development"
+    ],
+    "rdia": [
+      "Health & Wellness"
+    ],
+    "acm": [
+      "H.5.2",
+      "H.5.1",
+      "I.2.1",
+      "J.3",
+      "H.5.5",
+      "D.2.0"
+    ]
+  },
+  "F04-45-20": {
+    "id": "F04-45-20",
+    "title": "CCIS Student Assistant Chatbot",
+    "supervisor_name": "Ahmed Mohammed Ahmed Gadallah",
+    "supervisor_id": "AMda",
+    "academic_year": "1445",
+    "semester": "20",
+    "keywords": [
+      "Educational Chatbot",
+      "Natural Language Processing (NLP)",
+      "Student Support System",
+      "Higher Education",
+      "FAISS",
+      "Falcon-Instructor LLM",
+      "Information Retrieval",
+      "Academic Advising",
+      "FAQ Automation",
+      "Course Management",
+      "Professor Information",
+      "Virtual Assistant",
+      "College of Computer and Information Sciences (CCIS)",
+      "Imam Muhammad Ibn Saud Islamic University",
+      "Student Services"
+    ],
+    "abstract": "This project introduces a chatbot designed specifically for the College of Computer and Information Sciences (CCIS) students at Imam Muhammad Ibn Saud Islamic University. It's a helpful tool that offers support, reducing the need for humans. Using advanced natural language processing (NLP) techniques, it provides quick and accurate answers. It uses (FAISS) for efficient data retrieval and integrates with Falcon-Instructor LLM for adaptable responses. The focus is on accuracy, clarity, and relevance when addressing student questions. With a vast knowledge base, the chatbot acts as a virtual assistant for answering the students queries about professors' info, curriculum details, and academic support.",
+    "application": [
+      "Education"
+    ],
+    "interest": [
+      "Natural Language Processing",
+      "Artificial Intelligence / Machine Learning"
+    ],
+    "rdia": [
+      "Economies of the Future"
+    ],
+    "acm": [
+      "I.2.7",
+      "I.2.1",
+      "D.2.0",
+      "I.2.4",
+      "H.3.3",
+      "H.3.5"
+    ]
+  },
+  "F05-42-10": {
+    "id": "F05-42-10",
+    "title": "Decentralized Social Application: Moments",
+    "supervisor_name": " Tahani Fahad Albalawi",
+    "supervisor_id": "TFba",
+    "academic_year": "1442",
+    "semester": "10",
+    "keywords": [
+      "Social applications",
+      "Centralized system",
+      "Blockchain technology",
+      "Security",
+      "Privacy",
+      "Decentralized systems"
+    ],
+    "abstract": "Social applications have become one of the essential parts of our life that connects us with people. It is considered a source of information, entertainment, and a medium to learn various things anytime and anywhere. So, ensuring application security becomes one of the essential user needs. Most applications use the centralized system and increasingly relying on third parties for conducting services. These third parties continue to be targets of attack due to their weak cybersecurity measures. So the centralized system is one of the possible reasons for an attack, leading to unauthorized access to personal data and disruption of the system. Using blockchain technology can tackle some of the issues before they happen. The Blockchain is a \"peer-to-peer,\" distributed, shared, encrypted database and unchangeable. It enables decentralized systems (autonomous) organizations to operate over a network of computers without a third-party intervention to become more fluid and promote greater participation.",
+    "application": [
+      "Social Good & Community"
+    ],
+    "interest": [
+      "Blockchain",
+      "Web Development",
+      "Cybersecurity"
+    ],
+    "rdia": [
+      "Economies of the Future"
+    ],
+    "acm": [
+      "D.4.6",
+      "E.3",
+      "H.4.3",
+      "K.6.5",
+      "C.2.4"
+    ]
+  },
+  "F05-45-10": {
+    "id": "F05-45-10",
+    "title": "Visualize: A Software Tool for Visualizing the Impact of Climate Change on Cities",
+    "supervisor_name": "Waad Mohammed Alhoshan, Tasniem Nasser Alyahya",
+    "supervisor_id": "WMho, TNya",
+    "academic_year": "1445",
+    "semester": "10",
+    "keywords": [
+      "Climate Change Visualization",
+      "Artificial Intelligence (AI)",
+      "Deep Learning",
+      "Cycle-Consistent Generative Adversarial Network (Cycle-GAN)",
+      "Image Processing",
+      "Computer Vision",
+      "Public Awareness",
+      "Environmental Education",
+      "Urban Impact",
+      "Sandstorm Visualization",
+      "AI Bot",
+      "DeepAI",
+      "Climate Communication",
+      "Global Warming",
+      "Sustainable Communities",
+      "Image Generation"
+    ],
+    "abstract": "Climate change is the most common issue facing our planet today, but public awareness and understanding of this issue remain limited for several reasons. The complexity of the topic itself makes it difficult for communities to understand. The media plays an important role in spreading awareness of climate change, but media coverage is often sporadic and contentious, which reduces the coverage of the impacts of climate change and potential solutions. Economic factors also influence public awareness of climate change. There may be powerful economic interests that depend on industries contributing to carbon emissions, leading to resistance to adopting policies aimed at reducing those emissions. This report aims to design and implement a software tool called \"visualize\" that employs techniques from Artificial Intelligence (AI), Deep Learning (DL), and Image Processing, to depict the impact of climate change on cities. By making the consequences of climate change more tangible. Hopefully, this tool will increase public awareness and promote understanding of climate change. Current approaches to awareness of climate change impacts are often complex and technical, making them difficult to access and understand for the public. Additionally, these approaches often focus on global or regional scales, which can make it difficult for people to see the impact of climate change on their own communities. This project addresses these gaps through the tool, which will be able to generate visualizations of climate change for their cities, allowing users to see how their own community will be affected by climate change. This can help to raise awareness and promote understanding of climate change and empower people to take action to reduce their carbon emissions and protect their communities through the use of \"visualize\" developed by using Cycle-GAN and AI bot. We trained the model using Cycle-GAN by dividing the dataset into 80% training and 20% testing. Also, we utilized the DeepAI bot to offer a new perspective of image generating approach. The tool has the potential to increase public understanding of climate change's effects on cities, motivating individuals to act towards addressing this global issue",
+    "application": [
+      "Sustainability & Environment"
+    ],
+    "interest": [
+      "Artificial Intelligence / Machine Learning",
+      "Computer Vision",
+      "Data Science"
+    ],
+    "rdia": [
+      "Sustainable Environment & Supply of Essential Needs"
+    ],
+    "acm": [
+      "I.2.6",
+      "I.4.9",
+      "I.3.8",
+      "D.2.0",
+      "I.2.1",
+      "I.2.10",
+      "I.4.0",
+      "H.5.2",
+      "G.4",
+      "I.4.8"
+    ]
+  },
+  "F05-45-20": {
+    "id": "F05-45-20",
+    "title": "Walyattawafou: Crowd Counting in Hajj and Umrah",
+    "supervisor_name": " Haifa Hamad Alkasem ",
+    "supervisor_id": "HHka",
+    "academic_year": "1445",
+    "semester": "10",
+    "keywords": [
+      "Crowd Counting",
+      "Deep Learning",
+      "Hajj Management",
+      "Umrah Management",
+      "Crowd Monitoring",
+      "Holy Sites",
+      "Makkah",
+      "Pilgrim Safety",
+      "Image Processing",
+      "Computer Vision",
+      "Crowd Density Estimation",
+      "Real-time Monitoring",
+      "Ministry of Hajj and Umrah",
+      "GPU Processing",
+      "Attention Models",
+      "Crowd Flow Optimization"
+    ],
+    "abstract": "The Kingdom of Saudi Arabia hosts a large number of pilgrims and Umrah pilgrims every year, so estimating their number in crowded areas has become important to ensure their safety. This proposal aims to improve crowd management during Hajj and Umrah by developing software that uses deep learning techniques to calculate the number of crowds. The proposed program aims to help the Ministry of Hajj and Umrah and other relevant authorities improve crowd flow and reduce congestion around the holy sites. By leveraging deep learning models, this software has the potential to enhance crowd management and improve the overall Hajj experience for millions of Muslims.",
+    "application": [
+      "Government & Public Sector"
+    ],
+    "interest": [
+      "Artificial Intelligence / Machine Learning",
+      "Computer Vision"
+    ],
+    "rdia": [
+      "Economies of the Future"
+    ],
+    "acm": [
+      "I.2.6",
+      "I.2.10",
+      "I.4.9",
+      "I.4.8",
+      "I.5.4",
+      "D.2.0",
+      "J.m",
+      "I.2.1",
+      "H.5.1"
+    ]
+  },
+  "F06-42-20": {
+    "id": "F06-42-20",
+    "title": "Developing A Web Application for Automatic Code Generation",
+    "supervisor_name": " Aram Saleh Al-Sedrani ",
+    "supervisor_id": "ASSe",
+    "academic_year": "1442",
+    "semester": "20",
+    "keywords": [
+      "Automatic Code Generation",
+      "ACG",
+      "software development",
+      "web application",
+      "Python",
+      "Java",
+      "XML parser",
+      "flowchart",
+      "algorithms",
+      "GUI"
+    ],
+    "abstract": "Automatic Code Generation (ACG) is an important part of today’s software development. It is a technique that processes a user description, algorithms, or a model to write programs and uses it for a small part of a code or entire applications by using different techniques. It increases software quality, decreases code errors, reduces effort and coding time. The objective of this project is to develop a web application for ACG to be an assistant for developers and Computer Science (CS) students. This report defines a comparative study of several research by examining the features and limitations, after the study, we detect some gaps, and we try to fill out these gaps by using a flowchart as input, Python, and Java as source code, and using the Extensible Markup Language (XML) parser technique. We analyze the user and system requirements for the web application that matches with user's needs. The report contains the system structure and organization, also, described the alternative methods of our web application, algorithms that we used. Additionally, we designed the graphical user interface for the web application. We concentrate on providing a detailed description of the implementation requirement and its details. Also, we examined the test and results for our ACG web.",
+    "application": [
+      "Education"
+    ],
+    "interest": [
+      "Artificial Intelligence / Machine Learning",
+      "Web Development",
+      "Software Engineering"
+    ],
+    "rdia": [
+      "Economies of the Future"
+    ],
+    "acm": [
+      "D.1.2",
+      "D.2.2",
+      "I.2.2",
+      "H.5.2",
+      "D.3.4"
+    ]
+  },
+  "F06-45-10": {
+    "id": "F06-45-10",
+    "title": "Get It: A Deep Learning Approach for Identifying and Discriminating Spoken Arabic Among English",
+    "supervisor_name": "Wojdan Mohammed BinSaeedan",
+    "supervisor_id": "WMnS",
+    "academic_year": "1445",
+    "semester": "10",
+    "keywords": [
+      "Language Identification",
+      "Spoken Language Recognition",
+      "Deep Learning",
+      "Arabic Speech Recognition",
+      "English Speech Recognition",
+      "Multilingual Systems",
+      "Customer Service Automation",
+      "ECAPA-TDNN",
+      "SpeechBrain",
+      "Convolutional Neural Network (CNN)",
+      "Recurrent Neural Network (RNN)",
+      "Capsule Network (CapsNet)",
+      "Natural Language Processing (NLP)",
+      "Voice Analysis",
+      "Mozilla Common Voice Dataset",
+      "Real-time Speech Processing",
+      "Call Center Automation",
+      "Audio Processing"
+    ],
+    "abstract": "The rapid delay in customer access to service and difficulty of access, a system powered by machine learning based on automatic guidance that directs customers towards great service without manual intervention to improve the service. This system is based on language recognition to determine the appropriate language for service provision. By leveraging this language recognition technology, enhanced by machine learning algorithms, the system efficiently directs customers towards the services they require, resulting in improved customer experience and satisfaction. It ensures that customers are promptly connected to the services they seek, meeting their specific needs with precision. The system's emphasis on the distinction of language is a forward-looking approach aimed at simplifying customer interactions. It strives to offer a comprehensive solution to advance customer service, with the ultimate goal of maximizing customer satisfaction.",
+    "application": [
+      "Business & Productivity"
+    ],
+    "interest": [
+      "Artificial Intelligence / Machine Learning",
+      "Natural Language Processing"
+    ],
+    "rdia": [
+      "Economies of the Future"
+    ],
+    "acm": [
+      "I.2.7",
+      "I.2.6",
+      "I.5.4",
+      "H.5.5",
+      "J.1"
+    ]
+  },
+  "F06-45-20": {
+    "id": "F06-45-20",
+    "title": "Predicting Programming Skills Among Novice Programmers",
+    "supervisor_name": " Basma Suleiman Alqadi ",
+    "supervisor_id": "BSqa",
+    "academic_year": "1445",
+    "semester": "20",
+    "keywords": [
+      "Programming Skills Prediction",
+      "Debugging Ability",
+      "Novice Programmers",
+      "Machine Learning",
+      "Educational Data Mining",
+      "Logical Errors",
+      "K-Nearest Neighbors (KNN)",
+      "Support Vector Machine (SVM)",
+      "Naive Bayes (NB)",
+      "Programming Education",
+      "Debugging Assessment",
+      "Correlation Analysis",
+      "Error Analysis",
+      "Code Debugging",
+      "Programming Proficiency",
+      "English Proficiency",
+      "Skill Prediction"
+    ],
+    "abstract": "This project discussed predicting the programming skills of novice programmers while gaining insights into the challenges they face in debugging and programming. The primary objectives include analyzing common errors encountered during debugging, utilizing debugging assessment data to estimate programming abilities, evaluating the effectiveness of prediction models, and identifying obstacles in the learning and practice of programming. The methodology involves collecting data on grades and debugging capabilities, applying machine learning (ML) algorithms, and statistically evaluating the predictions. The research seeks to enhance our understanding of debugging assessments and improve the learning experience for novice programmers",
+    "application": [
+      "Education"
+    ],
+    "interest": [
+      "Artificial Intelligence / Machine Learning",
+      "Data Science"
+    ],
+    "rdia": [
+      "Economies of the Future"
+    ],
+    "acm": [
+      "I.2.6",
+      "I.5.4",
+      "I.2.1",
+      "H.1.2"
+    ]
+  },
+  "F07-42-10": {
+    "id": "F07-42-10",
+    "title": "Text Similarity Search with Application to kNN Classifier",
+    "supervisor_name": " Meznah Rashid Almutairy ",
+    "supervisor_id": "MRmu",
+    "academic_year": "1442",
+    "semester": "10",
+    "keywords": [
+      "Patent Analysis",
+      "Document Similarity",
+      "Text Representation",
+      "Vectorization Methods",
+      "Similarity Measures",
+      "KNN Classification",
+      "Text Classification"
+    ],
+    "abstract": "Nowadays with the huge development of Technology, patents have a major interference of changing the path of human life. And make it easier and more efficient. Therefore, in this research, we will use the patent dataset to explore the similarity between documents, so the easiest access to the information may cause similarity of texts and an increase in fraud or impersonation. The project aims to find the percentage of similarity between them by using text representation and measuring similarity through similarity measures. Afterwards to increase the efficiency and speed up the process we intent to apply KNN classification to classify the documents to multiple categories. In this research We will compare the performance of Text representation with performance other related vectorization methods, and as well as our similarity measurement method , also we will experiment the efficiency of the classification method (KNN).",
+    "application": [
+      "Business & Productivity"
+    ],
+    "interest": [
+      "Artificial Intelligence / Machine Learning",
+      "Natural Language Processing",
+      "Data Science"
+    ],
+    "rdia": [
+      "Economies of the Future"
+    ],
+    "acm": [
+      "I.2.6",
+      "I.5.3",
+      "H.3.3",
+      "F.2.2",
+      "I.7.0"
+    ]
+  },
+  "F07-45-10": {
+    "id": "F07-45-10",
+    "title": "Secure Healthcare Information Exchange Platform ‘KEEP SAFE’",
+    "supervisor_name": "Eman AbdulHamid Alzaid",
+    "supervisor_id": "EAza",
+    "academic_year": "1445",
+    "semester": "10",
+    "keywords": [
+      "Electronic Medical Records (EMR)",
+      "Blockchain Technology",
+      "Healthcare Information Systems",
+      "Secure Medical Data Sharing",
+      "Decentralized Data Protection",
+      "Patient Data Privacy",
+      "EMR Exchange Scheme",
+      "Digital Identity Verification",
+      "Healthcare Cybersecurity"
+    ],
+    "abstract": "In recent years, several hospitals have began maintaining electronic medical records (EMRs) for each patient using health information systems. When a patient visits a new hospital for the first time, the hospital's help desk asks them to fill out relevant personal information and verify their identity on the spot. This patient will find that many of the electronic records they have are in many hospitals' health information systems that were previously visited, and each EMR in these hospitals' information systems cannot be accessed or shared between these hospitals. It is inconvenient for this patient because they will have to provide their records again and retell their medical history. In addition to being time consuming, this is not practical. Thus, in this project, we propose a practical and provable patient EMR fair exchange scheme. In this system, medical records are securely stored using blockchain technology, enabling decentralised data protection in healthcare and avoiding specific threats. Patients can securely share their EMRs using barcodes or their National IDs/Residence Numbers. The patient can also control who accesses the EMR. This project aims to facilitate the exchange of medical records in the Saudi Arabian community.",
+    "application": [
+      "Healthcare / Medical"
+    ],
+    "interest": [
+      "Blockchain",
+      "Cybersecurity",
+      "Mobile Development"
+    ],
+    "rdia": [
+      "Health & Wellness"
+    ],
+    "acm": [
+      "D.4.6",
+      "E.3",
+      "K.6.5",
+      "H.2.8",
+      "J.3"
+    ]
+  },
+  "F08-42-20": {
+    "id": "F08-42-20",
+    "title": "Detecting Malicious PowerShell Scripts using Machine Learning",
+    "supervisor_name": " Wojdan Mohammed BinSaeedan",
+    "supervisor_id": "WMnS",
+    "academic_year": "1442",
+    "semester": "20",
+    "keywords": [
+      "PowerShell Security",
+      "Malicious Script Detection",
+      "Machine Learning",
+      "Stacked Denoising Autoencoders (SdA)",
+      "Feature Extraction",
+      "Support Vector Machine (SVM)",
+      "Gaussian Naïve Bayes",
+      "Random Forest (RF)",
+      "XGBoost",
+      "Detection Model",
+      "Cybersecurity"
+    ],
+    "abstract": "PowerShell is an important tool used to automate administrative tasks. It is an opensource tool that is incorporated in Windows machines and many other operating systems. Administrators utilize PowerShell to carry out a range of typical management tasks such as, adding and deleting accounts, editing groups, and accessing hard-to-find user information. However, researchers recently have found that PowerShell was used to execute different types of attacks. These attacks used PowerShell to either access privileged information, gain control of the entire machine or spread over an organization. This project presents MPSdetect, a detection model that relies on machine learning (ML) techniques to detect malicious PowerShell scripts. MPSdetect leverages stacked denoising autoencoders (SdA) during the process of extracting features, which is executed automatically. These features will be fed to a number of ML classifiers which are, support vector machine (SVM), Gaussian Naïve Bayes, Random Forest (RF) and eXtreme Gradiant Boosting (XGBoost), which are used to detect the malicious PowerShell scripts. MPSdetect is implemented and evaluated with respect to two collected datasets of varying ratios of benign and malicious PowerShell samples. The experiments conducted with the collected datasets were to evaluate the performance of the model. The result showed that MPSdetect with the XGBoost classifier, maintained a low 0.6% false positive rate (FPR) and a high 98% true positive rate (TPR).",
+    "application": [
+      "Security & Privacy"
+    ],
+    "interest": [
+      "Cybersecurity",
+      "Artificial Intelligence / Machine Learning"
+    ],
+    "rdia": [
+      "Economies of the Future"
+    ],
+    "acm": [
+      "D.4.6",
+      "I.2.6",
+      "I.5.4",
+      "K.6.5",
+      "D.2.4"
+    ]
+  },
+  "F08-45-20": {
+    "id": "F08-45-20",
+    "title": "XIPHER: Visualization Tool for Security Algorithms",
+    "supervisor_name": " Tahani Fahad Albalawi",
+    "supervisor_id": "TFba",
+    "academic_year": "1445",
+    "semester": "20",
+    "keywords": [
+      "Security Algorithms",
+      "Algorithm Visualization",
+      "Security Education",
+      "Usability Evaluation",
+      "Human-Computer Interaction (HCI)",
+      "Educational Web Platform",
+      "Visualization Tools",
+      "User Experience (UX)"
+    ],
+    "abstract": "Many students struggle to grasp complex mathematical procedures involved in security algorithms. Various efforts have been made to simplify these algorithms, focusing on visualization tools. However, existing security visualization solutions often lack a usability component, hindering their effectiveness. This project aims to develop a userfriendly security visualization tool to address this limitation. The primary objective is to create a website that offers educational resources related to security algorithms. The project follows a structured approach, beginning with a search for visualization tools for security algorithms. Then, evaluate these tools' usability notations to enhance the learning experience for students and learners. Subsequently, a security algorithms visualization tool is designed and developed. The project's final phase involves evaluating the developed tool's usability and effectiveness. This project intends to empower students and learners to better understand and utilize these algorithms for practical applications by creating a user-friendly and educational platform for security algorithms.",
+    "application": [
+      "Education"
+    ],
+    "interest": [
+      "Cybersecurity",
+      "Web Development",
+      "Human-Computer Interaction"
+    ],
+    "rdia": [
+      "Economies of the Future"
+    ],
+    "acm": [
+      "E.3",
+      "H.5.2",
+      "K.6.5",
+      "I.3.6",
+      "K.3.2"
+    ]
+  },
+  "F09-42-20": {
+    "id": "F09-42-20",
+    "title": "Finding Deleted Regions in Human DNA",
+    "supervisor_name": " Eman AbdulHamid Alzaid",
+    "supervisor_id": "EAza",
+    "academic_year": "1442",
+    "semester": "20",
+    "keywords": [
+      "Human DNA Analysis",
+      "Deleted Regions Detection",
+      "Next-Generation Sequencing (NGS)",
+      "Deep Learning",
+      "Bioinformatics Software",
+      "Graphical User Interface (GUI)",
+      "Genomic Data Analysis"
+    ],
+    "abstract": "Deleted regions in the human DNA are responsible for serious diseases, for that reason, it is important to find these regions accurately. Unfortunately, there is no software yet easy to use by end-user because all available tools are with a command-line interface only. The aim of this project is to develop a software with a friendly graphical user interface to interact with it easily, the system should also allow the user to view the details of the deleted regions. The proposed software will analyze the Next-generation sequencing dataset to find missing regions in the human DNA. The deep learning techniques will be used to improve the accuracy of finding deleted regions.",
+    "application": [
+      "Healthcare / Medical"
+    ],
+    "interest": [
+      "Artificial Intelligence / Machine Learning",
+      "Bioinformatics",
+      "Data Science"
+    ],
+    "rdia": [
+      "Health & Wellness"
+    ],
+    "acm": [
+      "I.2.6",
+      "I.5.4",
+      "J.3",
+      "I.4.9",
+      "H.2.8"
+    ]
+  },
+  "F09-45-10": {
+    "id": "F09-45-10",
+    "title": "Detecting Cyberbullying in Twitter for Arabic Language",
+    "supervisor_name": " Haifa Hamad Alkasem",
+    "supervisor_id": "HHka",
+    "academic_year": "1445",
+    "semester": "10",
+    "keywords": [
+      "Cyberbullying",
+      "Twitter(X)",
+      "Deep learning"
+    ],
+    "abstract": "Cyberbullying is a growing concern in the digital age, and social media platforms have become a common ground for such behaviour. The objective of this project is to create a Cyberbullying for Arabic language detection tool on Twitter utilizing advanced deep-learning algorithms. The project involved conducting a literature review to identify techniques for detecting Cyberbullying in social media. Additionally, relevant datasets in the Arabic language have been collected and utilized to train and test the developed tool. The performance of the developed tool has been evaluated using appropriate metrics such as, Accuracy, Recall, and F1-Score, and the results are presented visually to gain insights into its effectiveness. ",
+    "application": [
+      "Social Good & Community"
+    ],
+    "interest": [
+      "Natural Language Processing",
+      "Artificial Intelligence / Machine Learning"
+    ],
+    "rdia": [
+      "Health & Wellness"
+    ],
+    "acm": [
+      "I.2.7",
+      "I.2.6",
+      "I.5.4",
+      "H.3.3",
+      "K.4.2"
+    ]
+  },
+  "F10-42-20": {
+    "id": "F10-42-20",
+    "title": "Monitoring and Tracking of Vulnerable Individuals Using Mini-UAVs",
+    "supervisor_name": " Areeb Abdullah Alowisheq",
+    "supervisor_id": "AAow",
+    "academic_year": "1442",
+    "semester": "20",
+    "keywords": [
+      "UAV Surveillance",
+      "Tracking System",
+      "Vision-Based Control",
+      "Autonomous Drones",
+      "Object Detection",
+      "Person Re-Identification",
+      "Deep Learning",
+      "Mobile Application",
+      "Simulation and Prototyping",
+      "Safety Monitoring"
+    ],
+    "abstract": "This project aims to develop a surveillance and tracking system using Unmanned Aerial Vehicle (UAV) to give vulnerable individuals such as children, elderly people, and special needs individuals, more freedom to conduct their activities. The system also helps caregivers to be assured of the vulnerable individual’s safety remotely. The tracking is implemented using vision-based control to guide the UAVs during autonomous flying. The images are processed to enable object detection and re-identification by fine-tuning existing pre-trained deep models to detect humans with 89% mAP, and 85% validation accuracy for person re-identification. In addition to programming the autonomous UAVs, a mobile application is developed for caregivers to communicate with the UAVs and receive information about the tracked individuals. The project is demonstrated using both prototyping and simulation. Thus, the detection task was demonstrated in both simulation and prototyping where the tracking task was demonstrated in simulation only.",
+    "application": [
+      "Social Good & Community"
+    ],
+    "interest": [
+      "Computer Vision",
+      "Artificial Intelligence / Machine Learning",
+      "Drones"
+    ],
+    "rdia": [
+      "Health & Wellness"
+    ],
+    "acm": [
+      "I.2.10",
+      "I.2.9",
+      "I.4.8",
+      "I.5.4",
+      "J.7"
+    ]
+  },
+  "F11-42-20": {
+    "id": "F11-42-20",
+    "title": "Energy-Efficient Data Reduction Techniques for Sensor-based ECG Monitoring Applications",
+    "supervisor_name": " Manan Mohammed Almusallam",
+    "supervisor_id": "MMmu",
+    "academic_year": "42",
+    "semester": "20",
+    "keywords": [
+      "Remote Heart Monitoring",
+      "IoT Healthcare",
+      "Wireless Body Sensor Network (WBSN)",
+      "ECG Signal Processing",
+      "Arrhythmia Detection",
+      "Data Reduction Techniques",
+      "Feature Extraction",
+      "ECG Compression",
+      "Heart Rate Monitoring",
+      "Sensor Efficiency"
+    ],
+    "abstract": "Recently, deaths of people suffering from heart disease have increased. To save their lives and their health, an Internet of Things (IoT) trending technology provides an appropriate care to the patient. This technology known as remote heart monitoring that uses Wireless Body Sensor Network (WBSN) to provide real-time monitoring. On this project, we interested on detecting Arrhythmias, specifically the types that can be discovered by Heart Rate (HR) such as Bradycardia and Tachycardia. Wireless sensors are attached to human body to capture and transmit ECG signals to remote server. However, the size of data transmitted wirelessly from the sensor consumes a large portion of the sensors battery. To address this problem. We use data reduction techniques (ECG compression and feature extraction) to decrease the consumption by reducing the amount of transmitted data. Our goal in this project is to study and evaluate the effect of the data reduction techniques on sensors battery and maintain the level of efficiency. We design two algorithms one for each technique, the feature extraction algorithm achieved SE and P+ with an average of 95.48% and 100% respectively. However, compression algorithm achieved CR and average PRD with 75% and 45.11% respectively. We conclude our study by choosing the compression algorithm to be more suitable to be implemented on sensors.",
+    "application": [
+      "Healthcare / Medical"
+    ],
+    "interest": [
+      "Embedded Systems",
+      "Data Science",
+      "Bioinformatics"
+    ],
+    "rdia": [
+      "Health & Wellness"
+    ],
+    "acm": [
+      "H.3.4",
+      "J.3",
+      "I.4.7",
+      "I.4.9",
+      "G.1.6",
+      "G.1.2",
+      "I.5.2"
+    ]
+  },
+  "F13-42-10": {
+    "id": "F13-42-10",
+    "title": "Dolphin Application ",
+    "supervisor_name": " Eman AbdulHamid Alzaid ",
+    "supervisor_id": "EAza",
+    "academic_year": "42",
+    "semester": "10",
+    "keywords": [
+      "Mobile Application",
+      "Video Management",
+      "Video Retrieval",
+      "Machine Learning",
+      "Video Indexing",
+      "Smartphone Videos"
+    ],
+    "abstract": "With the widespread use of smartphones, the number of videos has increased significantly in the last years. This poses challenges to the management of these video data and especially to the retrieval of a specific video. This project aims to develop a mobile application Dolphin to manage and retrieve videos easily. Machine learning techniques will be used to organize and index the videos efficiently.",
+    "application": [
+      "Entertainment & Media"
+    ],
+    "interest": [
+      "Artificial Intelligence / Machine Learning",
+      "Mobile Development",
+      "Computer Vision"
+    ],
+    "rdia": [
+      "Economies of the Future"
+    ],
+    "acm": [
+      "H.5.2",
+      "H.5.1",
+      "H.3.1",
+      "I.2.6",
+      "I.2.7",
+      "I.2.10",
+      "I.4.9",
+      "I.5.1"
+    ]
+  },
+  "F14-42-20": {
+    "id": "F14-42-20",
+    "title": "Book Recommendation System based on Collaboration Filtering (RICO)",
+    "supervisor_name": " Wojdan Mohammed BinSaeedan",
+    "supervisor_id": "WMnS",
+    "academic_year": "42",
+    "semester": "20",
+    "keywords": [
+      "Recommendation System",
+      "Collaborative Filtering",
+      "User Preferences",
+      "KNN Algorithm",
+      "Django Framework",
+      "Information Filtering",
+      "Content Personalization",
+      "Data Overload Management"
+    ],
+    "abstract": "There is a need to filter the relevant information and arrange it in order of priority in the Internet world, because there are many options, it must also be presented efficiently to reduce the problem of data and information overload on the Internet, which in turn may cause many potential problems for Internet users. Recommendation systems solve this problem by researching the vast volume of information that is dynamically generated to provide users with the specific content and services they might want. Collaborative filtering algorithms provide recommendations to the user based on previous users' reviews (which may be similar to their tastes or personality) in the system. There are several algorithms with which to build a recommendation system and filter collaborative filtering, a technique used in many recommendation systems. Collaborative filtering consists of two senses, one of which is narrow and the other more general. Collaborative filtering is a technique or method for making automatic predictions of a user's interest by gathering a similar persona or personality from multiple users. In this study, we did not use collaborative filtering despite many attempts to link the knn algorithm with the system, but we found a ready-made method in Django called filter() that extracts results similar to the knn algorithm. A systematic review was also conducted to determine the type of user and recommendation data elements required by the general recommendation system. User model and element are suggested. Depending on the element classification that the user chooses or searches for, he will find the recommended elements, and some considerations regarding the specific parameters of the algorithm are explained.",
+    "application": [
+      "Entertainment & Media"
+    ],
+    "interest": [
+      "Web Development",
+      "Artificial Intelligence / Machine Learning",
+      "Database Systems"
+    ],
+    "rdia": [
+      "Economies of the Future"
+    ],
+    "acm": [
+      "H.3.3",
+      "H.3.1",
+      "H.2.8",
+      "I.2.1",
+      "I.2.6",
+      "H.5.2",
+      "H.4.2"
+    ]
+  },
+  "F16-45-10": {
+    "id": "F16-45-10",
+    "title": "Automatic audio files summarization System, EJAZ Website",
+    "supervisor_name": " Manal Khaled Alsabhan ",
+    "supervisor_id": "MKsa",
+    "academic_year": "1445",
+    "semester": "10",
+    "keywords": [
+      "Audio Summarization",
+      "Speech Recognition",
+      "Natural Language Processing (NLP)",
+      "Automatic Transcription",
+      "Text Summarization",
+      "Pegasus Model",
+      "BART Model",
+      "T5 Model",
+      "Meeting Summarization",
+      "Information Extraction",
+      "Audio Processing",
+      "Deep Learning",
+      "Collaborative Tools",
+      "Time Efficiency",
+      "Content Accessibility",
+      "Multilingual Support",
+      "Cloud Storage"
+    ],
+    "abstract": "In our fast-paced, time-constrained lives flooded with audio files and text, there is a pressing need for an innovative solution. This project proposes to develop a website called “EJAZ” designed to automatically summarize spoken content. Using speech recognition technology, the app transcribes audio files and then uses natural language processing to extract basic information. The importance of this application extends beyond just saving time, as it not only eliminates manual copying of various sources, but also enhances the overall quality of information extraction. Furthermore, the application opens up avenues to build a repository of extensive, searchable content, providing valuable resources for future reference in our information-rich environment",
+    "application": [
+      "Business & Productivity"
+    ],
+    "interest": [
+      "Natural Language Processing",
+      "Artificial Intelligence / Machine Learning",
+      "Web Development"
+    ],
+    "rdia": [
+      "Economies of the Future"
+    ],
+    "acm": [
+      "I.3.0",
+      "I.2.6",
+      "H.3.0",
+      "H.5.2"
+    ]
+  },
+  "F17-45-20": {
+    "id": "F17-45-20",
+    "title": "Mu’nis: Enhancing Deaf Communication with Realtime Subtitles in Arabic Language",
+    "supervisor_name": " Tasniem Nasser Alyahya ",
+    "supervisor_id": "TNya",
+    "academic_year": "1445",
+    "semester": "20",
+    "keywords": [
+      "Arabic Sign Language (ArSL)",
+      "Deaf and Hard of Hearing (DHH)",
+      "Real-time Translation",
+      "Sign Language Recognition",
+      "Mobile Application",
+      "Core ML",
+      "Hand Gesture Recognition",
+      "KArSL Dataset",
+      "Assistive Technology",
+      "Human-Computer Interaction",
+      "Accessibility",
+      "Two-way Communication",
+      "Audio-to-Text",
+      "Sign-to-Text",
+      "Hand Action Tool",
+      "Inclusive Design",
+      "Communication Barriers"
+    ],
+    "abstract": "Arabic Sign Language (ArSL) serves as the primary means of communication for the Deaf and Hard of Hearing (DHH) community in Arabic - speaking regions, promoting social engagement and reducing social isolation. To our knowledge, ArSL applications lack real time translation of sign language into text. Mu’nis is a mobile application that supports real time communication in ArSL. The application provides two way communication by translating sign language to text and enabling audio-to-text transformation. Mu’nis employs Core Machin Learning ( CoreML ) , a machine learning framework developed by Apple, along with the Hand Action tool that supports the capture of hand gestures. It utilizes the KFUPM Arabic Sign Language (KArSL) dataset, which is the largest dataset for ArSL. Mu’nis's innovative approach helps overcome communication barriers, promising improved connectivity within the DHH community.",
+    "application": [
+      "Social Good & Community"
+    ],
+    "interest": [
+      "Natural Language Processing",
+      "Human-Computer Interaction",
+      "Artificial Intelligence / Machine Learning"
+    ],
+    "rdia": [
+      "Health & Wellness"
+    ],
+    "acm": [
+      "I.2.10",
+      "I.2.6",
+      "I.4.7",
+      "I.3.0",
+      "H.5.2"
+    ]
+  },
+  "F20-45-20": {
+    "id": "F20-45-20",
+    "title": "Abnormal Event Detection for Video Surveillance (SecuritEye)",
+    "supervisor_name": " Wojdan Mohammed BinSaeedan ",
+    "supervisor_id": "WMnS",
+    "academic_year": "1445",
+    "semester": "20",
+    "keywords": [
+      "Abnormal Event Detection",
+      "Video Surveillance",
+      "Deep Learning",
+      "ConvLSTM",
+      "Long-term Recurrent Convolutional Networks (LRCN)",
+      "Smart Cities",
+      "Public Safety",
+      "UCF Crime Dataset",
+      "Anomaly Detection",
+      "Computer Vision",
+      "Convolutional Neural Networks (CNN)",
+      "Recurrent Neural Networks (RNN)",
+      "Long Short-Term Memory (LSTM)",
+      "Real-time Monitoring",
+      "Security Systems",
+      "Crime Detection",
+      "Video Analysis",
+      "SecuritEye"
+    ],
+    "abstract": "Abnormal event detection (AED) is a critical task in video surveillance systems, aiming to identify and report abnormal events. As the demand for enhanced security measures and the availability of surveillance cameras increase, effective AED algorithms have become essential. This project introduces a developed convolutional network model that utilizes Deep Learning (DL) techniques to detect abnormal events. This study seeks to evaluate the performance of DL algorithms, Convolutional Long Short-Term Memory (ConvLSTM), and Long-term Recurrent Convolutional Networks (LRCN), on the UCF crime dataset provided by the University of Central Florida (UCF crime). We conducted several experiments to implement ConvLSTM and LRCN and optimize their parameters on the target dataset. Our findings indicate that both models achieved an average accuracy of 94%, demonstrating promising results for this research. The LRCN model performed slightly better than the ConvLSTM, with an accuracy of 96%.",
+    "application": [
+      "Security & Privacy"
+    ],
+    "interest": [
+      "Artificial Intelligence / Machine Learning",
+      "Computer Vision",
+      "Data Science"
+    ],
+    "rdia": [
+      "Economies of the Future"
+    ],
+    "acm": [
+      "I.2.10",
+      "I.4.8",
+      "I.2.6",
+      "I.5.4",
+      "I.5.1"
+    ]
+  },
+  "F22-45-20": {
+    "id": "F22-45-20",
+    "title": "Smart Attendance Management System Using iBeacon Technology (حضورك)",
+    "supervisor_name": " Tahani Fahad Albalawi",
+    "supervisor_id": "TFba",
+    "academic_year": "1445",
+    "semester": "20",
+    "keywords": [
+      "Attendance Management System",
+      "iBeacon Technology",
+      "Bluetooth Low Energy (BLE)",
+      "Mobile Application",
+      "Automated Attendance",
+      "Educational Technology",
+      "Real-time Tracking",
+      "Student Authentication",
+      "Location Verification",
+      "Signal Processing",
+      "User Interface Design",
+      "Data Analytics",
+      "Higher Education",
+      "Proximity Detection",
+      "Hudurk",
+      "Classroom Management",
+      "Smart Campus"
+    ],
+    "abstract": "Checking attendance is considered a valuable practice in many places, especially. in education. It serves various purposes, such as tracking students' attendance as required, monitoring their progress, and compliance with university regulations and policies. However, the current manual attendance systems have some drawbacks, such. as the time consumed to complete the process of checking and registering the students, which affects performance and productivity. Moreover, it's prone to errors, which is a common issue in manual attendance practices. This project introduces automated. attendance tool called (حضورك) by leveraging iBeacon technology to enhance the attendance process.",
+    "application": [
+      "Education"
+    ],
+    "interest": [
+      "Mobile Development",
+      "Human-Computer Interaction",
+      "Internet of Things (IoT)"
+    ],
+    "rdia": [
+      "Economies of the Future"
+    ],
+    "acm": [
+      "D.2.10",
+      "D.2.12",
+      "H.5.2",
+      "H.1.2",
+      "H.4.1",
+      "I.2.1"
+    ]
+  },
+  "F24-45-20": {
+    "id": "F24-45-20",
+    "title": "Botnet Attack Detection Using Machine Learning",
+    "supervisor_name": " Fatmah Ratiyan Alanazi ",
+    "supervisor_id": "FRan",
+    "academic_year": "1445",
+    "semester": "20",
+    "keywords": [
+      "Botnet Detection",
+      "Machine Learning",
+      "Ensemble Learning",
+      "Voting Classifier",
+      "Internet of Things (IoT) Security",
+      "Cybersecurity",
+      "N-BaIoT Dataset",
+      "BASHLITE Botnet",
+      "Mirai Botnet",
+      "Principal Component Analysis (PCA)",
+      "Decision Tree",
+      "K-Nearest Neighbors (KNN)",
+      "Support Vector Classifier (SVC)",
+      "Network Intrusion Detection",
+      "Anomaly Detection",
+      "Class Imbalance",
+      "Resampling Techniques",
+      "Feature Extraction"
+    ],
+    "abstract": "The increasing threat of cyberattacks, particularly botnet activities, has underscored the necessity for adaptive defensive strategies. This research project aims to enhance botnet attack detection accuracy in the context of Internet of Things (IoT) environments through the application of machine learning. The project emphasizes the critical need to address IoT device security vulnerabilities and mitigate botnet threats. The research methodology comprises data preprocessing, feature selection, model training, and performance evaluation. The N-BaIoT dataset, which captures network traffic data before and after infection by the BASHLITE and Mirai botnets, is used for training and evaluation. To address the imbalanced nature of the dataset, resampling techniques are applied for each attack type. The data is subjected to various preprocessing steps, including cleaning, shuffling, feature extraction using Principal Component Analysis (PCA), and label encoding. The dataset is split into training and testing subsets, and data normalization and standardization techniques are applied. The models are trained using an ensemble technique called Voting Classifier, which combines the predictions of Decision Tree, KNN , and Support Vector Classifier models. Performance evaluation metrics such as accuracy, precision, recall, and F1 - score are used to assess the effectiveness of the models. The results are compared with existing research to provide insights into the strengths and weaknesses of the proposed approach. This project aims to contribute to the advancement of IoT security and the prevention of botnet attacks, ultimately enhancing the cybersecurity landscape",
+    "application": [
+      "Security & Privacy"
+    ],
+    "interest": [
+      "Artificial Intelligence / Machine Learning",
+      "Cybersecurity",
+      "Data Science"
+    ],
+    "rdia": [
+      "Economies of the Future"
+    ],
+    "acm": [
+      "I.2.6",
+      "I.5.1",
+      "H.3.1",
+      "H.1.1",
+      "D.4.6"
+    ]
+  },
+  "F25-45-20": {
+    "id": "F25-45-20",
+    "title": "Automatic Recognition of Children's Handwritten Arabic Characters",
+    "supervisor_name": " Asma Badr AlSaleh ",
+    "supervisor_id": "ABSa",
+    "academic_year": "1445",
+    "semester": "20",
+    "keywords": [
+      "Handwritten Character Recognition",
+      "Arabic Handwriting",
+      "Children's Handwriting",
+      "Deep Learning",
+      "Convolutional Neural Networks (CNN)",
+      "Hybrid CNN-SVM",
+      "Ensemble Learning",
+      "Transfer Learning",
+      "Hijja Dataset",
+      "Optical Character Recognition (OCR)",
+      "Feature Extraction",
+      "Support Vector Machine (SVM)",
+      "Voting Mechanisms",
+      "AHCD Dataset",
+      "Educational Technology",
+      "Arabic Language Processing",
+      "Computer Vision",
+      "Pattern Recognition"
+    ],
+    "abstract": "Handwritten recognition has wide applications across multiple domains, such as natural language processing and computer vision. Most of the research studies on handwritten recognition have predominantly focused on the English language and adult handwriting. Therefore, this project proposes Arabic character recognition models specifically designed for children's handwriting. The proposed models include a convolutional neural network (CNN) based model, a hybrid model combining CNN with support vector machine (SVM) that merges CNN's feature extraction with SVM's classification accuracy, a fine-tuned CNN model employing transfer learning from a pre-trained CNN model, and an ensemble model that consolidates predictions from the first three models using voting mechanisms. These models have been evaluated using Hijja dataset, a comprehensive collection of Arabic children's handwritten characters. The results were promising, demonstrating accuracy rates of 93.12%, 93.05%, and 93.15% on the testing data for the hybrid CNN-SVM, ensemble soft voting, and ensemble hard voting, respectively.",
+    "application": [
+      "Education"
+    ],
+    "interest": [
+      "Artificial Intelligence / Machine Learning",
+      "Computer Vision",
+      "Natural Language Processing"
+    ],
+    "rdia": [
+      "Economies of the Future"
+    ],
+    "acm": [
+      "I.2.6",
+      "I.2.7",
+      "I.2.10",
+      "G.4",
+      "I.4.7",
+      "I.5.1",
+      "I.4.9",
+      "I.5.4",
+      "J.m"
+    ]
+  },
+  "F27-45-20": {
+    "id": "F27-45-20",
+    "title": "Maseer: Advanced Pilgrimage Mapping for Effective Crowd Management during Hajj",
+    "supervisor_name": " Huda AbdulRahman Al-Muzaini ",
+    "supervisor_id": "HAMu",
+    "academic_year": "1445",
+    "semester": "20",
+    "keywords": [
+      "Crowd Management",
+      "Hajj Pilgrimage",
+      "Pilgrim Safety",
+      "Fully Convolutional Neural Network (FCNN)",
+      "Object Detection",
+      "Image Processing",
+      "Real-time Monitoring",
+      "Smart Navigation",
+      "Crowd Density Estimation",
+      "Holy Sites",
+      "Makkah",
+      "Mina",
+      "Arafat",
+      "Gate Management",
+      "Deep Learning",
+      "Computer Vision",
+      "Crowd Counting",
+      "HAJJ Crowd Dataset",
+      "Umrah Management"
+    ],
+    "abstract": "Hajj, the fifth pillar of Islam, is one of the most massive gathering events in the world. Every year around 3 million Muslims across the globe visit Makkah to perform Hajj. This project aims to develop a smart system for crowd management during the Hajj pilgrimage, focusing on monitoring the density of pilgrim movement and making informed decisions regarding gate status. The system utilizes Fully Convolutional Neural Network (FCNN) model to provide real-time information to administrators and pilgrims. The objectives of the project include exploring the latest research in crowd management, assessing image processing and object detection techniques, organize the necessary dataset and information, designing a monitoring system for pilgrim density and gate operations, creating a practical navigation map for pilgrims, and testing the implemented system. The methodology involves conducting a comprehensive literature review, comparing different methodologies, and testing the system using the collected dataset. The system caters to administrators by enabling effective control of entry and exit points, analyzing crowd density and movement patterns, and implementing crowd control measures. For pilgrims, the system provides notifications about gate closures. The proposed smart system aims to enhance safety, efficiency, and the overall experience of pilgrims during the Hajj pilgrimage. Notably, we trained the model on three different datasets. The model used in the system demonstrated exceptional performance, achieving 100% accuracy, precision, and F1 score for both training and testing on the Version2 dataset. These outstanding results, obtained after training the model on multiple datasets, reinforce the reliability and effectiveness of the implemented system, setting a strong foundation for its successful integration into crowd management during the Hajj pilgrimage.",
+    "application": [
+      "Government & Public Sector"
+    ],
+    "interest": [
+      "Computer Vision",
+      "Artificial Intelligence / Machine Learning",
+      "Web Development"
+    ],
+    "rdia": [
+      "Economies of the Future"
+    ],
+    "acm": [
+      "I.2.10",
+      "I.4.9",
+      "I.5.4",
+      "I.2.6",
+      "I.2.1",
+      "J.m",
+      "D.2.0",
+      "G.4",
+      "I.4.8"
+    ]
+  },
+  "F28-45-20": {
+    "id": "F28-45-20",
+    "title": "AI-trip planner and advisor",
+    "supervisor_name": " Raad Abdullah Alturki",
+    "supervisor_id": "RAtu",
+    "academic_year": "1445",
+    "semester": "20",
+    "keywords": [
+      "AI Trip Planner",
+      "Travel Advisor",
+      "Personalized Itinerary",
+      "Artificial Intelligence",
+      "Recommendation System",
+      "Smart Assistant",
+      "Travel Planning",
+      "Budget Optimization",
+      "User Preferences",
+      "Multilingual Support",
+      "Arabic Language",
+      "English Language",
+      "Real-time Guidance",
+      "Chatbot",
+      "Travel Technology",
+      "Itinerary Generation",
+      "PDF Export",
+      "Tourism"
+    ],
+    "abstract": "Travelers often struggle to create well-organized itineraries that match their preferences and budgets, and it can be overwhelming given the variety of options and information available. So, our project aims to enhance and improve the travel experience by alleviating the pressures of planning and ensuring that users have a hassle-free and unforgettable trip. They can create a fully organized trip that suits their personal preferences and budget by using artificial intelligence algorithms to generate a customized travel itinerary for them. Additionally, a personal smart assistant is available, allowing users to directly ask any question that comes to their mind",
+    "application": [
+      "Transportation & Mobility"
+    ],
+    "interest": [
+      "Artificial Intelligence / Machine Learning",
+      "Natural Language Processing",
+      "Web Development"
+    ],
+    "rdia": [
+      "Economies of the Future"
+    ],
+    "acm": [
+      "I.2.6",
+      "I.2.7",
+      "I.2.1",
+      "H.5.2"
+    ]
+  },
+  "F29-45-20": {
+    "id": "F29-45-20",
+    "title": "Hudhud: AI-based Remote Rehabilitation",
+    "supervisor_name": " Manan Mohammed Almusallam ",
+    "supervisor_id": "MMmu",
+    "academic_year": "1445",
+    "semester": "20",
+    "keywords": [
+      "Remote Rehabilitation",
+      "Artificial Intelligence",
+      "Pose Estimation",
+      "Computer Vision",
+      "Mediapipe",
+      "Physical Therapy",
+      "Healthcare Technology",
+      "Exercise Monitoring",
+      "Real-time Feedback",
+      "Patient Progress Tracking",
+      "Telerehabilitation",
+      "Knee Rehabilitation",
+      "Motion Detection",
+      "Body Posture Analysis",
+      "Injury Prevention",
+      "Therapeutic Exercises"
+    ],
+    "abstract": "Rehabilitation is critical to regaining physical health, but its effectiveness depends on accurate monitoring and feedback mechanisms. Traditional methods often rely on manual observation, which requires more effort and time. Sometimes patients must travel to the hospital to receive physical therapy, and it may require more time or an increase in the number of physical therapists to serve a larger number of patients. This project presents an innovative solution that uses AI-based posture estimation to improve rehabilitation monitoring. The proposed system uses AI to automatically estimate body positions during rehabilitation exercises, providing healthcare professionals with an objective tool to evaluate the progression of patients. In addition, patients receive immediate visual feedback about their form, encouraging proper exercise performance and reducing the risk of injury. The system records and stores workout performance data, facilitating long-term trend tracking and analysis. This project bridges the gap between traditional rehabilitation monitoring methods and AI posture estimation, providing accurate real-time feedback during exercises, thereby improving quality and outcomes of rehabilitation programs. In this project, we utilized Mediapipe, a computer vision model, to recognize and count knee rehabilitation exercises. As the field of rehabilitation monitoring evolves, this approach will have a significant impact on the health of countless people throughout their recovery journey.",
+    "application": [
+      "Healthcare / Medical"
+    ],
+    "interest": [
+      "Artificial Intelligence / Machine Learning",
+      "Computer Vision",
+      "Human-Computer Interaction"
+    ],
+    "rdia": [
+      "Health & Wellness"
+    ],
+    "acm": [
+      "I.2.6",
+      "I.2.10",
+      "I.4.7",
+      "I.4.9",
+      "I.2.1",
+      "J.3"
+    ]
+  },
+  "M02-45-10": {
+    "id": "M02-45-10",
+    "title": "Automated Attendance System Using Facial Recognition (FRA)",
+    "supervisor_name": "Hachemi Ahmed Nasser",
+    "supervisor_id": "HAss",
+    "academic_year": "1445",
+    "semester": "10",
+    "keywords": [
+      "Facial Recognition",
+      "Automated Attendance System",
+      "Computer Vision",
+      "Raspberry Pi",
+      "Image Processing",
+      "Database Management",
+      "Web Application",
+      "Educational Technology",
+      "Biometric Authentication",
+      "Real-Time Recognition"
+    ],
+    "abstract": "Traditional attendance tracking in educational institutions with paper-based attendance lists is error prone and time-consuming for students and teachers. One solution to this problem is to use facial recognition technology for automatic attendance tracking. The system aims to simplify and speed up the educational environment while saving time for students and professors. The main goal is to provide accurate student attendance, eliminate the need for manual attendance, and allow students to access attendance and view their attendance history. The system includes a camera and a control unit (Raspberry Pi) to connect the camera to software written on the Raspberry Pi. The software is linked to the server and has facial recognition functionality. As students face the camera and are recognized, their attendance is then recorded in the database. The system provides an efficient and reliable method of attendance registration, avoiding errors and saving time. Students and professors can access their attendance records through the website, giving them easy access to attendance information. Using facial recognition technology ensures a high level of security and accuracy, making it a practical and effective solution for attendance tracking. Overall, the implementation of facial recognition technology in attendance tracking is an important step to improve the educational environment and increase the efficiency of attendance management",
+    "application": [
+      "Education"
+    ],
+    "interest": [
+      "Computer Vision",
+      "Artificial Intelligence / Machine Learning",
+      "Embedded Systems"
+    ],
+    "rdia": [
+      "Economies of the Future"
+    ],
+    "acm": [
+      "I.2.10",
+      "I.4.8",
+      "I.5.4",
+      "H.2.8",
+      "K.3.2"
+    ]
+  },
+  "M02-45-20": {
+    "id": "M02-45-20",
+    "title": "Detection of Adversarial Attacks Malwares Using Machine Learning Models",
+    "supervisor_name": "Wojdan Mohammed BinSaeedan",
+    "supervisor_id": "WMnS",
+    "academic_year": "1445",
+    "semester": "20",
+    "keywords": [
+      "Malware Detection",
+      "Adversarial Attacks",
+      "Machine Learning",
+      "Cybersecurity",
+      "Windows Malware",
+      "Fast Gradient Sign Method (FGSM)",
+      "Adversarial Machine Learning",
+      "XGBoost",
+      "AdaBoost",
+      "Random Forest",
+      "Decision Tree",
+      "Support Vector Machine (SVM)",
+      "K-Nearest Neighbors (KNN)",
+      "Static Analysis",
+      "DLL Analysis",
+      "Robustness Evaluation",
+      "Threat Detection"
+    ],
+    "abstract": "The field of cybersecurity has been a constant battleground between malicious actors and defenders, with the perpetual evolution of malware representing a particularly pressing challenge. As Windows continues to be one of the most targeted operating systems, detecting and mitigating Windows malware remains a critical focus in this arena. In response to the ever-changing landscape of threats, innovative solutions are continuously sought to enhance the precision and adaptability of malware detection systems. This paper presents an approach to Windows malware detection by harnessing the capabilities of Machine Learning and Adversarial Attacks. It extends its reach to encompass various features of Windows malware, including the analysis of static files and elements such as imported DLLs. Furthermore, the study delves into the critical issue of identifying and addressing vulnerabilities stemming from adversarial attacks within this sophisticated malware detection framework, offering a comprehensive solution to enhance the security of Windows systems.",
+    "application": [
+      "Security & Privacy"
+    ],
+    "interest": [
+      "Cybersecurity",
+      "Artificial Intelligence / Machine Learning"
+    ],
+    "rdia": [
+      "Economies of the Future"
+    ],
+    "acm": [
+      "D.4.6",
+      "I.2.6",
+      "I.5.4",
+      "K.6.5",
+      "D.2.4"
+    ]
+  },
+  "M04-45-10": {
+    "id": "M04-45-10",
+    "title": "Smart Car Parking Manager (SCPM)",
+    "supervisor_name": " Mostafa Elsayed Ahmed Ibrahim",
+    "supervisor_id": "MEra",
+    "academic_year": "1445",
+    "semester": "10",
+    "keywords": [
+      "Smart Parking System",
+      "Parking Management",
+      "Raspberry Pi",
+      "Sensor-Based Detection",
+      "License Plate Recognition",
+      "Computer Vision",
+      "Web Application",
+      "SQL Database",
+      "Real-Time Monitoring",
+      "Agile Development"
+    ],
+    "abstract": "The Smart Car Parking System is a system that monitors and manages parking areas. The system optimizes the parking process by automating the opening and closing of the entrance and exit gates and providing real-time information to drivers and administrators. The system lessens human interactions, provides statistics about parking spots, computes fees per hour, provides security via allowing only authorized (registered) people to use the parking, and reduces the waiting time, cost, and errors associated with manual or card-based parking methods, the aim of the project is to design and implement a smart car parking system that monitors and manages parking areas. The objectives include designing and developing a system with Raspberry Pi board with sensors and a camera to detect a car and to register the license plates then calculate the final fee. Developing a web application to relate to the system for admin operations (e.g., manually registering license plates, removing license plates, changing the fees). Designing an SQL database to track time and number of cars in the parking. By achieving these objectives, the project will improve the user experience and satisfaction of parking in urban areas. The methodology of the project consists of four main phases: analysis, design, implementation, and testing. In each phase, the team will follow the steps and guidelines of the agile software development approach to ensure the quality and efficiency of their project.",
+    "application": [
+      "Transportation & Mobility"
+    ],
+    "interest": [
+      "Computer Vision",
+      "Internet of Things (IoT)",
+      "Embedded Systems"
+    ],
+    "rdia": [
+      "Sustainable Environment & Supply of Essential Needs"
+    ],
+    "acm": [
+      "I.4.9",
+      "I.5.4",
+      "J.7",
+      "C.3",
+      "H.2.8"
+    ]
+  },
+  "M05-45-20": {
+    "id": "M05-45-20",
+    "title": "Musanif (مصنف): A Categorization and Product Information API for E-Commerce Product Images)",
+    "supervisor_name": "Sultan Shuraidah Al-dera",
+    "supervisor_id": "SSde",
+    "academic_year": "1445",
+    "semester": "20",
+    "keywords": [
+      "E-commerce",
+      "Image Recognition",
+      "Product Categorization",
+      "API Development",
+      "Machine Learning",
+      "AWS Rekognition",
+      "Web Scraping",
+      "Product Information Extraction",
+      "Automated Data Entry",
+      "Inventory Management",
+      "REST API",
+      "Image Classification",
+      "Product Labeling",
+      "React",
+      "Node.js",
+      "Cloud Computing",
+      "Retail Technology"
+    ],
+    "abstract": "Musanif is an innovative API that leverages the power of AI and machine learning to revolutionize the way store owners add products to their apps and websites. W ith Musanif, store owners can easily upload product images and extract a plethora of information, including labels, categories, and other relevant data, all in an automated and ef ficient way . The Musanif API employs innovative image recognition algorithms to identify and categorize products accurately . By automating this process, it minimizes the need for manual data entry . store owners can significantly reduce the time and ef fort required to add new products to their apps and websites, allowing them to focus on other aspects of their business. Overall, Musanif aims to improve how store owners manage their products and streamline their operations. W ith its powerful AI and machine learning capabilities, Musanif is a game-changer for the e-commerce industry , of fering ef ficiency , accuracy , and convenience. Store_owner: With the growing demand for online shopping and the surge of products with their different types and information, store owners must keep track of their inventory and manually review and add products to their websites. They must also ensure that the product information is valid and helpful to customers. This process is difficult, time-consuming, and may lead to mislabeling or inaccurate product information.",
+    "application": [
+      "Business & Productivity"
+    ],
+    "interest": [
+      "Computer Vision",
+      "Artificial Intelligence / Machine Learning",
+      "Web Development"
+    ],
+    "rdia": [
+      "Economies of the Future"
+    ],
+    "acm": [
+      "I.2.10",
+      "I.4.9",
+      "I.5.4",
+      "H.3.3",
+      "H.4.2"
+    ]
+  },
+  "M08-45-20": {
+    "id": "M08-45-20",
+    "title": "Nab’a Application",
+    "supervisor_name": "Mohammed Hussein Alkhatib",
+    "supervisor_id": "MHkh",
+    "academic_year": "1445",
+    "semester": "20",
+    "keywords": [
+      "News",
+      "Verified News",
+      "Trusted Information",
+      "Misinformation",
+      "Blockchain"
+    ],
+    "abstract": "In our fast-paced digital era, it’s tough to find trustworthy news. With so much information available online, and social media playing a big role in news distribution, misinformation can easily spread. 'Nab’a' is designed to tackle this issue head-on. 'Nab’a' is a unique platform focused on delivering news straight from official and verified sources, ensuring authenticity and reliability. It utilizes blockchain technology, a kind of digital ledger that securely and transparently records transactions or information. Once something is recorded in the blockchain, it cannot be altered, ensuring the integrity of the news published on 'Nab’a.' Blockchain technology is crucial in 'Nab’a' for several reasons. It provides transparency, showing exactly where the news is coming from. It ensures security, protecting information from being tampered with. And it adds a layer of accountability, as all information and its sources are permanently recorded and verifiable. The main problem 'Nab’a' aims to solve is the widespread dissemination of unverified and potentially false information. By creating a direct channel for official news, 'Nab’a' ensures that the public receives accurate and reliable information without the need to navigate through irrelevant or misleading content. The motivation behind 'Nab’a' is to create a trustworthy space for news consumption, where users can access important information quickly and confidently, knowing that what they are reading is the real deal. It’s about making news simpler, more direct, and more reliable for everyone.",
+    "application": [
+      "Entertainment & Media"
+    ],
+    "interest": [
+      "Blockchain",
+      "Web Development",
+      "Mobile Development"
+    ],
+    "rdia": [
+      "Economies of the Future"
+    ],
+    "acm": [
+      "E.3",
+      "K.6.5",
+      "H.4.3",
+      "H.5.2",
+      "D.4.6"
+    ]
+  },
+  "M09-45-10": {
+    "id": "M09-45-10",
+    "title": "Qaimni: An Interactive, Web-Based System for Rating Faculty Members",
+    "supervisor_name": "Adel Ebrahim Al-Salem",
+    "supervisor_id": "AESa",
+    "academic_year": "1445",
+    "semester": "10",
+    "keywords": [
+      "Faculty Rating",
+      "Student Reviews",
+      "Anonymous Feedback",
+      "Web Application",
+      "College Platform"
+    ],
+    "abstract": "Qaimni is a high-quality web application designed to address the need for a dedicated platform where students can review faculty members in the College of Computer and Information Sciences. The project aims to improve the efficiency of communication and interaction between students and instructors by enabling them to share experiences and provide honest, anonymous feedback. This application is inspired by the success of Mojadwel, a user-friendly platform that solved course registration problems by facilitating easy scheduling and management of course times and section numbers. The primary objectives of Qaimni are to create an accessible platform for students to submit and view reviews about instructors, allow anonymous reviewing, build a database to store reviews securely, ensure fast performance, provide clear overviews of instructors' strengths, and make the platform accessible to all students, including those with special needs. To understand the needs and preferences of college students concerning faculty rating applications, a survey titled 'The Need for A Faculty Rating System' was conducted. This survey targeted college students and featured five multiple-choice questions designed to gather data on the need for a faculty rating application, support for its development, preferences for anonymity, interest in a college-specific application, and willingness to use the application despite the existence of similar applications. Google Forms was used to design and deploy the survey, collecting around 120 responses from various college departments. The analysis of the survey data provided valuable insights into students' preferences and needs, which played a crucial role in the development and design of the Qaimni project. The majority of students expressed a need for a faculty rating application with anonymity features, guiding the project's direction. Consequently, Qaimni was tailored to address these preferences, resulting in a high-quality rating application specifically catering to the needs and preferences of college students, aiming to enhance the overall academic experience.",
+    "application": [
+      "Education"
+    ],
+    "interest": [
+      "Web Development",
+      "Database Systems",
+      "Human-Computer Interaction"
+    ],
+    "rdia": [
+      "Economies of the Future"
+    ],
+    "acm": [
+      "H.5.2",
+      "H.2.8",
+      "H.4.2",
+      "K.3.2",
+      "H.3.5"
+    ]
+  },
+  "M10-45-10": {
+    "id": "M10-45-10",
+    "title": "School Bus Tracking and Management system",
+    "supervisor_name": "Ahmed Mohammed Ahmed Gadallah",
+    "supervisor_id": "AMda",
+    "academic_year": "1445",
+    "semester": "10",
+    "keywords": [
+      "School Bus Tracking",
+      "Student Transportation Management",
+      "Real-Time Location Tracking",
+      "Route Optimization",
+      "Google Maps API",
+      "Parent Notifications",
+      "Operational Efficiency",
+      "User-Friendly Interface"
+    ],
+    "abstract": "The School Bus Tracking and Management System is a comprehensive solution designed to enhance the safety, security, and efficiency of school bus transportation. This system caters to the needs of parents, administrators, and drivers, ensuring a seamless and worry-free experience. For parents, the system offers the capability to track their children's school bus in real-time. They receive notifications when their child boards or disembarks from the bus, ensuring peace of mind and timely updates about their child's safety and location. This level of transparency allows parents to plan their schedules effectively, confident in the knowledge that their children are safe during their school commutes. Administrators benefit from simplified student registration processes. The system streamlines the student enrollment process, making it easy to assign students to the appropriate bus routes and monitor ridership data. This leads to improved operational efficiency, as administrators can make informed decisions regarding bus routes and resource allocation. Drivers can access a user-friendly interface, integrated with Google Maps API, enabling them to efficiently navigate their routes. Drivers can view the exact locations of students' homes on the map, select any location, and even open the Google Maps app to find the shortest path to the selected location. This feature enhances route optimization, reducing travel time and improving the overall transportation experience for students. In summary, the School Bus Tracking and Management System offers a holistic approach to school bus transportation, fostering safety, efficiency, and peace of mind for parents, administrators, and drivers alike. By leveraging advanced technology and intuitive design, this system is a valuable asset for educational institutions seeking to modernize and enhance their student transportation services.",
+    "application": [
+      "Transportation & Mobility"
+    ],
+    "interest": [
+      "Internet of Things (IoT)",
+      "Mobile Development",
+      "Web Development"
+    ],
+    "rdia": [
+      "Sustainable Environment & Supply of Essential Needs"
+    ],
+    "acm": [
+      "C.2.4",
+      "H.4.2",
+      "J.7",
+      "H.3.5",
+      "C.3"
+    ]
+  }
+}
