@@ -1,0 +1,579 @@
+{
+  "group_id": "G008",
+  "group_profile": {
+    "selected_interests": [
+      "Robotics",
+      "Embedded Systems",
+      "Network Systems",
+      "Distributed Systems",
+      "Internet of Things (IoT)"
+    ],
+    "selected_applications": [
+      "Business & Productivity",
+      "Transportation & Mobility"
+    ],
+    "selected_rdia": [
+      "Energy & Industrial Leadership"
+    ]
+  },
+  "recommended_projects": [
+    {
+      "rank": 1,
+      "project_id": "M04-45-10",
+      "title": "Smart Car Parking Manager (SCPM)",
+      "supervisor_name": " Mostafa Elsayed Ahmed Ibrahim",
+      "supervisor_id": "MEra",
+      "academic_year": "1445",
+      "keywords": [
+        "Smart Parking System",
+        "Parking Management",
+        "Raspberry Pi",
+        "Sensor-Based Detection",
+        "License Plate Recognition",
+        "Computer Vision",
+        "Web Application",
+        "SQL Database",
+        "Real-Time Monitoring",
+        "Agile Development"
+      ],
+      "application": [
+        "Transportation & Mobility"
+      ],
+      "interest": [
+        "Computer Vision",
+        "Internet of Things (IoT)",
+        "Embedded Systems"
+      ],
+      "rdia": [
+        "Sustainable Environment & Supply of Essential Needs"
+      ],
+      "scores": {
+        "final_score": 0.4935,
+        "semantic_sim": 0.737,
+        "context_score": 0.5,
+        "rdia_score": 0.0,
+        "rrf_score": 0.032787
+      },
+      "explanation": "Good match with the group's background. Matches application domain(s): transportation & mobility."
+    },
+    {
+      "rank": 2,
+      "project_id": "F05-42-10",
+      "title": "Decentralized Social Application: Moments",
+      "supervisor_name": " Tahani Fahad Albalawi",
+      "supervisor_id": "TFba",
+      "academic_year": "1442",
+      "keywords": [
+        "Social applications",
+        "Centralized system",
+        "Blockchain technology",
+        "Security",
+        "Privacy",
+        "Decentralized systems"
+      ],
+      "application": [
+        "Social Good & Community"
+      ],
+      "interest": [
+        "Blockchain",
+        "Web Development",
+        "Cybersecurity"
+      ],
+      "rdia": [
+        "Economies of the Future"
+      ],
+      "scores": {
+        "final_score": 0.3443,
+        "semantic_sim": 0.7019,
+        "context_score": 0.0,
+        "rdia_score": 0.0,
+        "rrf_score": 0.029762
+      },
+      "explanation": "Good match with the group's background."
+    },
+    {
+      "rank": 3,
+      "project_id": "F02-42-20",
+      "title": "Online Context-Aware Recommender System",
+      "supervisor_name": " Meznah Rashid Almutairy",
+      "supervisor_id": "MRmu",
+      "academic_year": "1442",
+      "keywords": [
+        "Recommender System",
+        "Large-scale",
+        "Online Learning",
+        "Context-aware",
+        "Multi-armed Bandit",
+        "Reinforcement Learning",
+        "Clustering"
+      ],
+      "application": [
+        "Entertainment & Media"
+      ],
+      "interest": [
+        "Artificial Intelligence / Machine Learning",
+        "Distributed Systems",
+        "Data Science"
+      ],
+      "rdia": [
+        "Economies of the Future"
+      ],
+      "scores": {
+        "final_score": 0.3335,
+        "semantic_sim": 0.6837,
+        "context_score": 0.0,
+        "rdia_score": 0.0,
+        "rrf_score": 0.029911
+      },
+      "explanation": "Good match with the group's background."
+    },
+    {
+      "rank": 4,
+      "project_id": "F24-45-20",
+      "title": "Botnet Attack Detection Using Machine Learning",
+      "supervisor_name": " Fatmah Ratiyan Alanazi ",
+      "supervisor_id": "FRan",
+      "academic_year": "1445",
+      "keywords": [
+        "Botnet Detection",
+        "Machine Learning",
+        "Ensemble Learning",
+        "Voting Classifier",
+        "Internet of Things (IoT) Security",
+        "Cybersecurity",
+        "N-BaIoT Dataset",
+        "BASHLITE Botnet",
+        "Mirai Botnet",
+        "Principal Component Analysis (PCA)",
+        "Decision Tree",
+        "K-Nearest Neighbors (KNN)",
+        "Support Vector Classifier (SVC)",
+        "Network Intrusion Detection",
+        "Anomaly Detection",
+        "Class Imbalance",
+        "Resampling Techniques",
+        "Feature Extraction"
+      ],
+      "application": [
+        "Security & Privacy"
+      ],
+      "interest": [
+        "Artificial Intelligence / Machine Learning",
+        "Cybersecurity",
+        "Data Science"
+      ],
+      "rdia": [
+        "Economies of the Future"
+      ],
+      "scores": {
+        "final_score": 0.3101,
+        "semantic_sim": 0.6677,
+        "context_score": 0.0,
+        "rdia_score": 0.0,
+        "rrf_score": 0.027652
+      },
+      "explanation": "Good match with the group's background."
+    },
+    {
+      "rank": 5,
+      "project_id": "F06-45-10",
+      "title": "Get It: A Deep Learning Approach for Identifying and Discriminating Spoken Arabic Among English",
+      "supervisor_name": "Wojdan Mohammed BinSaeedan",
+      "supervisor_id": "WMnS",
+      "academic_year": "1445",
+      "keywords": [
+        "Language Identification",
+        "Spoken Language Recognition",
+        "Deep Learning",
+        "Arabic Speech Recognition",
+        "English Speech Recognition",
+        "Multilingual Systems",
+        "Customer Service Automation",
+        "ECAPA-TDNN",
+        "SpeechBrain",
+        "Convolutional Neural Network (CNN)",
+        "Recurrent Neural Network (RNN)",
+        "Capsule Network (CapsNet)",
+        "Natural Language Processing (NLP)",
+        "Voice Analysis",
+        "Mozilla Common Voice Dataset",
+        "Real-time Speech Processing",
+        "Call Center Automation",
+        "Audio Processing"
+      ],
+      "application": [
+        "Business & Productivity"
+      ],
+      "interest": [
+        "Artificial Intelligence / Machine Learning",
+        "Natural Language Processing"
+      ],
+      "rdia": [
+        "Economies of the Future"
+      ],
+      "scores": {
+        "final_score": 0.4745,
+        "semantic_sim": 0.6989,
+        "context_score": 0.5,
+        "rdia_score": 0.0,
+        "rrf_score": 0.03101
+      },
+      "explanation": "Good match with the group's background. Matches application domain(s): business & productivity."
+    },
+    {
+      "rank": 6,
+      "project_id": "M10-45-10",
+      "title": "School Bus Tracking and Management system",
+      "supervisor_name": "Ahmed Mohammed Ahmed Gadallah",
+      "supervisor_id": "AMda",
+      "academic_year": "1445",
+      "keywords": [
+        "School Bus Tracking",
+        "Student Transportation Management",
+        "Real-Time Location Tracking",
+        "Route Optimization",
+        "Google Maps API",
+        "Parent Notifications",
+        "Operational Efficiency",
+        "User-Friendly Interface"
+      ],
+      "application": [
+        "Transportation & Mobility"
+      ],
+      "interest": [
+        "Internet of Things (IoT)",
+        "Mobile Development",
+        "Web Development"
+      ],
+      "rdia": [
+        "Sustainable Environment & Supply of Essential Needs"
+      ],
+      "scores": {
+        "final_score": 0.4527,
+        "semantic_sim": 0.7221,
+        "context_score": 0.5,
+        "rdia_score": 0.0,
+        "rrf_score": 0.032258
+      },
+      "explanation": "Good match with the group's background. Matches application domain(s): transportation & mobility."
+    },
+    {
+      "rank": 7,
+      "project_id": "F08-45-20",
+      "title": "XIPHER: Visualization Tool for Security Algorithms",
+      "supervisor_name": " Tahani Fahad Albalawi",
+      "supervisor_id": "TFba",
+      "academic_year": "1445",
+      "keywords": [
+        "Security Algorithms",
+        "Algorithm Visualization",
+        "Security Education",
+        "Usability Evaluation",
+        "Human-Computer Interaction (HCI)",
+        "Educational Web Platform",
+        "Visualization Tools",
+        "User Experience (UX)"
+      ],
+      "application": [
+        "Education"
+      ],
+      "interest": [
+        "Cybersecurity",
+        "Web Development",
+        "Human-Computer Interaction"
+      ],
+      "rdia": [
+        "Economies of the Future"
+      ],
+      "scores": {
+        "final_score": 0.3169,
+        "semantic_sim": 0.6706,
+        "context_score": 0.0,
+        "rdia_score": 0.0,
+        "rrf_score": 0.012821
+      },
+      "explanation": "Good match with the group's background."
+    },
+    {
+      "rank": 8,
+      "project_id": "F10-42-20",
+      "title": "Monitoring and Tracking of Vulnerable Individuals Using Mini-UAVs",
+      "supervisor_name": " Areeb Abdullah Alowisheq",
+      "supervisor_id": "AAow",
+      "academic_year": "1442",
+      "keywords": [
+        "UAV Surveillance",
+        "Tracking System",
+        "Vision-Based Control",
+        "Autonomous Drones",
+        "Object Detection",
+        "Person Re-Identification",
+        "Deep Learning",
+        "Mobile Application",
+        "Simulation and Prototyping",
+        "Safety Monitoring"
+      ],
+      "application": [
+        "Social Good & Community"
+      ],
+      "interest": [
+        "Computer Vision",
+        "Artificial Intelligence / Machine Learning",
+        "Drones"
+      ],
+      "rdia": [
+        "Health & Wellness"
+      ],
+      "scores": {
+        "final_score": 0.3133,
+        "semantic_sim": 0.6867,
+        "context_score": 0.0,
+        "rdia_score": 0.0,
+        "rrf_score": 0.026974
+      },
+      "explanation": "Good match with the group's background."
+    },
+    {
+      "rank": 9,
+      "project_id": "F28-45-20",
+      "title": "AI-trip planner and advisor",
+      "supervisor_name": " Raad Abdullah Alturki",
+      "supervisor_id": "RAtu",
+      "academic_year": "1445",
+      "keywords": [
+        "AI Trip Planner",
+        "Travel Advisor",
+        "Personalized Itinerary",
+        "Artificial Intelligence",
+        "Recommendation System",
+        "Smart Assistant",
+        "Travel Planning",
+        "Budget Optimization",
+        "User Preferences",
+        "Multilingual Support",
+        "Arabic Language",
+        "English Language",
+        "Real-time Guidance",
+        "Chatbot",
+        "Travel Technology",
+        "Itinerary Generation",
+        "PDF Export",
+        "Tourism"
+      ],
+      "application": [
+        "Transportation & Mobility"
+      ],
+      "interest": [
+        "Artificial Intelligence / Machine Learning",
+        "Natural Language Processing",
+        "Web Development"
+      ],
+      "rdia": [
+        "Economies of the Future"
+      ],
+      "scores": {
+        "final_score": 0.433,
+        "semantic_sim": 0.6743,
+        "context_score": 0.5,
+        "rdia_score": 0.0,
+        "rrf_score": 0.027418
+      },
+      "explanation": "Good match with the group's background. Matches application domain(s): transportation & mobility."
+    },
+    {
+      "rank": 10,
+      "project_id": "F01-45-20",
+      "title": "Baasyir:A YOLO Based approach to Assist Visually  Impaired People by leveraging Smart Glasses System",
+      "supervisor_name": "Dhouha Ahmed Ben Noureddine",
+      "supervisor_id": "DAur",
+      "academic_year": "1445",
+      "keywords": [
+        "Baasyir Smart glasseses",
+        "Deep Learning",
+        "Object Detection",
+        "YOLOv7",
+        "YOLOv7-tiny",
+        "Baasyir dataset",
+        "Furniture-detection dataset",
+        "Raspberry Pi"
+      ],
+      "application": [
+        "Healthcare / Medical"
+      ],
+      "interest": [
+        "Computer Vision",
+        "Embedded Systems",
+        "Artificial Intelligence / Machine Learning"
+      ],
+      "rdia": [
+        "Health & Wellness"
+      ],
+      "scores": {
+        "final_score": 0.3098,
+        "semantic_sim": 0.6863,
+        "context_score": 0.0,
+        "rdia_score": 0.0,
+        "rrf_score": 0.028405
+      },
+      "explanation": "Good match with the group's background."
+    }
+  ],
+  "recommended_interests": [
+    {
+      "name": "Artificial Intelligence / Machine Learning",
+      "description": "Focuses on building systems that learn from data, make predictions, and perform intelligent tasks without explicit programming.",
+      "combined_score": 0.8763,
+      "semantic_score": 0.8233,
+      "frequency_in_top_projects": 1.0,
+      "already_selected": false
+    },
+    {
+      "name": "Computer Vision",
+      "description": "Enables machines to interpret and understand visual information from images and videos using AI techniques.",
+      "combined_score": 0.7519,
+      "semantic_score": 0.7068,
+      "frequency_in_top_projects": 0.8571428571428571,
+      "already_selected": false
+    },
+    {
+      "name": "Embedded Systems",
+      "description": "Involves programming and designing specialized computing systems integrated into hardware devices.",
+      "combined_score": 0.6673,
+      "semantic_score": 0.8309,
+      "frequency_in_top_projects": 0.2857142857142857,
+      "already_selected": true
+    }
+  ],
+  "recommended_applications": [
+    {
+      "name": "Transportation & Mobility",
+      "description": "Pertains to technology related to the movement of people and goods.",
+      "combined_score": 0.8107,
+      "semantic_score": 0.7296,
+      "frequency_in_top_projects": 1.0,
+      "already_selected": true
+    },
+    {
+      "name": "Social Good & Community",
+      "description": "Relates to technology that aims to benefit society.",
+      "combined_score": 0.7889,
+      "semantic_score": 0.6984,
+      "frequency_in_top_projects": 1.0,
+      "already_selected": false
+    },
+    {
+      "name": "Entertainment & Media",
+      "description": "Covers applications for leisure and content creation.",
+      "combined_score": 0.7488,
+      "semantic_score": 0.6412,
+      "frequency_in_top_projects": 1.0,
+      "already_selected": false
+    }
+  ],
+  "recommended_rdia": [
+    {
+      "label": "Economies of the Future",
+      "description": "Reimagine urban living and establish Saudi Arabia as a global leader in future-oriented sectors. ",
+      "combined_score": 0.7586,
+      "semantic_score": 0.6551,
+      "frequency_in_top_projects": 1.0,
+      "already_selected": false
+    },
+    {
+      "label": "Sustainable Environment and Supply of Essential Needs",
+      "description": "Secure sustainable access to water, food, and energy resources for the population and industries.",
+      "combined_score": 0.4312,
+      "semantic_score": 0.616,
+      "frequency_in_top_projects": 0,
+      "already_selected": false
+    },
+    {
+      "label": "Energy and Industrial Leadership",
+      "description": "Maintain and strengthen Saudi Arabia's global leadership in the energy sector while diversifying into new areas.",
+      "combined_score": 0.4247,
+      "semantic_score": 0.6068,
+      "frequency_in_top_projects": 0,
+      "already_selected": false
+    },
+    {
+      "label": "Health and Wellness",
+      "description": "Address prevalent health and therapeutic challenges in the Kingdom.",
+      "combined_score": 0.373,
+      "semantic_score": 0.5329,
+      "frequency_in_top_projects": 0,
+      "already_selected": false
+    }
+  ],
+  "top_keywords": [
+    {
+      "keyword": "deep learning",
+      "count": 3,
+      "coverage": 0.3,
+      "semantic_score": 0.6638,
+      "combined_score": 0.8319
+    },
+    {
+      "keyword": "raspberry pi",
+      "count": 2,
+      "coverage": 0.2,
+      "semantic_score": 0.6639,
+      "combined_score": 0.6653
+    },
+    {
+      "keyword": "object detection",
+      "count": 2,
+      "coverage": 0.2,
+      "semantic_score": 0.6624,
+      "combined_score": 0.6645
+    },
+    {
+      "keyword": "centralized system",
+      "count": 1,
+      "coverage": 0.1,
+      "semantic_score": 0.7598,
+      "combined_score": 0.5466
+    },
+    {
+      "keyword": "decentralized systems",
+      "count": 1,
+      "coverage": 0.1,
+      "semantic_score": 0.7122,
+      "combined_score": 0.5228
+    },
+    {
+      "keyword": "blockchain technology",
+      "count": 1,
+      "coverage": 0.1,
+      "semantic_score": 0.7044,
+      "combined_score": 0.5188
+    },
+    {
+      "keyword": "computer vision",
+      "count": 1,
+      "coverage": 0.1,
+      "semantic_score": 0.7008,
+      "combined_score": 0.517
+    },
+    {
+      "keyword": "large-scale",
+      "count": 1,
+      "coverage": 0.1,
+      "semantic_score": 0.6917,
+      "combined_score": 0.5125
+    },
+    {
+      "keyword": "web application",
+      "count": 1,
+      "coverage": 0.1,
+      "semantic_score": 0.6794,
+      "combined_score": 0.5064
+    },
+    {
+      "keyword": "agile development",
+      "count": 1,
+      "coverage": 0.1,
+      "semantic_score": 0.6751,
+      "combined_score": 0.5042
+    }
+  ]
+}
