@@ -106,11 +106,7 @@ Each student's course contributions are weighted by their grade according to a f
 
 ### 5. Vector Normalization
 
-All vectors — after averaging, weighted averaging, or max-pooling — are L2-normalized. This is critical because:
-
-- Cosine similarity between normalized vectors equals their dot product, enabling efficient matrix multiplication
-- It prevents vectors with high magnitude (from many segments) from dominating similarity scores artificially
-- It ensures all entities occupy the surface of a unit hypersphere, making angular distance a meaningful proxy for semantic similarity
+All vectors — after averaging, weighted averaging, or max-pooling — are L2-normalized. 
 
 ---
 
