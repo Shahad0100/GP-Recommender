@@ -227,6 +227,7 @@ combined_score = 0.50 × frequency_score + 0.50 × semantic_score
 ```
 
 Candidate keywords are encoded at query time (one SBERT call per batch), and their vectors are compared against the group vector. This equal split rewards keywords that are both common across recommended projects and semantically central to the group's profile — avoiding noise keywords that appear frequently but are semantically peripheral.
+
 ---
 
 ### 5.1 How Outputs Are Explained
@@ -293,4 +294,3 @@ engine.rdia_vecs                     (encode at query time)
 
 ---
 
-*Document generated from source: `embedding_engine.py`, `phase2_embed.py`, `recommender_system.py`, `utils.py`, and all five recommender modules.*
