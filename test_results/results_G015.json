@@ -2,12 +2,12 @@
   "group_id": "G015",
   "group_profile": {
     "selected_interests": [
-      "Database Systems",
-      "Web Development"
+      "Web Development",
+      "Database Systems"
     ],
     "selected_applications": [
-      "Finance & Economics",
-      "Education"
+      "Education",
+      "Finance & Economics"
     ],
     "selected_rdia": [
       "Economies of the Future"
@@ -41,8 +41,8 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.5326,
-        "semantic_sim": 0.7652,
+        "final_score": 0.5287,
+        "semantic_sim": 0.7573,
         "context_score": 0.0,
         "rdia_score": 1.0,
         "rrf_score": 0.032018
@@ -86,11 +86,11 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.6131,
-        "semantic_sim": 0.7162,
+        "final_score": 0.6118,
+        "semantic_sim": 0.716,
         "context_score": 0.5,
         "rdia_score": 1.0,
-        "rrf_score": 0.027912
+        "rrf_score": 0.027273
       },
       "explanation": "Good match with the group's background. Matches application domain(s): education. Aligns with the group's RDIA priority."
     },
@@ -132,11 +132,11 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.4812,
-        "semantic_sim": 0.7147,
+        "final_score": 0.4832,
+        "semantic_sim": 0.7177,
         "context_score": 0.0,
         "rdia_score": 1.0,
-        "rrf_score": 0.026257
+        "rrf_score": 0.026121
       },
       "explanation": "Good match with the group's background. Aligns with the group's RDIA priority."
     },
@@ -171,8 +171,8 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.6051,
-        "semantic_sim": 0.7491,
+        "final_score": 0.6034,
+        "semantic_sim": 0.7457,
         "context_score": 0.5,
         "rdia_score": 1.0,
         "rrf_score": 0.030835
@@ -181,37 +181,40 @@
     },
     {
       "rank": 5,
-      "project_id": "M09-45-10",
-      "title": "Qaimni: An Interactive, Web-Based System for Rating Faculty Members",
-      "supervisor_name": "Adel Ebrahim Al-Salem",
-      "supervisor_id": "AESa",
-      "academic_year": "1445",
+      "project_id": "F14-42-20",
+      "title": "Book Recommendation System based on Collaboration Filtering (RICO)",
+      "supervisor_name": " Wojdan Mohammed BinSaeedan",
+      "supervisor_id": "WMnS",
+      "academic_year": "42",
       "keywords": [
-        "Faculty Rating",
-        "Student Reviews",
-        "Anonymous Feedback",
-        "Web Application",
-        "College Platform"
+        "Recommendation System",
+        "Collaborative Filtering",
+        "User Preferences",
+        "KNN Algorithm",
+        "Django Framework",
+        "Information Filtering",
+        "Content Personalization",
+        "Data Overload Management"
       ],
       "application": [
-        "Education"
+        "Entertainment & Media"
       ],
       "interest": [
         "Web Development",
-        "Database Systems",
-        "Human-Computer Interaction"
+        "Artificial Intelligence / Machine Learning",
+        "Database Systems"
       ],
       "rdia": [
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.6051,
-        "semantic_sim": 0.7269,
-        "context_score": 0.5,
+        "final_score": 0.4811,
+        "semantic_sim": 0.729,
+        "context_score": 0.0,
         "rdia_score": 1.0,
-        "rrf_score": 0.032018
+        "rrf_score": 0.031754
       },
-      "explanation": "Good match with the group's background. Matches application domain(s): education. Aligns with the group's RDIA priority."
+      "explanation": "Good match with the group's background. Aligns with the group's RDIA priority."
     },
     {
       "rank": 6,
@@ -242,88 +245,16 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.586,
-        "semantic_sim": 0.7153,
+        "final_score": 0.5891,
+        "semantic_sim": 0.7216,
         "context_score": 0.5,
         "rdia_score": 1.0,
-        "rrf_score": 0.03009
+        "rrf_score": 0.030536
       },
       "explanation": "Good match with the group's background. Matches application domain(s): education. Aligns with the group's RDIA priority."
     },
     {
       "rank": 7,
-      "project_id": "F13-42-10",
-      "title": "Dolphin Application ",
-      "supervisor_name": " Eman AbdulHamid Alzaid ",
-      "supervisor_id": "EAza",
-      "academic_year": "42",
-      "keywords": [
-        "Mobile Application",
-        "Video Management",
-        "Video Retrieval",
-        "Machine Learning",
-        "Video Indexing",
-        "Smartphone Videos"
-      ],
-      "application": [
-        "Entertainment & Media"
-      ],
-      "interest": [
-        "Artificial Intelligence / Machine Learning",
-        "Mobile Development",
-        "Computer Vision"
-      ],
-      "rdia": [
-        "Economies of the Future"
-      ],
-      "scores": {
-        "final_score": 0.4813,
-        "semantic_sim": 0.707,
-        "context_score": 0.0,
-        "rdia_score": 1.0,
-        "rrf_score": 0.027973
-      },
-      "explanation": "Good match with the group's background. Aligns with the group's RDIA priority."
-    },
-    {
-      "rank": 8,
-      "project_id": "F14-42-20",
-      "title": "Book Recommendation System based on Collaboration Filtering (RICO)",
-      "supervisor_name": " Wojdan Mohammed BinSaeedan",
-      "supervisor_id": "WMnS",
-      "academic_year": "42",
-      "keywords": [
-        "Recommendation System",
-        "Collaborative Filtering",
-        "User Preferences",
-        "KNN Algorithm",
-        "Django Framework",
-        "Information Filtering",
-        "Content Personalization",
-        "Data Overload Management"
-      ],
-      "application": [
-        "Entertainment & Media"
-      ],
-      "interest": [
-        "Web Development",
-        "Artificial Intelligence / Machine Learning",
-        "Database Systems"
-      ],
-      "rdia": [
-        "Economies of the Future"
-      ],
-      "scores": {
-        "final_score": 0.4632,
-        "semantic_sim": 0.7263,
-        "context_score": 0.0,
-        "rdia_score": 1.0,
-        "rrf_score": 0.031514
-      },
-      "explanation": "Good match with the group's background. Aligns with the group's RDIA priority."
-    },
-    {
-      "rank": 9,
       "project_id": "F04-45-20",
       "title": "CCIS Student Assistant Chatbot",
       "supervisor_name": "Ahmed Mohammed Ahmed Gadallah",
@@ -357,47 +288,125 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.6224,
-        "semantic_sim": 0.7233,
+        "final_score": 0.6233,
+        "semantic_sim": 0.7251,
         "context_score": 0.5,
         "rdia_score": 1.0,
-        "rrf_score": 0.028665
+        "rrf_score": 0.028898
       },
       "explanation": "Good match with the group's background. Matches application domain(s): education. Aligns with the group's RDIA priority."
     },
     {
-      "rank": 10,
-      "project_id": "M08-45-20",
-      "title": "Nab’a Application",
-      "supervisor_name": "Mohammed Hussein Alkhatib",
-      "supervisor_id": "MHkh",
-      "academic_year": "1445",
+      "rank": 8,
+      "project_id": "F13-42-10",
+      "title": "Dolphin Application ",
+      "supervisor_name": " Eman AbdulHamid Alzaid ",
+      "supervisor_id": "EAza",
+      "academic_year": "42",
       "keywords": [
-        "News",
-        "Verified News",
-        "Trusted Information",
-        "Misinformation",
-        "Blockchain"
+        "Mobile Application",
+        "Video Management",
+        "Video Retrieval",
+        "Machine Learning",
+        "Video Indexing",
+        "Smartphone Videos"
       ],
       "application": [
         "Entertainment & Media"
       ],
       "interest": [
-        "Blockchain",
-        "Web Development",
-        "Mobile Development"
+        "Artificial Intelligence / Machine Learning",
+        "Mobile Development",
+        "Computer Vision"
       ],
       "rdia": [
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.4749,
-        "semantic_sim": 0.7331,
+        "final_score": 0.4784,
+        "semantic_sim": 0.7102,
         "context_score": 0.0,
         "rdia_score": 1.0,
-        "rrf_score": 0.030798
+        "rrf_score": 0.027973
       },
       "explanation": "Good match with the group's background. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 9,
+      "project_id": "F04-42-10",
+      "title": "Evaluating Website Quality Using Machine Learning",
+      "supervisor_name": "Aram Saleh Al-Sedrani ",
+      "supervisor_id": "ASSe",
+      "academic_year": "1442",
+      "keywords": [
+        "Academic websites",
+        "Quality evaluator",
+        "Random forest",
+        "Supervised machine learning",
+        "Feature extraction"
+      ],
+      "application": [
+        "Education"
+      ],
+      "interest": [
+        "Artificial Intelligence / Machine Learning",
+        "Web Development",
+        "Data Science"
+      ],
+      "rdia": [
+        "Economies of the Future"
+      ],
+      "scores": {
+        "final_score": 0.59,
+        "semantic_sim": 0.7189,
+        "context_score": 0.5,
+        "rdia_score": 1.0,
+        "rrf_score": 0.029418
+      },
+      "explanation": "Good match with the group's background. Matches application domain(s): education. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 10,
+      "project_id": "F04-45-10",
+      "title": "Baseera بصيرة : Accessible Mobile App for Blind Children",
+      "supervisor_name": " Manan Mohammed Almusallam ",
+      "supervisor_id": "MMmu",
+      "academic_year": "1445",
+      "keywords": [
+        "Accessible Mobile Application",
+        "Blind Children",
+        "Visual Impairment",
+        "Assistive Technology",
+        "Educational Game",
+        "Arabic Language Support",
+        "Preschool Education",
+        "Audio Feedback",
+        "Numbers Learning",
+        "Counting Skills",
+        "Inclusive Design",
+        "Accessibility Standards",
+        "Child Development",
+        "Habilitation",
+        "Touch-screen Accessibility"
+      ],
+      "application": [
+        "Education"
+      ],
+      "interest": [
+        "Human-Computer Interaction",
+        "Mobile Development"
+      ],
+      "rdia": [
+        "Health & Wellness"
+      ],
+      "scores": {
+        "final_score": 0.4619,
+        "semantic_sim": 0.6925,
+        "context_score": 0.5,
+        "rdia_score": 0.0,
+        "rrf_score": 0.013333
+      },
+      "explanation": "Good match with the group's background. Matches application domain(s): education."
     }
   ],
   "recommended_interests": [
@@ -488,13 +497,6 @@
   ],
   "top_keywords": [
     {
-      "keyword": "web application",
-      "count": 2,
-      "coverage": 0.2,
-      "semantic_score": 0.7435,
-      "combined_score": 0.8718
-    },
-    {
       "keyword": "machine learning",
       "count": 2,
       "coverage": 0.2,
@@ -556,6 +558,13 @@
       "coverage": 0.1,
       "semantic_score": 0.6988,
       "combined_score": 0.5994
+    },
+    {
+      "keyword": "security",
+      "count": 1,
+      "coverage": 0.1,
+      "semantic_score": 0.6956,
+      "combined_score": 0.5978
     }
   ]
 }

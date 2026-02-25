@@ -2,15 +2,15 @@
   "group_id": "G007",
   "group_profile": {
     "selected_interests": [
+      "Drones",
+      "Cloud Computing",
       "Data Science",
       "Internet of Things (IoT)",
-      "Artificial Intelligence / Machine Learning",
-      "Drones",
-      "Cloud Computing"
+      "Artificial Intelligence / Machine Learning"
     ],
     "selected_applications": [
-      "Sustainability & Environment",
-      "Social Good & Community"
+      "Social Good & Community",
+      "Sustainability & Environment"
     ],
     "selected_rdia": [
       "Sustainable Environment & Supply of Essential Needs"
@@ -48,8 +48,8 @@
         "Sustainable Environment & Supply of Essential Needs"
       ],
       "scores": {
-        "final_score": 0.519,
-        "semantic_sim": 0.738,
+        "final_score": 0.5217,
+        "semantic_sim": 0.7435,
         "context_score": 0.0,
         "rdia_score": 1.0,
         "rrf_score": 0.032018
@@ -87,11 +87,11 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.3308,
-        "semantic_sim": 0.7353,
+        "final_score": 0.3278,
+        "semantic_sim": 0.729,
         "context_score": 0.0,
         "rdia_score": 0.0,
-        "rrf_score": 0.016129
+        "rrf_score": 0.015873
       },
       "explanation": "Good match with the group's background."
     },
@@ -122,8 +122,8 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.471,
-        "semantic_sim": 0.7142,
+        "final_score": 0.4673,
+        "semantic_sim": 0.7068,
         "context_score": 0.5,
         "rdia_score": 0.0,
         "rrf_score": 0.03009
@@ -157,11 +157,11 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.326,
-        "semantic_sim": 0.7319,
+        "final_score": 0.335,
+        "semantic_sim": 0.7366,
         "context_score": 0.0,
         "rdia_score": 0.0,
-        "rrf_score": 0.029572
+        "rrf_score": 0.029828
       },
       "explanation": "Good match with the group's background."
     },
@@ -202,50 +202,16 @@
         "Sustainable Environment & Supply of Essential Needs"
       ],
       "scores": {
-        "final_score": 0.6087,
-        "semantic_sim": 0.7008,
+        "final_score": 0.609,
+        "semantic_sim": 0.7014,
         "context_score": 0.5,
         "rdia_score": 1.0,
-        "rrf_score": 0.031281
+        "rrf_score": 0.031054
       },
       "explanation": "Good match with the group's background. Matches application domain(s): sustainability & environment. Aligns with the group's RDIA priority."
     },
     {
       "rank": 6,
-      "project_id": "M09-45-10",
-      "title": "Qaimni: An Interactive, Web-Based System for Rating Faculty Members",
-      "supervisor_name": "Adel Ebrahim Al-Salem",
-      "supervisor_id": "AESa",
-      "academic_year": "1445",
-      "keywords": [
-        "Faculty Rating",
-        "Student Reviews",
-        "Anonymous Feedback",
-        "Web Application",
-        "College Platform"
-      ],
-      "application": [
-        "Education"
-      ],
-      "interest": [
-        "Web Development",
-        "Database Systems",
-        "Human-Computer Interaction"
-      ],
-      "rdia": [
-        "Economies of the Future"
-      ],
-      "scores": {
-        "final_score": 0.3313,
-        "semantic_sim": 0.6945,
-        "context_score": 0.0,
-        "rdia_score": 0.0,
-        "rrf_score": 0.014706
-      },
-      "explanation": "Good match with the group's background."
-    },
-    {
-      "rank": 7,
       "project_id": "F04-45-10",
       "title": "Baseera بصيرة : Accessible Mobile App for Blind Children",
       "supervisor_name": " Manan Mohammed Almusallam ",
@@ -279,11 +245,45 @@
         "Health & Wellness"
       ],
       "scores": {
-        "final_score": 0.3412,
-        "semantic_sim": 0.6982,
+        "final_score": 0.3432,
+        "semantic_sim": 0.7055,
         "context_score": 0.0,
         "rdia_score": 0.0,
-        "rrf_score": 0.014925
+        "rrf_score": 0.015152
+      },
+      "explanation": "Good match with the group's background."
+    },
+    {
+      "rank": 7,
+      "project_id": "M09-45-10",
+      "title": "Qaimni: An Interactive, Web-Based System for Rating Faculty Members",
+      "supervisor_name": "Adel Ebrahim Al-Salem",
+      "supervisor_id": "AESa",
+      "academic_year": "1445",
+      "keywords": [
+        "Faculty Rating",
+        "Student Reviews",
+        "Anonymous Feedback",
+        "Web Application",
+        "College Platform"
+      ],
+      "application": [
+        "Education"
+      ],
+      "interest": [
+        "Web Development",
+        "Database Systems",
+        "Human-Computer Interaction"
+      ],
+      "rdia": [
+        "Economies of the Future"
+      ],
+      "scores": {
+        "final_score": 0.3276,
+        "semantic_sim": 0.6873,
+        "context_score": 0.0,
+        "rdia_score": 0.0,
+        "rrf_score": 0.014085
       },
       "explanation": "Good match with the group's background."
     },
@@ -316,8 +316,8 @@
         "Sustainable Environment & Supply of Essential Needs"
       ],
       "scores": {
-        "final_score": 0.4804,
-        "semantic_sim": 0.7275,
+        "final_score": 0.479,
+        "semantic_sim": 0.7246,
         "context_score": 0.0,
         "rdia_score": 1.0,
         "rrf_score": 0.031498
@@ -326,47 +326,38 @@
     },
     {
       "rank": 9,
-      "project_id": "F06-45-10",
-      "title": "Get It: A Deep Learning Approach for Identifying and Discriminating Spoken Arabic Among English",
-      "supervisor_name": "Wojdan Mohammed BinSaeedan",
-      "supervisor_id": "WMnS",
+      "project_id": "F08-45-20",
+      "title": "XIPHER: Visualization Tool for Security Algorithms",
+      "supervisor_name": " Tahani Fahad Albalawi",
+      "supervisor_id": "TFba",
       "academic_year": "1445",
       "keywords": [
-        "Language Identification",
-        "Spoken Language Recognition",
-        "Deep Learning",
-        "Arabic Speech Recognition",
-        "English Speech Recognition",
-        "Multilingual Systems",
-        "Customer Service Automation",
-        "ECAPA-TDNN",
-        "SpeechBrain",
-        "Convolutional Neural Network (CNN)",
-        "Recurrent Neural Network (RNN)",
-        "Capsule Network (CapsNet)",
-        "Natural Language Processing (NLP)",
-        "Voice Analysis",
-        "Mozilla Common Voice Dataset",
-        "Real-time Speech Processing",
-        "Call Center Automation",
-        "Audio Processing"
+        "Security Algorithms",
+        "Algorithm Visualization",
+        "Security Education",
+        "Usability Evaluation",
+        "Human-Computer Interaction (HCI)",
+        "Educational Web Platform",
+        "Visualization Tools",
+        "User Experience (UX)"
       ],
       "application": [
-        "Business & Productivity"
+        "Education"
       ],
       "interest": [
-        "Artificial Intelligence / Machine Learning",
-        "Natural Language Processing"
+        "Cybersecurity",
+        "Web Development",
+        "Human-Computer Interaction"
       ],
       "rdia": [
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.3173,
-        "semantic_sim": 0.6929,
+        "final_score": 0.322,
+        "semantic_sim": 0.6836,
         "context_score": 0.0,
         "rdia_score": 0.0,
-        "rrf_score": 0.014286
+        "rrf_score": 0.013699
       },
       "explanation": "Good match with the group's background."
     },
@@ -401,11 +392,11 @@
         "Health & Wellness"
       ],
       "scores": {
-        "final_score": 0.4471,
-        "semantic_sim": 0.6941,
+        "final_score": 0.4374,
+        "semantic_sim": 0.6915,
         "context_score": 0.5,
         "rdia_score": 0.0,
-        "rrf_score": 0.029877
+        "rrf_score": 0.02967
       },
       "explanation": "Good match with the group's background. Matches application domain(s): social good & community."
     }
@@ -422,17 +413,17 @@
     {
       "name": "Web Development",
       "description": "Covers the design and implementation of websites and web applications, including frontend, backend, and full‑stack development.",
-      "combined_score": 0.7751,
+      "combined_score": 0.7351,
       "semantic_score": 0.7644,
-      "frequency_in_top_projects": 0.8,
+      "frequency_in_top_projects": 0.6666666666666666,
       "already_selected": false
     },
     {
       "name": "Mobile Development",
       "description": "Involves creating applications for mobile platforms such as iOS and Android, focusing on performance, UI, and device integration.",
-      "combined_score": 0.7385,
+      "combined_score": 0.7085,
       "semantic_score": 0.7979,
-      "frequency_in_top_projects": 0.6,
+      "frequency_in_top_projects": 0.5,
       "already_selected": false
     }
   ],
@@ -505,13 +496,6 @@
       "combined_score": 0.868
     },
     {
-      "keyword": "deep learning",
-      "count": 3,
-      "coverage": 0.3,
-      "semantic_score": 0.6499,
-      "combined_score": 0.825
-    },
-    {
       "keyword": "mobile application",
       "count": 2,
       "coverage": 0.2,
@@ -524,6 +508,13 @@
       "coverage": 0.2,
       "semantic_score": 0.6667,
       "combined_score": 0.6667
+    },
+    {
+      "keyword": "deep learning",
+      "count": 2,
+      "coverage": 0.2,
+      "semantic_score": 0.6499,
+      "combined_score": 0.6583
     },
     {
       "keyword": "software development",

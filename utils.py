@@ -21,8 +21,8 @@ GRADE_WEIGHTS = {
     "B": 0.75,
     "C+": 0.65,
     "C": 0.55,
-    "D": 0.45,
-    "F": 0.30
+    "D+": 0.45,
+    "D": 0.30
 }
 
 def grade_to_weight(grade: str) -> float:

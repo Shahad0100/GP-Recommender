@@ -2,17 +2,17 @@
   "group_id": "G010",
   "group_profile": {
     "selected_interests": [
-      "Blockchain",
-      "Cybersecurity",
-      "Database Systems",
-      "Software Engineering",
+      "Network Systems",
       "Cloud Computing",
-      "Network Systems"
+      "Software Engineering",
+      "Blockchain",
+      "Database Systems",
+      "Cybersecurity"
     ],
     "selected_applications": [
       "Government & Public Sector",
-      "Finance & Economics",
-      "Security & Privacy"
+      "Security & Privacy",
+      "Finance & Economics"
     ],
     "selected_rdia": [
       "Economies of the Future"
@@ -46,8 +46,8 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.5313,
-        "semantic_sim": 0.7626,
+        "final_score": 0.5279,
+        "semantic_sim": 0.7557,
         "context_score": 0.0,
         "rdia_score": 1.0,
         "rrf_score": 0.032787
@@ -92,8 +92,8 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.4826,
-        "semantic_sim": 0.6918,
+        "final_score": 0.4817,
+        "semantic_sim": 0.693,
         "context_score": 0.0,
         "rdia_score": 1.0,
         "rrf_score": 0.027151
@@ -129,8 +129,8 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.4762,
-        "semantic_sim": 0.719,
+        "final_score": 0.4839,
+        "semantic_sim": 0.7233,
         "context_score": 0.0,
         "rdia_score": 1.0,
         "rrf_score": 0.028373
@@ -139,6 +139,40 @@
     },
     {
       "rank": 4,
+      "project_id": "M08-45-20",
+      "title": "Nab’a Application",
+      "supervisor_name": "Mohammed Hussein Alkhatib",
+      "supervisor_id": "MHkh",
+      "academic_year": "1445",
+      "keywords": [
+        "News",
+        "Verified News",
+        "Trusted Information",
+        "Misinformation",
+        "Blockchain"
+      ],
+      "application": [
+        "Entertainment & Media"
+      ],
+      "interest": [
+        "Blockchain",
+        "Web Development",
+        "Mobile Development"
+      ],
+      "rdia": [
+        "Economies of the Future"
+      ],
+      "scores": {
+        "final_score": 0.4559,
+        "semantic_sim": 0.7452,
+        "context_score": 0.0,
+        "rdia_score": 1.0,
+        "rrf_score": 0.031281
+      },
+      "explanation": "Good match with the group's background. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 5,
       "project_id": "F06-42-20",
       "title": "Developing A Web Application for Automatic Code Generation",
       "supervisor_name": " Aram Saleh Al-Sedrani ",
@@ -168,45 +202,11 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.4785,
-        "semantic_sim": 0.7014,
+        "final_score": 0.4758,
+        "semantic_sim": 0.696,
         "context_score": 0.0,
         "rdia_score": 1.0,
-        "rrf_score": 0.029631
-      },
-      "explanation": "Good match with the group's background. Aligns with the group's RDIA priority."
-    },
-    {
-      "rank": 5,
-      "project_id": "M08-45-20",
-      "title": "Nab’a Application",
-      "supervisor_name": "Mohammed Hussein Alkhatib",
-      "supervisor_id": "MHkh",
-      "academic_year": "1445",
-      "keywords": [
-        "News",
-        "Verified News",
-        "Trusted Information",
-        "Misinformation",
-        "Blockchain"
-      ],
-      "application": [
-        "Entertainment & Media"
-      ],
-      "interest": [
-        "Blockchain",
-        "Web Development",
-        "Mobile Development"
-      ],
-      "rdia": [
-        "Economies of the Future"
-      ],
-      "scores": {
-        "final_score": 0.4532,
-        "semantic_sim": 0.7397,
-        "context_score": 0.0,
-        "rdia_score": 1.0,
-        "rrf_score": 0.031281
+        "rrf_score": 0.029412
       },
       "explanation": "Good match with the group's background. Aligns with the group's RDIA priority."
     },
@@ -237,50 +237,96 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.4643,
-        "semantic_sim": 0.6953,
+        "final_score": 0.4695,
+        "semantic_sim": 0.6996,
         "context_score": 0.0,
         "rdia_score": 1.0,
-        "rrf_score": 0.026611
+        "rrf_score": 0.02683
       },
       "explanation": "Good match with the group's background. Aligns with the group's RDIA priority."
     },
     {
       "rank": 7,
-      "project_id": "M09-45-10",
-      "title": "Qaimni: An Interactive, Web-Based System for Rating Faculty Members",
-      "supervisor_name": "Adel Ebrahim Al-Salem",
-      "supervisor_id": "AESa",
-      "academic_year": "1445",
+      "project_id": "F14-42-20",
+      "title": "Book Recommendation System based on Collaboration Filtering (RICO)",
+      "supervisor_name": " Wojdan Mohammed BinSaeedan",
+      "supervisor_id": "WMnS",
+      "academic_year": "42",
       "keywords": [
-        "Faculty Rating",
-        "Student Reviews",
-        "Anonymous Feedback",
-        "Web Application",
-        "College Platform"
+        "Recommendation System",
+        "Collaborative Filtering",
+        "User Preferences",
+        "KNN Algorithm",
+        "Django Framework",
+        "Information Filtering",
+        "Content Personalization",
+        "Data Overload Management"
       ],
       "application": [
-        "Education"
+        "Entertainment & Media"
       ],
       "interest": [
         "Web Development",
-        "Database Systems",
-        "Human-Computer Interaction"
+        "Artificial Intelligence / Machine Learning",
+        "Database Systems"
       ],
       "rdia": [
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.4618,
-        "semantic_sim": 0.6828,
+        "final_score": 0.4607,
+        "semantic_sim": 0.6786,
         "context_score": 0.0,
         "rdia_score": 1.0,
-        "rrf_score": 0.027444
+        "rrf_score": 0.028169
       },
       "explanation": "Good match with the group's background. Aligns with the group's RDIA priority."
     },
     {
       "rank": 8,
+      "project_id": "F04-45-20",
+      "title": "CCIS Student Assistant Chatbot",
+      "supervisor_name": "Ahmed Mohammed Ahmed Gadallah",
+      "supervisor_id": "AMda",
+      "academic_year": "1445",
+      "keywords": [
+        "Educational Chatbot",
+        "Natural Language Processing (NLP)",
+        "Student Support System",
+        "Higher Education",
+        "FAISS",
+        "Falcon-Instructor LLM",
+        "Information Retrieval",
+        "Academic Advising",
+        "FAQ Automation",
+        "Course Management",
+        "Professor Information",
+        "Virtual Assistant",
+        "College of Computer and Information Sciences (CCIS)",
+        "Imam Muhammad Ibn Saud Islamic University",
+        "Student Services"
+      ],
+      "application": [
+        "Education"
+      ],
+      "interest": [
+        "Natural Language Processing",
+        "Artificial Intelligence / Machine Learning"
+      ],
+      "rdia": [
+        "Economies of the Future"
+      ],
+      "scores": {
+        "final_score": 0.4608,
+        "semantic_sim": 0.6743,
+        "context_score": 0.0,
+        "rdia_score": 1.0,
+        "rrf_score": 0.013514
+      },
+      "explanation": "Good match with the group's background. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 9,
       "project_id": "F06-45-20",
       "title": "Predicting Programming Skills Among Novice Programmers",
       "supervisor_name": " Basma Suleiman Alqadi ",
@@ -316,16 +362,16 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.4549,
-        "semantic_sim": 0.6663,
+        "final_score": 0.4539,
+        "semantic_sim": 0.6647,
         "context_score": 0.0,
         "rdia_score": 1.0,
-        "rrf_score": 0.013333
+        "rrf_score": 0.013158
       },
       "explanation": "Good match with the group's background. Aligns with the group's RDIA priority."
     },
     {
-      "rank": 9,
+      "rank": 10,
       "project_id": "F24-45-20",
       "title": "Botnet Attack Detection Using Machine Learning",
       "supervisor_name": " Fatmah Ratiyan Alanazi ",
@@ -363,60 +409,24 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.5331,
-        "semantic_sim": 0.6479,
+        "final_score": 0.5276,
+        "semantic_sim": 0.6449,
         "context_score": 0.3333,
         "rdia_score": 1.0,
-        "rrf_score": 0.026879
+        "rrf_score": 0.026621
       },
       "explanation": "Good match with the group's background. Matches application domain(s): security & privacy. Aligns with the group's RDIA priority."
-    },
-    {
-      "rank": 10,
-      "project_id": "F05-45-20",
-      "title": "Walyattawafou: Crowd Counting in Hajj and Umrah",
-      "supervisor_name": " Haifa Hamad Alkasem ",
-      "supervisor_id": "HHka",
-      "academic_year": "1445",
-      "keywords": [
-        "Crowd Counting",
-        "Deep Learning",
-        "Hajj Management",
-        "Umrah Management",
-        "Crowd Monitoring",
-        "Holy Sites",
-        "Makkah",
-        "Pilgrim Safety",
-        "Image Processing",
-        "Computer Vision",
-        "Crowd Density Estimation",
-        "Real-time Monitoring",
-        "Ministry of Hajj and Umrah",
-        "GPU Processing",
-        "Attention Models",
-        "Crowd Flow Optimization"
-      ],
-      "application": [
-        "Government & Public Sector"
-      ],
-      "interest": [
-        "Artificial Intelligence / Machine Learning",
-        "Computer Vision"
-      ],
-      "rdia": [
-        "Economies of the Future"
-      ],
-      "scores": {
-        "final_score": 0.5498,
-        "semantic_sim": 0.6552,
-        "context_score": 0.3333,
-        "rdia_score": 1.0,
-        "rrf_score": 0.028373
-      },
-      "explanation": "Good match with the group's background. Matches application domain(s): government & public sector. Aligns with the group's RDIA priority."
     }
   ],
   "recommended_interests": [
+    {
+      "name": "Mobile Development",
+      "description": "Involves creating applications for mobile platforms such as iOS and Android, focusing on performance, UI, and device integration.",
+      "combined_score": 0.8279,
+      "semantic_score": 0.7542,
+      "frequency_in_top_projects": 1.0,
+      "already_selected": false
+    },
     {
       "name": "Web Development",
       "description": "Covers the design and implementation of websites and web applications, including frontend, backend, and full‑stack development.",
@@ -426,19 +436,11 @@
       "already_selected": false
     },
     {
-      "name": "Mobile Development",
-      "description": "Involves creating applications for mobile platforms such as iOS and Android, focusing on performance, UI, and device integration.",
-      "combined_score": 0.7279,
-      "semantic_score": 0.7542,
-      "frequency_in_top_projects": 0.6666666666666666,
-      "already_selected": false
-    },
-    {
       "name": "Cybersecurity",
       "description": "Deals with protecting systems, networks, and data from attacks, vulnerabilities, and unauthorized access.",
-      "combined_score": 0.7068,
+      "combined_score": 0.7368,
       "semantic_score": 0.7954,
-      "frequency_in_top_projects": 0.5,
+      "frequency_in_top_projects": 0.6,
       "already_selected": true
     }
   ],
@@ -511,18 +513,11 @@
       "combined_score": 0.8387
     },
     {
-      "keyword": "web application",
+      "keyword": "natural language processing (nlp)",
       "count": 2,
       "coverage": 0.2,
-      "semantic_score": 0.6967,
-      "combined_score": 0.6817
-    },
-    {
-      "keyword": "deep learning",
-      "count": 2,
-      "coverage": 0.2,
-      "semantic_score": 0.6391,
-      "combined_score": 0.6529
+      "semantic_score": 0.6524,
+      "combined_score": 0.6595
     },
     {
       "keyword": "k-nearest neighbors (knn)",
@@ -572,6 +567,13 @@
       "coverage": 0.1,
       "semantic_score": 0.6759,
       "combined_score": 0.5046
+    },
+    {
+      "keyword": "customer service automation",
+      "count": 1,
+      "coverage": 0.1,
+      "semantic_score": 0.6497,
+      "combined_score": 0.4915
     }
   ]
 }

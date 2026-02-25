@@ -2,9 +2,9 @@
   "group_id": "G002",
   "group_profile": {
     "selected_interests": [
-      "Database Systems",
+      "Web Development",
       "Cloud Computing",
-      "Web Development"
+      "Database Systems"
     ],
     "selected_applications": [
       "Social Good & Community",
@@ -47,8 +47,8 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.5464,
-        "semantic_sim": 0.7595,
+        "final_score": 0.5537,
+        "semantic_sim": 0.7574,
         "context_score": 0.5,
         "rdia_score": 0.5,
         "rrf_score": 0.029214
@@ -82,8 +82,8 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.5705,
-        "semantic_sim": 0.741,
+        "final_score": 0.5677,
+        "semantic_sim": 0.7354,
         "context_score": 0.5,
         "rdia_score": 0.5,
         "rrf_score": 0.032002
@@ -121,11 +121,11 @@
         "Sustainable Environment & Supply of Essential Needs"
       ],
       "scores": {
-        "final_score": 0.4359,
-        "semantic_sim": 0.7217,
+        "final_score": 0.438,
+        "semantic_sim": 0.7261,
         "context_score": 0.0,
         "rdia_score": 0.5,
-        "rrf_score": 0.031778
+        "rrf_score": 0.032018
       },
       "explanation": "Good match with the group's background. Aligns with the group's RDIA priority."
     },
@@ -155,8 +155,8 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.5522,
-        "semantic_sim": 0.7377,
+        "final_score": 0.5482,
+        "semantic_sim": 0.7298,
         "context_score": 0.5,
         "rdia_score": 0.5,
         "rrf_score": 0.030579
@@ -190,11 +190,11 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.4058,
-        "semantic_sim": 0.7208,
+        "final_score": 0.4055,
+        "semantic_sim": 0.7217,
         "context_score": 0.0,
         "rdia_score": 0.5,
-        "rrf_score": 0.027425
+        "rrf_score": 0.027206
       },
       "explanation": "Good match with the group's background. Aligns with the group's RDIA priority."
     },
@@ -227,8 +227,8 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.525,
-        "semantic_sim": 0.7045,
+        "final_score": 0.522,
+        "semantic_sim": 0.7107,
         "context_score": 0.5,
         "rdia_score": 0.5,
         "rrf_score": 0.027273
@@ -270,53 +270,16 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.5498,
-        "semantic_sim": 0.7245,
+        "final_score": 0.5457,
+        "semantic_sim": 0.7248,
         "context_score": 0.5,
         "rdia_score": 0.5,
-        "rrf_score": 0.02753
+        "rrf_score": 0.027056
       },
       "explanation": "Good match with the group's background. Matches application domain(s): education. Aligns with the group's RDIA priority."
     },
     {
       "rank": 8,
-      "project_id": "F14-42-20",
-      "title": "Book Recommendation System based on Collaboration Filtering (RICO)",
-      "supervisor_name": " Wojdan Mohammed BinSaeedan",
-      "supervisor_id": "WMnS",
-      "academic_year": "42",
-      "keywords": [
-        "Recommendation System",
-        "Collaborative Filtering",
-        "User Preferences",
-        "KNN Algorithm",
-        "Django Framework",
-        "Information Filtering",
-        "Content Personalization",
-        "Data Overload Management"
-      ],
-      "application": [
-        "Entertainment & Media"
-      ],
-      "interest": [
-        "Web Development",
-        "Artificial Intelligence / Machine Learning",
-        "Database Systems"
-      ],
-      "rdia": [
-        "Economies of the Future"
-      ],
-      "scores": {
-        "final_score": 0.4024,
-        "semantic_sim": 0.7214,
-        "context_score": 0.0,
-        "rdia_score": 0.5,
-        "rrf_score": 0.029437
-      },
-      "explanation": "Good match with the group's background. Aligns with the group's RDIA priority."
-    },
-    {
-      "rank": 9,
       "project_id": "F04-42-10",
       "title": "Evaluating Website Quality Using Machine Learning",
       "supervisor_name": "Aram Saleh Al-Sedrani ",
@@ -341,16 +304,16 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.5231,
-        "semantic_sim": 0.7195,
+        "final_score": 0.5236,
+        "semantic_sim": 0.725,
         "context_score": 0.5,
         "rdia_score": 0.5,
-        "rrf_score": 0.027364
+        "rrf_score": 0.028043
       },
       "explanation": "Good match with the group's background. Matches application domain(s): education. Aligns with the group's RDIA priority."
     },
     {
-      "rank": 10,
+      "rank": 9,
       "project_id": "F04-45-10",
       "title": "Baseera بصيرة : Accessible Mobile App for Blind Children",
       "supervisor_name": " Manan Mohammed Almusallam ",
@@ -384,13 +347,50 @@
         "Health & Wellness"
       ],
       "scores": {
-        "final_score": 0.4594,
-        "semantic_sim": 0.6902,
+        "final_score": 0.4628,
+        "semantic_sim": 0.697,
         "context_score": 0.5,
         "rdia_score": 0.0,
         "rrf_score": 0.013514
       },
       "explanation": "Good match with the group's background. Matches application domain(s): education."
+    },
+    {
+      "rank": 10,
+      "project_id": "F14-42-20",
+      "title": "Book Recommendation System based on Collaboration Filtering (RICO)",
+      "supervisor_name": " Wojdan Mohammed BinSaeedan",
+      "supervisor_id": "WMnS",
+      "academic_year": "42",
+      "keywords": [
+        "Recommendation System",
+        "Collaborative Filtering",
+        "User Preferences",
+        "KNN Algorithm",
+        "Django Framework",
+        "Information Filtering",
+        "Content Personalization",
+        "Data Overload Management"
+      ],
+      "application": [
+        "Entertainment & Media"
+      ],
+      "interest": [
+        "Web Development",
+        "Artificial Intelligence / Machine Learning",
+        "Database Systems"
+      ],
+      "rdia": [
+        "Economies of the Future"
+      ],
+      "scores": {
+        "final_score": 0.3965,
+        "semantic_sim": 0.7231,
+        "context_score": 0.0,
+        "rdia_score": 0.5,
+        "rrf_score": 0.029211
+      },
+      "explanation": "Good match with the group's background. Aligns with the group's RDIA priority."
     }
   ],
   "recommended_interests": [

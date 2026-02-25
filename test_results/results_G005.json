@@ -2,14 +2,14 @@
   "group_id": "G005",
   "group_profile": {
     "selected_interests": [
-      "Computer Vision",
       "Embedded Systems",
+      "Computer Vision",
       "Internet of Things (IoT)",
       "Artificial Intelligence / Machine Learning"
     ],
     "selected_applications": [
-      "Sustainability & Environment",
-      "Healthcare / Medical"
+      "Healthcare / Medical",
+      "Sustainability & Environment"
     ],
     "selected_rdia": [
       "Health & Wellness"
@@ -54,8 +54,8 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.3494,
-        "semantic_sim": 0.7527,
+        "final_score": 0.349,
+        "semantic_sim": 0.7556,
         "context_score": 0.0,
         "rdia_score": 0.0,
         "rrf_score": 0.016393
@@ -64,44 +64,6 @@
     },
     {
       "rank": 2,
-      "project_id": "F07-45-10",
-      "title": "Secure Healthcare Information Exchange Platform ‘KEEP SAFE’",
-      "supervisor_name": "Eman AbdulHamid Alzaid",
-      "supervisor_id": "EAza",
-      "academic_year": "1445",
-      "keywords": [
-        "Electronic Medical Records (EMR)",
-        "Blockchain Technology",
-        "Healthcare Information Systems",
-        "Secure Medical Data Sharing",
-        "Decentralized Data Protection",
-        "Patient Data Privacy",
-        "EMR Exchange Scheme",
-        "Digital Identity Verification",
-        "Healthcare Cybersecurity"
-      ],
-      "application": [
-        "Healthcare / Medical"
-      ],
-      "interest": [
-        "Blockchain",
-        "Cybersecurity",
-        "Mobile Development"
-      ],
-      "rdia": [
-        "Health & Wellness"
-      ],
-      "scores": {
-        "final_score": 0.6269,
-        "semantic_sim": 0.7205,
-        "context_score": 0.5,
-        "rdia_score": 1.0,
-        "rrf_score": 0.029236
-      },
-      "explanation": "Good match with the group's background. Matches application domain(s): healthcare / medical. Aligns with the group's RDIA priority."
-    },
-    {
-      "rank": 3,
       "project_id": "M04-45-10",
       "title": "Smart Car Parking Manager (SCPM)",
       "supervisor_name": " Mostafa Elsayed Ahmed Ibrahim",
@@ -131,13 +93,51 @@
         "Sustainable Environment & Supply of Essential Needs"
       ],
       "scores": {
-        "final_score": 0.3724,
-        "semantic_sim": 0.7449,
+        "final_score": 0.3756,
+        "semantic_sim": 0.7512,
         "context_score": 0.0,
         "rdia_score": 0.0,
         "rrf_score": 0.032002
       },
-      "explanation": "Good match with the group's background."
+      "explanation": "Highly similar to the group's profile."
+    },
+    {
+      "rank": 3,
+      "project_id": "F07-45-10",
+      "title": "Secure Healthcare Information Exchange Platform ‘KEEP SAFE’",
+      "supervisor_name": "Eman AbdulHamid Alzaid",
+      "supervisor_id": "EAza",
+      "academic_year": "1445",
+      "keywords": [
+        "Electronic Medical Records (EMR)",
+        "Blockchain Technology",
+        "Healthcare Information Systems",
+        "Secure Medical Data Sharing",
+        "Decentralized Data Protection",
+        "Patient Data Privacy",
+        "EMR Exchange Scheme",
+        "Digital Identity Verification",
+        "Healthcare Cybersecurity"
+      ],
+      "application": [
+        "Healthcare / Medical"
+      ],
+      "interest": [
+        "Blockchain",
+        "Cybersecurity",
+        "Mobile Development"
+      ],
+      "rdia": [
+        "Health & Wellness"
+      ],
+      "scores": {
+        "final_score": 0.6175,
+        "semantic_sim": 0.7147,
+        "context_score": 0.5,
+        "rdia_score": 1.0,
+        "rrf_score": 0.028577
+      },
+      "explanation": "Good match with the group's background. Matches application domain(s): healthcare / medical. Aligns with the group's RDIA priority."
     },
     {
       "rank": 4,
@@ -169,8 +169,8 @@
         "Health & Wellness"
       ],
       "scores": {
-        "final_score": 0.4676,
-        "semantic_sim": 0.7304,
+        "final_score": 0.4722,
+        "semantic_sim": 0.7377,
         "context_score": 0.0,
         "rdia_score": 1.0,
         "rrf_score": 0.028958
@@ -214,11 +214,11 @@
         "Sustainable Environment & Supply of Essential Needs"
       ],
       "scores": {
-        "final_score": 0.4307,
-        "semantic_sim": 0.6981,
+        "final_score": 0.4273,
+        "semantic_sim": 0.6956,
         "context_score": 0.5,
         "rdia_score": 0.0,
-        "rrf_score": 0.028139
+        "rrf_score": 0.027497
       },
       "explanation": "Good match with the group's background. Matches application domain(s): sustainability & environment."
     },
@@ -259,11 +259,11 @@
         "Health & Wellness"
       ],
       "scores": {
-        "final_score": 0.5834,
-        "semantic_sim": 0.7168,
+        "final_score": 0.5852,
+        "semantic_sim": 0.7204,
         "context_score": 0.5,
         "rdia_score": 1.0,
-        "rrf_score": 0.029877
+        "rrf_score": 0.030536
       },
       "explanation": "Good match with the group's background. Matches application domain(s): healthcare / medical. Aligns with the group's RDIA priority."
     },
@@ -298,8 +298,8 @@
         "Health & Wellness"
       ],
       "scores": {
-        "final_score": 0.612,
-        "semantic_sim": 0.7185,
+        "final_score": 0.6179,
+        "semantic_sim": 0.7192,
         "context_score": 0.5,
         "rdia_score": 1.0,
         "rrf_score": 0.029851
@@ -308,40 +308,6 @@
     },
     {
       "rank": 8,
-      "project_id": "F01-42-20",
-      "title": "COVID-19 Detection Using Deep Neural Networks",
-      "supervisor_name": "Siwar Abdelfattah Rekik",
-      "supervisor_id": "SAki",
-      "academic_year": "1442",
-      "keywords": [
-        "COVID-19",
-        "Deep Neural Networks",
-        "YOLOv5",
-        "Chest X-ray Images",
-        "Detection"
-      ],
-      "application": [
-        "Healthcare / Medical"
-      ],
-      "interest": [
-        "Computer Vision",
-        "Artificial Intelligence / Machine Learning",
-        "Bioinformatics"
-      ],
-      "rdia": [
-        "Health & Wellness"
-      ],
-      "scores": {
-        "final_score": 0.5869,
-        "semantic_sim": 0.7016,
-        "context_score": 0.5,
-        "rdia_score": 1.0,
-        "rrf_score": 0.029139
-      },
-      "explanation": "Good match with the group's background. Matches application domain(s): healthcare / medical. Aligns with the group's RDIA priority."
-    },
-    {
-      "rank": 9,
       "project_id": "F01-45-20",
       "title": "Baasyir:A YOLO Based approach to Assist Visually  Impaired People by leveraging Smart Glasses System",
       "supervisor_name": "Dhouha Ahmed Ben Noureddine",
@@ -369,8 +335,8 @@
         "Health & Wellness"
       ],
       "scores": {
-        "final_score": 0.5693,
-        "semantic_sim": 0.7219,
+        "final_score": 0.5717,
+        "semantic_sim": 0.7268,
         "context_score": 0.5,
         "rdia_score": 1.0,
         "rrf_score": 0.031514
@@ -378,7 +344,7 @@
       "explanation": "Good match with the group's background. Matches application domain(s): healthcare / medical. Aligns with the group's RDIA priority."
     },
     {
-      "rank": 10,
+      "rank": 9,
       "project_id": "F03-45-10",
       "title": "Energy-aware Multi-Object Detection and Compression in WMSN",
       "supervisor_name": " Manal Khaled Alsabhan ",
@@ -403,13 +369,52 @@
         "Sustainable Environment & Supply of Essential Needs"
       ],
       "scores": {
-        "final_score": 0.4336,
-        "semantic_sim": 0.6972,
+        "final_score": 0.4102,
+        "semantic_sim": 0.7038,
         "context_score": 0.5,
         "rdia_score": 0.0,
-        "rrf_score": 0.029214
+        "rrf_score": 0.030478
       },
       "explanation": "Good match with the group's background. Matches application domain(s): sustainability & environment."
+    },
+    {
+      "rank": 10,
+      "project_id": "F10-42-20",
+      "title": "Monitoring and Tracking of Vulnerable Individuals Using Mini-UAVs",
+      "supervisor_name": " Areeb Abdullah Alowisheq",
+      "supervisor_id": "AAow",
+      "academic_year": "1442",
+      "keywords": [
+        "UAV Surveillance",
+        "Tracking System",
+        "Vision-Based Control",
+        "Autonomous Drones",
+        "Object Detection",
+        "Person Re-Identification",
+        "Deep Learning",
+        "Mobile Application",
+        "Simulation and Prototyping",
+        "Safety Monitoring"
+      ],
+      "application": [
+        "Social Good & Community"
+      ],
+      "interest": [
+        "Computer Vision",
+        "Artificial Intelligence / Machine Learning",
+        "Drones"
+      ],
+      "rdia": [
+        "Health & Wellness"
+      ],
+      "scores": {
+        "final_score": 0.4585,
+        "semantic_sim": 0.7036,
+        "context_score": 0.0,
+        "rdia_score": 1.0,
+        "rrf_score": 0.027588
+      },
+      "explanation": "Good match with the group's background. Aligns with the group's RDIA priority."
     }
   ],
   "recommended_interests": [
@@ -508,10 +513,17 @@
     },
     {
       "keyword": "deep learning",
-      "count": 3,
-      "coverage": 0.3,
+      "count": 4,
+      "coverage": 0.4,
       "semantic_score": 0.71,
-      "combined_score": 0.73
+      "combined_score": 0.855
+    },
+    {
+      "keyword": "object detection",
+      "count": 2,
+      "coverage": 0.2,
+      "semantic_score": 0.6861,
+      "combined_score": 0.593
     },
     {
       "keyword": "raspberry pi",
@@ -526,13 +538,6 @@
       "coverage": 0.1,
       "semantic_score": 0.7267,
       "combined_score": 0.4884
-    },
-    {
-      "keyword": "audio processing",
-      "count": 1,
-      "coverage": 0.1,
-      "semantic_score": 0.7134,
-      "combined_score": 0.4817
     },
     {
       "keyword": "customer service automation",

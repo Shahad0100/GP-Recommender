@@ -11,8 +11,8 @@
       "Transportation & Mobility"
     ],
     "selected_rdia": [
-      "Energy & Industrial Leadership",
-      "Economies of the Future"
+      "Economies of the Future",
+      "Energy & Industrial Leadership"
     ]
   },
   "recommended_projects": [
@@ -46,13 +46,13 @@
         "Health & Wellness"
       ],
       "scores": {
-        "final_score": 0.3892,
-        "semantic_sim": 0.7451,
+        "final_score": 0.3917,
+        "semantic_sim": 0.7501,
         "context_score": 0.3333,
         "rdia_score": 0.0,
         "rrf_score": 0.031099
       },
-      "explanation": "Good match with the group's background. Matches application domain(s): security & privacy."
+      "explanation": "Highly similar to the group's profile. Matches application domain(s): security & privacy."
     },
     {
       "rank": 2,
@@ -83,11 +83,11 @@
         "Sustainable Environment & Supply of Essential Needs"
       ],
       "scores": {
-        "final_score": 0.4195,
-        "semantic_sim": 0.699,
+        "final_score": 0.4188,
+        "semantic_sim": 0.6952,
         "context_score": 0.3333,
         "rdia_score": 0.0,
-        "rrf_score": 0.027397
+        "rrf_score": 0.027032
       },
       "explanation": "Good match with the group's background. Matches application domain(s): transportation & mobility."
     },
@@ -118,8 +118,8 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.5298,
-        "semantic_sim": 0.743,
+        "final_score": 0.5304,
+        "semantic_sim": 0.7442,
         "context_score": 0.3333,
         "rdia_score": 0.5,
         "rrf_score": 0.032522
@@ -164,10 +164,10 @@
       ],
       "scores": {
         "final_score": 0.3901,
-        "semantic_sim": 0.6992,
+        "semantic_sim": 0.6993,
         "context_score": 0.0,
         "rdia_score": 0.5,
-        "rrf_score": 0.013889
+        "rrf_score": 0.013514
       },
       "explanation": "Good match with the group's background. Aligns with the group's RDIA priority."
     },
@@ -198,11 +198,11 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.4033,
-        "semantic_sim": 0.6925,
+        "final_score": 0.3987,
+        "semantic_sim": 0.6849,
         "context_score": 0.0,
         "rdia_score": 0.5,
-        "rrf_score": 0.026671
+        "rrf_score": 0.025562
       },
       "explanation": "Good match with the group's background. Aligns with the group's RDIA priority."
     },
@@ -235,11 +235,11 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.41,
-        "semantic_sim": 0.7047,
+        "final_score": 0.4115,
+        "semantic_sim": 0.7077,
         "context_score": 0.0,
         "rdia_score": 0.5,
-        "rrf_score": 0.014286
+        "rrf_score": 0.014493
       },
       "explanation": "Good match with the group's background. Aligns with the group's RDIA priority."
     },
@@ -281,8 +281,8 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.3986,
-        "semantic_sim": 0.7114,
+        "final_score": 0.3993,
+        "semantic_sim": 0.7127,
         "context_score": 0.0,
         "rdia_score": 0.5,
         "rrf_score": 0.014706
@@ -291,53 +291,6 @@
     },
     {
       "rank": 8,
-      "project_id": "F24-45-20",
-      "title": "Botnet Attack Detection Using Machine Learning",
-      "supervisor_name": " Fatmah Ratiyan Alanazi ",
-      "supervisor_id": "FRan",
-      "academic_year": "1445",
-      "keywords": [
-        "Botnet Detection",
-        "Machine Learning",
-        "Ensemble Learning",
-        "Voting Classifier",
-        "Internet of Things (IoT) Security",
-        "Cybersecurity",
-        "N-BaIoT Dataset",
-        "BASHLITE Botnet",
-        "Mirai Botnet",
-        "Principal Component Analysis (PCA)",
-        "Decision Tree",
-        "K-Nearest Neighbors (KNN)",
-        "Support Vector Classifier (SVC)",
-        "Network Intrusion Detection",
-        "Anomaly Detection",
-        "Class Imbalance",
-        "Resampling Techniques",
-        "Feature Extraction"
-      ],
-      "application": [
-        "Security & Privacy"
-      ],
-      "interest": [
-        "Artificial Intelligence / Machine Learning",
-        "Cybersecurity",
-        "Data Science"
-      ],
-      "rdia": [
-        "Economies of the Future"
-      ],
-      "scores": {
-        "final_score": 0.4599,
-        "semantic_sim": 0.692,
-        "context_score": 0.3333,
-        "rdia_score": 0.5,
-        "rrf_score": 0.02748
-      },
-      "explanation": "Good match with the group's background. Matches application domain(s): security & privacy. Aligns with the group's RDIA priority."
-    },
-    {
-      "rank": 9,
       "project_id": "F20-45-20",
       "title": "Abnormal Event Detection for Video Surveillance (SecuritEye)",
       "supervisor_name": " Wojdan Mohammed BinSaeedan ",
@@ -375,13 +328,52 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.4539,
-        "semantic_sim": 0.7245,
+        "final_score": 0.464,
+        "semantic_sim": 0.7224,
         "context_score": 0.3333,
         "rdia_score": 0.5,
-        "rrf_score": 0.029958
+        "rrf_score": 0.02971
       },
       "explanation": "Good match with the group's background. Matches application domain(s): security & privacy. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 9,
+      "project_id": "M04-45-10",
+      "title": "Smart Car Parking Manager (SCPM)",
+      "supervisor_name": " Mostafa Elsayed Ahmed Ibrahim",
+      "supervisor_id": "MEra",
+      "academic_year": "1445",
+      "keywords": [
+        "Smart Parking System",
+        "Parking Management",
+        "Raspberry Pi",
+        "Sensor-Based Detection",
+        "License Plate Recognition",
+        "Computer Vision",
+        "Web Application",
+        "SQL Database",
+        "Real-Time Monitoring",
+        "Agile Development"
+      ],
+      "application": [
+        "Transportation & Mobility"
+      ],
+      "interest": [
+        "Computer Vision",
+        "Internet of Things (IoT)",
+        "Embedded Systems"
+      ],
+      "rdia": [
+        "Sustainable Environment & Supply of Essential Needs"
+      ],
+      "scores": {
+        "final_score": 0.4141,
+        "semantic_sim": 0.7282,
+        "context_score": 0.3333,
+        "rdia_score": 0.0,
+        "rrf_score": 0.029762
+      },
+      "explanation": "Good match with the group's background. Matches application domain(s): transportation & mobility."
     },
     {
       "rank": 10,
@@ -422,11 +414,11 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.4824,
-        "semantic_sim": 0.6982,
+        "final_score": 0.4837,
+        "semantic_sim": 0.7007,
         "context_score": 0.3333,
         "rdia_score": 0.5,
-        "rrf_score": 0.028665
+        "rrf_score": 0.02904
       },
       "explanation": "Good match with the group's background. Matches application domain(s): transportation & mobility. Aligns with the group's RDIA priority."
     }
@@ -519,18 +511,18 @@
   ],
   "top_keywords": [
     {
-      "keyword": "machine learning",
+      "keyword": "computer vision",
       "count": 3,
       "coverage": 0.3,
-      "semantic_score": 0.7655,
-      "combined_score": 0.8827
+      "semantic_score": 0.7693,
+      "combined_score": 0.8846
     },
     {
-      "keyword": "computer vision",
+      "keyword": "machine learning",
       "count": 2,
       "coverage": 0.2,
-      "semantic_score": 0.7693,
-      "combined_score": 0.718
+      "semantic_score": 0.7655,
+      "combined_score": 0.7161
     },
     {
       "keyword": "deep learning",
@@ -540,18 +532,11 @@
       "combined_score": 0.6893
     },
     {
-      "keyword": "anomaly detection",
+      "keyword": "real-time monitoring",
       "count": 2,
       "coverage": 0.2,
-      "semantic_score": 0.6845,
-      "combined_score": 0.6756
-    },
-    {
-      "keyword": "k-nearest neighbors (knn)",
-      "count": 2,
-      "coverage": 0.2,
-      "semantic_score": 0.5676,
-      "combined_score": 0.6171
+      "semantic_score": 0.6567,
+      "combined_score": 0.6617
     },
     {
       "keyword": "human behavior analysis",
@@ -573,6 +558,13 @@
       "coverage": 0.1,
       "semantic_score": 0.6577,
       "combined_score": 0.4955
+    },
+    {
+      "keyword": "user-friendly interface",
+      "count": 1,
+      "coverage": 0.1,
+      "semantic_score": 0.6498,
+      "combined_score": 0.4915
     },
     {
       "keyword": "deception detection",

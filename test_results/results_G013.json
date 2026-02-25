@@ -2,8 +2,8 @@
   "group_id": "G013",
   "group_profile": {
     "selected_interests": [
-      "Data Science",
-      "Artificial Intelligence / Machine Learning"
+      "Artificial Intelligence / Machine Learning",
+      "Data Science"
     ],
     "selected_applications": [
       "Healthcare / Medical"
@@ -15,41 +15,49 @@
   "recommended_projects": [
     {
       "rank": 1,
-      "project_id": "F02-43-10",
-      "title": "Facial Expression Recognition for Investigations",
-      "supervisor_name": "Lamees Abdullah Alhazzaa",
-      "supervisor_id": "LAha",
-      "academic_year": "1443",
+      "project_id": "F06-45-10",
+      "title": "Get It: A Deep Learning Approach for Identifying and Discriminating Spoken Arabic Among English",
+      "supervisor_name": "Wojdan Mohammed BinSaeedan",
+      "supervisor_id": "WMnS",
+      "academic_year": "1445",
       "keywords": [
-        "Facial Expression Analysis",
-        "Non-Verbal Communication",
-        "Emotion Recognition",
-        "Computer Vision",
-        "Police Investigations",
-        "Interview Analysis",
-        "Human Behavior Analysis",
-        "Automated Facial Recognition",
-        "Deception Detection"
+        "Language Identification",
+        "Spoken Language Recognition",
+        "Deep Learning",
+        "Arabic Speech Recognition",
+        "English Speech Recognition",
+        "Multilingual Systems",
+        "Customer Service Automation",
+        "ECAPA-TDNN",
+        "SpeechBrain",
+        "Convolutional Neural Network (CNN)",
+        "Recurrent Neural Network (RNN)",
+        "Capsule Network (CapsNet)",
+        "Natural Language Processing (NLP)",
+        "Voice Analysis",
+        "Mozilla Common Voice Dataset",
+        "Real-time Speech Processing",
+        "Call Center Automation",
+        "Audio Processing"
       ],
       "application": [
-        "Security & Privacy"
+        "Business & Productivity"
       ],
       "interest": [
-        "Computer Vision",
         "Artificial Intelligence / Machine Learning",
-        "Cybersecurity"
+        "Natural Language Processing"
       ],
       "rdia": [
-        "Health & Wellness"
+        "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.4698,
-        "semantic_sim": 0.7396,
+        "final_score": 0.3391,
+        "semantic_sim": 0.748,
         "context_score": 0.0,
-        "rdia_score": 1.0,
-        "rrf_score": 0.030018
+        "rdia_score": 0.0,
+        "rrf_score": 0.016393
       },
-      "explanation": "Good match with the group's background. Aligns with the group's RDIA priority."
+      "explanation": "Good match with the group's background."
     },
     {
       "rank": 2,
@@ -81,53 +89,93 @@
         "Health & Wellness"
       ],
       "scores": {
-        "final_score": 0.7669,
-        "semantic_sim": 0.7338,
+        "final_score": 0.7642,
+        "semantic_sim": 0.7284,
         "context_score": 1.0,
         "rdia_score": 1.0,
-        "rrf_score": 0.031025
+        "rrf_score": 0.030777
       },
       "explanation": "Good match with the group's background. Matches application domain(s): healthcare / medical. Aligns with the group's RDIA priority."
     },
     {
       "rank": 3,
-      "project_id": "M10-45-10",
-      "title": "School Bus Tracking and Management system",
-      "supervisor_name": "Ahmed Mohammed Ahmed Gadallah",
-      "supervisor_id": "AMda",
+      "project_id": "M04-45-10",
+      "title": "Smart Car Parking Manager (SCPM)",
+      "supervisor_name": " Mostafa Elsayed Ahmed Ibrahim",
+      "supervisor_id": "MEra",
       "academic_year": "1445",
       "keywords": [
-        "School Bus Tracking",
-        "Student Transportation Management",
-        "Real-Time Location Tracking",
-        "Route Optimization",
-        "Google Maps API",
-        "Parent Notifications",
-        "Operational Efficiency",
-        "User-Friendly Interface"
+        "Smart Parking System",
+        "Parking Management",
+        "Raspberry Pi",
+        "Sensor-Based Detection",
+        "License Plate Recognition",
+        "Computer Vision",
+        "Web Application",
+        "SQL Database",
+        "Real-Time Monitoring",
+        "Agile Development"
       ],
       "application": [
         "Transportation & Mobility"
       ],
       "interest": [
+        "Computer Vision",
         "Internet of Things (IoT)",
-        "Mobile Development",
-        "Web Development"
+        "Embedded Systems"
       ],
       "rdia": [
         "Sustainable Environment & Supply of Essential Needs"
       ],
       "scores": {
-        "final_score": 0.3388,
-        "semantic_sim": 0.7047,
+        "final_score": 0.354,
+        "semantic_sim": 0.7413,
         "context_score": 0.0,
         "rdia_score": 0.0,
-        "rrf_score": 0.013158
+        "rrf_score": 0.015873
       },
       "explanation": "Good match with the group's background."
     },
     {
       "rank": 4,
+      "project_id": "F02-43-10",
+      "title": "Facial Expression Recognition for Investigations",
+      "supervisor_name": "Lamees Abdullah Alhazzaa",
+      "supervisor_id": "LAha",
+      "academic_year": "1443",
+      "keywords": [
+        "Facial Expression Analysis",
+        "Non-Verbal Communication",
+        "Emotion Recognition",
+        "Computer Vision",
+        "Police Investigations",
+        "Interview Analysis",
+        "Human Behavior Analysis",
+        "Automated Facial Recognition",
+        "Deception Detection"
+      ],
+      "application": [
+        "Security & Privacy"
+      ],
+      "interest": [
+        "Computer Vision",
+        "Artificial Intelligence / Machine Learning",
+        "Cybersecurity"
+      ],
+      "rdia": [
+        "Health & Wellness"
+      ],
+      "scores": {
+        "final_score": 0.4726,
+        "semantic_sim": 0.7452,
+        "context_score": 0.0,
+        "rdia_score": 1.0,
+        "rrf_score": 0.030018
+      },
+      "explanation": "Good match with the group's background. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 5,
       "project_id": "F08-45-20",
       "title": "XIPHER: Visualization Tool for Security Algorithms",
       "supervisor_name": " Tahani Fahad Albalawi",
@@ -155,55 +203,50 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.3386,
-        "semantic_sim": 0.7065,
+        "final_score": 0.3428,
+        "semantic_sim": 0.7106,
         "context_score": 0.0,
         "rdia_score": 0.0,
-        "rrf_score": 0.013889
+        "rrf_score": 0.014286
       },
       "explanation": "Good match with the group's background."
     },
     {
-      "rank": 5,
-      "project_id": "F01-43-10",
-      "title": "Treatment of stuttering problems in children Application - TSA",
-      "supervisor_name": "Amal Suleiman Alsaif",
-      "supervisor_id": "ASsa",
-      "academic_year": "1443",
+      "rank": 6,
+      "project_id": "F04-42-10",
+      "title": "Evaluating Website Quality Using Machine Learning",
+      "supervisor_name": "Aram Saleh Al-Sedrani ",
+      "supervisor_id": "ASSe",
+      "academic_year": "1442",
       "keywords": [
-        "Treatment",
-        "Speech",
-        "Recognition",
-        "Stuttering",
-        "Application",
-        "Therapist",
-        "Analyze",
-        "Error findings",
-        "Speech problems",
-        "Children"
+        "Academic websites",
+        "Quality evaluator",
+        "Random forest",
+        "Supervised machine learning",
+        "Feature extraction"
       ],
       "application": [
-        "Healthcare / Medical"
+        "Education"
       ],
       "interest": [
         "Artificial Intelligence / Machine Learning",
-        "Natural Language Processing",
-        "Mobile Development"
+        "Web Development",
+        "Data Science"
       ],
       "rdia": [
-        "Health & Wellness"
+        "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.7195,
-        "semantic_sim": 0.7056,
-        "context_score": 1.0,
-        "rdia_score": 1.0,
-        "rrf_score": 0.029206
+        "final_score": 0.3369,
+        "semantic_sim": 0.7238,
+        "context_score": 0.0,
+        "rdia_score": 0.0,
+        "rrf_score": 0.02967
       },
-      "explanation": "Good match with the group's background. Matches application domain(s): healthcare / medical. Aligns with the group's RDIA priority."
+      "explanation": "Good match with the group's background."
     },
     {
-      "rank": 6,
+      "rank": 7,
       "project_id": "F29-45-20",
       "title": "Hudhud: AI-based Remote Rehabilitation",
       "supervisor_name": " Manan Mohammed Almusallam ",
@@ -239,16 +282,16 @@
         "Health & Wellness"
       ],
       "scores": {
-        "final_score": 0.7599,
-        "semantic_sim": 0.7198,
+        "final_score": 0.7617,
+        "semantic_sim": 0.7235,
         "context_score": 1.0,
         "rdia_score": 1.0,
-        "rrf_score": 0.03101
+        "rrf_score": 0.030777
       },
       "explanation": "Good match with the group's background. Matches application domain(s): healthcare / medical. Aligns with the group's RDIA priority."
     },
     {
-      "rank": 7,
+      "rank": 8,
       "project_id": "F01-42-20",
       "title": "COVID-19 Detection Using Deep Neural Networks",
       "supervisor_name": "Siwar Abdelfattah Rekik",
@@ -273,55 +316,55 @@
         "Health & Wellness"
       ],
       "scores": {
-        "final_score": 0.7086,
-        "semantic_sim": 0.7061,
+        "final_score": 0.7059,
+        "semantic_sim": 0.7051,
         "context_score": 1.0,
         "rdia_score": 1.0,
-        "rrf_score": 0.029828
+        "rrf_score": 0.029643
       },
       "explanation": "Good match with the group's background. Matches application domain(s): healthcare / medical. Aligns with the group's RDIA priority."
     },
     {
-      "rank": 8,
-      "project_id": "M04-45-10",
-      "title": "Smart Car Parking Manager (SCPM)",
-      "supervisor_name": " Mostafa Elsayed Ahmed Ibrahim",
-      "supervisor_id": "MEra",
-      "academic_year": "1445",
+      "rank": 9,
+      "project_id": "F01-43-10",
+      "title": "Treatment of stuttering problems in children Application - TSA",
+      "supervisor_name": "Amal Suleiman Alsaif",
+      "supervisor_id": "ASsa",
+      "academic_year": "1443",
       "keywords": [
-        "Smart Parking System",
-        "Parking Management",
-        "Raspberry Pi",
-        "Sensor-Based Detection",
-        "License Plate Recognition",
-        "Computer Vision",
-        "Web Application",
-        "SQL Database",
-        "Real-Time Monitoring",
-        "Agile Development"
+        "Treatment",
+        "Speech",
+        "Recognition",
+        "Stuttering",
+        "Application",
+        "Therapist",
+        "Analyze",
+        "Error findings",
+        "Speech problems",
+        "Children"
       ],
       "application": [
-        "Transportation & Mobility"
+        "Healthcare / Medical"
       ],
       "interest": [
-        "Computer Vision",
-        "Internet of Things (IoT)",
-        "Embedded Systems"
+        "Artificial Intelligence / Machine Learning",
+        "Natural Language Processing",
+        "Mobile Development"
       ],
       "rdia": [
-        "Sustainable Environment & Supply of Essential Needs"
+        "Health & Wellness"
       ],
       "scores": {
-        "final_score": 0.3496,
-        "semantic_sim": 0.7325,
-        "context_score": 0.0,
-        "rdia_score": 0.0,
-        "rrf_score": 0.015625
+        "final_score": 0.7195,
+        "semantic_sim": 0.7056,
+        "context_score": 1.0,
+        "rdia_score": 1.0,
+        "rrf_score": 0.029572
       },
-      "explanation": "Good match with the group's background."
+      "explanation": "Good match with the group's background. Matches application domain(s): healthcare / medical. Aligns with the group's RDIA priority."
     },
     {
-      "rank": 9,
+      "rank": 10,
       "project_id": "F11-42-20",
       "title": "Energy-Efficient Data Reduction Techniques for Sensor-based ECG Monitoring Applications",
       "supervisor_name": " Manan Mohammed Almusallam",
@@ -351,48 +394,11 @@
         "Health & Wellness"
       ],
       "scores": {
-        "final_score": 0.7238,
-        "semantic_sim": 0.6944,
+        "final_score": 0.7281,
+        "semantic_sim": 0.6962,
         "context_score": 1.0,
         "rdia_score": 1.0,
         "rrf_score": 0.027425
-      },
-      "explanation": "Good match with the group's background. Matches application domain(s): healthcare / medical. Aligns with the group's RDIA priority."
-    },
-    {
-      "rank": 10,
-      "project_id": "F01-45-20",
-      "title": "Baasyir:A YOLO Based approach to Assist Visually  Impaired People by leveraging Smart Glasses System",
-      "supervisor_name": "Dhouha Ahmed Ben Noureddine",
-      "supervisor_id": "DAur",
-      "academic_year": "1445",
-      "keywords": [
-        "Baasyir Smart glasseses",
-        "Deep Learning",
-        "Object Detection",
-        "YOLOv7",
-        "YOLOv7-tiny",
-        "Baasyir dataset",
-        "Furniture-detection dataset",
-        "Raspberry Pi"
-      ],
-      "application": [
-        "Healthcare / Medical"
-      ],
-      "interest": [
-        "Computer Vision",
-        "Embedded Systems",
-        "Artificial Intelligence / Machine Learning"
-      ],
-      "rdia": [
-        "Health & Wellness"
-      ],
-      "scores": {
-        "final_score": 0.7093,
-        "semantic_sim": 0.7044,
-        "context_score": 1.0,
-        "rdia_score": 1.0,
-        "rrf_score": 0.028372
       },
       "explanation": "Good match with the group's background. Matches application domain(s): healthcare / medical. Aligns with the group's RDIA priority."
     }
@@ -407,20 +413,20 @@
       "already_selected": true
     },
     {
+      "name": "Computer Vision",
+      "description": "Enables machines to interpret and understand visual information from images and videos using AI techniques.",
+      "combined_score": 0.7167,
+      "semantic_score": 0.7178,
+      "frequency_in_top_projects": 0.7142857142857143,
+      "already_selected": false
+    },
+    {
       "name": "Data Science",
       "description": "Involves extracting insights from structured and unstructured data using statistics, machine learning, and analytical techniques.",
       "combined_score": 0.6874,
       "semantic_score": 0.8595,
       "frequency_in_top_projects": 0.2857142857142857,
       "already_selected": true
-    },
-    {
-      "name": "Cybersecurity",
-      "description": "Deals with protecting systems, networks, and data from attacks, vulnerabilities, and unauthorized access.",
-      "combined_score": 0.6793,
-      "semantic_score": 0.7867,
-      "frequency_in_top_projects": 0.42857142857142855,
-      "already_selected": false
     }
   ],
   "recommended_applications": [
@@ -435,9 +441,9 @@
     {
       "name": "Healthcare / Medical",
       "description": "Relates to the use of technology to improve medical processes and patient care.",
-      "combined_score": 0.7402,
+      "combined_score": 0.8402,
       "semantic_score": 0.7717,
-      "frequency_in_top_projects": 0.6666666666666666,
+      "frequency_in_top_projects": 1.0,
       "already_selected": true
     },
     {
@@ -492,67 +498,67 @@
       "combined_score": 0.8456
     },
     {
-      "keyword": "raspberry pi",
+      "keyword": "feature extraction",
       "count": 2,
       "coverage": 0.2,
-      "semantic_score": 0.6661,
-      "combined_score": 0.6664
+      "semantic_score": 0.6589,
+      "combined_score": 0.6628
     },
     {
-      "keyword": "healthcare information systems",
+      "keyword": "deep learning",
       "count": 1,
       "coverage": 0.1,
-      "semantic_score": 0.7581,
-      "combined_score": 0.5457
+      "semantic_score": 0.7146,
+      "combined_score": 0.524
     },
     {
-      "keyword": "healthcare cybersecurity",
+      "keyword": "natural language processing (nlp)",
       "count": 1,
       "coverage": 0.1,
-      "semantic_score": 0.7271,
-      "combined_score": 0.5302
+      "semantic_score": 0.7006,
+      "combined_score": 0.517
     },
     {
-      "keyword": "blockchain technology",
+      "keyword": "customer service automation",
       "count": 1,
       "coverage": 0.1,
-      "semantic_score": 0.7011,
-      "combined_score": 0.5172
+      "semantic_score": 0.6975,
+      "combined_score": 0.5154
     },
     {
-      "keyword": "human behavior analysis",
+      "keyword": "audio processing",
       "count": 1,
       "coverage": 0.1,
-      "semantic_score": 0.6722,
-      "combined_score": 0.5028
+      "semantic_score": 0.6946,
+      "combined_score": 0.5139
     },
     {
-      "keyword": "electronic medical records (emr)",
+      "keyword": "call center automation",
       "count": 1,
       "coverage": 0.1,
-      "semantic_score": 0.6602,
-      "combined_score": 0.4968
+      "semantic_score": 0.6779,
+      "combined_score": 0.5056
     },
     {
-      "keyword": "interview analysis",
+      "keyword": "real-time speech processing",
       "count": 1,
       "coverage": 0.1,
-      "semantic_score": 0.6557,
-      "combined_score": 0.4945
+      "semantic_score": 0.6452,
+      "combined_score": 0.4893
     },
     {
-      "keyword": "patient data privacy",
+      "keyword": "convolutional neural network (cnn)",
       "count": 1,
       "coverage": 0.1,
-      "semantic_score": 0.6521,
-      "combined_score": 0.4927
+      "semantic_score": 0.6418,
+      "combined_score": 0.4876
     },
     {
-      "keyword": "decentralized data protection",
+      "keyword": "recurrent neural network (rnn)",
       "count": 1,
       "coverage": 0.1,
-      "semantic_score": 0.6395,
-      "combined_score": 0.4864
+      "semantic_score": 0.6352,
+      "combined_score": 0.4843
     }
   ]
 }

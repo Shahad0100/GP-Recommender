@@ -2,21 +2,21 @@
   "group_id": "G009",
   "group_profile": {
     "selected_interests": [
-      "Web Development",
-      "Game Development",
+      "Human-Computer Interaction",
       "Computer Graphics",
+      "Web Development",
       "Mobile Development",
-      "Human-Computer Interaction"
+      "Game Development"
     ],
     "selected_applications": [
-      "Social Good & Community",
       "Entertainment & Media",
-      "Education"
+      "Education",
+      "Social Good & Community"
     ],
     "selected_rdia": [
       "Economies of the Future",
-      "Sustainable Environment & Supply of Essential Needs",
-      "Health & Wellness"
+      "Health & Wellness",
+      "Sustainable Environment & Supply of Essential Needs"
     ]
   },
   "recommended_projects": [
@@ -51,8 +51,8 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.4686,
-        "semantic_sim": 0.7298,
+        "final_score": 0.4671,
+        "semantic_sim": 0.726,
         "context_score": 0.3333,
         "rdia_score": 0.3333,
         "rrf_score": 0.028589
@@ -86,11 +86,11 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.4844,
-        "semantic_sim": 0.702,
+        "final_score": 0.4817,
+        "semantic_sim": 0.6967,
         "context_score": 0.3333,
         "rdia_score": 0.3333,
-        "rrf_score": 0.031746
+        "rrf_score": 0.031258
       },
       "explanation": "Good match with the group's background. Matches application domain(s): social good & community. Aligns with the group's RDIA priority."
     },
@@ -123,8 +123,8 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.4435,
-        "semantic_sim": 0.7203,
+        "final_score": 0.4541,
+        "semantic_sim": 0.7249,
         "context_score": 0.3333,
         "rdia_score": 0.3333,
         "rrf_score": 0.030018
@@ -166,11 +166,11 @@
         "Health & Wellness"
       ],
       "scores": {
-        "final_score": 0.4569,
-        "semantic_sim": 0.697,
+        "final_score": 0.4853,
+        "semantic_sim": 0.704,
         "context_score": 0.3333,
         "rdia_score": 0.3333,
-        "rrf_score": 0.029437
+        "rrf_score": 0.030159
       },
       "explanation": "Good match with the group's background. Matches application domain(s): education. Aligns with the group's RDIA priority."
     },
@@ -203,11 +203,11 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.4598,
-        "semantic_sim": 0.6973,
+        "final_score": 0.4586,
+        "semantic_sim": 0.6949,
         "context_score": 0.3333,
         "rdia_score": 0.3333,
-        "rrf_score": 0.029083
+        "rrf_score": 0.02885
       },
       "explanation": "Good match with the group's background. Matches application domain(s): entertainment & media. Aligns with the group's RDIA priority."
     },
@@ -248,52 +248,48 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.456,
-        "semantic_sim": 0.696,
+        "final_score": 0.4561,
+        "semantic_sim": 0.6942,
         "context_score": 0.3333,
         "rdia_score": 0.3333,
-        "rrf_score": 0.014925
+        "rrf_score": 0.014706
       },
       "explanation": "Good match with the group's background. Matches application domain(s): education. Aligns with the group's RDIA priority."
     },
     {
       "rank": 7,
-      "project_id": "M04-45-10",
-      "title": "Smart Car Parking Manager (SCPM)",
-      "supervisor_name": " Mostafa Elsayed Ahmed Ibrahim",
-      "supervisor_id": "MEra",
-      "academic_year": "1445",
+      "project_id": "F13-42-10",
+      "title": "Dolphin Application ",
+      "supervisor_name": " Eman AbdulHamid Alzaid ",
+      "supervisor_id": "EAza",
+      "academic_year": "42",
       "keywords": [
-        "Smart Parking System",
-        "Parking Management",
-        "Raspberry Pi",
-        "Sensor-Based Detection",
-        "License Plate Recognition",
-        "Computer Vision",
-        "Web Application",
-        "SQL Database",
-        "Real-Time Monitoring",
-        "Agile Development"
+        "Mobile Application",
+        "Video Management",
+        "Video Retrieval",
+        "Machine Learning",
+        "Video Indexing",
+        "Smartphone Videos"
       ],
       "application": [
-        "Transportation & Mobility"
+        "Entertainment & Media"
       ],
       "interest": [
-        "Computer Vision",
-        "Internet of Things (IoT)",
-        "Embedded Systems"
+        "Artificial Intelligence / Machine Learning",
+        "Mobile Development",
+        "Computer Vision"
       ],
       "rdia": [
-        "Sustainable Environment & Supply of Essential Needs"
+        "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.3726,
-        "semantic_sim": 0.6585,
-        "context_score": 0.0,
+        "final_score": 0.4509,
+        "semantic_sim": 0.6827,
+        "context_score": 0.3333,
         "rdia_score": 0.3333,
-        "rrf_score": 0.029139
+        "rrf_score": 0.02879
       },
-      "explanation": "Good match with the group's background. Aligns with the group's RDIA priority."
+      "explanation": "Good match with the group's background. Matches application domain(s): entertainment & media. Aligns with the group's RDIA priority."
     },
     {
       "rank": 8,
@@ -330,8 +326,8 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.4478,
-        "semantic_sim": 0.6828,
+        "final_score": 0.4493,
+        "semantic_sim": 0.6837,
         "context_score": 0.3333,
         "rdia_score": 0.3333,
         "rrf_score": 0.014286
@@ -340,41 +336,6 @@
     },
     {
       "rank": 9,
-      "project_id": "F13-42-10",
-      "title": "Dolphin Application ",
-      "supervisor_name": " Eman AbdulHamid Alzaid ",
-      "supervisor_id": "EAza",
-      "academic_year": "42",
-      "keywords": [
-        "Mobile Application",
-        "Video Management",
-        "Video Retrieval",
-        "Machine Learning",
-        "Video Indexing",
-        "Smartphone Videos"
-      ],
-      "application": [
-        "Entertainment & Media"
-      ],
-      "interest": [
-        "Artificial Intelligence / Machine Learning",
-        "Mobile Development",
-        "Computer Vision"
-      ],
-      "rdia": [
-        "Economies of the Future"
-      ],
-      "scores": {
-        "final_score": 0.4528,
-        "semantic_sim": 0.6805,
-        "context_score": 0.3333,
-        "rdia_score": 0.3333,
-        "rrf_score": 0.02879
-      },
-      "explanation": "Good match with the group's background. Matches application domain(s): entertainment & media. Aligns with the group's RDIA priority."
-    },
-    {
-      "rank": 10,
       "project_id": "F04-42-10",
       "title": "Evaluating Website Quality Using Machine Learning",
       "supervisor_name": "Aram Saleh Al-Sedrani ",
@@ -399,11 +360,45 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.4439,
-        "semantic_sim": 0.6925,
+        "final_score": 0.4464,
+        "semantic_sim": 0.6979,
         "context_score": 0.3333,
         "rdia_score": 0.3333,
-        "rrf_score": 0.026121
+        "rrf_score": 0.027119
+      },
+      "explanation": "Good match with the group's background. Matches application domain(s): education. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 10,
+      "project_id": "M09-45-10",
+      "title": "Qaimni: An Interactive, Web-Based System for Rating Faculty Members",
+      "supervisor_name": "Adel Ebrahim Al-Salem",
+      "supervisor_id": "AESa",
+      "academic_year": "1445",
+      "keywords": [
+        "Faculty Rating",
+        "Student Reviews",
+        "Anonymous Feedback",
+        "Web Application",
+        "College Platform"
+      ],
+      "application": [
+        "Education"
+      ],
+      "interest": [
+        "Web Development",
+        "Database Systems",
+        "Human-Computer Interaction"
+      ],
+      "rdia": [
+        "Economies of the Future"
+      ],
+      "scores": {
+        "final_score": 0.4439,
+        "semantic_sim": 0.6879,
+        "context_score": 0.3333,
+        "rdia_score": 0.3333,
+        "rrf_score": 0.027826
       },
       "explanation": "Good match with the group's background. Matches application domain(s): education. Aligns with the group's RDIA priority."
     }

@@ -3,16 +3,16 @@
   "group_profile": {
     "selected_interests": [
       "Cloud Computing",
-      "Database Systems",
-      "Mobile Development",
       "DevOps",
-      "Human-Computer Interaction"
+      "Human-Computer Interaction",
+      "Mobile Development",
+      "Database Systems"
     ],
     "selected_applications": [
       "Entertainment & Media",
+      "Business & Productivity",
       "Healthcare / Medical",
-      "Government & Public Sector",
-      "Business & Productivity"
+      "Government & Public Sector"
     ],
     "selected_rdia": [
       "Economies of the Future",
@@ -51,8 +51,8 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.4091,
-        "semantic_sim": 0.7348,
+        "final_score": 0.4071,
+        "semantic_sim": 0.7309,
         "context_score": 0.0,
         "rdia_score": 0.5,
         "rrf_score": 0.016393
@@ -86,11 +86,11 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.4065,
-        "semantic_sim": 0.7201,
+        "final_score": 0.4059,
+        "semantic_sim": 0.7136,
         "context_score": 0.0,
         "rdia_score": 0.5,
-        "rrf_score": 0.028034
+        "rrf_score": 0.02753
       },
       "explanation": "Good match with the group's background. Aligns with the group's RDIA priority."
     },
@@ -132,11 +132,11 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.4745,
-        "semantic_sim": 0.7156,
+        "final_score": 0.4735,
+        "semantic_sim": 0.7196,
         "context_score": 0.25,
         "rdia_score": 0.5,
-        "rrf_score": 0.027673
+        "rrf_score": 0.027921
       },
       "explanation": "Good match with the group's background. Matches application domain(s): business & productivity. Aligns with the group's RDIA priority."
     },
@@ -167,11 +167,11 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.4962,
-        "semantic_sim": 0.7174,
+        "final_score": 0.4976,
+        "semantic_sim": 0.7201,
         "context_score": 0.25,
         "rdia_score": 0.5,
-        "rrf_score": 0.032002
+        "rrf_score": 0.032258
       },
       "explanation": "Good match with the group's background. Matches application domain(s): entertainment & media. Aligns with the group's RDIA priority."
     },
@@ -204,11 +204,11 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.4563,
-        "semantic_sim": 0.7042,
+        "final_score": 0.4576,
+        "semantic_sim": 0.7069,
         "context_score": 0.25,
         "rdia_score": 0.5,
-        "rrf_score": 0.030366
+        "rrf_score": 0.030118
       },
       "explanation": "Good match with the group's background. Matches application domain(s): entertainment & media. Aligns with the group's RDIA priority."
     },
@@ -243,8 +243,8 @@
         "Health & Wellness"
       ],
       "scores": {
-        "final_score": 0.4446,
-        "semantic_sim": 0.6975,
+        "final_score": 0.4453,
+        "semantic_sim": 0.699,
         "context_score": 0.25,
         "rdia_score": 0.5,
         "rrf_score": 0.028382
@@ -288,11 +288,11 @@
         "Health & Wellness"
       ],
       "scores": {
-        "final_score": 0.4474,
-        "semantic_sim": 0.679,
+        "final_score": 0.4488,
+        "semantic_sim": 0.6826,
         "context_score": 0.25,
         "rdia_score": 0.5,
-        "rrf_score": 0.027364
+        "rrf_score": 0.027526
       },
       "explanation": "Good match with the group's background. Matches application domain(s): healthcare / medical. Aligns with the group's RDIA priority."
     },
@@ -332,8 +332,8 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.4455,
-        "semantic_sim": 0.6715,
+        "final_score": 0.443,
+        "semantic_sim": 0.6716,
         "context_score": 0.25,
         "rdia_score": 0.5,
         "rrf_score": 0.026974
@@ -342,41 +342,49 @@
     },
     {
       "rank": 9,
-      "project_id": "F07-45-10",
-      "title": "Secure Healthcare Information Exchange Platform ‘KEEP SAFE’",
-      "supervisor_name": "Eman AbdulHamid Alzaid",
-      "supervisor_id": "EAza",
+      "project_id": "M05-45-20",
+      "title": "Musanif (مصنف): A Categorization and Product Information API for E-Commerce Product Images)",
+      "supervisor_name": "Sultan Shuraidah Al-dera",
+      "supervisor_id": "SSde",
       "academic_year": "1445",
       "keywords": [
-        "Electronic Medical Records (EMR)",
-        "Blockchain Technology",
-        "Healthcare Information Systems",
-        "Secure Medical Data Sharing",
-        "Decentralized Data Protection",
-        "Patient Data Privacy",
-        "EMR Exchange Scheme",
-        "Digital Identity Verification",
-        "Healthcare Cybersecurity"
+        "E-commerce",
+        "Image Recognition",
+        "Product Categorization",
+        "API Development",
+        "Machine Learning",
+        "AWS Rekognition",
+        "Web Scraping",
+        "Product Information Extraction",
+        "Automated Data Entry",
+        "Inventory Management",
+        "REST API",
+        "Image Classification",
+        "Product Labeling",
+        "React",
+        "Node.js",
+        "Cloud Computing",
+        "Retail Technology"
       ],
       "application": [
-        "Healthcare / Medical"
+        "Business & Productivity"
       ],
       "interest": [
-        "Blockchain",
-        "Cybersecurity",
-        "Mobile Development"
+        "Computer Vision",
+        "Artificial Intelligence / Machine Learning",
+        "Web Development"
       ],
       "rdia": [
-        "Health & Wellness"
+        "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.453,
-        "semantic_sim": 0.6977,
+        "final_score": 0.4431,
+        "semantic_sim": 0.6778,
         "context_score": 0.25,
         "rdia_score": 0.5,
-        "rrf_score": 0.029469
+        "rrf_score": 0.028219
       },
-      "explanation": "Good match with the group's background. Matches application domain(s): healthcare / medical. Aligns with the group's RDIA priority."
+      "explanation": "Good match with the group's background. Matches application domain(s): business & productivity. Aligns with the group's RDIA priority."
     },
     {
       "rank": 10,
@@ -404,8 +412,8 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.4566,
-        "semantic_sim": 0.7049,
+        "final_score": 0.4584,
+        "semantic_sim": 0.7084,
         "context_score": 0.25,
         "rdia_score": 0.5,
         "rrf_score": 0.031099
@@ -501,11 +509,11 @@
   ],
   "top_keywords": [
     {
-      "keyword": "blockchain technology",
+      "keyword": "machine learning",
       "count": 2,
       "coverage": 0.2,
-      "semantic_score": 0.6975,
-      "combined_score": 0.8488
+      "semantic_score": 0.7031,
+      "combined_score": 0.8515
     },
     {
       "keyword": "computer vision",
@@ -550,6 +558,13 @@
       "combined_score": 0.6027
     },
     {
+      "keyword": "blockchain technology",
+      "count": 1,
+      "coverage": 0.1,
+      "semantic_score": 0.6975,
+      "combined_score": 0.5988
+    },
+    {
       "keyword": "centralized system",
       "count": 1,
       "coverage": 0.1,
@@ -562,13 +577,6 @@
       "coverage": 0.1,
       "semantic_score": 0.6953,
       "combined_score": 0.5976
-    },
-    {
-      "keyword": "python",
-      "count": 1,
-      "coverage": 0.1,
-      "semantic_score": 0.6805,
-      "combined_score": 0.5903
     }
   ]
 }
