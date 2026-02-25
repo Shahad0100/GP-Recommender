@@ -262,5 +262,203 @@
       "Social Good & Community"
     ],
     "rdia_category": "Health & Wellness"
+  },
+  {
+    "group_id": "G013",
+    "recommended_projects": [
+      {
+        "rank": 1,
+        "project_id": "F01-42-20",
+        "project_title": "COVID-19 Detection Using Deep Neural Networks"
+      },
+      {
+        "rank": 2,
+        "project_id": "F29-45-20",
+        "project_title": "Hudhud: AI-based Remote Rehabilitation"
+      },
+      {
+        "rank": 3,
+        "project_id": "F09-42-20",
+        "project_title": "Finding Deleted Regions in Human DNA"
+      },
+      {
+        "rank": 4,
+        "project_id": "F11-42-20",
+        "project_title": "Energy-Efficient Data Reduction Techniques for Sensor-based ECG Monitoring Applications"
+      },
+      {
+        "rank": 5,
+        "project_id": "F01-45-20",
+        "project_title": "Baasyir:A YOLO Based approach to Assist Visually Impaired People by leveraging Smart Glasses System"
+      },
+      {
+        "rank": 6,
+        "project_id": "F07-45-10",
+        "project_title": "Secure Healthcare Information Exchange Platform 'KEEP SAFE'"
+      },
+      {
+        "rank": 7,
+        "project_id": "F01-43-10",
+        "project_title": "Treatment of stuttering problems in children Application - TSA"
+      },
+      {
+        "rank": 8,
+        "project_id": "F02-45-20",
+        "project_title": "DeepFake Videos Detection Based on A Hybrid Model Using Deep Learning"
+      },
+      {
+        "rank": 9,
+        "project_id": "F24-45-20",
+        "project_title": "Botnet Attack Detection Using Machine Learning"
+      },
+      {
+        "rank": 10,
+        "project_id": "F08-42-20",
+        "project_title": "Detecting Malicious PowerShell Scripts using Machine Learning"
+      }
+    ],
+    "top_interests": [
+      "Artificial Intelligence / Machine Learning",
+      "Data Science",
+      "Internet of Things (IoT)"
+    ],
+    "top_applications": [
+      "Healthcare / Medical",
+      "Security & Privacy",
+      "Business & Productivity"
+    ],
+    "rdia_category": "Health and Wellness"
+  },
+  {
+    "group_id": "G014",
+    "recommended_projects": [
+      {
+        "rank": 1,
+        "project_id": "F02-43-10",
+        "project_title": "Facial Expression Recognition for Investigations"
+      },
+      {
+        "rank": 2,
+        "project_id": "F20-45-20",
+        "project_title": "Abnormal Event Detection for Video Surveillance (SecuritEye)"
+      },
+      {
+        "rank": 3,
+        "project_id": "F02-45-20",
+        "project_title": "DeepFake Videos Detection Based on A Hybrid Model Using Deep Learning"
+      },
+      {
+        "rank": 4,
+        "project_id": "F05-45-20",
+        "project_title": "Walyattawafou: Crowd Counting in Hajj and Umrah"
+      },
+      {
+        "rank": 5,
+        "project_id": "F27-45-20",
+        "project_title": "Maseer: Advanced Pilgrimage Mapping for Effective Crowd Management during Hajj"
+      },
+      {
+        "rank": 6,
+        "project_id": "M02-45-10",
+        "project_title": "Automated Attendance System Using Facial Recognition (FRA)"
+      },
+      {
+        "rank": 7,
+        "project_id": "F01-42-20",
+        "project_title": "COVID-19 Detection Using Deep Neural Networks"
+      },
+      {
+        "rank": 8,
+        "project_id": "F05-45-10",
+        "project_title": "Visualize: A Software Tool for Visualizing the Impact of Climate Change on Cities"
+      },
+      {
+        "rank": 9,
+        "project_id": "M02-45-20",
+        "project_title": "Detection of Adversarial Attacks Malwares Using Machine Learning Models"
+      },
+      {
+        "rank": 10,
+        "project_id": "F08-42-20",
+        "project_title": "Detecting Malicious PowerShell Scripts using Machine Learning"
+      }
+    ],
+    "top_interests": [
+      "Computer Vision",
+      "Artificial Intelligence / Machine Learning",
+      "Cybersecurity"
+    ],
+    "top_applications": [
+      "Security & Privacy",
+      "Entertainment & Media",
+      "Transportation & Mobility"
+    ],
+    "rdia_category": "Economies of the Future"
+  },
+  {
+    "group_id": "G015",
+    "recommended_projects": [
+      {
+        "rank": 1,
+        "project_id": "F04-45-20",
+        "project_title": "CCIS Student Assistant Chatbot"
+      },
+      {
+        "rank": 2,
+        "project_id": "M09-45-10",
+        "project_title": "Qaimni: An Interactive, Web-Based System for Rating Faculty Members"
+      },
+      {
+        "rank": 3,
+        "project_id": "F08-45-20",
+        "project_title": "XIPHER: Visualization Tool for Security Algorithms"
+      },
+      {
+        "rank": 4,
+        "project_id": "F06-42-20",
+        "project_title": "Developing A Web Application for Automatic Code Generation"
+      },
+      {
+        "rank": 5,
+        "project_id": "F04-42-10",
+        "project_title": "Evaluating Website Quality Using Machine Learning"
+      },
+      {
+        "rank": 6,
+        "project_id": "F06-45-20",
+        "project_title": "Predicting Programming Skills Among Novice Programmers"
+      },
+      {
+        "rank": 7,
+        "project_id": "F16-45-10",
+        "project_title": "Automatic audio files summarization System, EJAZ Website"
+      },
+      {
+        "rank": 8,
+        "project_id": "F14-42-20",
+        "project_title": "Book Recommendation System based on Collaboration Filtering (RICO)"
+      },
+      {
+        "rank": 9,
+        "project_id": "F02-42-20",
+        "project_title": "Online Context-Aware Recommender System"
+      },
+      {
+        "rank": 10,
+        "project_id": "F25-45-20",
+        "project_title": "Automatic Recognition of Children's Handwritten Arabic Characters"
+      }
+    ],
+    "top_interests": [
+      "Web Development",
+      "Natural Language Processing",
+      "Database Systems"
+    ],
+    "top_applications": [
+      "Education",
+      "Finance & Economics",
+      "Business & Productivity"
+    ],
+    "rdia_category": "Economies of the Future"
   }
 ]
