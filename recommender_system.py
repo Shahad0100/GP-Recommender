@@ -3,16 +3,16 @@ recommender_system.py
 ----------------------
 RecommenderSystem — main orchestrator.
 
-Wires EmbeddingEngine + 5 independent recommenders together.
+Wires EmbeddingEngine + 4 independent recommenders together.
 This is the ONLY file your backend needs to import.
 
 Architecture:
     EmbeddingEngine          ← loaded once, shared by all
          │
-    ┌────┼────────────────────────────────┐
-    ▼    ▼          ▼          ▼          ▼
-Project Interest Application RDIA    Keyword
- Rec     Rec      Rec        Rec      Rec
+    ┌────┼─────────────────────|
+    ▼    ▼          ▼          ▼          
+Project Interest Application RDIA    
+ Rec     Rec      Rec        Rec  
 
 Usage:
     from recommender_system import RecommenderSystem
@@ -29,7 +29,6 @@ Usage:
     interests = system.interest_rec.recommend(group_vec, group_meta)
     apps      = system.app_rec.recommend(group_vec, group_meta)
     rdia      = system.rdia_rec.recommend(group_vec, group_meta)
-    keywords  = system.keyword_rec.recommend([p["project_id"] for p in projects], group_vec)
 """
 import json
 import os
@@ -44,7 +43,7 @@ from recommenders.project_recommender     import ProjectRecommender
 from recommenders.interest_recommender    import InterestRecommender
 from recommenders.application_recommender import ApplicationRecommender
 from recommenders.rdia_recommender        import RDIARecommender
-from recommenders.keyword_recommender     import KeywordRecommender
+
 
 
 class RecommenderSystem:
@@ -62,12 +61,12 @@ class RecommenderSystem:
         # Load engine once — all recommenders share it
         self.engine = EmbeddingEngine()
 
-        # Initialize all 5 recommenders with the shared engine
+        # Initialize all 4 recommenders with the shared engine
         self.project_rec  = ProjectRecommender(self.engine)
         self.interest_rec = InterestRecommender(self.engine)
         self.app_rec      = ApplicationRecommender(self.engine)
         self.rdia_rec     = RDIARecommender(self.engine)
-        self.keyword_rec  = KeywordRecommender(self.engine)
+    
 
         print("=" * 55)
         print("  RecommenderSystem ready\n")
@@ -75,7 +74,7 @@ class RecommenderSystem:
 
     def recommend_all(self, group_json: dict) -> dict:
         """
-        Run all 5 recommenders for a group. Returns combined output.
+        Run all 4 recommenders for a group. Returns combined output.
 
         Input group_json:
         {
@@ -103,7 +102,7 @@ class RecommenderSystem:
           "recommended_interests":    [...],  // top-3 interest domains
           "recommended_applications": [...],  // top-3 application domains
           "recommended_rdia":         [...],  // all 4 RDIA priorities ranked
-          "top_keywords":             [...],  // top-10 keywords from top projects
+          
         }
         """
         group_id = group_json.get("group_id", "unknown")
@@ -122,16 +121,16 @@ class RecommenderSystem:
         recommended_applications = self.app_rec.recommend(group_vec, group_meta)
         recommended_rdia         = self.rdia_rec.recommend(group_vec, group_meta)
 
-        top_project_ids = [p["project_id"] for p in recommended_projects]
-        top_keywords    = self.keyword_rec.recommend(top_project_ids, group_vec)
+        
 
         print(f"  Done — "
               f"{len(recommended_projects)} projects | "
               f"{len(recommended_interests)} interests | "
               f"{len(recommended_applications)} apps | "
-              f"{len(recommended_rdia)} RDIA | "
-              f"{len(top_keywords)} keywords\n")
+              f"{len(recommended_rdia)} RDIA \n ")
+              
 
+    
         return {
             "group_id":                group_id,
             "group_profile":           group_meta,
@@ -139,14 +138,14 @@ class RecommenderSystem:
             "recommended_interests":    recommended_interests,
             "recommended_applications": recommended_applications,
             "recommended_rdia":         recommended_rdia,
-            "top_keywords":             top_keywords,
-        }
+            
+               }
 
 
 # ─────────────────────────────────────────────────────────────────────────────
 # QUICK TEST — python recommender_system.py
 # ─────────────────────────────────────────────────────────────────────────────
-# ─────────────────────────────────────────────────────────────────────────────
+
 
 if __name__ == "__main__":
     def load_groups_from_json(file_path):
@@ -224,13 +223,7 @@ if __name__ == "__main__":
             sel = " ← your selection" if r["already_selected"] else ""
             print(f"  [{r['combined_score']}] {r['label']}{sel}")
         
-        # Top keywords
-        print(f"\n{sep}")
-        print(f"  TOP KEYWORDS")
-        print(f"{sep}")
-        for k in results["top_keywords"]:
-            print(f"  [{k['combined_score']}] {k['keyword']}  "
-                  f"(in {k['count']} projects, {k['coverage']*100:.0f}% coverage)")
+        
         
         print()
     
