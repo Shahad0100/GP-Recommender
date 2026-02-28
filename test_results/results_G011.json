@@ -41,11 +41,11 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.4931,
-        "semantic_sim": 0.7529,
+        "final_score": 0.5134,
+        "semantic_sim": 0.7936,
         "context_score": 0.0,
         "rdia_score": 1.0,
-        "rrf_score": 0.02895
+        "rrf_score": 0.029214
       },
       "explanation": "Highly similar to the group's profile. Aligns with the group's RDIA priority."
     },
@@ -84,16 +84,139 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.6478,
-        "semantic_sim": 0.7455,
+        "final_score": 0.6639,
+        "semantic_sim": 0.7778,
         "context_score": 0.5,
         "rdia_score": 1.0,
-        "rrf_score": 0.032018
+        "rrf_score": 0.032522
+      },
+      "explanation": "Highly similar to the group's profile. Matches application domain(s): education. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 3,
+      "project_id": "F06-45-20",
+      "title": "Predicting Programming Skills Among Novice Programmers",
+      "supervisor_name": " Basma Suleiman Alqadi ",
+      "supervisor_id": "BSqa",
+      "academic_year": "1445",
+      "keywords": [
+        "Programming Skills Prediction",
+        "Debugging Ability",
+        "Novice Programmers",
+        "Machine Learning",
+        "Educational Data Mining",
+        "Logical Errors",
+        "K-Nearest Neighbors (KNN)",
+        "Support Vector Machine (SVM)",
+        "Naive Bayes (NB)",
+        "Programming Education",
+        "Debugging Assessment",
+        "Correlation Analysis",
+        "Error Analysis",
+        "Code Debugging",
+        "Programming Proficiency",
+        "English Proficiency",
+        "Skill Prediction"
+      ],
+      "application": [
+        "Education"
+      ],
+      "interest": [
+        "Artificial Intelligence / Machine Learning",
+        "Data Science"
+      ],
+      "rdia": [
+        "Economies of the Future"
+      ],
+      "scores": {
+        "final_score": 0.6174,
+        "semantic_sim": 0.7464,
+        "context_score": 0.5,
+        "rdia_score": 1.0,
+        "rrf_score": 0.014286
       },
       "explanation": "Good match with the group's background. Matches application domain(s): education. Aligns with the group's RDIA priority."
     },
     {
-      "rank": 3,
+      "rank": 4,
+      "project_id": "F06-42-20",
+      "title": "Developing A Web Application for Automatic Code Generation",
+      "supervisor_name": " Aram Saleh Al-Sedrani ",
+      "supervisor_id": "ASSe",
+      "academic_year": "1442",
+      "keywords": [
+        "Automatic Code Generation",
+        "ACG",
+        "software development",
+        "web application",
+        "Python",
+        "Java",
+        "XML parser",
+        "flowchart",
+        "algorithms",
+        "GUI"
+      ],
+      "application": [
+        "Education"
+      ],
+      "interest": [
+        "Artificial Intelligence / Machine Learning",
+        "Web Development",
+        "Software Engineering"
+      ],
+      "rdia": [
+        "Economies of the Future"
+      ],
+      "scores": {
+        "final_score": 0.6126,
+        "semantic_sim": 0.7586,
+        "context_score": 0.5,
+        "rdia_score": 1.0,
+        "rrf_score": 0.026515
+      },
+      "explanation": "Highly similar to the group's profile. Matches application domain(s): education. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 5,
+      "project_id": "M02-45-10",
+      "title": "Automated Attendance System Using Facial Recognition (FRA)",
+      "supervisor_name": "Hachemi Ahmed Nasser",
+      "supervisor_id": "HAss",
+      "academic_year": "1445",
+      "keywords": [
+        "Facial Recognition",
+        "Automated Attendance System",
+        "Computer Vision",
+        "Raspberry Pi",
+        "Image Processing",
+        "Database Management",
+        "Web Application",
+        "Educational Technology",
+        "Biometric Authentication",
+        "Real-Time Recognition"
+      ],
+      "application": [
+        "Education"
+      ],
+      "interest": [
+        "Computer Vision",
+        "Artificial Intelligence / Machine Learning",
+        "Embedded Systems"
+      ],
+      "rdia": [
+        "Economies of the Future"
+      ],
+      "scores": {
+        "final_score": 0.6137,
+        "semantic_sim": 0.7608,
+        "context_score": 0.5,
+        "rdia_score": 1.0,
+        "rrf_score": 0.028718
+      },
+      "explanation": "Highly similar to the group's profile. Matches application domain(s): education. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 6,
       "project_id": "F04-45-10",
       "title": "Baseera بصيرة : Accessible Mobile App for Blind Children",
       "supervisor_name": " Manan Mohammed Almusallam ",
@@ -127,53 +250,16 @@
         "Health & Wellness"
       ],
       "scores": {
-        "final_score": 0.4774,
-        "semantic_sim": 0.7288,
+        "final_score": 0.4886,
+        "semantic_sim": 0.7462,
         "context_score": 0.5,
         "rdia_score": 0.0,
-        "rrf_score": 0.014925
+        "rrf_score": 0.014085
       },
       "explanation": "Good match with the group's background. Matches application domain(s): education."
     },
     {
-      "rank": 4,
-      "project_id": "F08-45-20",
-      "title": "XIPHER: Visualization Tool for Security Algorithms",
-      "supervisor_name": " Tahani Fahad Albalawi",
-      "supervisor_id": "TFba",
-      "academic_year": "1445",
-      "keywords": [
-        "Security Algorithms",
-        "Algorithm Visualization",
-        "Security Education",
-        "Usability Evaluation",
-        "Human-Computer Interaction (HCI)",
-        "Educational Web Platform",
-        "Visualization Tools",
-        "User Experience (UX)"
-      ],
-      "application": [
-        "Education"
-      ],
-      "interest": [
-        "Cybersecurity",
-        "Web Development",
-        "Human-Computer Interaction"
-      ],
-      "rdia": [
-        "Economies of the Future"
-      ],
-      "scores": {
-        "final_score": 0.6122,
-        "semantic_sim": 0.6966,
-        "context_score": 0.5,
-        "rdia_score": 1.0,
-        "rrf_score": 0.028205
-      },
-      "explanation": "Good match with the group's background. Matches application domain(s): education. Aligns with the group's RDIA priority."
-    },
-    {
-      "rank": 5,
+      "rank": 7,
       "project_id": "F25-45-20",
       "title": "Automatic Recognition of Children's Handwritten Arabic Characters",
       "supervisor_name": " Asma Badr AlSaleh ",
@@ -211,125 +297,50 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.5598,
-        "semantic_sim": 0.703,
+        "final_score": 0.5732,
+        "semantic_sim": 0.7298,
         "context_score": 0.5,
         "rdia_score": 1.0,
-        "rrf_score": 0.028783
-      },
-      "explanation": "Good match with the group's background. Matches application domain(s): education. Aligns with the group's RDIA priority."
-    },
-    {
-      "rank": 6,
-      "project_id": "M02-45-10",
-      "title": "Automated Attendance System Using Facial Recognition (FRA)",
-      "supervisor_name": "Hachemi Ahmed Nasser",
-      "supervisor_id": "HAss",
-      "academic_year": "1445",
-      "keywords": [
-        "Facial Recognition",
-        "Automated Attendance System",
-        "Computer Vision",
-        "Raspberry Pi",
-        "Image Processing",
-        "Database Management",
-        "Web Application",
-        "Educational Technology",
-        "Biometric Authentication",
-        "Real-Time Recognition"
-      ],
-      "application": [
-        "Education"
-      ],
-      "interest": [
-        "Computer Vision",
-        "Artificial Intelligence / Machine Learning",
-        "Embedded Systems"
-      ],
-      "rdia": [
-        "Economies of the Future"
-      ],
-      "scores": {
-        "final_score": 0.5904,
-        "semantic_sim": 0.7166,
-        "context_score": 0.5,
-        "rdia_score": 1.0,
-        "rrf_score": 0.027619
-      },
-      "explanation": "Good match with the group's background. Matches application domain(s): education. Aligns with the group's RDIA priority."
-    },
-    {
-      "rank": 7,
-      "project_id": "F06-42-20",
-      "title": "Developing A Web Application for Automatic Code Generation",
-      "supervisor_name": " Aram Saleh Al-Sedrani ",
-      "supervisor_id": "ASSe",
-      "academic_year": "1442",
-      "keywords": [
-        "Automatic Code Generation",
-        "ACG",
-        "software development",
-        "web application",
-        "Python",
-        "Java",
-        "XML parser",
-        "flowchart",
-        "algorithms",
-        "GUI"
-      ],
-      "application": [
-        "Education"
-      ],
-      "interest": [
-        "Artificial Intelligence / Machine Learning",
-        "Web Development",
-        "Software Engineering"
-      ],
-      "rdia": [
-        "Economies of the Future"
-      ],
-      "scores": {
-        "final_score": 0.5892,
-        "semantic_sim": 0.704,
-        "context_score": 0.5,
-        "rdia_score": 1.0,
-        "rrf_score": 0.024877
+        "rrf_score": 0.028612
       },
       "explanation": "Good match with the group's background. Matches application domain(s): education. Aligns with the group's RDIA priority."
     },
     {
       "rank": 8,
-      "project_id": "M08-45-20",
-      "title": "Nab’a Application",
-      "supervisor_name": "Mohammed Hussein Alkhatib",
-      "supervisor_id": "MHkh",
+      "project_id": "F08-45-20",
+      "title": "XIPHER: Visualization Tool for Security Algorithms",
+      "supervisor_name": " Tahani Fahad Albalawi",
+      "supervisor_id": "TFba",
       "academic_year": "1445",
       "keywords": [
-        "News",
-        "Verified News",
-        "Trusted Information",
-        "Misinformation",
-        "Blockchain"
+        "Security Algorithms",
+        "Algorithm Visualization",
+        "Security Education",
+        "Usability Evaluation",
+        "Human-Computer Interaction (HCI)",
+        "Educational Web Platform",
+        "Visualization Tools",
+        "User Experience (UX)"
       ],
       "application": [
-        "Entertainment & Media"
+        "Education"
       ],
       "interest": [
-        "Blockchain",
+        "Cybersecurity",
         "Web Development",
-        "Mobile Development"
+        "Human-Computer Interaction"
       ],
       "rdia": [
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.4747,
-        "semantic_sim": 0.6864,
-        "context_score": 0.0,
+        "final_score": 0.6245,
+        "semantic_sim": 0.718,
+        "context_score": 0.5,
         "rdia_score": 1.0,
-        "rrf_score": 0.024265
+        "rrf_score": 0.02758
       },
-      "explanation": "Good match with the group's background. Aligns with the group's RDIA priority."
+      "explanation": "Good match with the group's background. Matches application domain(s): education. Aligns with the group's RDIA priority."
     },
     {
       "rank": 9,
@@ -357,72 +368,72 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.5749,
-        "semantic_sim": 0.6832,
+        "final_score": 0.5884,
+        "semantic_sim": 0.7134,
         "context_score": 0.5,
         "rdia_score": 1.0,
-        "rrf_score": 0.023399
+        "rrf_score": 0.023533
       },
       "explanation": "Good match with the group's background. Matches application domain(s): education. Aligns with the group's RDIA priority."
     },
     {
       "rank": 10,
-      "project_id": "M09-45-10",
-      "title": "Qaimni: An Interactive, Web-Based System for Rating Faculty Members",
-      "supervisor_name": "Adel Ebrahim Al-Salem",
-      "supervisor_id": "AESa",
+      "project_id": "M08-45-20",
+      "title": "Nab’a Application",
+      "supervisor_name": "Mohammed Hussein Alkhatib",
+      "supervisor_id": "MHkh",
       "academic_year": "1445",
       "keywords": [
-        "Faculty Rating",
-        "Student Reviews",
-        "Anonymous Feedback",
-        "Web Application",
-        "College Platform"
+        "News",
+        "Verified News",
+        "Trusted Information",
+        "Misinformation",
+        "Blockchain"
       ],
       "application": [
-        "Education"
+        "Entertainment & Media"
       ],
       "interest": [
+        "Blockchain",
         "Web Development",
-        "Database Systems",
-        "Human-Computer Interaction"
+        "Mobile Development"
       ],
       "rdia": [
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.5993,
-        "semantic_sim": 0.6837,
-        "context_score": 0.5,
+        "final_score": 0.4766,
+        "semantic_sim": 0.6883,
+        "context_score": 0.0,
         "rdia_score": 1.0,
-        "rrf_score": 0.023676
+        "rrf_score": 0.023611
       },
-      "explanation": "Good match with the group's background. Matches application domain(s): education. Aligns with the group's RDIA priority."
+      "explanation": "Good match with the group's background. Aligns with the group's RDIA priority."
     }
   ],
   "recommended_interests": [
     {
       "name": "Artificial Intelligence / Machine Learning",
       "description": "Focuses on building systems that learn from data, make predictions, and perform intelligent tasks without explicit programming.",
-      "combined_score": 0.8635,
-      "semantic_score": 0.8051,
+      "combined_score": 0.8809,
+      "semantic_score": 0.8298,
       "frequency_in_top_projects": 1.0,
       "already_selected": false
     },
     {
       "name": "Natural Language Processing",
       "description": "Deals with enabling computers to understand, interpret, and generate human language in text or speech form.",
-      "combined_score": 0.743,
-      "semantic_score": 0.8165,
-      "frequency_in_top_projects": 0.5714285714285714,
+      "combined_score": 0.7118,
+      "semantic_score": 0.8263,
+      "frequency_in_top_projects": 0.4444444444444444,
       "already_selected": true
     },
     {
       "name": "Computer Vision",
       "description": "Enables machines to interpret and understand visual information from images and videos using AI techniques.",
-      "combined_score": 0.7117,
-      "semantic_score": 0.7718,
-      "frequency_in_top_projects": 0.5714285714285714,
+      "combined_score": 0.6898,
+      "semantic_score": 0.795,
+      "frequency_in_top_projects": 0.4444444444444444,
       "already_selected": true
     }
   ],
@@ -430,25 +441,25 @@
     {
       "name": "Education",
       "description": "Focuses on systems and applications for learning, teaching, and academic support.",
-      "combined_score": 0.8645,
-      "semantic_score": 0.8064,
+      "combined_score": 0.8814,
+      "semantic_score": 0.8306,
       "frequency_in_top_projects": 1.0,
       "already_selected": true
     },
     {
       "name": "Business & Productivity",
       "description": "Involves the application of computing to enhance business operations.",
-      "combined_score": 0.7224,
-      "semantic_score": 0.7463,
-      "frequency_in_top_projects": 0.6666666666666666,
+      "combined_score": 0.6893,
+      "semantic_score": 0.7705,
+      "frequency_in_top_projects": 0.5,
       "already_selected": false
     },
     {
-      "name": "Transportation & Mobility",
-      "description": "Pertains to technology related to the movement of people and goods.",
-      "combined_score": 0.6979,
-      "semantic_score": 0.7113,
-      "frequency_in_top_projects": 0.6666666666666666,
+      "name": "Social Good & Community",
+      "description": "Relates to technology that aims to benefit society.",
+      "combined_score": 0.5848,
+      "semantic_score": 0.7283,
+      "frequency_in_top_projects": 0.25,
       "already_selected": false
     }
   ],
@@ -456,106 +467,34 @@
     {
       "label": "Economies of the Future",
       "description": "Reimagine urban living and establish Saudi Arabia as a global leader in future-oriented sectors. ",
-      "combined_score": 0.8138,
-      "semantic_score": 0.734,
+      "combined_score": 0.8215,
+      "semantic_score": 0.745,
       "frequency_in_top_projects": 1.0,
       "already_selected": true
     },
     {
       "label": "Sustainable Environment and Supply of Essential Needs",
       "description": "Secure sustainable access to water, food, and energy resources for the population and industries.",
-      "combined_score": 0.4671,
-      "semantic_score": 0.6673,
+      "combined_score": 0.4719,
+      "semantic_score": 0.6742,
       "frequency_in_top_projects": 0,
       "already_selected": false
     },
     {
       "label": "Energy and Industrial Leadership",
       "description": "Maintain and strengthen Saudi Arabia's global leadership in the energy sector while diversifying into new areas.",
-      "combined_score": 0.4383,
-      "semantic_score": 0.6261,
+      "combined_score": 0.4443,
+      "semantic_score": 0.6347,
       "frequency_in_top_projects": 0,
       "already_selected": false
     },
     {
       "label": "Health and Wellness",
       "description": "Address prevalent health and therapeutic challenges in the Kingdom.",
-      "combined_score": 0.4084,
-      "semantic_score": 0.5834,
+      "combined_score": 0.4039,
+      "semantic_score": 0.577,
       "frequency_in_top_projects": 0,
       "already_selected": false
-    }
-  ],
-  "top_keywords": [
-    {
-      "keyword": "web application",
-      "count": 3,
-      "coverage": 0.3,
-      "semantic_score": 0.6834,
-      "combined_score": 0.8417
-    },
-    {
-      "keyword": "educational technology",
-      "count": 2,
-      "coverage": 0.2,
-      "semantic_score": 0.7595,
-      "combined_score": 0.7131
-    },
-    {
-      "keyword": "computer vision",
-      "count": 2,
-      "coverage": 0.2,
-      "semantic_score": 0.7467,
-      "combined_score": 0.7067
-    },
-    {
-      "keyword": "feature extraction",
-      "count": 2,
-      "coverage": 0.2,
-      "semantic_score": 0.6749,
-      "combined_score": 0.6708
-    },
-    {
-      "keyword": "natural language processing (nlp)",
-      "count": 1,
-      "coverage": 0.1,
-      "semantic_score": 0.7412,
-      "combined_score": 0.5373
-    },
-    {
-      "keyword": "machine learning",
-      "count": 1,
-      "coverage": 0.1,
-      "semantic_score": 0.7328,
-      "combined_score": 0.5331
-    },
-    {
-      "keyword": "information retrieval",
-      "count": 1,
-      "coverage": 0.1,
-      "semantic_score": 0.7299,
-      "combined_score": 0.5316
-    },
-    {
-      "keyword": "higher education",
-      "count": 1,
-      "coverage": 0.1,
-      "semantic_score": 0.7045,
-      "combined_score": 0.5189
-    },
-    {
-      "keyword": "mobile application",
-      "count": 1,
-      "coverage": 0.1,
-      "semantic_score": 0.7036,
-      "combined_score": 0.5185
-    },
-    {
-      "keyword": "course management",
-      "count": 1,
-      "coverage": 0.1,
-      "semantic_score": 0.6967,
-      "combined_score": 0.515
     }
   ]
 }
