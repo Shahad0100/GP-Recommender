@@ -233,7 +233,11 @@ class EmbeddingEngine:
         if not student_vecs:
             raise ValueError("Group has no valid students.")
       
+<<<<<<< HEAD
         group_vec = np.max(np.array(student_vecs), axis=0)
+=======
+        group_vec = np.mean(np.array(student_vecs), axis=0)
+>>>>>>> origin/main
         group_vec = normalize(group_vec)
       
         group_meta = {
