@@ -1,9 +1,9 @@
 # EvaluationMatrices.py - Simple Guide
 
-## 📋 What This File Does
+## What This File Does
 This file checks if your recommendation system is working well by comparing what it suggests vs what it should suggest.
 
-## 🔍 The Measurements (Metrics)
+## The Measurements (Metrics)
 
 ### For Projects (K=3,5,7,10)
 | Metric | What it means | Why we use it |
@@ -28,7 +28,7 @@ Same idea but for interests and app categories
 - How many different projects did we suggest overall?
 - Uses all 43 available projects as the total pool
 
-## 🔄 How We Compare
+##  How We Compare
 
 1. **First time you run it**: Saves results as baseline
 2. **Next times**: Shows what changed since last run
@@ -37,12 +37,12 @@ Same idea but for interests and app categories
    - Lower number = Worse
    - Same number = No change
 
-## 📁 Files Created
+##  Files Created
 
 - `evaluation_history.json`: Last 20 runs (to see progress)
 - `evaluation_baseline.json`: Most recent run (current status)
 
-## 🚀 How to Run It
+##  How to Run It
 
 1. **Make sure these exist**:
    - Ground truth file (correct answers)
@@ -59,7 +59,7 @@ Same idea but for interests and app categories
    - Check if better or worse than last time
    - Find weak spots to improve
 
-## 🎯 Why These Measurements?
+## Why These Measurements?
 
 Each one tells us something different:
 - **Precision/Recall**: Basic - did we get it right?

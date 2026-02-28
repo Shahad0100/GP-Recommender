@@ -6,18 +6,31 @@ from datetime import datetime
 import glob
 
 # ─────────────────────────────────────────────
-# PATHS
+# PATHS - MODIFIED TO WORK ON ANY DEVICE
 # ─────────────────────────────────────────────
 
-SILVER_GT_PATH = r"C:\Users\dhekr\Desktop\GP-Recommender\Silver Ground Truth\Experimental Groups with Recommendations.json"
-MODEL_RESULTS_PATH = r"C:\Users\dhekr\Desktop\GP-Recommender\test_results\all_results.json"
-PROJECTS_FOLDER_PATH = r"C:\Users\dhekr\Desktop\GP-Recommender\data\projects"  # مجلد المشاريع
-BASELINE_PATH = r"C:\Users\dhekr\Desktop\GP-Recommender\Evaluation\evaluation_baseline.json"
-HISTORY_PATH = r"C:\Users\dhekr\Desktop\GP-Recommender\Evaluation\evaluation_history.json"
+# Get the directory where this script is located
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+# Go up one level to reach the project root (since script is in Evaluation folder)
+PROJECT_ROOT = os.path.dirname(SCRIPT_DIR)
 
-# قيم K المختلفة للتقييم
-K_VALUES_PROJECTS = [3, 5, 7, 10]  # للمشاريع
-K_VALUES_INTEREST_APP = [1, 3]      # للاهتمامات والتطبيقات
+# Define paths relative to project root
+SILVER_GT_PATH = os.path.join(PROJECT_ROOT, "Silver Ground Truth", "Experimental Groups with Recommendations.json")
+MODEL_RESULTS_PATH = os.path.join(PROJECT_ROOT, "test_results", "all_results.json")
+PROJECTS_FOLDER_PATH = os.path.join(PROJECT_ROOT, "data", "projects")  # Projects folder
+BASELINE_PATH = os.path.join(PROJECT_ROOT, "Evaluation", "evaluation_baseline.json")
+HISTORY_PATH = os.path.join(PROJECT_ROOT, "Evaluation", "evaluation_history.json")
+
+# Print paths for debugging (optional - can remove after confirming it works)
+print(f"Script location: {SCRIPT_DIR}")
+print(f"Project root: {PROJECT_ROOT}")
+print(f"Silver GT path: {SILVER_GT_PATH}")
+print(f"Model results path: {MODEL_RESULTS_PATH}")
+print(f"Projects folder: {PROJECTS_FOLDER_PATH}")
+
+# Different K values for evaluation
+K_VALUES_PROJECTS = [3, 5, 7, 10]  # For projects
+K_VALUES_INTEREST_APP = [1, 3]      # For interests and applications
 
 ALPHA = 0.5   # for α-NDCG
 
@@ -133,18 +146,18 @@ def intra_list_diversity(projects, k):
     return 1 - np.mean(similarities) if similarities else 0
 
 # ─────────────────────────────────────────────
-# Catalog Coverage - المعدل حسب الـ 43 ملف
+# Catalog Coverage - based on 43 files
 # ─────────────────────────────────────────────
 
 def get_all_projects_from_folder():
     """
-    قراءة جميع أسماء ملفات المشاريع من المجلد
+    Read all project file names from the folder
     """
     project_files = glob.glob(os.path.join(PROJECTS_FOLDER_PATH, "*.json"))
     project_ids = []
     
     for file_path in project_files:
-        # استخراج اسم الملف بدون امتداد .json
+        # Extract filename without .json extension
         file_name = os.path.basename(file_path)
         project_id = file_name.replace('.json', '')
         project_ids.append(project_id)
@@ -155,7 +168,7 @@ def get_all_projects_from_folder():
 def catalog_coverage(recommended_projects, all_projects_set):
     """
     Percentage of unique projects recommended across all groups
-    مقارنة مع جميع المشاريع الموجودة في مجلد data/projects
+    Compare with all projects in data/projects folder
     """
     unique_recommended = set()
     
@@ -163,7 +176,7 @@ def catalog_coverage(recommended_projects, all_projects_set):
         for rec in group_recs[:K_VALUES_PROJECTS[-1]]:  # Use max K
             unique_recommended.add(rec["project_id"])
     
-    # حساب التقاطع بين المشاريع الموصى بها وجميع المشاريع الموجودة
+    # Calculate intersection between recommended projects and all existing projects
     intersection = unique_recommended & all_projects_set
     coverage = len(intersection) / len(all_projects_set) if all_projects_set else 0
     
@@ -195,11 +208,11 @@ def evaluate():
     print(f"Loaded {len(silver)} groups from silver GT")
     print(f"Loaded {len(results)} groups from model results")
     
-    # الحصول على جميع المشاريع من مجلد data/projects
+    # Get all projects from data/projects folder
     all_projects_set = get_all_projects_from_folder()
     print(f"Total projects in folder: {len(all_projects_set)}")
     
-    # تخزين المقاييس لكل قيمة K
+    # Store metrics for each K value
     project_metrics_by_k = {k: defaultdict(list) for k in K_VALUES_PROJECTS}
     interest_metrics_by_k = {k: defaultdict(list) for k in K_VALUES_INTEREST_APP}
     application_metrics_by_k = {k: defaultdict(list) for k in K_VALUES_INTEREST_APP}
@@ -310,7 +323,7 @@ def evaluate():
     for k in K_VALUES_INTEREST_APP:
         avg_application_by_k[k]["mrr"] = mrr_application
     
-    # Catalog coverage - باستخدام الـ 43 ملف
+    # Catalog coverage - using the 43 files
     coverage, unique_recommended, intersection = catalog_coverage(all_recommendations, all_projects_set)
     
     # RDIA metrics
@@ -332,7 +345,7 @@ def evaluate():
         "total_projects_in_folder": len(all_projects_set)
     }
     
-    # عرض النتائج
+    # Display results
     display_results_with_history(current_results)
 
 # ─────────────────────────────────────────────
@@ -340,7 +353,7 @@ def evaluate():
 # ─────────────────────────────────────────────
 
 def display_results_with_history(current_results):
-    """عرض النتائج مع السجل التاريخي"""
+    """Display results with historical comparison"""
     
     history = load_history()
     run_number = len(history) + 1
@@ -349,17 +362,17 @@ def display_results_with_history(current_results):
     print(f"🏃‍♂️ RUN #{run_number} - {current_results['timestamp']}")
     print("="*70)
     
-    # عرض المقارنة مع التشغلة السابقة
+    # Display comparison with previous run
     if history:
         previous_run = history[-1]
         print("\n📊 COMPARED TO PREVIOUS RUN (Run #{})".format(len(history)))
         print("-" * 70)
         
-        # مقارنة لمختلف قيم K للمشاريع
+        # Compare for different K values for projects
         improvements = 0
         regressions = 0
         
-        # مقارنة المشاريع
+        # Compare projects
         for k in K_VALUES_PROJECTS:
             k_str = str(k)
             print(f"\n  📁 Projects K={k}:")
@@ -383,7 +396,7 @@ def display_results_with_history(current_results):
                     
                     print(f"    {metric:<10}: {status} {diff:+.4f} ({current_val:.4f} vs {prev_val:.4f})")
         
-        # مقارنة الاهتمامات
+        # Compare interests
         print(f"\n  🎯 Interest Metrics:")
         for k in K_VALUES_INTEREST_APP:
             k_str = str(k)
@@ -407,7 +420,7 @@ def display_results_with_history(current_results):
                     
                     print(f"    {metric}@{k:<2}: {status} {diff:+.4f} ({current_val:.4f} vs {prev_val:.4f})")
         
-        # مقارنة التطبيقات
+        # Compare applications
         print(f"\n  📱 Application Metrics:")
         for k in K_VALUES_INTEREST_APP:
             k_str = str(k)
@@ -431,7 +444,7 @@ def display_results_with_history(current_results):
                     
                     print(f"    {metric}@{k:<2}: {status} {diff:+.4f} ({current_val:.4f} vs {prev_val:.4f})")
         
-        # مقارنة RDIA
+        # Compare RDIA
         print(f"\n  🏷️ RDIA Metrics:")
         for metric in ["accuracy", "f1", "mrr"]:
             if metric in current_results["rdia_metrics"] and metric in previous_run["rdia_metrics"]:
@@ -450,7 +463,7 @@ def display_results_with_history(current_results):
                 
                 print(f"    {metric:<10}: {status} {diff:+.4f} ({current_val:.4f} vs {prev_val:.4f})")
         
-        # مقارنة التغطية
+        # Compare coverage
         if "catalog_coverage" in previous_run:
             current_cov = current_results["catalog_coverage"]
             prev_cov = previous_run["catalog_coverage"]
@@ -469,7 +482,7 @@ def display_results_with_history(current_results):
         
         print(f"\n  ✅ Improvements: {improvements}  |  🔴 Regressions: {regressions}")
     
-    # عرض النتائج الحالية
+    # Display current results
     print("\n" + "="*70)
     print("📈 CURRENT RESULTS")
     print("="*70)
@@ -498,15 +511,13 @@ def display_results_with_history(current_results):
                 row += " | -".ljust(12)
         print(row)
     
-    # Catalog coverage - مع معلومات تفصيلية
+    # Catalog coverage - with detailed information
     print(f"\n📚 CATALOG COVERAGE (based on 43 projects):")
     print("-" * 50)
     print(f"coverage                 : {current_results['catalog_coverage']:.4f}")
     print(f"unique recommended       : {current_results['unique_recommended']}")
     print(f"intersected with 43 files: {current_results['intersection_with_projects']}")
     print(f"total projects in folder : {current_results['total_projects_in_folder']}")
-    
-    
     
     # Interest metrics for each K
     print("\n🎯 INTEREST METRICS:")
@@ -562,7 +573,7 @@ def display_results_with_history(current_results):
     for metric, value in current_results["rdia_metrics"].items():
         print(f"{metric:<15}: {value:.4f}")
     
-    # حفظ النتائج
+    # Save results
     save_to_history(current_results, history)
     update_baseline(current_results)
 
@@ -586,7 +597,7 @@ def save_to_history(current_results, history):
     if len(history) > 20:
         history = history[-20:]
     
-    # تأكد من وجود المجلد
+    # Ensure directory exists
     os.makedirs(os.path.dirname(HISTORY_PATH), exist_ok=True)
     
     with open(HISTORY_PATH, "w", encoding="utf-8") as f:
@@ -595,7 +606,7 @@ def save_to_history(current_results, history):
     print(f"\n💾 Results saved to history (Run #{len(history)})")
 
 def update_baseline(current_results):
-    """تحديث ملف baseline بآخر نتيجة"""
+    """Update baseline file with latest results"""
     baseline_data = {
         "last_run": current_results["timestamp"],
         "run_number": len(load_history()),
@@ -609,7 +620,7 @@ def update_baseline(current_results):
         "total_projects_in_folder": current_results["total_projects_in_folder"]
     }
     
-    # تأكد من وجود المجلد
+    # Ensure directory exists
     os.makedirs(os.path.dirname(BASELINE_PATH), exist_ok=True)
     
     with open(BASELINE_PATH, "w", encoding="utf-8") as f:
