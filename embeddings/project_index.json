@@ -1085,8 +1085,7 @@
       "Time Efficiency",
       "Content Accessibility",
       "Multilingual Support",
-      "Cloud Storage",
-      "EJAZ Website"
+      "Cloud Storage"
     ],
     "abstract": "In our fast-paced, time-constrained lives flooded with audio files and text, there is a pressing need for an innovative solution. This project proposes to develop a website called “EJAZ” designed to automatically summarize spoken content. Using speech recognition technology, the app transcribes audio files and then uses natural language processing to extract basic information. The importance of this application extends beyond just saving time, as it not only eliminates manual copying of various sources, but also enhances the overall quality of information extraction. Furthermore, the application opens up avenues to build a repository of extensive, searchable content, providing valuable resources for future reference in our information-rich environment",
     "application": [
@@ -1371,7 +1370,6 @@
       "Computer Vision",
       "Crowd Counting",
       "HAJJ Crowd Dataset",
-      "Maseer System",
       "Umrah Management"
     ],
     "abstract": "Hajj, the fifth pillar of Islam, is one of the most massive gathering events in the world. Every year around 3 million Muslims across the globe visit Makkah to perform Hajj. This project aims to develop a smart system for crowd management during the Hajj pilgrimage, focusing on monitoring the density of pilgrim movement and making informed decisions regarding gate status. The system utilizes Fully Convolutional Neural Network (FCNN) model to provide real-time information to administrators and pilgrims. The objectives of the project include exploring the latest research in crowd management, assessing image processing and object detection techniques, organize the necessary dataset and information, designing a monitoring system for pilgrim density and gate operations, creating a practical navigation map for pilgrims, and testing the implemented system. The methodology involves conducting a comprehensive literature review, comparing different methodologies, and testing the system using the collected dataset. The system caters to administrators by enabling effective control of entry and exit points, analyzing crowd density and movement patterns, and implementing crowd control measures. For pilgrims, the system provides notifications about gate closures. The proposed smart system aims to enhance safety, efficiency, and the overall experience of pilgrims during the Hajj pilgrimage. Notably, we trained the model on three different datasets. The model used in the system demonstrated exceptional performance, achieving 100% accuracy, precision, and F1 score for both training and testing on the Version2 dataset. These outstanding results, obtained after training the model on multiple datasets, reinforce the reliability and effectiveness of the implemented system, setting a strong foundation for its successful integration into crowd management during the Hajj pilgrimage.",
@@ -1553,8 +1551,7 @@
       "Static Analysis",
       "DLL Analysis",
       "Robustness Evaluation",
-      "Threat Detection",
-      "Adversarial Examples"
+      "Threat Detection"
     ],
     "abstract": "The field of cybersecurity has been a constant battleground between malicious actors and defenders, with the perpetual evolution of malware representing a particularly pressing challenge. As Windows continues to be one of the most targeted operating systems, detecting and mitigating Windows malware remains a critical focus in this arena. In response to the ever-changing landscape of threats, innovative solutions are continuously sought to enhance the precision and adaptability of malware detection systems. This paper presents an approach to Windows malware detection by harnessing the capabilities of Machine Learning and Adversarial Attacks. It extends its reach to encompass various features of Windows malware, including the analysis of static files and elements such as imported DLLs. Furthermore, the study delves into the critical issue of identifying and addressing vulnerabilities stemming from adversarial attacks within this sophisticated malware detection framework, offering a comprehensive solution to enhance the security of Windows systems.",
     "application": [
@@ -1638,8 +1635,7 @@
       "React",
       "Node.js",
       "Cloud Computing",
-      "Retail Technology",
-      "Musanif"
+      "Retail Technology"
     ],
     "abstract": "Musanif is an innovative API that leverages the power of AI and machine learning to revolutionize the way store owners add products to their apps and websites. W ith Musanif, store owners can easily upload product images and extract a plethora of information, including labels, categories, and other relevant data, all in an automated and ef ficient way . The Musanif API employs innovative image recognition algorithms to identify and categorize products accurately . By automating this process, it minimizes the need for manual data entry . store owners can significantly reduce the time and ef fort required to add new products to their apps and websites, allowing them to focus on other aspects of their business. Overall, Musanif aims to improve how store owners manage their products and streamline their operations. W ith its powerful AI and machine learning capabilities, Musanif is a game-changer for the e-commerce industry , of fering ef ficiency , accuracy , and convenience. Store_owner: With the growing demand for online shopping and the surge of products with their different types and information, store owners must keep track of their inventory and manually review and add products to their websites. They must also ensure that the product information is valid and helpful to customers. This process is difficult, time-consuming, and may lead to mislabeling or inaccurate product information.",
     "application": [

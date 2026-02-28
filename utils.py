@@ -31,14 +31,38 @@ def grade_to_weight(grade: str) -> float:
     return GRADE_WEIGHTS.get(grade, 0.50)
 
 
+
+# ─────────────────────────────────────────────────────────────────────────────
+# LOADE PLOs from courses.json
+# ─────────────────────────────────────────────────────────────────────────────
+
+def load_plos_from_courses(courses_path: str) -> Dict[str, str]:
+    """Extract the list of PLOs and return it as a dictionary {plo_id: description}"""
+
+    with open(courses_path, "r", encoding="utf-8") as f:
+        data = json.load(f)
+    
+    plos_map = {}
+    plo_categories = data.get("program_learning_outcomes", {})
+    for category in ["knowledge", "skills", "values"]:
+        for plo in plo_categories.get(category, []):
+            plo_id = plo.get("plo_id")
+            plo_desc = plo.get("plo_description")
+            if plo_id and plo_desc:
+                plos_map[plo_id] = plo_desc
+    return plos_map
+
 # ─────────────────────────────────────────────────────────────────────────────
 # DATA LOADERS
 # ─────────────────────────────────────────────────────────────────────────────
+
 
 def load_courses(path: str) -> Dict[str, dict]:
     """Load courses.json → {course_code: course_dict}"""
     with open(path, "r", encoding="utf-8") as f:
         data = json.load(f)
+    # Convert list → dict for constant-time lookup
+    # Access by course_code becomes O(1) instead of O(n) list search
     return {c["course_code"]: c for c in data["courses"]}
 
 
@@ -99,11 +123,11 @@ def load_all_projects(projects_dir: str) -> List[dict]:
 # Phase II encodes each segment separately then averages (Late Fusion).
 # ─────────────────────────────────────────────────────────────────────────────
 
-def get_course_texts(course: dict) -> List[str]:
+def get_course_texts(course: dict, plos_map: Dict[str, str] = None) -> List[str]:
     """
     Extract meaningful text segments from a course.
-    Returns: [title+description, clo1, clo2, ...]
-    Excludes: course_code, credit_hours, clo_number, mapped_plos
+    Returns: [title+description, clo1 with Associated plos, clo2 with Associated plos, ...]
+    Excludes: course_code, credit_hours, clo_number,prequisites
     """
     segments = []
 
@@ -113,16 +137,32 @@ def get_course_texts(course: dict) -> List[str]:
     if title or desc:
         segments.append(f"{title}. {desc}".strip())
 
-    # Each CLO statement as its own segment
+    # Each CLO statement with its associated PLO as its own segment
     clos = course.get("course_learning_outcomes", {})
     for category in ["knowledge", "skills", "values"]:
         for clo in clos.get(category, []):
             stmt = clo.get("clo_statement", "").strip()
-            if stmt:
-                segments.append(stmt)
+            if not stmt:
+                continue
+
+            # CLO basic text
+            clo_text = stmt
+
+            # Append associated PLO description if available
+            if plos_map:
+                mapped_plos = clo.get("mapped_plos", [])
+                plo_descriptions = []
+                for plo_id in mapped_plos:
+                    if plo_id in plos_map:
+                        plo_descriptions.append(plos_map[plo_id])
+                if plo_descriptions:
+                    # combine PLO descriptions into one sentence and add them to the CLO text
+                    plo_text = " [Associated Program Outcomes: " + " | ".join(plo_descriptions) + "]"
+                    clo_text += plo_text
+
+            segments.append(clo_text)
 
     return segments
-
 
 def get_project_segments(project: dict, acm_map: Dict[str, str]) -> List[str]:
     """
@@ -133,13 +173,12 @@ def get_project_segments(project: dict, acm_map: Dict[str, str]) -> List[str]:
       1. title
       2. abstract
       3. keywords joined
-      4. problem statement
-      5. aim
-      6. objectives joined
-      7. results
-      8. future work
-      9. domain labels (application + interest + rdia joined)
-     10. ACM descriptions (codes resolved to text)
+      4. problem statement + aim
+      5. objectives joined
+      6. results
+      7. future work
+      8. domain labels (application + interest + rdia joined)
+     9. ACM descriptions (codes resolved to text)
 
     Excludes: id, supervisor_name, supervisor_id, academic_year, semester, acm codes directly
     """
@@ -162,12 +201,11 @@ def get_project_segments(project: dict, acm_map: Dict[str, str]) -> List[str]:
     keywords = project.get("keywords", [])
     if keywords:
         segments.append(" ".join(keywords))
-
-    if intro.get("problem"):
-        segments.append(intro["problem"])
-
-    if intro.get("aim"):
-        segments.append(intro["aim"])
+   
+    # problem and aim joined as one segment
+    problem_aim = " ".join(filter(None, [intro.get("problem"), intro.get("aim")]))
+    if problem_aim:
+        segments.append(problem_aim)
 
     objectives = intro.get("objectives", [])
     if objectives:
@@ -191,7 +229,6 @@ def get_project_segments(project: dict, acm_map: Dict[str, str]) -> List[str]:
     # ACM descriptions as one segment
     if acm_texts:
         segments.append(" ".join(acm_texts))
-
     return [s.strip() for s in segments if s.strip()]
 
 
@@ -232,6 +269,7 @@ def encode_late_fusion_engine(model, segments: list) -> np.ndarray:
     """
     Late Fusion encoding for use inside EmbeddingEngine at query time.
     Encodes each text segment separately, then averages the vectors.
+    Prevents long-text dilution and improves retrieval accuracy
     """
     if not segments:
         raise ValueError("No segments provided.")

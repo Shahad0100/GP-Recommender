@@ -1,0 +1,582 @@
+{
+  "group_id": "G004",
+  "group_profile": {
+    "selected_interests": [
+      "Cloud Computing",
+      "DevOps",
+      "Human-Computer Interaction",
+      "Mobile Development",
+      "Database Systems"
+    ],
+    "selected_applications": [
+      "Entertainment & Media",
+      "Business & Productivity",
+      "Healthcare / Medical",
+      "Government & Public Sector"
+    ],
+    "selected_rdia": [
+      "Economies of the Future",
+      "Health & Wellness"
+    ]
+  },
+  "recommended_projects": [
+    {
+      "rank": 1,
+      "project_id": "F06-42-20",
+      "title": "Developing A Web Application for Automatic Code Generation",
+      "supervisor_name": " Aram Saleh Al-Sedrani ",
+      "supervisor_id": "ASSe",
+      "academic_year": "1442",
+      "keywords": [
+        "Automatic Code Generation",
+        "ACG",
+        "software development",
+        "web application",
+        "Python",
+        "Java",
+        "XML parser",
+        "flowchart",
+        "algorithms",
+        "GUI"
+      ],
+      "application": [
+        "Education"
+      ],
+      "interest": [
+        "Artificial Intelligence / Machine Learning",
+        "Web Development",
+        "Software Engineering"
+      ],
+      "rdia": [
+        "Economies of the Future"
+      ],
+      "scores": {
+        "final_score": 0.4071,
+        "semantic_sim": 0.7309,
+        "context_score": 0.0,
+        "rdia_score": 0.5,
+        "rrf_score": 0.016393
+      },
+      "explanation": "Good match with the group's background. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 2,
+      "project_id": "F05-42-10",
+      "title": "Decentralized Social Application: Moments",
+      "supervisor_name": " Tahani Fahad Albalawi",
+      "supervisor_id": "TFba",
+      "academic_year": "1442",
+      "keywords": [
+        "Social applications",
+        "Centralized system",
+        "Blockchain technology",
+        "Security",
+        "Privacy",
+        "Decentralized systems"
+      ],
+      "application": [
+        "Social Good & Community"
+      ],
+      "interest": [
+        "Blockchain",
+        "Web Development",
+        "Cybersecurity"
+      ],
+      "rdia": [
+        "Economies of the Future"
+      ],
+      "scores": {
+        "final_score": 0.4059,
+        "semantic_sim": 0.7136,
+        "context_score": 0.0,
+        "rdia_score": 0.5,
+        "rrf_score": 0.02753
+      },
+      "explanation": "Good match with the group's background. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 3,
+      "project_id": "F06-45-10",
+      "title": "Get It: A Deep Learning Approach for Identifying and Discriminating Spoken Arabic Among English",
+      "supervisor_name": "Wojdan Mohammed BinSaeedan",
+      "supervisor_id": "WMnS",
+      "academic_year": "1445",
+      "keywords": [
+        "Language Identification",
+        "Spoken Language Recognition",
+        "Deep Learning",
+        "Arabic Speech Recognition",
+        "English Speech Recognition",
+        "Multilingual Systems",
+        "Customer Service Automation",
+        "ECAPA-TDNN",
+        "SpeechBrain",
+        "Convolutional Neural Network (CNN)",
+        "Recurrent Neural Network (RNN)",
+        "Capsule Network (CapsNet)",
+        "Natural Language Processing (NLP)",
+        "Voice Analysis",
+        "Mozilla Common Voice Dataset",
+        "Real-time Speech Processing",
+        "Call Center Automation",
+        "Audio Processing"
+      ],
+      "application": [
+        "Business & Productivity"
+      ],
+      "interest": [
+        "Artificial Intelligence / Machine Learning",
+        "Natural Language Processing"
+      ],
+      "rdia": [
+        "Economies of the Future"
+      ],
+      "scores": {
+        "final_score": 0.4735,
+        "semantic_sim": 0.7196,
+        "context_score": 0.25,
+        "rdia_score": 0.5,
+        "rrf_score": 0.027921
+      },
+      "explanation": "Good match with the group's background. Matches application domain(s): business & productivity. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 4,
+      "project_id": "F13-42-10",
+      "title": "Dolphin Application ",
+      "supervisor_name": " Eman AbdulHamid Alzaid ",
+      "supervisor_id": "EAza",
+      "academic_year": "42",
+      "keywords": [
+        "Mobile Application",
+        "Video Management",
+        "Video Retrieval",
+        "Machine Learning",
+        "Video Indexing",
+        "Smartphone Videos"
+      ],
+      "application": [
+        "Entertainment & Media"
+      ],
+      "interest": [
+        "Artificial Intelligence / Machine Learning",
+        "Mobile Development",
+        "Computer Vision"
+      ],
+      "rdia": [
+        "Economies of the Future"
+      ],
+      "scores": {
+        "final_score": 0.4976,
+        "semantic_sim": 0.7201,
+        "context_score": 0.25,
+        "rdia_score": 0.5,
+        "rrf_score": 0.032258
+      },
+      "explanation": "Good match with the group's background. Matches application domain(s): entertainment & media. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 5,
+      "project_id": "F14-42-20",
+      "title": "Book Recommendation System based on Collaboration Filtering (RICO)",
+      "supervisor_name": " Wojdan Mohammed BinSaeedan",
+      "supervisor_id": "WMnS",
+      "academic_year": "42",
+      "keywords": [
+        "Recommendation System",
+        "Collaborative Filtering",
+        "User Preferences",
+        "KNN Algorithm",
+        "Django Framework",
+        "Information Filtering",
+        "Content Personalization",
+        "Data Overload Management"
+      ],
+      "application": [
+        "Entertainment & Media"
+      ],
+      "interest": [
+        "Web Development",
+        "Artificial Intelligence / Machine Learning",
+        "Database Systems"
+      ],
+      "rdia": [
+        "Economies of the Future"
+      ],
+      "scores": {
+        "final_score": 0.4576,
+        "semantic_sim": 0.7069,
+        "context_score": 0.25,
+        "rdia_score": 0.5,
+        "rrf_score": 0.030118
+      },
+      "explanation": "Good match with the group's background. Matches application domain(s): entertainment & media. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 6,
+      "project_id": "F01-43-10",
+      "title": "Treatment of stuttering problems in children Application - TSA",
+      "supervisor_name": "Amal Suleiman Alsaif",
+      "supervisor_id": "ASsa",
+      "academic_year": "1443",
+      "keywords": [
+        "Treatment",
+        "Speech",
+        "Recognition",
+        "Stuttering",
+        "Application",
+        "Therapist",
+        "Analyze",
+        "Error findings",
+        "Speech problems",
+        "Children"
+      ],
+      "application": [
+        "Healthcare / Medical"
+      ],
+      "interest": [
+        "Artificial Intelligence / Machine Learning",
+        "Natural Language Processing",
+        "Mobile Development"
+      ],
+      "rdia": [
+        "Health & Wellness"
+      ],
+      "scores": {
+        "final_score": 0.4453,
+        "semantic_sim": 0.699,
+        "context_score": 0.25,
+        "rdia_score": 0.5,
+        "rrf_score": 0.028382
+      },
+      "explanation": "Good match with the group's background. Matches application domain(s): healthcare / medical. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 7,
+      "project_id": "F29-45-20",
+      "title": "Hudhud: AI-based Remote Rehabilitation",
+      "supervisor_name": " Manan Mohammed Almusallam ",
+      "supervisor_id": "MMmu",
+      "academic_year": "1445",
+      "keywords": [
+        "Remote Rehabilitation",
+        "Artificial Intelligence",
+        "Pose Estimation",
+        "Computer Vision",
+        "Mediapipe",
+        "Physical Therapy",
+        "Healthcare Technology",
+        "Exercise Monitoring",
+        "Real-time Feedback",
+        "Patient Progress Tracking",
+        "Telerehabilitation",
+        "Knee Rehabilitation",
+        "Motion Detection",
+        "Body Posture Analysis",
+        "Injury Prevention",
+        "Therapeutic Exercises"
+      ],
+      "application": [
+        "Healthcare / Medical"
+      ],
+      "interest": [
+        "Artificial Intelligence / Machine Learning",
+        "Computer Vision",
+        "Human-Computer Interaction"
+      ],
+      "rdia": [
+        "Health & Wellness"
+      ],
+      "scores": {
+        "final_score": 0.4488,
+        "semantic_sim": 0.6826,
+        "context_score": 0.25,
+        "rdia_score": 0.5,
+        "rrf_score": 0.027526
+      },
+      "explanation": "Good match with the group's background. Matches application domain(s): healthcare / medical. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 8,
+      "project_id": "F05-45-20",
+      "title": "Walyattawafou: Crowd Counting in Hajj and Umrah",
+      "supervisor_name": " Haifa Hamad Alkasem ",
+      "supervisor_id": "HHka",
+      "academic_year": "1445",
+      "keywords": [
+        "Crowd Counting",
+        "Deep Learning",
+        "Hajj Management",
+        "Umrah Management",
+        "Crowd Monitoring",
+        "Holy Sites",
+        "Makkah",
+        "Pilgrim Safety",
+        "Image Processing",
+        "Computer Vision",
+        "Crowd Density Estimation",
+        "Real-time Monitoring",
+        "Ministry of Hajj and Umrah",
+        "GPU Processing",
+        "Attention Models",
+        "Crowd Flow Optimization"
+      ],
+      "application": [
+        "Government & Public Sector"
+      ],
+      "interest": [
+        "Artificial Intelligence / Machine Learning",
+        "Computer Vision"
+      ],
+      "rdia": [
+        "Economies of the Future"
+      ],
+      "scores": {
+        "final_score": 0.443,
+        "semantic_sim": 0.6716,
+        "context_score": 0.25,
+        "rdia_score": 0.5,
+        "rrf_score": 0.026974
+      },
+      "explanation": "Good match with the group's background. Matches application domain(s): government & public sector. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 9,
+      "project_id": "M05-45-20",
+      "title": "Musanif (مصنف): A Categorization and Product Information API for E-Commerce Product Images)",
+      "supervisor_name": "Sultan Shuraidah Al-dera",
+      "supervisor_id": "SSde",
+      "academic_year": "1445",
+      "keywords": [
+        "E-commerce",
+        "Image Recognition",
+        "Product Categorization",
+        "API Development",
+        "Machine Learning",
+        "AWS Rekognition",
+        "Web Scraping",
+        "Product Information Extraction",
+        "Automated Data Entry",
+        "Inventory Management",
+        "REST API",
+        "Image Classification",
+        "Product Labeling",
+        "React",
+        "Node.js",
+        "Cloud Computing",
+        "Retail Technology"
+      ],
+      "application": [
+        "Business & Productivity"
+      ],
+      "interest": [
+        "Computer Vision",
+        "Artificial Intelligence / Machine Learning",
+        "Web Development"
+      ],
+      "rdia": [
+        "Economies of the Future"
+      ],
+      "scores": {
+        "final_score": 0.4431,
+        "semantic_sim": 0.6778,
+        "context_score": 0.25,
+        "rdia_score": 0.5,
+        "rrf_score": 0.028219
+      },
+      "explanation": "Good match with the group's background. Matches application domain(s): business & productivity. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 10,
+      "project_id": "M08-45-20",
+      "title": "Nab’a Application",
+      "supervisor_name": "Mohammed Hussein Alkhatib",
+      "supervisor_id": "MHkh",
+      "academic_year": "1445",
+      "keywords": [
+        "News",
+        "Verified News",
+        "Trusted Information",
+        "Misinformation",
+        "Blockchain"
+      ],
+      "application": [
+        "Entertainment & Media"
+      ],
+      "interest": [
+        "Blockchain",
+        "Web Development",
+        "Mobile Development"
+      ],
+      "rdia": [
+        "Economies of the Future"
+      ],
+      "scores": {
+        "final_score": 0.4584,
+        "semantic_sim": 0.7084,
+        "context_score": 0.25,
+        "rdia_score": 0.5,
+        "rrf_score": 0.031099
+      },
+      "explanation": "Good match with the group's background. Matches application domain(s): entertainment & media. Aligns with the group's RDIA priority."
+    }
+  ],
+  "recommended_interests": [
+    {
+      "name": "Artificial Intelligence / Machine Learning",
+      "description": "Focuses on building systems that learn from data, make predictions, and perform intelligent tasks without explicit programming.",
+      "combined_score": 0.8519,
+      "semantic_score": 0.7884,
+      "frequency_in_top_projects": 1.0,
+      "already_selected": false
+    },
+    {
+      "name": "Web Development",
+      "description": "Covers the design and implementation of websites and web applications, including frontend, backend, and full‑stack development.",
+      "combined_score": 0.8416,
+      "semantic_score": 0.7737,
+      "frequency_in_top_projects": 1.0,
+      "already_selected": false
+    },
+    {
+      "name": "Mobile Development",
+      "description": "Involves creating applications for mobile platforms such as iOS and Android, focusing on performance, UI, and device integration.",
+      "combined_score": 0.788,
+      "semantic_score": 0.7828,
+      "frequency_in_top_projects": 0.8,
+      "already_selected": true
+    }
+  ],
+  "recommended_applications": [
+    {
+      "name": "Education",
+      "description": "Focuses on systems and applications for learning, teaching, and academic support.",
+      "combined_score": 0.8344,
+      "semantic_score": 0.7634,
+      "frequency_in_top_projects": 1.0,
+      "already_selected": false
+    },
+    {
+      "name": "Entertainment & Media",
+      "description": "Covers applications for leisure and content creation.",
+      "combined_score": 0.8111,
+      "semantic_score": 0.7302,
+      "frequency_in_top_projects": 1.0,
+      "already_selected": true
+    },
+    {
+      "name": "Transportation & Mobility",
+      "description": "Pertains to technology related to the movement of people and goods.",
+      "combined_score": 0.6997,
+      "semantic_score": 0.7138,
+      "frequency_in_top_projects": 0.6666666666666666,
+      "already_selected": false
+    }
+  ],
+  "recommended_rdia": [
+    {
+      "label": "Economies of the Future",
+      "description": "Reimagine urban living and establish Saudi Arabia as a global leader in future-oriented sectors. ",
+      "combined_score": 0.771,
+      "semantic_score": 0.6728,
+      "frequency_in_top_projects": 1.0,
+      "already_selected": true
+    },
+    {
+      "label": "Sustainable Environment and Supply of Essential Needs",
+      "description": "Secure sustainable access to water, food, and energy resources for the population and industries.",
+      "combined_score": 0.4472,
+      "semantic_score": 0.6389,
+      "frequency_in_top_projects": 0,
+      "already_selected": false
+    },
+    {
+      "label": "Energy and Industrial Leadership",
+      "description": "Maintain and strengthen Saudi Arabia's global leadership in the energy sector while diversifying into new areas.",
+      "combined_score": 0.4235,
+      "semantic_score": 0.605,
+      "frequency_in_top_projects": 0,
+      "already_selected": false
+    },
+    {
+      "label": "Health and Wellness",
+      "description": "Address prevalent health and therapeutic challenges in the Kingdom.",
+      "combined_score": 0.4147,
+      "semantic_score": 0.5924,
+      "frequency_in_top_projects": 0,
+      "already_selected": false
+    }
+  ],
+  "top_keywords": [
+    {
+      "keyword": "machine learning",
+      "count": 2,
+      "coverage": 0.2,
+      "semantic_score": 0.7031,
+      "combined_score": 0.8515
+    },
+    {
+      "keyword": "computer vision",
+      "count": 2,
+      "coverage": 0.2,
+      "semantic_score": 0.6679,
+      "combined_score": 0.834
+    },
+    {
+      "keyword": "deep learning",
+      "count": 2,
+      "coverage": 0.2,
+      "semantic_score": 0.6616,
+      "combined_score": 0.8308
+    },
+    {
+      "keyword": "software development",
+      "count": 1,
+      "coverage": 0.1,
+      "semantic_score": 0.788,
+      "combined_score": 0.644
+    },
+    {
+      "keyword": "web application",
+      "count": 1,
+      "coverage": 0.1,
+      "semantic_score": 0.734,
+      "combined_score": 0.617
+    },
+    {
+      "keyword": "java",
+      "count": 1,
+      "coverage": 0.1,
+      "semantic_score": 0.7223,
+      "combined_score": 0.6111
+    },
+    {
+      "keyword": "algorithms",
+      "count": 1,
+      "coverage": 0.1,
+      "semantic_score": 0.7053,
+      "combined_score": 0.6027
+    },
+    {
+      "keyword": "blockchain technology",
+      "count": 1,
+      "coverage": 0.1,
+      "semantic_score": 0.6975,
+      "combined_score": 0.5988
+    },
+    {
+      "keyword": "centralized system",
+      "count": 1,
+      "coverage": 0.1,
+      "semantic_score": 0.6961,
+      "combined_score": 0.5981
+    },
+    {
+      "keyword": "social applications",
+      "count": 1,
+      "coverage": 0.1,
+      "semantic_score": 0.6953,
+      "combined_score": 0.5976
+    }
+  ]
+}

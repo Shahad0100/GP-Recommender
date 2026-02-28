@@ -206,7 +206,7 @@ class EmbeddingEngine:
           interest_vec   = avg(interest_vecs + app_vecs + rdia_vec)  ← pre-computed
           student_vec    = avg(competency_vec, interest_vec) → normalized
 
-        group_vec = mean_pool(all student_vecs) → normalized
+        group_vec = max_pool(all student_vecs) → normalized
 
         Returns:
           group_vec  : np.ndarray
@@ -232,8 +232,10 @@ class EmbeddingEngine:
 
         if not student_vecs:
             raise ValueError("Group has no valid students.")
-
-        group_vec  = normalize(average_vectors(student_vecs))
+      
+        group_vec = np.max(np.array(student_vecs), axis=0)
+        group_vec = normalize(group_vec)
+      
         group_meta = {
             "selected_interests":    list(all_interests),
             "selected_applications": list(all_apps),

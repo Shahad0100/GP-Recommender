@@ -23,8 +23,7 @@
         "Static Analysis",
         "DLL Analysis",
         "Robustness Evaluation",
-        "Threat Detection",
-        "Adversarial Examples"
+        "Threat Detection"
     ],
     "introduction": {
         "problem": "Malicious software, also known as malware, is a significant threat to cybersecurity. Malware can steal sensitive data, disrupt business operations, and even damage critical infrastructure. Traditional malware detection methods, such as signature-based detection, are becoming increasingly ineffective as malware attackers develop new techniques to evade detection. Machine learning models and adversarial attacks have recently shown promising results for malware detection. This project focuses on training machine learning models and leveraging adversarial attacks to detect malware on a large labeled dataset. One common technique used for adversarial attacks is the Fast Gradient Sign Method (FGSM), which generates slightly altered inputs that can mislead models. FGSM can be applied to improve the robustness of detection models by generating adversarial malware examples for training, as well as to simulate potential attacks to test and strengthen cybersecurity defenses. The use of FGSM and similar methods highlights the dual role of AI in cybersecurity: it can both enhance defenses and expose vulnerabilities, making ongoing research critical to stay ahead of increasingly sophisticated threats.",
