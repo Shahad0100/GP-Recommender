@@ -30,11 +30,29 @@ def grade_to_weight(grade: str) -> float:
     grade = grade.strip().upper()
     return GRADE_WEIGHTS.get(grade, 0.50)
 
+# ─────────────────────────────────────────────────────────────────────────────
+# LOADE PLOs from courses.json
+# ─────────────────────────────────────────────────────────────────────────────
+
+def load_plos_from_courses(courses_path: str) -> Dict[str, str]:
+    """Extract the list of PLOs and return it as a dictionary {plo_id: description}"""
+
+    with open(courses_path, "r", encoding="utf-8") as f:
+        data = json.load(f)
+    
+    plos_map = {}
+    plo_categories = data.get("program_learning_outcomes", {})
+    for category in ["knowledge", "skills", "values"]:
+        for plo in plo_categories.get(category, []):
+            plo_id = plo.get("plo_id")
+            plo_desc = plo.get("plo_description")
+            if plo_id and plo_desc:
+                plos_map[plo_id] = plo_desc
+    return plos_map
 
 # ─────────────────────────────────────────────────────────────────────────────
 # DATA LOADERS
 # ─────────────────────────────────────────────────────────────────────────────
-
 
 def load_courses(path: str) -> Dict[str, dict]:
     """Load courses.json → {course_code: course_dict}"""
@@ -75,13 +93,37 @@ def load_acm_taxonomy(path: str) -> Dict[str, str]:
     with open(path, "r", encoding="utf-8") as f:
         data = json.load(f)
     flat = {}
-    for category in data["ACM_CSS_taxonomy"]:
-        for sub in category.get("subcategories", []):
-            acm_id = sub.get("id", "")
-            if acm_id:
-                flat[acm_id] = f"{sub.get('name','')}: {sub.get('description','')}"
-    return flat
 
+    def extract_acm_ids(items, parent_name=""):
+        """Recursive function to extract all ACM IDs and their descriptions"""
+        for item in items:
+            if "id" in item and item["id"]:
+                name = item.get("name", "")
+                desc = item.get("description", "")
+                if name and desc:
+                    flat[item["id"]] = f"{name}: {desc}"
+                elif name:
+                    flat[item["id"]] = name
+                elif desc:
+                    flat[item["id"]] = desc
+            
+            # If the element has subcategories, call the function recursively
+            if "subcategories" in item and item["subcategories"]:
+                extract_acm_ids(item["subcategories"], name)
+    
+    # Start extraction from the highest level
+    for category in data["ACM_CSS_taxonomy"]:
+        if "id" in category and category["id"]:
+            name = category.get("name", "")
+            desc = category.get("description", "")
+            if name and desc:
+                flat[category["id"]] = f"{name}: {desc}"
+            elif name:
+                flat[category["id"]] = name
+        # if the top-level category has subcategories, extract them as well        
+        if "subcategories" in category:
+            extract_acm_ids(category["subcategories"], category.get("name", ""))        
+    return flat
 
 def load_all_projects(projects_dir: str) -> List[dict]:
     """Load all project JSON files from a folder."""
@@ -102,11 +144,11 @@ def load_all_projects(projects_dir: str) -> List[dict]:
 # Phase II encodes each segment separately then averages (Late Fusion).
 # ─────────────────────────────────────────────────────────────────────────────
 
-def get_course_texts(course: dict) -> List[str]:
+def get_course_texts(course: dict, plos_map: Dict[str, str] = None) -> List[str]:
     """
     Extract meaningful text segments from a course.
-    Returns: [title+description, clo1, clo2, ...]
-    Excludes: course_code, credit_hours, clo_number, mapped_plos
+    Returns: [title+description, clo1 with Associated plos, clo2 with Associated plos, ...]
+    Excludes: course_code, credit_hours, clo_number,prequisites
     """
     segments = []
 
@@ -116,17 +158,28 @@ def get_course_texts(course: dict) -> List[str]:
     if title or desc:
         segments.append(f"{title}. {desc}".strip())
 
-    # Each CLO statement as its own segment
+    # Each CLO statement with its associated PLO as its own segment
     clos = course.get("course_learning_outcomes", {})
     for category in ["knowledge", "skills", "values"]:
         for clo in clos.get(category, []):
             stmt = clo.get("clo_statement", "").strip()
-            if stmt:
-                segments.append(stmt)
+            
+            # Append associated PLO description if available
+            if plos_map and stmt:
+                mapped_plos = clo.get("mapped_plos", [])
+                plo_descriptions = []
+                for plo_id in mapped_plos:
+                    if plo_id in plos_map:
+                        plo_descriptions.append(plos_map[plo_id])
+
+                if plo_descriptions:
+                    # combine PLO descriptions into one sentence and add them to the CLO text
+                    plo_text = " [Associated Program Outcomes: " + " | ".join(plo_descriptions) + "]"
+                    stmt += plo_text
+        if stmt:
+            segments.append(stmt)
 
     return segments
-
-
 def get_project_segments(project: dict, acm_map: Dict[str, str]) -> List[str]:
     """
     Extract meaningful text segments from a project JSON.
