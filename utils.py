@@ -96,13 +96,37 @@ def load_acm_taxonomy(path: str) -> Dict[str, str]:
     with open(path, "r", encoding="utf-8") as f:
         data = json.load(f)
     flat = {}
-    for category in data["ACM_CSS_taxonomy"]:
-        for sub in category.get("subcategories", []):
-            acm_id = sub.get("id", "")
-            if acm_id:
-                flat[acm_id] = f"{sub.get('name','')}: {sub.get('description','')}"
-    return flat
 
+    def extract_acm_ids(items, parent_name=""):
+        """Recursive function to extract all ACM IDs and their descriptions"""
+        for item in items:
+            if "id" in item and item["id"]:
+                name = item.get("name", "")
+                desc = item.get("description", "")
+                if name and desc:
+                    flat[item["id"]] = f"{name}: {desc}"
+                elif name:
+                    flat[item["id"]] = name
+                elif desc:
+                    flat[item["id"]] = desc
+            
+            # If the element has subcategories, call the function recursively
+            if "subcategories" in item and item["subcategories"]:
+                extract_acm_ids(item["subcategories"], name)
+    
+    # Start extraction from the highest level
+    for category in data["ACM_CSS_taxonomy"]:
+        if "id" in category and category["id"]:
+           name = category.get("name", "")
+           desc = category.get("description", "")
+           if name and desc:
+                flat[category["id"]] = f"{name}: {desc}"
+           elif name:
+                flat[category["id"]] = name
+        # if the top-level category has subcategories, extract them as well        
+        if "subcategories" in category:
+            extract_acm_ids(category["subcategories"])        
+    return flat
 
 def load_all_projects(projects_dir: str) -> List[dict]:
     """Load all project JSON files from a folder."""
