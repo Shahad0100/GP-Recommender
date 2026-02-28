@@ -162,7 +162,7 @@ def get_all_projects_from_folder():
         project_id = file_name.replace('.json', '')
         project_ids.append(project_id)
     
-    print(f"📁 Found {len(project_ids)} project files in {PROJECTS_FOLDER_PATH}")
+    print(f"Found {len(project_ids)} project files in {PROJECTS_FOLDER_PATH}")
     return set(project_ids)
 
 def catalog_coverage(recommended_projects, all_projects_set):
@@ -359,13 +359,13 @@ def display_results_with_history(current_results):
     run_number = len(history) + 1
     
     print("\n" + "="*70)
-    print(f"🏃‍♂️ RUN #{run_number} - {current_results['timestamp']}")
+    print(f" RUN #{run_number} - {current_results['timestamp']}")
     print("="*70)
     
     # Display comparison with previous run
     if history:
         previous_run = history[-1]
-        print("\n📊 COMPARED TO PREVIOUS RUN (Run #{})".format(len(history)))
+        print("\n COMPARED TO PREVIOUS RUN (Run #{})".format(len(history)))
         print("-" * 70)
         
         # Compare for different K values for projects
@@ -375,7 +375,7 @@ def display_results_with_history(current_results):
         # Compare projects
         for k in K_VALUES_PROJECTS:
             k_str = str(k)
-            print(f"\n  📁 Projects K={k}:")
+            print(f"\n  Projects K={k}:")
             current_k = current_results["project_metrics_by_k"][k_str]
             prev_k = previous_run["project_metrics_by_k"][k_str]
             
@@ -397,7 +397,7 @@ def display_results_with_history(current_results):
                     print(f"    {metric:<10}: {status} {diff:+.4f} ({current_val:.4f} vs {prev_val:.4f})")
         
         # Compare interests
-        print(f"\n  🎯 Interest Metrics:")
+        print(f"\n Interest Metrics:")
         for k in K_VALUES_INTEREST_APP:
             k_str = str(k)
             current_k = current_results["interest_metrics_by_k"][k_str]
@@ -421,7 +421,7 @@ def display_results_with_history(current_results):
                     print(f"    {metric}@{k:<2}: {status} {diff:+.4f} ({current_val:.4f} vs {prev_val:.4f})")
         
         # Compare applications
-        print(f"\n  📱 Application Metrics:")
+        print(f"\n   Application Metrics:")
         for k in K_VALUES_INTEREST_APP:
             k_str = str(k)
             current_k = current_results["application_metrics_by_k"][k_str]
@@ -445,7 +445,7 @@ def display_results_with_history(current_results):
                     print(f"    {metric}@{k:<2}: {status} {diff:+.4f} ({current_val:.4f} vs {prev_val:.4f})")
         
         # Compare RDIA
-        print(f"\n  🏷️ RDIA Metrics:")
+        print(f"\n   RDIA Metrics:")
         for metric in ["accuracy", "f1", "mrr"]:
             if metric in current_results["rdia_metrics"] and metric in previous_run["rdia_metrics"]:
                 current_val = current_results["rdia_metrics"][metric]
@@ -478,17 +478,17 @@ def display_results_with_history(current_results):
                 status = "🔴"
                 regressions += 1
             
-            print(f"\n  📚 Catalog Coverage: {status} {diff:+.4f} ({current_cov:.4f} vs {prev_cov:.4f})")
+            print(f"\n Catalog Coverage: {status} {diff:+.4f} ({current_cov:.4f} vs {prev_cov:.4f})")
         
-        print(f"\n  ✅ Improvements: {improvements}  |  🔴 Regressions: {regressions}")
+        print(f"\n 🟢 Improvements: {improvements}  |  🔴 Regressions: {regressions}")
     
     # Display current results
     print("\n" + "="*70)
-    print("📈 CURRENT RESULTS")
+    print(" CURRENT RESULTS")
     print("="*70)
     
     # Project metrics for each K
-    print("\n📊 PROJECT METRICS:")
+    print("\n PROJECT METRICS:")
     print("-" * 70)
     
     # Header
@@ -512,7 +512,7 @@ def display_results_with_history(current_results):
         print(row)
     
     # Catalog coverage - with detailed information
-    print(f"\n📚 CATALOG COVERAGE (based on 43 projects):")
+    print(f"\n CATALOG COVERAGE (based on 43 projects):")
     print("-" * 50)
     print(f"coverage                 : {current_results['catalog_coverage']:.4f}")
     print(f"unique recommended       : {current_results['unique_recommended']}")
@@ -520,7 +520,7 @@ def display_results_with_history(current_results):
     print(f"total projects in folder : {current_results['total_projects_in_folder']}")
     
     # Interest metrics for each K
-    print("\n🎯 INTEREST METRICS:")
+    print("\n INTEREST METRICS:")
     print("-" * 70)
     
     # Header
@@ -544,7 +544,7 @@ def display_results_with_history(current_results):
         print(row)
     
     # Application metrics for each K
-    print("\n📱 APPLICATION METRICS:")
+    print("\n APPLICATION METRICS:")
     print("-" * 70)
     
     # Header
@@ -568,7 +568,7 @@ def display_results_with_history(current_results):
         print(row)
     
     # RDIA metrics
-    print("\n🏷️ RDIA METRICS:")
+    print("\n RDIA METRICS:")
     print("-" * 40)
     for metric, value in current_results["rdia_metrics"].items():
         print(f"{metric:<15}: {value:.4f}")
@@ -603,7 +603,7 @@ def save_to_history(current_results, history):
     with open(HISTORY_PATH, "w", encoding="utf-8") as f:
         json.dump(history, f, indent=2, ensure_ascii=False)
     
-    print(f"\n💾 Results saved to history (Run #{len(history)})")
+    print(f"\n Results saved to history (Run #{len(history)})")
 
 def update_baseline(current_results):
     """Update baseline file with latest results"""
