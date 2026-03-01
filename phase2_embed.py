@@ -34,6 +34,7 @@ from utils import (
     load_courses,
     load_acm_taxonomy,
     load_all_projects,
+    load_plos_from_courses,
     get_course_texts,
     get_project_segments,
     average_vectors,
@@ -102,21 +103,21 @@ def encode_late_fusion(model: SentenceTransformer, segments: list) -> np.ndarray
 # STEP A: Embed Courses
 # ─────────────────────────────────────────────────────────────────────────────
 
-def embed_courses(model: SentenceTransformer, course_map: dict):
+def embed_courses(model: SentenceTransformer, course_map: dict, plos_map: dict):
     """
     Generate and save one embedding vector per course using Late Fusion.
 
     Segments per course:
       - title + description  (1 segment)
-      - each CLO statement   (N segments, one per CLO)
+      - each CLO statement with its PLOs (N segments, one per CLO)
 
     Saved as: embeddings/courses/{course_code}.npy
     """
-    print(f"\n[STEP A] Embedding {len(course_map)} courses...")
+    print(f"\n[STEP A] Embedding {len(course_map)} courses with PLO context...")
     os.makedirs(COURSES_EMB_DIR, exist_ok=True)
 
     for code, course in course_map.items():
-        segments = get_course_texts(course)
+        segments = get_course_texts(course, plos_map)
 
         if not segments:
             print(f"  [WARNING] No text found for course {code}, skipping.")
@@ -214,9 +215,11 @@ def main():
     # Load reference data
     print("\n[LOADING] Reading data files...")
     course_map = load_courses(COURSES_PATH)
+    plos_map = load_plos_from_courses(COURSES_PATH)
     acm_map    = load_acm_taxonomy(ACM_PATH)
     projects   = load_all_projects(PROJECTS_DIR)
     print(f"  Courses : {len(course_map)}")
+    print(f"  PLOs    : {len(plos_map)}")
     print(f"  ACM IDs : {len(acm_map)}")
     print(f"  Projects: {len(projects)}")
 
@@ -227,7 +230,7 @@ def main():
     print("  ✓ Model loaded")
 
     # Run all three embedding steps
-    embed_courses(model, course_map)
+    embed_courses(model, course_map, plos_map)
     embed_projects(model, projects, acm_map)
   
 
