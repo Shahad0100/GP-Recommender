@@ -2,105 +2,31 @@
   "group_id": "G006",
   "group_profile": {
     "selected_interests": [
-      "Robotics",
       "Blockchain",
-      "Distributed Systems",
-      "Computer Vision",
       "Drones",
+      "Computer Vision",
+      "Software Engineering",
       "DevOps",
-      "Software Engineering"
+      "Distributed Systems",
+      "Robotics"
     ],
     "selected_applications": [
-      "Energy & Industrial Leadership",
+      "Finance & Economics",
       "Government & Public Sector",
+      "Energy & Industrial Leadership",
       "Sustainability & Environment",
-      "Transportation & Mobility",
       "Business & Productivity",
-      "Finance & Economics"
+      "Transportation & Mobility"
     ],
     "selected_rdia": [
       "Energy & Industrial Leadership",
-      "Economies of the Future",
-      "Sustainable Environment & Supply of Essential Needs"
+      "Sustainable Environment & Supply of Essential Needs",
+      "Economies of the Future"
     ]
   },
   "recommended_projects": [
     {
       "rank": 1,
-      "project_id": "F06-42-20",
-      "title": "Developing A Web Application for Automatic Code Generation",
-      "supervisor_name": " Aram Saleh Al-Sedrani ",
-      "supervisor_id": "ASSe",
-      "academic_year": "1442",
-      "keywords": [
-        "Automatic Code Generation",
-        "ACG",
-        "software development",
-        "web application",
-        "Python",
-        "Java",
-        "XML parser",
-        "flowchart",
-        "algorithms",
-        "GUI"
-      ],
-      "application": [
-        "Education"
-      ],
-      "interest": [
-        "Artificial Intelligence / Machine Learning",
-        "Web Development",
-        "Software Engineering"
-      ],
-      "rdia": [
-        "Economies of the Future"
-      ],
-      "scores": {
-        "final_score": 0.4047,
-        "semantic_sim": 0.7628,
-        "context_score": 0.0,
-        "rdia_score": 0.3333,
-        "rrf_score": 0.029214
-      },
-      "explanation": "Highly similar to the group's profile. Aligns with the group's RDIA priority."
-    },
-    {
-      "rank": 2,
-      "project_id": "F05-42-10",
-      "title": "Decentralized Social Application: Moments",
-      "supervisor_name": " Tahani Fahad Albalawi",
-      "supervisor_id": "TFba",
-      "academic_year": "1442",
-      "keywords": [
-        "Social applications",
-        "Centralized system",
-        "Blockchain technology",
-        "Security",
-        "Privacy",
-        "Decentralized systems"
-      ],
-      "application": [
-        "Social Good & Community"
-      ],
-      "interest": [
-        "Blockchain",
-        "Web Development",
-        "Cybersecurity"
-      ],
-      "rdia": [
-        "Economies of the Future"
-      ],
-      "scores": {
-        "final_score": 0.4213,
-        "semantic_sim": 0.7425,
-        "context_score": 0.0,
-        "rdia_score": 0.3333,
-        "rrf_score": 0.030777
-      },
-      "explanation": "Good match with the group's background. Aligns with the group's RDIA priority."
-    },
-    {
-      "rank": 3,
       "project_id": "M04-45-10",
       "title": "Smart Car Parking Manager (SCPM)",
       "supervisor_name": " Mostafa Elsayed Ahmed Ibrahim",
@@ -130,7 +56,7 @@
         "Sustainable Environment & Supply of Essential Needs"
       ],
       "scores": {
-        "final_score": 0.4652,
+        "final_score": 0.4985,
         "semantic_sim": 0.747,
         "context_score": 0.1667,
         "rdia_score": 0.3333,
@@ -139,124 +65,44 @@
       "explanation": "Good match with the group's background. Matches application domain(s): transportation & mobility. Aligns with the group's RDIA priority."
     },
     {
-      "rank": 4,
-      "project_id": "F06-45-20",
-      "title": "Predicting Programming Skills Among Novice Programmers",
-      "supervisor_name": " Basma Suleiman Alqadi ",
-      "supervisor_id": "BSqa",
+      "rank": 2,
+      "project_id": "M10-45-10",
+      "title": "School Bus Tracking and Management system",
+      "supervisor_name": "Ahmed Mohammed Ahmed Gadallah",
+      "supervisor_id": "AMda",
       "academic_year": "1445",
       "keywords": [
-        "Programming Skills Prediction",
-        "Debugging Ability",
-        "Novice Programmers",
-        "Machine Learning",
-        "Educational Data Mining",
-        "Logical Errors",
-        "K-Nearest Neighbors (KNN)",
-        "Support Vector Machine (SVM)",
-        "Naive Bayes (NB)",
-        "Programming Education",
-        "Debugging Assessment",
-        "Correlation Analysis",
-        "Error Analysis",
-        "Code Debugging",
-        "Programming Proficiency",
-        "English Proficiency",
-        "Skill Prediction"
+        "School Bus Tracking",
+        "Student Transportation Management",
+        "Real-Time Location Tracking",
+        "Route Optimization",
+        "Google Maps API",
+        "Parent Notifications",
+        "Operational Efficiency",
+        "User-Friendly Interface"
       ],
       "application": [
-        "Education"
+        "Transportation & Mobility"
       ],
       "interest": [
-        "Artificial Intelligence / Machine Learning",
-        "Data Science"
-      ],
-      "rdia": [
-        "Economies of the Future"
-      ],
-      "scores": {
-        "final_score": 0.3988,
-        "semantic_sim": 0.7527,
-        "context_score": 0.0,
-        "rdia_score": 0.3333,
-        "rrf_score": 0.016129
-      },
-      "explanation": "Highly similar to the group's profile. Aligns with the group's RDIA priority."
-    },
-    {
-      "rank": 5,
-      "project_id": "F08-45-20",
-      "title": "XIPHER: Visualization Tool for Security Algorithms",
-      "supervisor_name": " Tahani Fahad Albalawi",
-      "supervisor_id": "TFba",
-      "academic_year": "1445",
-      "keywords": [
-        "Security Algorithms",
-        "Algorithm Visualization",
-        "Security Education",
-        "Usability Evaluation",
-        "Human-Computer Interaction (HCI)",
-        "Educational Web Platform",
-        "Visualization Tools",
-        "User Experience (UX)"
-      ],
-      "application": [
-        "Education"
-      ],
-      "interest": [
-        "Cybersecurity",
-        "Web Development",
-        "Human-Computer Interaction"
-      ],
-      "rdia": [
-        "Economies of the Future"
-      ],
-      "scores": {
-        "final_score": 0.3869,
-        "semantic_sim": 0.7182,
-        "context_score": 0.0,
-        "rdia_score": 0.3333,
-        "rrf_score": 0.015152
-      },
-      "explanation": "Good match with the group's background. Aligns with the group's RDIA priority."
-    },
-    {
-      "rank": 6,
-      "project_id": "F13-42-10",
-      "title": "Dolphin Application ",
-      "supervisor_name": " Eman AbdulHamid Alzaid ",
-      "supervisor_id": "EAza",
-      "academic_year": "42",
-      "keywords": [
-        "Mobile Application",
-        "Video Management",
-        "Video Retrieval",
-        "Machine Learning",
-        "Video Indexing",
-        "Smartphone Videos"
-      ],
-      "application": [
-        "Entertainment & Media"
-      ],
-      "interest": [
-        "Artificial Intelligence / Machine Learning",
+        "Internet of Things (IoT)",
         "Mobile Development",
-        "Computer Vision"
+        "Web Development"
       ],
       "rdia": [
-        "Economies of the Future"
+        "Sustainable Environment & Supply of Essential Needs"
       ],
       "scores": {
-        "final_score": 0.3868,
-        "semantic_sim": 0.7403,
-        "context_score": 0.0,
+        "final_score": 0.4819,
+        "semantic_sim": 0.7137,
+        "context_score": 0.1667,
         "rdia_score": 0.3333,
-        "rrf_score": 0.028718
+        "rrf_score": 0.03055
       },
-      "explanation": "Good match with the group's background. Aligns with the group's RDIA priority."
+      "explanation": "Good match with the group's background. Matches application domain(s): transportation & mobility. Aligns with the group's RDIA priority."
     },
     {
-      "rank": 7,
+      "rank": 3,
       "project_id": "F05-45-10",
       "title": "Visualize: A Software Tool for Visualizing the Impact of Climate Change on Cities",
       "supervisor_name": "Waad Mohammed Alhoshan, Tasniem Nasser Alyahya",
@@ -292,7 +138,7 @@
         "Sustainable Environment & Supply of Essential Needs"
       ],
       "scores": {
-        "final_score": 0.4287,
+        "final_score": 0.4731,
         "semantic_sim": 0.6963,
         "context_score": 0.1667,
         "rdia_score": 0.3333,
@@ -301,7 +147,7 @@
       "explanation": "Good match with the group's background. Matches application domain(s): sustainability & environment. Aligns with the group's RDIA priority."
     },
     {
-      "rank": 8,
+      "rank": 4,
       "project_id": "F28-45-20",
       "title": "AI-trip planner and advisor",
       "supervisor_name": " Raad Abdullah Alturki",
@@ -339,7 +185,7 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.4041,
+        "final_score": 0.4708,
         "semantic_sim": 0.6916,
         "context_score": 0.1667,
         "rdia_score": 0.3333,
@@ -348,44 +194,7 @@
       "explanation": "Good match with the group's background. Matches application domain(s): transportation & mobility. Aligns with the group's RDIA priority."
     },
     {
-      "rank": 9,
-      "project_id": "M10-45-10",
-      "title": "School Bus Tracking and Management system",
-      "supervisor_name": "Ahmed Mohammed Ahmed Gadallah",
-      "supervisor_id": "AMda",
-      "academic_year": "1445",
-      "keywords": [
-        "School Bus Tracking",
-        "Student Transportation Management",
-        "Real-Time Location Tracking",
-        "Route Optimization",
-        "Google Maps API",
-        "Parent Notifications",
-        "Operational Efficiency",
-        "User-Friendly Interface"
-      ],
-      "application": [
-        "Transportation & Mobility"
-      ],
-      "interest": [
-        "Internet of Things (IoT)",
-        "Mobile Development",
-        "Web Development"
-      ],
-      "rdia": [
-        "Sustainable Environment & Supply of Essential Needs"
-      ],
-      "scores": {
-        "final_score": 0.4152,
-        "semantic_sim": 0.7137,
-        "context_score": 0.1667,
-        "rdia_score": 0.3333,
-        "rrf_score": 0.03055
-      },
-      "explanation": "Good match with the group's background. Matches application domain(s): transportation & mobility. Aligns with the group's RDIA priority."
-    },
-    {
-      "rank": 10,
+      "rank": 5,
       "project_id": "F06-45-10",
       "title": "Get It: A Deep Learning Approach for Identifying and Discriminating Spoken Arabic Among English",
       "supervisor_name": "Wojdan Mohammed BinSaeedan",
@@ -422,13 +231,236 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.4123,
+        "final_score": 0.4695,
         "semantic_sim": 0.6889,
         "context_score": 0.1667,
         "rdia_score": 0.3333,
         "rrf_score": 0.025487
       },
       "explanation": "Good match with the group's background. Matches application domain(s): business & productivity. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 6,
+      "project_id": "M05-45-20",
+      "title": "Musanif (مصنف): A Categorization and Product Information API for E-Commerce Product Images)",
+      "supervisor_name": "Sultan Shuraidah Al-dera",
+      "supervisor_id": "SSde",
+      "academic_year": "1445",
+      "keywords": [
+        "E-commerce",
+        "Image Recognition",
+        "Product Categorization",
+        "API Development",
+        "Machine Learning",
+        "AWS Rekognition",
+        "Web Scraping",
+        "Product Information Extraction",
+        "Automated Data Entry",
+        "Inventory Management",
+        "REST API",
+        "Image Classification",
+        "Product Labeling",
+        "React",
+        "Node.js",
+        "Cloud Computing",
+        "Retail Technology"
+      ],
+      "application": [
+        "Business & Productivity"
+      ],
+      "interest": [
+        "Computer Vision",
+        "Artificial Intelligence / Machine Learning",
+        "Web Development"
+      ],
+      "rdia": [
+        "Economies of the Future"
+      ],
+      "scores": {
+        "final_score": 0.4693,
+        "semantic_sim": 0.6886,
+        "context_score": 0.1667,
+        "rdia_score": 0.3333,
+        "rrf_score": 0.026172
+      },
+      "explanation": "Good match with the group's background. Matches application domain(s): business & productivity. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 7,
+      "project_id": "F16-45-10",
+      "title": "Automatic audio files summarization System, EJAZ Website",
+      "supervisor_name": " Manal Khaled Alsabhan ",
+      "supervisor_id": "MKsa",
+      "academic_year": "1445",
+      "keywords": [
+        "Audio Summarization",
+        "Speech Recognition",
+        "Natural Language Processing (NLP)",
+        "Automatic Transcription",
+        "Text Summarization",
+        "Pegasus Model",
+        "BART Model",
+        "T5 Model",
+        "Meeting Summarization",
+        "Information Extraction",
+        "Audio Processing",
+        "Deep Learning",
+        "Collaborative Tools",
+        "Time Efficiency",
+        "Content Accessibility",
+        "Multilingual Support",
+        "Cloud Storage"
+      ],
+      "application": [
+        "Business & Productivity"
+      ],
+      "interest": [
+        "Natural Language Processing",
+        "Artificial Intelligence / Machine Learning",
+        "Web Development"
+      ],
+      "rdia": [
+        "Economies of the Future"
+      ],
+      "scores": {
+        "final_score": 0.4659,
+        "semantic_sim": 0.6818,
+        "context_score": 0.1667,
+        "rdia_score": 0.3333,
+        "rrf_score": 0.025353
+      },
+      "explanation": "Good match with the group's background. Matches application domain(s): business & productivity. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 8,
+      "project_id": "F06-42-20",
+      "title": "Developing A Web Application for Automatic Code Generation",
+      "supervisor_name": " Aram Saleh Al-Sedrani ",
+      "supervisor_id": "ASSe",
+      "academic_year": "1442",
+      "keywords": [
+        "Automatic Code Generation",
+        "ACG",
+        "software development",
+        "web application",
+        "Python",
+        "Java",
+        "XML parser",
+        "flowchart",
+        "algorithms",
+        "GUI"
+      ],
+      "application": [
+        "Education"
+      ],
+      "interest": [
+        "Artificial Intelligence / Machine Learning",
+        "Web Development",
+        "Software Engineering"
+      ],
+      "rdia": [
+        "Economies of the Future"
+      ],
+      "scores": {
+        "final_score": 0.4647,
+        "semantic_sim": 0.7628,
+        "context_score": 0.0,
+        "rdia_score": 0.3333,
+        "rrf_score": 0.029214
+      },
+      "explanation": "Highly similar to the group's profile. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 9,
+      "project_id": "F27-45-20",
+      "title": "Maseer: Advanced Pilgrimage Mapping for Effective Crowd Management during Hajj",
+      "supervisor_name": " Huda AbdulRahman Al-Muzaini ",
+      "supervisor_id": "HAMu",
+      "academic_year": "1445",
+      "keywords": [
+        "Crowd Management",
+        "Hajj Pilgrimage",
+        "Pilgrim Safety",
+        "Fully Convolutional Neural Network (FCNN)",
+        "Object Detection",
+        "Image Processing",
+        "Real-time Monitoring",
+        "Smart Navigation",
+        "Crowd Density Estimation",
+        "Holy Sites",
+        "Makkah",
+        "Mina",
+        "Arafat",
+        "Gate Management",
+        "Deep Learning",
+        "Computer Vision",
+        "Crowd Counting",
+        "HAJJ Crowd Dataset",
+        "Umrah Management"
+      ],
+      "application": [
+        "Government & Public Sector"
+      ],
+      "interest": [
+        "Computer Vision",
+        "Artificial Intelligence / Machine Learning",
+        "Web Development"
+      ],
+      "rdia": [
+        "Economies of the Future"
+      ],
+      "scores": {
+        "final_score": 0.4634,
+        "semantic_sim": 0.6768,
+        "context_score": 0.1667,
+        "rdia_score": 0.3333,
+        "rrf_score": 0.02578
+      },
+      "explanation": "Good match with the group's background. Matches application domain(s): government & public sector. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 10,
+      "project_id": "F05-45-20",
+      "title": "Walyattawafou: Crowd Counting in Hajj and Umrah",
+      "supervisor_name": " Haifa Hamad Alkasem ",
+      "supervisor_id": "HHka",
+      "academic_year": "1445",
+      "keywords": [
+        "Crowd Counting",
+        "Deep Learning",
+        "Hajj Management",
+        "Umrah Management",
+        "Crowd Monitoring",
+        "Holy Sites",
+        "Makkah",
+        "Pilgrim Safety",
+        "Image Processing",
+        "Computer Vision",
+        "Crowd Density Estimation",
+        "Real-time Monitoring",
+        "Ministry of Hajj and Umrah",
+        "GPU Processing",
+        "Attention Models",
+        "Crowd Flow Optimization"
+      ],
+      "application": [
+        "Government & Public Sector"
+      ],
+      "interest": [
+        "Artificial Intelligence / Machine Learning",
+        "Computer Vision"
+      ],
+      "rdia": [
+        "Economies of the Future"
+      ],
+      "scores": {
+        "final_score": 0.4609,
+        "semantic_sim": 0.6718,
+        "context_score": 0.1667,
+        "rdia_score": 0.3333,
+        "rrf_score": 0.026621
+      },
+      "explanation": "Good match with the group's background. Matches application domain(s): government & public sector. Aligns with the group's RDIA priority."
     }
   ],
   "recommended_interests": [

@@ -2,12 +2,12 @@
   "group_id": "G011",
   "group_profile": {
     "selected_interests": [
-      "Natural Language Processing",
-      "Computer Vision"
+      "Computer Vision",
+      "Natural Language Processing"
     ],
     "selected_applications": [
-      "Security & Privacy",
-      "Education"
+      "Education",
+      "Security & Privacy"
     ],
     "selected_rdia": [
       "Economies of the Future"
@@ -16,41 +16,6 @@
   "recommended_projects": [
     {
       "rank": 1,
-      "project_id": "F13-42-10",
-      "title": "Dolphin Application ",
-      "supervisor_name": " Eman AbdulHamid Alzaid ",
-      "supervisor_id": "EAza",
-      "academic_year": "42",
-      "keywords": [
-        "Mobile Application",
-        "Video Management",
-        "Video Retrieval",
-        "Machine Learning",
-        "Video Indexing",
-        "Smartphone Videos"
-      ],
-      "application": [
-        "Entertainment & Media"
-      ],
-      "interest": [
-        "Artificial Intelligence / Machine Learning",
-        "Mobile Development",
-        "Computer Vision"
-      ],
-      "rdia": [
-        "Economies of the Future"
-      ],
-      "scores": {
-        "final_score": 0.5134,
-        "semantic_sim": 0.7936,
-        "context_score": 0.0,
-        "rdia_score": 1.0,
-        "rrf_score": 0.029214
-      },
-      "explanation": "Highly similar to the group's profile. Aligns with the group's RDIA priority."
-    },
-    {
-      "rank": 2,
       "project_id": "F04-45-20",
       "title": "CCIS Student Assistant Chatbot",
       "supervisor_name": "Ahmed Mohammed Ahmed Gadallah",
@@ -84,7 +49,7 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.6639,
+        "final_score": 0.7639,
         "semantic_sim": 0.7778,
         "context_score": 0.5,
         "rdia_score": 1.0,
@@ -93,7 +58,85 @@
       "explanation": "Highly similar to the group's profile. Matches application domain(s): education. Aligns with the group's RDIA priority."
     },
     {
+      "rank": 2,
+      "project_id": "M02-45-10",
+      "title": "Automated Attendance System Using Facial Recognition (FRA)",
+      "supervisor_name": "Hachemi Ahmed Nasser",
+      "supervisor_id": "HAss",
+      "academic_year": "1445",
+      "keywords": [
+        "Facial Recognition",
+        "Automated Attendance System",
+        "Computer Vision",
+        "Raspberry Pi",
+        "Image Processing",
+        "Database Management",
+        "Web Application",
+        "Educational Technology",
+        "Biometric Authentication",
+        "Real-Time Recognition"
+      ],
+      "application": [
+        "Education"
+      ],
+      "interest": [
+        "Computer Vision",
+        "Artificial Intelligence / Machine Learning",
+        "Embedded Systems"
+      ],
+      "rdia": [
+        "Economies of the Future"
+      ],
+      "scores": {
+        "final_score": 0.7554,
+        "semantic_sim": 0.7608,
+        "context_score": 0.5,
+        "rdia_score": 1.0,
+        "rrf_score": 0.028718
+      },
+      "explanation": "Highly similar to the group's profile. Matches application domain(s): education. Aligns with the group's RDIA priority."
+    },
+    {
       "rank": 3,
+      "project_id": "F06-42-20",
+      "title": "Developing A Web Application for Automatic Code Generation",
+      "supervisor_name": " Aram Saleh Al-Sedrani ",
+      "supervisor_id": "ASSe",
+      "academic_year": "1442",
+      "keywords": [
+        "Automatic Code Generation",
+        "ACG",
+        "software development",
+        "web application",
+        "Python",
+        "Java",
+        "XML parser",
+        "flowchart",
+        "algorithms",
+        "GUI"
+      ],
+      "application": [
+        "Education"
+      ],
+      "interest": [
+        "Artificial Intelligence / Machine Learning",
+        "Web Development",
+        "Software Engineering"
+      ],
+      "rdia": [
+        "Economies of the Future"
+      ],
+      "scores": {
+        "final_score": 0.7543,
+        "semantic_sim": 0.7586,
+        "context_score": 0.5,
+        "rdia_score": 1.0,
+        "rrf_score": 0.026515
+      },
+      "explanation": "Highly similar to the group's profile. Matches application domain(s): education. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 4,
       "project_id": "F06-45-20",
       "title": "Predicting Programming Skills Among Novice Programmers",
       "supervisor_name": " Basma Suleiman Alqadi ",
@@ -129,7 +172,7 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.6174,
+        "final_score": 0.7482,
         "semantic_sim": 0.7464,
         "context_score": 0.5,
         "rdia_score": 1.0,
@@ -138,128 +181,53 @@
       "explanation": "Good match with the group's background. Matches application domain(s): education. Aligns with the group's RDIA priority."
     },
     {
-      "rank": 4,
-      "project_id": "F06-42-20",
-      "title": "Developing A Web Application for Automatic Code Generation",
-      "supervisor_name": " Aram Saleh Al-Sedrani ",
-      "supervisor_id": "ASSe",
-      "academic_year": "1442",
-      "keywords": [
-        "Automatic Code Generation",
-        "ACG",
-        "software development",
-        "web application",
-        "Python",
-        "Java",
-        "XML parser",
-        "flowchart",
-        "algorithms",
-        "GUI"
-      ],
-      "application": [
-        "Education"
-      ],
-      "interest": [
-        "Artificial Intelligence / Machine Learning",
-        "Web Development",
-        "Software Engineering"
-      ],
-      "rdia": [
-        "Economies of the Future"
-      ],
-      "scores": {
-        "final_score": 0.6126,
-        "semantic_sim": 0.7586,
-        "context_score": 0.5,
-        "rdia_score": 1.0,
-        "rrf_score": 0.026515
-      },
-      "explanation": "Highly similar to the group's profile. Matches application domain(s): education. Aligns with the group's RDIA priority."
-    },
-    {
       "rank": 5,
-      "project_id": "M02-45-10",
-      "title": "Automated Attendance System Using Facial Recognition (FRA)",
-      "supervisor_name": "Hachemi Ahmed Nasser",
-      "supervisor_id": "HAss",
+      "project_id": "F22-45-20",
+      "title": "Smart Attendance Management System Using iBeacon Technology (حضورك)",
+      "supervisor_name": " Tahani Fahad Albalawi",
+      "supervisor_id": "TFba",
       "academic_year": "1445",
       "keywords": [
-        "Facial Recognition",
-        "Automated Attendance System",
-        "Computer Vision",
-        "Raspberry Pi",
-        "Image Processing",
-        "Database Management",
-        "Web Application",
+        "Attendance Management System",
+        "iBeacon Technology",
+        "Bluetooth Low Energy (BLE)",
+        "Mobile Application",
+        "Automated Attendance",
         "Educational Technology",
-        "Biometric Authentication",
-        "Real-Time Recognition"
+        "Real-time Tracking",
+        "Student Authentication",
+        "Location Verification",
+        "Signal Processing",
+        "User Interface Design",
+        "Data Analytics",
+        "Higher Education",
+        "Proximity Detection",
+        "Hudurk",
+        "Classroom Management",
+        "Smart Campus"
       ],
       "application": [
         "Education"
       ],
       "interest": [
-        "Computer Vision",
-        "Artificial Intelligence / Machine Learning",
-        "Embedded Systems"
+        "Mobile Development",
+        "Human-Computer Interaction",
+        "Internet of Things (IoT)"
       ],
       "rdia": [
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.6137,
-        "semantic_sim": 0.7608,
+        "final_score": 0.7411,
+        "semantic_sim": 0.7322,
         "context_score": 0.5,
         "rdia_score": 1.0,
-        "rrf_score": 0.028718
+        "rrf_score": 0.025528
       },
-      "explanation": "Highly similar to the group's profile. Matches application domain(s): education. Aligns with the group's RDIA priority."
+      "explanation": "Good match with the group's background. Matches application domain(s): education. Aligns with the group's RDIA priority."
     },
     {
       "rank": 6,
-      "project_id": "F04-45-10",
-      "title": "Baseera بصيرة : Accessible Mobile App for Blind Children",
-      "supervisor_name": " Manan Mohammed Almusallam ",
-      "supervisor_id": "MMmu",
-      "academic_year": "1445",
-      "keywords": [
-        "Accessible Mobile Application",
-        "Blind Children",
-        "Visual Impairment",
-        "Assistive Technology",
-        "Educational Game",
-        "Arabic Language Support",
-        "Preschool Education",
-        "Audio Feedback",
-        "Numbers Learning",
-        "Counting Skills",
-        "Inclusive Design",
-        "Accessibility Standards",
-        "Child Development",
-        "Habilitation",
-        "Touch-screen Accessibility"
-      ],
-      "application": [
-        "Education"
-      ],
-      "interest": [
-        "Human-Computer Interaction",
-        "Mobile Development"
-      ],
-      "rdia": [
-        "Health & Wellness"
-      ],
-      "scores": {
-        "final_score": 0.4886,
-        "semantic_sim": 0.7462,
-        "context_score": 0.5,
-        "rdia_score": 0.0,
-        "rrf_score": 0.014085
-      },
-      "explanation": "Good match with the group's background. Matches application domain(s): education."
-    },
-    {
-      "rank": 7,
       "project_id": "F25-45-20",
       "title": "Automatic Recognition of Children's Handwritten Arabic Characters",
       "supervisor_name": " Asma Badr AlSaleh ",
@@ -297,7 +265,7 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.5732,
+        "final_score": 0.7399,
         "semantic_sim": 0.7298,
         "context_score": 0.5,
         "rdia_score": 1.0,
@@ -306,7 +274,7 @@
       "explanation": "Good match with the group's background. Matches application domain(s): education. Aligns with the group's RDIA priority."
     },
     {
-      "rank": 8,
+      "rank": 7,
       "project_id": "F08-45-20",
       "title": "XIPHER: Visualization Tool for Security Algorithms",
       "supervisor_name": " Tahani Fahad Albalawi",
@@ -334,7 +302,7 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.6245,
+        "final_score": 0.734,
         "semantic_sim": 0.718,
         "context_score": 0.5,
         "rdia_score": 1.0,
@@ -343,7 +311,88 @@
       "explanation": "Good match with the group's background. Matches application domain(s): education. Aligns with the group's RDIA priority."
     },
     {
+      "rank": 8,
+      "project_id": "F20-45-20",
+      "title": "Abnormal Event Detection for Video Surveillance (SecuritEye)",
+      "supervisor_name": " Wojdan Mohammed BinSaeedan ",
+      "supervisor_id": "WMnS",
+      "academic_year": "1445",
+      "keywords": [
+        "Abnormal Event Detection",
+        "Video Surveillance",
+        "Deep Learning",
+        "ConvLSTM",
+        "Long-term Recurrent Convolutional Networks (LRCN)",
+        "Smart Cities",
+        "Public Safety",
+        "UCF Crime Dataset",
+        "Anomaly Detection",
+        "Computer Vision",
+        "Convolutional Neural Networks (CNN)",
+        "Recurrent Neural Networks (RNN)",
+        "Long Short-Term Memory (LSTM)",
+        "Real-time Monitoring",
+        "Security Systems",
+        "Crime Detection",
+        "Video Analysis",
+        "SecuritEye"
+      ],
+      "application": [
+        "Security & Privacy"
+      ],
+      "interest": [
+        "Artificial Intelligence / Machine Learning",
+        "Computer Vision",
+        "Data Science"
+      ],
+      "rdia": [
+        "Economies of the Future"
+      ],
+      "scores": {
+        "final_score": 0.734,
+        "semantic_sim": 0.7179,
+        "context_score": 0.5,
+        "rdia_score": 1.0,
+        "rrf_score": 0.0272
+      },
+      "explanation": "Good match with the group's background. Matches application domain(s): security & privacy. Aligns with the group's RDIA priority."
+    },
+    {
       "rank": 9,
+      "project_id": "M09-45-10",
+      "title": "Qaimni: An Interactive, Web-Based System for Rating Faculty Members",
+      "supervisor_name": "Adel Ebrahim Al-Salem",
+      "supervisor_id": "AESa",
+      "academic_year": "1445",
+      "keywords": [
+        "Faculty Rating",
+        "Student Reviews",
+        "Anonymous Feedback",
+        "Web Application",
+        "College Platform"
+      ],
+      "application": [
+        "Education"
+      ],
+      "interest": [
+        "Web Development",
+        "Database Systems",
+        "Human-Computer Interaction"
+      ],
+      "rdia": [
+        "Economies of the Future"
+      ],
+      "scores": {
+        "final_score": 0.7338,
+        "semantic_sim": 0.7175,
+        "context_score": 0.5,
+        "rdia_score": 1.0,
+        "rrf_score": 0.023953
+      },
+      "explanation": "Good match with the group's background. Matches application domain(s): education. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 10,
       "project_id": "F04-42-10",
       "title": "Evaluating Website Quality Using Machine Learning",
       "supervisor_name": "Aram Saleh Al-Sedrani ",
@@ -368,47 +417,13 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.5884,
+        "final_score": 0.7317,
         "semantic_sim": 0.7134,
         "context_score": 0.5,
         "rdia_score": 1.0,
         "rrf_score": 0.023533
       },
       "explanation": "Good match with the group's background. Matches application domain(s): education. Aligns with the group's RDIA priority."
-    },
-    {
-      "rank": 10,
-      "project_id": "M08-45-20",
-      "title": "Nab’a Application",
-      "supervisor_name": "Mohammed Hussein Alkhatib",
-      "supervisor_id": "MHkh",
-      "academic_year": "1445",
-      "keywords": [
-        "News",
-        "Verified News",
-        "Trusted Information",
-        "Misinformation",
-        "Blockchain"
-      ],
-      "application": [
-        "Entertainment & Media"
-      ],
-      "interest": [
-        "Blockchain",
-        "Web Development",
-        "Mobile Development"
-      ],
-      "rdia": [
-        "Economies of the Future"
-      ],
-      "scores": {
-        "final_score": 0.4766,
-        "semantic_sim": 0.6883,
-        "context_score": 0.0,
-        "rdia_score": 1.0,
-        "rrf_score": 0.023611
-      },
-      "explanation": "Good match with the group's background. Aligns with the group's RDIA priority."
     }
   ],
   "recommended_interests": [

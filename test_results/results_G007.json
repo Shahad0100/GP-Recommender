@@ -2,10 +2,10 @@
   "group_id": "G007",
   "group_profile": {
     "selected_interests": [
+      "Drones",
+      "Internet of Things (IoT)",
       "Cloud Computing",
       "Artificial Intelligence / Machine Learning",
-      "Internet of Things (IoT)",
-      "Drones",
       "Data Science"
     ],
     "selected_applications": [
@@ -19,154 +19,6 @@
   "recommended_projects": [
     {
       "rank": 1,
-      "project_id": "F06-42-20",
-      "title": "Developing A Web Application for Automatic Code Generation",
-      "supervisor_name": " Aram Saleh Al-Sedrani ",
-      "supervisor_id": "ASSe",
-      "academic_year": "1442",
-      "keywords": [
-        "Automatic Code Generation",
-        "ACG",
-        "software development",
-        "web application",
-        "Python",
-        "Java",
-        "XML parser",
-        "flowchart",
-        "algorithms",
-        "GUI"
-      ],
-      "application": [
-        "Education"
-      ],
-      "interest": [
-        "Artificial Intelligence / Machine Learning",
-        "Web Development",
-        "Software Engineering"
-      ],
-      "rdia": [
-        "Economies of the Future"
-      ],
-      "scores": {
-        "final_score": 0.3519,
-        "semantic_sim": 0.7775,
-        "context_score": 0.0,
-        "rdia_score": 0.0,
-        "rrf_score": 0.016393
-      },
-      "explanation": "Highly similar to the group's profile."
-    },
-    {
-      "rank": 2,
-      "project_id": "M04-45-10",
-      "title": "Smart Car Parking Manager (SCPM)",
-      "supervisor_name": " Mostafa Elsayed Ahmed Ibrahim",
-      "supervisor_id": "MEra",
-      "academic_year": "1445",
-      "keywords": [
-        "Smart Parking System",
-        "Parking Management",
-        "Raspberry Pi",
-        "Sensor-Based Detection",
-        "License Plate Recognition",
-        "Computer Vision",
-        "Web Application",
-        "SQL Database",
-        "Real-Time Monitoring",
-        "Agile Development"
-      ],
-      "application": [
-        "Transportation & Mobility"
-      ],
-      "interest": [
-        "Computer Vision",
-        "Internet of Things (IoT)",
-        "Embedded Systems"
-      ],
-      "rdia": [
-        "Sustainable Environment & Supply of Essential Needs"
-      ],
-      "scores": {
-        "final_score": 0.5302,
-        "semantic_sim": 0.7604,
-        "context_score": 0.0,
-        "rdia_score": 1.0,
-        "rrf_score": 0.031498
-      },
-      "explanation": "Highly similar to the group's profile. Aligns with the group's RDIA priority."
-    },
-    {
-      "rank": 3,
-      "project_id": "F13-42-10",
-      "title": "Dolphin Application ",
-      "supervisor_name": " Eman AbdulHamid Alzaid ",
-      "supervisor_id": "EAza",
-      "academic_year": "42",
-      "keywords": [
-        "Mobile Application",
-        "Video Management",
-        "Video Retrieval",
-        "Machine Learning",
-        "Video Indexing",
-        "Smartphone Videos"
-      ],
-      "application": [
-        "Entertainment & Media"
-      ],
-      "interest": [
-        "Artificial Intelligence / Machine Learning",
-        "Mobile Development",
-        "Computer Vision"
-      ],
-      "rdia": [
-        "Economies of the Future"
-      ],
-      "scores": {
-        "final_score": 0.3428,
-        "semantic_sim": 0.7746,
-        "context_score": 0.0,
-        "rdia_score": 0.0,
-        "rrf_score": 0.029828
-      },
-      "explanation": "Highly similar to the group's profile."
-    },
-    {
-      "rank": 4,
-      "project_id": "F05-42-10",
-      "title": "Decentralized Social Application: Moments",
-      "supervisor_name": " Tahani Fahad Albalawi",
-      "supervisor_id": "TFba",
-      "academic_year": "1442",
-      "keywords": [
-        "Social applications",
-        "Centralized system",
-        "Blockchain technology",
-        "Security",
-        "Privacy",
-        "Decentralized systems"
-      ],
-      "application": [
-        "Social Good & Community"
-      ],
-      "interest": [
-        "Blockchain",
-        "Web Development",
-        "Cybersecurity"
-      ],
-      "rdia": [
-        "Economies of the Future"
-      ],
-      "scores": {
-        "final_score": 0.4736,
-        "semantic_sim": 0.7106,
-        "context_score": 0.5,
-        "rdia_score": 0.0,
-        "rrf_score": 0.028405
-      },
-      "explanation": "Good match with the group's background. Matches application domain(s): social good & community."
-    },
-    {
-      "rank": 5,
       "project_id": "F05-45-10",
       "title": "Visualize: A Software Tool for Visualizing the Impact of Climate Change on Cities",
       "supervisor_name": "Waad Mohammed Alhoshan, Tasniem Nasser Alyahya",
@@ -202,7 +54,7 @@
         "Sustainable Environment & Supply of Essential Needs"
       ],
       "scores": {
-        "final_score": 0.6224,
+        "final_score": 0.739,
         "semantic_sim": 0.7281,
         "context_score": 0.5,
         "rdia_score": 1.0,
@@ -211,129 +63,80 @@
       "explanation": "Good match with the group's background. Matches application domain(s): sustainability & environment. Aligns with the group's RDIA priority."
     },
     {
-      "rank": 6,
-      "project_id": "M09-45-10",
-      "title": "Qaimni: An Interactive, Web-Based System for Rating Faculty Members",
-      "supervisor_name": "Adel Ebrahim Al-Salem",
-      "supervisor_id": "AESa",
+      "rank": 2,
+      "project_id": "F03-45-10",
+      "title": "Energy-aware Multi-Object Detection and Compression in WMSN",
+      "supervisor_name": " Manal Khaled Alsabhan ",
+      "supervisor_id": "MKsa",
       "academic_year": "1445",
       "keywords": [
-        "Faculty Rating",
-        "Student Reviews",
-        "Anonymous Feedback",
+        "Wireless Multimedia Sensor Networks (WMSNs)",
+        "Wireless Sensor Networks (WSNs)",
+        "Multimedia",
+        "Recognition of Interest",
+        "Feature Extraction"
+      ],
+      "application": [
+        "Sustainability & Environment"
+      ],
+      "interest": [
+        "Internet of Things (IoT)",
+        "Computer Vision",
+        "Embedded Systems"
+      ],
+      "rdia": [
+        "Sustainable Environment & Supply of Essential Needs"
+      ],
+      "scores": {
+        "final_score": 0.7203,
+        "semantic_sim": 0.6907,
+        "context_score": 0.5,
+        "rdia_score": 1.0,
+        "rrf_score": 0.027888
+      },
+      "explanation": "Good match with the group's background. Matches application domain(s): sustainability & environment. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 3,
+      "project_id": "M04-45-10",
+      "title": "Smart Car Parking Manager (SCPM)",
+      "supervisor_name": " Mostafa Elsayed Ahmed Ibrahim",
+      "supervisor_id": "MEra",
+      "academic_year": "1445",
+      "keywords": [
+        "Smart Parking System",
+        "Parking Management",
+        "Raspberry Pi",
+        "Sensor-Based Detection",
+        "License Plate Recognition",
+        "Computer Vision",
         "Web Application",
-        "College Platform"
+        "SQL Database",
+        "Real-Time Monitoring",
+        "Agile Development"
       ],
       "application": [
-        "Education"
+        "Transportation & Mobility"
       ],
       "interest": [
-        "Web Development",
-        "Database Systems",
-        "Human-Computer Interaction"
+        "Computer Vision",
+        "Internet of Things (IoT)",
+        "Embedded Systems"
       ],
       "rdia": [
-        "Economies of the Future"
+        "Sustainable Environment & Supply of Essential Needs"
       ],
       "scores": {
-        "final_score": 0.3449,
-        "semantic_sim": 0.7246,
+        "final_score": 0.6302,
+        "semantic_sim": 0.7604,
         "context_score": 0.0,
-        "rdia_score": 0.0,
-        "rrf_score": 0.014706
+        "rdia_score": 1.0,
+        "rrf_score": 0.031498
       },
-      "explanation": "Good match with the group's background."
+      "explanation": "Highly similar to the group's profile. Aligns with the group's RDIA priority."
     },
     {
-      "rank": 7,
-      "project_id": "F06-45-20",
-      "title": "Predicting Programming Skills Among Novice Programmers",
-      "supervisor_name": " Basma Suleiman Alqadi ",
-      "supervisor_id": "BSqa",
-      "academic_year": "1445",
-      "keywords": [
-        "Programming Skills Prediction",
-        "Debugging Ability",
-        "Novice Programmers",
-        "Machine Learning",
-        "Educational Data Mining",
-        "Logical Errors",
-        "K-Nearest Neighbors (KNN)",
-        "Support Vector Machine (SVM)",
-        "Naive Bayes (NB)",
-        "Programming Education",
-        "Debugging Assessment",
-        "Correlation Analysis",
-        "Error Analysis",
-        "Code Debugging",
-        "Programming Proficiency",
-        "English Proficiency",
-        "Skill Prediction"
-      ],
-      "application": [
-        "Education"
-      ],
-      "interest": [
-        "Artificial Intelligence / Machine Learning",
-        "Data Science"
-      ],
-      "rdia": [
-        "Economies of the Future"
-      ],
-      "scores": {
-        "final_score": 0.3457,
-        "semantic_sim": 0.7447,
-        "context_score": 0.0,
-        "rdia_score": 0.0,
-        "rrf_score": 0.027253
-      },
-      "explanation": "Good match with the group's background."
-    },
-    {
-      "rank": 8,
-      "project_id": "F04-45-10",
-      "title": "Baseera بصيرة : Accessible Mobile App for Blind Children",
-      "supervisor_name": " Manan Mohammed Almusallam ",
-      "supervisor_id": "MMmu",
-      "academic_year": "1445",
-      "keywords": [
-        "Accessible Mobile Application",
-        "Blind Children",
-        "Visual Impairment",
-        "Assistive Technology",
-        "Educational Game",
-        "Arabic Language Support",
-        "Preschool Education",
-        "Audio Feedback",
-        "Numbers Learning",
-        "Counting Skills",
-        "Inclusive Design",
-        "Accessibility Standards",
-        "Child Development",
-        "Habilitation",
-        "Touch-screen Accessibility"
-      ],
-      "application": [
-        "Education"
-      ],
-      "interest": [
-        "Human-Computer Interaction",
-        "Mobile Development"
-      ],
-      "rdia": [
-        "Health & Wellness"
-      ],
-      "scores": {
-        "final_score": 0.3545,
-        "semantic_sim": 0.729,
-        "context_score": 0.0,
-        "rdia_score": 0.0,
-        "rrf_score": 0.015152
-      },
-      "explanation": "Good match with the group's background."
-    },
-    {
-      "rank": 9,
+      "rank": 4,
       "project_id": "M10-45-10",
       "title": "School Bus Tracking and Management system",
       "supervisor_name": "Ahmed Mohammed Ahmed Gadallah",
@@ -361,7 +164,7 @@
         "Sustainable Environment & Supply of Essential Needs"
       ],
       "scores": {
-        "final_score": 0.4865,
+        "final_score": 0.6199,
         "semantic_sim": 0.7397,
         "context_score": 0.0,
         "rdia_score": 1.0,
@@ -370,50 +173,229 @@
       "explanation": "Good match with the group's background. Aligns with the group's RDIA priority."
     },
     {
-      "rank": 10,
-      "project_id": "F16-45-10",
-      "title": "Automatic audio files summarization System, EJAZ Website",
-      "supervisor_name": " Manal Khaled Alsabhan ",
-      "supervisor_id": "MKsa",
-      "academic_year": "1445",
+      "rank": 5,
+      "project_id": "F05-42-10",
+      "title": "Decentralized Social Application: Moments",
+      "supervisor_name": " Tahani Fahad Albalawi",
+      "supervisor_id": "TFba",
+      "academic_year": "1442",
       "keywords": [
-        "Audio Summarization",
-        "Speech Recognition",
-        "Natural Language Processing (NLP)",
-        "Automatic Transcription",
-        "Text Summarization",
-        "Pegasus Model",
-        "BART Model",
-        "T5 Model",
-        "Meeting Summarization",
-        "Information Extraction",
-        "Audio Processing",
-        "Deep Learning",
-        "Collaborative Tools",
-        "Time Efficiency",
-        "Content Accessibility",
-        "Multilingual Support",
-        "Cloud Storage"
+        "Social applications",
+        "Centralized system",
+        "Blockchain technology",
+        "Security",
+        "Privacy",
+        "Decentralized systems"
       ],
       "application": [
-        "Business & Productivity"
+        "Social Good & Community"
       ],
       "interest": [
-        "Natural Language Processing",
-        "Artificial Intelligence / Machine Learning",
-        "Web Development"
+        "Blockchain",
+        "Web Development",
+        "Cybersecurity"
       ],
       "rdia": [
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.3326,
-        "semantic_sim": 0.7128,
+        "final_score": 0.4803,
+        "semantic_sim": 0.7106,
+        "context_score": 0.5,
+        "rdia_score": 0.0,
+        "rrf_score": 0.028405
+      },
+      "explanation": "Good match with the group's background. Matches application domain(s): social good & community."
+    },
+    {
+      "rank": 6,
+      "project_id": "F10-42-20",
+      "title": "Monitoring and Tracking of Vulnerable Individuals Using Mini-UAVs",
+      "supervisor_name": " Areeb Abdullah Alowisheq",
+      "supervisor_id": "AAow",
+      "academic_year": "1442",
+      "keywords": [
+        "UAV Surveillance",
+        "Tracking System",
+        "Vision-Based Control",
+        "Autonomous Drones",
+        "Object Detection",
+        "Person Re-Identification",
+        "Deep Learning",
+        "Mobile Application",
+        "Simulation and Prototyping",
+        "Safety Monitoring"
+      ],
+      "application": [
+        "Social Good & Community"
+      ],
+      "interest": [
+        "Computer Vision",
+        "Artificial Intelligence / Machine Learning",
+        "Drones"
+      ],
+      "rdia": [
+        "Health & Wellness"
+      ],
+      "scores": {
+        "final_score": 0.4786,
+        "semantic_sim": 0.7072,
+        "context_score": 0.5,
+        "rdia_score": 0.0,
+        "rrf_score": 0.028718
+      },
+      "explanation": "Good match with the group's background. Matches application domain(s): social good & community."
+    },
+    {
+      "rank": 7,
+      "project_id": "F17-45-20",
+      "title": "Mu’nis: Enhancing Deaf Communication with Realtime Subtitles in Arabic Language",
+      "supervisor_name": " Tasniem Nasser Alyahya ",
+      "supervisor_id": "TNya",
+      "academic_year": "1445",
+      "keywords": [
+        "Arabic Sign Language (ArSL)",
+        "Deaf and Hard of Hearing (DHH)",
+        "Real-time Translation",
+        "Sign Language Recognition",
+        "Mobile Application",
+        "Core ML",
+        "Hand Gesture Recognition",
+        "KArSL Dataset",
+        "Assistive Technology",
+        "Human-Computer Interaction",
+        "Accessibility",
+        "Two-way Communication",
+        "Audio-to-Text",
+        "Sign-to-Text",
+        "Hand Action Tool",
+        "Inclusive Design",
+        "Communication Barriers"
+      ],
+      "application": [
+        "Social Good & Community"
+      ],
+      "interest": [
+        "Natural Language Processing",
+        "Human-Computer Interaction",
+        "Artificial Intelligence / Machine Learning"
+      ],
+      "rdia": [
+        "Health & Wellness"
+      ],
+      "scores": {
+        "final_score": 0.4732,
+        "semantic_sim": 0.6963,
+        "context_score": 0.5,
+        "rdia_score": 0.0,
+        "rrf_score": 0.026481
+      },
+      "explanation": "Good match with the group's background. Matches application domain(s): social good & community."
+    },
+    {
+      "rank": 8,
+      "project_id": "F06-42-20",
+      "title": "Developing A Web Application for Automatic Code Generation",
+      "supervisor_name": " Aram Saleh Al-Sedrani ",
+      "supervisor_id": "ASSe",
+      "academic_year": "1442",
+      "keywords": [
+        "Automatic Code Generation",
+        "ACG",
+        "software development",
+        "web application",
+        "Python",
+        "Java",
+        "XML parser",
+        "flowchart",
+        "algorithms",
+        "GUI"
+      ],
+      "application": [
+        "Education"
+      ],
+      "interest": [
+        "Artificial Intelligence / Machine Learning",
+        "Web Development",
+        "Software Engineering"
+      ],
+      "rdia": [
+        "Economies of the Future"
+      ],
+      "scores": {
+        "final_score": 0.3888,
+        "semantic_sim": 0.7775,
         "context_score": 0.0,
         "rdia_score": 0.0,
-        "rrf_score": 0.027402
+        "rrf_score": 0.016393
       },
-      "explanation": "Good match with the group's background."
+      "explanation": "Highly similar to the group's profile."
+    },
+    {
+      "rank": 9,
+      "project_id": "F13-42-10",
+      "title": "Dolphin Application ",
+      "supervisor_name": " Eman AbdulHamid Alzaid ",
+      "supervisor_id": "EAza",
+      "academic_year": "42",
+      "keywords": [
+        "Mobile Application",
+        "Video Management",
+        "Video Retrieval",
+        "Machine Learning",
+        "Video Indexing",
+        "Smartphone Videos"
+      ],
+      "application": [
+        "Entertainment & Media"
+      ],
+      "interest": [
+        "Artificial Intelligence / Machine Learning",
+        "Mobile Development",
+        "Computer Vision"
+      ],
+      "rdia": [
+        "Economies of the Future"
+      ],
+      "scores": {
+        "final_score": 0.3873,
+        "semantic_sim": 0.7746,
+        "context_score": 0.0,
+        "rdia_score": 0.0,
+        "rrf_score": 0.029828
+      },
+      "explanation": "Highly similar to the group's profile."
+    },
+    {
+      "rank": 10,
+      "project_id": "F09-45-10",
+      "title": "Detecting Cyberbullying in Twitter for Arabic Language",
+      "supervisor_name": " Haifa Hamad Alkasem",
+      "supervisor_id": "HHka",
+      "academic_year": "1445",
+      "keywords": [
+        "Cyberbullying",
+        "Twitter(X)",
+        "Deep learning"
+      ],
+      "application": [
+        "Social Good & Community"
+      ],
+      "interest": [
+        "Natural Language Processing",
+        "Artificial Intelligence / Machine Learning"
+      ],
+      "rdia": [
+        "Health & Wellness"
+      ],
+      "scores": {
+        "final_score": 0.375,
+        "semantic_sim": 0.5,
+        "context_score": 0.5,
+        "rdia_score": 0.0,
+        "rrf_score": 0.015152
+      },
+      "explanation": "Partial match with the group profile. Matches application domain(s): social good & community."
     }
   ],
   "recommended_interests": [

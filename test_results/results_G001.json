@@ -2,17 +2,17 @@
   "group_id": "G001",
   "group_profile": {
     "selected_interests": [
+      "Computer Vision",
       "Artificial Intelligence / Machine Learning",
-      "Natural Language Processing",
-      "Computer Vision"
+      "Natural Language Processing"
     ],
     "selected_applications": [
-      "Security & Privacy",
-      "Government & Public Sector",
-      "Education",
       "Healthcare / Medical",
-      "Business & Productivity",
-      "Finance & Economics"
+      "Education",
+      "Finance & Economics",
+      "Government & Public Sector",
+      "Security & Privacy",
+      "Business & Productivity"
     ],
     "selected_rdia": [
       "Health & Wellness",
@@ -57,7 +57,7 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.4755,
+        "final_score": 0.5605,
         "semantic_sim": 0.7877,
         "context_score": 0.1667,
         "rdia_score": 0.5,
@@ -67,41 +67,88 @@
     },
     {
       "rank": 2,
-      "project_id": "F05-42-10",
-      "title": "Decentralized Social Application: Moments",
-      "supervisor_name": " Tahani Fahad Albalawi",
-      "supervisor_id": "TFba",
+      "project_id": "F06-42-20",
+      "title": "Developing A Web Application for Automatic Code Generation",
+      "supervisor_name": " Aram Saleh Al-Sedrani ",
+      "supervisor_id": "ASSe",
       "academic_year": "1442",
       "keywords": [
-        "Social applications",
-        "Centralized system",
-        "Blockchain technology",
-        "Security",
-        "Privacy",
-        "Decentralized systems"
+        "Automatic Code Generation",
+        "ACG",
+        "software development",
+        "web application",
+        "Python",
+        "Java",
+        "XML parser",
+        "flowchart",
+        "algorithms",
+        "GUI"
       ],
       "application": [
-        "Social Good & Community"
+        "Education"
       ],
       "interest": [
-        "Blockchain",
+        "Artificial Intelligence / Machine Learning",
         "Web Development",
-        "Cybersecurity"
+        "Software Engineering"
       ],
       "rdia": [
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.4253,
-        "semantic_sim": 0.7211,
-        "context_score": 0.0,
+        "final_score": 0.5553,
+        "semantic_sim": 0.7773,
+        "context_score": 0.1667,
         "rdia_score": 0.5,
-        "rrf_score": 0.024749
+        "rrf_score": 0.016129
       },
-      "explanation": "Good match with the group's background. Aligns with the group's RDIA priority."
+      "explanation": "Highly similar to the group's profile. Matches application domain(s): education. Aligns with the group's RDIA priority."
     },
     {
       "rank": 3,
+      "project_id": "F04-45-20",
+      "title": "CCIS Student Assistant Chatbot",
+      "supervisor_name": "Ahmed Mohammed Ahmed Gadallah",
+      "supervisor_id": "AMda",
+      "academic_year": "1445",
+      "keywords": [
+        "Educational Chatbot",
+        "Natural Language Processing (NLP)",
+        "Student Support System",
+        "Higher Education",
+        "FAISS",
+        "Falcon-Instructor LLM",
+        "Information Retrieval",
+        "Academic Advising",
+        "FAQ Automation",
+        "Course Management",
+        "Professor Information",
+        "Virtual Assistant",
+        "College of Computer and Information Sciences (CCIS)",
+        "Imam Muhammad Ibn Saud Islamic University",
+        "Student Services"
+      ],
+      "application": [
+        "Education"
+      ],
+      "interest": [
+        "Natural Language Processing",
+        "Artificial Intelligence / Machine Learning"
+      ],
+      "rdia": [
+        "Economies of the Future"
+      ],
+      "scores": {
+        "final_score": 0.5414,
+        "semantic_sim": 0.7494,
+        "context_score": 0.1667,
+        "rdia_score": 0.5,
+        "rrf_score": 0.026748
+      },
+      "explanation": "Good match with the group's background. Matches application domain(s): education. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 4,
       "project_id": "F06-45-10",
       "title": "Get It: A Deep Learning Approach for Identifying and Discriminating Spoken Arabic Among English",
       "supervisor_name": "Wojdan Mohammed BinSaeedan",
@@ -138,7 +185,7 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.4893,
+        "final_score": 0.5393,
         "semantic_sim": 0.7452,
         "context_score": 0.1667,
         "rdia_score": 0.5,
@@ -147,129 +194,79 @@
       "explanation": "Good match with the group's background. Matches application domain(s): business & productivity. Aligns with the group's RDIA priority."
     },
     {
-      "rank": 4,
-      "project_id": "F06-42-20",
-      "title": "Developing A Web Application for Automatic Code Generation",
-      "supervisor_name": " Aram Saleh Al-Sedrani ",
-      "supervisor_id": "ASSe",
-      "academic_year": "1442",
-      "keywords": [
-        "Automatic Code Generation",
-        "ACG",
-        "software development",
-        "web application",
-        "Python",
-        "Java",
-        "XML parser",
-        "flowchart",
-        "algorithms",
-        "GUI"
-      ],
-      "application": [
-        "Education"
-      ],
-      "interest": [
-        "Artificial Intelligence / Machine Learning",
-        "Web Development",
-        "Software Engineering"
-      ],
-      "rdia": [
-        "Economies of the Future"
-      ],
-      "scores": {
-        "final_score": 0.4644,
-        "semantic_sim": 0.7773,
-        "context_score": 0.1667,
-        "rdia_score": 0.5,
-        "rrf_score": 0.016129
-      },
-      "explanation": "Highly similar to the group's profile. Matches application domain(s): education. Aligns with the group's RDIA priority."
-    },
-    {
       "rank": 5,
-      "project_id": "F29-45-20",
-      "title": "Hudhud: AI-based Remote Rehabilitation",
-      "supervisor_name": " Manan Mohammed Almusallam ",
-      "supervisor_id": "MMmu",
-      "academic_year": "1445",
+      "project_id": "F02-43-10",
+      "title": "Facial Expression Recognition for Investigations",
+      "supervisor_name": "Lamees Abdullah Alhazzaa",
+      "supervisor_id": "LAha",
+      "academic_year": "1443",
       "keywords": [
-        "Remote Rehabilitation",
-        "Artificial Intelligence",
-        "Pose Estimation",
+        "Facial Expression Analysis",
+        "Non-Verbal Communication",
+        "Emotion Recognition",
         "Computer Vision",
-        "Mediapipe",
-        "Physical Therapy",
-        "Healthcare Technology",
-        "Exercise Monitoring",
-        "Real-time Feedback",
-        "Patient Progress Tracking",
-        "Telerehabilitation",
-        "Knee Rehabilitation",
-        "Motion Detection",
-        "Body Posture Analysis",
-        "Injury Prevention",
-        "Therapeutic Exercises"
+        "Police Investigations",
+        "Interview Analysis",
+        "Human Behavior Analysis",
+        "Automated Facial Recognition",
+        "Deception Detection"
       ],
       "application": [
-        "Healthcare / Medical"
+        "Security & Privacy"
       ],
       "interest": [
-        "Artificial Intelligence / Machine Learning",
         "Computer Vision",
-        "Human-Computer Interaction"
+        "Artificial Intelligence / Machine Learning",
+        "Cybersecurity"
       ],
       "rdia": [
         "Health & Wellness"
       ],
       "scores": {
-        "final_score": 0.427,
-        "semantic_sim": 0.717,
+        "final_score": 0.5308,
+        "semantic_sim": 0.7282,
         "context_score": 0.1667,
         "rdia_score": 0.5,
-        "rrf_score": 0.026743
+        "rrf_score": 0.028986
       },
-      "explanation": "Good match with the group's background. Matches application domain(s): healthcare / medical. Aligns with the group's RDIA priority."
+      "explanation": "Good match with the group's background. Matches application domain(s): security & privacy. Aligns with the group's RDIA priority."
     },
     {
       "rank": 6,
-      "project_id": "F04-45-20",
-      "title": "CCIS Student Assistant Chatbot",
-      "supervisor_name": "Ahmed Mohammed Ahmed Gadallah",
-      "supervisor_id": "AMda",
+      "project_id": "M02-45-10",
+      "title": "Automated Attendance System Using Facial Recognition (FRA)",
+      "supervisor_name": "Hachemi Ahmed Nasser",
+      "supervisor_id": "HAss",
       "academic_year": "1445",
       "keywords": [
-        "Educational Chatbot",
-        "Natural Language Processing (NLP)",
-        "Student Support System",
-        "Higher Education",
-        "FAISS",
-        "Falcon-Instructor LLM",
-        "Information Retrieval",
-        "Academic Advising",
-        "FAQ Automation",
-        "Course Management",
-        "Professor Information",
-        "Virtual Assistant",
-        "College of Computer and Information Sciences (CCIS)",
-        "Imam Muhammad Ibn Saud Islamic University",
-        "Student Services"
+        "Facial Recognition",
+        "Automated Attendance System",
+        "Computer Vision",
+        "Raspberry Pi",
+        "Image Processing",
+        "Database Management",
+        "Web Application",
+        "Educational Technology",
+        "Biometric Authentication",
+        "Real-Time Recognition"
       ],
       "application": [
         "Education"
       ],
       "interest": [
-        "Natural Language Processing",
-        "Artificial Intelligence / Machine Learning"
+        "Computer Vision",
+        "Artificial Intelligence / Machine Learning",
+        "Embedded Systems"
       ],
       "rdia": [
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.4414,
-        "semantic_sim": 0.7494,
+        "final_score": 0.5304,
+        "semantic_sim": 0.7275,
         "context_score": 0.1667,
         "rdia_score": 0.5,
-        "rrf_score": 0.026748
+        "rrf_score": 0.014286
       },
       "explanation": "Good match with the group's background. Matches application domain(s): education. Aligns with the group's RDIA priority."
     },
@@ -308,7 +305,7 @@
         "Health & Wellness"
       ],
       "scores": {
-        "final_score": 0.4732,
+        "final_score": 0.5301,
         "semantic_sim": 0.727,
         "context_score": 0.1667,
         "rdia_score": 0.5,
@@ -318,127 +315,133 @@
     },
     {
       "rank": 8,
-      "project_id": "F02-43-10",
-      "title": "Facial Expression Recognition for Investigations",
-      "supervisor_name": "Lamees Abdullah Alhazzaa",
-      "supervisor_id": "LAha",
-      "academic_year": "1443",
+      "project_id": "F16-45-10",
+      "title": "Automatic audio files summarization System, EJAZ Website",
+      "supervisor_name": " Manal Khaled Alsabhan ",
+      "supervisor_id": "MKsa",
+      "academic_year": "1445",
       "keywords": [
-        "Facial Expression Analysis",
-        "Non-Verbal Communication",
-        "Emotion Recognition",
-        "Computer Vision",
-        "Police Investigations",
-        "Interview Analysis",
-        "Human Behavior Analysis",
-        "Automated Facial Recognition",
-        "Deception Detection"
+        "Audio Summarization",
+        "Speech Recognition",
+        "Natural Language Processing (NLP)",
+        "Automatic Transcription",
+        "Text Summarization",
+        "Pegasus Model",
+        "BART Model",
+        "T5 Model",
+        "Meeting Summarization",
+        "Information Extraction",
+        "Audio Processing",
+        "Deep Learning",
+        "Collaborative Tools",
+        "Time Efficiency",
+        "Content Accessibility",
+        "Multilingual Support",
+        "Cloud Storage"
       ],
       "application": [
-        "Security & Privacy"
+        "Business & Productivity"
       ],
       "interest": [
-        "Computer Vision",
+        "Natural Language Processing",
         "Artificial Intelligence / Machine Learning",
-        "Cybersecurity"
+        "Web Development"
+      ],
+      "rdia": [
+        "Economies of the Future"
+      ],
+      "scores": {
+        "final_score": 0.5268,
+        "semantic_sim": 0.7203,
+        "context_score": 0.1667,
+        "rdia_score": 0.5,
+        "rrf_score": 0.027693
+      },
+      "explanation": "Good match with the group's background. Matches application domain(s): business & productivity. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 9,
+      "project_id": "F29-45-20",
+      "title": "Hudhud: AI-based Remote Rehabilitation",
+      "supervisor_name": " Manan Mohammed Almusallam ",
+      "supervisor_id": "MMmu",
+      "academic_year": "1445",
+      "keywords": [
+        "Remote Rehabilitation",
+        "Artificial Intelligence",
+        "Pose Estimation",
+        "Computer Vision",
+        "Mediapipe",
+        "Physical Therapy",
+        "Healthcare Technology",
+        "Exercise Monitoring",
+        "Real-time Feedback",
+        "Patient Progress Tracking",
+        "Telerehabilitation",
+        "Knee Rehabilitation",
+        "Motion Detection",
+        "Body Posture Analysis",
+        "Injury Prevention",
+        "Therapeutic Exercises"
+      ],
+      "application": [
+        "Healthcare / Medical"
+      ],
+      "interest": [
+        "Artificial Intelligence / Machine Learning",
+        "Computer Vision",
+        "Human-Computer Interaction"
       ],
       "rdia": [
         "Health & Wellness"
       ],
       "scores": {
-        "final_score": 0.4474,
-        "semantic_sim": 0.7282,
+        "final_score": 0.5252,
+        "semantic_sim": 0.717,
         "context_score": 0.1667,
         "rdia_score": 0.5,
-        "rrf_score": 0.028986
+        "rrf_score": 0.026743
       },
-      "explanation": "Good match with the group's background. Matches application domain(s): security & privacy. Aligns with the group's RDIA priority."
-    },
-    {
-      "rank": 9,
-      "project_id": "M02-45-10",
-      "title": "Automated Attendance System Using Facial Recognition (FRA)",
-      "supervisor_name": "Hachemi Ahmed Nasser",
-      "supervisor_id": "HAss",
-      "academic_year": "1445",
-      "keywords": [
-        "Facial Recognition",
-        "Automated Attendance System",
-        "Computer Vision",
-        "Raspberry Pi",
-        "Image Processing",
-        "Database Management",
-        "Web Application",
-        "Educational Technology",
-        "Biometric Authentication",
-        "Real-Time Recognition"
-      ],
-      "application": [
-        "Education"
-      ],
-      "interest": [
-        "Computer Vision",
-        "Artificial Intelligence / Machine Learning",
-        "Embedded Systems"
-      ],
-      "rdia": [
-        "Economies of the Future"
-      ],
-      "scores": {
-        "final_score": 0.4352,
-        "semantic_sim": 0.7275,
-        "context_score": 0.1667,
-        "rdia_score": 0.5,
-        "rrf_score": 0.014286
-      },
-      "explanation": "Good match with the group's background. Matches application domain(s): education. Aligns with the group's RDIA priority."
+      "explanation": "Good match with the group's background. Matches application domain(s): healthcare / medical. Aligns with the group's RDIA priority."
     },
     {
       "rank": 10,
-      "project_id": "F24-45-20",
-      "title": "Botnet Attack Detection Using Machine Learning",
-      "supervisor_name": " Fatmah Ratiyan Alanazi ",
-      "supervisor_id": "FRan",
-      "academic_year": "1445",
+      "project_id": "F01-43-10",
+      "title": "Treatment of stuttering problems in children Application - TSA",
+      "supervisor_name": "Amal Suleiman Alsaif",
+      "supervisor_id": "ASsa",
+      "academic_year": "1443",
       "keywords": [
-        "Botnet Detection",
-        "Machine Learning",
-        "Ensemble Learning",
-        "Voting Classifier",
-        "Internet of Things (IoT) Security",
-        "Cybersecurity",
-        "N-BaIoT Dataset",
-        "BASHLITE Botnet",
-        "Mirai Botnet",
-        "Principal Component Analysis (PCA)",
-        "Decision Tree",
-        "K-Nearest Neighbors (KNN)",
-        "Support Vector Classifier (SVC)",
-        "Network Intrusion Detection",
-        "Anomaly Detection",
-        "Class Imbalance",
-        "Resampling Techniques",
-        "Feature Extraction"
+        "Treatment",
+        "Speech",
+        "Recognition",
+        "Stuttering",
+        "Application",
+        "Therapist",
+        "Analyze",
+        "Error findings",
+        "Speech problems",
+        "Children"
       ],
       "application": [
-        "Security & Privacy"
+        "Healthcare / Medical"
       ],
       "interest": [
         "Artificial Intelligence / Machine Learning",
-        "Cybersecurity",
-        "Data Science"
+        "Natural Language Processing",
+        "Mobile Development"
       ],
       "rdia": [
-        "Economies of the Future"
+        "Health & Wellness"
       ],
       "scores": {
-        "final_score": 0.4292,
-        "semantic_sim": 0.7029,
+        "final_score": 0.5242,
+        "semantic_sim": 0.7151,
         "context_score": 0.1667,
         "rdia_score": 0.5,
-        "rrf_score": 0.023284
+        "rrf_score": 0.027971
       },
-      "explanation": "Good match with the group's background. Matches application domain(s): security & privacy. Aligns with the group's RDIA priority."
+      "explanation": "Good match with the group's background. Matches application domain(s): healthcare / medical. Aligns with the group's RDIA priority."
     }
   ],
   "recommended_interests": [

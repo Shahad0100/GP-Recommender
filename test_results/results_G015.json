@@ -6,8 +6,8 @@
       "Web Development"
     ],
     "selected_applications": [
-      "Finance & Economics",
-      "Education"
+      "Education",
+      "Finance & Economics"
     ],
     "selected_rdia": [
       "Economies of the Future"
@@ -51,7 +51,7 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.6463,
+        "final_score": 0.7671,
         "semantic_sim": 0.7842,
         "context_score": 0.5,
         "rdia_score": 1.0,
@@ -61,76 +61,6 @@
     },
     {
       "rank": 2,
-      "project_id": "F05-42-10",
-      "title": "Decentralized Social Application: Moments",
-      "supervisor_name": " Tahani Fahad Albalawi",
-      "supervisor_id": "TFba",
-      "academic_year": "1442",
-      "keywords": [
-        "Social applications",
-        "Centralized system",
-        "Blockchain technology",
-        "Security",
-        "Privacy",
-        "Decentralized systems"
-      ],
-      "application": [
-        "Social Good & Community"
-      ],
-      "interest": [
-        "Blockchain",
-        "Web Development",
-        "Cybersecurity"
-      ],
-      "rdia": [
-        "Economies of the Future"
-      ],
-      "scores": {
-        "final_score": 0.4953,
-        "semantic_sim": 0.7573,
-        "context_score": 0.0,
-        "rdia_score": 1.0,
-        "rrf_score": 0.031498
-      },
-      "explanation": "Highly similar to the group's profile. Aligns with the group's RDIA priority."
-    },
-    {
-      "rank": 3,
-      "project_id": "F13-42-10",
-      "title": "Dolphin Application ",
-      "supervisor_name": " Eman AbdulHamid Alzaid ",
-      "supervisor_id": "EAza",
-      "academic_year": "42",
-      "keywords": [
-        "Mobile Application",
-        "Video Management",
-        "Video Retrieval",
-        "Machine Learning",
-        "Video Indexing",
-        "Smartphone Videos"
-      ],
-      "application": [
-        "Entertainment & Media"
-      ],
-      "interest": [
-        "Artificial Intelligence / Machine Learning",
-        "Mobile Development",
-        "Computer Vision"
-      ],
-      "rdia": [
-        "Economies of the Future"
-      ],
-      "scores": {
-        "final_score": 0.4869,
-        "semantic_sim": 0.7284,
-        "context_score": 0.0,
-        "rdia_score": 1.0,
-        "rrf_score": 0.028175
-      },
-      "explanation": "Good match with the group's background. Aligns with the group's RDIA priority."
-    },
-    {
-      "rank": 4,
       "project_id": "F06-42-20",
       "title": "Developing A Web Application for Automatic Code Generation",
       "supervisor_name": " Aram Saleh Al-Sedrani ",
@@ -160,7 +90,7 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.6294,
+        "final_score": 0.7628,
         "semantic_sim": 0.7755,
         "context_score": 0.5,
         "rdia_score": 1.0,
@@ -169,78 +99,7 @@
       "explanation": "Highly similar to the group's profile. Matches application domain(s): education. Aligns with the group's RDIA priority."
     },
     {
-      "rank": 5,
-      "project_id": "M09-45-10",
-      "title": "Qaimni: An Interactive, Web-Based System for Rating Faculty Members",
-      "supervisor_name": "Adel Ebrahim Al-Salem",
-      "supervisor_id": "AESa",
-      "academic_year": "1445",
-      "keywords": [
-        "Faculty Rating",
-        "Student Reviews",
-        "Anonymous Feedback",
-        "Web Application",
-        "College Platform"
-      ],
-      "application": [
-        "Education"
-      ],
-      "interest": [
-        "Web Development",
-        "Database Systems",
-        "Human-Computer Interaction"
-      ],
-      "rdia": [
-        "Economies of the Future"
-      ],
-      "scores": {
-        "final_score": 0.6494,
-        "semantic_sim": 0.7489,
-        "context_score": 0.5,
-        "rdia_score": 1.0,
-        "rrf_score": 0.031778
-      },
-      "explanation": "Good match with the group's background. Matches application domain(s): education. Aligns with the group's RDIA priority."
-    },
-    {
-      "rank": 6,
-      "project_id": "F08-45-20",
-      "title": "XIPHER: Visualization Tool for Security Algorithms",
-      "supervisor_name": " Tahani Fahad Albalawi",
-      "supervisor_id": "TFba",
-      "academic_year": "1445",
-      "keywords": [
-        "Security Algorithms",
-        "Algorithm Visualization",
-        "Security Education",
-        "Usability Evaluation",
-        "Human-Computer Interaction (HCI)",
-        "Educational Web Platform",
-        "Visualization Tools",
-        "User Experience (UX)"
-      ],
-      "application": [
-        "Education"
-      ],
-      "interest": [
-        "Cybersecurity",
-        "Web Development",
-        "Human-Computer Interaction"
-      ],
-      "rdia": [
-        "Economies of the Future"
-      ],
-      "scores": {
-        "final_score": 0.5896,
-        "semantic_sim": 0.7292,
-        "context_score": 0.5,
-        "rdia_score": 1.0,
-        "rrf_score": 0.029877
-      },
-      "explanation": "Good match with the group's background. Matches application domain(s): education. Aligns with the group's RDIA priority."
-    },
-    {
-      "rank": 7,
+      "rank": 3,
       "project_id": "F04-45-20",
       "title": "CCIS Student Assistant Chatbot",
       "supervisor_name": "Ahmed Mohammed Ahmed Gadallah",
@@ -274,7 +133,7 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.6312,
+        "final_score": 0.7497,
         "semantic_sim": 0.7494,
         "context_score": 0.5,
         "rdia_score": 1.0,
@@ -283,7 +142,41 @@
       "explanation": "Good match with the group's background. Matches application domain(s): education. Aligns with the group's RDIA priority."
     },
     {
-      "rank": 8,
+      "rank": 4,
+      "project_id": "M09-45-10",
+      "title": "Qaimni: An Interactive, Web-Based System for Rating Faculty Members",
+      "supervisor_name": "Adel Ebrahim Al-Salem",
+      "supervisor_id": "AESa",
+      "academic_year": "1445",
+      "keywords": [
+        "Faculty Rating",
+        "Student Reviews",
+        "Anonymous Feedback",
+        "Web Application",
+        "College Platform"
+      ],
+      "application": [
+        "Education"
+      ],
+      "interest": [
+        "Web Development",
+        "Database Systems",
+        "Human-Computer Interaction"
+      ],
+      "rdia": [
+        "Economies of the Future"
+      ],
+      "scores": {
+        "final_score": 0.7494,
+        "semantic_sim": 0.7489,
+        "context_score": 0.5,
+        "rdia_score": 1.0,
+        "rrf_score": 0.031778
+      },
+      "explanation": "Good match with the group's background. Matches application domain(s): education. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 5,
       "project_id": "F04-42-10",
       "title": "Evaluating Website Quality Using Machine Learning",
       "supervisor_name": "Aram Saleh Al-Sedrani ",
@@ -308,7 +201,7 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.5983,
+        "final_score": 0.7427,
         "semantic_sim": 0.7354,
         "context_score": 0.5,
         "rdia_score": 1.0,
@@ -317,53 +210,44 @@
       "explanation": "Good match with the group's background. Matches application domain(s): education. Aligns with the group's RDIA priority."
     },
     {
-      "rank": 9,
-      "project_id": "F16-45-10",
-      "title": "Automatic audio files summarization System, EJAZ Website",
-      "supervisor_name": " Manal Khaled Alsabhan ",
-      "supervisor_id": "MKsa",
+      "rank": 6,
+      "project_id": "F08-45-20",
+      "title": "XIPHER: Visualization Tool for Security Algorithms",
+      "supervisor_name": " Tahani Fahad Albalawi",
+      "supervisor_id": "TFba",
       "academic_year": "1445",
       "keywords": [
-        "Audio Summarization",
-        "Speech Recognition",
-        "Natural Language Processing (NLP)",
-        "Automatic Transcription",
-        "Text Summarization",
-        "Pegasus Model",
-        "BART Model",
-        "T5 Model",
-        "Meeting Summarization",
-        "Information Extraction",
-        "Audio Processing",
-        "Deep Learning",
-        "Collaborative Tools",
-        "Time Efficiency",
-        "Content Accessibility",
-        "Multilingual Support",
-        "Cloud Storage"
+        "Security Algorithms",
+        "Algorithm Visualization",
+        "Security Education",
+        "Usability Evaluation",
+        "Human-Computer Interaction (HCI)",
+        "Educational Web Platform",
+        "Visualization Tools",
+        "User Experience (UX)"
       ],
       "application": [
-        "Business & Productivity"
+        "Education"
       ],
       "interest": [
-        "Natural Language Processing",
-        "Artificial Intelligence / Machine Learning",
-        "Web Development"
+        "Cybersecurity",
+        "Web Development",
+        "Human-Computer Interaction"
       ],
       "rdia": [
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.4682,
-        "semantic_sim": 0.7196,
-        "context_score": 0.0,
+        "final_score": 0.7396,
+        "semantic_sim": 0.7292,
+        "context_score": 0.5,
         "rdia_score": 1.0,
-        "rrf_score": 0.026905
+        "rrf_score": 0.029877
       },
-      "explanation": "Good match with the group's background. Aligns with the group's RDIA priority."
+      "explanation": "Good match with the group's background. Matches application domain(s): education. Aligns with the group's RDIA priority."
     },
     {
-      "rank": 10,
+      "rank": 7,
       "project_id": "M02-45-10",
       "title": "Automated Attendance System Using Facial Recognition (FRA)",
       "supervisor_name": "Hachemi Ahmed Nasser",
@@ -393,13 +277,128 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.6153,
+        "final_score": 0.7296,
         "semantic_sim": 0.7092,
         "context_score": 0.5,
         "rdia_score": 1.0,
         "rrf_score": 0.029387
       },
       "explanation": "Good match with the group's background. Matches application domain(s): education. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 8,
+      "project_id": "F22-45-20",
+      "title": "Smart Attendance Management System Using iBeacon Technology (حضورك)",
+      "supervisor_name": " Tahani Fahad Albalawi",
+      "supervisor_id": "TFba",
+      "academic_year": "1445",
+      "keywords": [
+        "Attendance Management System",
+        "iBeacon Technology",
+        "Bluetooth Low Energy (BLE)",
+        "Mobile Application",
+        "Automated Attendance",
+        "Educational Technology",
+        "Real-time Tracking",
+        "Student Authentication",
+        "Location Verification",
+        "Signal Processing",
+        "User Interface Design",
+        "Data Analytics",
+        "Higher Education",
+        "Proximity Detection",
+        "Hudurk",
+        "Classroom Management",
+        "Smart Campus"
+      ],
+      "application": [
+        "Education"
+      ],
+      "interest": [
+        "Mobile Development",
+        "Human-Computer Interaction",
+        "Internet of Things (IoT)"
+      ],
+      "rdia": [
+        "Economies of the Future"
+      ],
+      "scores": {
+        "final_score": 0.7221,
+        "semantic_sim": 0.6941,
+        "context_score": 0.5,
+        "rdia_score": 1.0,
+        "rrf_score": 0.026357
+      },
+      "explanation": "Good match with the group's background. Matches application domain(s): education. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 9,
+      "project_id": "F05-42-10",
+      "title": "Decentralized Social Application: Moments",
+      "supervisor_name": " Tahani Fahad Albalawi",
+      "supervisor_id": "TFba",
+      "academic_year": "1442",
+      "keywords": [
+        "Social applications",
+        "Centralized system",
+        "Blockchain technology",
+        "Security",
+        "Privacy",
+        "Decentralized systems"
+      ],
+      "application": [
+        "Social Good & Community"
+      ],
+      "interest": [
+        "Blockchain",
+        "Web Development",
+        "Cybersecurity"
+      ],
+      "rdia": [
+        "Economies of the Future"
+      ],
+      "scores": {
+        "final_score": 0.6286,
+        "semantic_sim": 0.7573,
+        "context_score": 0.0,
+        "rdia_score": 1.0,
+        "rrf_score": 0.031498
+      },
+      "explanation": "Highly similar to the group's profile. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 10,
+      "project_id": "M08-45-20",
+      "title": "Nab’a Application",
+      "supervisor_name": "Mohammed Hussein Alkhatib",
+      "supervisor_id": "MHkh",
+      "academic_year": "1445",
+      "keywords": [
+        "News",
+        "Verified News",
+        "Trusted Information",
+        "Misinformation",
+        "Blockchain"
+      ],
+      "application": [
+        "Entertainment & Media"
+      ],
+      "interest": [
+        "Blockchain",
+        "Web Development",
+        "Mobile Development"
+      ],
+      "rdia": [
+        "Economies of the Future"
+      ],
+      "scores": {
+        "final_score": 0.6157,
+        "semantic_sim": 0.7314,
+        "context_score": 0.0,
+        "rdia_score": 1.0,
+        "rrf_score": 0.029851
+      },
+      "explanation": "Good match with the group's background. Aligns with the group's RDIA priority."
     }
   ],
   "recommended_interests": [
