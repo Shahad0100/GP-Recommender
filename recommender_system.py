@@ -79,6 +79,7 @@ class RecommenderSystem:
         Input group_json:
         {
           "group_id": "G001",
+          "weighting_mode": "courese_heavy" or "interests_heavy" or defult=balanced
           "students": [
             {
               "student_id": "S001",

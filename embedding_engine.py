@@ -212,6 +212,14 @@ class EmbeddingEngine:
           group_vec  : np.ndarray
           group_meta : {selected_interests, selected_applications, selected_rdia}
         """
+        weighting_mode = group_json.get("weighting_mode", "balanced")
+        if weighting_mode == "courses_heavy":
+            comp_w, int_w = 0.75, 0.25
+        elif weighting_mode == "interests_heavy":
+            comp_w, int_w = 0.25, 0.75
+        else:
+            comp_w, int_w = 0.50, 0.50
+            
         student_vecs  = []
         all_interests = set()
         all_apps      = set()
@@ -221,7 +229,7 @@ class EmbeddingEngine:
             comp_vec = self._build_competency_vec(student)
             int_vec  = self._build_interest_vec(student)
 
-            student_vec = normalize(average_vectors([comp_vec, int_vec]))
+            student_vec = normalize(comp_w * comp_vec + int_w * int_vec)
             student_vecs.append(student_vec)
 
             all_interests.update(student.get("interests", []))
