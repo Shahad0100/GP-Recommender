@@ -7,12 +7,12 @@
     ],
     "selected_applications": [
       "Transportation & Mobility",
-      "Entertainment & Media",
-      "Security & Privacy"
+      "Security & Privacy",
+      "Entertainment & Media"
     ],
     "selected_rdia": [
-      "Energy & Industrial Leadership",
-      "Economies of the Future"
+      "Economies of the Future",
+      "Energy & Industrial Leadership"
     ]
   },
   "recommended_projects": [
@@ -43,8 +43,8 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.6041,
-        "semantic_sim": 0.7914,
+        "final_score": 0.5989,
+        "semantic_sim": 0.7812,
         "context_score": 0.3333,
         "rdia_score": 0.5,
         "rrf_score": 0.032787
@@ -53,53 +53,6 @@
     },
     {
       "rank": 2,
-      "project_id": "F20-45-20",
-      "title": "Abnormal Event Detection for Video Surveillance (SecuritEye)",
-      "supervisor_name": " Wojdan Mohammed BinSaeedan ",
-      "supervisor_id": "WMnS",
-      "academic_year": "1445",
-      "keywords": [
-        "Abnormal Event Detection",
-        "Video Surveillance",
-        "Deep Learning",
-        "ConvLSTM",
-        "Long-term Recurrent Convolutional Networks (LRCN)",
-        "Smart Cities",
-        "Public Safety",
-        "UCF Crime Dataset",
-        "Anomaly Detection",
-        "Computer Vision",
-        "Convolutional Neural Networks (CNN)",
-        "Recurrent Neural Networks (RNN)",
-        "Long Short-Term Memory (LSTM)",
-        "Real-time Monitoring",
-        "Security Systems",
-        "Crime Detection",
-        "Video Analysis",
-        "SecuritEye"
-      ],
-      "application": [
-        "Security & Privacy"
-      ],
-      "interest": [
-        "Artificial Intelligence / Machine Learning",
-        "Computer Vision",
-        "Data Science"
-      ],
-      "rdia": [
-        "Economies of the Future"
-      ],
-      "scores": {
-        "final_score": 0.5917,
-        "semantic_sim": 0.7667,
-        "context_score": 0.3333,
-        "rdia_score": 0.5,
-        "rrf_score": 0.029236
-      },
-      "explanation": "Highly similar to the group's profile. Matches application domain(s): security & privacy. Aligns with the group's RDIA priority."
-    },
-    {
-      "rank": 3,
       "project_id": "F28-45-20",
       "title": "AI-trip planner and advisor",
       "supervisor_name": " Raad Abdullah Alturki",
@@ -137,13 +90,60 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.5854,
-        "semantic_sim": 0.754,
+        "final_score": 0.5878,
+        "semantic_sim": 0.7589,
         "context_score": 0.3333,
         "rdia_score": 0.5,
-        "rrf_score": 0.029857
+        "rrf_score": 0.030536
       },
       "explanation": "Highly similar to the group's profile. Matches application domain(s): transportation & mobility. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 3,
+      "project_id": "F20-45-20",
+      "title": "Abnormal Event Detection for Video Surveillance (SecuritEye)",
+      "supervisor_name": " Wojdan Mohammed BinSaeedan ",
+      "supervisor_id": "WMnS",
+      "academic_year": "1445",
+      "keywords": [
+        "Abnormal Event Detection",
+        "Video Surveillance",
+        "Deep Learning",
+        "ConvLSTM",
+        "Long-term Recurrent Convolutional Networks (LRCN)",
+        "Smart Cities",
+        "Public Safety",
+        "UCF Crime Dataset",
+        "Anomaly Detection",
+        "Computer Vision",
+        "Convolutional Neural Networks (CNN)",
+        "Recurrent Neural Networks (RNN)",
+        "Long Short-Term Memory (LSTM)",
+        "Real-time Monitoring",
+        "Security Systems",
+        "Crime Detection",
+        "Video Analysis",
+        "SecuritEye"
+      ],
+      "application": [
+        "Security & Privacy"
+      ],
+      "interest": [
+        "Artificial Intelligence / Machine Learning",
+        "Computer Vision",
+        "Data Science"
+      ],
+      "rdia": [
+        "Economies of the Future"
+      ],
+      "scores": {
+        "final_score": 0.5856,
+        "semantic_sim": 0.7546,
+        "context_score": 0.3333,
+        "rdia_score": 0.5,
+        "rrf_score": 0.029236
+      },
+      "explanation": "Highly similar to the group's profile. Matches application domain(s): security & privacy. Aligns with the group's RDIA priority."
     },
     {
       "rank": 4,
@@ -184,16 +184,53 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.5762,
-        "semantic_sim": 0.7358,
+        "final_score": 0.5736,
+        "semantic_sim": 0.7304,
         "context_score": 0.3333,
         "rdia_score": 0.5,
-        "rrf_score": 0.027106
+        "rrf_score": 0.027273
       },
       "explanation": "Good match with the group's background. Matches application domain(s): security & privacy. Aligns with the group's RDIA priority."
     },
     {
       "rank": 5,
+      "project_id": "F14-42-20",
+      "title": "Book Recommendation System based on Collaboration Filtering (RICO)",
+      "supervisor_name": " Wojdan Mohammed BinSaeedan",
+      "supervisor_id": "WMnS",
+      "academic_year": "42",
+      "keywords": [
+        "Recommendation System",
+        "Collaborative Filtering",
+        "User Preferences",
+        "KNN Algorithm",
+        "Django Framework",
+        "Information Filtering",
+        "Content Personalization",
+        "Data Overload Management"
+      ],
+      "application": [
+        "Entertainment & Media"
+      ],
+      "interest": [
+        "Web Development",
+        "Artificial Intelligence / Machine Learning",
+        "Database Systems"
+      ],
+      "rdia": [
+        "Economies of the Future"
+      ],
+      "scores": {
+        "final_score": 0.5666,
+        "semantic_sim": 0.7165,
+        "context_score": 0.3333,
+        "rdia_score": 0.5,
+        "rrf_score": 0.02753
+      },
+      "explanation": "Good match with the group's background. Matches application domain(s): entertainment & media. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 6,
       "project_id": "F02-45-20",
       "title": "DeepFake Videos Detection Based on A Hybrid Model Using Deep Learning",
       "supervisor_name": "Waleed Ahmed Alrodhan",
@@ -225,16 +262,16 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.571,
-        "semantic_sim": 0.7253,
+        "final_score": 0.5642,
+        "semantic_sim": 0.7117,
         "context_score": 0.3333,
         "rdia_score": 0.5,
-        "rrf_score": 0.028068
+        "rrf_score": 0.027638
       },
       "explanation": "Good match with the group's background. Matches application domain(s): security & privacy. Aligns with the group's RDIA priority."
     },
     {
-      "rank": 6,
+      "rank": 7,
       "project_id": "M02-45-20",
       "title": "Detection of Adversarial Attacks Malwares Using Machine Learning Models",
       "supervisor_name": "Wojdan Mohammed BinSaeedan",
@@ -270,16 +307,16 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.5705,
-        "semantic_sim": 0.7244,
+        "final_score": 0.56,
+        "semantic_sim": 0.7034,
         "context_score": 0.3333,
         "rdia_score": 0.5,
-        "rrf_score": 0.026541
+        "rrf_score": 0.025729
       },
       "explanation": "Good match with the group's background. Matches application domain(s): security & privacy. Aligns with the group's RDIA priority."
     },
     {
-      "rank": 7,
+      "rank": 8,
       "project_id": "F08-42-20",
       "title": "Detecting Malicious PowerShell Scripts using Machine Learning",
       "supervisor_name": " Wojdan Mohammed BinSaeedan",
@@ -309,50 +346,13 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.5675,
-        "semantic_sim": 0.7184,
+        "final_score": 0.5596,
+        "semantic_sim": 0.7025,
         "context_score": 0.3333,
         "rdia_score": 0.5,
-        "rrf_score": 0.027013
+        "rrf_score": 0.026496
       },
       "explanation": "Good match with the group's background. Matches application domain(s): security & privacy. Aligns with the group's RDIA priority."
-    },
-    {
-      "rank": 8,
-      "project_id": "F14-42-20",
-      "title": "Book Recommendation System based on Collaboration Filtering (RICO)",
-      "supervisor_name": " Wojdan Mohammed BinSaeedan",
-      "supervisor_id": "WMnS",
-      "academic_year": "42",
-      "keywords": [
-        "Recommendation System",
-        "Collaborative Filtering",
-        "User Preferences",
-        "KNN Algorithm",
-        "Django Framework",
-        "Information Filtering",
-        "Content Personalization",
-        "Data Overload Management"
-      ],
-      "application": [
-        "Entertainment & Media"
-      ],
-      "interest": [
-        "Web Development",
-        "Artificial Intelligence / Machine Learning",
-        "Database Systems"
-      ],
-      "rdia": [
-        "Economies of the Future"
-      ],
-      "scores": {
-        "final_score": 0.564,
-        "semantic_sim": 0.7112,
-        "context_score": 0.3333,
-        "rdia_score": 0.5,
-        "rrf_score": 0.026861
-      },
-      "explanation": "Good match with the group's background. Matches application domain(s): entertainment & media. Aligns with the group's RDIA priority."
     },
     {
       "rank": 9,
@@ -391,50 +391,54 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.5187,
-        "semantic_sim": 0.7874,
+        "final_score": 0.5064,
+        "semantic_sim": 0.7628,
         "context_score": 0.0,
         "rdia_score": 0.5,
-        "rrf_score": 0.016129
+        "rrf_score": 0.015625
       },
       "explanation": "Highly similar to the group's profile. Aligns with the group's RDIA priority."
     },
     {
       "rank": 10,
-      "project_id": "F06-42-20",
-      "title": "Developing A Web Application for Automatic Code Generation",
-      "supervisor_name": " Aram Saleh Al-Sedrani ",
-      "supervisor_id": "ASSe",
-      "academic_year": "1442",
+      "project_id": "F04-45-20",
+      "title": "CCIS Student Assistant Chatbot",
+      "supervisor_name": "Ahmed Mohammed Ahmed Gadallah",
+      "supervisor_id": "AMda",
+      "academic_year": "1445",
       "keywords": [
-        "Automatic Code Generation",
-        "ACG",
-        "software development",
-        "web application",
-        "Python",
-        "Java",
-        "XML parser",
-        "flowchart",
-        "algorithms",
-        "GUI"
+        "Educational Chatbot",
+        "Natural Language Processing (NLP)",
+        "Student Support System",
+        "Higher Education",
+        "FAISS",
+        "Falcon-Instructor LLM",
+        "Information Retrieval",
+        "Academic Advising",
+        "FAQ Automation",
+        "Course Management",
+        "Professor Information",
+        "Virtual Assistant",
+        "College of Computer and Information Sciences (CCIS)",
+        "Imam Muhammad Ibn Saud Islamic University",
+        "Student Services"
       ],
       "application": [
         "Education"
       ],
       "interest": [
-        "Artificial Intelligence / Machine Learning",
-        "Web Development",
-        "Software Engineering"
+        "Natural Language Processing",
+        "Artificial Intelligence / Machine Learning"
       ],
       "rdia": [
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.5035,
-        "semantic_sim": 0.757,
+        "final_score": 0.5007,
+        "semantic_sim": 0.7514,
         "context_score": 0.0,
         "rdia_score": 0.5,
-        "rrf_score": 0.014925
+        "rrf_score": 0.014706
       },
       "explanation": "Highly similar to the group's profile. Aligns with the group's RDIA priority."
     }
@@ -443,25 +447,25 @@
     {
       "name": "Artificial Intelligence / Machine Learning",
       "description": "Focuses on building systems that learn from data, make predictions, and perform intelligent tasks without explicit programming.",
-      "combined_score": 0.9137,
-      "semantic_score": 0.8767,
+      "combined_score": 0.9106,
+      "semantic_score": 0.8723,
       "frequency_in_top_projects": 1.0,
       "already_selected": true
     },
     {
       "name": "Computer Vision",
       "description": "Enables machines to interpret and understand visual information from images and videos using AI techniques.",
-      "combined_score": 0.8048,
-      "semantic_score": 0.8282,
-      "frequency_in_top_projects": 0.75,
+      "combined_score": 0.7724,
+      "semantic_score": 0.8177,
+      "frequency_in_top_projects": 0.6666666666666666,
       "already_selected": true
     },
     {
       "name": "Data Science",
       "description": "Involves extracting insights from structured and unstructured data using statistics, machine learning, and analytical techniques.",
-      "combined_score": 0.6685,
-      "semantic_score": 0.7942,
-      "frequency_in_top_projects": 0.375,
+      "combined_score": 0.6546,
+      "semantic_score": 0.7923,
+      "frequency_in_top_projects": 0.3333333333333333,
       "already_selected": false
     }
   ],
@@ -469,25 +473,25 @@
     {
       "name": "Education",
       "description": "Focuses on systems and applications for learning, teaching, and academic support.",
-      "combined_score": 0.853,
-      "semantic_score": 0.79,
+      "combined_score": 0.8491,
+      "semantic_score": 0.7845,
       "frequency_in_top_projects": 1.0,
       "already_selected": false
     },
     {
       "name": "Security & Privacy",
       "description": "Pertains to protecting data, networks, and systems from unauthorized access.",
-      "combined_score": 0.6703,
-      "semantic_score": 0.7433,
-      "frequency_in_top_projects": 0.5,
+      "combined_score": 0.7167,
+      "semantic_score": 0.7381,
+      "frequency_in_top_projects": 0.6666666666666666,
       "already_selected": true
     },
     {
       "name": "Transportation & Mobility",
       "description": "Pertains to technology related to the movement of people and goods.",
-      "combined_score": 0.6545,
-      "semantic_score": 0.7208,
-      "frequency_in_top_projects": 0.5,
+      "combined_score": 0.7037,
+      "semantic_score": 0.7196,
+      "frequency_in_top_projects": 0.6666666666666666,
       "already_selected": true
     }
   ],
@@ -495,32 +499,32 @@
     {
       "label": "Economies of the Future",
       "description": "Reimagine urban living and establish Saudi Arabia as a global leader in future-oriented sectors. ",
-      "combined_score": 0.8059,
-      "semantic_score": 0.7228,
+      "combined_score": 0.8063,
+      "semantic_score": 0.7233,
       "frequency_in_top_projects": 1.0,
       "already_selected": true
     },
     {
       "label": "Sustainable Environment & Supply of Essential Needs",
       "description": "Secure sustainable access to water, food, and energy resources for the population and industries.",
-      "combined_score": 0.5574,
-      "semantic_score": 0.6739,
+      "combined_score": 0.5661,
+      "semantic_score": 0.6863,
       "frequency_in_top_projects": 0.2857142857142857,
       "already_selected": false
     },
     {
       "label": "Energy & Industrial Leadership",
       "description": "Maintain and strengthen Saudi Arabia's global leadership in the energy sector while diversifying into new areas.",
-      "combined_score": 0.4563,
-      "semantic_score": 0.6518,
+      "combined_score": 0.4626,
+      "semantic_score": 0.6609,
       "frequency_in_top_projects": 0,
       "already_selected": true
     },
     {
       "label": "Health & Wellness",
       "description": "Address prevalent health and therapeutic challenges in the Kingdom.",
-      "combined_score": 0.435,
-      "semantic_score": 0.5603,
+      "combined_score": 0.4328,
+      "semantic_score": 0.557,
       "frequency_in_top_projects": 0.14285714285714285,
       "already_selected": false
     }

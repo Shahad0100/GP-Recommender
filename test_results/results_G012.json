@@ -2,35 +2,35 @@
   "group_id": "G012",
   "group_profile": {
     "selected_interests": [
-      "DevOps",
-      "Blockchain",
       "Network Systems",
+      "DevOps",
+      "Cybersecurity",
+      "Mobile Development",
+      "Cloud Computing",
       "Robotics",
       "Internet of Things (IoT)",
+      "Blockchain",
       "Artificial Intelligence / Machine Learning",
-      "Cloud Computing",
-      "Embedded Systems",
-      "Mobile Development",
       "Data Science",
       "Web Development",
-      "Cybersecurity"
+      "Embedded Systems"
     ],
     "selected_applications": [
-      "Government & Public Sector",
-      "Business & Productivity",
-      "Education",
       "Social Good & Community",
+      "Business & Productivity",
       "Finance & Economics",
       "Transportation & Mobility",
-      "Healthcare / Medical",
       "Security & Privacy",
-      "Sustainability & Environment"
+      "Government & Public Sector",
+      "Sustainability & Environment",
+      "Education",
+      "Healthcare / Medical"
     ],
     "selected_rdia": [
       "Energy & Industrial Leadership",
-      "Health & Wellness",
+      "Economies of the Future",
       "Sustainable Environment & Supply of Essential Needs",
-      "Economies of the Future"
+      "Health & Wellness"
     ]
   },
   "recommended_projects": [
@@ -65,8 +65,8 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.4835,
-        "semantic_sim": 0.7864,
+        "final_score": 0.4757,
+        "semantic_sim": 0.7709,
         "context_score": 0.1111,
         "rdia_score": 0.25,
         "rrf_score": 0.016393
@@ -75,6 +75,123 @@
     },
     {
       "rank": 2,
+      "project_id": "F04-45-20",
+      "title": "CCIS Student Assistant Chatbot",
+      "supervisor_name": "Ahmed Mohammed Ahmed Gadallah",
+      "supervisor_id": "AMda",
+      "academic_year": "1445",
+      "keywords": [
+        "Educational Chatbot",
+        "Natural Language Processing (NLP)",
+        "Student Support System",
+        "Higher Education",
+        "FAISS",
+        "Falcon-Instructor LLM",
+        "Information Retrieval",
+        "Academic Advising",
+        "FAQ Automation",
+        "Course Management",
+        "Professor Information",
+        "Virtual Assistant",
+        "College of Computer and Information Sciences (CCIS)",
+        "Imam Muhammad Ibn Saud Islamic University",
+        "Student Services"
+      ],
+      "application": [
+        "Education"
+      ],
+      "interest": [
+        "Natural Language Processing",
+        "Artificial Intelligence / Machine Learning"
+      ],
+      "rdia": [
+        "Economies of the Future"
+      ],
+      "scores": {
+        "final_score": 0.4715,
+        "semantic_sim": 0.7625,
+        "context_score": 0.1111,
+        "rdia_score": 0.25,
+        "rrf_score": 0.016129
+      },
+      "explanation": "Highly similar to the group's profile. Matches application domain(s): education. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 3,
+      "project_id": "M04-45-10",
+      "title": "Smart Car Parking Manager (SCPM)",
+      "supervisor_name": " Mostafa Elsayed Ahmed Ibrahim",
+      "supervisor_id": "MEra",
+      "academic_year": "1445",
+      "keywords": [
+        "Smart Parking System",
+        "Parking Management",
+        "Raspberry Pi",
+        "Sensor-Based Detection",
+        "License Plate Recognition",
+        "Computer Vision",
+        "Web Application",
+        "SQL Database",
+        "Real-Time Monitoring",
+        "Agile Development"
+      ],
+      "application": [
+        "Transportation & Mobility"
+      ],
+      "interest": [
+        "Computer Vision",
+        "Internet of Things (IoT)",
+        "Embedded Systems"
+      ],
+      "rdia": [
+        "Sustainable Environment & Supply of Essential Needs"
+      ],
+      "scores": {
+        "final_score": 0.4678,
+        "semantic_sim": 0.755,
+        "context_score": 0.1111,
+        "rdia_score": 0.25,
+        "rrf_score": 0.031754
+      },
+      "explanation": "Highly similar to the group's profile. Matches application domain(s): transportation & mobility. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 4,
+      "project_id": "F05-42-10",
+      "title": "Decentralized Social Application: Moments",
+      "supervisor_name": " Tahani Fahad Albalawi",
+      "supervisor_id": "TFba",
+      "academic_year": "1442",
+      "keywords": [
+        "Social applications",
+        "Centralized system",
+        "Blockchain technology",
+        "Security",
+        "Privacy",
+        "Decentralized systems"
+      ],
+      "application": [
+        "Social Good & Community"
+      ],
+      "interest": [
+        "Blockchain",
+        "Web Development",
+        "Cybersecurity"
+      ],
+      "rdia": [
+        "Economies of the Future"
+      ],
+      "scores": {
+        "final_score": 0.4664,
+        "semantic_sim": 0.7523,
+        "context_score": 0.1111,
+        "rdia_score": 0.25,
+        "rrf_score": 0.030769
+      },
+      "explanation": "Highly similar to the group's profile. Matches application domain(s): social good & community. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 5,
       "project_id": "F06-45-20",
       "title": "Predicting Programming Skills Among Novice Programmers",
       "supervisor_name": " Basma Suleiman Alqadi ",
@@ -110,133 +227,50 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.4761,
-        "semantic_sim": 0.7716,
+        "final_score": 0.4627,
+        "semantic_sim": 0.7449,
         "context_score": 0.1111,
         "rdia_score": 0.25,
-        "rrf_score": 0.015873
+        "rrf_score": 0.015152
       },
-      "explanation": "Highly similar to the group's profile. Matches application domain(s): education. Aligns with the group's RDIA priority."
+      "explanation": "Good match with the group's background. Matches application domain(s): education. Aligns with the group's RDIA priority."
     },
     {
-      "rank": 3,
-      "project_id": "M04-45-10",
-      "title": "Smart Car Parking Manager (SCPM)",
-      "supervisor_name": " Mostafa Elsayed Ahmed Ibrahim",
-      "supervisor_id": "MEra",
+      "rank": 6,
+      "project_id": "M09-45-10",
+      "title": "Qaimni: An Interactive, Web-Based System for Rating Faculty Members",
+      "supervisor_name": "Adel Ebrahim Al-Salem",
+      "supervisor_id": "AESa",
       "academic_year": "1445",
       "keywords": [
-        "Smart Parking System",
-        "Parking Management",
-        "Raspberry Pi",
-        "Sensor-Based Detection",
-        "License Plate Recognition",
-        "Computer Vision",
+        "Faculty Rating",
+        "Student Reviews",
+        "Anonymous Feedback",
         "Web Application",
-        "SQL Database",
-        "Real-Time Monitoring",
-        "Agile Development"
-      ],
-      "application": [
-        "Transportation & Mobility"
-      ],
-      "interest": [
-        "Computer Vision",
-        "Internet of Things (IoT)",
-        "Embedded Systems"
-      ],
-      "rdia": [
-        "Sustainable Environment & Supply of Essential Needs"
-      ],
-      "scores": {
-        "final_score": 0.4746,
-        "semantic_sim": 0.7686,
-        "context_score": 0.1111,
-        "rdia_score": 0.25,
-        "rrf_score": 0.031754
-      },
-      "explanation": "Highly similar to the group's profile. Matches application domain(s): transportation & mobility. Aligns with the group's RDIA priority."
-    },
-    {
-      "rank": 4,
-      "project_id": "F04-45-20",
-      "title": "CCIS Student Assistant Chatbot",
-      "supervisor_name": "Ahmed Mohammed Ahmed Gadallah",
-      "supervisor_id": "AMda",
-      "academic_year": "1445",
-      "keywords": [
-        "Educational Chatbot",
-        "Natural Language Processing (NLP)",
-        "Student Support System",
-        "Higher Education",
-        "FAISS",
-        "Falcon-Instructor LLM",
-        "Information Retrieval",
-        "Academic Advising",
-        "FAQ Automation",
-        "Course Management",
-        "Professor Information",
-        "Virtual Assistant",
-        "College of Computer and Information Sciences (CCIS)",
-        "Imam Muhammad Ibn Saud Islamic University",
-        "Student Services"
+        "College Platform"
       ],
       "application": [
         "Education"
       ],
       "interest": [
-        "Natural Language Processing",
-        "Artificial Intelligence / Machine Learning"
-      ],
-      "rdia": [
-        "Economies of the Future"
-      ],
-      "scores": {
-        "final_score": 0.4691,
-        "semantic_sim": 0.7577,
-        "context_score": 0.1111,
-        "rdia_score": 0.25,
-        "rrf_score": 0.015385
-      },
-      "explanation": "Highly similar to the group's profile. Matches application domain(s): education. Aligns with the group's RDIA priority."
-    },
-    {
-      "rank": 5,
-      "project_id": "F05-42-10",
-      "title": "Decentralized Social Application: Moments",
-      "supervisor_name": " Tahani Fahad Albalawi",
-      "supervisor_id": "TFba",
-      "academic_year": "1442",
-      "keywords": [
-        "Social applications",
-        "Centralized system",
-        "Blockchain technology",
-        "Security",
-        "Privacy",
-        "Decentralized systems"
-      ],
-      "application": [
-        "Social Good & Community"
-      ],
-      "interest": [
-        "Blockchain",
         "Web Development",
-        "Cybersecurity"
+        "Database Systems",
+        "Human-Computer Interaction"
       ],
       "rdia": [
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.4647,
-        "semantic_sim": 0.7488,
+        "final_score": 0.4625,
+        "semantic_sim": 0.7445,
         "context_score": 0.1111,
         "rdia_score": 0.25,
-        "rrf_score": 0.030536
+        "rrf_score": 0.014925
       },
-      "explanation": "Good match with the group's background. Matches application domain(s): social good & community. Aligns with the group's RDIA priority."
+      "explanation": "Good match with the group's background. Matches application domain(s): education. Aligns with the group's RDIA priority."
     },
     {
-      "rank": 6,
+      "rank": 7,
       "project_id": "M10-45-10",
       "title": "School Bus Tracking and Management system",
       "supervisor_name": "Ahmed Mohammed Ahmed Gadallah",
@@ -264,50 +298,93 @@
         "Sustainable Environment & Supply of Essential Needs"
       ],
       "scores": {
-        "final_score": 0.4637,
-        "semantic_sim": 0.7468,
+        "final_score": 0.4586,
+        "semantic_sim": 0.7367,
         "context_score": 0.1111,
         "rdia_score": 0.25,
-        "rrf_score": 0.030798
+        "rrf_score": 0.030579
       },
       "explanation": "Good match with the group's background. Matches application domain(s): transportation & mobility. Aligns with the group's RDIA priority."
     },
     {
-      "rank": 7,
-      "project_id": "M09-45-10",
-      "title": "Qaimni: An Interactive, Web-Based System for Rating Faculty Members",
-      "supervisor_name": "Adel Ebrahim Al-Salem",
-      "supervisor_id": "AESa",
+      "rank": 8,
+      "project_id": "F07-45-10",
+      "title": "Secure Healthcare Information Exchange Platform ‘KEEP SAFE’",
+      "supervisor_name": "Eman AbdulHamid Alzaid",
+      "supervisor_id": "EAza",
       "academic_year": "1445",
       "keywords": [
-        "Faculty Rating",
-        "Student Reviews",
-        "Anonymous Feedback",
+        "Electronic Medical Records (EMR)",
+        "Blockchain Technology",
+        "Healthcare Information Systems",
+        "Secure Medical Data Sharing",
+        "Decentralized Data Protection",
+        "Patient Data Privacy",
+        "EMR Exchange Scheme",
+        "Digital Identity Verification",
+        "Healthcare Cybersecurity"
+      ],
+      "application": [
+        "Healthcare / Medical"
+      ],
+      "interest": [
+        "Blockchain",
+        "Cybersecurity",
+        "Mobile Development"
+      ],
+      "rdia": [
+        "Health & Wellness"
+      ],
+      "scores": {
+        "final_score": 0.4586,
+        "semantic_sim": 0.7366,
+        "context_score": 0.1111,
+        "rdia_score": 0.25,
+        "rrf_score": 0.029418
+      },
+      "explanation": "Good match with the group's background. Matches application domain(s): healthcare / medical. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 9,
+      "project_id": "M02-45-10",
+      "title": "Automated Attendance System Using Facial Recognition (FRA)",
+      "supervisor_name": "Hachemi Ahmed Nasser",
+      "supervisor_id": "HAss",
+      "academic_year": "1445",
+      "keywords": [
+        "Facial Recognition",
+        "Automated Attendance System",
+        "Computer Vision",
+        "Raspberry Pi",
+        "Image Processing",
+        "Database Management",
         "Web Application",
-        "College Platform"
+        "Educational Technology",
+        "Biometric Authentication",
+        "Real-Time Recognition"
       ],
       "application": [
         "Education"
       ],
       "interest": [
-        "Web Development",
-        "Database Systems",
-        "Human-Computer Interaction"
+        "Computer Vision",
+        "Artificial Intelligence / Machine Learning",
+        "Embedded Systems"
       ],
       "rdia": [
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.4617,
-        "semantic_sim": 0.7427,
+        "final_score": 0.4562,
+        "semantic_sim": 0.7319,
         "context_score": 0.1111,
         "rdia_score": 0.25,
-        "rrf_score": 0.014706
+        "rrf_score": 0.014286
       },
       "explanation": "Good match with the group's background. Matches application domain(s): education. Aligns with the group's RDIA priority."
     },
     {
-      "rank": 8,
+      "rank": 10,
       "project_id": "F06-45-10",
       "title": "Get It: A Deep Learning Approach for Identifying and Discriminating Spoken Arabic Among English",
       "supervisor_name": "Wojdan Mohammed BinSaeedan",
@@ -344,118 +421,37 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.4615,
-        "semantic_sim": 0.7424,
-        "context_score": 0.1111,
-        "rdia_score": 0.25,
-        "rrf_score": 0.014493
-      },
-      "explanation": "Good match with the group's background. Matches application domain(s): business & productivity. Aligns with the group's RDIA priority."
-    },
-    {
-      "rank": 9,
-      "project_id": "F07-45-10",
-      "title": "Secure Healthcare Information Exchange Platform ‘KEEP SAFE’",
-      "supervisor_name": "Eman AbdulHamid Alzaid",
-      "supervisor_id": "EAza",
-      "academic_year": "1445",
-      "keywords": [
-        "Electronic Medical Records (EMR)",
-        "Blockchain Technology",
-        "Healthcare Information Systems",
-        "Secure Medical Data Sharing",
-        "Decentralized Data Protection",
-        "Patient Data Privacy",
-        "EMR Exchange Scheme",
-        "Digital Identity Verification",
-        "Healthcare Cybersecurity"
-      ],
-      "application": [
-        "Healthcare / Medical"
-      ],
-      "interest": [
-        "Blockchain",
-        "Cybersecurity",
-        "Mobile Development"
-      ],
-      "rdia": [
-        "Health & Wellness"
-      ],
-      "scores": {
-        "final_score": 0.4613,
-        "semantic_sim": 0.7421,
-        "context_score": 0.1111,
-        "rdia_score": 0.25,
-        "rrf_score": 0.029211
-      },
-      "explanation": "Good match with the group's background. Matches application domain(s): healthcare / medical. Aligns with the group's RDIA priority."
-    },
-    {
-      "rank": 10,
-      "project_id": "F04-45-10",
-      "title": "Baseera بصيرة : Accessible Mobile App for Blind Children",
-      "supervisor_name": " Manan Mohammed Almusallam ",
-      "supervisor_id": "MMmu",
-      "academic_year": "1445",
-      "keywords": [
-        "Accessible Mobile Application",
-        "Blind Children",
-        "Visual Impairment",
-        "Assistive Technology",
-        "Educational Game",
-        "Arabic Language Support",
-        "Preschool Education",
-        "Audio Feedback",
-        "Numbers Learning",
-        "Counting Skills",
-        "Inclusive Design",
-        "Accessibility Standards",
-        "Child Development",
-        "Habilitation",
-        "Touch-screen Accessibility"
-      ],
-      "application": [
-        "Education"
-      ],
-      "interest": [
-        "Human-Computer Interaction",
-        "Mobile Development"
-      ],
-      "rdia": [
-        "Health & Wellness"
-      ],
-      "scores": {
-        "final_score": 0.4603,
-        "semantic_sim": 0.7401,
+        "final_score": 0.4562,
+        "semantic_sim": 0.7318,
         "context_score": 0.1111,
         "rdia_score": 0.25,
         "rrf_score": 0.014085
       },
-      "explanation": "Good match with the group's background. Matches application domain(s): education. Aligns with the group's RDIA priority."
+      "explanation": "Good match with the group's background. Matches application domain(s): business & productivity. Aligns with the group's RDIA priority."
     }
   ],
   "recommended_interests": [
     {
       "name": "Artificial Intelligence / Machine Learning",
       "description": "Focuses on building systems that learn from data, make predictions, and perform intelligent tasks without explicit programming.",
-      "combined_score": 0.8874,
-      "semantic_score": 0.8391,
+      "combined_score": 0.8804,
+      "semantic_score": 0.8291,
       "frequency_in_top_projects": 1.0,
       "already_selected": true
     },
     {
       "name": "Web Development",
       "description": "Covers the design and implementation of websites and web applications, including frontend, backend, and full‑stack development.",
-      "combined_score": 0.7789,
-      "semantic_score": 0.7699,
+      "combined_score": 0.7775,
+      "semantic_score": 0.7678,
       "frequency_in_top_projects": 0.8,
       "already_selected": true
     },
     {
       "name": "Mobile Development",
       "description": "Involves creating applications for mobile platforms such as iOS and Android, focusing on performance, UI, and device integration.",
-      "combined_score": 0.7336,
-      "semantic_score": 0.7909,
+      "combined_score": 0.7213,
+      "semantic_score": 0.7733,
       "frequency_in_top_projects": 0.6,
       "already_selected": true
     }
@@ -464,25 +460,25 @@
     {
       "name": "Education",
       "description": "Focuses on systems and applications for learning, teaching, and academic support.",
-      "combined_score": 0.8698,
-      "semantic_score": 0.814,
+      "combined_score": 0.8655,
+      "semantic_score": 0.8079,
       "frequency_in_top_projects": 1.0,
       "already_selected": true
     },
     {
       "name": "Transportation & Mobility",
       "description": "Pertains to technology related to the movement of people and goods.",
-      "combined_score": 0.6635,
-      "semantic_score": 0.7335,
-      "frequency_in_top_projects": 0.5,
+      "combined_score": 0.6317,
+      "semantic_score": 0.731,
+      "frequency_in_top_projects": 0.4,
       "already_selected": true
     },
     {
-      "name": "Business & Productivity",
-      "description": "Involves the application of computing to enhance business operations.",
-      "combined_score": 0.6473,
-      "semantic_score": 0.8176,
-      "frequency_in_top_projects": 0.25,
+      "name": "Social Good & Community",
+      "description": "Relates to technology that aims to benefit society.",
+      "combined_score": 0.5879,
+      "semantic_score": 0.7542,
+      "frequency_in_top_projects": 0.2,
       "already_selected": true
     }
   ],
@@ -490,32 +486,32 @@
     {
       "label": "Economies of the Future",
       "description": "Reimagine urban living and establish Saudi Arabia as a global leader in future-oriented sectors. ",
-      "combined_score": 0.7805,
-      "semantic_score": 0.6864,
+      "combined_score": 0.7822,
+      "semantic_score": 0.6888,
       "frequency_in_top_projects": 1.0,
       "already_selected": true
     },
     {
       "label": "Sustainable Environment & Supply of Essential Needs",
       "description": "Secure sustainable access to water, food, and energy resources for the population and industries.",
-      "combined_score": 0.5644,
-      "semantic_score": 0.6838,
+      "combined_score": 0.5775,
+      "semantic_score": 0.7025,
       "frequency_in_top_projects": 0.2857142857142857,
       "already_selected": true
     },
     {
       "label": "Health & Wellness",
       "description": "Address prevalent health and therapeutic challenges in the Kingdom.",
-      "combined_score": 0.4699,
-      "semantic_score": 0.61,
+      "combined_score": 0.4683,
+      "semantic_score": 0.6078,
       "frequency_in_top_projects": 0.14285714285714285,
       "already_selected": true
     },
     {
       "label": "Energy & Industrial Leadership",
       "description": "Maintain and strengthen Saudi Arabia's global leadership in the energy sector while diversifying into new areas.",
-      "combined_score": 0.4404,
-      "semantic_score": 0.6291,
+      "combined_score": 0.4476,
+      "semantic_score": 0.6394,
       "frequency_in_top_projects": 0,
       "already_selected": true
     }

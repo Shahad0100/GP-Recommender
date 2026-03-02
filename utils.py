@@ -172,6 +172,18 @@ def get_course_texts(course: dict, plos_map: Dict[str, str] = None) -> List[str]
     desc  = course.get("course_description", "")
     if title or desc:
         segments.append(f"{title}. {desc}".strip())
+    
+    # include other metadata that may affect meaning and retrieval (e.g. prerequisites, credit hours)
+    level= course.get("course_level", "")
+    if level:
+        segments.append(f"Course level: {level}")
+    prereq = course.get("prerequisites", "")
+    if prereq:
+        segments.append(f"Prerequisites: {prereq}")
+
+    credits = course.get("credit_hours", "")
+    if credits:
+       segments.append(f"Credit hours: {credits}")
 
     # Each CLO statement with its associated PLO as its own segment
     clos = course.get("course_learning_outcomes", {})
@@ -184,13 +196,12 @@ def get_course_texts(course: dict, plos_map: Dict[str, str] = None) -> List[str]
                 mapped_plos = clo.get("mapped_plos", [])
                 plo_descriptions = []
                 for plo_id in mapped_plos:
-                    if plo_id in plos_map:
-                        plo_descriptions.append(plos_map[plo_id])
-
+                   if plo_id in plos_map:
+                       # include both المعرف والوصف
+                       plo_descriptions.append(f"{plo_id}: {plos_map[plo_id]}")
                 if plo_descriptions:
-                    # combine PLO descriptions into one sentence and add them to the CLO text
-                    plo_text = " [Associated Program Outcomes: " + " | ".join(plo_descriptions) + "]"
-                    stmt += plo_text
+                   stmt += " [Associated PLOs: " + " | ".join(plo_descriptions) + "]"
+                
         if stmt:
             segments.append(stmt)
 

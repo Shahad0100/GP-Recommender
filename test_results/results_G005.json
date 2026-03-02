@@ -2,9 +2,9 @@
   "group_id": "G005",
   "group_profile": {
     "selected_interests": [
-      "Internet of Things (IoT)",
-      "Computer Vision",
       "Embedded Systems",
+      "Computer Vision",
+      "Internet of Things (IoT)",
       "Artificial Intelligence / Machine Learning"
     ],
     "selected_applications": [
@@ -53,52 +53,51 @@
         "Health & Wellness"
       ],
       "scores": {
-        "final_score": 0.7536,
-        "semantic_sim": 0.7572,
+        "final_score": 0.7524,
+        "semantic_sim": 0.7547,
         "context_score": 0.5,
         "rdia_score": 1.0,
-        "rrf_score": 0.030769
+        "rrf_score": 0.030536
       },
       "explanation": "Highly similar to the group's profile. Matches application domain(s): healthcare / medical. Aligns with the group's RDIA priority."
     },
     {
       "rank": 2,
-      "project_id": "F01-43-10",
-      "title": "Treatment of stuttering problems in children Application - TSA",
-      "supervisor_name": "Amal Suleiman Alsaif",
-      "supervisor_id": "ASsa",
-      "academic_year": "1443",
+      "project_id": "F07-45-10",
+      "title": "Secure Healthcare Information Exchange Platform ‘KEEP SAFE’",
+      "supervisor_name": "Eman AbdulHamid Alzaid",
+      "supervisor_id": "EAza",
+      "academic_year": "1445",
       "keywords": [
-        "Treatment",
-        "Speech",
-        "Recognition",
-        "Stuttering",
-        "Application",
-        "Therapist",
-        "Analyze",
-        "Error findings",
-        "Speech problems",
-        "Children"
+        "Electronic Medical Records (EMR)",
+        "Blockchain Technology",
+        "Healthcare Information Systems",
+        "Secure Medical Data Sharing",
+        "Decentralized Data Protection",
+        "Patient Data Privacy",
+        "EMR Exchange Scheme",
+        "Digital Identity Verification",
+        "Healthcare Cybersecurity"
       ],
       "application": [
         "Healthcare / Medical"
       ],
       "interest": [
-        "Artificial Intelligence / Machine Learning",
-        "Natural Language Processing",
+        "Blockchain",
+        "Cybersecurity",
         "Mobile Development"
       ],
       "rdia": [
         "Health & Wellness"
       ],
       "scores": {
-        "final_score": 0.7503,
-        "semantic_sim": 0.7506,
+        "final_score": 0.749,
+        "semantic_sim": 0.7481,
         "context_score": 0.5,
         "rdia_score": 1.0,
-        "rrf_score": 0.029851
+        "rrf_score": 0.02901
       },
-      "explanation": "Highly similar to the group's profile. Matches application domain(s): healthcare / medical. Aligns with the group's RDIA priority."
+      "explanation": "Good match with the group's background. Matches application domain(s): healthcare / medical. Aligns with the group's RDIA priority."
     },
     {
       "rank": 3,
@@ -129,8 +128,8 @@
         "Health & Wellness"
       ],
       "scores": {
-        "final_score": 0.7493,
-        "semantic_sim": 0.7487,
+        "final_score": 0.7481,
+        "semantic_sim": 0.7461,
         "context_score": 0.5,
         "rdia_score": 1.0,
         "rrf_score": 0.030835
@@ -139,39 +138,40 @@
     },
     {
       "rank": 4,
-      "project_id": "F07-45-10",
-      "title": "Secure Healthcare Information Exchange Platform ‘KEEP SAFE’",
-      "supervisor_name": "Eman AbdulHamid Alzaid",
-      "supervisor_id": "EAza",
-      "academic_year": "1445",
+      "project_id": "F01-43-10",
+      "title": "Treatment of stuttering problems in children Application - TSA",
+      "supervisor_name": "Amal Suleiman Alsaif",
+      "supervisor_id": "ASsa",
+      "academic_year": "1443",
       "keywords": [
-        "Electronic Medical Records (EMR)",
-        "Blockchain Technology",
-        "Healthcare Information Systems",
-        "Secure Medical Data Sharing",
-        "Decentralized Data Protection",
-        "Patient Data Privacy",
-        "EMR Exchange Scheme",
-        "Digital Identity Verification",
-        "Healthcare Cybersecurity"
+        "Treatment",
+        "Speech",
+        "Recognition",
+        "Stuttering",
+        "Application",
+        "Therapist",
+        "Analyze",
+        "Error findings",
+        "Speech problems",
+        "Children"
       ],
       "application": [
         "Healthcare / Medical"
       ],
       "interest": [
-        "Blockchain",
-        "Cybersecurity",
+        "Artificial Intelligence / Machine Learning",
+        "Natural Language Processing",
         "Mobile Development"
       ],
       "rdia": [
         "Health & Wellness"
       ],
       "scores": {
-        "final_score": 0.7484,
-        "semantic_sim": 0.7468,
+        "final_score": 0.7449,
+        "semantic_sim": 0.7397,
         "context_score": 0.5,
         "rdia_score": 1.0,
-        "rrf_score": 0.028577
+        "rrf_score": 0.029211
       },
       "explanation": "Good match with the group's background. Matches application domain(s): healthcare / medical. Aligns with the group's RDIA priority."
     },
@@ -201,11 +201,11 @@
         "Health & Wellness"
       ],
       "scores": {
-        "final_score": 0.7327,
-        "semantic_sim": 0.7155,
+        "final_score": 0.729,
+        "semantic_sim": 0.7081,
         "context_score": 0.5,
         "rdia_score": 1.0,
-        "rrf_score": 0.027673
+        "rrf_score": 0.026861
       },
       "explanation": "Good match with the group's background. Matches application domain(s): healthcare / medical. Aligns with the group's RDIA priority."
     },
@@ -314,59 +314,16 @@
         "Health & Wellness"
       ],
       "scores": {
-        "final_score": 0.6204,
-        "semantic_sim": 0.7409,
+        "final_score": 0.6191,
+        "semantic_sim": 0.7382,
         "context_score": 0.0,
         "rdia_score": 1.0,
-        "rrf_score": 0.027418
+        "rrf_score": 0.027222
       },
       "explanation": "Good match with the group's background. Aligns with the group's RDIA priority."
     },
     {
       "rank": 9,
-      "project_id": "F04-45-10",
-      "title": "Baseera بصيرة : Accessible Mobile App for Blind Children",
-      "supervisor_name": " Manan Mohammed Almusallam ",
-      "supervisor_id": "MMmu",
-      "academic_year": "1445",
-      "keywords": [
-        "Accessible Mobile Application",
-        "Blind Children",
-        "Visual Impairment",
-        "Assistive Technology",
-        "Educational Game",
-        "Arabic Language Support",
-        "Preschool Education",
-        "Audio Feedback",
-        "Numbers Learning",
-        "Counting Skills",
-        "Inclusive Design",
-        "Accessibility Standards",
-        "Child Development",
-        "Habilitation",
-        "Touch-screen Accessibility"
-      ],
-      "application": [
-        "Education"
-      ],
-      "interest": [
-        "Human-Computer Interaction",
-        "Mobile Development"
-      ],
-      "rdia": [
-        "Health & Wellness"
-      ],
-      "scores": {
-        "final_score": 0.6158,
-        "semantic_sim": 0.7317,
-        "context_score": 0.0,
-        "rdia_score": 1.0,
-        "rrf_score": 0.013514
-      },
-      "explanation": "Good match with the group's background. Aligns with the group's RDIA priority."
-    },
-    {
-      "rank": 10,
       "project_id": "F17-45-20",
       "title": "Mu’nis: Enhancing Deaf Communication with Realtime Subtitles in Arabic Language",
       "supervisor_name": " Tasniem Nasser Alyahya ",
@@ -403,11 +360,54 @@
         "Health & Wellness"
       ],
       "scores": {
-        "final_score": 0.6152,
-        "semantic_sim": 0.7304,
+        "final_score": 0.6159,
+        "semantic_sim": 0.7317,
         "context_score": 0.0,
         "rdia_score": 1.0,
-        "rrf_score": 0.025528
+        "rrf_score": 0.025709
+      },
+      "explanation": "Good match with the group's background. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 10,
+      "project_id": "F04-45-10",
+      "title": "Baseera بصيرة : Accessible Mobile App for Blind Children",
+      "supervisor_name": " Manan Mohammed Almusallam ",
+      "supervisor_id": "MMmu",
+      "academic_year": "1445",
+      "keywords": [
+        "Accessible Mobile Application",
+        "Blind Children",
+        "Visual Impairment",
+        "Assistive Technology",
+        "Educational Game",
+        "Arabic Language Support",
+        "Preschool Education",
+        "Audio Feedback",
+        "Numbers Learning",
+        "Counting Skills",
+        "Inclusive Design",
+        "Accessibility Standards",
+        "Child Development",
+        "Habilitation",
+        "Touch-screen Accessibility"
+      ],
+      "application": [
+        "Education"
+      ],
+      "interest": [
+        "Human-Computer Interaction",
+        "Mobile Development"
+      ],
+      "rdia": [
+        "Health & Wellness"
+      ],
+      "scores": {
+        "final_score": 0.615,
+        "semantic_sim": 0.73,
+        "context_score": 0.0,
+        "rdia_score": 1.0,
+        "rrf_score": 0.013333
       },
       "explanation": "Good match with the group's background. Aligns with the group's RDIA priority."
     }
@@ -416,25 +416,25 @@
     {
       "name": "Artificial Intelligence / Machine Learning",
       "description": "Focuses on building systems that learn from data, make predictions, and perform intelligent tasks without explicit programming.",
-      "combined_score": 0.8933,
-      "semantic_score": 0.8475,
+      "combined_score": 0.8902,
+      "semantic_score": 0.8432,
       "frequency_in_top_projects": 1.0,
       "already_selected": true
     },
     {
       "name": "Computer Vision",
       "description": "Enables machines to interpret and understand visual information from images and videos using AI techniques.",
-      "combined_score": 0.6726,
-      "semantic_score": 0.7466,
-      "frequency_in_top_projects": 0.5,
+      "combined_score": 0.7106,
+      "semantic_score": 0.7472,
+      "frequency_in_top_projects": 0.625,
       "already_selected": true
     },
     {
       "name": "Embedded Systems",
       "description": "Involves programming and designing specialized computing systems integrated into hardware devices.",
-      "combined_score": 0.6663,
-      "semantic_score": 0.8447,
-      "frequency_in_top_projects": 0.25,
+      "combined_score": 0.6958,
+      "semantic_score": 0.8332,
+      "frequency_in_top_projects": 0.375,
       "already_selected": true
     }
   ],
@@ -442,24 +442,24 @@
     {
       "name": "Healthcare / Medical",
       "description": "Relates to the use of technology to improve medical processes and patient care.",
-      "combined_score": 0.8706,
-      "semantic_score": 0.8152,
+      "combined_score": 0.8654,
+      "semantic_score": 0.8077,
       "frequency_in_top_projects": 1.0,
       "already_selected": true
     },
     {
       "name": "Education",
       "description": "Focuses on systems and applications for learning, teaching, and academic support.",
-      "combined_score": 0.7908,
-      "semantic_score": 0.8083,
+      "combined_score": 0.7874,
+      "semantic_score": 0.8035,
       "frequency_in_top_projects": 0.75,
       "already_selected": false
     },
     {
       "name": "Business & Productivity",
       "description": "Involves the application of computing to enhance business operations.",
-      "combined_score": 0.6224,
-      "semantic_score": 0.782,
+      "combined_score": 0.6151,
+      "semantic_score": 0.7716,
       "frequency_in_top_projects": 0.25,
       "already_selected": false
     }
@@ -468,32 +468,32 @@
     {
       "label": "Economies of the Future",
       "description": "Reimagine urban living and establish Saudi Arabia as a global leader in future-oriented sectors. ",
-      "combined_score": 0.7544,
-      "semantic_score": 0.6491,
+      "combined_score": 0.758,
+      "semantic_score": 0.6544,
       "frequency_in_top_projects": 1.0,
       "already_selected": false
     },
     {
       "label": "Health & Wellness",
       "description": "Address prevalent health and therapeutic challenges in the Kingdom.",
-      "combined_score": 0.7201,
-      "semantic_score": 0.6859,
+      "combined_score": 0.7194,
+      "semantic_score": 0.6849,
       "frequency_in_top_projects": 0.8,
       "already_selected": true
     },
     {
       "label": "Sustainable Environment & Supply of Essential Needs",
       "description": "Secure sustainable access to water, food, and energy resources for the population and industries.",
-      "combined_score": 0.5279,
-      "semantic_score": 0.6684,
+      "combined_score": 0.5417,
+      "semantic_score": 0.6882,
       "frequency_in_top_projects": 0.2,
       "already_selected": false
     },
     {
       "label": "Energy & Industrial Leadership",
       "description": "Maintain and strengthen Saudi Arabia's global leadership in the energy sector while diversifying into new areas.",
-      "combined_score": 0.4308,
-      "semantic_score": 0.6154,
+      "combined_score": 0.4358,
+      "semantic_score": 0.6226,
       "frequency_in_top_projects": 0,
       "already_selected": false
     }

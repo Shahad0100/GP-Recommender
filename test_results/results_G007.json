@@ -2,15 +2,15 @@
   "group_id": "G007",
   "group_profile": {
     "selected_interests": [
-      "Drones",
+      "Cloud Computing",
       "Internet of Things (IoT)",
       "Artificial Intelligence / Machine Learning",
-      "Cloud Computing",
+      "Drones",
       "Data Science"
     ],
     "selected_applications": [
-      "Sustainability & Environment",
-      "Social Good & Community"
+      "Social Good & Community",
+      "Sustainability & Environment"
     ],
     "selected_rdia": [
       "Sustainable Environment & Supply of Essential Needs"
@@ -54,11 +54,11 @@
         "Sustainable Environment & Supply of Essential Needs"
       ],
       "scores": {
-        "final_score": 0.7439,
-        "semantic_sim": 0.7378,
+        "final_score": 0.7402,
+        "semantic_sim": 0.7305,
         "context_score": 0.5,
         "rdia_score": 1.0,
-        "rrf_score": 0.031054
+        "rrf_score": 0.030835
       },
       "explanation": "Good match with the group's background. Matches application domain(s): sustainability & environment. Aligns with the group's RDIA priority."
     },
@@ -88,11 +88,11 @@
         "Sustainable Environment & Supply of Essential Needs"
       ],
       "scores": {
-        "final_score": 0.718,
-        "semantic_sim": 0.686,
+        "final_score": 0.7174,
+        "semantic_sim": 0.6848,
         "context_score": 0.5,
         "rdia_score": 1.0,
-        "rrf_score": 0.027505
+        "rrf_score": 0.027629
       },
       "explanation": "Good match with the group's background. Matches application domain(s): sustainability & environment. Aligns with the group's RDIA priority."
     },
@@ -127,8 +127,8 @@
         "Sustainable Environment & Supply of Essential Needs"
       ],
       "scores": {
-        "final_score": 0.6331,
-        "semantic_sim": 0.7663,
+        "final_score": 0.628,
+        "semantic_sim": 0.756,
         "context_score": 0.0,
         "rdia_score": 1.0,
         "rrf_score": 0.031498
@@ -164,11 +164,11 @@
         "Sustainable Environment & Supply of Essential Needs"
       ],
       "scores": {
-        "final_score": 0.6238,
-        "semantic_sim": 0.7477,
+        "final_score": 0.6177,
+        "semantic_sim": 0.7354,
         "context_score": 0.0,
         "rdia_score": 1.0,
-        "rrf_score": 0.031498
+        "rrf_score": 0.031025
       },
       "explanation": "Good match with the group's background. Aligns with the group's RDIA priority."
     },
@@ -199,11 +199,11 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.4919,
-        "semantic_sim": 0.7337,
+        "final_score": 0.4914,
+        "semantic_sim": 0.7329,
         "context_score": 0.5,
         "rdia_score": 0.0,
-        "rrf_score": 0.029199
+        "rrf_score": 0.029631
       },
       "explanation": "Good match with the group's background. Matches application domain(s): social good & community."
     },
@@ -245,8 +245,8 @@
         "Health & Wellness"
       ],
       "scores": {
-        "final_score": 0.4775,
-        "semantic_sim": 0.705,
+        "final_score": 0.4761,
+        "semantic_sim": 0.7023,
         "context_score": 0.5,
         "rdia_score": 0.0,
         "rrf_score": 0.026481
@@ -284,11 +284,11 @@
         "Health & Wellness"
       ],
       "scores": {
-        "final_score": 0.4759,
-        "semantic_sim": 0.7017,
+        "final_score": 0.4696,
+        "semantic_sim": 0.6892,
         "context_score": 0.5,
         "rdia_score": 0.0,
-        "rrf_score": 0.027289
+        "rrf_score": 0.026748
       },
       "explanation": "Good match with the group's background. Matches application domain(s): social good & community."
     },
@@ -323,8 +323,8 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.3902,
-        "semantic_sim": 0.7804,
+        "final_score": 0.3836,
+        "semantic_sim": 0.7672,
         "context_score": 0.0,
         "rdia_score": 0.0,
         "rrf_score": 0.016393
@@ -358,8 +358,8 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.3861,
-        "semantic_sim": 0.7722,
+        "final_score": 0.3795,
+        "semantic_sim": 0.759,
         "context_score": 0.0,
         "rdia_score": 0.0,
         "rrf_score": 0.029828
@@ -402,24 +402,24 @@
     {
       "name": "Artificial Intelligence / Machine Learning",
       "description": "Focuses on building systems that learn from data, make predictions, and perform intelligent tasks without explicit programming.",
-      "combined_score": 0.8745,
-      "semantic_score": 0.8208,
+      "combined_score": 0.8692,
+      "semantic_score": 0.8132,
       "frequency_in_top_projects": 1.0,
       "already_selected": true
     },
     {
       "name": "Web Development",
       "description": "Covers the design and implementation of websites and web applications, including frontend, backend, and full‑stack development.",
-      "combined_score": 0.7747,
-      "semantic_score": 0.7639,
+      "combined_score": 0.7708,
+      "semantic_score": 0.7582,
       "frequency_in_top_projects": 0.8,
       "already_selected": false
     },
     {
       "name": "Mobile Development",
       "description": "Involves creating applications for mobile platforms such as iOS and Android, focusing on performance, UI, and device integration.",
-      "combined_score": 0.7446,
-      "semantic_score": 0.8066,
+      "combined_score": 0.7258,
+      "semantic_score": 0.7797,
       "frequency_in_top_projects": 0.6,
       "already_selected": false
     }
@@ -428,24 +428,24 @@
     {
       "name": "Education",
       "description": "Focuses on systems and applications for learning, teaching, and academic support.",
-      "combined_score": 0.8381,
-      "semantic_score": 0.7687,
+      "combined_score": 0.8354,
+      "semantic_score": 0.7648,
       "frequency_in_top_projects": 1.0,
       "already_selected": false
     },
     {
       "name": "Sustainability & Environment",
       "description": "Deals with using technology to address environmental challenges.",
-      "combined_score": 0.6424,
-      "semantic_score": 0.832,
+      "combined_score": 0.6355,
+      "semantic_score": 0.8221,
       "frequency_in_top_projects": 0.2,
       "already_selected": true
     },
     {
       "name": "Transportation & Mobility",
       "description": "Pertains to technology related to the movement of people and goods.",
-      "combined_score": 0.6255,
-      "semantic_score": 0.7221,
+      "combined_score": 0.6199,
+      "semantic_score": 0.7141,
       "frequency_in_top_projects": 0.4,
       "already_selected": false
     }
@@ -454,32 +454,32 @@
     {
       "label": "Economies of the Future",
       "description": "Reimagine urban living and establish Saudi Arabia as a global leader in future-oriented sectors. ",
-      "combined_score": 0.7809,
-      "semantic_score": 0.687,
+      "combined_score": 0.7811,
+      "semantic_score": 0.6873,
       "frequency_in_top_projects": 1.0,
       "already_selected": false
     },
     {
       "label": "Sustainable Environment & Supply of Essential Needs",
       "description": "Secure sustainable access to water, food, and energy resources for the population and industries.",
-      "combined_score": 0.6879,
-      "semantic_score": 0.7684,
+      "combined_score": 0.6983,
+      "semantic_score": 0.7833,
       "frequency_in_top_projects": 0.5,
       "already_selected": true
     },
     {
       "label": "Health & Wellness",
       "description": "Address prevalent health and therapeutic challenges in the Kingdom.",
-      "combined_score": 0.4737,
-      "semantic_score": 0.6052,
+      "combined_score": 0.4705,
+      "semantic_score": 0.6007,
       "frequency_in_top_projects": 0.16666666666666666,
       "already_selected": false
     },
     {
       "label": "Energy & Industrial Leadership",
       "description": "Maintain and strengthen Saudi Arabia's global leadership in the energy sector while diversifying into new areas.",
-      "combined_score": 0.4509,
-      "semantic_score": 0.6441,
+      "combined_score": 0.4566,
+      "semantic_score": 0.6523,
       "frequency_in_top_projects": 0,
       "already_selected": false
     }

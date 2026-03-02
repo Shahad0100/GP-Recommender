@@ -43,8 +43,8 @@
         "Health & Wellness"
       ],
       "scores": {
-        "final_score": 0.8841,
-        "semantic_sim": 0.7681,
+        "final_score": 0.8817,
+        "semantic_sim": 0.7634,
         "context_score": 1.0,
         "rdia_score": 1.0,
         "rrf_score": 0.031281
@@ -88,11 +88,11 @@
         "Health & Wellness"
       ],
       "scores": {
-        "final_score": 0.8738,
-        "semantic_sim": 0.7477,
+        "final_score": 0.8709,
+        "semantic_sim": 0.7417,
         "context_score": 1.0,
         "rdia_score": 1.0,
-        "rrf_score": 0.030777
+        "rrf_score": 0.030331
       },
       "explanation": "Good match with the group's background. Matches application domain(s): healthcare / medical. Aligns with the group's RDIA priority."
     },
@@ -127,11 +127,11 @@
         "Health & Wellness"
       ],
       "scores": {
-        "final_score": 0.8678,
-        "semantic_sim": 0.7355,
+        "final_score": 0.8621,
+        "semantic_sim": 0.7242,
         "context_score": 1.0,
         "rdia_score": 1.0,
-        "rrf_score": 0.029958
+        "rrf_score": 0.029206
       },
       "explanation": "Good match with the group's background. Matches application domain(s): healthcare / medical. Aligns with the group's RDIA priority."
     },
@@ -164,50 +164,16 @@
         "Health & Wellness"
       ],
       "scores": {
-        "final_score": 0.8631,
-        "semantic_sim": 0.7263,
+        "final_score": 0.8597,
+        "semantic_sim": 0.7194,
         "context_score": 1.0,
         "rdia_score": 1.0,
-        "rrf_score": 0.029083
+        "rrf_score": 0.028372
       },
       "explanation": "Good match with the group's background. Matches application domain(s): healthcare / medical. Aligns with the group's RDIA priority."
     },
     {
       "rank": 5,
-      "project_id": "F01-42-20",
-      "title": "COVID-19 Detection Using Deep Neural Networks",
-      "supervisor_name": "Siwar Abdelfattah Rekik",
-      "supervisor_id": "SAki",
-      "academic_year": "1442",
-      "keywords": [
-        "COVID-19",
-        "Deep Neural Networks",
-        "YOLOv5",
-        "Chest X-ray Images",
-        "Detection"
-      ],
-      "application": [
-        "Healthcare / Medical"
-      ],
-      "interest": [
-        "Computer Vision",
-        "Artificial Intelligence / Machine Learning",
-        "Bioinformatics"
-      ],
-      "rdia": [
-        "Health & Wellness"
-      ],
-      "scores": {
-        "final_score": 0.8546,
-        "semantic_sim": 0.7093,
-        "context_score": 1.0,
-        "rdia_score": 1.0,
-        "rrf_score": 0.027757
-      },
-      "explanation": "Good match with the group's background. Matches application domain(s): healthcare / medical. Aligns with the group's RDIA priority."
-    },
-    {
-      "rank": 6,
       "project_id": "F09-42-20",
       "title": "Finding Deleted Regions in Human DNA",
       "supervisor_name": " Eman AbdulHamid Alzaid",
@@ -239,6 +205,40 @@
         "context_score": 1.0,
         "rdia_score": 1.0,
         "rrf_score": 0.016393
+      },
+      "explanation": "Partial match with the group profile. Matches application domain(s): healthcare / medical. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 6,
+      "project_id": "F01-42-20",
+      "title": "COVID-19 Detection Using Deep Neural Networks",
+      "supervisor_name": "Siwar Abdelfattah Rekik",
+      "supervisor_id": "SAki",
+      "academic_year": "1442",
+      "keywords": [
+        "COVID-19",
+        "Deep Neural Networks",
+        "YOLOv5",
+        "Chest X-ray Images",
+        "Detection"
+      ],
+      "application": [
+        "Healthcare / Medical"
+      ],
+      "interest": [
+        "Computer Vision",
+        "Artificial Intelligence / Machine Learning",
+        "Bioinformatics"
+      ],
+      "rdia": [
+        "Health & Wellness"
+      ],
+      "scores": {
+        "final_score": 0.75,
+        "semantic_sim": 0.5,
+        "context_score": 1.0,
+        "rdia_score": 1.0,
+        "rrf_score": 0.016129
       },
       "explanation": "Partial match with the group profile. Matches application domain(s): healthcare / medical. Aligns with the group's RDIA priority."
     },
@@ -311,8 +311,8 @@
         "Health & Wellness"
       ],
       "scores": {
-        "final_score": 0.6195,
-        "semantic_sim": 0.7391,
+        "final_score": 0.6167,
+        "semantic_sim": 0.7334,
         "context_score": 0.0,
         "rdia_score": 1.0,
         "rrf_score": 0.028175
@@ -357,8 +357,8 @@
         "Health & Wellness"
       ],
       "scores": {
-        "final_score": 0.6072,
-        "semantic_sim": 0.7144,
+        "final_score": 0.6071,
+        "semantic_sim": 0.7143,
         "context_score": 0.0,
         "rdia_score": 1.0,
         "rrf_score": 0.024394
@@ -401,24 +401,24 @@
     {
       "name": "Artificial Intelligence / Machine Learning",
       "description": "Focuses on building systems that learn from data, make predictions, and perform intelligent tasks without explicit programming.",
-      "combined_score": 0.9101,
-      "semantic_score": 0.8716,
+      "combined_score": 0.9041,
+      "semantic_score": 0.863,
       "frequency_in_top_projects": 1.0,
       "already_selected": true
     },
     {
       "name": "Data Science",
       "description": "Involves extracting insights from structured and unstructured data using statistics, machine learning, and analytical techniques.",
-      "combined_score": 0.6632,
-      "semantic_score": 0.8403,
+      "combined_score": 0.6607,
+      "semantic_score": 0.8366,
       "frequency_in_top_projects": 0.25,
       "already_selected": true
     },
     {
       "name": "Computer Vision",
       "description": "Enables machines to interpret and understand visual information from images and videos using AI techniques.",
-      "combined_score": 0.6436,
-      "semantic_score": 0.7051,
+      "combined_score": 0.6435,
+      "semantic_score": 0.705,
       "frequency_in_top_projects": 0.5,
       "already_selected": false
     }
@@ -427,24 +427,24 @@
     {
       "name": "Education",
       "description": "Focuses on systems and applications for learning, teaching, and academic support.",
-      "combined_score": 0.8552,
-      "semantic_score": 0.7932,
+      "combined_score": 0.8538,
+      "semantic_score": 0.7911,
       "frequency_in_top_projects": 1.0,
       "already_selected": false
     },
     {
       "name": "Healthcare / Medical",
       "description": "Relates to the use of technology to improve medical processes and patient care.",
-      "combined_score": 0.7176,
-      "semantic_score": 0.8108,
+      "combined_score": 0.7109,
+      "semantic_score": 0.8012,
       "frequency_in_top_projects": 0.5,
       "already_selected": true
     },
     {
       "name": "Business & Productivity",
       "description": "Involves the application of computing to enhance business operations.",
-      "combined_score": 0.6224,
-      "semantic_score": 0.782,
+      "combined_score": 0.6134,
+      "semantic_score": 0.7691,
       "frequency_in_top_projects": 0.25,
       "already_selected": false
     }
@@ -453,32 +453,32 @@
     {
       "label": "Economies of the Future",
       "description": "Reimagine urban living and establish Saudi Arabia as a global leader in future-oriented sectors. ",
-      "combined_score": 0.7475,
-      "semantic_score": 0.6393,
+      "combined_score": 0.7503,
+      "semantic_score": 0.6433,
       "frequency_in_top_projects": 1.0,
       "already_selected": false
     },
     {
       "label": "Health & Wellness",
       "description": "Address prevalent health and therapeutic challenges in the Kingdom.",
-      "combined_score": 0.6294,
-      "semantic_score": 0.6848,
+      "combined_score": 0.6303,
+      "semantic_score": 0.6861,
       "frequency_in_top_projects": 0.5,
       "already_selected": true
     },
     {
       "label": "Sustainable Environment & Supply of Essential Needs",
       "description": "Secure sustainable access to water, food, and energy resources for the population and industries.",
-      "combined_score": 0.5026,
-      "semantic_score": 0.6466,
+      "combined_score": 0.5151,
+      "semantic_score": 0.6644,
       "frequency_in_top_projects": 0.16666666666666666,
       "already_selected": false
     },
     {
       "label": "Energy & Industrial Leadership",
       "description": "Maintain and strengthen Saudi Arabia's global leadership in the energy sector while diversifying into new areas.",
-      "combined_score": 0.4183,
-      "semantic_score": 0.5976,
+      "combined_score": 0.4264,
+      "semantic_score": 0.6091,
       "frequency_in_top_projects": 0,
       "already_selected": false
     }

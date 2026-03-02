@@ -2,17 +2,17 @@
   "group_id": "G002",
   "group_profile": {
     "selected_interests": [
-      "Cloud Computing",
+      "Database Systems",
       "Web Development",
-      "Database Systems"
+      "Cloud Computing"
     ],
     "selected_applications": [
-      "Education",
-      "Social Good & Community"
+      "Social Good & Community",
+      "Education"
     ],
     "selected_rdia": [
-      "Sustainable Environment & Supply of Essential Needs",
-      "Economies of the Future"
+      "Economies of the Future",
+      "Sustainable Environment & Supply of Essential Needs"
     ]
   },
   "recommended_projects": [
@@ -47,8 +47,8 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.656,
-        "semantic_sim": 0.812,
+        "final_score": 0.6485,
+        "semantic_sim": 0.7971,
         "context_score": 0.5,
         "rdia_score": 0.5,
         "rrf_score": 0.029214
@@ -90,8 +90,8 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.6418,
-        "semantic_sim": 0.7836,
+        "final_score": 0.643,
+        "semantic_sim": 0.786,
         "context_score": 0.5,
         "rdia_score": 0.5,
         "rrf_score": 0.028034
@@ -124,8 +124,8 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.6407,
-        "semantic_sim": 0.7813,
+        "final_score": 0.6403,
+        "semantic_sim": 0.7807,
         "context_score": 0.5,
         "rdia_score": 0.5,
         "rrf_score": 0.030579
@@ -134,51 +134,6 @@
     },
     {
       "rank": 4,
-      "project_id": "F06-45-20",
-      "title": "Predicting Programming Skills Among Novice Programmers",
-      "supervisor_name": " Basma Suleiman Alqadi ",
-      "supervisor_id": "BSqa",
-      "academic_year": "1445",
-      "keywords": [
-        "Programming Skills Prediction",
-        "Debugging Ability",
-        "Novice Programmers",
-        "Machine Learning",
-        "Educational Data Mining",
-        "Logical Errors",
-        "K-Nearest Neighbors (KNN)",
-        "Support Vector Machine (SVM)",
-        "Naive Bayes (NB)",
-        "Programming Education",
-        "Debugging Assessment",
-        "Correlation Analysis",
-        "Error Analysis",
-        "Code Debugging",
-        "Programming Proficiency",
-        "English Proficiency",
-        "Skill Prediction"
-      ],
-      "application": [
-        "Education"
-      ],
-      "interest": [
-        "Artificial Intelligence / Machine Learning",
-        "Data Science"
-      ],
-      "rdia": [
-        "Economies of the Future"
-      ],
-      "scores": {
-        "final_score": 0.6277,
-        "semantic_sim": 0.7555,
-        "context_score": 0.5,
-        "rdia_score": 0.5,
-        "rrf_score": 0.015152
-      },
-      "explanation": "Highly similar to the group's profile. Matches application domain(s): education. Aligns with the group's RDIA priority."
-    },
-    {
-      "rank": 5,
       "project_id": "F05-42-10",
       "title": "Decentralized Social Application: Moments",
       "supervisor_name": " Tahani Fahad Albalawi",
@@ -204,13 +159,47 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.6246,
-        "semantic_sim": 0.7493,
+        "final_score": 0.6258,
+        "semantic_sim": 0.7516,
         "context_score": 0.5,
         "rdia_score": 0.5,
-        "rrf_score": 0.030579
+        "rrf_score": 0.031258
       },
-      "explanation": "Good match with the group's background. Matches application domain(s): social good & community. Aligns with the group's RDIA priority."
+      "explanation": "Highly similar to the group's profile. Matches application domain(s): social good & community. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 5,
+      "project_id": "F04-42-10",
+      "title": "Evaluating Website Quality Using Machine Learning",
+      "supervisor_name": "Aram Saleh Al-Sedrani ",
+      "supervisor_id": "ASSe",
+      "academic_year": "1442",
+      "keywords": [
+        "Academic websites",
+        "Quality evaluator",
+        "Random forest",
+        "Supervised machine learning",
+        "Feature extraction"
+      ],
+      "application": [
+        "Education"
+      ],
+      "interest": [
+        "Artificial Intelligence / Machine Learning",
+        "Web Development",
+        "Data Science"
+      ],
+      "rdia": [
+        "Economies of the Future"
+      ],
+      "scores": {
+        "final_score": 0.6228,
+        "semantic_sim": 0.7455,
+        "context_score": 0.5,
+        "rdia_score": 0.5,
+        "rrf_score": 0.027584
+      },
+      "explanation": "Good match with the group's background. Matches application domain(s): education. Aligns with the group's RDIA priority."
     },
     {
       "rank": 6,
@@ -243,50 +232,16 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.6242,
-        "semantic_sim": 0.7484,
+        "final_score": 0.6225,
+        "semantic_sim": 0.7451,
         "context_score": 0.5,
         "rdia_score": 0.5,
-        "rrf_score": 0.02837
+        "rrf_score": 0.02879
       },
       "explanation": "Good match with the group's background. Matches application domain(s): education. Aligns with the group's RDIA priority."
     },
     {
       "rank": 7,
-      "project_id": "F04-42-10",
-      "title": "Evaluating Website Quality Using Machine Learning",
-      "supervisor_name": "Aram Saleh Al-Sedrani ",
-      "supervisor_id": "ASSe",
-      "academic_year": "1442",
-      "keywords": [
-        "Academic websites",
-        "Quality evaluator",
-        "Random forest",
-        "Supervised machine learning",
-        "Feature extraction"
-      ],
-      "application": [
-        "Education"
-      ],
-      "interest": [
-        "Artificial Intelligence / Machine Learning",
-        "Web Development",
-        "Data Science"
-      ],
-      "rdia": [
-        "Economies of the Future"
-      ],
-      "scores": {
-        "final_score": 0.6238,
-        "semantic_sim": 0.7476,
-        "context_score": 0.5,
-        "rdia_score": 0.5,
-        "rrf_score": 0.026743
-      },
-      "explanation": "Good match with the group's background. Matches application domain(s): education. Aligns with the group's RDIA priority."
-    },
-    {
-      "rank": 8,
       "project_id": "F22-45-20",
       "title": "Smart Attendance Management System Using iBeacon Technology (حضورك)",
       "supervisor_name": " Tahani Fahad Albalawi",
@@ -323,16 +278,16 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.6227,
-        "semantic_sim": 0.7454,
+        "final_score": 0.6201,
+        "semantic_sim": 0.7402,
         "context_score": 0.5,
         "rdia_score": 0.5,
-        "rrf_score": 0.026084
+        "rrf_score": 0.026688
       },
       "explanation": "Good match with the group's background. Matches application domain(s): education. Aligns with the group's RDIA priority."
     },
     {
-      "rank": 9,
+      "rank": 8,
       "project_id": "F08-45-20",
       "title": "XIPHER: Visualization Tool for Security Algorithms",
       "supervisor_name": " Tahani Fahad Albalawi",
@@ -360,11 +315,56 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.6199,
-        "semantic_sim": 0.7399,
+        "final_score": 0.6186,
+        "semantic_sim": 0.7371,
         "context_score": 0.5,
         "rdia_score": 0.5,
-        "rrf_score": 0.026686
+        "rrf_score": 0.026876
+      },
+      "explanation": "Good match with the group's background. Matches application domain(s): education. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 9,
+      "project_id": "F06-45-20",
+      "title": "Predicting Programming Skills Among Novice Programmers",
+      "supervisor_name": " Basma Suleiman Alqadi ",
+      "supervisor_id": "BSqa",
+      "academic_year": "1445",
+      "keywords": [
+        "Programming Skills Prediction",
+        "Debugging Ability",
+        "Novice Programmers",
+        "Machine Learning",
+        "Educational Data Mining",
+        "Logical Errors",
+        "K-Nearest Neighbors (KNN)",
+        "Support Vector Machine (SVM)",
+        "Naive Bayes (NB)",
+        "Programming Education",
+        "Debugging Assessment",
+        "Correlation Analysis",
+        "Error Analysis",
+        "Code Debugging",
+        "Programming Proficiency",
+        "English Proficiency",
+        "Skill Prediction"
+      ],
+      "application": [
+        "Education"
+      ],
+      "interest": [
+        "Artificial Intelligence / Machine Learning",
+        "Data Science"
+      ],
+      "rdia": [
+        "Economies of the Future"
+      ],
+      "scores": {
+        "final_score": 0.6178,
+        "semantic_sim": 0.7356,
+        "context_score": 0.5,
+        "rdia_score": 0.5,
+        "rrf_score": 0.013699
       },
       "explanation": "Good match with the group's background. Matches application domain(s): education. Aligns with the group's RDIA priority."
     },
@@ -397,8 +397,8 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.5064,
-        "semantic_sim": 0.7628,
+        "final_score": 0.5045,
+        "semantic_sim": 0.759,
         "context_score": 0.0,
         "rdia_score": 0.5,
         "rrf_score": 0.029911
@@ -410,24 +410,24 @@
     {
       "name": "Artificial Intelligence / Machine Learning",
       "description": "Focuses on building systems that learn from data, make predictions, and perform intelligent tasks without explicit programming.",
-      "combined_score": 0.8703,
-      "semantic_score": 0.8147,
+      "combined_score": 0.8642,
+      "semantic_score": 0.806,
       "frequency_in_top_projects": 1.0,
       "already_selected": false
     },
     {
       "name": "Web Development",
       "description": "Covers the design and implementation of websites and web applications, including frontend, backend, and full‑stack development.",
-      "combined_score": 0.8403,
-      "semantic_score": 0.8433,
+      "combined_score": 0.8341,
+      "semantic_score": 0.8344,
       "frequency_in_top_projects": 0.8333333333333334,
       "already_selected": true
     },
     {
       "name": "Embedded Systems",
       "description": "Involves programming and designing specialized computing systems integrated into hardware devices.",
-      "combined_score": 0.6997,
-      "semantic_score": 0.8568,
+      "combined_score": 0.6827,
+      "semantic_score": 0.8324,
       "frequency_in_top_projects": 0.3333333333333333,
       "already_selected": false
     }
@@ -436,58 +436,58 @@
     {
       "name": "Education",
       "description": "Focuses on systems and applications for learning, teaching, and academic support.",
-      "combined_score": 0.8856,
-      "semantic_score": 0.8365,
+      "combined_score": 0.8818,
+      "semantic_score": 0.8311,
       "frequency_in_top_projects": 1.0,
       "already_selected": true
     },
     {
-      "name": "Transportation & Mobility",
-      "description": "Pertains to technology related to the movement of people and goods.",
-      "combined_score": 0.6163,
-      "semantic_score": 0.709,
-      "frequency_in_top_projects": 0.4,
+      "name": "Entertainment & Media",
+      "description": "Covers applications for leisure and content creation.",
+      "combined_score": 0.5929,
+      "semantic_score": 0.7041,
+      "frequency_in_top_projects": 0.3333333333333333,
       "already_selected": false
     },
     {
-      "name": "Entertainment & Media",
-      "description": "Covers applications for leisure and content creation.",
-      "combined_score": 0.6101,
-      "semantic_score": 0.7002,
-      "frequency_in_top_projects": 0.4,
-      "already_selected": false
+      "name": "Social Good & Community",
+      "description": "Relates to technology that aims to benefit society.",
+      "combined_score": 0.5662,
+      "semantic_score": 0.7374,
+      "frequency_in_top_projects": 0.16666666666666666,
+      "already_selected": true
     }
   ],
   "recommended_rdia": [
     {
       "label": "Economies of the Future",
       "description": "Reimagine urban living and establish Saudi Arabia as a global leader in future-oriented sectors. ",
-      "combined_score": 0.7835,
-      "semantic_score": 0.6907,
+      "combined_score": 0.7837,
+      "semantic_score": 0.6911,
       "frequency_in_top_projects": 1.0,
       "already_selected": true
     },
     {
       "label": "Sustainable Environment & Supply of Essential Needs",
       "description": "Secure sustainable access to water, food, and energy resources for the population and industries.",
-      "combined_score": 0.5528,
-      "semantic_score": 0.6825,
-      "frequency_in_top_projects": 0.25,
+      "combined_score": 0.5225,
+      "semantic_score": 0.6988,
+      "frequency_in_top_projects": 0.1111111111111111,
       "already_selected": true
     },
     {
       "label": "Energy & Industrial Leadership",
       "description": "Maintain and strengthen Saudi Arabia's global leadership in the energy sector while diversifying into new areas.",
-      "combined_score": 0.4267,
-      "semantic_score": 0.6096,
+      "combined_score": 0.4332,
+      "semantic_score": 0.6189,
       "frequency_in_top_projects": 0,
       "already_selected": false
     },
     {
       "label": "Health & Wellness",
       "description": "Address prevalent health and therapeutic challenges in the Kingdom.",
-      "combined_score": 0.4125,
-      "semantic_score": 0.5892,
+      "combined_score": 0.4111,
+      "semantic_score": 0.5873,
       "frequency_in_top_projects": 0,
       "already_selected": false
     }

@@ -3,20 +3,20 @@
   "group_profile": {
     "selected_interests": [
       "Mobile Development",
-      "Game Development",
       "Human-Computer Interaction",
       "Web Development",
-      "Computer Graphics"
+      "Computer Graphics",
+      "Game Development"
     ],
     "selected_applications": [
+      "Social Good & Community",
       "Education",
-      "Entertainment & Media",
-      "Social Good & Community"
+      "Entertainment & Media"
     ],
     "selected_rdia": [
-      "Health & Wellness",
+      "Economies of the Future",
       "Sustainable Environment & Supply of Essential Needs",
-      "Economies of the Future"
+      "Health & Wellness"
     ]
   },
   "recommended_projects": [
@@ -51,8 +51,8 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.5672,
-        "semantic_sim": 0.8012,
+        "final_score": 0.5604,
+        "semantic_sim": 0.7874,
         "context_score": 0.3333,
         "rdia_score": 0.3333,
         "rrf_score": 0.028589
@@ -61,6 +61,86 @@
     },
     {
       "rank": 2,
+      "project_id": "F08-45-20",
+      "title": "XIPHER: Visualization Tool for Security Algorithms",
+      "supervisor_name": " Tahani Fahad Albalawi",
+      "supervisor_id": "TFba",
+      "academic_year": "1445",
+      "keywords": [
+        "Security Algorithms",
+        "Algorithm Visualization",
+        "Security Education",
+        "Usability Evaluation",
+        "Human-Computer Interaction (HCI)",
+        "Educational Web Platform",
+        "Visualization Tools",
+        "User Experience (UX)"
+      ],
+      "application": [
+        "Education"
+      ],
+      "interest": [
+        "Cybersecurity",
+        "Web Development",
+        "Human-Computer Interaction"
+      ],
+      "rdia": [
+        "Economies of the Future"
+      ],
+      "scores": {
+        "final_score": 0.5466,
+        "semantic_sim": 0.7599,
+        "context_score": 0.3333,
+        "rdia_score": 0.3333,
+        "rrf_score": 0.030018
+      },
+      "explanation": "Highly similar to the group's profile. Matches application domain(s): education. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 3,
+      "project_id": "F04-45-10",
+      "title": "Baseera بصيرة : Accessible Mobile App for Blind Children",
+      "supervisor_name": " Manan Mohammed Almusallam ",
+      "supervisor_id": "MMmu",
+      "academic_year": "1445",
+      "keywords": [
+        "Accessible Mobile Application",
+        "Blind Children",
+        "Visual Impairment",
+        "Assistive Technology",
+        "Educational Game",
+        "Arabic Language Support",
+        "Preschool Education",
+        "Audio Feedback",
+        "Numbers Learning",
+        "Counting Skills",
+        "Inclusive Design",
+        "Accessibility Standards",
+        "Child Development",
+        "Habilitation",
+        "Touch-screen Accessibility"
+      ],
+      "application": [
+        "Education"
+      ],
+      "interest": [
+        "Human-Computer Interaction",
+        "Mobile Development"
+      ],
+      "rdia": [
+        "Health & Wellness"
+      ],
+      "scores": {
+        "final_score": 0.5431,
+        "semantic_sim": 0.7529,
+        "context_score": 0.3333,
+        "rdia_score": 0.3333,
+        "rrf_score": 0.030159
+      },
+      "explanation": "Highly similar to the group's profile. Matches application domain(s): education. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 4,
       "project_id": "F06-45-20",
       "title": "Predicting Programming Skills Among Novice Programmers",
       "supervisor_name": " Basma Suleiman Alqadi ",
@@ -96,91 +176,11 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.5556,
-        "semantic_sim": 0.7779,
+        "final_score": 0.5431,
+        "semantic_sim": 0.7529,
         "context_score": 0.3333,
         "rdia_score": 0.3333,
-        "rrf_score": 0.016129
-      },
-      "explanation": "Highly similar to the group's profile. Matches application domain(s): education. Aligns with the group's RDIA priority."
-    },
-    {
-      "rank": 3,
-      "project_id": "F08-45-20",
-      "title": "XIPHER: Visualization Tool for Security Algorithms",
-      "supervisor_name": " Tahani Fahad Albalawi",
-      "supervisor_id": "TFba",
-      "academic_year": "1445",
-      "keywords": [
-        "Security Algorithms",
-        "Algorithm Visualization",
-        "Security Education",
-        "Usability Evaluation",
-        "Human-Computer Interaction (HCI)",
-        "Educational Web Platform",
-        "Visualization Tools",
-        "User Experience (UX)"
-      ],
-      "application": [
-        "Education"
-      ],
-      "interest": [
-        "Cybersecurity",
-        "Web Development",
-        "Human-Computer Interaction"
-      ],
-      "rdia": [
-        "Economies of the Future"
-      ],
-      "scores": {
-        "final_score": 0.5517,
-        "semantic_sim": 0.7701,
-        "context_score": 0.3333,
-        "rdia_score": 0.3333,
-        "rrf_score": 0.029762
-      },
-      "explanation": "Highly similar to the group's profile. Matches application domain(s): education. Aligns with the group's RDIA priority."
-    },
-    {
-      "rank": 4,
-      "project_id": "F04-45-10",
-      "title": "Baseera بصيرة : Accessible Mobile App for Blind Children",
-      "supervisor_name": " Manan Mohammed Almusallam ",
-      "supervisor_id": "MMmu",
-      "academic_year": "1445",
-      "keywords": [
-        "Accessible Mobile Application",
-        "Blind Children",
-        "Visual Impairment",
-        "Assistive Technology",
-        "Educational Game",
-        "Arabic Language Support",
-        "Preschool Education",
-        "Audio Feedback",
-        "Numbers Learning",
-        "Counting Skills",
-        "Inclusive Design",
-        "Accessibility Standards",
-        "Child Development",
-        "Habilitation",
-        "Touch-screen Accessibility"
-      ],
-      "application": [
-        "Education"
-      ],
-      "interest": [
-        "Human-Computer Interaction",
-        "Mobile Development"
-      ],
-      "rdia": [
-        "Health & Wellness"
-      ],
-      "scores": {
-        "final_score": 0.5462,
-        "semantic_sim": 0.7591,
-        "context_score": 0.3333,
-        "rdia_score": 0.3333,
-        "rrf_score": 0.029911
+        "rrf_score": 0.015625
       },
       "explanation": "Highly similar to the group's profile. Matches application domain(s): education. Aligns with the group's RDIA priority."
     },
@@ -210,51 +210,16 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.5402,
-        "semantic_sim": 0.7471,
+        "final_score": 0.5428,
+        "semantic_sim": 0.7523,
         "context_score": 0.3333,
         "rdia_score": 0.3333,
         "rrf_score": 0.028718
       },
-      "explanation": "Good match with the group's background. Matches application domain(s): education. Aligns with the group's RDIA priority."
+      "explanation": "Highly similar to the group's profile. Matches application domain(s): education. Aligns with the group's RDIA priority."
     },
     {
       "rank": 6,
-      "project_id": "F13-42-10",
-      "title": "Dolphin Application ",
-      "supervisor_name": " Eman AbdulHamid Alzaid ",
-      "supervisor_id": "EAza",
-      "academic_year": "42",
-      "keywords": [
-        "Mobile Application",
-        "Video Management",
-        "Video Retrieval",
-        "Machine Learning",
-        "Video Indexing",
-        "Smartphone Videos"
-      ],
-      "application": [
-        "Entertainment & Media"
-      ],
-      "interest": [
-        "Artificial Intelligence / Machine Learning",
-        "Mobile Development",
-        "Computer Vision"
-      ],
-      "rdia": [
-        "Economies of the Future"
-      ],
-      "scores": {
-        "final_score": 0.5374,
-        "semantic_sim": 0.7415,
-        "context_score": 0.3333,
-        "rdia_score": 0.3333,
-        "rrf_score": 0.029857
-      },
-      "explanation": "Good match with the group's background. Matches application domain(s): entertainment & media. Aligns with the group's RDIA priority."
-    },
-    {
-      "rank": 7,
       "project_id": "F04-45-20",
       "title": "CCIS Student Assistant Chatbot",
       "supervisor_name": "Ahmed Mohammed Ahmed Gadallah",
@@ -288,50 +253,51 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.537,
-        "semantic_sim": 0.7407,
+        "final_score": 0.5421,
+        "semantic_sim": 0.7508,
         "context_score": 0.3333,
         "rdia_score": 0.3333,
-        "rrf_score": 0.014925
+        "rrf_score": 0.015152
       },
-      "explanation": "Good match with the group's background. Matches application domain(s): education. Aligns with the group's RDIA priority."
+      "explanation": "Highly similar to the group's profile. Matches application domain(s): education. Aligns with the group's RDIA priority."
     },
     {
-      "rank": 8,
-      "project_id": "F04-42-10",
-      "title": "Evaluating Website Quality Using Machine Learning",
-      "supervisor_name": "Aram Saleh Al-Sedrani ",
-      "supervisor_id": "ASSe",
-      "academic_year": "1442",
+      "rank": 7,
+      "project_id": "F13-42-10",
+      "title": "Dolphin Application ",
+      "supervisor_name": " Eman AbdulHamid Alzaid ",
+      "supervisor_id": "EAza",
+      "academic_year": "42",
       "keywords": [
-        "Academic websites",
-        "Quality evaluator",
-        "Random forest",
-        "Supervised machine learning",
-        "Feature extraction"
+        "Mobile Application",
+        "Video Management",
+        "Video Retrieval",
+        "Machine Learning",
+        "Video Indexing",
+        "Smartphone Videos"
       ],
       "application": [
-        "Education"
+        "Entertainment & Media"
       ],
       "interest": [
         "Artificial Intelligence / Machine Learning",
-        "Web Development",
-        "Data Science"
+        "Mobile Development",
+        "Computer Vision"
       ],
       "rdia": [
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.5322,
-        "semantic_sim": 0.7311,
+        "final_score": 0.5358,
+        "semantic_sim": 0.7383,
         "context_score": 0.3333,
         "rdia_score": 0.3333,
-        "rrf_score": 0.0262
+        "rrf_score": 0.029631
       },
-      "explanation": "Good match with the group's background. Matches application domain(s): education. Aligns with the group's RDIA priority."
+      "explanation": "Good match with the group's background. Matches application domain(s): entertainment & media. Aligns with the group's RDIA priority."
     },
     {
-      "rank": 9,
+      "rank": 8,
       "project_id": "F14-42-20",
       "title": "Book Recommendation System based on Collaboration Filtering (RICO)",
       "supervisor_name": " Wojdan Mohammed BinSaeedan",
@@ -359,13 +325,47 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.5303,
-        "semantic_sim": 0.7273,
+        "final_score": 0.5321,
+        "semantic_sim": 0.7309,
         "context_score": 0.3333,
         "rdia_score": 0.3333,
-        "rrf_score": 0.028191
+        "rrf_score": 0.028405
       },
       "explanation": "Good match with the group's background. Matches application domain(s): entertainment & media. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 9,
+      "project_id": "F04-42-10",
+      "title": "Evaluating Website Quality Using Machine Learning",
+      "supervisor_name": "Aram Saleh Al-Sedrani ",
+      "supervisor_id": "ASSe",
+      "academic_year": "1442",
+      "keywords": [
+        "Academic websites",
+        "Quality evaluator",
+        "Random forest",
+        "Supervised machine learning",
+        "Feature extraction"
+      ],
+      "application": [
+        "Education"
+      ],
+      "interest": [
+        "Artificial Intelligence / Machine Learning",
+        "Web Development",
+        "Data Science"
+      ],
+      "rdia": [
+        "Economies of the Future"
+      ],
+      "scores": {
+        "final_score": 0.5314,
+        "semantic_sim": 0.7295,
+        "context_score": 0.3333,
+        "rdia_score": 0.3333,
+        "rrf_score": 0.025987
+      },
+      "explanation": "Good match with the group's background. Matches application domain(s): education. Aligns with the group's RDIA priority."
     },
     {
       "rank": 10,
@@ -394,8 +394,8 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.528,
-        "semantic_sim": 0.7227,
+        "final_score": 0.5304,
+        "semantic_sim": 0.7275,
         "context_score": 0.3333,
         "rdia_score": 0.3333,
         "rrf_score": 0.030159
@@ -407,24 +407,24 @@
     {
       "name": "Artificial Intelligence / Machine Learning",
       "description": "Focuses on building systems that learn from data, make predictions, and perform intelligent tasks without explicit programming.",
-      "combined_score": 0.8552,
-      "semantic_score": 0.7932,
+      "combined_score": 0.8537,
+      "semantic_score": 0.7909,
       "frequency_in_top_projects": 1.0,
       "already_selected": false
     },
     {
       "name": "Web Development",
       "description": "Covers the design and implementation of websites and web applications, including frontend, backend, and full‑stack development.",
-      "combined_score": 0.8537,
-      "semantic_score": 0.791,
+      "combined_score": 0.8516,
+      "semantic_score": 0.788,
       "frequency_in_top_projects": 1.0,
       "already_selected": true
     },
     {
       "name": "Human-Computer Interaction",
       "description": "Focuses on designing user interfaces and interactive systems that are intuitive, efficient, and user‑friendly.",
-      "combined_score": 0.7011,
-      "semantic_score": 0.7873,
+      "combined_score": 0.6989,
+      "semantic_score": 0.7842,
       "frequency_in_top_projects": 0.5,
       "already_selected": true
     }
@@ -433,24 +433,24 @@
     {
       "name": "Education",
       "description": "Focuses on systems and applications for learning, teaching, and academic support.",
-      "combined_score": 0.8658,
-      "semantic_score": 0.8083,
+      "combined_score": 0.8647,
+      "semantic_score": 0.8067,
       "frequency_in_top_projects": 1.0,
       "already_selected": true
     },
     {
       "name": "Entertainment & Media",
       "description": "Covers applications for leisure and content creation.",
-      "combined_score": 0.6117,
-      "semantic_score": 0.7514,
+      "combined_score": 0.6152,
+      "semantic_score": 0.7565,
       "frequency_in_top_projects": 0.2857142857142857,
       "already_selected": true
     },
     {
       "name": "Social Good & Community",
       "description": "Relates to technology that aims to benefit society.",
-      "combined_score": 0.5749,
-      "semantic_score": 0.76,
+      "combined_score": 0.5728,
+      "semantic_score": 0.757,
       "frequency_in_top_projects": 0.14285714285714285,
       "already_selected": true
     }
@@ -459,32 +459,32 @@
     {
       "label": "Economies of the Future",
       "description": "Reimagine urban living and establish Saudi Arabia as a global leader in future-oriented sectors. ",
-      "combined_score": 0.7762,
-      "semantic_score": 0.6803,
+      "combined_score": 0.7797,
+      "semantic_score": 0.6852,
       "frequency_in_top_projects": 1.0,
-      "already_selected": true
-    },
-    {
-      "label": "Health & Wellness",
-      "description": "Address prevalent health and therapeutic challenges in the Kingdom.",
-      "combined_score": 0.4797,
-      "semantic_score": 0.6376,
-      "frequency_in_top_projects": 0.1111111111111111,
       "already_selected": true
     },
     {
       "label": "Sustainable Environment & Supply of Essential Needs",
       "description": "Secure sustainable access to water, food, and energy resources for the population and industries.",
-      "combined_score": 0.4703,
-      "semantic_score": 0.6719,
+      "combined_score": 0.4836,
+      "semantic_score": 0.6908,
       "frequency_in_top_projects": 0,
+      "already_selected": true
+    },
+    {
+      "label": "Health & Wellness",
+      "description": "Address prevalent health and therapeutic challenges in the Kingdom.",
+      "combined_score": 0.4783,
+      "semantic_score": 0.6356,
+      "frequency_in_top_projects": 0.1111111111111111,
       "already_selected": true
     },
     {
       "label": "Energy & Industrial Leadership",
       "description": "Maintain and strengthen Saudi Arabia's global leadership in the energy sector while diversifying into new areas.",
-      "combined_score": 0.421,
-      "semantic_score": 0.6014,
+      "combined_score": 0.4312,
+      "semantic_score": 0.6161,
       "frequency_in_top_projects": 0,
       "already_selected": false
     }
