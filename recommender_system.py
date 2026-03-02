@@ -224,8 +224,6 @@ if __name__ == "__main__":
             sel = " ← your selection" if r["already_selected"] else ""
             print(f"  [{r['combined_score']}] {r['label']}{sel}")
         
-        
-        
         print()
     
     def save_results_to_file(results, output_dir="test_results"):
@@ -243,8 +241,6 @@ if __name__ == "__main__":
         # Save results
         with open(filepath, 'w', encoding='utf-8') as f:
             json.dump(results, f, ensure_ascii=False, indent=2)
-        
-        print(f"\nResults saved to {filepath}")
     
     # Path to groups JSON file
     BASE_DIR = Path(__file__).resolve().parent
@@ -312,7 +308,7 @@ if __name__ == "__main__":
             traceback.print_exc()
             print("\n" + "-" * 55)
     
-    # Save all results combined
+       # Save all results combined
     if all_results:
         combined_results = {
             "total_groups": len(all_results),
@@ -322,9 +318,17 @@ if __name__ == "__main__":
             "results": all_results
         }
         
+# Clean the data of any unwanted fields (such as top_keywords)
+        for group_result in combined_results["results"]:
+            #Remove top_keywords if it exists
+            if "top_keywords" in group_result:
+                del group_result["top_keywords"]
+        
         os.makedirs("test_results", exist_ok=True)
         with open("test_results/all_results.json", 'w', encoding='utf-8') as f:
             json.dump(combined_results, f, ensure_ascii=False, indent=2)
+        
+        print(f"  Combined results saved to test_results/all_results.json")
     
     # Print final summary
     print(f"\n{'='*55}")
@@ -336,4 +340,4 @@ if __name__ == "__main__":
     print(f"Detailed results printed above for each successful group")
     print(f"Individual results saved in 'test_results/' directory")
     if all_results:
-        print(f"Combined results saved in 'test_results/all_results.json'") 
+        print(f"Combined results saved in 'test_results/all_results.json'")
