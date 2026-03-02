@@ -35,6 +35,9 @@ from utils import (
     load_acm_taxonomy,
     load_all_projects,
     load_plos_from_courses,
+    load_interest_domains,
+    load_application_domains,
+    load_rdia,
     get_course_texts,
     get_project_segments,
     average_vectors,
@@ -136,7 +139,10 @@ def embed_courses(model: SentenceTransformer, course_map: dict, plos_map: dict):
 def embed_projects(
     model: SentenceTransformer,
     projects: list,
-    acm_map: dict
+    acm_map: dict,
+    interest_map: dict = None,
+    app_map: dict = None,
+    rdia_map: dict = None,
 ) -> dict:
     """
     Generate and save one embedding vector per project using Late Fusion.
@@ -163,7 +169,7 @@ def embed_projects(
             skipped += 1
             continue
 
-        segments = get_project_segments(project, acm_map)
+        segments = get_project_segments(project, acm_map, interest_map, app_map, rdia_map)
 
         if not segments:
             print(f"  [WARNING] No text segments for project {pid}, skipping.")
@@ -214,13 +220,19 @@ def main():
 
     # Load reference data
     print("\n[LOADING] Reading data files...")
-    course_map = load_courses(COURSES_PATH)
-    plos_map = load_plos_from_courses(COURSES_PATH)
-    acm_map    = load_acm_taxonomy(ACM_PATH)
-    projects   = load_all_projects(PROJECTS_DIR)
+    course_map   = load_courses(COURSES_PATH)
+    plos_map     = load_plos_from_courses(COURSES_PATH)
+    acm_map      = load_acm_taxonomy(ACM_PATH)
+    interest_map = load_interest_domains(os.path.join(DATA_DIR, "Interest_Domains.json"))
+    app_map      = load_application_domains(os.path.join(DATA_DIR, "Application_Domains.json"))
+    rdia_map     = load_rdia(os.path.join(DATA_DIR, "RDIA.json"))
+    projects     = load_all_projects(PROJECTS_DIR)
     print(f"  Courses : {len(course_map)}")
     print(f"  PLOs    : {len(plos_map)}")
     print(f"  ACM IDs : {len(acm_map)}")
+    print(f"  Interests: {len(interest_map)}")
+    print(f"  Apps    : {len(app_map)}")
+    print(f"  RDIA    : {len(rdia_map)}")
     print(f"  Projects: {len(projects)}")
 
     # Load SBERT model
@@ -231,7 +243,7 @@ def main():
 
     # Run all three embedding steps
     embed_courses(model, course_map, plos_map)
-    embed_projects(model, projects, acm_map)
+    embed_projects(model, projects, acm_map, interest_map, app_map, rdia_map)
   
 
     print("\n" + "=" * 60)

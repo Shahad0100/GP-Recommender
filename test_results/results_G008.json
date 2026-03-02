@@ -2,15 +2,15 @@
   "group_id": "G008",
   "group_profile": {
     "selected_interests": [
-      "Network Systems",
-      "Internet of Things (IoT)",
       "Distributed Systems",
-      "Embedded Systems",
-      "Robotics"
+      "Network Systems",
+      "Robotics",
+      "Internet of Things (IoT)",
+      "Embedded Systems"
     ],
     "selected_applications": [
-      "Business & Productivity",
-      "Transportation & Mobility"
+      "Transportation & Mobility",
+      "Business & Productivity"
     ],
     "selected_rdia": [
       "Energy & Industrial Leadership"
@@ -48,8 +48,8 @@
         "Sustainable Environment & Supply of Essential Needs"
       ],
       "scores": {
-        "final_score": 0.5036,
-        "semantic_sim": 0.7572,
+        "final_score": 0.5048,
+        "semantic_sim": 0.7595,
         "context_score": 0.5,
         "rdia_score": 0.0,
         "rrf_score": 0.032787
@@ -85,11 +85,11 @@
         "Sustainable Environment & Supply of Essential Needs"
       ],
       "scores": {
-        "final_score": 0.491,
-        "semantic_sim": 0.7319,
+        "final_score": 0.4874,
+        "semantic_sim": 0.7249,
         "context_score": 0.5,
         "rdia_score": 0.0,
-        "rrf_score": 0.031754
+        "rrf_score": 0.031281
       },
       "explanation": "Good match with the group's background. Matches application domain(s): transportation & mobility."
     },
@@ -131,8 +131,8 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.4778,
-        "semantic_sim": 0.7057,
+        "final_score": 0.4867,
+        "semantic_sim": 0.7234,
         "context_score": 0.5,
         "rdia_score": 0.0,
         "rrf_score": 0.03009
@@ -178,62 +178,16 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.4739,
-        "semantic_sim": 0.6978,
+        "final_score": 0.4835,
+        "semantic_sim": 0.717,
         "context_score": 0.5,
         "rdia_score": 0.0,
-        "rrf_score": 0.028169
+        "rrf_score": 0.028577
       },
       "explanation": "Good match with the group's background. Matches application domain(s): transportation & mobility."
     },
     {
       "rank": 5,
-      "project_id": "M05-45-20",
-      "title": "Musanif (مصنف): A Categorization and Product Information API for E-Commerce Product Images)",
-      "supervisor_name": "Sultan Shuraidah Al-dera",
-      "supervisor_id": "SSde",
-      "academic_year": "1445",
-      "keywords": [
-        "E-commerce",
-        "Image Recognition",
-        "Product Categorization",
-        "API Development",
-        "Machine Learning",
-        "AWS Rekognition",
-        "Web Scraping",
-        "Product Information Extraction",
-        "Automated Data Entry",
-        "Inventory Management",
-        "REST API",
-        "Image Classification",
-        "Product Labeling",
-        "React",
-        "Node.js",
-        "Cloud Computing",
-        "Retail Technology"
-      ],
-      "application": [
-        "Business & Productivity"
-      ],
-      "interest": [
-        "Computer Vision",
-        "Artificial Intelligence / Machine Learning",
-        "Web Development"
-      ],
-      "rdia": [
-        "Economies of the Future"
-      ],
-      "scores": {
-        "final_score": 0.4724,
-        "semantic_sim": 0.6948,
-        "context_score": 0.5,
-        "rdia_score": 0.0,
-        "rrf_score": 0.026491
-      },
-      "explanation": "Good match with the group's background. Matches application domain(s): business & productivity."
-    },
-    {
-      "rank": 6,
       "project_id": "F16-45-10",
       "title": "Automatic audio files summarization System, EJAZ Website",
       "supervisor_name": " Manal Khaled Alsabhan ",
@@ -270,11 +224,57 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.4705,
-        "semantic_sim": 0.691,
+        "final_score": 0.4786,
+        "semantic_sim": 0.7072,
         "context_score": 0.5,
         "rdia_score": 0.0,
-        "rrf_score": 0.026334
+        "rrf_score": 0.027402
+      },
+      "explanation": "Good match with the group's background. Matches application domain(s): business & productivity."
+    },
+    {
+      "rank": 6,
+      "project_id": "M05-45-20",
+      "title": "Musanif (مصنف): A Categorization and Product Information API for E-Commerce Product Images)",
+      "supervisor_name": "Sultan Shuraidah Al-dera",
+      "supervisor_id": "SSde",
+      "academic_year": "1445",
+      "keywords": [
+        "E-commerce",
+        "Image Recognition",
+        "Product Categorization",
+        "API Development",
+        "Machine Learning",
+        "AWS Rekognition",
+        "Web Scraping",
+        "Product Information Extraction",
+        "Automated Data Entry",
+        "Inventory Management",
+        "REST API",
+        "Image Classification",
+        "Product Labeling",
+        "React",
+        "Node.js",
+        "Cloud Computing",
+        "Retail Technology"
+      ],
+      "application": [
+        "Business & Productivity"
+      ],
+      "interest": [
+        "Computer Vision",
+        "Artificial Intelligence / Machine Learning",
+        "Web Development"
+      ],
+      "rdia": [
+        "Economies of the Future"
+      ],
+      "scores": {
+        "final_score": 0.4773,
+        "semantic_sim": 0.7045,
+        "context_score": 0.5,
+        "rdia_score": 0.0,
+        "rrf_score": 0.026671
       },
       "explanation": "Good match with the group's background. Matches application domain(s): business & productivity."
     },
@@ -316,6 +316,42 @@
     },
     {
       "rank": 8,
+      "project_id": "F07-42-10",
+      "title": "Text Similarity Search with Application to kNN Classifier",
+      "supervisor_name": " Meznah Rashid Almutairy ",
+      "supervisor_id": "MRmu",
+      "academic_year": "1442",
+      "keywords": [
+        "Patent Analysis",
+        "Document Similarity",
+        "Text Representation",
+        "Vectorization Methods",
+        "Similarity Measures",
+        "KNN Classification",
+        "Text Classification"
+      ],
+      "application": [
+        "Business & Productivity"
+      ],
+      "interest": [
+        "Artificial Intelligence / Machine Learning",
+        "Natural Language Processing",
+        "Data Science"
+      ],
+      "rdia": [
+        "Economies of the Future"
+      ],
+      "scores": {
+        "final_score": 0.375,
+        "semantic_sim": 0.5,
+        "context_score": 0.5,
+        "rdia_score": 0.0,
+        "rrf_score": 0.014286
+      },
+      "explanation": "Partial match with the group profile. Matches application domain(s): business & productivity."
+    },
+    {
+      "rank": 9,
       "project_id": "F06-42-20",
       "title": "Developing A Web Application for Automatic Code Generation",
       "supervisor_name": " Aram Saleh Al-Sedrani ",
@@ -345,8 +381,8 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.3689,
-        "semantic_sim": 0.7379,
+        "final_score": 0.3704,
+        "semantic_sim": 0.7409,
         "context_score": 0.0,
         "rdia_score": 0.0,
         "rrf_score": 0.016129
@@ -354,7 +390,7 @@
       "explanation": "Good match with the group's background."
     },
     {
-      "rank": 9,
+      "rank": 10,
       "project_id": "F06-45-20",
       "title": "Predicting Programming Skills Among Novice Programmers",
       "supervisor_name": " Basma Suleiman Alqadi ",
@@ -390,46 +426,11 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.3663,
-        "semantic_sim": 0.7326,
+        "final_score": 0.3678,
+        "semantic_sim": 0.7355,
         "context_score": 0.0,
         "rdia_score": 0.0,
         "rrf_score": 0.015873
-      },
-      "explanation": "Good match with the group's background."
-    },
-    {
-      "rank": 10,
-      "project_id": "F13-42-10",
-      "title": "Dolphin Application ",
-      "supervisor_name": " Eman AbdulHamid Alzaid ",
-      "supervisor_id": "EAza",
-      "academic_year": "42",
-      "keywords": [
-        "Mobile Application",
-        "Video Management",
-        "Video Retrieval",
-        "Machine Learning",
-        "Video Indexing",
-        "Smartphone Videos"
-      ],
-      "application": [
-        "Entertainment & Media"
-      ],
-      "interest": [
-        "Artificial Intelligence / Machine Learning",
-        "Mobile Development",
-        "Computer Vision"
-      ],
-      "rdia": [
-        "Economies of the Future"
-      ],
-      "scores": {
-        "final_score": 0.3637,
-        "semantic_sim": 0.7275,
-        "context_score": 0.0,
-        "rdia_score": 0.0,
-        "rrf_score": 0.026879
       },
       "explanation": "Good match with the group's background."
     }
@@ -438,25 +439,25 @@
     {
       "name": "Artificial Intelligence / Machine Learning",
       "description": "Focuses on building systems that learn from data, make predictions, and perform intelligent tasks without explicit programming.",
-      "combined_score": 0.8839,
-      "semantic_score": 0.8342,
+      "combined_score": 0.8842,
+      "semantic_score": 0.8346,
       "frequency_in_top_projects": 1.0,
-      "already_selected": false
-    },
-    {
-      "name": "Cybersecurity",
-      "description": "Deals with protecting systems, networks, and data from attacks, vulnerabilities, and unauthorized access.",
-      "combined_score": 0.7151,
-      "semantic_score": 0.8073,
-      "frequency_in_top_projects": 0.5,
       "already_selected": false
     },
     {
       "name": "Web Development",
       "description": "Covers the design and implementation of websites and web applications, including frontend, backend, and full‑stack development.",
-      "combined_score": 0.7097,
-      "semantic_score": 0.7281,
-      "frequency_in_top_projects": 0.6666666666666666,
+      "combined_score": 0.6761,
+      "semantic_score": 0.7209,
+      "frequency_in_top_projects": 0.5714285714285714,
+      "already_selected": false
+    },
+    {
+      "name": "Cybersecurity",
+      "description": "Deals with protecting systems, networks, and data from attacks, vulnerabilities, and unauthorized access.",
+      "combined_score": 0.6448,
+      "semantic_score": 0.7987,
+      "frequency_in_top_projects": 0.2857142857142857,
       "already_selected": false
     }
   ],
@@ -464,25 +465,25 @@
     {
       "name": "Education",
       "description": "Focuses on systems and applications for learning, teaching, and academic support.",
-      "combined_score": 0.8305,
-      "semantic_score": 0.7579,
+      "combined_score": 0.8309,
+      "semantic_score": 0.7584,
       "frequency_in_top_projects": 1.0,
       "already_selected": false
     },
     {
       "name": "Transportation & Mobility",
       "description": "Pertains to technology related to the movement of people and goods.",
-      "combined_score": 0.6657,
-      "semantic_score": 0.7367,
-      "frequency_in_top_projects": 0.5,
+      "combined_score": 0.8149,
+      "semantic_score": 0.7356,
+      "frequency_in_top_projects": 1.0,
       "already_selected": true
     },
     {
       "name": "Business & Productivity",
       "description": "Involves the application of computing to enhance business operations.",
-      "combined_score": 0.6482,
-      "semantic_score": 0.8189,
-      "frequency_in_top_projects": 0.25,
+      "combined_score": 0.676,
+      "semantic_score": 0.8229,
+      "frequency_in_top_projects": 0.3333333333333333,
       "already_selected": true
     }
   ],
@@ -490,32 +491,32 @@
     {
       "label": "Economies of the Future",
       "description": "Reimagine urban living and establish Saudi Arabia as a global leader in future-oriented sectors. ",
-      "combined_score": 0.7543,
-      "semantic_score": 0.649,
+      "combined_score": 0.7817,
+      "semantic_score": 0.6882,
       "frequency_in_top_projects": 1.0,
       "already_selected": false
     },
     {
-      "label": "Sustainable Environment and Supply of Essential Needs",
+      "label": "Sustainable Environment & Supply of Essential Needs",
       "description": "Secure sustainable access to water, food, and energy resources for the population and industries.",
-      "combined_score": 0.4326,
-      "semantic_score": 0.618,
-      "frequency_in_top_projects": 0,
+      "combined_score": 0.54,
+      "semantic_score": 0.6642,
+      "frequency_in_top_projects": 0.25,
       "already_selected": false
     },
     {
-      "label": "Energy and Industrial Leadership",
+      "label": "Energy & Industrial Leadership",
       "description": "Maintain and strengthen Saudi Arabia's global leadership in the energy sector while diversifying into new areas.",
-      "combined_score": 0.4106,
-      "semantic_score": 0.5866,
+      "combined_score": 0.481,
+      "semantic_score": 0.6872,
       "frequency_in_top_projects": 0,
-      "already_selected": false
+      "already_selected": true
     },
     {
-      "label": "Health and Wellness",
+      "label": "Health & Wellness",
       "description": "Address prevalent health and therapeutic challenges in the Kingdom.",
-      "combined_score": 0.3747,
-      "semantic_score": 0.5353,
+      "combined_score": 0.3893,
+      "semantic_score": 0.5561,
       "frequency_in_top_projects": 0,
       "already_selected": false
     }

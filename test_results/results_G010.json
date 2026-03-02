@@ -2,11 +2,11 @@
   "group_id": "G010",
   "group_profile": {
     "selected_interests": [
-      "Network Systems",
       "Blockchain",
-      "Software Engineering",
-      "Cloud Computing",
+      "Network Systems",
       "Database Systems",
+      "Cloud Computing",
+      "Software Engineering",
       "Cybersecurity"
     ],
     "selected_applications": [
@@ -58,11 +58,11 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.6808,
-        "semantic_sim": 0.6949,
+        "final_score": 0.6852,
+        "semantic_sim": 0.7037,
         "context_score": 0.3333,
         "rdia_score": 1.0,
-        "rrf_score": 0.028543
+        "rrf_score": 0.028372
       },
       "explanation": "Good match with the group's background. Matches application domain(s): security & privacy. Aligns with the group's RDIA priority."
     },
@@ -103,8 +103,8 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.6804,
-        "semantic_sim": 0.6941,
+        "final_score": 0.6849,
+        "semantic_sim": 0.7032,
         "context_score": 0.3333,
         "rdia_score": 1.0,
         "rrf_score": 0.026519
@@ -150,11 +150,11 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.6776,
-        "semantic_sim": 0.6886,
+        "final_score": 0.6823,
+        "semantic_sim": 0.6979,
         "context_score": 0.3333,
         "rdia_score": 1.0,
-        "rrf_score": 0.026993
+        "rrf_score": 0.026688
       },
       "explanation": "Good match with the group's background. Matches application domain(s): security & privacy. Aligns with the group's RDIA priority."
     },
@@ -189,11 +189,11 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.6774,
-        "semantic_sim": 0.688,
+        "final_score": 0.6818,
+        "semantic_sim": 0.6969,
         "context_score": 0.3333,
         "rdia_score": 1.0,
-        "rrf_score": 0.027271
+        "rrf_score": 0.02683
       },
       "explanation": "Good match with the group's background. Matches application domain(s): security & privacy. Aligns with the group's RDIA priority."
     },
@@ -237,11 +237,11 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.6695,
-        "semantic_sim": 0.6723,
+        "final_score": 0.6741,
+        "semantic_sim": 0.6816,
         "context_score": 0.3333,
         "rdia_score": 1.0,
-        "rrf_score": 0.02724
+        "rrf_score": 0.027365
       },
       "explanation": "Good match with the group's background. Matches application domain(s): government & public sector. Aligns with the group's RDIA priority."
     },
@@ -272,8 +272,8 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.6472,
-        "semantic_sim": 0.7945,
+        "final_score": 0.6531,
+        "semantic_sim": 0.8062,
         "context_score": 0.0,
         "rdia_score": 1.0,
         "rrf_score": 0.032787
@@ -306,8 +306,8 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.6324,
-        "semantic_sim": 0.7648,
+        "final_score": 0.6381,
+        "semantic_sim": 0.7762,
         "context_score": 0.0,
         "rdia_score": 1.0,
         "rrf_score": 0.031281
@@ -343,8 +343,8 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.6306,
-        "semantic_sim": 0.7611,
+        "final_score": 0.6363,
+        "semantic_sim": 0.7725,
         "context_score": 0.0,
         "rdia_score": 1.0,
         "rrf_score": 0.028373
@@ -382,56 +382,46 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.6244,
-        "semantic_sim": 0.7488,
+        "final_score": 0.631,
+        "semantic_sim": 0.762,
         "context_score": 0.0,
         "rdia_score": 1.0,
-        "rrf_score": 0.030331
+        "rrf_score": 0.03009
       },
-      "explanation": "Good match with the group's background. Aligns with the group's RDIA priority."
+      "explanation": "Highly similar to the group's profile. Aligns with the group's RDIA priority."
     },
     {
       "rank": 10,
-      "project_id": "F06-45-20",
-      "title": "Predicting Programming Skills Among Novice Programmers",
-      "supervisor_name": " Basma Suleiman Alqadi ",
-      "supervisor_id": "BSqa",
-      "academic_year": "1445",
+      "project_id": "F13-42-10",
+      "title": "Dolphin Application ",
+      "supervisor_name": " Eman AbdulHamid Alzaid ",
+      "supervisor_id": "EAza",
+      "academic_year": "42",
       "keywords": [
-        "Programming Skills Prediction",
-        "Debugging Ability",
-        "Novice Programmers",
+        "Mobile Application",
+        "Video Management",
+        "Video Retrieval",
         "Machine Learning",
-        "Educational Data Mining",
-        "Logical Errors",
-        "K-Nearest Neighbors (KNN)",
-        "Support Vector Machine (SVM)",
-        "Naive Bayes (NB)",
-        "Programming Education",
-        "Debugging Assessment",
-        "Correlation Analysis",
-        "Error Analysis",
-        "Code Debugging",
-        "Programming Proficiency",
-        "English Proficiency",
-        "Skill Prediction"
+        "Video Indexing",
+        "Smartphone Videos"
       ],
       "application": [
-        "Education"
+        "Entertainment & Media"
       ],
       "interest": [
         "Artificial Intelligence / Machine Learning",
-        "Data Science"
+        "Mobile Development",
+        "Computer Vision"
       ],
       "rdia": [
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.6192,
-        "semantic_sim": 0.7384,
+        "final_score": 0.6233,
+        "semantic_sim": 0.7467,
         "context_score": 0.0,
         "rdia_score": 1.0,
-        "rrf_score": 0.014925
+        "rrf_score": 0.02683
       },
       "explanation": "Good match with the group's background. Aligns with the group's RDIA priority."
     }
@@ -498,26 +488,26 @@
       "already_selected": true
     },
     {
-      "label": "Sustainable Environment and Supply of Essential Needs",
+      "label": "Sustainable Environment & Supply of Essential Needs",
       "description": "Secure sustainable access to water, food, and energy resources for the population and industries.",
-      "combined_score": 0.4745,
-      "semantic_score": 0.6779,
-      "frequency_in_top_projects": 0,
+      "combined_score": 0.5652,
+      "semantic_score": 0.685,
+      "frequency_in_top_projects": 0.2857142857142857,
       "already_selected": false
     },
     {
-      "label": "Energy and Industrial Leadership",
-      "description": "Maintain and strengthen Saudi Arabia's global leadership in the energy sector while diversifying into new areas.",
-      "combined_score": 0.4418,
-      "semantic_score": 0.6311,
-      "frequency_in_top_projects": 0,
-      "already_selected": false
-    },
-    {
-      "label": "Health and Wellness",
+      "label": "Health & Wellness",
       "description": "Address prevalent health and therapeutic challenges in the Kingdom.",
-      "combined_score": 0.4049,
-      "semantic_score": 0.5785,
+      "combined_score": 0.4476,
+      "semantic_score": 0.5782,
+      "frequency_in_top_projects": 0.14285714285714285,
+      "already_selected": false
+    },
+    {
+      "label": "Energy & Industrial Leadership",
+      "description": "Maintain and strengthen Saudi Arabia's global leadership in the energy sector while diversifying into new areas.",
+      "combined_score": 0.4451,
+      "semantic_score": 0.6359,
       "frequency_in_top_projects": 0,
       "already_selected": false
     }

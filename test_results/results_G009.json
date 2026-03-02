@@ -2,20 +2,20 @@
   "group_id": "G009",
   "group_profile": {
     "selected_interests": [
-      "Game Development",
-      "Computer Graphics",
-      "Human-Computer Interaction",
       "Mobile Development",
-      "Web Development"
+      "Game Development",
+      "Human-Computer Interaction",
+      "Web Development",
+      "Computer Graphics"
     ],
     "selected_applications": [
-      "Entertainment & Media",
       "Education",
+      "Entertainment & Media",
       "Social Good & Community"
     ],
     "selected_rdia": [
-      "Sustainable Environment & Supply of Essential Needs",
       "Health & Wellness",
+      "Sustainable Environment & Supply of Essential Needs",
       "Economies of the Future"
     ]
   },
@@ -51,8 +51,8 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.5675,
-        "semantic_sim": 0.8017,
+        "final_score": 0.5672,
+        "semantic_sim": 0.8012,
         "context_score": 0.3333,
         "rdia_score": 0.3333,
         "rrf_score": 0.028589
@@ -96,8 +96,8 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.5576,
-        "semantic_sim": 0.7819,
+        "final_score": 0.5556,
+        "semantic_sim": 0.7779,
         "context_score": 0.3333,
         "rdia_score": 0.3333,
         "rrf_score": 0.016129
@@ -133,8 +133,8 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.5503,
-        "semantic_sim": 0.7672,
+        "final_score": 0.5517,
+        "semantic_sim": 0.7701,
         "context_score": 0.3333,
         "rdia_score": 0.3333,
         "rrf_score": 0.029762
@@ -176,16 +176,50 @@
         "Health & Wellness"
       ],
       "scores": {
-        "final_score": 0.5387,
-        "semantic_sim": 0.744,
+        "final_score": 0.5462,
+        "semantic_sim": 0.7591,
         "context_score": 0.3333,
         "rdia_score": 0.3333,
         "rrf_score": 0.029911
       },
-      "explanation": "Good match with the group's background. Matches application domain(s): education. Aligns with the group's RDIA priority."
+      "explanation": "Highly similar to the group's profile. Matches application domain(s): education. Aligns with the group's RDIA priority."
     },
     {
       "rank": 5,
+      "project_id": "M09-45-10",
+      "title": "Qaimni: An Interactive, Web-Based System for Rating Faculty Members",
+      "supervisor_name": "Adel Ebrahim Al-Salem",
+      "supervisor_id": "AESa",
+      "academic_year": "1445",
+      "keywords": [
+        "Faculty Rating",
+        "Student Reviews",
+        "Anonymous Feedback",
+        "Web Application",
+        "College Platform"
+      ],
+      "application": [
+        "Education"
+      ],
+      "interest": [
+        "Web Development",
+        "Database Systems",
+        "Human-Computer Interaction"
+      ],
+      "rdia": [
+        "Economies of the Future"
+      ],
+      "scores": {
+        "final_score": 0.5402,
+        "semantic_sim": 0.7471,
+        "context_score": 0.3333,
+        "rdia_score": 0.3333,
+        "rrf_score": 0.028718
+      },
+      "explanation": "Good match with the group's background. Matches application domain(s): education. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 6,
       "project_id": "F13-42-10",
       "title": "Dolphin Application ",
       "supervisor_name": " Eman AbdulHamid Alzaid ",
@@ -211,47 +245,13 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.5382,
-        "semantic_sim": 0.7431,
+        "final_score": 0.5374,
+        "semantic_sim": 0.7415,
         "context_score": 0.3333,
         "rdia_score": 0.3333,
-        "rrf_score": 0.03009
+        "rrf_score": 0.029857
       },
       "explanation": "Good match with the group's background. Matches application domain(s): entertainment & media. Aligns with the group's RDIA priority."
-    },
-    {
-      "rank": 6,
-      "project_id": "M09-45-10",
-      "title": "Qaimni: An Interactive, Web-Based System for Rating Faculty Members",
-      "supervisor_name": "Adel Ebrahim Al-Salem",
-      "supervisor_id": "AESa",
-      "academic_year": "1445",
-      "keywords": [
-        "Faculty Rating",
-        "Student Reviews",
-        "Anonymous Feedback",
-        "Web Application",
-        "College Platform"
-      ],
-      "application": [
-        "Education"
-      ],
-      "interest": [
-        "Web Development",
-        "Database Systems",
-        "Human-Computer Interaction"
-      ],
-      "rdia": [
-        "Economies of the Future"
-      ],
-      "scores": {
-        "final_score": 0.5368,
-        "semantic_sim": 0.7402,
-        "context_score": 0.3333,
-        "rdia_score": 0.3333,
-        "rrf_score": 0.028485
-      },
-      "explanation": "Good match with the group's background. Matches application domain(s): education. Aligns with the group's RDIA priority."
     },
     {
       "rank": 7,
@@ -288,8 +288,8 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.532,
-        "semantic_sim": 0.7306,
+        "final_score": 0.537,
+        "semantic_sim": 0.7407,
         "context_score": 0.3333,
         "rdia_score": 0.3333,
         "rrf_score": 0.014925
@@ -322,8 +322,8 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.5318,
-        "semantic_sim": 0.7302,
+        "final_score": 0.5322,
+        "semantic_sim": 0.7311,
         "context_score": 0.3333,
         "rdia_score": 0.3333,
         "rrf_score": 0.0262
@@ -359,8 +359,8 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.5263,
-        "semantic_sim": 0.7193,
+        "final_score": 0.5303,
+        "semantic_sim": 0.7273,
         "context_score": 0.3333,
         "rdia_score": 0.3333,
         "rrf_score": 0.028191
@@ -394,8 +394,8 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.5211,
-        "semantic_sim": 0.7089,
+        "final_score": 0.528,
+        "semantic_sim": 0.7227,
         "context_score": 0.3333,
         "rdia_score": 0.3333,
         "rrf_score": 0.030159
@@ -405,26 +405,26 @@
   ],
   "recommended_interests": [
     {
-      "name": "Web Development",
-      "description": "Covers the design and implementation of websites and web applications, including frontend, backend, and full‑stack development.",
-      "combined_score": 0.8597,
-      "semantic_score": 0.7995,
-      "frequency_in_top_projects": 1.0,
-      "already_selected": true
-    },
-    {
       "name": "Artificial Intelligence / Machine Learning",
       "description": "Focuses on building systems that learn from data, make predictions, and perform intelligent tasks without explicit programming.",
-      "combined_score": 0.8592,
-      "semantic_score": 0.7989,
+      "combined_score": 0.8552,
+      "semantic_score": 0.7932,
       "frequency_in_top_projects": 1.0,
       "already_selected": false
     },
     {
+      "name": "Web Development",
+      "description": "Covers the design and implementation of websites and web applications, including frontend, backend, and full‑stack development.",
+      "combined_score": 0.8537,
+      "semantic_score": 0.791,
+      "frequency_in_top_projects": 1.0,
+      "already_selected": true
+    },
+    {
       "name": "Human-Computer Interaction",
       "description": "Focuses on designing user interfaces and interactive systems that are intuitive, efficient, and user‑friendly.",
-      "combined_score": 0.707,
-      "semantic_score": 0.7957,
+      "combined_score": 0.7011,
+      "semantic_score": 0.7873,
       "frequency_in_top_projects": 0.5,
       "already_selected": true
     }
@@ -433,24 +433,24 @@
     {
       "name": "Education",
       "description": "Focuses on systems and applications for learning, teaching, and academic support.",
-      "combined_score": 0.8655,
-      "semantic_score": 0.8078,
+      "combined_score": 0.8658,
+      "semantic_score": 0.8083,
       "frequency_in_top_projects": 1.0,
       "already_selected": true
     },
     {
       "name": "Entertainment & Media",
       "description": "Covers applications for leisure and content creation.",
-      "combined_score": 0.6055,
-      "semantic_score": 0.7426,
+      "combined_score": 0.6117,
+      "semantic_score": 0.7514,
       "frequency_in_top_projects": 0.2857142857142857,
       "already_selected": true
     },
     {
       "name": "Social Good & Community",
       "description": "Relates to technology that aims to benefit society.",
-      "combined_score": 0.5644,
-      "semantic_score": 0.7451,
+      "combined_score": 0.5749,
+      "semantic_score": 0.76,
       "frequency_in_top_projects": 0.14285714285714285,
       "already_selected": true
     }
@@ -459,32 +459,32 @@
     {
       "label": "Economies of the Future",
       "description": "Reimagine urban living and establish Saudi Arabia as a global leader in future-oriented sectors. ",
-      "combined_score": 0.7631,
-      "semantic_score": 0.6615,
+      "combined_score": 0.7762,
+      "semantic_score": 0.6803,
       "frequency_in_top_projects": 1.0,
       "already_selected": true
     },
     {
-      "label": "Sustainable Environment and Supply of Essential Needs",
-      "description": "Secure sustainable access to water, food, and energy resources for the population and industries.",
-      "combined_score": 0.435,
-      "semantic_score": 0.6214,
-      "frequency_in_top_projects": 0,
-      "already_selected": false
-    },
-    {
-      "label": "Health and Wellness",
+      "label": "Health & Wellness",
       "description": "Address prevalent health and therapeutic challenges in the Kingdom.",
-      "combined_score": 0.409,
-      "semantic_score": 0.5843,
-      "frequency_in_top_projects": 0,
-      "already_selected": false
+      "combined_score": 0.4797,
+      "semantic_score": 0.6376,
+      "frequency_in_top_projects": 0.1111111111111111,
+      "already_selected": true
     },
     {
-      "label": "Energy and Industrial Leadership",
+      "label": "Sustainable Environment & Supply of Essential Needs",
+      "description": "Secure sustainable access to water, food, and energy resources for the population and industries.",
+      "combined_score": 0.4703,
+      "semantic_score": 0.6719,
+      "frequency_in_top_projects": 0,
+      "already_selected": true
+    },
+    {
+      "label": "Energy & Industrial Leadership",
       "description": "Maintain and strengthen Saudi Arabia's global leadership in the energy sector while diversifying into new areas.",
-      "combined_score": 0.4001,
-      "semantic_score": 0.5716,
+      "combined_score": 0.421,
+      "semantic_score": 0.6014,
       "frequency_in_top_projects": 0,
       "already_selected": false
     }

@@ -2,16 +2,16 @@
   "group_id": "G004",
   "group_profile": {
     "selected_interests": [
-      "Human-Computer Interaction",
-      "Mobile Development",
       "DevOps",
+      "Database Systems",
       "Cloud Computing",
-      "Database Systems"
+      "Mobile Development",
+      "Human-Computer Interaction"
     ],
     "selected_applications": [
-      "Entertainment & Media",
       "Government & Public Sector",
       "Healthcare / Medical",
+      "Entertainment & Media",
       "Business & Productivity"
     ],
     "selected_rdia": [
@@ -47,8 +47,8 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.5752,
-        "semantic_sim": 0.7755,
+        "final_score": 0.5762,
+        "semantic_sim": 0.7774,
         "context_score": 0.25,
         "rdia_score": 0.5,
         "rrf_score": 0.032258
@@ -57,52 +57,6 @@
     },
     {
       "rank": 2,
-      "project_id": "F16-45-10",
-      "title": "Automatic audio files summarization System, EJAZ Website",
-      "supervisor_name": " Manal Khaled Alsabhan ",
-      "supervisor_id": "MKsa",
-      "academic_year": "1445",
-      "keywords": [
-        "Audio Summarization",
-        "Speech Recognition",
-        "Natural Language Processing (NLP)",
-        "Automatic Transcription",
-        "Text Summarization",
-        "Pegasus Model",
-        "BART Model",
-        "T5 Model",
-        "Meeting Summarization",
-        "Information Extraction",
-        "Audio Processing",
-        "Deep Learning",
-        "Collaborative Tools",
-        "Time Efficiency",
-        "Content Accessibility",
-        "Multilingual Support",
-        "Cloud Storage"
-      ],
-      "application": [
-        "Business & Productivity"
-      ],
-      "interest": [
-        "Natural Language Processing",
-        "Artificial Intelligence / Machine Learning",
-        "Web Development"
-      ],
-      "rdia": [
-        "Economies of the Future"
-      ],
-      "scores": {
-        "final_score": 0.5545,
-        "semantic_sim": 0.7339,
-        "context_score": 0.25,
-        "rdia_score": 0.5,
-        "rrf_score": 0.02837
-      },
-      "explanation": "Good match with the group's background. Matches application domain(s): business & productivity. Aligns with the group's RDIA priority."
-    },
-    {
-      "rank": 3,
       "project_id": "F06-45-10",
       "title": "Get It: A Deep Learning Approach for Identifying and Discriminating Spoken Arabic Among English",
       "supervisor_name": "Wojdan Mohammed BinSaeedan",
@@ -139,53 +93,16 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.5537,
-        "semantic_sim": 0.7324,
+        "final_score": 0.5626,
+        "semantic_sim": 0.7501,
         "context_score": 0.25,
         "rdia_score": 0.5,
-        "rrf_score": 0.026133
+        "rrf_score": 0.026974
       },
-      "explanation": "Good match with the group's background. Matches application domain(s): business & productivity. Aligns with the group's RDIA priority."
+      "explanation": "Highly similar to the group's profile. Matches application domain(s): business & productivity. Aligns with the group's RDIA priority."
     },
     {
-      "rank": 4,
-      "project_id": "F14-42-20",
-      "title": "Book Recommendation System based on Collaboration Filtering (RICO)",
-      "supervisor_name": " Wojdan Mohammed BinSaeedan",
-      "supervisor_id": "WMnS",
-      "academic_year": "42",
-      "keywords": [
-        "Recommendation System",
-        "Collaborative Filtering",
-        "User Preferences",
-        "KNN Algorithm",
-        "Django Framework",
-        "Information Filtering",
-        "Content Personalization",
-        "Data Overload Management"
-      ],
-      "application": [
-        "Entertainment & Media"
-      ],
-      "interest": [
-        "Web Development",
-        "Artificial Intelligence / Machine Learning",
-        "Database Systems"
-      ],
-      "rdia": [
-        "Economies of the Future"
-      ],
-      "scores": {
-        "final_score": 0.5519,
-        "semantic_sim": 0.7287,
-        "context_score": 0.25,
-        "rdia_score": 0.5,
-        "rrf_score": 0.029514
-      },
-      "explanation": "Good match with the group's background. Matches application domain(s): entertainment & media. Aligns with the group's RDIA priority."
-    },
-    {
-      "rank": 5,
+      "rank": 3,
       "project_id": "F07-45-10",
       "title": "Secure Healthcare Information Exchange Platform ‘KEEP SAFE’",
       "supervisor_name": "Eman AbdulHamid Alzaid",
@@ -214,50 +131,99 @@
         "Health & Wellness"
       ],
       "scores": {
-        "final_score": 0.5507,
-        "semantic_sim": 0.7264,
+        "final_score": 0.561,
+        "semantic_sim": 0.747,
         "context_score": 0.25,
         "rdia_score": 0.5,
-        "rrf_score": 0.028718
+        "rrf_score": 0.029877
       },
       "explanation": "Good match with the group's background. Matches application domain(s): healthcare / medical. Aligns with the group's RDIA priority."
     },
     {
-      "rank": 6,
-      "project_id": "M08-45-20",
-      "title": "Nab’a Application",
-      "supervisor_name": "Mohammed Hussein Alkhatib",
-      "supervisor_id": "MHkh",
+      "rank": 4,
+      "project_id": "F16-45-10",
+      "title": "Automatic audio files summarization System, EJAZ Website",
+      "supervisor_name": " Manal Khaled Alsabhan ",
+      "supervisor_id": "MKsa",
       "academic_year": "1445",
       "keywords": [
-        "News",
-        "Verified News",
-        "Trusted Information",
-        "Misinformation",
-        "Blockchain"
+        "Audio Summarization",
+        "Speech Recognition",
+        "Natural Language Processing (NLP)",
+        "Automatic Transcription",
+        "Text Summarization",
+        "Pegasus Model",
+        "BART Model",
+        "T5 Model",
+        "Meeting Summarization",
+        "Information Extraction",
+        "Audio Processing",
+        "Deep Learning",
+        "Collaborative Tools",
+        "Time Efficiency",
+        "Content Accessibility",
+        "Multilingual Support",
+        "Cloud Storage"
       ],
       "application": [
-        "Entertainment & Media"
+        "Business & Productivity"
       ],
       "interest": [
-        "Blockchain",
-        "Web Development",
-        "Mobile Development"
+        "Natural Language Processing",
+        "Artificial Intelligence / Machine Learning",
+        "Web Development"
       ],
       "rdia": [
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.5495,
-        "semantic_sim": 0.7241,
+        "final_score": 0.5604,
+        "semantic_sim": 0.7458,
         "context_score": 0.25,
         "rdia_score": 0.5,
-        "rrf_score": 0.02938
+        "rrf_score": 0.028169
+      },
+      "explanation": "Good match with the group's background. Matches application domain(s): business & productivity. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 5,
+      "project_id": "F14-42-20",
+      "title": "Book Recommendation System based on Collaboration Filtering (RICO)",
+      "supervisor_name": " Wojdan Mohammed BinSaeedan",
+      "supervisor_id": "WMnS",
+      "academic_year": "42",
+      "keywords": [
+        "Recommendation System",
+        "Collaborative Filtering",
+        "User Preferences",
+        "KNN Algorithm",
+        "Django Framework",
+        "Information Filtering",
+        "Content Personalization",
+        "Data Overload Management"
+      ],
+      "application": [
+        "Entertainment & Media"
+      ],
+      "interest": [
+        "Web Development",
+        "Artificial Intelligence / Machine Learning",
+        "Database Systems"
+      ],
+      "rdia": [
+        "Economies of the Future"
+      ],
+      "scores": {
+        "final_score": 0.5582,
+        "semantic_sim": 0.7414,
+        "context_score": 0.25,
+        "rdia_score": 0.5,
+        "rrf_score": 0.029324
       },
       "explanation": "Good match with the group's background. Matches application domain(s): entertainment & media. Aligns with the group's RDIA priority."
     },
     {
-      "rank": 7,
+      "rank": 6,
       "project_id": "F01-43-10",
       "title": "Treatment of stuttering problems in children Application - TSA",
       "supervisor_name": "Amal Suleiman Alsaif",
@@ -287,13 +253,47 @@
         "Health & Wellness"
       ],
       "scores": {
-        "final_score": 0.5478,
-        "semantic_sim": 0.7207,
+        "final_score": 0.5575,
+        "semantic_sim": 0.7399,
         "context_score": 0.25,
         "rdia_score": 0.5,
-        "rrf_score": 0.027313
+        "rrf_score": 0.028006
       },
       "explanation": "Good match with the group's background. Matches application domain(s): healthcare / medical. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 7,
+      "project_id": "M08-45-20",
+      "title": "Nab’a Application",
+      "supervisor_name": "Mohammed Hussein Alkhatib",
+      "supervisor_id": "MHkh",
+      "academic_year": "1445",
+      "keywords": [
+        "News",
+        "Verified News",
+        "Trusted Information",
+        "Misinformation",
+        "Blockchain"
+      ],
+      "application": [
+        "Entertainment & Media"
+      ],
+      "interest": [
+        "Blockchain",
+        "Web Development",
+        "Mobile Development"
+      ],
+      "rdia": [
+        "Economies of the Future"
+      ],
+      "scores": {
+        "final_score": 0.5529,
+        "semantic_sim": 0.7308,
+        "context_score": 0.25,
+        "rdia_score": 0.5,
+        "rrf_score": 0.029214
+      },
+      "explanation": "Good match with the group's background. Matches application domain(s): entertainment & media. Aligns with the group's RDIA priority."
     },
     {
       "rank": 8,
@@ -333,8 +333,8 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.541,
-        "semantic_sim": 0.7069,
+        "final_score": 0.5458,
+        "semantic_sim": 0.7166,
         "context_score": 0.25,
         "rdia_score": 0.5,
         "rrf_score": 0.028068
@@ -378,11 +378,11 @@
         "Health & Wellness"
       ],
       "scores": {
-        "final_score": 0.5363,
-        "semantic_sim": 0.6976,
+        "final_score": 0.5441,
+        "semantic_sim": 0.7132,
         "context_score": 0.25,
         "rdia_score": 0.5,
-        "rrf_score": 0.026471
+        "rrf_score": 0.026754
       },
       "explanation": "Good match with the group's background. Matches application domain(s): healthcare / medical. Aligns with the group's RDIA priority."
     },
@@ -426,11 +426,11 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.5325,
-        "semantic_sim": 0.6899,
+        "final_score": 0.5387,
+        "semantic_sim": 0.7025,
         "context_score": 0.25,
         "rdia_score": 0.5,
-        "rrf_score": 0.025914
+        "rrf_score": 0.02605
       },
       "explanation": "Good match with the group's background. Matches application domain(s): government & public sector. Aligns with the group's RDIA priority."
     }
@@ -439,84 +439,84 @@
     {
       "name": "Artificial Intelligence / Machine Learning",
       "description": "Focuses on building systems that learn from data, make predictions, and perform intelligent tasks without explicit programming.",
-      "combined_score": 0.8692,
-      "semantic_score": 0.8131,
-      "frequency_in_top_projects": 1.0,
-      "already_selected": false
-    },
-    {
-      "name": "Web Development",
-      "description": "Covers the design and implementation of websites and web applications, including frontend, backend, and full‑stack development.",
-      "combined_score": 0.8565,
-      "semantic_score": 0.795,
+      "combined_score": 0.8673,
+      "semantic_score": 0.8104,
       "frequency_in_top_projects": 1.0,
       "already_selected": false
     },
     {
       "name": "Mobile Development",
       "description": "Involves creating applications for mobile platforms such as iOS and Android, focusing on performance, UI, and device integration.",
-      "combined_score": 0.7592,
-      "semantic_score": 0.8274,
-      "frequency_in_top_projects": 0.6,
+      "combined_score": 0.8146,
+      "semantic_score": 0.8208,
+      "frequency_in_top_projects": 0.8,
       "already_selected": true
+    },
+    {
+      "name": "Web Development",
+      "description": "Covers the design and implementation of websites and web applications, including frontend, backend, and full‑stack development.",
+      "combined_score": 0.794,
+      "semantic_score": 0.7914,
+      "frequency_in_top_projects": 0.8,
+      "already_selected": false
     }
   ],
   "recommended_applications": [
     {
       "name": "Education",
       "description": "Focuses on systems and applications for learning, teaching, and academic support.",
-      "combined_score": 0.8491,
-      "semantic_score": 0.7845,
+      "combined_score": 0.8524,
+      "semantic_score": 0.7892,
       "frequency_in_top_projects": 1.0,
       "already_selected": false
     },
     {
       "name": "Business & Productivity",
       "description": "Involves the application of computing to enhance business operations.",
-      "combined_score": 0.6373,
-      "semantic_score": 0.8247,
+      "combined_score": 0.6375,
+      "semantic_score": 0.825,
       "frequency_in_top_projects": 0.2,
       "already_selected": true
     },
     {
-      "name": "Transportation & Mobility",
-      "description": "Pertains to technology related to the movement of people and goods.",
-      "combined_score": 0.6354,
-      "semantic_score": 0.7363,
-      "frequency_in_top_projects": 0.4,
-      "already_selected": false
+      "name": "Healthcare / Medical",
+      "description": "Relates to the use of technology to improve medical processes and patient care.",
+      "combined_score": 0.5991,
+      "semantic_score": 0.7701,
+      "frequency_in_top_projects": 0.2,
+      "already_selected": true
     }
   ],
   "recommended_rdia": [
     {
       "label": "Economies of the Future",
       "description": "Reimagine urban living and establish Saudi Arabia as a global leader in future-oriented sectors. ",
-      "combined_score": 0.7819,
-      "semantic_score": 0.6884,
+      "combined_score": 0.7865,
+      "semantic_score": 0.695,
       "frequency_in_top_projects": 1.0,
       "already_selected": true
     },
     {
-      "label": "Sustainable Environment and Supply of Essential Needs",
-      "description": "Secure sustainable access to water, food, and energy resources for the population and industries.",
-      "combined_score": 0.4486,
-      "semantic_score": 0.6409,
-      "frequency_in_top_projects": 0,
-      "already_selected": false
-    },
-    {
-      "label": "Health and Wellness",
+      "label": "Health & Wellness",
       "description": "Address prevalent health and therapeutic challenges in the Kingdom.",
-      "combined_score": 0.4158,
-      "semantic_score": 0.594,
-      "frequency_in_top_projects": 0,
+      "combined_score": 0.5278,
+      "semantic_score": 0.6315,
+      "frequency_in_top_projects": 0.2857142857142857,
+      "already_selected": true
+    },
+    {
+      "label": "Sustainable Environment & Supply of Essential Needs",
+      "description": "Secure sustainable access to water, food, and energy resources for the population and industries.",
+      "combined_score": 0.5039,
+      "semantic_score": 0.6587,
+      "frequency_in_top_projects": 0.14285714285714285,
       "already_selected": false
     },
     {
-      "label": "Energy and Industrial Leadership",
+      "label": "Energy & Industrial Leadership",
       "description": "Maintain and strengthen Saudi Arabia's global leadership in the energy sector while diversifying into new areas.",
-      "combined_score": 0.4155,
-      "semantic_score": 0.5935,
+      "combined_score": 0.425,
+      "semantic_score": 0.6072,
       "frequency_in_top_projects": 0,
       "already_selected": false
     }

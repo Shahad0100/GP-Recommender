@@ -2,14 +2,14 @@
   "group_id": "G005",
   "group_profile": {
     "selected_interests": [
-      "Computer Vision",
-      "Artificial Intelligence / Machine Learning",
       "Internet of Things (IoT)",
-      "Embedded Systems"
+      "Computer Vision",
+      "Embedded Systems",
+      "Artificial Intelligence / Machine Learning"
     ],
     "selected_applications": [
-      "Healthcare / Medical",
-      "Sustainability & Environment"
+      "Sustainability & Environment",
+      "Healthcare / Medical"
     ],
     "selected_rdia": [
       "Health & Wellness"
@@ -18,43 +18,6 @@
   "recommended_projects": [
     {
       "rank": 1,
-      "project_id": "F01-45-20",
-      "title": "Baasyir:A YOLO Based approach to Assist Visually  Impaired People by leveraging Smart Glasses System",
-      "supervisor_name": "Dhouha Ahmed Ben Noureddine",
-      "supervisor_id": "DAur",
-      "academic_year": "1445",
-      "keywords": [
-        "Baasyir Smart glasseses",
-        "Deep Learning",
-        "Object Detection",
-        "YOLOv7",
-        "YOLOv7-tiny",
-        "Baasyir dataset",
-        "Furniture-detection dataset",
-        "Raspberry Pi"
-      ],
-      "application": [
-        "Healthcare / Medical"
-      ],
-      "interest": [
-        "Computer Vision",
-        "Embedded Systems",
-        "Artificial Intelligence / Machine Learning"
-      ],
-      "rdia": [
-        "Health & Wellness"
-      ],
-      "scores": {
-        "final_score": 0.7467,
-        "semantic_sim": 0.7434,
-        "context_score": 0.5,
-        "rdia_score": 1.0,
-        "rrf_score": 0.031054
-      },
-      "explanation": "Good match with the group's background. Matches application domain(s): healthcare / medical. Aligns with the group's RDIA priority."
-    },
-    {
-      "rank": 2,
       "project_id": "F29-45-20",
       "title": "Hudhud: AI-based Remote Rehabilitation",
       "supervisor_name": " Manan Mohammed Almusallam ",
@@ -90,16 +53,16 @@
         "Health & Wellness"
       ],
       "scores": {
-        "final_score": 0.7455,
-        "semantic_sim": 0.7409,
+        "final_score": 0.7536,
+        "semantic_sim": 0.7572,
         "context_score": 0.5,
         "rdia_score": 1.0,
-        "rrf_score": 0.029877
+        "rrf_score": 0.030769
       },
-      "explanation": "Good match with the group's background. Matches application domain(s): healthcare / medical. Aligns with the group's RDIA priority."
+      "explanation": "Highly similar to the group's profile. Matches application domain(s): healthcare / medical. Aligns with the group's RDIA priority."
     },
     {
-      "rank": 3,
+      "rank": 2,
       "project_id": "F01-43-10",
       "title": "Treatment of stuttering problems in children Application - TSA",
       "supervisor_name": "Amal Suleiman Alsaif",
@@ -129,11 +92,48 @@
         "Health & Wellness"
       ],
       "scores": {
-        "final_score": 0.7395,
-        "semantic_sim": 0.729,
+        "final_score": 0.7503,
+        "semantic_sim": 0.7506,
         "context_score": 0.5,
         "rdia_score": 1.0,
-        "rrf_score": 0.028814
+        "rrf_score": 0.029851
+      },
+      "explanation": "Highly similar to the group's profile. Matches application domain(s): healthcare / medical. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 3,
+      "project_id": "F01-45-20",
+      "title": "Baasyir:A YOLO Based approach to Assist Visually  Impaired People by leveraging Smart Glasses System",
+      "supervisor_name": "Dhouha Ahmed Ben Noureddine",
+      "supervisor_id": "DAur",
+      "academic_year": "1445",
+      "keywords": [
+        "Baasyir Smart glasseses",
+        "Deep Learning",
+        "Object Detection",
+        "YOLOv7",
+        "YOLOv7-tiny",
+        "Baasyir dataset",
+        "Furniture-detection dataset",
+        "Raspberry Pi"
+      ],
+      "application": [
+        "Healthcare / Medical"
+      ],
+      "interest": [
+        "Computer Vision",
+        "Embedded Systems",
+        "Artificial Intelligence / Machine Learning"
+      ],
+      "rdia": [
+        "Health & Wellness"
+      ],
+      "scores": {
+        "final_score": 0.7493,
+        "semantic_sim": 0.7487,
+        "context_score": 0.5,
+        "rdia_score": 1.0,
+        "rrf_score": 0.030835
       },
       "explanation": "Good match with the group's background. Matches application domain(s): healthcare / medical. Aligns with the group's RDIA priority."
     },
@@ -167,11 +167,11 @@
         "Health & Wellness"
       ],
       "scores": {
-        "final_score": 0.7322,
-        "semantic_sim": 0.7143,
+        "final_score": 0.7484,
+        "semantic_sim": 0.7468,
         "context_score": 0.5,
         "rdia_score": 1.0,
-        "rrf_score": 0.026743
+        "rrf_score": 0.028577
       },
       "explanation": "Good match with the group's background. Matches application domain(s): healthcare / medical. Aligns with the group's RDIA priority."
     },
@@ -201,11 +201,11 @@
         "Health & Wellness"
       ],
       "scores": {
-        "final_score": 0.7321,
-        "semantic_sim": 0.7142,
+        "final_score": 0.7327,
+        "semantic_sim": 0.7155,
         "context_score": 0.5,
         "rdia_score": 1.0,
-        "rrf_score": 0.028125
+        "rrf_score": 0.027673
       },
       "explanation": "Good match with the group's background. Matches application domain(s): healthcare / medical. Aligns with the group's RDIA priority."
     },
@@ -314,16 +314,59 @@
         "Health & Wellness"
       ],
       "scores": {
-        "final_score": 0.6218,
-        "semantic_sim": 0.7436,
+        "final_score": 0.6204,
+        "semantic_sim": 0.7409,
         "context_score": 0.0,
         "rdia_score": 1.0,
-        "rrf_score": 0.028485
+        "rrf_score": 0.027418
       },
       "explanation": "Good match with the group's background. Aligns with the group's RDIA priority."
     },
     {
       "rank": 9,
+      "project_id": "F04-45-10",
+      "title": "Baseera بصيرة : Accessible Mobile App for Blind Children",
+      "supervisor_name": " Manan Mohammed Almusallam ",
+      "supervisor_id": "MMmu",
+      "academic_year": "1445",
+      "keywords": [
+        "Accessible Mobile Application",
+        "Blind Children",
+        "Visual Impairment",
+        "Assistive Technology",
+        "Educational Game",
+        "Arabic Language Support",
+        "Preschool Education",
+        "Audio Feedback",
+        "Numbers Learning",
+        "Counting Skills",
+        "Inclusive Design",
+        "Accessibility Standards",
+        "Child Development",
+        "Habilitation",
+        "Touch-screen Accessibility"
+      ],
+      "application": [
+        "Education"
+      ],
+      "interest": [
+        "Human-Computer Interaction",
+        "Mobile Development"
+      ],
+      "rdia": [
+        "Health & Wellness"
+      ],
+      "scores": {
+        "final_score": 0.6158,
+        "semantic_sim": 0.7317,
+        "context_score": 0.0,
+        "rdia_score": 1.0,
+        "rrf_score": 0.013514
+      },
+      "explanation": "Good match with the group's background. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 10,
       "project_id": "F17-45-20",
       "title": "Mu’nis: Enhancing Deaf Communication with Realtime Subtitles in Arabic Language",
       "supervisor_name": " Tasniem Nasser Alyahya ",
@@ -360,50 +403,11 @@
         "Health & Wellness"
       ],
       "scores": {
-        "final_score": 0.6073,
-        "semantic_sim": 0.7146,
+        "final_score": 0.6152,
+        "semantic_sim": 0.7304,
         "context_score": 0.0,
         "rdia_score": 1.0,
-        "rrf_score": 0.025182
-      },
-      "explanation": "Good match with the group's background. Aligns with the group's RDIA priority."
-    },
-    {
-      "rank": 10,
-      "project_id": "F10-42-20",
-      "title": "Monitoring and Tracking of Vulnerable Individuals Using Mini-UAVs",
-      "supervisor_name": " Areeb Abdullah Alowisheq",
-      "supervisor_id": "AAow",
-      "academic_year": "1442",
-      "keywords": [
-        "UAV Surveillance",
-        "Tracking System",
-        "Vision-Based Control",
-        "Autonomous Drones",
-        "Object Detection",
-        "Person Re-Identification",
-        "Deep Learning",
-        "Mobile Application",
-        "Simulation and Prototyping",
-        "Safety Monitoring"
-      ],
-      "application": [
-        "Social Good & Community"
-      ],
-      "interest": [
-        "Computer Vision",
-        "Artificial Intelligence / Machine Learning",
-        "Drones"
-      ],
-      "rdia": [
-        "Health & Wellness"
-      ],
-      "scores": {
-        "final_score": 0.6073,
-        "semantic_sim": 0.7146,
-        "context_score": 0.0,
-        "rdia_score": 1.0,
-        "rrf_score": 0.026519
+        "rrf_score": 0.025528
       },
       "explanation": "Good match with the group's background. Aligns with the group's RDIA priority."
     }
@@ -412,50 +416,50 @@
     {
       "name": "Artificial Intelligence / Machine Learning",
       "description": "Focuses on building systems that learn from data, make predictions, and perform intelligent tasks without explicit programming.",
-      "combined_score": 0.9077,
-      "semantic_score": 0.8681,
+      "combined_score": 0.8933,
+      "semantic_score": 0.8475,
       "frequency_in_top_projects": 1.0,
       "already_selected": true
     },
     {
       "name": "Computer Vision",
       "description": "Enables machines to interpret and understand visual information from images and videos using AI techniques.",
-      "combined_score": 0.7399,
-      "semantic_score": 0.7713,
-      "frequency_in_top_projects": 0.6666666666666666,
+      "combined_score": 0.6726,
+      "semantic_score": 0.7466,
+      "frequency_in_top_projects": 0.5,
       "already_selected": true
     },
     {
       "name": "Embedded Systems",
       "description": "Involves programming and designing specialized computing systems integrated into hardware devices.",
-      "combined_score": 0.7047,
-      "semantic_score": 0.8638,
-      "frequency_in_top_projects": 0.3333333333333333,
+      "combined_score": 0.6663,
+      "semantic_score": 0.8447,
+      "frequency_in_top_projects": 0.25,
       "already_selected": true
     }
   ],
   "recommended_applications": [
     {
-      "name": "Education",
-      "description": "Focuses on systems and applications for learning, teaching, and academic support.",
-      "combined_score": 0.8616,
-      "semantic_score": 0.8023,
-      "frequency_in_top_projects": 1.0,
-      "already_selected": false
-    },
-    {
       "name": "Healthcare / Medical",
       "description": "Relates to the use of technology to improve medical processes and patient care.",
-      "combined_score": 0.7005,
-      "semantic_score": 0.7864,
-      "frequency_in_top_projects": 0.5,
+      "combined_score": 0.8706,
+      "semantic_score": 0.8152,
+      "frequency_in_top_projects": 1.0,
       "already_selected": true
+    },
+    {
+      "name": "Education",
+      "description": "Focuses on systems and applications for learning, teaching, and academic support.",
+      "combined_score": 0.7908,
+      "semantic_score": 0.8083,
+      "frequency_in_top_projects": 0.75,
+      "already_selected": false
     },
     {
       "name": "Business & Productivity",
       "description": "Involves the application of computing to enhance business operations.",
-      "combined_score": 0.6231,
-      "semantic_score": 0.783,
+      "combined_score": 0.6224,
+      "semantic_score": 0.782,
       "frequency_in_top_projects": 0.25,
       "already_selected": false
     }
@@ -464,32 +468,32 @@
     {
       "label": "Economies of the Future",
       "description": "Reimagine urban living and establish Saudi Arabia as a global leader in future-oriented sectors. ",
-      "combined_score": 0.7459,
-      "semantic_score": 0.6371,
+      "combined_score": 0.7544,
+      "semantic_score": 0.6491,
       "frequency_in_top_projects": 1.0,
       "already_selected": false
     },
     {
-      "label": "Sustainable Environment and Supply of Essential Needs",
-      "description": "Secure sustainable access to water, food, and energy resources for the population and industries.",
-      "combined_score": 0.4475,
-      "semantic_score": 0.6393,
-      "frequency_in_top_projects": 0,
-      "already_selected": false
-    },
-    {
-      "label": "Health and Wellness",
+      "label": "Health & Wellness",
       "description": "Address prevalent health and therapeutic challenges in the Kingdom.",
-      "combined_score": 0.4146,
-      "semantic_score": 0.5922,
-      "frequency_in_top_projects": 0,
+      "combined_score": 0.7201,
+      "semantic_score": 0.6859,
+      "frequency_in_top_projects": 0.8,
+      "already_selected": true
+    },
+    {
+      "label": "Sustainable Environment & Supply of Essential Needs",
+      "description": "Secure sustainable access to water, food, and energy resources for the population and industries.",
+      "combined_score": 0.5279,
+      "semantic_score": 0.6684,
+      "frequency_in_top_projects": 0.2,
       "already_selected": false
     },
     {
-      "label": "Energy and Industrial Leadership",
+      "label": "Energy & Industrial Leadership",
       "description": "Maintain and strengthen Saudi Arabia's global leadership in the energy sector while diversifying into new areas.",
-      "combined_score": 0.4127,
-      "semantic_score": 0.5896,
+      "combined_score": 0.4308,
+      "semantic_score": 0.6154,
       "frequency_in_top_projects": 0,
       "already_selected": false
     }

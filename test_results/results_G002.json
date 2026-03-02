@@ -3,8 +3,8 @@
   "group_profile": {
     "selected_interests": [
       "Cloud Computing",
-      "Database Systems",
-      "Web Development"
+      "Web Development",
+      "Database Systems"
     ],
     "selected_applications": [
       "Education",
@@ -47,8 +47,8 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.6521,
-        "semantic_sim": 0.8041,
+        "final_score": 0.656,
+        "semantic_sim": 0.812,
         "context_score": 0.5,
         "rdia_score": 0.5,
         "rrf_score": 0.029214
@@ -57,40 +57,6 @@
     },
     {
       "rank": 2,
-      "project_id": "M09-45-10",
-      "title": "Qaimni: An Interactive, Web-Based System for Rating Faculty Members",
-      "supervisor_name": "Adel Ebrahim Al-Salem",
-      "supervisor_id": "AESa",
-      "academic_year": "1445",
-      "keywords": [
-        "Faculty Rating",
-        "Student Reviews",
-        "Anonymous Feedback",
-        "Web Application",
-        "College Platform"
-      ],
-      "application": [
-        "Education"
-      ],
-      "interest": [
-        "Web Development",
-        "Database Systems",
-        "Human-Computer Interaction"
-      ],
-      "rdia": [
-        "Economies of the Future"
-      ],
-      "scores": {
-        "final_score": 0.6351,
-        "semantic_sim": 0.7703,
-        "context_score": 0.5,
-        "rdia_score": 0.5,
-        "rrf_score": 0.030835
-      },
-      "explanation": "Highly similar to the group's profile. Matches application domain(s): education. Aligns with the group's RDIA priority."
-    },
-    {
-      "rank": 3,
       "project_id": "F04-45-20",
       "title": "CCIS Student Assistant Chatbot",
       "supervisor_name": "Ahmed Mohammed Ahmed Gadallah",
@@ -124,11 +90,45 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.6346,
-        "semantic_sim": 0.7692,
+        "final_score": 0.6418,
+        "semantic_sim": 0.7836,
         "context_score": 0.5,
         "rdia_score": 0.5,
-        "rrf_score": 0.027778
+        "rrf_score": 0.028034
+      },
+      "explanation": "Highly similar to the group's profile. Matches application domain(s): education. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 3,
+      "project_id": "M09-45-10",
+      "title": "Qaimni: An Interactive, Web-Based System for Rating Faculty Members",
+      "supervisor_name": "Adel Ebrahim Al-Salem",
+      "supervisor_id": "AESa",
+      "academic_year": "1445",
+      "keywords": [
+        "Faculty Rating",
+        "Student Reviews",
+        "Anonymous Feedback",
+        "Web Application",
+        "College Platform"
+      ],
+      "application": [
+        "Education"
+      ],
+      "interest": [
+        "Web Development",
+        "Database Systems",
+        "Human-Computer Interaction"
+      ],
+      "rdia": [
+        "Economies of the Future"
+      ],
+      "scores": {
+        "final_score": 0.6407,
+        "semantic_sim": 0.7813,
+        "context_score": 0.5,
+        "rdia_score": 0.5,
+        "rrf_score": 0.030579
       },
       "explanation": "Highly similar to the group's profile. Matches application domain(s): education. Aligns with the group's RDIA priority."
     },
@@ -169,47 +169,48 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.6262,
-        "semantic_sim": 0.7523,
+        "final_score": 0.6277,
+        "semantic_sim": 0.7555,
         "context_score": 0.5,
         "rdia_score": 0.5,
-        "rrf_score": 0.015625
+        "rrf_score": 0.015152
       },
       "explanation": "Highly similar to the group's profile. Matches application domain(s): education. Aligns with the group's RDIA priority."
     },
     {
       "rank": 5,
-      "project_id": "F04-42-10",
-      "title": "Evaluating Website Quality Using Machine Learning",
-      "supervisor_name": "Aram Saleh Al-Sedrani ",
-      "supervisor_id": "ASSe",
+      "project_id": "F05-42-10",
+      "title": "Decentralized Social Application: Moments",
+      "supervisor_name": " Tahani Fahad Albalawi",
+      "supervisor_id": "TFba",
       "academic_year": "1442",
       "keywords": [
-        "Academic websites",
-        "Quality evaluator",
-        "Random forest",
-        "Supervised machine learning",
-        "Feature extraction"
+        "Social applications",
+        "Centralized system",
+        "Blockchain technology",
+        "Security",
+        "Privacy",
+        "Decentralized systems"
       ],
       "application": [
-        "Education"
+        "Social Good & Community"
       ],
       "interest": [
-        "Artificial Intelligence / Machine Learning",
+        "Blockchain",
         "Web Development",
-        "Data Science"
+        "Cybersecurity"
       ],
       "rdia": [
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.6206,
-        "semantic_sim": 0.7411,
+        "final_score": 0.6246,
+        "semantic_sim": 0.7493,
         "context_score": 0.5,
         "rdia_score": 0.5,
-        "rrf_score": 0.027584
+        "rrf_score": 0.030579
       },
-      "explanation": "Good match with the group's background. Matches application domain(s): education. Aligns with the group's RDIA priority."
+      "explanation": "Good match with the group's background. Matches application domain(s): social good & community. Aligns with the group's RDIA priority."
     },
     {
       "rank": 6,
@@ -242,8 +243,8 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.6184,
-        "semantic_sim": 0.7368,
+        "final_score": 0.6242,
+        "semantic_sim": 0.7484,
         "context_score": 0.5,
         "rdia_score": 0.5,
         "rrf_score": 0.02837
@@ -252,6 +253,40 @@
     },
     {
       "rank": 7,
+      "project_id": "F04-42-10",
+      "title": "Evaluating Website Quality Using Machine Learning",
+      "supervisor_name": "Aram Saleh Al-Sedrani ",
+      "supervisor_id": "ASSe",
+      "academic_year": "1442",
+      "keywords": [
+        "Academic websites",
+        "Quality evaluator",
+        "Random forest",
+        "Supervised machine learning",
+        "Feature extraction"
+      ],
+      "application": [
+        "Education"
+      ],
+      "interest": [
+        "Artificial Intelligence / Machine Learning",
+        "Web Development",
+        "Data Science"
+      ],
+      "rdia": [
+        "Economies of the Future"
+      ],
+      "scores": {
+        "final_score": 0.6238,
+        "semantic_sim": 0.7476,
+        "context_score": 0.5,
+        "rdia_score": 0.5,
+        "rrf_score": 0.026743
+      },
+      "explanation": "Good match with the group's background. Matches application domain(s): education. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 8,
       "project_id": "F22-45-20",
       "title": "Smart Attendance Management System Using iBeacon Technology (حضورك)",
       "supervisor_name": " Tahani Fahad Albalawi",
@@ -288,48 +323,13 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.6177,
-        "semantic_sim": 0.7355,
+        "final_score": 0.6227,
+        "semantic_sim": 0.7454,
         "context_score": 0.5,
         "rdia_score": 0.5,
-        "rrf_score": 0.02628
+        "rrf_score": 0.026084
       },
       "explanation": "Good match with the group's background. Matches application domain(s): education. Aligns with the group's RDIA priority."
-    },
-    {
-      "rank": 8,
-      "project_id": "F05-42-10",
-      "title": "Decentralized Social Application: Moments",
-      "supervisor_name": " Tahani Fahad Albalawi",
-      "supervisor_id": "TFba",
-      "academic_year": "1442",
-      "keywords": [
-        "Social applications",
-        "Centralized system",
-        "Blockchain technology",
-        "Security",
-        "Privacy",
-        "Decentralized systems"
-      ],
-      "application": [
-        "Social Good & Community"
-      ],
-      "interest": [
-        "Blockchain",
-        "Web Development",
-        "Cybersecurity"
-      ],
-      "rdia": [
-        "Economies of the Future"
-      ],
-      "scores": {
-        "final_score": 0.6161,
-        "semantic_sim": 0.7322,
-        "context_score": 0.5,
-        "rdia_score": 0.5,
-        "rrf_score": 0.029762
-      },
-      "explanation": "Good match with the group's background. Matches application domain(s): social good & community. Aligns with the group's RDIA priority."
     },
     {
       "rank": 9,
@@ -360,8 +360,8 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.6138,
-        "semantic_sim": 0.7275,
+        "final_score": 0.6199,
+        "semantic_sim": 0.7399,
         "context_score": 0.5,
         "rdia_score": 0.5,
         "rrf_score": 0.026686
@@ -370,38 +370,40 @@
     },
     {
       "rank": 10,
-      "project_id": "F13-42-10",
-      "title": "Dolphin Application ",
-      "supervisor_name": " Eman AbdulHamid Alzaid ",
-      "supervisor_id": "EAza",
+      "project_id": "F14-42-20",
+      "title": "Book Recommendation System based on Collaboration Filtering (RICO)",
+      "supervisor_name": " Wojdan Mohammed BinSaeedan",
+      "supervisor_id": "WMnS",
       "academic_year": "42",
       "keywords": [
-        "Mobile Application",
-        "Video Management",
-        "Video Retrieval",
-        "Machine Learning",
-        "Video Indexing",
-        "Smartphone Videos"
+        "Recommendation System",
+        "Collaborative Filtering",
+        "User Preferences",
+        "KNN Algorithm",
+        "Django Framework",
+        "Information Filtering",
+        "Content Personalization",
+        "Data Overload Management"
       ],
       "application": [
         "Entertainment & Media"
       ],
       "interest": [
+        "Web Development",
         "Artificial Intelligence / Machine Learning",
-        "Mobile Development",
-        "Computer Vision"
+        "Database Systems"
       ],
       "rdia": [
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.4994,
-        "semantic_sim": 0.7487,
+        "final_score": 0.5064,
+        "semantic_sim": 0.7628,
         "context_score": 0.0,
         "rdia_score": 0.5,
-        "rrf_score": 0.027885
+        "rrf_score": 0.029911
       },
-      "explanation": "Good match with the group's background. Aligns with the group's RDIA priority."
+      "explanation": "Highly similar to the group's profile. Aligns with the group's RDIA priority."
     }
   ],
   "recommended_interests": [
@@ -416,17 +418,17 @@
     {
       "name": "Web Development",
       "description": "Covers the design and implementation of websites and web applications, including frontend, backend, and full‑stack development.",
-      "combined_score": 0.8092,
-      "semantic_score": 0.8499,
-      "frequency_in_top_projects": 0.7142857142857143,
+      "combined_score": 0.8403,
+      "semantic_score": 0.8433,
+      "frequency_in_top_projects": 0.8333333333333334,
       "already_selected": true
     },
     {
       "name": "Embedded Systems",
       "description": "Involves programming and designing specialized computing systems integrated into hardware devices.",
-      "combined_score": 0.685,
-      "semantic_score": 0.8561,
-      "frequency_in_top_projects": 0.2857142857142857,
+      "combined_score": 0.6997,
+      "semantic_score": 0.8568,
+      "frequency_in_top_projects": 0.3333333333333333,
       "already_selected": false
     }
   ],
@@ -434,25 +436,25 @@
     {
       "name": "Education",
       "description": "Focuses on systems and applications for learning, teaching, and academic support.",
-      "combined_score": 0.887,
-      "semantic_score": 0.8385,
+      "combined_score": 0.8856,
+      "semantic_score": 0.8365,
       "frequency_in_top_projects": 1.0,
       "already_selected": true
     },
     {
       "name": "Transportation & Mobility",
       "description": "Pertains to technology related to the movement of people and goods.",
-      "combined_score": 0.5928,
-      "semantic_score": 0.704,
-      "frequency_in_top_projects": 0.3333333333333333,
+      "combined_score": 0.6163,
+      "semantic_score": 0.709,
+      "frequency_in_top_projects": 0.4,
       "already_selected": false
     },
     {
       "name": "Entertainment & Media",
       "description": "Covers applications for leisure and content creation.",
-      "combined_score": 0.59,
-      "semantic_score": 0.7,
-      "frequency_in_top_projects": 0.3333333333333333,
+      "combined_score": 0.6101,
+      "semantic_score": 0.7002,
+      "frequency_in_top_projects": 0.4,
       "already_selected": false
     }
   ],
@@ -460,32 +462,32 @@
     {
       "label": "Economies of the Future",
       "description": "Reimagine urban living and establish Saudi Arabia as a global leader in future-oriented sectors. ",
-      "combined_score": 0.7722,
-      "semantic_score": 0.6745,
+      "combined_score": 0.7835,
+      "semantic_score": 0.6907,
       "frequency_in_top_projects": 1.0,
       "already_selected": true
     },
     {
-      "label": "Sustainable Environment and Supply of Essential Needs",
+      "label": "Sustainable Environment & Supply of Essential Needs",
       "description": "Secure sustainable access to water, food, and energy resources for the population and industries.",
-      "combined_score": 0.444,
-      "semantic_score": 0.6343,
-      "frequency_in_top_projects": 0,
-      "already_selected": false
+      "combined_score": 0.5528,
+      "semantic_score": 0.6825,
+      "frequency_in_top_projects": 0.25,
+      "already_selected": true
     },
     {
-      "label": "Energy and Industrial Leadership",
+      "label": "Energy & Industrial Leadership",
       "description": "Maintain and strengthen Saudi Arabia's global leadership in the energy sector while diversifying into new areas.",
-      "combined_score": 0.4086,
-      "semantic_score": 0.5837,
+      "combined_score": 0.4267,
+      "semantic_score": 0.6096,
       "frequency_in_top_projects": 0,
       "already_selected": false
     },
     {
-      "label": "Health and Wellness",
+      "label": "Health & Wellness",
       "description": "Address prevalent health and therapeutic challenges in the Kingdom.",
-      "combined_score": 0.4043,
-      "semantic_score": 0.5776,
+      "combined_score": 0.4125,
+      "semantic_score": 0.5892,
       "frequency_in_top_projects": 0,
       "already_selected": false
     }

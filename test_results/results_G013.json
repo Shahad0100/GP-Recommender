@@ -2,8 +2,8 @@
   "group_id": "G013",
   "group_profile": {
     "selected_interests": [
-      "Artificial Intelligence / Machine Learning",
-      "Data Science"
+      "Data Science",
+      "Artificial Intelligence / Machine Learning"
     ],
     "selected_applications": [
       "Healthcare / Medical"
@@ -43,13 +43,13 @@
         "Health & Wellness"
       ],
       "scores": {
-        "final_score": 0.8677,
-        "semantic_sim": 0.7353,
+        "final_score": 0.8841,
+        "semantic_sim": 0.7681,
         "context_score": 1.0,
         "rdia_score": 1.0,
-        "rrf_score": 0.029857
+        "rrf_score": 0.031281
       },
-      "explanation": "Good match with the group's background. Matches application domain(s): healthcare / medical. Aligns with the group's RDIA priority."
+      "explanation": "Highly similar to the group's profile. Matches application domain(s): healthcare / medical. Aligns with the group's RDIA priority."
     },
     {
       "rank": 2,
@@ -88,53 +88,16 @@
         "Health & Wellness"
       ],
       "scores": {
-        "final_score": 0.8641,
-        "semantic_sim": 0.7281,
+        "final_score": 0.8738,
+        "semantic_sim": 0.7477,
         "context_score": 1.0,
         "rdia_score": 1.0,
-        "rrf_score": 0.02971
+        "rrf_score": 0.030777
       },
       "explanation": "Good match with the group's background. Matches application domain(s): healthcare / medical. Aligns with the group's RDIA priority."
     },
     {
       "rank": 3,
-      "project_id": "F01-45-20",
-      "title": "Baasyir:A YOLO Based approach to Assist Visually  Impaired People by leveraging Smart Glasses System",
-      "supervisor_name": "Dhouha Ahmed Ben Noureddine",
-      "supervisor_id": "DAur",
-      "academic_year": "1445",
-      "keywords": [
-        "Baasyir Smart glasseses",
-        "Deep Learning",
-        "Object Detection",
-        "YOLOv7",
-        "YOLOv7-tiny",
-        "Baasyir dataset",
-        "Furniture-detection dataset",
-        "Raspberry Pi"
-      ],
-      "application": [
-        "Healthcare / Medical"
-      ],
-      "interest": [
-        "Computer Vision",
-        "Embedded Systems",
-        "Artificial Intelligence / Machine Learning"
-      ],
-      "rdia": [
-        "Health & Wellness"
-      ],
-      "scores": {
-        "final_score": 0.8592,
-        "semantic_sim": 0.7183,
-        "context_score": 1.0,
-        "rdia_score": 1.0,
-        "rrf_score": 0.028372
-      },
-      "explanation": "Good match with the group's background. Matches application domain(s): healthcare / medical. Aligns with the group's RDIA priority."
-    },
-    {
-      "rank": 4,
       "project_id": "F01-43-10",
       "title": "Treatment of stuttering problems in children Application - TSA",
       "supervisor_name": "Amal Suleiman Alsaif",
@@ -164,11 +127,48 @@
         "Health & Wellness"
       ],
       "scores": {
-        "final_score": 0.8563,
-        "semantic_sim": 0.7126,
+        "final_score": 0.8678,
+        "semantic_sim": 0.7355,
         "context_score": 1.0,
         "rdia_score": 1.0,
-        "rrf_score": 0.028531
+        "rrf_score": 0.029958
+      },
+      "explanation": "Good match with the group's background. Matches application domain(s): healthcare / medical. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 4,
+      "project_id": "F01-45-20",
+      "title": "Baasyir:A YOLO Based approach to Assist Visually  Impaired People by leveraging Smart Glasses System",
+      "supervisor_name": "Dhouha Ahmed Ben Noureddine",
+      "supervisor_id": "DAur",
+      "academic_year": "1445",
+      "keywords": [
+        "Baasyir Smart glasseses",
+        "Deep Learning",
+        "Object Detection",
+        "YOLOv7",
+        "YOLOv7-tiny",
+        "Baasyir dataset",
+        "Furniture-detection dataset",
+        "Raspberry Pi"
+      ],
+      "application": [
+        "Healthcare / Medical"
+      ],
+      "interest": [
+        "Computer Vision",
+        "Embedded Systems",
+        "Artificial Intelligence / Machine Learning"
+      ],
+      "rdia": [
+        "Health & Wellness"
+      ],
+      "scores": {
+        "final_score": 0.8631,
+        "semantic_sim": 0.7263,
+        "context_score": 1.0,
+        "rdia_score": 1.0,
+        "rrf_score": 0.029083
       },
       "explanation": "Good match with the group's background. Matches application domain(s): healthcare / medical. Aligns with the group's RDIA priority."
     },
@@ -198,11 +198,11 @@
         "Health & Wellness"
       ],
       "scores": {
-        "final_score": 0.8543,
-        "semantic_sim": 0.7087,
+        "final_score": 0.8546,
+        "semantic_sim": 0.7093,
         "context_score": 1.0,
         "rdia_score": 1.0,
-        "rrf_score": 0.028475
+        "rrf_score": 0.027757
       },
       "explanation": "Good match with the group's background. Matches application domain(s): healthcare / medical. Aligns with the group's RDIA priority."
     },
@@ -311,11 +311,11 @@
         "Health & Wellness"
       ],
       "scores": {
-        "final_score": 0.6215,
-        "semantic_sim": 0.743,
+        "final_score": 0.6195,
+        "semantic_sim": 0.7391,
         "context_score": 0.0,
         "rdia_score": 1.0,
-        "rrf_score": 0.028814
+        "rrf_score": 0.028175
       },
       "explanation": "Good match with the group's background. Aligns with the group's RDIA priority."
     },
@@ -357,11 +357,11 @@
         "Health & Wellness"
       ],
       "scores": {
-        "final_score": 0.6,
-        "semantic_sim": 0.7001,
+        "final_score": 0.6072,
+        "semantic_sim": 0.7144,
         "context_score": 0.0,
         "rdia_score": 1.0,
-        "rrf_score": 0.023974
+        "rrf_score": 0.024394
       },
       "explanation": "Good match with the group's background. Aligns with the group's RDIA priority."
     },
@@ -401,25 +401,25 @@
     {
       "name": "Artificial Intelligence / Machine Learning",
       "description": "Focuses on building systems that learn from data, make predictions, and perform intelligent tasks without explicit programming.",
-      "combined_score": 0.9275,
-      "semantic_score": 0.8964,
+      "combined_score": 0.9101,
+      "semantic_score": 0.8716,
       "frequency_in_top_projects": 1.0,
       "already_selected": true
     },
     {
       "name": "Data Science",
       "description": "Involves extracting insights from structured and unstructured data using statistics, machine learning, and analytical techniques.",
-      "combined_score": 0.7163,
-      "semantic_score": 0.8626,
-      "frequency_in_top_projects": 0.375,
+      "combined_score": 0.6632,
+      "semantic_score": 0.8403,
+      "frequency_in_top_projects": 0.25,
       "already_selected": true
     },
     {
-      "name": "Cybersecurity",
-      "description": "Deals with protecting systems, networks, and data from attacks, vulnerabilities, and unauthorized access.",
-      "combined_score": 0.6655,
-      "semantic_score": 0.79,
-      "frequency_in_top_projects": 0.375,
+      "name": "Computer Vision",
+      "description": "Enables machines to interpret and understand visual information from images and videos using AI techniques.",
+      "combined_score": 0.6436,
+      "semantic_score": 0.7051,
+      "frequency_in_top_projects": 0.5,
       "already_selected": false
     }
   ],
@@ -427,24 +427,24 @@
     {
       "name": "Education",
       "description": "Focuses on systems and applications for learning, teaching, and academic support.",
-      "combined_score": 0.8505,
-      "semantic_score": 0.7865,
+      "combined_score": 0.8552,
+      "semantic_score": 0.7932,
       "frequency_in_top_projects": 1.0,
       "already_selected": false
     },
     {
-      "name": "Security & Privacy",
-      "description": "Pertains to protecting data, networks, and systems from unauthorized access.",
-      "combined_score": 0.6548,
-      "semantic_score": 0.7211,
+      "name": "Healthcare / Medical",
+      "description": "Relates to the use of technology to improve medical processes and patient care.",
+      "combined_score": 0.7176,
+      "semantic_score": 0.8108,
       "frequency_in_top_projects": 0.5,
-      "already_selected": false
+      "already_selected": true
     },
     {
       "name": "Business & Productivity",
       "description": "Involves the application of computing to enhance business operations.",
-      "combined_score": 0.6223,
-      "semantic_score": 0.7819,
+      "combined_score": 0.6224,
+      "semantic_score": 0.782,
       "frequency_in_top_projects": 0.25,
       "already_selected": false
     }
@@ -453,32 +453,32 @@
     {
       "label": "Economies of the Future",
       "description": "Reimagine urban living and establish Saudi Arabia as a global leader in future-oriented sectors. ",
-      "combined_score": 0.7368,
-      "semantic_score": 0.624,
+      "combined_score": 0.7475,
+      "semantic_score": 0.6393,
       "frequency_in_top_projects": 1.0,
       "already_selected": false
     },
     {
-      "label": "Sustainable Environment and Supply of Essential Needs",
-      "description": "Secure sustainable access to water, food, and energy resources for the population and industries.",
-      "combined_score": 0.4269,
-      "semantic_score": 0.6099,
-      "frequency_in_top_projects": 0,
-      "already_selected": false
-    },
-    {
-      "label": "Health and Wellness",
+      "label": "Health & Wellness",
       "description": "Address prevalent health and therapeutic challenges in the Kingdom.",
-      "combined_score": 0.4078,
-      "semantic_score": 0.5826,
-      "frequency_in_top_projects": 0,
+      "combined_score": 0.6294,
+      "semantic_score": 0.6848,
+      "frequency_in_top_projects": 0.5,
+      "already_selected": true
+    },
+    {
+      "label": "Sustainable Environment & Supply of Essential Needs",
+      "description": "Secure sustainable access to water, food, and energy resources for the population and industries.",
+      "combined_score": 0.5026,
+      "semantic_score": 0.6466,
+      "frequency_in_top_projects": 0.16666666666666666,
       "already_selected": false
     },
     {
-      "label": "Energy and Industrial Leadership",
+      "label": "Energy & Industrial Leadership",
       "description": "Maintain and strengthen Saudi Arabia's global leadership in the energy sector while diversifying into new areas.",
-      "combined_score": 0.3985,
-      "semantic_score": 0.5692,
+      "combined_score": 0.4183,
+      "semantic_score": 0.5976,
       "frequency_in_top_projects": 0,
       "already_selected": false
     }

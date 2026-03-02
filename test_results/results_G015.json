@@ -2,12 +2,12 @@
   "group_id": "G015",
   "group_profile": {
     "selected_interests": [
-      "Database Systems",
-      "Web Development"
+      "Web Development",
+      "Database Systems"
     ],
     "selected_applications": [
-      "Education",
-      "Finance & Economics"
+      "Finance & Economics",
+      "Education"
     ],
     "selected_rdia": [
       "Economies of the Future"
@@ -51,8 +51,8 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.7671,
-        "semantic_sim": 0.7842,
+        "final_score": 0.7687,
+        "semantic_sim": 0.7874,
         "context_score": 0.5,
         "rdia_score": 1.0,
         "rrf_score": 0.02938
@@ -90,8 +90,8 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.7628,
-        "semantic_sim": 0.7755,
+        "final_score": 0.7679,
+        "semantic_sim": 0.7857,
         "context_score": 0.5,
         "rdia_score": 1.0,
         "rrf_score": 0.030835
@@ -133,13 +133,13 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.7497,
-        "semantic_sim": 0.7494,
+        "final_score": 0.756,
+        "semantic_sim": 0.762,
         "context_score": 0.5,
         "rdia_score": 1.0,
         "rrf_score": 0.029139
       },
-      "explanation": "Good match with the group's background. Matches application domain(s): education. Aligns with the group's RDIA priority."
+      "explanation": "Highly similar to the group's profile. Matches application domain(s): education. Aligns with the group's RDIA priority."
     },
     {
       "rank": 4,
@@ -167,13 +167,13 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.7494,
-        "semantic_sim": 0.7489,
+        "final_score": 0.7557,
+        "semantic_sim": 0.7614,
         "context_score": 0.5,
         "rdia_score": 1.0,
         "rrf_score": 0.031778
       },
-      "explanation": "Good match with the group's background. Matches application domain(s): education. Aligns with the group's RDIA priority."
+      "explanation": "Highly similar to the group's profile. Matches application domain(s): education. Aligns with the group's RDIA priority."
     },
     {
       "rank": 5,
@@ -201,11 +201,11 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.7427,
-        "semantic_sim": 0.7354,
+        "final_score": 0.7465,
+        "semantic_sim": 0.743,
         "context_score": 0.5,
         "rdia_score": 1.0,
-        "rrf_score": 0.029644
+        "rrf_score": 0.029418
       },
       "explanation": "Good match with the group's background. Matches application domain(s): education. Aligns with the group's RDIA priority."
     },
@@ -238,8 +238,8 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.7396,
-        "semantic_sim": 0.7292,
+        "final_score": 0.7441,
+        "semantic_sim": 0.7382,
         "context_score": 0.5,
         "rdia_score": 1.0,
         "rrf_score": 0.029877
@@ -277,11 +277,11 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.7296,
-        "semantic_sim": 0.7092,
+        "final_score": 0.7352,
+        "semantic_sim": 0.7205,
         "context_score": 0.5,
         "rdia_score": 1.0,
-        "rrf_score": 0.029387
+        "rrf_score": 0.029031
       },
       "explanation": "Good match with the group's background. Matches application domain(s): education. Aligns with the group's RDIA priority."
     },
@@ -323,11 +323,11 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.7221,
-        "semantic_sim": 0.6941,
+        "final_score": 0.7269,
+        "semantic_sim": 0.7038,
         "context_score": 0.5,
         "rdia_score": 1.0,
-        "rrf_score": 0.026357
+        "rrf_score": 0.026199
       },
       "explanation": "Good match with the group's background. Matches application domain(s): education. Aligns with the group's RDIA priority."
     },
@@ -358,8 +358,8 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.6286,
-        "semantic_sim": 0.7573,
+        "final_score": 0.6341,
+        "semantic_sim": 0.7682,
         "context_score": 0.0,
         "rdia_score": 1.0,
         "rrf_score": 0.031498
@@ -368,35 +368,38 @@
     },
     {
       "rank": 10,
-      "project_id": "M08-45-20",
-      "title": "Nab’a Application",
-      "supervisor_name": "Mohammed Hussein Alkhatib",
-      "supervisor_id": "MHkh",
-      "academic_year": "1445",
+      "project_id": "F14-42-20",
+      "title": "Book Recommendation System based on Collaboration Filtering (RICO)",
+      "supervisor_name": " Wojdan Mohammed BinSaeedan",
+      "supervisor_id": "WMnS",
+      "academic_year": "42",
       "keywords": [
-        "News",
-        "Verified News",
-        "Trusted Information",
-        "Misinformation",
-        "Blockchain"
+        "Recommendation System",
+        "Collaborative Filtering",
+        "User Preferences",
+        "KNN Algorithm",
+        "Django Framework",
+        "Information Filtering",
+        "Content Personalization",
+        "Data Overload Management"
       ],
       "application": [
         "Entertainment & Media"
       ],
       "interest": [
-        "Blockchain",
         "Web Development",
-        "Mobile Development"
+        "Artificial Intelligence / Machine Learning",
+        "Database Systems"
       ],
       "rdia": [
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.6157,
-        "semantic_sim": 0.7314,
+        "final_score": 0.6219,
+        "semantic_sim": 0.7438,
         "context_score": 0.0,
         "rdia_score": 1.0,
-        "rrf_score": 0.029851
+        "rrf_score": 0.031281
       },
       "explanation": "Good match with the group's background. Aligns with the group's RDIA priority."
     }
@@ -463,26 +466,26 @@
       "already_selected": true
     },
     {
-      "label": "Sustainable Environment and Supply of Essential Needs",
+      "label": "Sustainable Environment & Supply of Essential Needs",
       "description": "Secure sustainable access to water, food, and energy resources for the population and industries.",
-      "combined_score": 0.4644,
-      "semantic_score": 0.6635,
+      "combined_score": 0.4695,
+      "semantic_score": 0.6707,
       "frequency_in_top_projects": 0,
       "already_selected": false
     },
     {
-      "label": "Energy and Industrial Leadership",
+      "label": "Energy & Industrial Leadership",
       "description": "Maintain and strengthen Saudi Arabia's global leadership in the energy sector while diversifying into new areas.",
-      "combined_score": 0.4397,
-      "semantic_score": 0.6282,
+      "combined_score": 0.4437,
+      "semantic_score": 0.6339,
       "frequency_in_top_projects": 0,
       "already_selected": false
     },
     {
-      "label": "Health and Wellness",
+      "label": "Health & Wellness",
       "description": "Address prevalent health and therapeutic challenges in the Kingdom.",
-      "combined_score": 0.409,
-      "semantic_score": 0.5843,
+      "combined_score": 0.4097,
+      "semantic_score": 0.5853,
       "frequency_in_top_projects": 0,
       "already_selected": false
     }
