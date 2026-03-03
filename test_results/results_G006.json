@@ -2,26 +2,26 @@
   "group_id": "G006",
   "group_profile": {
     "selected_interests": [
-      "Distributed Systems",
-      "Robotics",
       "Software Engineering",
-      "DevOps",
+      "Distributed Systems",
+      "Drones",
       "Computer Vision",
-      "Blockchain",
-      "Drones"
+      "DevOps",
+      "Robotics",
+      "Blockchain"
     ],
     "selected_applications": [
-      "Finance & Economics",
-      "Transportation & Mobility",
       "Sustainability & Environment",
-      "Government & Public Sector",
       "Energy & Industrial Leadership",
-      "Business & Productivity"
+      "Government & Public Sector",
+      "Finance & Economics",
+      "Business & Productivity",
+      "Transportation & Mobility"
     ],
     "selected_rdia": [
-      "Sustainable Environment & Supply of Essential Needs",
+      "Energy & Industrial Leadership",
       "Economies of the Future",
-      "Energy & Industrial Leadership"
+      "Sustainable Environment & Supply of Essential Needs"
     ]
   },
   "recommended_projects": [

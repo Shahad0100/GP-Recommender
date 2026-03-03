@@ -3,16 +3,16 @@
   "group_profile": {
     "selected_interests": [
       "Database Systems",
-      "Network Systems",
-      "Cybersecurity",
       "Cloud Computing",
       "Software Engineering",
+      "Cybersecurity",
+      "Network Systems",
       "Blockchain"
     ],
     "selected_applications": [
-      "Finance & Economics",
       "Government & Public Sector",
-      "Security & Privacy"
+      "Security & Privacy",
+      "Finance & Economics"
     ],
     "selected_rdia": [
       "Economies of the Future"

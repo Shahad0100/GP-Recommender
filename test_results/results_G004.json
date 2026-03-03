@@ -2,15 +2,15 @@
   "group_id": "G004",
   "group_profile": {
     "selected_interests": [
-      "Human-Computer Interaction",
       "Database Systems",
-      "DevOps",
+      "Mobile Development",
       "Cloud Computing",
-      "Mobile Development"
+      "DevOps",
+      "Human-Computer Interaction"
     ],
     "selected_applications": [
-      "Business & Productivity",
       "Government & Public Sector",
+      "Business & Productivity",
       "Healthcare / Medical",
       "Entertainment & Media"
     ],

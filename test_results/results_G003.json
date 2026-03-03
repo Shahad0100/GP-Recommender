@@ -2,24 +2,24 @@
   "group_id": "G003",
   "group_profile": {
     "selected_interests": [
-      "Network Systems",
+      "Bioinformatics",
       "Embedded Systems",
       "Cybersecurity",
+      "Network Systems",
       "Internet of Things (IoT)",
-      "Bioinformatics",
       "Game Development",
       "Robotics"
     ],
     "selected_applications": [
-      "Finance & Economics",
-      "Transportation & Mobility",
-      "Sustainability & Environment",
       "Entertainment & Media",
-      "Healthcare / Medical"
+      "Sustainability & Environment",
+      "Healthcare / Medical",
+      "Finance & Economics",
+      "Transportation & Mobility"
     ],
     "selected_rdia": [
-      "Economies of the Future",
       "Energy & Industrial Leadership",
+      "Economies of the Future",
       "Health & Wellness"
     ]
   },
