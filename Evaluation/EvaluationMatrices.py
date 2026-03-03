@@ -279,7 +279,7 @@ def evaluate():
                 application_metrics_by_k[k]["ndcg"].append(ndcg_at_k(rec_applications, gt_applications, k))
             application_metrics_by_k[K_VALUES_INTEREST_APP[0]]["mrr"].append(mrr(rec_applications, gt_applications))
 
-       # --- RDIA Metrics (Enhanced) ---
+        # --- RDIA Metrics (Enhanced) ---
         if gt_rdia:
             gt_value = gt_rdia[0]  # Extract the single ground truth value
             total_recs = len(rec_rdia)
@@ -288,7 +288,7 @@ def evaluate():
             hit = 1 if gt_value in rec_rdia else 0
             rdia_metrics["hit_rate"].append(hit)
             
-           # 2. Determine the rank of the correct value (if found)
+            # 2. Determine the rank of the correct value (if found)
             if hit:
                 # Calculate rank and Reciprocal Rank (MRR component)
                 rank = rec_rdia.index(gt_value) + 1
@@ -398,12 +398,12 @@ def display_results_with_history(current_results):
                     diff = current_val - prev_val
 
                     if abs(diff) < 0.001:
-                        status = "(=)"
+                        status = "⚪"
                     elif diff > 0:
-                        status = "(+)"
+                        status = "🟢"
                         improvements += 1
                     else:
-                        status = "(-)"
+                        status = "🔴"
                         regressions += 1
 
                     print(f"    {metric:<10}: {status} {diff:+.4f} ({current_val:.4f} vs {prev_val:.4f})")
@@ -422,12 +422,12 @@ def display_results_with_history(current_results):
                     diff = current_val - prev_val
 
                     if abs(diff) < 0.001:
-                        status = "(=)"
+                        status = "⚪"
                     elif diff > 0:
-                        status = "(+)"
+                        status = "🟢"
                         improvements += 1
                     else:
-                        status = "(-)"
+                        status = "🔴"
                         regressions += 1
 
                     print(f"    {metric}@{k:<2}: {status} {diff:+.4f} ({current_val:.4f} vs {prev_val:.4f})")
@@ -446,12 +446,12 @@ def display_results_with_history(current_results):
                     diff = current_val - prev_val
 
                     if abs(diff) < 0.001:
-                        status = "(=)"
+                        status = "⚪"
                     elif diff > 0:
-                        status = "(+)"
+                        status = "🟢"
                         improvements += 1
                     else:
-                        status = "(-)"
+                        status = "🔴"
                         regressions += 1
 
                     print(f"    {metric}@{k:<2}: {status} {diff:+.4f} ({current_val:.4f} vs {prev_val:.4f})")
@@ -465,19 +465,24 @@ def display_results_with_history(current_results):
                 diff = current_val - prev_val
 
                 if abs(diff) < 0.001:
-                    status = "(=)"
-                elif (metric == "rank" and diff < 0) or (metric != "rank" and diff > 0):
+                    status = "⚪"
+                elif metric == "rank":
                     # For rank, lower is better
-                    status = "(+)" if diff < 0 else "(-)" if diff > 0 else "(=)"
-                    if metric != "rank":
-                        improvements += 1 if diff > 0 else 0
-                        regressions += 1 if diff < 0 else 0
+                    if diff < 0:
+                        status = "🟢"
+                        improvements += 1
+                    else:
+                        status = "🔴"
+                        regressions += 1
                 else:
-                    status = "(-)"
-                    if metric != "rank":
+                    # For hit_rate and mrr, higher is better
+                    if diff > 0:
+                        status = "🟢"
+                        improvements += 1
+                    else:
+                        status = "🔴"
                         regressions += 1
 
-                arrow = "↓" if metric == "rank" and diff < 0 else "↑"
                 print(f"    {metric:<10}: {status} {diff:+.4f} ({current_val:.4f} vs {prev_val:.4f})")
 
         # Compare coverage
@@ -487,17 +492,17 @@ def display_results_with_history(current_results):
             diff = current_cov - prev_cov
 
             if abs(diff) < 0.001:
-                status = "(=)"
+                status = "⚪"
             elif diff > 0:
-                status = "(+)"
+                status = "🟢"
                 improvements += 1
             else:
-                status = "(-)"
+                status = "🔴"
                 regressions += 1
 
             print(f"\n Catalog Coverage: {status} {diff:+.4f} ({current_cov:.4f} vs {prev_cov:.4f})")
 
-        print(f"\n (+) Improvements: {improvements}  |  (-) Regressions: {regressions}")
+        print(f"\n 🟢 Improvements: {improvements}  |  🔴 Regressions: {regressions}  |  ⚪ No Change: {len([m for m in ['precision', 'recall', 'map', 'ndcg', 'alpha_ndcg', 'ild', 'mrr']]) - improvements - regressions}")
 
     # Display current results
     print("\n" + "="*70)
