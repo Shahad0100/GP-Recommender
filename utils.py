@@ -86,43 +86,58 @@ def load_rdia(path: str) -> Dict[str, str]:
 
 def load_acm_taxonomy(path: str) -> Dict[str, str]:
     """
-    Load ACM_CSS_taxonomy.json → flat dict {acm_id: 'name: description'}
-    Converts ACM codes like 'I.2.6' to human-readable descriptions
-    so they can be embedded meaningfully.
+    Load ACM_CSS_taxonomy.json → flat dict {acm_id: 'full_path: description'}
+
+    For each node that has an ID, we store the full ancestral path from the
+    top-level category down to the node itself, so the embedding captures the
+    complete semantic context (grandparent → parent → child).
+
+    Example for I.2.6:
+      "Computing Methodologies > ARTIFICIAL INTELLIGENCE > Learning: Algorithms
+       enabling systems to improve performance through experience."
     """
     with open(path, "r", encoding="utf-8") as f:
         data = json.load(f)
     flat = {}
 
-    def extract_acm_ids(items, parent_name=""):
-        """Recursive function to extract all ACM IDs and their descriptions"""
+    def extract_acm_ids(items, ancestor_names: list):
+        """
+        Recursively walk the taxonomy tree.
+        ancestor_names: ordered list of ancestor node names (root → current parent).
+        """
         for item in items:
-            if "id" in item and item["id"]:
-                name = item.get("name", "")
-                desc = item.get("description", "")
-                if name and desc:
-                    flat[item["id"]] = f"{name}: {desc}"
-                elif name:
-                    flat[item["id"]] = name
-                elif desc:
-                    flat[item["id"]] = desc
-            
-            # If the element has subcategories, call the function recursively
-            if "subcategories" in item and item["subcategories"]:
-                extract_acm_ids(item["subcategories"], name)
-    
-    # Start extraction from the highest level
+            name = item.get("name", "")
+            desc = item.get("description", "")
+            item_id = item.get("id", "")
+
+            # Build the full path label: "Grandparent > Parent > This Node"
+            current_path = ancestor_names + ([name] if name else [])
+
+            if item_id:
+                path_label = " > ".join(current_path)
+                if desc:
+                    flat[item_id] = f"{path_label}: {desc}"
+                else:
+                    flat[item_id] = path_label
+
+            # Recurse into subcategories, passing the updated path
+            if item.get("subcategories"):
+                extract_acm_ids(item["subcategories"], current_path)
+
     for category in data["ACM_CSS_taxonomy"]:
-        if "id" in category and category["id"]:
-            name = category.get("name", "")
-            desc = category.get("description", "")
-            if name and desc:
-                flat[category["id"]] = f"{name}: {desc}"
-            elif name:
-                flat[category["id"]] = name
-        # if the top-level category has subcategories, extract them as well        
-        if "subcategories" in category:
-            extract_acm_ids(category["subcategories"], category.get("name", ""))        
+        cat_name = category.get("name", "")
+        cat_desc = category.get("description", "")
+        cat_id   = category.get("id", "")
+
+        if cat_id:
+            if cat_desc:
+                flat[cat_id] = f"{cat_name}: {cat_desc}"
+            else:
+                flat[cat_id] = cat_name
+
+        if category.get("subcategories"):
+            extract_acm_ids(category["subcategories"], [cat_name] if cat_name else [])
+
     return flat
 
 def load_all_projects(projects_dir: str) -> List[dict]:
@@ -157,6 +172,18 @@ def get_course_texts(course: dict, plos_map: Dict[str, str] = None) -> List[str]
     desc  = course.get("course_description", "")
     if title or desc:
         segments.append(f"{title}. {desc}".strip())
+    
+    # include other metadata that may affect meaning and retrieval (e.g. prerequisites, credit hours)
+    level= course.get("course_level", "")
+    if level:
+        segments.append(f"Course level: {level}")
+    prereq = course.get("prerequisites", "")
+    if prereq:
+        segments.append(f"Prerequisites: {prereq}")
+
+    credits = course.get("credit_hours", "")
+    if credits:
+       segments.append(f"Credit hours: {credits}")
 
     # Each CLO statement with its associated PLO as its own segment
     clos = course.get("course_learning_outcomes", {})
@@ -169,18 +196,23 @@ def get_course_texts(course: dict, plos_map: Dict[str, str] = None) -> List[str]
                 mapped_plos = clo.get("mapped_plos", [])
                 plo_descriptions = []
                 for plo_id in mapped_plos:
-                    if plo_id in plos_map:
-                        plo_descriptions.append(plos_map[plo_id])
-
+                   if plo_id in plos_map:
+                       # include both المعرف والوصف
+                       plo_descriptions.append(f"{plo_id}: {plos_map[plo_id]}")
                 if plo_descriptions:
-                    # combine PLO descriptions into one sentence and add them to the CLO text
-                    plo_text = " [Associated Program Outcomes: " + " | ".join(plo_descriptions) + "]"
-                    stmt += plo_text
+                   stmt += " [Associated PLOs: " + " | ".join(plo_descriptions) + "]"
+                
         if stmt:
             segments.append(stmt)
 
     return segments
-def get_project_segments(project: dict, acm_map: Dict[str, str]) -> List[str]:
+def get_project_segments(
+    project: dict,
+    acm_map: Dict[str, str],
+    interest_map: Dict[str, str] = None,
+    app_map: Dict[str, str] = None,
+    rdia_map: Dict[str, str] = None,
+) -> List[str]:
     """
     Extract meaningful text segments from a project JSON.
     Each segment is encoded separately (Late Fusion approach).
@@ -234,13 +266,23 @@ def get_project_segments(project: dict, acm_map: Dict[str, str]) -> List[str]:
         segments.append(conclusion["future_work"])
 
     # Domain labels joined as one segment
-    domain_labels = (
-        clf.get("application", []) +
-        clf.get("interest", []) +
-        clf.get("rdia", [])
-    )
-    if domain_labels:
-        segments.append(" ".join(domain_labels))
+    # If domain maps are provided, enrich with descriptions; else fall back to names only.
+    domain_parts = []
+
+    for name in clf.get("interest", []):
+        domain_parts.append(f"{name}: {interest_map[name]}")
+        
+
+    for name in clf.get("application", []):
+        domain_parts.append(f"{name}: {app_map[name]}")
+        
+
+    for name in clf.get("rdia", []):
+        domain_parts.append(f"{name}: {rdia_map[name]}")
+        
+
+    if domain_parts:
+        segments.append(" | ".join(domain_parts))
 
     # ACM descriptions as one segment
     if acm_texts:

@@ -48,6 +48,7 @@ from utils import (
     average_vectors,
     normalize,
     load_vector,
+    load_plos_from_courses,
 )
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -84,8 +85,10 @@ class EmbeddingEngine:
     def __init__(self):
         print("[EmbeddingEngine] Initializing...")
 
-        # Load reference lookup tables
+        # Load reference lookup tables for courses, domains, and PLOs.
         self.course_map   = load_courses(COURSES_PATH)
+        # for on‑the‑fly encoding we also need the PLO descriptions
+        self.plos_map     = load_plos_from_courses(COURSES_PATH)
         self.interest_map = load_interest_domains(INTEREST_PATH)
         self.app_map      = load_application_domains(APPLICATION_PATH)
         self.rdia_map     = load_rdia(RDIA_PATH)
@@ -212,6 +215,14 @@ class EmbeddingEngine:
           group_vec  : np.ndarray
           group_meta : {selected_interests, selected_applications, selected_rdia}
         """
+        weighting_mode = group_json.get("weighting_mode", "balanced")
+        if weighting_mode == "courses_heavy":
+            comp_w, int_w = 0.75, 0.25
+        elif weighting_mode == "interests_heavy":
+            comp_w, int_w = 0.25, 0.75
+        else:
+            comp_w, int_w = 0.50, 0.50
+            
         student_vecs  = []
         all_interests = set()
         all_apps      = set()
@@ -221,7 +232,7 @@ class EmbeddingEngine:
             comp_vec = self._build_competency_vec(student)
             int_vec  = self._build_interest_vec(student)
 
-            student_vec = normalize(average_vectors([comp_vec, int_vec]))
+            student_vec = normalize(comp_w * comp_vec + int_w * int_vec)
             student_vecs.append(student_vec)
 
             all_interests.update(student.get("interests", []))
@@ -260,8 +271,8 @@ class EmbeddingEngine:
             if os.path.exists(path):
                 vec = load_vector(path)
             elif code in self.course_map:
-                # Fallback: encode on the fly using Late Fusion
-                segments = get_course_texts(self.course_map[code])
+                # Fallback: encode on the fly using Late Fusion (with PLO linking)
+                segments = get_course_texts(self.course_map[code], self.plos_map)
                 vecs_raw = self.model.encode(segments, normalize_embeddings=True,
                                               show_progress_bar=False)
                 vec = normalize(average_vectors(list(vecs_raw)))

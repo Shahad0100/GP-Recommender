@@ -8,8 +8,7 @@ Pipeline:
   1. Dense retrieval   → cosine similarity (group_vec vs all project vectors)
   2. Sparse retrieval  → BM25 keyword matching
   3. RRF fusion        → combine both ranked lists
-  4. Policy re-ranking → α·semantic + β·context + γ·RDIA - ε·diversity
-  5. MMR               → balance relevance vs diversity in final output
+  4. Policy re-ranking → α·semantic + β·context + γ·RDIA
 """
 
 import numpy as np
@@ -23,12 +22,9 @@ TOP_FINAL    = 10    # final recommendations returned
 RRF_K        = 60    # RRF constant (standard value)
 
 # Final score weights — tune during evaluation
-ALPHA   = 0.50   # semantic similarity
-BETA    = 0.25   # application domain alignment
-GAMMA   = 0.15   # RDIA alignment
-EPSILON = 0.10   # diversity penalty
-
-MMR_LAMBDA = 0.70   # higher → more relevant, lower → more diverse
+ALPHA = 0.50   # semantic similarity
+BETA  = 0.25   # application domain alignment
+GAMMA = 0.25   # RDIA alignment
 
 
 class ProjectRecommender:
@@ -61,13 +57,13 @@ class ProjectRecommender:
         Returns:
             List of project dicts with rank, metadata, scores, explanation.
         """
-        dense          = self._dense_retrieval(group_vec)
-        sparse         = self._sparse_retrieval(group_meta)
+        dense           = self._dense_retrieval(group_vec)
+        sparse          = self._sparse_retrieval(group_meta)
         dense_score_map = {pid: s for pid, s in dense}
 
         fused    = self._rrf_fusion(dense, sparse)
         reranked = self._policy_rerank(fused, group_meta, dense_score_map)
-        final    = self._mmr(reranked, group_vec, top_final)
+        final    = reranked[:top_final]
 
         return [self._format(rank, item, group_meta)
                 for rank, item in enumerate(final, 1)]
@@ -142,93 +138,54 @@ class ProjectRecommender:
         dense_scores: Dict[str, float]
     ) -> List[dict]:
         """
-        Final_Score = α·semantic + β·context_alignment + γ·RDIA - ε·diversity
+        Final_Score = α·semantic + β·context_alignment + γ·RDIA_alignment
+
+        Diversity penalty removed: projects are diverse by nature, so penalizing
+        domain overlap degrades accuracy without preventing redundancy.
         """
-        candidates      = fused[:TOP_N_RERANK * 2]
-        selected_so_far = []
-        scored          = []
+        candidates = fused[:TOP_N_RERANK * 2]
+        scored     = []
+
+        # Normalize helper — handles "&" vs "and" inconsistencies in tags
+        def normalize(s: str) -> str:
+            return s.lower().replace("&", "and").strip()
+
+        group_apps = set(a.lower()    for a in group_meta["selected_applications"])
+        group_rdia = set(normalize(r) for r in group_meta["selected_rdia"])
 
         for pid, rrf_score in candidates:
             if pid not in self.engine.project_index:
                 continue
             meta = self.engine.project_index[pid]
 
-            # Semantic: shift [-1,1] to [0,1]
+            # ── Semantic: shift cosine [-1,1] → [0,1] ────────────────────────
             sem = (dense_scores.get(pid, 0.0) + 1.0) / 2.0
 
-            # Context alignment: fraction of group apps matched
-            proj_apps  = set(a.lower() for a in meta.get("application", []))
-            group_apps = set(a.lower() for a in group_meta["selected_applications"])
-            ctx = len(proj_apps & group_apps) / len(group_apps) if group_apps else 0.0
+            # ── Context alignment: fraction of group apps matched ─────────────
+            proj_apps = set(a.lower() for a in meta.get("application", []))
+            ctx = (len(proj_apps & group_apps) / len(group_apps)
+                   if group_apps else 0.0)
 
-            # RDIA alignment
-            def n(s): return s.lower().replace("&", "and").strip()
-            proj_rdia  = set(n(r) for r in meta.get("rdia", []))
-            group_rdia = set(n(r) for r in group_meta["selected_rdia"])
-            rdia = len(proj_rdia & group_rdia) / len(group_rdia) if group_rdia else 0.0
+            # ── RDIA alignment ────────────────────────────────────────────────
+            proj_rdia = set(normalize(r) for r in meta.get("rdia", []))
+            rdia = (len(proj_rdia & group_rdia) / len(group_rdia)
+                    if group_rdia else 0.0)
 
-            # Diversity penalty: interest domain overlap with already-selected
-            proj_int = set(meta.get("interest", []))
-            if selected_so_far:
-                overlaps = [
-                    len(proj_int & set(s.get("interest", [])))
-                    for s in selected_so_far
-                ]
-                div = min(np.mean(overlaps) / 3.0, 1.0)
-            else:
-                div = 0.0
-
-            final = ALPHA * sem + BETA * ctx + GAMMA * rdia - EPSILON * div
+            # ── Final policy score (no diversity penalty) ─────────────────────
+            final = ALPHA * sem + BETA * ctx + GAMMA * rdia
 
             scored.append({
-                "id": pid, "meta": meta, "rrf_score": rrf_score,
-                "final_score": final, "semantic_sim": sem,
-                "context_score": ctx, "rdia_score": rdia,
-                "diversity_pen": div,
+                "id":            pid,
+                "meta":          meta,
+                "rrf_score":     rrf_score,
+                "final_score":   final,
+                "semantic_sim":  sem,
+                "context_score": ctx,
+                "rdia_score":    rdia,
             })
-            selected_so_far.append(meta)
 
         scored.sort(key=lambda x: x["final_score"], reverse=True)
         return scored[:TOP_N_RERANK]
-
-    # ─────────────────────────────────────────────────────────────────────────
-    # STEP 5: MMR
-    # ─────────────────────────────────────────────────────────────────────────
-
-    def _mmr(
-        self,
-        candidates: List[dict],
-        query_vec: np.ndarray,
-        top_final: int
-    ) -> List[dict]:
-        """
-        MMR = λ·relevance - (1-λ)·max_similarity_to_already_selected
-        Iteratively picks best next project balancing relevance + diversity.
-        """
-        selected, remaining, selected_vecs = [], list(candidates), []
-
-        while remaining and len(selected) < top_final:
-            best_score, best_idx = float("-inf"), 0
-
-            for i, cand in enumerate(remaining):
-                vec = self.engine.get_project_vec(cand["id"])
-                if vec is None:
-                    continue
-                relevance = float(np.dot(vec, query_vec))
-                max_sim   = max(
-                    (float(np.dot(vec, sv)) for sv in selected_vecs), default=0.0
-                )
-                mmr = MMR_LAMBDA * relevance - (1 - MMR_LAMBDA) * max_sim
-                if mmr > best_score:
-                    best_score, best_idx = mmr, i
-
-            chosen = remaining.pop(best_idx)
-            vec    = self.engine.get_project_vec(chosen["id"])
-            if vec is not None:
-                selected_vecs.append(vec)
-            selected.append(chosen)
-
-        return selected
 
     # ─────────────────────────────────────────────────────────────────────────
     # FORMAT + EXPLAIN
@@ -248,11 +205,11 @@ class ProjectRecommender:
             "interest":        meta.get("interest", []),
             "rdia":            meta.get("rdia", []),
             "scores": {
-                "final_score":   round(item["final_score"], 4),
-                "semantic_sim":  round(item["semantic_sim"], 4),
+                "final_score":   round(item["final_score"],   4),
+                "semantic_sim":  round(item["semantic_sim"],  4),
                 "context_score": round(item["context_score"], 4),
-                "rdia_score":    round(item["rdia_score"], 4),
-                "rrf_score":     round(item["rrf_score"], 6),
+                "rdia_score":    round(item["rdia_score"],    4),
+                "rrf_score":     round(item["rrf_score"],     6),
             },
             "explanation": self._explain(item, group_meta),
         }
@@ -269,11 +226,13 @@ class ProjectRecommender:
             set(a.lower() for a in group_meta["selected_applications"])
         )
         if matched:
-            parts.append(f"Matches application domain(s): {', '.join(matched)}.")
+            parts.append(f"Matches application domain(s): {', '.join(sorted(matched))}.")
 
-        def n(s): return s.lower().replace("&", "and").strip()
-        if (set(n(r) for r in meta.get("rdia", [])) &
-                set(n(r) for r in group_meta["selected_rdia"])):
+        def normalize(s: str) -> str:
+            return s.lower().replace("&", "and").strip()
+
+        if (set(normalize(r) for r in meta.get("rdia", [])) &
+                set(normalize(r) for r in group_meta["selected_rdia"])):
             parts.append("Aligns with the group's RDIA priority.")
 
         return " ".join(parts) if parts else "Selected based on overall profile similarity."
