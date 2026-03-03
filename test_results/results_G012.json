@@ -2,35 +2,35 @@
   "group_id": "G012",
   "group_profile": {
     "selected_interests": [
-      "Web Development",
-      "Network Systems",
-      "Robotics",
-      "Embedded Systems",
-      "Blockchain",
-      "Cybersecurity",
-      "Artificial Intelligence / Machine Learning",
-      "Internet of Things (IoT)",
-      "DevOps",
-      "Cloud Computing",
       "Data Science",
-      "Mobile Development"
+      "Cloud Computing",
+      "Artificial Intelligence / Machine Learning",
+      "Embedded Systems",
+      "Cybersecurity",
+      "DevOps",
+      "Network Systems",
+      "Internet of Things (IoT)",
+      "Web Development",
+      "Mobile Development",
+      "Robotics",
+      "Blockchain"
     ],
     "selected_applications": [
-      "Finance & Economics",
-      "Transportation & Mobility",
-      "Sustainability & Environment",
-      "Government & Public Sector",
       "Security & Privacy",
-      "Education",
-      "Healthcare / Medical",
+      "Sustainability & Environment",
       "Social Good & Community",
-      "Business & Productivity"
+      "Healthcare / Medical",
+      "Government & Public Sector",
+      "Finance & Economics",
+      "Education",
+      "Business & Productivity",
+      "Transportation & Mobility"
     ],
     "selected_rdia": [
-      "Sustainable Environment & Supply of Essential Needs",
-      "Economies of the Future",
       "Energy & Industrial Leadership",
-      "Health & Wellness"
+      "Economies of the Future",
+      "Health & Wellness",
+      "Sustainable Environment & Supply of Essential Needs"
     ]
   },
   "recommended_projects": [

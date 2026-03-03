@@ -2,17 +2,17 @@
   "group_id": "G002",
   "group_profile": {
     "selected_interests": [
+      "Database Systems",
       "Web Development",
-      "Cloud Computing",
-      "Database Systems"
+      "Cloud Computing"
     ],
     "selected_applications": [
       "Education",
       "Social Good & Community"
     ],
     "selected_rdia": [
-      "Sustainable Environment & Supply of Essential Needs",
-      "Economies of the Future"
+      "Economies of the Future",
+      "Sustainable Environment & Supply of Essential Needs"
     ]
   },
   "recommended_projects": [
