@@ -2,15 +2,15 @@
   "group_id": "G008",
   "group_profile": {
     "selected_interests": [
+      "Distributed Systems",
       "Network Systems",
-      "Robotics",
-      "Internet of Things (IoT)",
       "Embedded Systems",
-      "Distributed Systems"
+      "Internet of Things (IoT)",
+      "Robotics"
     ],
     "selected_applications": [
-      "Transportation & Mobility",
-      "Business & Productivity"
+      "Business & Productivity",
+      "Transportation & Mobility"
     ],
     "selected_rdia": [
       "Energy & Industrial Leadership"

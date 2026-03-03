@@ -3,24 +3,24 @@
   "group_profile": {
     "selected_interests": [
       "Network Systems",
-      "Cybersecurity",
-      "Robotics",
-      "Internet of Things (IoT)",
       "Embedded Systems",
+      "Cybersecurity",
+      "Internet of Things (IoT)",
       "Bioinformatics",
-      "Game Development"
+      "Game Development",
+      "Robotics"
     ],
     "selected_applications": [
       "Finance & Economics",
-      "Entertainment & Media",
       "Transportation & Mobility",
       "Sustainability & Environment",
+      "Entertainment & Media",
       "Healthcare / Medical"
     ],
     "selected_rdia": [
       "Economies of the Future",
-      "Health & Wellness",
-      "Energy & Industrial Leadership"
+      "Energy & Industrial Leadership",
+      "Health & Wellness"
     ]
   },
   "recommended_projects": [

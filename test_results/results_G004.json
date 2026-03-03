@@ -2,17 +2,17 @@
   "group_id": "G004",
   "group_profile": {
     "selected_interests": [
-      "DevOps",
-      "Mobile Development",
+      "Human-Computer Interaction",
       "Database Systems",
+      "DevOps",
       "Cloud Computing",
-      "Human-Computer Interaction"
+      "Mobile Development"
     ],
     "selected_applications": [
-      "Entertainment & Media",
       "Business & Productivity",
       "Government & Public Sector",
-      "Healthcare / Medical"
+      "Healthcare / Medical",
+      "Entertainment & Media"
     ],
     "selected_rdia": [
       "Economies of the Future",

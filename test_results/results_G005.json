@@ -2,10 +2,10 @@
   "group_id": "G005",
   "group_profile": {
     "selected_interests": [
-      "Embedded Systems",
       "Computer Vision",
-      "Internet of Things (IoT)",
-      "Artificial Intelligence / Machine Learning"
+      "Embedded Systems",
+      "Artificial Intelligence / Machine Learning",
+      "Internet of Things (IoT)"
     ],
     "selected_applications": [
       "Sustainability & Environment",

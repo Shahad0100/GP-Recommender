@@ -2,20 +2,20 @@
   "group_id": "G009",
   "group_profile": {
     "selected_interests": [
-      "Mobile Development",
       "Human-Computer Interaction",
       "Web Development",
       "Computer Graphics",
-      "Game Development"
+      "Game Development",
+      "Mobile Development"
     ],
     "selected_applications": [
-      "Social Good & Community",
       "Education",
+      "Social Good & Community",
       "Entertainment & Media"
     ],
     "selected_rdia": [
-      "Economies of the Future",
       "Sustainable Environment & Supply of Essential Needs",
+      "Economies of the Future",
       "Health & Wellness"
     ]
   },

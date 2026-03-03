@@ -2,15 +2,15 @@
   "group_id": "G007",
   "group_profile": {
     "selected_interests": [
-      "Cloud Computing",
       "Internet of Things (IoT)",
       "Artificial Intelligence / Machine Learning",
-      "Drones",
-      "Data Science"
+      "Cloud Computing",
+      "Data Science",
+      "Drones"
     ],
     "selected_applications": [
-      "Social Good & Community",
-      "Sustainability & Environment"
+      "Sustainability & Environment",
+      "Social Good & Community"
     ],
     "selected_rdia": [
       "Sustainable Environment & Supply of Essential Needs"
