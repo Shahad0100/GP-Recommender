@@ -1,1294 +1,2555 @@
-[
-  {
-    "group_id": "G001",
-    "students": [
-      {
-        "student_id": "S001",
-        "courses": [
-          {
-            "course_code": "CS1433",
-            "course_title": "Distributed Systems",
-            "grade": "A+"
-          },
-          {
-            "course_code": "CS1424",
-            "course_title": "Introduction to Robotics",
-            "grade": "B+"
-          }
-        ],
-        "interests": [
-          "Artificial Intelligence / Machine Learning",
-          "Computer Vision"
-        ],
-        "applications": [
-          "Healthcare / Medical"
-        ],
-        "rdia": "Health & Wellness"
-      },
-      {
-        "student_id": "S002",
-        "courses": [
-          {
-            "course_code": "CS1447",
-            "course_title": "Game Application Development",
-            "grade": "B+"
-          },
-          {
-            "course_code": "CS1446",
-            "course_title": "Mobile Application Development",
-            "grade": "A"
-          },
-          {
-            "course_code": "CS1475",
-            "course_title": "Software Security",
-            "grade": "B+"
-          }
-        ],
-        "interests": [
-          "Artificial Intelligence / Machine Learning",
-          "Natural Language Processing"
-        ],
-        "applications": [
-          "Education",
-          "Business & Productivity"
-        ],
-        "rdia": "Economies of the Future"
-      },
-      {
-        "student_id": "S003",
-        "courses": [
-          {
-            "course_code": "CS1434",
-            "course_title": "Internet of Things (IoT)",
-            "grade": "B+"
-          },
-          {
-            "course_code": "CS1433",
-            "course_title": "Distributed Systems",
-            "grade": "B"
-          },
-          {
-            "course_code": "CS1426",
-            "course_title": "Advanced Computer Architecture",
-            "grade": "A"
-          },
-          {
-            "course_code": "CS1465",
-            "course_title": "Neural Networks and Deep Learning",
-            "grade": "B+"
-          }
-        ],
-        "interests": [
-          "Artificial Intelligence / Machine Learning"
-        ],
-        "applications": [
-          "Finance & Economics",
-          "Security & Privacy",
-          "Government & Public Sector"
-        ],
-        "rdia": "Economies of the Future"
-      }
-    ]
-  },
-  {
-    "group_id": "G002",
-    "students": [
-      {
-        "student_id": "S004",
-        "courses": [
-          {
-            "course_code": "CS1425",
-            "course_title": "Embedded Systems",
-            "grade": "A"
-          },
-          {
-            "course_code": "CS1424",
-            "course_title": "Introduction to Robotics",
-            "grade": "B+"
-          }
-        ],
-        "interests": [
-          "Web Development",
-          "Cloud Computing"
-        ],
-        "applications": [
-          "Education"
-        ],
-        "rdia": "Economies of the Future"
-      },
-      {
-        "student_id": "S005",
-        "courses": [
-          {
-            "course_code": "CS1426",
-            "course_title": "Advanced Computer Architecture",
-            "grade": "A"
-          },
-          {
-            "course_code": "CS1445",
-            "course_title": "Web Application Development",
-            "grade": "B+"
-          }
-        ],
-        "interests": [
-          "Web Development",
-          "Database Systems"
-        ],
-        "applications": [
-          "Education",
-          "Social Good & Community"
-        ],
-        "rdia": "Sustainable Environment & Supply of Essential Needs"
-      }
-    ]
-  },
-  {
-    "group_id": "G003",
-    "students": [
-      {
-        "student_id": "S006",
-        "courses": [
-          {
-            "course_code": "CS1446",
-            "course_title": "Mobile Application Development",
-            "grade": "C+"
-          },
-          {
-            "course_code": "CS1474",
-            "course_title": "Computer Network Security",
-            "grade": "B"
-          },
-          {
-            "course_code": "CS1424",
-            "course_title": "Introduction to Robotics",
-            "grade": "B+"
-          }
-        ],
-        "interests": [
-          "Game Development"
-        ],
-        "applications": [
-          "Entertainment & Media"
-        ],
-        "rdia": "Economies of the Future"
-      },
-      {
-        "student_id": "S007",
-        "courses": [
-          {
-            "course_code": "CS1475",
-            "course_title": "Software Security",
-            "grade": "A"
-          },
-          {
-            "course_code": "CS1445",
-            "course_title": "Web Application Development",
-            "grade": "A+"
-          }
-        ],
-        "interests": [
-          "Cybersecurity",
-          "Network Systems"
-        ],
-        "applications": [
-          "Finance & Economics"
-        ],
-        "rdia": "Economies of the Future"
-      },
-      {
-        "student_id": "S008",
-        "courses": [
-          {
-            "course_code": "CS1475",
-            "course_title": "Software Security",
-            "grade": "B+"
-          },
-          {
-            "course_code": "CS1465",
-            "course_title": "Neural Networks and Deep Learning",
-            "grade": "B+"
-          }
-        ],
-        "interests": [
-          "Robotics",
-          "Embedded Systems",
-          "Internet of Things (IoT)"
-        ],
-        "applications": [
-          "Transportation & Mobility"
-        ],
-        "rdia": "Energy & Industrial Leadership"
-      },
-      {
-        "student_id": "S009",
-        "courses": [
-          {
-            "course_code": "CS1446",
-            "course_title": "Mobile Application Development",
-            "grade": "B"
-          },
-          {
-            "course_code": "CS1466",
-            "course_title": "Selected Topics in Artificial Intelligence",
-            "grade": "B"
-          },
-          {
-            "course_code": "CS1447",
-            "course_title": "Game Application Development",
-            "grade": "A"
-          }
-        ],
-        "interests": [
-          "Bioinformatics"
-        ],
-        "applications": [
-          "Healthcare / Medical",
-          "Sustainability & Environment"
-        ],
-        "rdia": "Health & Wellness"
-      }
-    ]
-  },
-  {
-    "group_id": "G004",
-    "students": [
-      {
-        "student_id": "S010",
-        "courses": [
-          {
-            "course_code": "CS1424",
-            "course_title": "Introduction to Robotics",
-            "grade": "B+"
-          },
-          {
-            "course_code": "CS1439",
-            "course_title": "Selected Topics in Cybersecurity and Networks",
-            "grade": "B+"
-          },
-          {
-            "course_code": "CS1465",
-            "course_title": "Neural Networks and Deep Learning",
-            "grade": "A"
-          }
-        ],
-        "interests": [
-          "Mobile Development",
-          "Cloud Computing"
-        ],
-        "applications": [
-          "Healthcare / Medical"
-        ],
-        "rdia": "Health & Wellness"
-      },
-      {
-        "student_id": "S011",
-        "courses": [
-          {
-            "course_code": "CS1462",
-            "course_title": "Natural Language Processing",
-            "grade": "C+"
-          },
-          {
-            "course_code": "CS1447",
-            "course_title": "Game Application Development",
-            "grade": "A"
-          }
-        ],
-        "interests": [
-          "Mobile Development",
-          "Human-Computer Interaction"
-        ],
-        "applications": [
-          "Business & Productivity",
-          "Entertainment & Media"
-        ],
-        "rdia": "Economies of the Future"
-      },
-      {
-        "student_id": "S012",
-        "courses": [
-          {
-            "course_code": "CS1434",
-            "course_title": "Internet of Things (IoT)",
-            "grade": "A"
-          },
-          {
-            "course_code": "CS1445",
-            "course_title": "Web Application Development",
-            "grade": "B+"
-          }
-        ],
-        "interests": [
-          "Cloud Computing",
-          "DevOps",
-          "Database Systems"
-        ],
-        "applications": [
-          "Government & Public Sector"
-        ],
-        "rdia": "Economies of the Future"
-      }
-    ]
-  },
-  {
-    "group_id": "G005",
-    "students": [
-      {
-        "student_id": "S013",
-        "courses": [
-          {
-            "course_code": "CS1462",
-            "course_title": "Natural Language Processing",
-            "grade": "A+"
-          },
-          {
-            "course_code": "CS1433",
-            "course_title": "Distributed Systems",
-            "grade": "A"
-          }
-        ],
-        "interests": [
-          "Computer Vision",
-          "Artificial Intelligence / Machine Learning"
-        ],
-        "applications": [
-          "Healthcare / Medical"
-        ],
-        "rdia": "Health & Wellness"
-      },
-      {
-        "student_id": "S014",
-        "courses": [
-          {
-            "course_code": "CS1426",
-            "course_title": "Advanced Computer Architecture",
-            "grade": "B"
-          },
-          {
-            "course_code": "CS1464",
-            "course_title": "Digital Image Processing",
-            "grade": "B+"
-          },
-          {
-            "course_code": "CS1433",
-            "course_title": "Distributed Systems",
-            "grade": "B+"
-          }
-        ],
-        "interests": [
-          "Internet of Things (IoT)",
-          "Embedded Systems"
-        ],
-        "applications": [
-          "Healthcare / Medical",
-          "Sustainability & Environment"
-        ],
-        "rdia": "Health & Wellness"
-      }
-    ]
-  },
-  {
-    "group_id": "G006",
-    "students": [
-      {
-        "student_id": "S015",
-        "courses": [
-          {
-            "course_code": "CS1463",
-            "course_title": "Optimization and Metaheuristics",
-            "grade": "C+"
-          },
-          {
-            "course_code": "CS1476",
-            "course_title": "Digital Forensics",
-            "grade": "B"
-          }
-        ],
-        "interests": [
-          "Blockchain"
-        ],
-        "applications": [
-          "Finance & Economics"
-        ],
-        "rdia": "Economies of the Future"
-      },
-      {
-        "student_id": "S016",
-        "courses": [
-          {
-            "course_code": "CS1447",
-            "course_title": "Game Application Development",
-            "grade": "A"
-          },
-          {
-            "course_code": "CS1425",
-            "course_title": "Embedded Systems",
-            "grade": "B+"
-          },
-          {
-            "course_code": "CS1466",
-            "course_title": "Selected Topics in Artificial Intelligence",
-            "grade": "B"
-          }
-        ],
-        "interests": [
-          "Drones",
-          "Computer Vision",
-          "Robotics"
-        ],
-        "applications": [
-          "Sustainability & Environment"
-        ],
-        "rdia": "Sustainable Environment & Supply of Essential Needs"
-      },
-      {
-        "student_id": "S017",
-        "courses": [
-          {
-            "course_code": "CS1475",
-            "course_title": "Software Security",
-            "grade": "B+"
-          },
-          {
-            "course_code": "CS1433",
-            "course_title": "Distributed Systems",
-            "grade": "A"
-          },
-          {
-            "course_code": "CS1464",
-            "course_title": "Digital Image Processing",
-            "grade": "A"
-          },
-          {
-            "course_code": "CS1426",
-            "course_title": "Advanced Computer Architecture",
-            "grade": "B+"
-          }
-        ],
-        "interests": [
-          "Software Engineering",
-          "DevOps"
-        ],
-        "applications": [
-          "Business & Productivity",
-          "Government & Public Sector"
-        ],
-        "rdia": "Economies of the Future"
-      },
-      {
-        "student_id": "S018",
-        "courses": [
-          {
-            "course_code": "CS1475",
-            "course_title": "Software Security",
-            "grade": "C+"
-          },
-          {
-            "course_code": "CS1448",
-            "course_title": "Selected Topics in Platform based Application Development",
-            "grade": "B"
-          }
-        ],
-        "interests": [
-          "Distributed Systems"
-        ],
-        "applications": [
-          "Transportation & Mobility",
-          "Energy & Industrial Leadership"
-        ],
-        "rdia": "Energy & Industrial Leadership"
-      }
-    ]
-  },
-  {
-    "group_id": "G007",
-    "students": [
-      {
-        "student_id": "S019",
-        "courses": [
-          {
-            "course_code": "CS1463",
-            "course_title": "Optimization and Metaheuristics",
-            "grade": "B+"
-          },
-          {
-            "course_code": "CS1445",
-            "course_title": "Web Application Development",
-            "grade": "A"
-          },
-          {
-            "course_code": "CS1426",
-            "course_title": "Advanced Computer Architecture",
-            "grade": "B+"
-          }
-        ],
-        "interests": [
-          "Internet of Things (IoT)",
-          "Data Science"
-        ],
-        "applications": [
-          "Sustainability & Environment"
-        ],
-        "rdia": "Sustainable Environment & Supply of Essential Needs"
-      },
-      {
-        "student_id": "S020",
-        "courses": [
-          {
-            "course_code": "CS1425",
-            "course_title": "Embedded Systems",
-            "grade": "A"
-          },
-          {
-            "course_code": "CS1446",
-            "course_title": "Mobile Application Development",
-            "grade": "B+"
-          }
-        ],
-        "interests": [
-          "Artificial Intelligence / Machine Learning",
-          "Data Science",
-          "Cloud Computing"
-        ],
-        "applications": [
-          "Sustainability & Environment",
-          "Social Good & Community"
-        ],
-        "rdia": "Sustainable Environment & Supply of Essential Needs"
-      },
-      {
-        "student_id": "S021",
-        "courses": [
-          {
-            "course_code": "CS1448",
-            "course_title": "Selected Topics in Platform based Application Development",
-            "grade": "B"
-          },
-          {
-            "course_code": "CS1426",
-            "course_title": "Advanced Computer Architecture",
-            "grade": "B+"
-          },
-          {
-            "course_code": "CS1446",
-            "course_title": "Mobile Application Development",
-            "grade": "A"
-          }
-        ],
-        "interests": [
-          "Drones"
-        ],
-        "applications": [
-          "Sustainability & Environment"
-        ],
-        "rdia": "Sustainable Environment & Supply of Essential Needs"
-      }
-    ]
-  },
-  {
-    "group_id": "G008",
-    "students": [
-      {
-        "student_id": "S022",
-        "courses": [
-          {
-            "course_code": "CS1433",
-            "course_title": "Distributed Systems",
-            "grade": "A"
-          },
-          {
-            "course_code": "CS1464",
-            "course_title": "Digital Image Processing",
-            "grade": "A"
-          },
-          {
-            "course_code": "CS1447",
-            "course_title": "Game Application Development",
-            "grade": "A"
-          },
-          {
-            "course_code": "CS1466",
-            "course_title": "Selected Topics in Artificial Intelligence",
-            "grade": "B+"
-          },
-          {
-            "course_code": "CS1462",
-            "course_title": "Natural Language Processing",
-            "grade": "A"
-          }
-        ],
-        "interests": [
-          "Robotics",
-          "Embedded Systems",
-          "Internet of Things (IoT)"
-        ],
-        "applications": [
-          "Transportation & Mobility"
-        ],
-        "rdia": "Energy & Industrial Leadership"
-      },
-      {
-        "student_id": "S023",
-        "courses": [
-          {
-            "course_code": "CS1463",
-            "course_title": "Optimization and Metaheuristics",
-            "grade": "B"
-          },
-          {
-            "course_code": "CS1439",
-            "course_title": "Selected Topics in Cybersecurity and Networks",
-            "grade": "B+"
-          }
-        ],
-        "interests": [
-          "Network Systems",
-          "Distributed Systems"
-        ],
-        "applications": [
-          "Business & Productivity"
-        ],
-        "rdia": "Energy & Industrial Leadership"
-      }
-    ]
-  },
-  {
-    "group_id": "G009",
-    "students": [
-      {
-        "student_id": "S024",
-        "courses": [
-          {
-            "course_code": "CS1463",
-            "course_title": "Optimization and Metaheuristics",
-            "grade": "B+"
-          },
-          {
-            "course_code": "CS1476",
-            "course_title": "Digital Forensics",
-            "grade": "B+"
-          }
-        ],
-        "interests": [
-          "Computer Graphics",
-          "Game Development"
-        ],
-        "applications": [
-          "Entertainment & Media"
-        ],
-        "rdia": "Economies of the Future"
-      },
-      {
-        "student_id": "S025",
-        "courses": [
-          {
-            "course_code": "CS1445",
-            "course_title": "Web Application Development",
-            "grade": "B"
-          },
-          {
-            "course_code": "CS1447",
-            "course_title": "Game Application Development",
-            "grade": "B"
-          },
-          {
-            "course_code": "CS1426",
-            "course_title": "Advanced Computer Architecture",
-            "grade": "A"
-          }
-        ],
-        "interests": [
-          "Game Development"
-        ],
-        "applications": [
-          "Education"
-        ],
-        "rdia": "Health & Wellness"
-      },
-      {
-        "student_id": "S026",
-        "courses": [
-          {
-            "course_code": "CS1439",
-            "course_title": "Selected Topics in Cybersecurity and Networks",
-            "grade": "A"
-          },
-          {
-            "course_code": "CS1475",
-            "course_title": "Software Security",
-            "grade": "B+"
-          }
-        ],
-        "interests": [
-          "Human-Computer Interaction",
-          "Web Development",
-          "Mobile Development"
-        ],
-        "applications": [
-          "Social Good & Community"
-        ],
-        "rdia": "Sustainable Environment & Supply of Essential Needs"
-      }
-    ]
-  },
-  {
-    "group_id": "G010",
-    "students": [
-      {
-        "student_id": "S027",
-        "courses": [
-          {
-            "course_code": "CS1446",
-            "course_title": "Mobile Application Development",
-            "grade": "A+"
-          },
-          {
-            "course_code": "CS1439",
-            "course_title": "Selected Topics in Cybersecurity and Networks",
-            "grade": "A"
-          }
-        ],
-        "interests": [
-          "Cybersecurity",
-          "Network Systems"
-        ],
-        "applications": [
-          "Security & Privacy"
-        ],
-        "rdia": "Economies of the Future"
-      },
-      {
-        "student_id": "S028",
-        "courses": [
-          {
-            "course_code": "CS1466",
-            "course_title": "Selected Topics in Artificial Intelligence",
-            "grade": "C+"
-          },
-          {
-            "course_code": "CS1464",
-            "course_title": "Digital Image Processing",
-            "grade": "B+"
-          },
-          {
-            "course_code": "CS1447",
-            "course_title": "Game Application Development",
-            "grade": "B+"
-          }
-        ],
-        "interests": [
-          "Cybersecurity",
-          "Blockchain"
-        ],
-        "applications": [
-          "Finance & Economics",
-          "Security & Privacy"
-        ],
-        "rdia": "Economies of the Future"
-      },
-      {
-        "student_id": "S029",
-        "courses": [
-          {
-            "course_code": "CS1475",
-            "course_title": "Software Security",
-            "grade": "A"
-          },
-          {
-            "course_code": "CS1446",
-            "course_title": "Mobile Application Development",
-            "grade": "B+"
-          }
-        ],
-        "interests": [
-          "Blockchain"
-        ],
-        "applications": [
-          "Government & Public Sector"
-        ],
-        "rdia": "Economies of the Future"
-      },
-      {
-        "student_id": "S030",
-        "courses": [
-          {
-            "course_code": "CS1462",
-            "course_title": "Natural Language Processing",
-            "grade": "B"
-          },
-          {
-            "course_code": "CS1425",
-            "course_title": "Embedded Systems",
-            "grade": "A"
-          }
-        ],
-        "interests": [
-          "Database Systems",
-          "Software Engineering",
-          "Cloud Computing"
-        ],
-        "applications": [
-          "Security & Privacy",
-          "Finance & Economics",
-          "Government & Public Sector"
-        ],
-        "rdia": "Economies of the Future"
-      }
-    ]
-  },
-  {
-    "group_id": "G011",
-    "students": [
-      {
-        "student_id": "S031",
-        "courses": [
-          {
-            "course_code": "CS1446",
-            "course_title": "Mobile Application Development",
-            "grade": "C+"
-          },
-          {
-            "course_code": "CS1425",
-            "course_title": "Embedded Systems",
-            "grade": "B"
-          }
-        ],
-        "interests": [
-          "Natural Language Processing"
-        ],
-        "applications": [
-          "Education"
-        ],
-        "rdia": "Economies of the Future"
-      },
-      {
-        "student_id": "S032",
-        "courses": [
-          {
-            "course_code": "CS1462",
-            "course_title": "Natural Language Processing",
-            "grade": "B+"
-          },
-          {
-            "course_code": "CS1464",
-            "course_title": "Digital Image Processing",
-            "grade": "B+"
-          }
-        ],
-        "interests": [
-          "Computer Vision"
-        ],
-        "applications": [
-          "Security & Privacy"
-        ],
-        "rdia": "Economies of the Future"
-      }
-    ]
-  },
-  {
-    "group_id": "G012",
-    "students": [
-      {
-        "student_id": "S033",
-        "courses": [
-          {
-            "course_code": "CS1447",
-            "course_title": "Game Application Development",
-            "grade": "B+"
-          },
-          {
-            "course_code": "CS1426",
-            "course_title": "Advanced Computer Architecture",
-            "grade": "A"
-          },
-          {
-            "course_code": "CS1445",
-            "course_title": "Web Application Development",
-            "grade": "A"
-          },
-          {
-            "course_code": "CS1462",
-            "course_title": "Natural Language Processing",
-            "grade": "B+"
-          },
-          {
-            "course_code": "CS1433",
-            "course_title": "Distributed Systems",
-            "grade": "A"
-          }
-        ],
-        "interests": [
-          "Artificial Intelligence / Machine Learning",
-          "Data Science",
-          "Cloud Computing"
-        ],
-        "applications": [
-          "Healthcare / Medical",
-          "Education",
-          "Business & Productivity"
-        ],
-        "rdia": "Health & Wellness"
-      },
-      {
-        "student_id": "S034",
-        "courses": [
-          {
-            "course_code": "CS1471",
-            "course_title": "Advanced Databases",
-            "grade": "B"
-          },
-          {
-            "course_code": "CS1464",
-            "course_title": "Digital Image Processing",
-            "grade": "B+"
-          },
-          {
-            "course_code": "CS1466",
-            "course_title": "Selected Topics in Artificial Intelligence",
-            "grade": "B+"
-          },
-          {
-            "course_code": "CS1434",
-            "course_title": "Internet of Things (IoT)",
-            "grade": "A"
-          },
-          {
-            "course_code": "CS1476",
-            "course_title": "Digital Forensics",
-            "grade": "A"
-          }
-        ],
-        "interests": [
-          "Web Development",
-          "Mobile Development",
-          "DevOps"
-        ],
-        "applications": [
-          "Social Good & Community",
-          "Sustainability & Environment",
-          "Education"
-        ],
-        "rdia": "Sustainable Environment & Supply of Essential Needs"
-      },
-      {
-        "student_id": "S035",
-        "courses": [
-          {
-            "course_code": "CS1434",
-            "course_title": "Internet of Things (IoT)",
-            "grade": "A"
-          },
-          {
-            "course_code": "CS1446",
-            "course_title": "Mobile Application Development",
-            "grade": "A"
-          },
-          {
-            "course_code": "CS1447",
-            "course_title": "Game Application Development",
-            "grade": "A"
-          },
-          {
-            "course_code": "CS1465",
-            "course_title": "Neural Networks and Deep Learning",
-            "grade": "A"
-          },
-          {
-            "course_code": "CS1466",
-            "course_title": "Selected Topics in Artificial Intelligence",
-            "grade": "A+"
-          }
-        ],
-        "interests": [
-          "Cybersecurity",
-          "Blockchain",
-          "Network Systems"
-        ],
-        "applications": [
-          "Finance & Economics",
-          "Government & Public Sector",
-          "Security & Privacy"
-        ],
-        "rdia": "Economies of the Future"
-      },
-      {
-        "student_id": "S036",
-        "courses": [
-          {
-            "course_code": "CS1476",
-            "course_title": "Digital Forensics",
-            "grade": "B"
-          },
-          {
-            "course_code": "CS1464",
-            "course_title": "Digital Image Processing",
-            "grade": "B+"
-          },
-          {
-            "course_code": "CS1463",
-            "course_title": "Optimization and Metaheuristics",
-            "grade": "B+"
-          },
-          {
-            "course_code": "CS1446",
-            "course_title": "Mobile Application Development",
-            "grade": "B"
-          },
-          {
-            "course_code": "CS1426",
-            "course_title": "Advanced Computer Architecture",
-            "grade": "A"
-          }
-        ],
-        "interests": [
-          "Internet of Things (IoT)",
-          "Embedded Systems",
-          "Robotics"
-        ],
-        "applications": [
-          "Transportation & Mobility",
-          "Sustainability & Environment",
-          "Healthcare / Medical"
-        ],
-        "rdia": "Energy & Industrial Leadership"
-      }
-    ]
-  },
-  {
-    "group_id": "G013",
-    "students": [
-      {
-        "student_id": "S037",
-        "courses": [
-          {
-            "course_code": "CS1474",
-            "course_title": "Computer Network Security",
-            "grade": "B+"
-          },
-          {
-            "course_code": "CS1471",
-            "course_title": "Advanced Databases",
-            "grade": "A"
-          },
-          {
-            "course_code": "CS1426",
-            "course_title": "Advanced Computer Architecture",
-            "grade": "B+"
-          }
-        ],
-        "interests": [
-          "Data Science",
-          "Artificial Intelligence / Machine Learning"
-        ],
-        "applications": [
-          "Healthcare / Medical"
-        ],
-        "rdia": "Health & Wellness"
-      },
-      {
-        "student_id": "S038",
-        "courses": [
-          {
-            "course_code": "CS1425",
-            "course_title": "Embedded Systems",
-            "grade": "B+"
-          },
-          {
-            "course_code": "CS1433",
-            "course_title": "Distributed Systems",
-            "grade": "B+"
-          },
-          {
-            "course_code": "CS1434",
-            "course_title": "Internet of Things (IoT)",
-            "grade": "A"
-          }
-        ],
-        "interests": [
-          "Data Science",
-          "Artificial Intelligence / Machine Learning"
-        ],
-        "applications": [
-          "Healthcare / Medical"
-        ],
-        "rdia": "Health & Wellness"
-      },
-      {
-        "student_id": "S039",
-        "courses": [
-          {
-            "course_code": "CS1439",
-            "course_title": "Selected Topics in Cybersecurity and Networks",
-            "grade": "A"
-          },
-          {
-            "course_code": "CS1465",
-            "course_title": "Neural Networks and Deep Learning",
-            "grade": "A"
-          },
-          {
-            "course_code": "CS1426",
-            "course_title": "Advanced Computer Architecture",
-            "grade": "A"
-          }
-        ],
-        "interests": [
-          "Data Science",
-          "Artificial Intelligence / Machine Learning"
-        ],
-        "applications": [
-          "Healthcare / Medical"
-        ],
-        "rdia": "Health & Wellness"
-      }
-    ]
-  },
-  {
-    "group_id": "G014",
-    "students": [
-      {
-        "student_id": "S040",
-        "courses": [
-          {
-            "course_code": "CS1464",
-            "course_title": "Digital Image Processing",
-            "grade": "A"
-          },
-          {
-            "course_code": "CS1476",
-            "course_title": "Digital Forensics",
-            "grade": "B+"
-          }
-        ],
-        "interests": [
-          "Computer Vision",
-          "Artificial Intelligence / Machine Learning"
-        ],
-        "applications": [
-          "Entertainment & Media"
-        ],
-        "rdia": "Economies of the Future"
-      },
-      {
-        "student_id": "S041",
-        "courses": [
-          {
-            "course_code": "CS1466",
-            "course_title": "Selected Topics in Artificial Intelligence",
-            "grade": "B+"
-          },
-          {
-            "course_code": "CS1474",
-            "course_title": "Computer Network Security",
-            "grade": "A"
-          }
-        ],
-        "interests": [
-          "Computer Vision",
-          "Artificial Intelligence / Machine Learning"
-        ],
-        "applications": [
-          "Transportation & Mobility"
-        ],
-        "rdia": "Energy & Industrial Leadership"
-      },
-      {
-        "student_id": "S042",
-        "courses": [
-          {
-            "course_code": "CS1447",
-            "course_title": "Game Application Development",
-            "grade": "A"
-          },
-          {
-            "course_code": "CS1475",
-            "course_title": "Software Security",
-            "grade": "A"
-          },
-          {
-            "course_code": "CS1424",
-            "course_title": "Introduction to Robotics",
-            "grade": "B+"
-          }
-        ],
-        "interests": [
-          "Computer Vision",
-          "Artificial Intelligence / Machine Learning"
-        ],
-        "applications": [
-          "Security & Privacy"
-        ],
-        "rdia": "Economies of the Future"
-      }
-    ]
-  },
-  {
-    "group_id": "G015",
-    "students": [
-      {
-        "student_id": "S043",
-        "courses": [
-          {
-            "course_code": "CS1433",
-            "course_title": "Distributed Systems",
-            "grade": "B"
-          },
-          {
-            "course_code": "CS1475",
-            "course_title": "Software Security",
-            "grade": "B+"
-          },
-          {
-            "course_code": "CS1447",
-            "course_title": "Game Application Development",
-            "grade": "B+"
-          },
-          {
-            "course_code": "CS1462",
-            "course_title": "Natural Language Processing",
-            "grade": "A"
-          }
-        ],
-        "interests": [
-          "Web Development"
-        ],
-        "applications": [
-          "Education"
-        ],
-        "rdia": "Economies of the Future"
-      },
-      {
-        "student_id": "S044",
-        "courses": [
-          {
-            "course_code": "CS1433",
-            "course_title": "Distributed Systems",
-            "grade": "A"
-          },
-          {
-            "course_code": "CS1448",
-            "course_title": "Selected Topics in Platform based Application Development",
-            "grade": "A"
-          },
-          {
-            "course_code": "CS1465",
-            "course_title": "Neural Networks and Deep Learning",
-            "grade": "B+"
-          },
-          {
-            "course_code": "CS1439",
-            "course_title": "Selected Topics in Cybersecurity and Networks",
-            "grade": "B+"
-          }
-        ],
-        "interests": [
-          "Database Systems"
-        ],
-        "applications": [
-          "Finance & Economics"
-        ],
-        "rdia": "Economies of the Future"
-      }
-    ]
-  }
-]
+ [
+    {
+      "group_id": "G001",
+      "students": [
+        {
+          "student_id": "S001",
+          "courses": [
+            {
+              "course_code": "CS1465",
+              "grade": "A"
+            },
+            {
+              "course_code": "CS1464",
+              "grade": "B+"
+            },
+            {
+              "course_code": "CS1462",
+              "grade": "A+"
+            }
+          ],
+          "interests": [
+            "Artificial Intelligence / Machine Learning",
+            "Computer Vision"
+          ],
+          "applications": [
+            "Healthcare / Medical",
+            "Education"
+          ],
+          "rdia": "Health & Wellness"
+        },
+        {
+          "student_id": "S002",
+          "courses": [
+            {
+              "course_code": "CS1465",
+              "grade": "B"
+            },
+            {
+              "course_code": "CS1466",
+              "grade": "A"
+            },
+            {
+              "course_code": "CS1463",
+              "grade": "B+"
+            }
+          ],
+          "interests": [
+            "Artificial Intelligence / Machine Learning",
+            "Data Science"
+          ],
+          "applications": [
+            "Healthcare / Medical",
+            "Finance & Economics"
+          ],
+          "rdia": "Health & Wellness"
+        },
+        {
+          "student_id": "S003",
+          "courses": [
+            {
+              "course_code": "CS1465",
+              "grade": "C+"
+            },
+            {
+              "course_code": "CS1463",
+              "grade": "B"
+            }
+          ],
+          "interests": [
+            "Artificial Intelligence / Machine Learning",
+            "Natural Language Processing"
+          ],
+          "applications": [
+            "Healthcare / Medical"
+          ],
+          "rdia": "Health & Wellness"
+        }
+      ]
+    },
+    {
+      "group_id": "G002",
+      "students": [
+        {
+          "student_id": "S004",
+          "courses": [
+            {
+              "course_code": "CS1445",
+              "grade": "A"
+            },
+            {
+              "course_code": "CS1448",
+              "grade": "B+"
+            }
+          ],
+          "interests": [
+            "Web Development",
+            "Cloud Computing"
+          ],
+          "applications": [
+            "Business & Productivity",
+            "Education"
+          ],
+          "rdia": "Economies of the Future"
+        },
+        {
+          "student_id": "S005",
+          "courses": [
+            {
+              "course_code": "CS1446",
+              "grade": "A+"
+            },
+            {
+              "course_code": "CS1447",
+              "grade": "B"
+            }
+          ],
+          "interests": [
+            "Web Development",
+            "Mobile Development"
+          ],
+          "applications": [
+            "Business & Productivity",
+            "Entertainment & Media"
+          ],
+          "rdia": "Economies of the Future"
+        },
+        {
+          "student_id": "S006",
+          "courses": [
+            {
+              "course_code": "CS1471",
+              "grade": "B+"
+            },
+            {
+              "course_code": "CS1433",
+              "grade": "A"
+            }
+          ],
+          "interests": [
+            "Web Development",
+            "Database Systems"
+          ],
+          "applications": [
+            "Business & Productivity"
+          ],
+          "rdia": "Economies of the Future"
+        }
+      ]
+    },
+    {
+      "group_id": "G003",
+      "students": [
+        {
+          "student_id": "S007",
+          "courses": [
+            {
+              "course_code": "CS1439",
+              "grade": "A"
+            },
+            {
+              "course_code": "CS1474",
+              "grade": "B+"
+            },
+            {
+              "course_code": "CS1475",
+              "grade": "A+"
+            }
+          ],
+          "interests": [
+            "Cybersecurity",
+            "Network Systems"
+          ],
+          "applications": [
+            "Security & Privacy",
+            "Government & Public Sector"
+          ],
+          "rdia": "Energy & Industrial Leadership"
+        },
+        {
+          "student_id": "S008",
+          "courses": [
+            {
+              "course_code": "CS1439",
+              "grade": "B"
+            },
+            {
+              "course_code": "CS1476",
+              "grade": "A"
+            }
+          ],
+          "interests": [
+            "Cybersecurity",
+            "Database Systems"
+          ],
+          "applications": [
+            "Security & Privacy",
+            "Finance & Economics"
+          ],
+          "rdia": "Economies of the Future"
+        }
+      ]
+    },
+    {
+      "group_id": "G004",
+      "students": [
+        {
+          "student_id": "S009",
+          "courses": [
+            {
+              "course_code": "CS1434",
+              "grade": "A"
+            },
+            {
+              "course_code": "CS1425",
+              "grade": "B+"
+            }
+          ],
+          "interests": [
+            "Internet of Things (IoT)",
+            "Embedded Systems"
+          ],
+          "applications": [
+            "Sustainability & Environment",
+            "Transportation & Mobility"
+          ],
+          "rdia": "Sustainable Environment & Supply of Essential Needs"
+        },
+        {
+          "student_id": "S010",
+          "courses": [
+            {
+              "course_code": "CS1424",
+              "grade": "A+"
+            },
+            {
+              "course_code": "CS1463",
+              "grade": "B"
+            }
+          ],
+          "interests": [
+            "Internet of Things (IoT)",
+            "Robotics"
+          ],
+          "applications": [
+            "Sustainability & Environment",
+            "Transportation & Mobility"
+          ],
+          "rdia": "Energy & Industrial Leadership"
+        },
+        {
+          "student_id": "S011",
+          "courses": [
+            {
+              "course_code": "CS1462",
+              "grade": "B+"
+            },
+            {
+              "course_code": "CS1466",
+              "grade": "A"
+            }
+          ],
+          "interests": [
+            "Internet of Things (IoT)",
+            "Artificial Intelligence / Machine Learning"
+          ],
+          "applications": [
+            "Sustainability & Environment"
+          ],
+          "rdia": "Economies of the Future"
+        }
+      ]
+    },
+    {
+      "group_id": "G005",
+      "students": [
+        {
+          "student_id": "S012",
+          "courses": [
+            {
+              "course_code": "CS1465",
+              "grade": "A"
+            },
+            {
+              "course_code": "CS1464",
+              "grade": "B"
+            },
+            {
+              "course_code": "CS1462",
+              "grade": "A"
+            }
+          ],
+          "interests": [
+            "Computer Vision",
+            "Artificial Intelligence / Machine Learning"
+          ],
+          "applications": [
+            "Healthcare / Medical",
+            "Education"
+          ],
+          "rdia": "Health & Wellness"
+        },
+        {
+          "student_id": "S013",
+          "courses": [
+            {
+              "course_code": "CS1465",
+              "grade": "B+"
+            },
+            {
+              "course_code": "CS1466",
+              "grade": "A+"
+            }
+          ],
+          "interests": [
+            "Computer Vision",
+            "Data Science"
+          ],
+          "applications": [
+            "Healthcare / Medical",
+            "Business & Productivity"
+          ],
+          "rdia": "Health & Wellness"
+        },
+        {
+          "student_id": "S014",
+          "courses": [
+            {
+              "course_code": "CS1464",
+              "grade": "C+"
+            },
+            {
+              "course_code": "CS1463",
+              "grade": "B"
+            }
+          ],
+          "interests": [
+            "Computer Vision",
+            "Robotics"
+          ],
+          "applications": [
+            "Transportation & Mobility"
+          ],
+          "rdia": "Health & Wellness"
+        }
+      ]
+    },
+    {
+      "group_id": "G006",
+      "students": [
+        {
+          "student_id": "S015",
+          "courses": [
+            {
+              "course_code": "CS1433",
+              "grade": "A"
+            },
+            {
+              "course_code": "CS1426",
+              "grade": "B+"
+            }
+          ],
+          "interests": [
+            "Distributed Systems",
+            "Cloud Computing"
+          ],
+          "applications": [
+            "Business & Productivity",
+            "Finance & Economics"
+          ],
+          "rdia": "Economies of the Future"
+        },
+        {
+          "student_id": "S016",
+          "courses": [
+            {
+              "course_code": "CS1471",
+              "grade": "B"
+            },
+            {
+              "course_code": "CS1445",
+              "grade": "A+"
+            }
+          ],
+          "interests": [
+            "Distributed Systems",
+            "Database Systems"
+          ],
+          "applications": [
+            "Business & Productivity",
+            "Education"
+          ],
+          "rdia": "Economies of the Future"
+        },
+        {
+          "student_id": "S017",
+          "courses": [
+            {
+              "course_code": "CS1448",
+              "grade": "C+"
+            },
+            {
+              "course_code": "CS1446",
+              "grade": "B+"
+            }
+          ],
+          "interests": [
+            "Distributed Systems",
+            "Mobile Development"
+          ],
+          "applications": [
+            "Entertainment & Media"
+          ],
+          "rdia": "Economies of the Future"
+        }
+      ]
+    },
+    {
+      "group_id": "G007",
+      "students": [
+        {
+          "student_id": "S018",
+          "courses": [
+            {
+              "course_code": "CS1462",
+              "grade": "A+"
+            },
+            {
+              "course_code": "CS1465",
+              "grade": "A"
+            },
+            {
+              "course_code": "CS1466",
+              "grade": "B"
+            }
+          ],
+          "interests": [
+            "Natural Language Processing",
+            "Artificial Intelligence / Machine Learning"
+          ],
+          "applications": [
+            "Education",
+            "Social Good & Community"
+          ],
+          "rdia": "Health & Wellness"
+        },
+        {
+          "student_id": "S019",
+          "courses": [
+            {
+              "course_code": "CS1462",
+              "grade": "B+"
+            },
+            {
+              "course_code": "CS1463",
+              "grade": "B"
+            }
+          ],
+          "interests": [
+            "Natural Language Processing",
+            "Data Science"
+          ],
+          "applications": [
+            "Education",
+            "Finance & Economics"
+          ],
+          "rdia": "Economies of the Future"
+        },
+        {
+          "student_id": "S020",
+          "courses": [
+            {
+              "course_code": "CS1462",
+              "grade": "C+"
+            },
+            {
+              "course_code": "CS1464",
+              "grade": "A"
+            }
+          ],
+          "interests": [
+            "Natural Language Processing",
+            "Computer Vision"
+          ],
+          "applications": [
+            "Government & Public Sector"
+          ],
+          "rdia": "Sustainable Environment & Supply of Essential Needs"
+        }
+      ]
+    },
+    {
+      "group_id": "G008",
+      "students": [
+        {
+          "student_id": "S021",
+          "courses": [
+            {
+              "course_code": "CS1424",
+              "grade": "A"
+            },
+            {
+              "course_code": "CS1425",
+              "grade": "B+"
+            }
+          ],
+          "interests": [
+            "Robotics",
+            "Embedded Systems"
+          ],
+          "applications": [
+            "Transportation & Mobility",
+            "Healthcare / Medical"
+          ],
+          "rdia": "Energy & Industrial Leadership"
+        },
+        {
+          "student_id": "S022",
+          "courses": [
+            {
+              "course_code": "CS1434",
+              "grade": "B"
+            },
+            {
+              "course_code": "CS1439",
+              "grade": "A+"
+            }
+          ],
+          "interests": [
+            "Robotics",
+            "Internet of Things (IoT)"
+          ],
+          "applications": [
+            "Transportation & Mobility",
+            "Sustainability & Environment"
+          ],
+          "rdia": "Sustainable Environment & Supply of Essential Needs"
+        },
+        {
+          "student_id": "S023",
+          "courses": [
+            {
+              "course_code": "CS1447",
+              "grade": "B+"
+            },
+            {
+              "course_code": "CS1463",
+              "grade": "A"
+            }
+          ],
+          "interests": [
+            "Robotics",
+            "Game Development"
+          ],
+          "applications": [
+            "Entertainment & Media"
+          ],
+          "rdia": "Economies of the Future"
+        }
+      ]
+    },
+    {
+      "group_id": "G009",
+      "students": [
+        {
+          "student_id": "S024",
+          "courses": [
+            {
+              "course_code": "CS1474",
+              "grade": "A"
+            },
+            {
+              "course_code": "CS1475",
+              "grade": "B+"
+            },
+            {
+              "course_code": "CS1439",
+              "grade": "A"
+            }
+          ],
+          "interests": [
+            "Cybersecurity",
+            "Network Systems"
+          ],
+          "applications": [
+            "Security & Privacy"
+          ],
+          "rdia": "Energy & Industrial Leadership"
+        },
+        {
+          "student_id": "S025",
+          "courses": [
+            {
+              "course_code": "CS1474",
+              "grade": "B"
+            },
+            {
+              "course_code": "CS1476",
+              "grade": "A+"
+            }
+          ],
+          "interests": [
+            "Cybersecurity",
+            "Database Systems"
+          ],
+          "applications": [
+            "Finance & Economics"
+          ],
+          "rdia": "Energy & Industrial Leadership"
+        },
+        {
+          "student_id": "S026",
+          "courses": [
+            {
+              "course_code": "CS1475",
+              "grade": "C+"
+            },
+            {
+              "course_code": "CS1471",
+              "grade": "B"
+            }
+          ],
+          "interests": [
+            "Cybersecurity",
+            "Software Engineering"
+          ],
+          "applications": [
+            "Government & Public Sector"
+          ],
+          "rdia": "Energy & Industrial Leadership"
+        }
+      ]
+    },
+    {
+      "group_id": "G010",
+      "students": [
+        {
+          "student_id": "S027",
+          "courses": [
+            {
+              "course_code": "CS1465",
+              "grade": "A+"
+            },
+            {
+              "course_code": "CS1463",
+              "grade": "B"
+            }
+          ],
+          "interests": [
+            "Artificial Intelligence / Machine Learning",
+            "Bioinformatics"
+          ],
+          "applications": [
+            "Healthcare / Medical"
+          ],
+          "rdia": "Health & Wellness"
+        },
+        {
+          "student_id": "S028",
+          "courses": [
+            {
+              "course_code": "CS1462",
+              "grade": "A"
+            },
+            {
+              "course_code": "CS1466",
+              "grade": "B+"
+            }
+          ],
+          "interests": [
+            "Artificial Intelligence / Machine Learning",
+            "Natural Language Processing"
+          ],
+          "applications": [
+            "Education"
+          ],
+          "rdia": "Health & Wellness"
+        },
+        {
+          "student_id": "S029",
+          "courses": [
+            {
+              "course_code": "CS1464",
+              "grade": "B+"
+            },
+            {
+              "course_code": "CS1424",
+              "grade": "A"
+            }
+          ],
+          "interests": [
+            "Artificial Intelligence / Machine Learning",
+            "Computer Vision"
+          ],
+          "applications": [
+            "Transportation & Mobility"
+          ],
+          "rdia": "Health & Wellness"
+        }
+      ]
+    },
+    {
+      "group_id": "G011",
+      "students": [
+        {
+          "student_id": "S030",
+          "courses": [
+            {
+              "course_code": "CS1434",
+              "grade": "A"
+            },
+            {
+              "course_code": "CS1425",
+              "grade": "B+"
+            },
+            {
+              "course_code": "CS1424",
+              "grade": "A+"
+            }
+          ],
+          "interests": [
+            "Internet of Things (IoT)",
+            "Embedded Systems"
+          ],
+          "applications": [
+            "Sustainability & Environment"
+          ],
+          "rdia": "Sustainable Environment & Supply of Essential Needs"
+        },
+        {
+          "student_id": "S031",
+          "courses": [
+            {
+              "course_code": "CS1434",
+              "grade": "B"
+            },
+            {
+              "course_code": "CS1433",
+              "grade": "A"
+            }
+          ],
+          "interests": [
+            "Internet of Things (IoT)",
+            "Distributed Systems"
+          ],
+          "applications": [
+            "Business & Productivity"
+          ],
+          "rdia": "Economies of the Future"
+        },
+        {
+          "student_id": "S032",
+          "courses": [
+            {
+              "course_code": "CS1434",
+              "grade": "C+"
+            },
+            {
+              "course_code": "CS1471",
+              "grade": "B+"
+            }
+          ],
+          "interests": [
+            "Internet of Things (IoT)",
+            "Database Systems"
+          ],
+          "applications": [
+            "Government & Public Sector"
+          ],
+          "rdia": "Energy & Industrial Leadership"
+        }
+      ]
+    },
+    {
+      "group_id": "G012",
+      "students": [
+        {
+          "student_id": "S033",
+          "courses": [
+            {
+              "course_code": "CS1445",
+              "grade": "A"
+            },
+            {
+              "course_code": "CS1448",
+              "grade": "B"
+            }
+          ],
+          "interests": [
+            "Web Development",
+            "Software Engineering"
+          ],
+          "applications": [
+            "Entertainment & Media"
+          ],
+          "rdia": "Economies of the Future"
+        },
+        {
+          "student_id": "S034",
+          "courses": [
+            {
+              "course_code": "CS1446",
+              "grade": "B+"
+            },
+            {
+              "course_code": "CS1447",
+              "grade": "A"
+            }
+          ],
+          "interests": [
+            "Web Development",
+            "Game Development"
+          ],
+          "applications": [
+            "Education"
+          ],
+          "rdia": "Health & Wellness"
+        },
+        {
+          "student_id": "S035",
+          "courses": [
+            {
+              "course_code": "CS1471",
+              "grade": "A+"
+            },
+            {
+              "course_code": "CS1433",
+              "grade": "B+"
+            }
+          ],
+          "interests": [
+            "Web Development",
+            "Distributed Systems"
+          ],
+          "applications": [
+            "Finance & Economics"
+          ],
+          "rdia": "Energy & Industrial Leadership"
+        }
+      ]
+    },
+    {
+      "group_id": "G013",
+      "students": [
+        {
+          "student_id": "S036",
+          "courses": [
+            {
+              "course_code": "CS1465",
+              "grade": "A"
+            },
+            {
+              "course_code": "CS1464",
+              "grade": "B+"
+            },
+            {
+              "course_code": "CS1462",
+              "grade": "B"
+            }
+          ],
+          "interests": [
+            "Computer Vision",
+            "Artificial Intelligence / Machine Learning"
+          ],
+          "applications": [
+            "Healthcare / Medical",
+            "Education"
+          ],
+          "rdia": "Health & Wellness"
+        },
+        {
+          "student_id": "S037",
+          "courses": [
+            {
+              "course_code": "CS1465",
+              "grade": "B"
+            },
+            {
+              "course_code": "CS1466",
+              "grade": "A+"
+            }
+          ],
+          "interests": [
+            "Computer Vision",
+            "Data Science"
+          ],
+          "applications": [
+            "Healthcare / Medical",
+            "Business & Productivity"
+          ],
+          "rdia": "Health & Wellness"
+        },
+        {
+          "student_id": "S038",
+          "courses": [
+            {
+              "course_code": "CS1465",
+              "grade": "C+"
+            },
+            {
+              "course_code": "CS1463",
+              "grade": "A"
+            }
+          ],
+          "interests": [
+            "Data Science",
+            "Bioinformatics"
+          ],
+          "applications": [
+            "Healthcare / Medical"
+          ],
+          "rdia": "Health & Wellness"
+        }
+      ]
+    },
+    {
+      "group_id": "G014",
+      "students": [
+        {
+          "student_id": "S039",
+          "courses": [
+            {
+              "course_code": "CS1445",
+              "grade": "A"
+            },
+            {
+              "course_code": "CS1448",
+              "grade": "B+"
+            }
+          ],
+          "interests": [
+            "Web Development",
+            "Cloud Computing"
+          ],
+          "applications": [
+            "Business & Productivity",
+            "Finance & Economics"
+          ],
+          "rdia": "Economies of the Future"
+        },
+        {
+          "student_id": "S040",
+          "courses": [
+            {
+              "course_code": "CS1446",
+              "grade": "A"
+            },
+            {
+              "course_code": "CS1447",
+              "grade": "B"
+            }
+          ],
+          "interests": [
+            "Web Development",
+            "Mobile Development"
+          ],
+          "applications": [
+            "Business & Productivity"
+          ],
+          "rdia": "Economies of the Future"
+        },
+        {
+          "student_id": "S041",
+          "courses": [
+            {
+              "course_code": "CS1433",
+              "grade": "B+"
+            },
+            {
+              "course_code": "CS1471",
+              "grade": "A+"
+            }
+          ],
+          "interests": [
+            "Mobile Development",
+            "Distributed Systems"
+          ],
+          "applications": [
+            "Business & Productivity",
+            "Education"
+          ],
+          "rdia": "Economies of the Future"
+        }
+      ]
+    },
+    {
+      "group_id": "G015",
+      "students": [
+        {
+          "student_id": "S042",
+          "courses": [
+            {
+              "course_code": "CS1474",
+              "grade": "A"
+            },
+            {
+              "course_code": "CS1439",
+              "grade": "B+"
+            },
+            {
+              "course_code": "CS1475",
+              "grade": "A"
+            }
+          ],
+          "interests": [
+            "Cybersecurity",
+            "Network Systems"
+          ],
+          "applications": [
+            "Security & Privacy",
+            "Government & Public Sector"
+          ],
+          "rdia": "Energy & Industrial Leadership"
+        },
+        {
+          "student_id": "S043",
+          "courses": [
+            {
+              "course_code": "CS1474",
+              "grade": "B"
+            },
+            {
+              "course_code": "CS1476",
+              "grade": "A+"
+            }
+          ],
+          "interests": [
+            "Cybersecurity",
+            "Database Systems"
+          ],
+          "applications": [
+            "Security & Privacy",
+            "Finance & Economics"
+          ],
+          "rdia": "Sustainable Environment & Supply of Essential Needs"
+        },
+        {
+          "student_id": "S044",
+          "courses": [
+            {
+              "course_code": "CS1471",
+              "grade": "C+"
+            },
+            {
+              "course_code": "CS1433",
+              "grade": "B"
+            }
+          ],
+          "interests": [
+            "Database Systems",
+            "Distributed Systems"
+          ],
+          "applications": [
+            "Security & Privacy"
+          ],
+          "rdia": "Economies of the Future"
+        }
+      ]
+    },
+    {
+      "group_id": "G016",
+      "students": [
+        {
+          "student_id": "S045",
+          "courses": [
+            {
+              "course_code": "CS1424",
+              "grade": "A"
+            },
+            {
+              "course_code": "CS1463",
+              "grade": "B+"
+            }
+          ],
+          "interests": [
+            "Robotics",
+            "Artificial Intelligence / Machine Learning"
+          ],
+          "applications": [
+            "Transportation & Mobility",
+            "Sustainability & Environment"
+          ],
+          "rdia": "Energy & Industrial Leadership"
+        },
+        {
+          "student_id": "S046",
+          "courses": [
+            {
+              "course_code": "CS1425",
+              "grade": "B"
+            },
+            {
+              "course_code": "CS1434",
+              "grade": "A+"
+            }
+          ],
+          "interests": [
+            "Robotics",
+            "Embedded Systems"
+          ],
+          "applications": [
+            "Transportation & Mobility",
+            "Healthcare / Medical"
+          ],
+          "rdia": "Sustainable Environment & Supply of Essential Needs"
+        },
+        {
+          "student_id": "S047",
+          "courses": [
+            {
+              "course_code": "CS1465",
+              "grade": "A"
+            },
+            {
+              "course_code": "CS1462",
+              "grade": "B+"
+            }
+          ],
+          "interests": [
+            "Embedded Systems",
+            "Natural Language Processing"
+          ],
+          "applications": [
+            "Transportation & Mobility"
+          ],
+          "rdia": "Health & Wellness"
+        }
+      ]
+    },
+    {
+      "group_id": "G017",
+      "students": [
+        {
+          "student_id": "S048",
+          "courses": [
+            {
+              "course_code": "CS1466",
+              "grade": "A"
+            },
+            {
+              "course_code": "CS1465",
+              "grade": "B+"
+            },
+            {
+              "course_code": "CS1464",
+              "grade": "A"
+            }
+          ],
+          "interests": [
+            "Artificial Intelligence / Machine Learning",
+            "Computer Vision"
+          ],
+          "applications": [
+            "Healthcare / Medical",
+            "Education"
+          ],
+          "rdia": "Health & Wellness"
+        },
+        {
+          "student_id": "S049",
+          "courses": [
+            {
+              "course_code": "CS1466",
+              "grade": "B"
+            },
+            {
+              "course_code": "CS1462",
+              "grade": "A+"
+            }
+          ],
+          "interests": [
+            "Artificial Intelligence / Machine Learning",
+            "Natural Language Processing"
+          ],
+          "applications": [
+            "Healthcare / Medical",
+            "Business & Productivity"
+          ],
+          "rdia": "Health & Wellness"
+        },
+        {
+          "student_id": "S050",
+          "courses": [
+            {
+              "course_code": "CS1466",
+              "grade": "C+"
+            },
+            {
+              "course_code": "CS1463",
+              "grade": "B"
+            }
+          ],
+          "interests": [
+            "Natural Language Processing",
+            "Data Science"
+          ],
+          "applications": [
+            "Finance & Economics"
+          ],
+          "rdia": "Health & Wellness"
+        }
+      ]
+    },
+    {
+      "group_id": "G018",
+      "students": [
+        {
+          "student_id": "S051",
+          "courses": [
+            {
+              "course_code": "CS1445",
+              "grade": "A"
+            },
+            {
+              "course_code": "CS1448",
+              "grade": "B+"
+            }
+          ],
+          "interests": [
+            "Web Development",
+            "DevOps"
+          ],
+          "applications": [
+            "Business & Productivity",
+            "Education"
+          ],
+          "rdia": "Economies of the Future"
+        },
+        {
+          "student_id": "S052",
+          "courses": [
+            {
+              "course_code": "CS1446",
+              "grade": "B"
+            },
+            {
+              "course_code": "CS1447",
+              "grade": "A"
+            }
+          ],
+          "interests": [
+            "Web Development",
+            "Game Development"
+          ],
+          "applications": [
+            "Business & Productivity",
+            "Entertainment & Media"
+          ],
+          "rdia": "Economies of the Future"
+        },
+        {
+          "student_id": "S053",
+          "courses": [
+            {
+              "course_code": "CS1433",
+              "grade": "A+"
+            },
+            {
+              "course_code": "CS1471",
+              "grade": "B+"
+            }
+          ],
+          "interests": [
+            "Game Development",
+            "Distributed Systems"
+          ],
+          "applications": [
+            "Entertainment & Media",
+            "Social Good & Community"
+          ],
+          "rdia": "Economies of the Future"
+        }
+      ]
+    },
+    {
+      "group_id": "G019",
+      "students": [
+        {
+          "student_id": "S054",
+          "courses": [
+            {
+              "course_code": "CS1434",
+              "grade": "A"
+            },
+            {
+              "course_code": "CS1425",
+              "grade": "B+"
+            },
+            {
+              "course_code": "CS1424",
+              "grade": "A"
+            }
+          ],
+          "interests": [
+            "Internet of Things (IoT)",
+            "Embedded Systems"
+          ],
+          "applications": [
+            "Sustainability & Environment",
+            "Healthcare / Medical"
+          ],
+          "rdia": "Sustainable Environment & Supply of Essential Needs"
+        },
+        {
+          "student_id": "S055",
+          "courses": [
+            {
+              "course_code": "CS1434",
+              "grade": "B"
+            },
+            {
+              "course_code": "CS1433",
+              "grade": "A+"
+            }
+          ],
+          "interests": [
+            "Internet of Things (IoT)",
+            "Distributed Systems"
+          ],
+          "applications": [
+            "Sustainability & Environment",
+            "Business & Productivity"
+          ],
+          "rdia": "Energy & Industrial Leadership"
+        },
+        {
+          "student_id": "S056",
+          "courses": [
+            {
+              "course_code": "CS1434",
+              "grade": "C"
+            },
+            {
+              "course_code": "CS1439",
+              "grade": "B"
+            }
+          ],
+          "interests": [
+            "Distributed Systems",
+            "Cybersecurity"
+          ],
+          "applications": [
+            "Security & Privacy",
+            "Business & Productivity"
+          ],
+          "rdia": "Economies of the Future"
+        },
+        {
+          "student_id": "S057",
+          "courses": [
+            {
+              "course_code": "CS1434",
+              "grade": "D+"
+            },
+            {
+              "course_code": "CS1471",
+              "grade": "B"
+            }
+          ],
+          "interests": [
+            "Cybersecurity",
+            "Database Systems"
+          ],
+          "applications": [
+            "Security & Privacy"
+          ],
+          "rdia": "Health & Wellness"
+        }
+      ]
+    },
+    {
+      "group_id": "G020",
+      "students": [
+        {
+          "student_id": "S058",
+          "courses": [
+            {
+              "course_code": "CS1474",
+              "grade": "A+"
+            },
+            {
+              "course_code": "CS1475",
+              "grade": "B"
+            }
+          ],
+          "interests": [
+            "Cybersecurity",
+            "Network Systems"
+          ],
+          "applications": [
+            "Security & Privacy",
+            "Government & Public Sector"
+          ],
+          "rdia": "Energy & Industrial Leadership"
+        },
+        {
+          "student_id": "S059",
+          "courses": [
+            {
+              "course_code": "CS1439",
+              "grade": "A"
+            },
+            {
+              "course_code": "CS1476",
+              "grade": "B+"
+            }
+          ],
+          "interests": [
+            "Cybersecurity",
+            "Software Engineering"
+          ],
+          "applications": [
+            "Security & Privacy",
+            "Finance & Economics"
+          ],
+          "rdia": "Sustainable Environment & Supply of Essential Needs"
+        },
+        {
+          "student_id": "S060",
+          "courses": [
+            {
+              "course_code": "CS1471",
+              "grade": "B"
+            },
+            {
+              "course_code": "CS1433",
+              "grade": "A+"
+            }
+          ],
+          "interests": [
+            "Software Engineering",
+            "Distributed Systems"
+          ],
+          "applications": [
+            "Finance & Economics",
+            "Business & Productivity"
+          ],
+          "rdia": "Health & Wellness"
+        }
+      ]
+    },
+    {
+      "group_id": "G021",
+      "students": [
+        {
+          "student_id": "S061",
+          "courses": [
+            {
+              "course_code": "CS1465",
+              "grade": "A"
+            },
+            {
+              "course_code": "CS1463",
+              "grade": "B+"
+            },
+            {
+              "course_code": "CS1466",
+              "grade": "A"
+            }
+          ],
+          "interests": [
+            "Artificial Intelligence / Machine Learning",
+            "Data Science"
+          ],
+          "applications": [
+            "Healthcare / Medical"
+          ],
+          "rdia": "Health & Wellness"
+        },
+        {
+          "student_id": "S062",
+          "courses": [
+            {
+              "course_code": "CS1465",
+              "grade": "B"
+            },
+            {
+              "course_code": "CS1464",
+              "grade": "A+"
+            }
+          ],
+          "interests": [
+            "Artificial Intelligence / Machine Learning",
+            "Computer Vision"
+          ],
+          "applications": [
+            "Transportation & Mobility"
+          ],
+          "rdia": "Health & Wellness"
+        },
+        {
+          "student_id": "S063",
+          "courses": [
+            {
+              "course_code": "CS1462",
+              "grade": "B+"
+            },
+            {
+              "course_code": "CS1466",
+              "grade": "C+"
+            }
+          ],
+          "interests": [
+            "Computer Vision",
+            "Natural Language Processing"
+          ],
+          "applications": [
+            "Education"
+          ],
+          "rdia": "Health & Wellness"
+        }
+      ]
+    },
+    {
+      "group_id": "G022",
+      "students": [
+        {
+          "student_id": "S064",
+          "courses": [
+            {
+              "course_code": "CS1445",
+              "grade": "A+"
+            },
+            {
+              "course_code": "CS1448",
+              "grade": "B"
+            }
+          ],
+          "interests": [
+            "Web Development",
+            "Cloud Computing"
+          ],
+          "applications": [
+            "Business & Productivity"
+          ],
+          "rdia": "Economies of the Future"
+        },
+        {
+          "student_id": "S065",
+          "courses": [
+            {
+              "course_code": "CS1446",
+              "grade": "A"
+            },
+            {
+              "course_code": "CS1447",
+              "grade": "B+"
+            }
+          ],
+          "interests": [
+            "Web Development",
+            "Game Development"
+          ],
+          "applications": [
+            "Entertainment & Media"
+          ],
+          "rdia": "Economies of the Future"
+        },
+        {
+          "student_id": "S066",
+          "courses": [
+            {
+              "course_code": "CS1433",
+              "grade": "B"
+            },
+            {
+              "course_code": "CS1471",
+              "grade": "A"
+            }
+          ],
+          "interests": [
+            "Game Development",
+            "Database Systems"
+          ],
+          "applications": [
+            "Finance & Economics"
+          ],
+          "rdia": "Economies of the Future"
+        }
+      ]
+    },
+    {
+      "group_id": "G023",
+      "students": [
+        {
+          "student_id": "S067",
+          "courses": [
+            {
+              "course_code": "CS1424",
+              "grade": "A"
+            },
+            {
+              "course_code": "CS1425",
+              "grade": "B+"
+            },
+            {
+              "course_code": "CS1434",
+              "grade": "A"
+            }
+          ],
+          "interests": [
+            "Robotics",
+            "Internet of Things (IoT)"
+          ],
+          "applications": [
+            "Sustainability & Environment"
+          ],
+          "rdia": "Energy & Industrial Leadership"
+        },
+        {
+          "student_id": "S068",
+          "courses": [
+            {
+              "course_code": "CS1424",
+              "grade": "B"
+            },
+            {
+              "course_code": "CS1463",
+              "grade": "A+"
+            }
+          ],
+          "interests": [
+            "Robotics",
+            "Embedded Systems"
+          ],
+          "applications": [
+            "Healthcare / Medical"
+          ],
+          "rdia": "Sustainable Environment & Supply of Essential Needs"
+        },
+        {
+          "student_id": "S069",
+          "courses": [
+            {
+              "course_code": "CS1425",
+              "grade": "C"
+            },
+            {
+              "course_code": "CS1426",
+              "grade": "B"
+            }
+          ],
+          "interests": [
+            "Embedded Systems",
+            "Computer Graphics"
+          ],
+          "applications": [
+            "Entertainment & Media"
+          ],
+          "rdia": "Economies of the Future"
+        }
+      ]
+    },
+    {
+      "group_id": "G024",
+      "students": [
+        {
+          "student_id": "S070",
+          "courses": [
+            {
+              "course_code": "CS1474",
+              "grade": "A"
+            },
+            {
+              "course_code": "CS1475",
+              "grade": "B+"
+            }
+          ],
+          "interests": [
+            "Cybersecurity",
+            "Software Engineering"
+          ],
+          "applications": [
+            "Security & Privacy"
+          ],
+          "rdia": "Energy & Industrial Leadership"
+        },
+        {
+          "student_id": "S071",
+          "courses": [
+            {
+              "course_code": "CS1476",
+              "grade": "B"
+            },
+            {
+              "course_code": "CS1439",
+              "grade": "A+"
+            }
+          ],
+          "interests": [
+            "Cybersecurity",
+            "Network Systems"
+          ],
+          "applications": [
+            "Government & Public Sector"
+          ],
+          "rdia": "Health & Wellness"
+        },
+        {
+          "student_id": "S072",
+          "courses": [
+            {
+              "course_code": "CS1471",
+              "grade": "A"
+            },
+            {
+              "course_code": "CS1433",
+              "grade": "B"
+            }
+          ],
+          "interests": [
+            "Network Systems",
+            "Distributed Systems"
+          ],
+          "applications": [
+            "Business & Productivity"
+          ],
+          "rdia": "Economies of the Future"
+        }
+      ]
+    },
+    {
+      "group_id": "G025",
+      "students": [
+        {
+          "student_id": "S073",
+          "courses": [
+            {
+              "course_code": "CS1445",
+              "grade": "A"
+            },
+            {
+              "course_code": "CS1448",
+              "grade": "B+"
+            },
+            {
+              "course_code": "CS1433",
+              "grade": "A"
+            }
+          ],
+          "interests": [
+            "Web Development",
+            "DevOps"
+          ],
+          "applications": [
+            "Business & Productivity",
+            "Education"
+          ],
+          "rdia": "Economies of the Future"
+        },
+        {
+          "student_id": "S074",
+          "courses": [
+            {
+              "course_code": "CS1445",
+              "grade": "B"
+            },
+            {
+              "course_code": "CS1471",
+              "grade": "A+"
+            }
+          ],
+          "interests": [
+            "Database Systems",
+            "Cloud Computing"
+          ],
+          "applications": [
+            "Business & Productivity",
+            "Finance & Economics"
+          ],
+          "rdia": "Economies of the Future"
+        },
+        {
+          "student_id": "S075",
+          "courses": [
+            {
+              "course_code": "CS1445",
+              "grade": "C+"
+            },
+            {
+              "course_code": "CS1446",
+              "grade": "B"
+            }
+          ],
+          "interests": [
+            "Mobile Development",
+            "Human-Computer Interaction"
+          ],
+          "applications": [
+            "Business & Productivity"
+          ],
+          "rdia": "Economies of the Future"
+        }
+      ]
+    },
+    {
+      "group_id": "G026",
+      "students": [
+        {
+          "student_id": "S076",
+          "courses": [
+            {
+              "course_code": "CS1465",
+              "grade": "A+"
+            },
+            {
+              "course_code": "CS1463",
+              "grade": "B"
+            }
+          ],
+          "interests": [
+            "Artificial Intelligence / Machine Learning",
+            "Bioinformatics"
+          ],
+          "applications": [
+            "Healthcare / Medical",
+            "Education"
+          ],
+          "rdia": "Health & Wellness"
+        },
+        {
+          "student_id": "S077",
+          "courses": [
+            {
+              "course_code": "CS1424",
+              "grade": "B"
+            },
+            {
+              "course_code": "CS1425",
+              "grade": "A"
+            }
+          ],
+          "interests": [
+            "Robotics",
+            "Embedded Systems"
+          ],
+          "applications": [
+            "Healthcare / Medical",
+            "Transportation & Mobility"
+          ],
+          "rdia": "Health & Wellness"
+        }
+      ]
+    },
+    {
+      "group_id": "G027",
+      "students": [
+        {
+          "student_id": "S078",
+          "courses": [
+            {
+              "course_code": "CS1434",
+              "grade": "A"
+            },
+            {
+              "course_code": "CS1425",
+              "grade": "B+"
+            },
+            {
+              "course_code": "CS1433",
+              "grade": "A"
+            }
+          ],
+          "interests": [
+            "Internet of Things (IoT)",
+            "Cloud Computing"
+          ],
+          "applications": [
+            "Sustainability & Environment",
+            "Business & Productivity"
+          ],
+          "rdia": "Sustainable Environment & Supply of Essential Needs"
+        },
+        {
+          "student_id": "S079",
+          "courses": [
+            {
+              "course_code": "CS1434",
+              "grade": "B"
+            },
+            {
+              "course_code": "CS1471",
+              "grade": "A+"
+            }
+          ],
+          "interests": [
+            "Database Systems",
+            "Distributed Systems"
+          ],
+          "applications": [
+            "Sustainability & Environment",
+            "Finance & Economics"
+          ],
+          "rdia": "Economies of the Future"
+        },
+        {
+          "student_id": "S080",
+          "courses": [
+            {
+              "course_code": "CS1434",
+              "grade": "C+"
+            },
+            {
+              "course_code": "CS1462",
+              "grade": "B"
+            }
+          ],
+          "interests": [
+            "Natural Language Processing",
+            "Bioinformatics"
+          ],
+          "applications": [
+            "Sustainability & Environment"
+          ],
+          "rdia": "Health & Wellness"
+        }
+      ]
+    },
+    {
+      "group_id": "G028",
+      "students": [
+        {
+          "student_id": "S081",
+          "courses": [
+            {
+              "course_code": "CS1474",
+              "grade": "A"
+            },
+            {
+              "course_code": "CS1475",
+              "grade": "B+"
+            }
+          ],
+          "interests": [
+            "Cybersecurity",
+            "Software Engineering"
+          ],
+          "applications": [
+            "Security & Privacy",
+            "Government & Public Sector"
+          ],
+          "rdia": "Energy & Industrial Leadership"
+        },
+        {
+          "student_id": "S082",
+          "courses": [
+            {
+              "course_code": "CS1465",
+              "grade": "A+"
+            },
+            {
+              "course_code": "CS1463",
+              "grade": "B"
+            }
+          ],
+          "interests": [
+            "Artificial Intelligence / Machine Learning",
+            "Data Science"
+          ],
+          "applications": [
+            "Security & Privacy"
+          ],
+          "rdia": "Economies of the Future"
+        }
+      ]
+    },
+    {
+      "group_id": "G029",
+      "students": [
+        {
+          "student_id": "S083",
+          "courses": [
+            {
+              "course_code": "CS1439",
+              "grade": "A"
+            },
+            {
+              "course_code": "CS1476",
+              "grade": "B+"
+            },
+            {
+              "course_code": "CS1474",
+              "grade": "A"
+            }
+          ],
+          "interests": [
+            "Cybersecurity",
+            "Network Systems"
+          ],
+          "applications": [
+            "Security & Privacy",
+            "Government & Public Sector"
+          ],
+          "rdia": "Energy & Industrial Leadership"
+        },
+        {
+          "student_id": "S084",
+          "courses": [
+            {
+              "course_code": "CS1439",
+              "grade": "B"
+            },
+            {
+              "course_code": "CS1475",
+              "grade": "A+"
+            }
+          ],
+          "interests": [
+            "Software Engineering",
+            "Cloud Computing"
+          ],
+          "applications": [
+            "Security & Privacy",
+            "Business & Productivity"
+          ],
+          "rdia": "Energy & Industrial Leadership"
+        },
+        {
+          "student_id": "S085",
+          "courses": [
+            {
+              "course_code": "CS1439",
+              "grade": "C+"
+            },
+            {
+              "course_code": "CS1471",
+              "grade": "B"
+            }
+          ],
+          "interests": [
+            "Database Systems",
+            "Distributed Systems"
+          ],
+          "applications": [
+            "Finance & Economics"
+          ],
+          "rdia": "Energy & Industrial Leadership"
+        }
+      ]
+    },
+    {
+      "group_id": "G030",
+      "students": [
+        {
+          "student_id": "S086",
+          "courses": [
+            {
+              "course_code": "CS1465",
+              "grade": "A+"
+            },
+            {
+              "course_code": "CS1463",
+              "grade": "B"
+            }
+          ],
+          "interests": [
+            "Artificial Intelligence / Machine Learning",
+            "Computer Vision"
+          ],
+          "applications": [
+            "Healthcare / Medical",
+            "Education"
+          ],
+          "rdia": "Sustainable Environment & Supply of Essential Needs"
+        },
+        {
+          "student_id": "S087",
+          "courses": [
+            {
+              "course_code": "CS1462",
+              "grade": "A"
+            },
+            {
+              "course_code": "CS1466",
+              "grade": "B+"
+            }
+          ],
+          "interests": [
+            "Natural Language Processing",
+            "Data Science"
+          ],
+          "applications": [
+            "Healthcare / Medical",
+            "Social Good & Community"
+          ],
+          "rdia": "Sustainable Environment & Supply of Essential Needs"
+        },
+        {
+          "student_id": "S088",
+          "courses": [
+            {
+              "course_code": "CS1434",
+              "grade": "B+"
+            },
+            {
+              "course_code": "CS1425",
+              "grade": "A"
+            }
+          ],
+          "interests": [
+            "Internet of Things (IoT)",
+            "Embedded Systems"
+          ],
+          "applications": [
+            "Transportation & Mobility"
+          ],
+          "rdia": "Sustainable Environment & Supply of Essential Needs"
+        }
+      ]
+    },
+    {
+      "group_id": "G031",
+      "students": [
+        {
+          "student_id": "S089",
+          "courses": [
+            {
+              "course_code": "CS1445",
+              "grade": "A"
+            },
+            {
+              "course_code": "CS1448",
+              "grade": "B+"
+            },
+            {
+              "course_code": "CS1446",
+              "grade": "A"
+            }
+          ],
+          "interests": [
+            "Web Development",
+            "Human-Computer Interaction"
+          ],
+          "applications": [
+            "Education",
+            "Social Good & Community"
+          ],
+          "rdia": "Economies of the Future"
+        },
+        {
+          "student_id": "S090",
+          "courses": [
+            {
+              "course_code": "CS1445",
+              "grade": "B"
+            },
+            {
+              "course_code": "CS1447",
+              "grade": "A+"
+            }
+          ],
+          "interests": [
+            "Game Development",
+            "Computer Graphics"
+          ],
+          "applications": [
+            "Education",
+            "Entertainment & Media"
+          ],
+          "rdia": "Health & Wellness"
+        },
+        {
+          "student_id": "S091",
+          "courses": [
+            {
+              "course_code": "CS1445",
+              "grade": "C"
+            },
+            {
+              "course_code": "CS1471",
+              "grade": "B"
+            }
+          ],
+          "interests": [
+            "Database Systems",
+            "Cloud Computing"
+          ],
+          "applications": [
+            "Business & Productivity"
+          ],
+          "rdia": "Energy & Industrial Leadership"
+        },
+        {
+          "student_id": "S092",
+          "courses": [
+            {
+              "course_code": "CS1445",
+              "grade": "D+"
+            },
+            {
+              "course_code": "CS1433",
+              "grade": "A"
+            }
+          ],
+          "interests": [
+            "Distributed Systems",
+            "DevOps"
+          ],
+          "applications": [
+            "Government & Public Sector"
+          ],
+          "rdia": "Sustainable Environment & Supply of Essential Needs"
+        }
+      ]
+    },
+    {
+      "group_id": "G032",
+      "students": [
+        {
+          "student_id": "S093",
+          "courses": [
+            {
+              "course_code": "CS1474",
+              "grade": "A"
+            },
+            {
+              "course_code": "CS1475",
+              "grade": "B+"
+            }
+          ],
+          "interests": [
+            "Cybersecurity",
+            "Network Systems"
+          ],
+          "applications": [
+            "Security & Privacy",
+            "Finance & Economics"
+          ],
+          "rdia": "Energy & Industrial Leadership"
+        },
+        {
+          "student_id": "S094",
+          "courses": [
+            {
+              "course_code": "CS1465",
+              "grade": "A"
+            },
+            {
+              "course_code": "CS1463",
+              "grade": "B"
+            }
+          ],
+          "interests": [
+            "Artificial Intelligence / Machine Learning",
+            "Bioinformatics"
+          ],
+          "applications": [
+            "Security & Privacy",
+            "Healthcare / Medical"
+          ],
+          "rdia": "Health & Wellness"
+        },
+        {
+          "student_id": "S095",
+          "courses": [
+            {
+              "course_code": "CS1433",
+              "grade": "B+"
+            },
+            {
+              "course_code": "CS1434",
+              "grade": "A+"
+            }
+          ],
+          "interests": [
+            "Internet of Things (IoT)",
+            "Distributed Systems"
+          ],
+          "applications": [
+            "Sustainability & Environment"
+          ],
+          "rdia": "Sustainable Environment & Supply of Essential Needs"
+        }
+      ]
+    },
+    {
+      "group_id": "G033",
+      "students": [
+        {
+          "student_id": "S096",
+          "courses": [
+            {
+              "course_code": "CS1465",
+              "grade": "A"
+            },
+            {
+              "course_code": "CS1464",
+              "grade": "B+"
+            },
+            {
+              "course_code": "CS1462",
+              "grade": "A"
+            }
+          ],
+          "interests": [
+            "Artificial Intelligence / Machine Learning",
+            "Computer Vision"
+          ],
+          "applications": [
+            "Healthcare / Medical"
+          ],
+          "rdia": "Health & Wellness"
+        },
+        {
+          "student_id": "S097",
+          "courses": [
+            {
+              "course_code": "CS1465",
+              "grade": "B"
+            },
+            {
+              "course_code": "CS1424",
+              "grade": "A+"
+            }
+          ],
+          "interests": [
+            "Robotics",
+            "Embedded Systems"
+          ],
+          "applications": [
+            "Transportation & Mobility"
+          ],
+          "rdia": "Health & Wellness"
+        },
+        {
+          "student_id": "S098",
+          "courses": [
+            {
+              "course_code": "CS1465",
+              "grade": "C+"
+            },
+            {
+              "course_code": "CS1471",
+              "grade": "B"
+            }
+          ],
+          "interests": [
+            "Database Systems",
+            "Cloud Computing"
+          ],
+          "applications": [
+            "Business & Productivity"
+          ],
+          "rdia": "Health & Wellness"
+        }
+      ]
+    },
+    {
+      "group_id": "G034",
+      "students": [
+        {
+          "student_id": "S099",
+          "courses": [
+            {
+              "course_code": "CS1439",
+              "grade": "A+"
+            },
+            {
+              "course_code": "CS1474",
+              "grade": "B"
+            }
+          ],
+          "interests": [
+            "Cybersecurity",
+            "Network Systems"
+          ],
+          "applications": [
+            "Security & Privacy"
+          ],
+          "rdia": "Energy & Industrial Leadership"
+        },
+        {
+          "student_id": "S100",
+          "courses": [
+            {
+              "course_code": "CS1445",
+              "grade": "A"
+            },
+            {
+              "course_code": "CS1448",
+              "grade": "B+"
+            }
+          ],
+          "interests": [
+            "Web Development",
+            "DevOps"
+          ],
+          "applications": [
+            "Business & Productivity"
+          ],
+          "rdia": "Energy & Industrial Leadership"
+        },
+        {
+          "student_id": "S101",
+          "courses": [
+            {
+              "course_code": "CS1465",
+              "grade": "B"
+            },
+            {
+              "course_code": "CS1463",
+              "grade": "A"
+            }
+          ],
+          "interests": [
+            "Artificial Intelligence / Machine Learning",
+            "Bioinformatics"
+          ],
+          "applications": [
+            "Healthcare / Medical"
+          ],
+          "rdia": "Energy & Industrial Leadership"
+        }
+      ]
+    },
+    {
+      "group_id": "G035",
+      "students": [
+        {
+          "student_id": "S102",
+          "courses": [
+            {
+              "course_code": "CS1434",
+              "grade": "A"
+            },
+            {
+              "course_code": "CS1425",
+              "grade": "B+"
+            },
+            {
+              "course_code": "CS1433",
+              "grade": "A"
+            }
+          ],
+          "interests": [
+            "Internet of Things (IoT)",
+            "Embedded Systems"
+          ],
+          "applications": [
+            "Sustainability & Environment"
+          ],
+          "rdia": "Sustainable Environment & Supply of Essential Needs"
+        },
+        {
+          "student_id": "S103",
+          "courses": [
+            {
+              "course_code": "CS1434",
+              "grade": "B"
+            },
+            {
+              "course_code": "CS1424",
+              "grade": "A+"
+            }
+          ],
+          "interests": [
+            "Robotics",
+            "Drones"
+          ],
+          "applications": [
+            "Transportation & Mobility"
+          ],
+          "rdia": "Energy & Industrial Leadership"
+        },
+        {
+          "student_id": "S104",
+          "courses": [
+            {
+              "course_code": "CS1434",
+              "grade": "C"
+            },
+            {
+              "course_code": "CS1462",
+              "grade": "B"
+            }
+          ],
+          "interests": [
+            "Natural Language Processing",
+            "Data Science"
+          ],
+          "applications": [
+            "Education"
+          ],
+          "rdia": "Health & Wellness"
+        }
+      ]
+    },
+    {
+      "group_id": "G036",
+      "students": [
+        {
+          "student_id": "S105",
+          "courses": [
+            {
+              "course_code": "CS1474",
+              "grade": "A+"
+            },
+            {
+              "course_code": "CS1475",
+              "grade": "B"
+            }
+          ],
+          "interests": [
+            "Cybersecurity",
+            "Software Engineering"
+          ],
+          "applications": [
+            "Security & Privacy"
+          ],
+          "rdia": "Energy & Industrial Leadership"
+        },
+        {
+          "student_id": "S106",
+          "courses": [
+            {
+              "course_code": "CS1445",
+              "grade": "A"
+            },
+            {
+              "course_code": "CS1446",
+              "grade": "B+"
+            }
+          ],
+          "interests": [
+            "Web Development",
+            "Mobile Development"
+          ],
+          "applications": [
+            "Entertainment & Media"
+          ],
+          "rdia": "Economies of the Future"
+        },
+        {
+          "student_id": "S107",
+          "courses": [
+            {
+              "course_code": "CS1465",
+              "grade": "B+"
+            },
+            {
+              "course_code": "CS1463",
+              "grade": "A"
+            }
+          ],
+          "interests": [
+            "Artificial Intelligence / Machine Learning",
+            "Bioinformatics"
+          ],
+          "applications": [
+            "Healthcare / Medical"
+          ],
+          "rdia": "Health & Wellness"
+        }
+      ]
+    }
+  ]
