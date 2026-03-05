@@ -1,0 +1,2380 @@
+{
+  "group_recommendations": [
+    {
+      "group_id": "G001",
+      "recommended_projects": [
+        {
+          "rank": 1,
+          "project_id": "F01-42-20",
+          "project_title": "COVID-19 Detection Using Deep Neural Networks"
+        },
+        {
+          "rank": 2,
+          "project_id": "F01-45-20",
+          "project_title": "Baasyir:A YOLO Based approach to Assist Visually Impaired People by leveraging Smart Glasses System"
+        },
+        {
+          "rank": 3,
+          "project_id": "F09-42-20",
+          "project_title": "Finding Deleted Regions in Human DNA"
+        },
+        {
+          "rank": 4,
+          "project_id": "F29-45-20",
+          "project_title": "Hudhud: AI-based Remote Rehabilitation"
+        },
+        {
+          "rank": 5,
+          "project_id": "F02-45-20",
+          "project_title": "DeepFake Videos Detection Based on A Hybrid Model Using Deep Learning"
+        },
+        {
+          "rank": 6,
+          "project_id": "F05-45-20",
+          "project_title": "Walyattawafou: Crowd Counting in Hajj and Umrah"
+        },
+        {
+          "rank": 7,
+          "project_id": "F17-45-20",
+          "project_title": "Mu’nis: Enhancing Deaf Communication with Realtime Subtitles in Arabic Language"
+        },
+        {
+          "rank": 8,
+          "project_id": "F20-45-20",
+          "project_title": "Abnormal Event Detection for Video Surveillance (SecuritEye)"
+        },
+        {
+          "rank": 9,
+          "project_id": "F25-45-20",
+          "project_title": "Automatic Recognition of Children's Handwritten Arabic Characters"
+        },
+        {
+          "rank": 10,
+          "project_id": "F04-45-10",
+          "project_title": "Baseera بصيرة : Accessible Mobile App for Blind Children"
+        }
+      ],
+      "top_interests": [
+        "Artificial Intelligence / Machine Learning",
+        "Computer Vision",
+        "Data Science"
+      ],
+      "top_applications": [
+        "Healthcare / Medical",
+        "Education",
+        "Finance & Economics"
+      ],
+      "rdia_category": "Health & Wellness"
+    },
+    {
+      "group_id": "G002",
+      "recommended_projects": [
+        {
+          "rank": 1,
+          "project_id": "F04-45-20",
+          "project_title": "CCIS Student Assistant Chatbot"
+        },
+        {
+          "rank": 2,
+          "project_id": "M05-45-20",
+          "project_title": "Musanif (مصنف): A Categorization and Product Information API for E-Commerce Product Images)"
+        },
+        {
+          "rank": 3,
+          "project_id": "M09-45-10",
+          "project_title": "Qaimni: An Interactive, Web-Based System for Rating Faculty Members"
+        },
+        {
+          "rank": 4,
+          "project_id": "F03-42-10",
+          "project_title": "Examining the effectiveness of pretrained language models for Arabic NLP tasks"
+        },
+        {
+          "rank": 5,
+          "project_id": "F16-45-10",
+          "project_title": "Automatic audio files summarization System, EJAZ Website"
+        },
+        {
+          "rank": 6,
+          "project_id": "F14-42-20",
+          "project_title": "Book Recommendation System based on Collaboration Filtering (RICO)"
+        },
+        {
+          "rank": 7,
+          "project_id": "F22-45-20",
+          "project_title": "Smart Attendance Management System Using iBeacon Technology (حضورك)"
+        },
+        {
+          "rank": 8,
+          "project_id": "M10-45-10",
+          "project_title": "School Bus Tracking and Management system"
+        },
+        {
+          "rank": 9,
+          "project_id": "F06-42-20",
+          "project_title": "Developing A Web Application for Automatic Code Generation"
+        },
+        {
+          "rank": 10,
+          "project_id": "F04-42-10",
+          "project_title": "Evaluating Website Quality Using Machine Learning"
+        }
+      ],
+      "top_interests": [
+        "Web Development",
+        "Cloud Computing",
+        "Mobile Development"
+      ],
+      "top_applications": [
+        "Business & Productivity",
+        "Education",
+        "Entertainment & Media"
+      ],
+      "rdia_category": "Economies of the Future"
+    },
+    {
+      "group_id": "G003",
+      "recommended_projects": [
+        {
+          "rank": 1,
+          "project_id": "F08-42-20",
+          "project_title": "Detecting Malicious PowerShell Scripts using Machine Learning"
+        },
+        {
+          "rank": 2,
+          "project_id": "F24-45-20",
+          "project_title": "Botnet Attack Detection Using Machine Learning"
+        },
+        {
+          "rank": 3,
+          "project_id": "M02-45-20",
+          "project_title": "Detection of Adversarial Attacks Malwares Using Machine Learning Models"
+        },
+        {
+          "rank": 4,
+          "project_id": "F02-45-20",
+          "project_title": "DeepFake Videos Detection Based on A Hybrid Model Using Deep Learning"
+        },
+        {
+          "rank": 5,
+          "project_id": "F02-43-10",
+          "project_title": "Facial Expression Recognition for Investigations"
+        },
+        {
+          "rank": 6,
+          "project_id": "F08-45-20",
+          "project_title": "XIPHER: Visualization Tool for Security Algorithms"
+        },
+        {
+          "rank": 7,
+          "project_id": "F20-45-20",
+          "project_title": "Abnormal Event Detection for Video Surveillance (SecuritEye)"
+        },
+        {
+          "rank": 8,
+          "project_id": "F07-45-10",
+          "project_title": "Secure Healthcare Information Exchange Platform ‘KEEP SAFE’"
+        },
+        {
+          "rank": 9,
+          "project_id": "F05-42-10",
+          "project_title": "Decentralized Social Application: Moments"
+        },
+        {
+          "rank": 10,
+          "project_id": "F09-45-10",
+          "project_title": "Detecting Cyberbullying in Twitter for Arabic Language"
+        }
+      ],
+      "top_interests": [
+        "Cybersecurity",
+        "Network Systems",
+        "Database Systems"
+      ],
+      "top_applications": [
+        "Security & Privacy",
+        "Government & Public Sector",
+        "Finance & Economics"
+      ],
+      "rdia_category": "Energy & Industrial Leadership"
+    },
+    {
+      "group_id": "G004",
+      "recommended_projects": [
+        {
+          "rank": 1,
+          "project_id": "M04-45-10",
+          "project_title": "Smart Car Parking Manager (SCPM)"
+        },
+        {
+          "rank": 2,
+          "project_id": "F03-45-10",
+          "project_title": "Energy-aware Multi-Object Detection and Compression in WMSN"
+        },
+        {
+          "rank": 3,
+          "project_id": "F01-45-20",
+          "project_title": "Baasyir:A YOLO Based approach to Assist Visually Impaired People by leveraging Smart Glasses System"
+        },
+        {
+          "rank": 4,
+          "project_id": "F11-42-20",
+          "project_title": "Energy-Efficient Data Reduction Techniques for Sensor-based ECG Monitoring Applications"
+        },
+        {
+          "rank": 5,
+          "project_id": "F10-42-20",
+          "project_title": "Monitoring and Tracking of Vulnerable Individuals Using Mini-UAVs"
+        },
+        {
+          "rank": 6,
+          "project_id": "M10-45-10",
+          "project_title": "School Bus Tracking and Management system"
+        },
+        {
+          "rank": 7,
+          "project_id": "F29-45-20",
+          "project_title": "Hudhud: AI-based Remote Rehabilitation"
+        },
+        {
+          "rank": 8,
+          "project_id": "F27-45-20",
+          "project_title": "Maseer: Advanced Pilgrimage Mapping for Effective Crowd Management during Hajj"
+        },
+        {
+          "rank": 9,
+          "project_id": "F05-45-10",
+          "project_title": "Visualize: A Software Tool for Visualizing the Impact of Climate Change on Cities"
+        },
+        {
+          "rank": 10,
+          "project_id": "F22-45-20",
+          "project_title": "Smart Attendance Management System Using iBeacon Technology (حضورك)"
+        }
+      ],
+      "top_interests": [
+        "Internet of Things (IoT)",
+        "Embedded Systems",
+        "Robotics"
+      ],
+      "top_applications": [
+        "Sustainability & Environment",
+        "Transportation & Mobility",
+        "Healthcare / Medical"
+      ],
+      "rdia_category": "Sustainable Environment & Supply of Essential Needs"
+    },
+    {
+      "group_id": "G005",
+      "recommended_projects": [
+        {
+          "rank": 1,
+          "project_id": "F01-42-20",
+          "project_title": "COVID-19 Detection Using Deep Neural Networks"
+        },
+        {
+          "rank": 2,
+          "project_id": "F01-45-20",
+          "project_title": "Baasyir:A YOLO Based approach to Assist Visually Impaired People by leveraging Smart Glasses System"
+        },
+        {
+          "rank": 3,
+          "project_id": "F02-45-20",
+          "project_title": "DeepFake Videos Detection Based on A Hybrid Model Using Deep Learning"
+        },
+        {
+          "rank": 4,
+          "project_id": "F29-45-20",
+          "project_title": "Hudhud: AI-based Remote Rehabilitation"
+        },
+        {
+          "rank": 5,
+          "project_id": "F20-45-20",
+          "project_title": "Abnormal Event Detection for Video Surveillance (SecuritEye)"
+        },
+        {
+          "rank": 6,
+          "project_id": "F05-45-20",
+          "project_title": "Walyattawafou: Crowd Counting in Hajj and Umrah"
+        },
+        {
+          "rank": 7,
+          "project_id": "F25-45-20",
+          "project_title": "Automatic Recognition of Children's Handwritten Arabic Characters"
+        },
+        {
+          "rank": 8,
+          "project_id": "M02-45-10",
+          "project_title": "Automated Attendance System Using Facial Recognition (FRA)"
+        },
+        {
+          "rank": 9,
+          "project_id": "F27-45-20",
+          "project_title": "Maseer: Advanced Pilgrimage Mapping for Effective Crowd Management during Hajj"
+        },
+        {
+          "rank": 10,
+          "project_id": "F17-45-20",
+          "project_title": "Mu’nis: Enhancing Deaf Communication with Realtime Subtitles in Arabic Language"
+        }
+      ],
+      "top_interests": [
+        "Computer Vision",
+        "Artificial Intelligence / Machine Learning",
+        "Data Science"
+      ],
+      "top_applications": [
+        "Healthcare / Medical",
+        "Education",
+        "Transportation & Mobility"
+      ],
+      "rdia_category": "Health & Wellness"
+    },
+    {
+      "group_id": "G006",
+      "recommended_projects": [
+        {
+          "rank": 1,
+          "project_id": "F02-42-20",
+          "project_title": "Online Context-Aware Recommender System"
+        },
+        {
+          "rank": 2,
+          "project_id": "F14-42-20",
+          "project_title": "Book Recommendation System based on Collaboration Filtering (RICO)"
+        },
+        {
+          "rank": 3,
+          "project_id": "M05-45-20",
+          "project_title": "Musanif (مصنف): A Categorization and Product Information API for E-Commerce Product Images)"
+        },
+        {
+          "rank": 4,
+          "project_id": "F07-42-10",
+          "project_title": "Text Similarity Search with Application to kNN Classifier"
+        },
+        {
+          "rank": 5,
+          "project_id": "F03-42-10",
+          "project_title": "Examining the effectiveness of pretrained language models for Arabic NLP tasks"
+        },
+        {
+          "rank": 6,
+          "project_id": "F04-45-20",
+          "project_title": "CCIS Student Assistant Chatbot"
+        },
+        {
+          "rank": 7,
+          "project_id": "F16-45-10",
+          "project_title": "Automatic audio files summarization System, EJAZ Website"
+        },
+        {
+          "rank": 8,
+          "project_id": "F06-45-20",
+          "project_title": "Predicting Programming Skills Among Novice Programmers"
+        },
+        {
+          "rank": 9,
+          "project_id": "F28-45-20",
+          "project_title": "AI-trip planner and advisor"
+        },
+        {
+          "rank": 10,
+          "project_id": "M09-45-10",
+          "project_title": "Qaimni: An Interactive, Web-Based System for Rating Faculty Members"
+        }
+      ],
+      "top_interests": [
+        "Distributed Systems",
+        "Cloud Computing",
+        "Database Systems"
+      ],
+      "top_applications": [
+        "Business & Productivity",
+        "Finance & Economics",
+        "Education"
+      ],
+      "rdia_category": "Economies of the Future"
+    },
+    {
+      "group_id": "G007",
+      "recommended_projects": [
+        {
+          "rank": 1,
+          "project_id": "F03-42-10",
+          "project_title": "Examining the effectiveness of pretrained language models for Arabic NLP tasks"
+        },
+        {
+          "rank": 2,
+          "project_id": "F16-45-10",
+          "project_title": "Automatic audio files summarization System, EJAZ Website"
+        },
+        {
+          "rank": 3,
+          "project_id": "F06-45-10",
+          "project_title": "Get It: A Deep Learning Approach for Identifying and Discriminating Spoken Arabic Among English"
+        },
+        {
+          "rank": 4,
+          "project_id": "F17-45-20",
+          "project_title": "Mu’nis: Enhancing Deaf Communication with Realtime Subtitles in Arabic Language"
+        },
+        {
+          "rank": 5,
+          "project_id": "F04-45-20",
+          "project_title": "CCIS Student Assistant Chatbot"
+        },
+        {
+          "rank": 6,
+          "project_id": "F09-45-10",
+          "project_title": "Detecting Cyberbullying in Twitter for Arabic Language"
+        },
+        {
+          "rank": 7,
+          "project_id": "F28-45-20",
+          "project_title": "AI-trip planner and advisor"
+        },
+        {
+          "rank": 8,
+          "project_id": "F25-45-20",
+          "project_title": "Automatic Recognition of Children's Handwritten Arabic Characters"
+        },
+        {
+          "rank": 9,
+          "project_id": "F01-43-10",
+          "project_title": "Treatment of stuttering problems in children Application - TSA"
+        },
+        {
+          "rank": 10,
+          "project_id": "F07-42-10",
+          "project_title": "Text Similarity Search with Application to kNN Classifier"
+        }
+      ],
+      "top_interests": [
+        "Natural Language Processing",
+        "Artificial Intelligence / Machine Learning",
+        "Data Science"
+      ],
+      "top_applications": [
+        "Education",
+        "Social Good & Community",
+        "Finance & Economics"
+      ],
+      "rdia_category": "Health & Wellness"
+    },
+    {
+      "group_id": "G008",
+      "recommended_projects": [
+        {
+          "rank": 1,
+          "project_id": "F10-42-20",
+          "project_title": "Monitoring and Tracking of Vulnerable Individuals Using Mini-UAVs"
+        },
+        {
+          "rank": 2,
+          "project_id": "F29-45-20",
+          "project_title": "Hudhud: AI-based Remote Rehabilitation"
+        },
+        {
+          "rank": 3,
+          "project_id": "M04-45-10",
+          "project_title": "Smart Car Parking Manager (SCPM)"
+        },
+        {
+          "rank": 4,
+          "project_id": "F01-45-20",
+          "project_title": "Baasyir:A YOLO Based approach to Assist Visually Impaired People by leveraging Smart Glasses System"
+        },
+        {
+          "rank": 5,
+          "project_id": "F03-45-10",
+          "project_title": "Energy-aware Multi-Object Detection and Compression in WMSN"
+        },
+        {
+          "rank": 6,
+          "project_id": "M10-45-10",
+          "project_title": "School Bus Tracking and Management system"
+        },
+        {
+          "rank": 7,
+          "project_id": "F11-42-20",
+          "project_title": "Energy-Efficient Data Reduction Techniques for Sensor-based ECG Monitoring Applications"
+        },
+        {
+          "rank": 8,
+          "project_id": "F27-45-20",
+          "project_title": "Maseer: Advanced Pilgrimage Mapping for Effective Crowd Management during Hajj"
+        },
+        {
+          "rank": 9,
+          "project_id": "F20-45-20",
+          "project_title": "Abnormal Event Detection for Video Surveillance (SecuritEye)"
+        },
+        {
+          "rank": 10,
+          "project_id": "F05-45-10",
+          "project_title": "Visualize: A Software Tool for Visualizing the Impact of Climate Change on Cities"
+        }
+      ],
+      "top_interests": [
+        "Robotics",
+        "Embedded Systems",
+        "Internet of Things (IoT)"
+      ],
+      "top_applications": [
+        "Transportation & Mobility",
+        "Healthcare / Medical",
+        "Sustainability & Environment"
+      ],
+      "rdia_category": "Energy & Industrial Leadership"
+    },
+    {
+      "group_id": "G009",
+      "recommended_projects": [
+        {
+          "rank": 1,
+          "project_id": "F08-42-20",
+          "project_title": "Detecting Malicious PowerShell Scripts using Machine Learning"
+        },
+        {
+          "rank": 2,
+          "project_id": "F24-45-20",
+          "project_title": "Botnet Attack Detection Using Machine Learning"
+        },
+        {
+          "rank": 3,
+          "project_id": "M02-45-20",
+          "project_title": "Detection of Adversarial Attacks Malwares Using Machine Learning Models"
+        },
+        {
+          "rank": 4,
+          "project_id": "F02-45-20",
+          "project_title": "DeepFake Videos Detection Based on A Hybrid Model Using Deep Learning"
+        },
+        {
+          "rank": 5,
+          "project_id": "F02-43-10",
+          "project_title": "Facial Expression Recognition for Investigations"
+        },
+        {
+          "rank": 6,
+          "project_id": "F08-45-20",
+          "project_title": "XIPHER: Visualization Tool for Security Algorithms"
+        },
+        {
+          "rank": 7,
+          "project_id": "F20-45-20",
+          "project_title": "Abnormal Event Detection for Video Surveillance (SecuritEye)"
+        },
+        {
+          "rank": 8,
+          "project_id": "F07-45-10",
+          "project_title": "Secure Healthcare Information Exchange Platform ‘KEEP SAFE’"
+        },
+        {
+          "rank": 9,
+          "project_id": "F05-42-10",
+          "project_title": "Decentralized Social Application: Moments"
+        },
+        {
+          "rank": 10,
+          "project_id": "F09-45-10",
+          "project_title": "Detecting Cyberbullying in Twitter for Arabic Language"
+        }
+      ],
+      "top_interests": [
+        "Cybersecurity",
+        "Network Systems",
+        "Software Engineering"
+      ],
+      "top_applications": [
+        "Security & Privacy",
+        "Finance & Economics",
+        "Government & Public Sector"
+      ],
+      "rdia_category": "Energy & Industrial Leadership"
+    },
+    {
+      "group_id": "G010",
+      "recommended_projects": [
+        {
+          "rank": 1,
+          "project_id": "F01-42-20",
+          "project_title": "COVID-19 Detection Using Deep Neural Networks"
+        },
+        {
+          "rank": 2,
+          "project_id": "F09-42-20",
+          "project_title": "Finding Deleted Regions in Human DNA"
+        },
+        {
+          "rank": 3,
+          "project_id": "F29-45-20",
+          "project_title": "Hudhud: AI-based Remote Rehabilitation"
+        },
+        {
+          "rank": 4,
+          "project_id": "F01-45-20",
+          "project_title": "Baasyir:A YOLO Based approach to Assist Visually Impaired People by leveraging Smart Glasses System"
+        },
+        {
+          "rank": 5,
+          "project_id": "F02-45-20",
+          "project_title": "DeepFake Videos Detection Based on A Hybrid Model Using Deep Learning"
+        },
+        {
+          "rank": 6,
+          "project_id": "F25-45-20",
+          "project_title": "Automatic Recognition of Children's Handwritten Arabic Characters"
+        },
+        {
+          "rank": 7,
+          "project_id": "F04-45-10",
+          "project_title": "Baseera بصيرة : Accessible Mobile App for Blind Children"
+        },
+        {
+          "rank": 8,
+          "project_id": "F03-42-10",
+          "project_title": "Examining the effectiveness of pretrained language models for Arabic NLP tasks"
+        },
+        {
+          "rank": 9,
+          "project_id": "F17-45-20",
+          "project_title": "Mu’nis: Enhancing Deaf Communication with Realtime Subtitles in Arabic Language"
+        },
+        {
+          "rank": 10,
+          "project_id": "F11-42-20",
+          "project_title": "Energy-Efficient Data Reduction Techniques for Sensor-based ECG Monitoring Applications"
+        }
+      ],
+      "top_interests": [
+        "Artificial Intelligence / Machine Learning",
+        "Bioinformatics",
+        "Computer Vision"
+      ],
+      "top_applications": [
+        "Healthcare / Medical",
+        "Education",
+        "Transportation & Mobility"
+      ],
+      "rdia_category": "Health & Wellness"
+    },
+    {
+      "group_id": "G011",
+      "recommended_projects": [
+        {
+          "rank": 1,
+          "project_id": "F03-45-10",
+          "project_title": "Energy-aware Multi-Object Detection and Compression in WMSN"
+        },
+        {
+          "rank": 2,
+          "project_id": "M04-45-10",
+          "project_title": "Smart Car Parking Manager (SCPM)"
+        },
+        {
+          "rank": 3,
+          "project_id": "F11-42-20",
+          "project_title": "Energy-Efficient Data Reduction Techniques for Sensor-based ECG Monitoring Applications"
+        },
+        {
+          "rank": 4,
+          "project_id": "F01-45-20",
+          "project_title": "Baasyir:A YOLO Based approach to Assist Visually Impaired People by leveraging Smart Glasses System"
+        },
+        {
+          "rank": 5,
+          "project_id": "F22-45-20",
+          "project_title": "Smart Attendance Management System Using iBeacon Technology (حضورك)"
+        },
+        {
+          "rank": 6,
+          "project_id": "M10-45-10",
+          "project_title": "School Bus Tracking and Management system"
+        },
+        {
+          "rank": 7,
+          "project_id": "F29-45-20",
+          "project_title": "Hudhud: AI-based Remote Rehabilitation"
+        },
+        {
+          "rank": 8,
+          "project_id": "F27-45-20",
+          "project_title": "Maseer: Advanced Pilgrimage Mapping for Effective Crowd Management during Hajj"
+        },
+        {
+          "rank": 9,
+          "project_id": "F05-45-10",
+          "project_title": "Visualize: A Software Tool for Visualizing the Impact of Climate Change on Cities"
+        },
+        {
+          "rank": 10,
+          "project_id": "F10-42-20",
+          "project_title": "Monitoring and Tracking of Vulnerable Individuals Using Mini-UAVs"
+        }
+      ],
+      "top_interests": [
+        "Internet of Things (IoT)",
+        "Embedded Systems",
+        "Distributed Systems"
+      ],
+      "top_applications": [
+        "Sustainability & Environment",
+        "Business & Productivity",
+        "Government & Public Sector"
+      ],
+      "rdia_category": "Sustainable Environment & Supply of Essential Needs"
+    },
+    {
+      "group_id": "G012",
+      "recommended_projects": [
+        {
+          "rank": 1,
+          "project_id": "F04-45-20",
+          "project_title": "CCIS Student Assistant Chatbot"
+        },
+        {
+          "rank": 2,
+          "project_id": "M09-45-10",
+          "project_title": "Qaimni: An Interactive, Web-Based System for Rating Faculty Members"
+        },
+        {
+          "rank": 3,
+          "project_id": "F06-42-20",
+          "project_title": "Developing A Web Application for Automatic Code Generation"
+        },
+        {
+          "rank": 4,
+          "project_id": "F14-42-20",
+          "project_title": "Book Recommendation System based on Collaboration Filtering (RICO)"
+        },
+        {
+          "rank": 5,
+          "project_id": "F04-45-10",
+          "project_title": "Baseera بصيرة : Accessible Mobile App for Blind Children"
+        },
+        {
+          "rank": 6,
+          "project_id": "F16-45-10",
+          "project_title": "Automatic audio files summarization System, EJAZ Website"
+        },
+        {
+          "rank": 7,
+          "project_id": "F22-45-20",
+          "project_title": "Smart Attendance Management System Using iBeacon Technology (حضورك)"
+        },
+        {
+          "rank": 8,
+          "project_id": "F08-45-20",
+          "project_title": "XIPHER: Visualization Tool for Security Algorithms"
+        },
+        {
+          "rank": 9,
+          "project_id": "M02-45-10",
+          "project_title": "Automated Attendance System Using Facial Recognition (FRA)"
+        },
+        {
+          "rank": 10,
+          "project_id": "F25-45-20",
+          "project_title": "Automatic Recognition of Children's Handwritten Arabic Characters"
+        }
+      ],
+      "top_interests": [
+        "Web Development",
+        "Software Engineering",
+        "Game Development"
+      ],
+      "top_applications": [
+        "Education",
+        "Entertainment & Media",
+        "Finance & Economics"
+      ],
+      "rdia_category": "Economies of the Future"
+    },
+    {
+      "group_id": "G013",
+      "recommended_projects": [
+        {
+          "rank": 1,
+          "project_id": "F01-42-20",
+          "project_title": "COVID-19 Detection Using Deep Neural Networks"
+        },
+        {
+          "rank": 2,
+          "project_id": "F09-42-20",
+          "project_title": "Finding Deleted Regions in Human DNA"
+        },
+        {
+          "rank": 3,
+          "project_id": "F01-45-20",
+          "project_title": "Baasyir:A YOLO Based approach to Assist Visually Impaired People by leveraging Smart Glasses System"
+        },
+        {
+          "rank": 4,
+          "project_id": "F29-45-20",
+          "project_title": "Hudhud: AI-based Remote Rehabilitation"
+        },
+        {
+          "rank": 5,
+          "project_id": "F02-45-20",
+          "project_title": "DeepFake Videos Detection Based on A Hybrid Model Using Deep Learning"
+        },
+        {
+          "rank": 6,
+          "project_id": "F20-45-20",
+          "project_title": "Abnormal Event Detection for Video Surveillance (SecuritEye)"
+        },
+        {
+          "rank": 7,
+          "project_id": "F25-45-20",
+          "project_title": "Automatic Recognition of Children's Handwritten Arabic Characters"
+        },
+        {
+          "rank": 8,
+          "project_id": "F05-45-20",
+          "project_title": "Walyattawafou: Crowd Counting in Hajj and Umrah"
+        },
+        {
+          "rank": 9,
+          "project_id": "F11-42-20",
+          "project_title": "Energy-Efficient Data Reduction Techniques for Sensor-based ECG Monitoring Applications"
+        },
+        {
+          "rank": 10,
+          "project_id": "F04-45-10",
+          "project_title": "Baseera بصيرة : Accessible Mobile App for Blind Children"
+        }
+      ],
+      "top_interests": [
+        "Computer Vision",
+        "Artificial Intelligence / Machine Learning",
+        "Data Science"
+      ],
+      "top_applications": [
+        "Healthcare / Medical",
+        "Education",
+        "Business & Productivity"
+      ],
+      "rdia_category": "Health & Wellness"
+    },
+    {
+      "group_id": "G014",
+      "recommended_projects": [
+        {
+          "rank": 1,
+          "project_id": "M09-45-10",
+          "project_title": "Qaimni: An Interactive, Web-Based System for Rating Faculty Members"
+        },
+        {
+          "rank": 2,
+          "project_id": "F04-45-20",
+          "project_title": "CCIS Student Assistant Chatbot"
+        },
+        {
+          "rank": 3,
+          "project_id": "M05-45-20",
+          "project_title": "Musanif (مصنف): A Categorization and Product Information API for E-Commerce Product Images)"
+        },
+        {
+          "rank": 4,
+          "project_id": "F22-45-20",
+          "project_title": "Smart Attendance Management System Using iBeacon Technology (حضورك)"
+        },
+        {
+          "rank": 5,
+          "project_id": "F06-42-20",
+          "project_title": "Developing A Web Application for Automatic Code Generation"
+        },
+        {
+          "rank": 6,
+          "project_id": "F14-42-20",
+          "project_title": "Book Recommendation System based on Collaboration Filtering (RICO)"
+        },
+        {
+          "rank": 7,
+          "project_id": "F16-45-10",
+          "project_title": "Automatic audio files summarization System, EJAZ Website"
+        },
+        {
+          "rank": 8,
+          "project_id": "M10-45-10",
+          "project_title": "School Bus Tracking and Management system"
+        },
+        {
+          "rank": 9,
+          "project_id": "F02-42-20",
+          "project_title": "Online Context-Aware Recommender System"
+        },
+        {
+          "rank": 10,
+          "project_id": "F28-45-20",
+          "project_title": "AI-trip planner and advisor"
+        }
+      ],
+      "top_interests": [
+        "Web Development",
+        "Mobile Development",
+        "Cloud Computing"
+      ],
+      "top_applications": [
+        "Business & Productivity",
+        "Finance & Economics",
+        "Education"
+      ],
+      "rdia_category": "Economies of the Future"
+    },
+    {
+      "group_id": "G015",
+      "recommended_projects": [
+        {
+          "rank": 1,
+          "project_id": "F08-42-20",
+          "project_title": "Detecting Malicious PowerShell Scripts using Machine Learning"
+        },
+        {
+          "rank": 2,
+          "project_id": "F24-45-20",
+          "project_title": "Botnet Attack Detection Using Machine Learning"
+        },
+        {
+          "rank": 3,
+          "project_id": "M02-45-20",
+          "project_title": "Detection of Adversarial Attacks Malwares Using Machine Learning Models"
+        },
+        {
+          "rank": 4,
+          "project_id": "F02-45-20",
+          "project_title": "DeepFake Videos Detection Based on A Hybrid Model Using Deep Learning"
+        },
+        {
+          "rank": 5,
+          "project_id": "F02-43-10",
+          "project_title": "Facial Expression Recognition for Investigations"
+        },
+        {
+          "rank": 6,
+          "project_id": "F08-45-20",
+          "project_title": "XIPHER: Visualization Tool for Security Algorithms"
+        },
+        {
+          "rank": 7,
+          "project_id": "F20-45-20",
+          "project_title": "Abnormal Event Detection for Video Surveillance (SecuritEye)"
+        },
+        {
+          "rank": 8,
+          "project_id": "F07-45-10",
+          "project_title": "Secure Healthcare Information Exchange Platform ‘KEEP SAFE’"
+        },
+        {
+          "rank": 9,
+          "project_id": "F05-42-10",
+          "project_title": "Decentralized Social Application: Moments"
+        },
+        {
+          "rank": 10,
+          "project_id": "F09-45-10",
+          "project_title": "Detecting Cyberbullying in Twitter for Arabic Language"
+        }
+      ],
+      "top_interests": [
+        "Cybersecurity",
+        "Network Systems",
+        "Database Systems"
+      ],
+      "top_applications": [
+        "Security & Privacy",
+        "Government & Public Sector",
+        "Finance & Economics"
+      ],
+      "rdia_category": "Energy & Industrial Leadership"
+    },
+    {
+      "group_id": "G016",
+      "recommended_projects": [
+        {
+          "rank": 1,
+          "project_id": "F10-42-20",
+          "project_title": "Monitoring and Tracking of Vulnerable Individuals Using Mini-UAVs"
+        },
+        {
+          "rank": 2,
+          "project_id": "F29-45-20",
+          "project_title": "Hudhud: AI-based Remote Rehabilitation"
+        },
+        {
+          "rank": 3,
+          "project_id": "M04-45-10",
+          "project_title": "Smart Car Parking Manager (SCPM)"
+        },
+        {
+          "rank": 4,
+          "project_id": "F01-45-20",
+          "project_title": "Baasyir:A YOLO Based approach to Assist Visually Impaired People by leveraging Smart Glasses System"
+        },
+        {
+          "rank": 5,
+          "project_id": "F03-45-10",
+          "project_title": "Energy-aware Multi-Object Detection and Compression in WMSN"
+        },
+        {
+          "rank": 6,
+          "project_id": "F11-42-20",
+          "project_title": "Energy-Efficient Data Reduction Techniques for Sensor-based ECG Monitoring Applications"
+        },
+        {
+          "rank": 7,
+          "project_id": "M10-45-10",
+          "project_title": "School Bus Tracking and Management system"
+        },
+        {
+          "rank": 8,
+          "project_id": "F27-45-20",
+          "project_title": "Maseer: Advanced Pilgrimage Mapping for Effective Crowd Management during Hajj"
+        },
+        {
+          "rank": 9,
+          "project_id": "F20-45-20",
+          "project_title": "Abnormal Event Detection for Video Surveillance (SecuritEye)"
+        },
+        {
+          "rank": 10,
+          "project_id": "F05-45-10",
+          "project_title": "Visualize: A Software Tool for Visualizing the Impact of Climate Change on Cities"
+        }
+      ],
+      "top_interests": [
+        "Robotics",
+        "Artificial Intelligence / Machine Learning",
+        "Embedded Systems"
+      ],
+      "top_applications": [
+        "Transportation & Mobility",
+        "Sustainability & Environment",
+        "Healthcare / Medical"
+      ],
+      "rdia_category": "Energy & Industrial Leadership"
+    },
+    {
+      "group_id": "G017",
+      "recommended_projects": [
+        {
+          "rank": 1,
+          "project_id": "F01-42-20",
+          "project_title": "COVID-19 Detection Using Deep Neural Networks"
+        },
+        {
+          "rank": 2,
+          "project_id": "F03-42-10",
+          "project_title": "Examining the effectiveness of pretrained language models for Arabic NLP tasks"
+        },
+        {
+          "rank": 3,
+          "project_id": "F29-45-20",
+          "project_title": "Hudhud: AI-based Remote Rehabilitation"
+        },
+        {
+          "rank": 4,
+          "project_id": "F02-45-20",
+          "project_title": "DeepFake Videos Detection Based on A Hybrid Model Using Deep Learning"
+        },
+        {
+          "rank": 5,
+          "project_id": "F16-45-10",
+          "project_title": "Automatic audio files summarization System, EJAZ Website"
+        },
+        {
+          "rank": 6,
+          "project_id": "F06-45-10",
+          "project_title": "Get It: A Deep Learning Approach for Identifying and Discriminating Spoken Arabic Among English"
+        },
+        {
+          "rank": 7,
+          "project_id": "F01-45-20",
+          "project_title": "Baasyir:A YOLO Based approach to Assist Visually Impaired People by leveraging Smart Glasses System"
+        },
+        {
+          "rank": 8,
+          "project_id": "F17-45-20",
+          "project_title": "Mu’nis: Enhancing Deaf Communication with Realtime Subtitles in Arabic Language"
+        },
+        {
+          "rank": 9,
+          "project_id": "F20-45-20",
+          "project_title": "Abnormal Event Detection for Video Surveillance (SecuritEye)"
+        },
+        {
+          "rank": 10,
+          "project_id": "F25-45-20",
+          "project_title": "Automatic Recognition of Children's Handwritten Arabic Characters"
+        }
+      ],
+      "top_interests": [
+        "Artificial Intelligence / Machine Learning",
+        "Computer Vision",
+        "Natural Language Processing"
+      ],
+      "top_applications": [
+        "Healthcare / Medical",
+        "Education",
+        "Business & Productivity"
+      ],
+      "rdia_category": "Health & Wellness"
+    },
+    {
+      "group_id": "G018",
+      "recommended_projects": [
+        {
+          "rank": 1,
+          "project_id": "F04-45-20",
+          "project_title": "CCIS Student Assistant Chatbot"
+        },
+        {
+          "rank": 2,
+          "project_id": "F14-42-20",
+          "project_title": "Book Recommendation System based on Collaboration Filtering (RICO)"
+        },
+        {
+          "rank": 3,
+          "project_id": "M09-45-10",
+          "project_title": "Qaimni: An Interactive, Web-Based System for Rating Faculty Members"
+        },
+        {
+          "rank": 4,
+          "project_id": "F06-42-20",
+          "project_title": "Developing A Web Application for Automatic Code Generation"
+        },
+        {
+          "rank": 5,
+          "project_id": "F16-45-10",
+          "project_title": "Automatic audio files summarization System, EJAZ Website"
+        },
+        {
+          "rank": 6,
+          "project_id": "F22-45-20",
+          "project_title": "Smart Attendance Management System Using iBeacon Technology (حضورك)"
+        },
+        {
+          "rank": 7,
+          "project_id": "F08-45-20",
+          "project_title": "XIPHER: Visualization Tool for Security Algorithms"
+        },
+        {
+          "rank": 8,
+          "project_id": "F28-45-20",
+          "project_title": "AI-trip planner and advisor"
+        },
+        {
+          "rank": 9,
+          "project_id": "F05-45-10",
+          "project_title": "Visualize: A Software Tool for Visualizing the Impact of Climate Change on Cities"
+        },
+        {
+          "rank": 10,
+          "project_id": "F04-42-10",
+          "project_title": "Evaluating Website Quality Using Machine Learning"
+        }
+      ],
+      "top_interests": [
+        "Web Development",
+        "DevOps",
+        "Game Development"
+      ],
+      "top_applications": [
+        "Business & Productivity",
+        "Education",
+        "Entertainment & Media"
+      ],
+      "rdia_category": "Economies of the Future"
+    },
+    {
+      "group_id": "G019",
+      "recommended_projects": [
+        {
+          "rank": 1,
+          "project_id": "F03-45-10",
+          "project_title": "Energy-aware Multi-Object Detection and Compression in WMSN"
+        },
+        {
+          "rank": 2,
+          "project_id": "M04-45-10",
+          "project_title": "Smart Car Parking Manager (SCPM)"
+        },
+        {
+          "rank": 3,
+          "project_id": "F11-42-20",
+          "project_title": "Energy-Efficient Data Reduction Techniques for Sensor-based ECG Monitoring Applications"
+        },
+        {
+          "rank": 4,
+          "project_id": "F24-45-20",
+          "project_title": "Botnet Attack Detection Using Machine Learning"
+        },
+        {
+          "rank": 5,
+          "project_id": "F01-45-20",
+          "project_title": "Baasyir:A YOLO Based approach to Assist Visually Impaired People by leveraging Smart Glasses System"
+        },
+        {
+          "rank": 6,
+          "project_id": "F08-42-20",
+          "project_title": "Detecting Malicious PowerShell Scripts using Machine Learning"
+        },
+        {
+          "rank": 7,
+          "project_id": "F07-45-10",
+          "project_title": "Secure Healthcare Information Exchange Platform ‘KEEP SAFE’"
+        },
+        {
+          "rank": 8,
+          "project_id": "F29-45-20",
+          "project_title": "Hudhud: AI-based Remote Rehabilitation"
+        },
+        {
+          "rank": 9,
+          "project_id": "F05-45-10",
+          "project_title": "Visualize: A Software Tool for Visualizing the Impact of Climate Change on Cities"
+        },
+        {
+          "rank": 10,
+          "project_id": "F10-42-20",
+          "project_title": "Monitoring and Tracking of Vulnerable Individuals Using Mini-UAVs"
+        }
+      ],
+      "top_interests": [
+        "Internet of Things (IoT)",
+        "Embedded Systems",
+        "Distributed Systems"
+      ],
+      "top_applications": [
+        "Sustainability & Environment",
+        "Healthcare / Medical",
+        "Security & Privacy"
+      ],
+      "rdia_category": "Sustainable Environment & Supply of Essential Needs"
+    },
+    {
+      "group_id": "G020",
+      "recommended_projects": [
+        {
+          "rank": 1,
+          "project_id": "F08-42-20",
+          "project_title": "Detecting Malicious PowerShell Scripts using Machine Learning"
+        },
+        {
+          "rank": 2,
+          "project_id": "F24-45-20",
+          "project_title": "Botnet Attack Detection Using Machine Learning"
+        },
+        {
+          "rank": 3,
+          "project_id": "M02-45-20",
+          "project_title": "Detection of Adversarial Attacks Malwares Using Machine Learning Models"
+        },
+        {
+          "rank": 4,
+          "project_id": "F02-45-20",
+          "project_title": "DeepFake Videos Detection Based on A Hybrid Model Using Deep Learning"
+        },
+        {
+          "rank": 5,
+          "project_id": "F07-45-10",
+          "project_title": "Secure Healthcare Information Exchange Platform ‘KEEP SAFE’"
+        },
+        {
+          "rank": 6,
+          "project_id": "F20-45-20",
+          "project_title": "Abnormal Event Detection for Video Surveillance (SecuritEye)"
+        },
+        {
+          "rank": 7,
+          "project_id": "F08-45-20",
+          "project_title": "XIPHER: Visualization Tool for Security Algorithms"
+        },
+        {
+          "rank": 8,
+          "project_id": "F02-43-10",
+          "project_title": "Facial Expression Recognition for Investigations"
+        },
+        {
+          "rank": 9,
+          "project_id": "F05-42-10",
+          "project_title": "Decentralized Social Application: Moments"
+        },
+        {
+          "rank": 10,
+          "project_id": "F09-45-10",
+          "project_title": "Detecting Cyberbullying in Twitter for Arabic Language"
+        }
+      ],
+      "top_interests": [
+        "Cybersecurity",
+        "Software Engineering",
+        "Network Systems"
+      ],
+      "top_applications": [
+        "Security & Privacy",
+        "Government & Public Sector",
+        "Finance & Economics"
+      ],
+      "rdia_category": "Energy & Industrial Leadership"
+    },
+    {
+      "group_id": "G021",
+      "recommended_projects": [
+        {
+          "rank": 1,
+          "project_id": "F01-42-20",
+          "project_title": "COVID-19 Detection Using Deep Neural Networks"
+        },
+        {
+          "rank": 2,
+          "project_id": "F01-45-20",
+          "project_title": "Baasyir:A YOLO Based approach to Assist Visually Impaired People by leveraging Smart Glasses System"
+        },
+        {
+          "rank": 3,
+          "project_id": "F29-45-20",
+          "project_title": "Hudhud: AI-based Remote Rehabilitation"
+        },
+        {
+          "rank": 4,
+          "project_id": "F02-45-20",
+          "project_title": "DeepFake Videos Detection Based on A Hybrid Model Using Deep Learning"
+        },
+        {
+          "rank": 5,
+          "project_id": "F20-45-20",
+          "project_title": "Abnormal Event Detection for Video Surveillance (SecuritEye)"
+        },
+        {
+          "rank": 6,
+          "project_id": "F05-45-20",
+          "project_title": "Walyattawafou: Crowd Counting in Hajj and Umrah"
+        },
+        {
+          "rank": 7,
+          "project_id": "F17-45-20",
+          "project_title": "Mu’nis: Enhancing Deaf Communication with Realtime Subtitles in Arabic Language"
+        },
+        {
+          "rank": 8,
+          "project_id": "F25-45-20",
+          "project_title": "Automatic Recognition of Children's Handwritten Arabic Characters"
+        },
+        {
+          "rank": 9,
+          "project_id": "F03-42-10",
+          "project_title": "Examining the effectiveness of pretrained language models for Arabic NLP tasks"
+        },
+        {
+          "rank": 10,
+          "project_id": "F04-45-20",
+          "project_title": "CCIS Student Assistant Chatbot"
+        }
+      ],
+      "top_interests": [
+        "Artificial Intelligence / Machine Learning",
+        "Computer Vision",
+        "Data Science"
+      ],
+      "top_applications": [
+        "Healthcare / Medical",
+        "Transportation & Mobility",
+        "Education"
+      ],
+      "rdia_category": "Health & Wellness"
+    },
+    {
+      "group_id": "G022",
+      "recommended_projects": [
+        {
+          "rank": 1,
+          "project_id": "F04-45-20",
+          "project_title": "CCIS Student Assistant Chatbot"
+        },
+        {
+          "rank": 2,
+          "project_id": "F14-42-20",
+          "project_title": "Book Recommendation System based on Collaboration Filtering (RICO)"
+        },
+        {
+          "rank": 3,
+          "project_id": "M09-45-10",
+          "project_title": "Qaimni: An Interactive, Web-Based System for Rating Faculty Members"
+        },
+        {
+          "rank": 4,
+          "project_id": "F06-42-20",
+          "project_title": "Developing A Web Application for Automatic Code Generation"
+        },
+        {
+          "rank": 5,
+          "project_id": "F22-45-20",
+          "project_title": "Smart Attendance Management System Using iBeacon Technology (حضورك)"
+        },
+        {
+          "rank": 6,
+          "project_id": "F16-45-10",
+          "project_title": "Automatic audio files summarization System, EJAZ Website"
+        },
+        {
+          "rank": 7,
+          "project_id": "F08-45-20",
+          "project_title": "XIPHER: Visualization Tool for Security Algorithms"
+        },
+        {
+          "rank": 8,
+          "project_id": "F28-45-20",
+          "project_title": "AI-trip planner and advisor"
+        },
+        {
+          "rank": 9,
+          "project_id": "F05-45-10",
+          "project_title": "Visualize: A Software Tool for Visualizing the Impact of Climate Change on Cities"
+        },
+        {
+          "rank": 10,
+          "project_id": "F04-42-10",
+          "project_title": "Evaluating Website Quality Using Machine Learning"
+        }
+      ],
+      "top_interests": [
+        "Web Development",
+        "Cloud Computing",
+        "Game Development"
+      ],
+      "top_applications": [
+        "Business & Productivity",
+        "Entertainment & Media",
+        "Finance & Economics"
+      ],
+      "rdia_category": "Economies of the Future"
+    },
+    {
+      "group_id": "G023",
+      "recommended_projects": [
+        {
+          "rank": 1,
+          "project_id": "F10-42-20",
+          "project_title": "Monitoring and Tracking of Vulnerable Individuals Using Mini-UAVs"
+        },
+        {
+          "rank": 2,
+          "project_id": "F29-45-20",
+          "project_title": "Hudhud: AI-based Remote Rehabilitation"
+        },
+        {
+          "rank": 3,
+          "project_id": "M04-45-10",
+          "project_title": "Smart Car Parking Manager (SCPM)"
+        },
+        {
+          "rank": 4,
+          "project_id": "F01-45-20",
+          "project_title": "Baasyir:A YOLO Based approach to Assist Visually Impaired People by leveraging Smart Glasses System"
+        },
+        {
+          "rank": 5,
+          "project_id": "F03-45-10",
+          "project_title": "Energy-aware Multi-Object Detection and Compression in WMSN"
+        },
+        {
+          "rank": 6,
+          "project_id": "F11-42-20",
+          "project_title": "Energy-Efficient Data Reduction Techniques for Sensor-based ECG Monitoring Applications"
+        },
+        {
+          "rank": 7,
+          "project_id": "F05-45-10",
+          "project_title": "Visualize: A Software Tool for Visualizing the Impact of Climate Change on Cities"
+        },
+        {
+          "rank": 8,
+          "project_id": "F27-45-20",
+          "project_title": "Maseer: Advanced Pilgrimage Mapping for Effective Crowd Management during Hajj"
+        },
+        {
+          "rank": 9,
+          "project_id": "F20-45-20",
+          "project_title": "Abnormal Event Detection for Video Surveillance (SecuritEye)"
+        },
+        {
+          "rank": 10,
+          "project_id": "F13-42-10",
+          "project_title": "Dolphin Application"
+        }
+      ],
+      "top_interests": [
+        "Robotics",
+        "Internet of Things (IoT)",
+        "Embedded Systems"
+      ],
+      "top_applications": [
+        "Sustainability & Environment",
+        "Healthcare / Medical",
+        "Entertainment & Media"
+      ],
+      "rdia_category": "Energy & Industrial Leadership"
+    },
+    {
+      "group_id": "G024",
+      "recommended_projects": [
+        {
+          "rank": 1,
+          "project_id": "F08-42-20",
+          "project_title": "Detecting Malicious PowerShell Scripts using Machine Learning"
+        },
+        {
+          "rank": 2,
+          "project_id": "F24-45-20",
+          "project_title": "Botnet Attack Detection Using Machine Learning"
+        },
+        {
+          "rank": 3,
+          "project_id": "M02-45-20",
+          "project_title": "Detection of Adversarial Attacks Malwares Using Machine Learning Models"
+        },
+        {
+          "rank": 4,
+          "project_id": "F02-45-20",
+          "project_title": "DeepFake Videos Detection Based on A Hybrid Model Using Deep Learning"
+        },
+        {
+          "rank": 5,
+          "project_id": "F02-43-10",
+          "project_title": "Facial Expression Recognition for Investigations"
+        },
+        {
+          "rank": 6,
+          "project_id": "F08-45-20",
+          "project_title": "XIPHER: Visualization Tool for Security Algorithms"
+        },
+        {
+          "rank": 7,
+          "project_id": "F20-45-20",
+          "project_title": "Abnormal Event Detection for Video Surveillance (SecuritEye)"
+        },
+        {
+          "rank": 8,
+          "project_id": "F07-45-10",
+          "project_title": "Secure Healthcare Information Exchange Platform ‘KEEP SAFE’"
+        },
+        {
+          "rank": 9,
+          "project_id": "F05-42-10",
+          "project_title": "Decentralized Social Application: Moments"
+        },
+        {
+          "rank": 10,
+          "project_id": "F09-45-10",
+          "project_title": "Detecting Cyberbullying in Twitter for Arabic Language"
+        }
+      ],
+      "top_interests": [
+        "Cybersecurity",
+        "Software Engineering",
+        "Network Systems"
+      ],
+      "top_applications": [
+        "Security & Privacy",
+        "Government & Public Sector",
+        "Business & Productivity"
+      ],
+      "rdia_category": "Energy & Industrial Leadership"
+    },
+    {
+      "group_id": "G025",
+      "recommended_projects": [
+        {
+          "rank": 1,
+          "project_id": "M05-45-20",
+          "project_title": "Musanif (مصنف): A Categorization and Product Information API for E-Commerce Product Images)"
+        },
+        {
+          "rank": 2,
+          "project_id": "F04-45-20",
+          "project_title": "CCIS Student Assistant Chatbot"
+        },
+        {
+          "rank": 3,
+          "project_id": "F14-42-20",
+          "project_title": "Book Recommendation System based on Collaboration Filtering (RICO)"
+        },
+        {
+          "rank": 4,
+          "project_id": "M09-45-10",
+          "project_title": "Qaimni: An Interactive, Web-Based System for Rating Faculty Members"
+        },
+        {
+          "rank": 5,
+          "project_id": "F06-42-20",
+          "project_title": "Developing A Web Application for Automatic Code Generation"
+        },
+        {
+          "rank": 6,
+          "project_id": "F02-42-20",
+          "project_title": "Online Context-Aware Recommender System"
+        },
+        {
+          "rank": 7,
+          "project_id": "F16-45-10",
+          "project_title": "Automatic audio files summarization System, EJAZ Website"
+        },
+        {
+          "rank": 8,
+          "project_id": "F28-45-20",
+          "project_title": "AI-trip planner and advisor"
+        },
+        {
+          "rank": 9,
+          "project_id": "F22-45-20",
+          "project_title": "Smart Attendance Management System Using iBeacon Technology (حضورك)"
+        },
+        {
+          "rank": 10,
+          "project_id": "F08-45-20",
+          "project_title": "XIPHER: Visualization Tool for Security Algorithms"
+        }
+      ],
+      "top_interests": [
+        "Web Development",
+        "Cloud Computing",
+        "Database Systems"
+      ],
+      "top_applications": [
+        "Business & Productivity",
+        "Education",
+        "Finance & Economics"
+      ],
+      "rdia_category": "Economies of the Future"
+    },
+    {
+      "group_id": "G026",
+      "recommended_projects": [
+        {
+          "rank": 1,
+          "project_id": "F01-42-20",
+          "project_title": "COVID-19 Detection Using Deep Neural Networks"
+        },
+        {
+          "rank": 2,
+          "project_id": "F09-42-20",
+          "project_title": "Finding Deleted Regions in Human DNA"
+        },
+        {
+          "rank": 3,
+          "project_id": "F29-45-20",
+          "project_title": "Hudhud: AI-based Remote Rehabilitation"
+        },
+        {
+          "rank": 4,
+          "project_id": "F10-42-20",
+          "project_title": "Monitoring and Tracking of Vulnerable Individuals Using Mini-UAVs"
+        },
+        {
+          "rank": 5,
+          "project_id": "F01-45-20",
+          "project_title": "Baasyir:A YOLO Based approach to Assist Visually Impaired People by leveraging Smart Glasses System"
+        },
+        {
+          "rank": 6,
+          "project_id": "F11-42-20",
+          "project_title": "Energy-Efficient Data Reduction Techniques for Sensor-based ECG Monitoring Applications"
+        },
+        {
+          "rank": 7,
+          "project_id": "F02-45-20",
+          "project_title": "DeepFake Videos Detection Based on A Hybrid Model Using Deep Learning"
+        },
+        {
+          "rank": 8,
+          "project_id": "M04-45-10",
+          "project_title": "Smart Car Parking Manager (SCPM)"
+        },
+        {
+          "rank": 9,
+          "project_id": "F03-45-10",
+          "project_title": "Energy-aware Multi-Object Detection and Compression in WMSN"
+        },
+        {
+          "rank": 10,
+          "project_id": "F04-45-10",
+          "project_title": "Baseera بصيرة : Accessible Mobile App for Blind Children"
+        }
+      ],
+      "top_interests": [
+        "Artificial Intelligence / Machine Learning",
+        "Bioinformatics",
+        "Robotics"
+      ],
+      "top_applications": [
+        "Healthcare / Medical",
+        "Education",
+        "Transportation & Mobility"
+      ],
+      "rdia_category": "Health & Wellness"
+    },
+    {
+      "group_id": "G027",
+      "recommended_projects": [
+        {
+          "rank": 1,
+          "project_id": "F03-45-10",
+          "project_title": "Energy-aware Multi-Object Detection and Compression in WMSN"
+        },
+        {
+          "rank": 2,
+          "project_id": "M04-45-10",
+          "project_title": "Smart Car Parking Manager (SCPM)"
+        },
+        {
+          "rank": 3,
+          "project_id": "F11-42-20",
+          "project_title": "Energy-Efficient Data Reduction Techniques for Sensor-based ECG Monitoring Applications"
+        },
+        {
+          "rank": 4,
+          "project_id": "F05-45-10",
+          "project_title": "Visualize: A Software Tool for Visualizing the Impact of Climate Change on Cities"
+        },
+        {
+          "rank": 5,
+          "project_id": "F01-45-20",
+          "project_title": "Baasyir:A YOLO Based approach to Assist Visually Impaired People by leveraging Smart Glasses System"
+        },
+        {
+          "rank": 6,
+          "project_id": "F02-42-20",
+          "project_title": "Online Context-Aware Recommender System"
+        },
+        {
+          "rank": 7,
+          "project_id": "F07-45-10",
+          "project_title": "Secure Healthcare Information Exchange Platform ‘KEEP SAFE’"
+        },
+        {
+          "rank": 8,
+          "project_id": "F29-45-20",
+          "project_title": "Hudhud: AI-based Remote Rehabilitation"
+        },
+        {
+          "rank": 9,
+          "project_id": "F16-45-10",
+          "project_title": "Automatic audio files summarization System, EJAZ Website"
+        },
+        {
+          "rank": 10,
+          "project_id": "F10-42-20",
+          "project_title": "Monitoring and Tracking of Vulnerable Individuals Using Mini-UAVs"
+        }
+      ],
+      "top_interests": [
+        "Internet of Things (IoT)",
+        "Cloud Computing",
+        "Distributed Systems"
+      ],
+      "top_applications": [
+        "Sustainability & Environment",
+        "Business & Productivity",
+        "Finance & Economics"
+      ],
+      "rdia_category": "Sustainable Environment & Supply of Essential Needs"
+    },
+    {
+      "group_id": "G028",
+      "recommended_projects": [
+        {
+          "rank": 1,
+          "project_id": "F08-42-20",
+          "project_title": "Detecting Malicious PowerShell Scripts using Machine Learning"
+        },
+        {
+          "rank": 2,
+          "project_id": "F24-45-20",
+          "project_title": "Botnet Attack Detection Using Machine Learning"
+        },
+        {
+          "rank": 3,
+          "project_id": "M02-45-20",
+          "project_title": "Detection of Adversarial Attacks Malwares Using Machine Learning Models"
+        },
+        {
+          "rank": 4,
+          "project_id": "F02-45-20",
+          "project_title": "DeepFake Videos Detection Based on A Hybrid Model Using Deep Learning"
+        },
+        {
+          "rank": 5,
+          "project_id": "F20-45-20",
+          "project_title": "Abnormal Event Detection for Video Surveillance (SecuritEye)"
+        },
+        {
+          "rank": 6,
+          "project_id": "F02-43-10",
+          "project_title": "Facial Expression Recognition for Investigations"
+        },
+        {
+          "rank": 7,
+          "project_id": "F08-45-20",
+          "project_title": "XIPHER: Visualization Tool for Security Algorithms"
+        },
+        {
+          "rank": 8,
+          "project_id": "F07-45-10",
+          "project_title": "Secure Healthcare Information Exchange Platform ‘KEEP SAFE’"
+        },
+        {
+          "rank": 9,
+          "project_id": "F05-42-10",
+          "project_title": "Decentralized Social Application: Moments"
+        },
+        {
+          "rank": 10,
+          "project_id": "F09-45-10",
+          "project_title": "Detecting Cyberbullying in Twitter for Arabic Language"
+        }
+      ],
+      "top_interests": [
+        "Cybersecurity",
+        "Artificial Intelligence / Machine Learning",
+        "Software Engineering"
+      ],
+      "top_applications": [
+        "Security & Privacy",
+        "Government & Public Sector",
+        "Data Science"
+      ],
+      "rdia_category": "Energy & Industrial Leadership"
+    },
+    {
+      "group_id": "G029",
+      "recommended_projects": [
+        {
+          "rank": 1,
+          "project_id": "F08-42-20",
+          "project_title": "Detecting Malicious PowerShell Scripts using Machine Learning"
+        },
+        {
+          "rank": 2,
+          "project_id": "F24-45-20",
+          "project_title": "Botnet Attack Detection Using Machine Learning"
+        },
+        {
+          "rank": 3,
+          "project_id": "M02-45-20",
+          "project_title": "Detection of Adversarial Attacks Malwares Using Machine Learning Models"
+        },
+        {
+          "rank": 4,
+          "project_id": "F02-45-20",
+          "project_title": "DeepFake Videos Detection Based on A Hybrid Model Using Deep Learning"
+        },
+        {
+          "rank": 5,
+          "project_id": "F02-43-10",
+          "project_title": "Facial Expression Recognition for Investigations"
+        },
+        {
+          "rank": 6,
+          "project_id": "F20-45-20",
+          "project_title": "Abnormal Event Detection for Video Surveillance (SecuritEye)"
+        },
+        {
+          "rank": 7,
+          "project_id": "F07-45-10",
+          "project_title": "Secure Healthcare Information Exchange Platform ‘KEEP SAFE’"
+        },
+        {
+          "rank": 8,
+          "project_id": "F08-45-20",
+          "project_title": "XIPHER: Visualization Tool for Security Algorithms"
+        },
+        {
+          "rank": 9,
+          "project_id": "F05-42-10",
+          "project_title": "Decentralized Social Application: Moments"
+        },
+        {
+          "rank": 10,
+          "project_id": "F09-45-10",
+          "project_title": "Detecting Cyberbullying in Twitter for Arabic Language"
+        }
+      ],
+      "top_interests": [
+        "Cybersecurity",
+        "Network Systems",
+        "Software Engineering"
+      ],
+      "top_applications": [
+        "Security & Privacy",
+        "Government & Public Sector",
+        "Business & Productivity"
+      ],
+      "rdia_category": "Energy & Industrial Leadership"
+    },
+    {
+      "group_id": "G030",
+      "recommended_projects": [
+        {
+          "rank": 1,
+          "project_id": "F01-42-20",
+          "project_title": "COVID-19 Detection Using Deep Neural Networks"
+        },
+        {
+          "rank": 2,
+          "project_id": "F05-45-10",
+          "project_title": "Visualize: A Software Tool for Visualizing the Impact of Climate Change on Cities"
+        },
+        {
+          "rank": 3,
+          "project_id": "F29-45-20",
+          "project_title": "Hudhud: AI-based Remote Rehabilitation"
+        },
+        {
+          "rank": 4,
+          "project_id": "F03-45-10",
+          "project_title": "Energy-aware Multi-Object Detection and Compression in WMSN"
+        },
+        {
+          "rank": 5,
+          "project_id": "F01-45-20",
+          "project_title": "Baasyir:A YOLO Based approach to Assist Visually Impaired People by leveraging Smart Glasses System"
+        },
+        {
+          "rank": 6,
+          "project_id": "F17-45-20",
+          "project_title": "Mu’nis: Enhancing Deaf Communication with Realtime Subtitles in Arabic Language"
+        },
+        {
+          "rank": 7,
+          "project_id": "F09-45-10",
+          "project_title": "Detecting Cyberbullying in Twitter for Arabic Language"
+        },
+        {
+          "rank": 8,
+          "project_id": "M04-45-10",
+          "project_title": "Smart Car Parking Manager (SCPM)"
+        },
+        {
+          "rank": 9,
+          "project_id": "F10-42-20",
+          "project_title": "Monitoring and Tracking of Vulnerable Individuals Using Mini-UAVs"
+        },
+        {
+          "rank": 10,
+          "project_id": "F25-45-20",
+          "project_title": "Automatic Recognition of Children's Handwritten Arabic Characters"
+        }
+      ],
+      "top_interests": [
+        "Artificial Intelligence / Machine Learning",
+        "Computer Vision",
+        "Natural Language Processing"
+      ],
+      "top_applications": [
+        "Healthcare / Medical",
+        "Education",
+        "Social Good & Community"
+      ],
+      "rdia_category": "Sustainable Environment & Supply of Essential Needs"
+    },
+    {
+      "group_id": "G031",
+      "recommended_projects": [
+        {
+          "rank": 1,
+          "project_id": "M09-45-10",
+          "project_title": "Qaimni: An Interactive, Web-Based System for Rating Faculty Members"
+        },
+        {
+          "rank": 2,
+          "project_id": "F04-45-20",
+          "project_title": "CCIS Student Assistant Chatbot"
+        },
+        {
+          "rank": 3,
+          "project_id": "F14-42-20",
+          "project_title": "Book Recommendation System based on Collaboration Filtering (RICO)"
+        },
+        {
+          "rank": 4,
+          "project_id": "F04-45-10",
+          "project_title": "Baseera بصيرة : Accessible Mobile App for Blind Children"
+        },
+        {
+          "rank": 5,
+          "project_id": "F06-42-20",
+          "project_title": "Developing A Web Application for Automatic Code Generation"
+        },
+        {
+          "rank": 6,
+          "project_id": "F08-45-20",
+          "project_title": "XIPHER: Visualization Tool for Security Algorithms"
+        },
+        {
+          "rank": 7,
+          "project_id": "F22-45-20",
+          "project_title": "Smart Attendance Management System Using iBeacon Technology (حضورك)"
+        },
+        {
+          "rank": 8,
+          "project_id": "F16-45-10",
+          "project_title": "Automatic audio files summarization System, EJAZ Website"
+        },
+        {
+          "rank": 9,
+          "project_id": "F28-45-20",
+          "project_title": "AI-trip planner and advisor"
+        },
+        {
+          "rank": 10,
+          "project_id": "F05-45-10",
+          "project_title": "Visualize: A Software Tool for Visualizing the Impact of Climate Change on Cities"
+        }
+      ],
+      "top_interests": [
+        "Web Development",
+        "Human-Computer Interaction",
+        "Game Development"
+      ],
+      "top_applications": [
+        "Education",
+        "Social Good & Community",
+        "Entertainment & Media"
+      ],
+      "rdia_category": "Economies of the Future"
+    },
+    {
+      "group_id": "G032",
+      "recommended_projects": [
+        {
+          "rank": 1,
+          "project_id": "F08-42-20",
+          "project_title": "Detecting Malicious PowerShell Scripts using Machine Learning"
+        },
+        {
+          "rank": 2,
+          "project_id": "F24-45-20",
+          "project_title": "Botnet Attack Detection Using Machine Learning"
+        },
+        {
+          "rank": 3,
+          "project_id": "M02-45-20",
+          "project_title": "Detection of Adversarial Attacks Malwares Using Machine Learning Models"
+        },
+        {
+          "rank": 4,
+          "project_id": "F01-42-20",
+          "project_title": "COVID-19 Detection Using Deep Neural Networks"
+        },
+        {
+          "rank": 5,
+          "project_id": "F09-42-20",
+          "project_title": "Finding Deleted Regions in Human DNA"
+        },
+        {
+          "rank": 6,
+          "project_id": "F02-45-20",
+          "project_title": "DeepFake Videos Detection Based on A Hybrid Model Using Deep Learning"
+        },
+        {
+          "rank": 7,
+          "project_id": "F07-45-10",
+          "project_title": "Secure Healthcare Information Exchange Platform ‘KEEP SAFE’"
+        },
+        {
+          "rank": 8,
+          "project_id": "F20-45-20",
+          "project_title": "Abnormal Event Detection for Video Surveillance (SecuritEye)"
+        },
+        {
+          "rank": 9,
+          "project_id": "F03-45-10",
+          "project_title": "Energy-aware Multi-Object Detection and Compression in WMSN"
+        },
+        {
+          "rank": 10,
+          "project_id": "F05-45-10",
+          "project_title": "Visualize: A Software Tool for Visualizing the Impact of Climate Change on Cities"
+        }
+      ],
+      "top_interests": [
+        "Cybersecurity",
+        "Artificial Intelligence / Machine Learning",
+        "Internet of Things (IoT)"
+      ],
+      "top_applications": [
+        "Security & Privacy",
+        "Healthcare / Medical",
+        "Sustainability & Environment"
+      ],
+      "rdia_category": "Energy & Industrial Leadership"
+    },
+    {
+      "group_id": "G033",
+      "recommended_projects": [
+        {
+          "rank": 1,
+          "project_id": "F01-42-20",
+          "project_title": "COVID-19 Detection Using Deep Neural Networks"
+        },
+        {
+          "rank": 2,
+          "project_id": "F01-45-20",
+          "project_title": "Baasyir:A YOLO Based approach to Assist Visually Impaired People by leveraging Smart Glasses System"
+        },
+        {
+          "rank": 3,
+          "project_id": "F10-42-20",
+          "project_title": "Monitoring and Tracking of Vulnerable Individuals Using Mini-UAVs"
+        },
+        {
+          "rank": 4,
+          "project_id": "F29-45-20",
+          "project_title": "Hudhud: AI-based Remote Rehabilitation"
+        },
+        {
+          "rank": 5,
+          "project_id": "F02-45-20",
+          "project_title": "DeepFake Videos Detection Based on A Hybrid Model Using Deep Learning"
+        },
+        {
+          "rank": 6,
+          "project_id": "M04-45-10",
+          "project_title": "Smart Car Parking Manager (SCPM)"
+        },
+        {
+          "rank": 7,
+          "project_id": "F20-45-20",
+          "project_title": "Abnormal Event Detection for Video Surveillance (SecuritEye)"
+        },
+        {
+          "rank": 8,
+          "project_id": "F05-45-20",
+          "project_title": "Walyattawafou: Crowd Counting in Hajj and Umrah"
+        },
+        {
+          "rank": 9,
+          "project_id": "F03-45-10",
+          "project_title": "Energy-aware Multi-Object Detection and Compression in WMSN"
+        },
+        {
+          "rank": 10,
+          "project_id": "F14-42-20",
+          "project_title": "Book Recommendation System based on Collaboration Filtering (RICO)"
+        }
+      ],
+      "top_interests": [
+        "Artificial Intelligence / Machine Learning",
+        "Computer Vision",
+        "Robotics"
+      ],
+      "top_applications": [
+        "Healthcare / Medical",
+        "Transportation & Mobility",
+        "Business & Productivity"
+      ],
+      "rdia_category": "Health & Wellness"
+    },
+    {
+      "group_id": "G034",
+      "recommended_projects": [
+        {
+          "rank": 1,
+          "project_id": "F08-42-20",
+          "project_title": "Detecting Malicious PowerShell Scripts using Machine Learning"
+        },
+        {
+          "rank": 2,
+          "project_id": "F01-42-20",
+          "project_title": "COVID-19 Detection Using Deep Neural Networks"
+        },
+        {
+          "rank": 3,
+          "project_id": "F24-45-20",
+          "project_title": "Botnet Attack Detection Using Machine Learning"
+        },
+        {
+          "rank": 4,
+          "project_id": "M02-45-20",
+          "project_title": "Detection of Adversarial Attacks Malwares Using Machine Learning Models"
+        },
+        {
+          "rank": 5,
+          "project_id": "F09-42-20",
+          "project_title": "Finding Deleted Regions in Human DNA"
+        },
+        {
+          "rank": 6,
+          "project_id": "M05-45-20",
+          "project_title": "Musanif (مصنف): A Categorization and Product Information API for E-Commerce Product Images)"
+        },
+        {
+          "rank": 7,
+          "project_id": "F02-45-20",
+          "project_title": "DeepFake Videos Detection Based on A Hybrid Model Using Deep Learning"
+        },
+        {
+          "rank": 8,
+          "project_id": "F04-45-20",
+          "project_title": "CCIS Student Assistant Chatbot"
+        },
+        {
+          "rank": 9,
+          "project_id": "F20-45-20",
+          "project_title": "Abnormal Event Detection for Video Surveillance (SecuritEye)"
+        },
+        {
+          "rank": 10,
+          "project_id": "M09-45-10",
+          "project_title": "Qaimni: An Interactive, Web-Based System for Rating Faculty Members"
+        }
+      ],
+      "top_interests": [
+        "Cybersecurity",
+        "Artificial Intelligence / Machine Learning",
+        "Web Development"
+      ],
+      "top_applications": [
+        "Security & Privacy",
+        "Healthcare / Medical",
+        "Business & Productivity"
+      ],
+      "rdia_category": "Energy & Industrial Leadership"
+    },
+    {
+      "group_id": "G035",
+      "recommended_projects": [
+        {
+          "rank": 1,
+          "project_id": "F03-45-10",
+          "project_title": "Energy-aware Multi-Object Detection and Compression in WMSN"
+        },
+        {
+          "rank": 2,
+          "project_id": "M04-45-10",
+          "project_title": "Smart Car Parking Manager (SCPM)"
+        },
+        {
+          "rank": 3,
+          "project_id": "F10-42-20",
+          "project_title": "Monitoring and Tracking of Vulnerable Individuals Using Mini-UAVs"
+        },
+        {
+          "rank": 4,
+          "project_id": "F01-45-20",
+          "project_title": "Baasyir:A YOLO Based approach to Assist Visually Impaired People by leveraging Smart Glasses System"
+        },
+        {
+          "rank": 5,
+          "project_id": "F11-42-20",
+          "project_title": "Energy-Efficient Data Reduction Techniques for Sensor-based ECG Monitoring Applications"
+        },
+        {
+          "rank": 6,
+          "project_id": "F05-45-10",
+          "project_title": "Visualize: A Software Tool for Visualizing the Impact of Climate Change on Cities"
+        },
+        {
+          "rank": 7,
+          "project_id": "F29-45-20",
+          "project_title": "Hudhud: AI-based Remote Rehabilitation"
+        },
+        {
+          "rank": 8,
+          "project_id": "F16-45-10",
+          "project_title": "Automatic audio files summarization System, EJAZ Website"
+        },
+        {
+          "rank": 9,
+          "project_id": "F27-45-20",
+          "project_title": "Maseer: Advanced Pilgrimage Mapping for Effective Crowd Management during Hajj"
+        },
+        {
+          "rank": 10,
+          "project_id": "F03-42-10",
+          "project_title": "Examining the effectiveness of pretrained language models for Arabic NLP tasks"
+        }
+      ],
+      "top_interests": [
+        "Internet of Things (IoT)",
+        "Embedded Systems",
+        "Robotics"
+      ],
+      "top_applications": [
+        "Sustainability & Environment",
+        "Transportation & Mobility",
+        "Education"
+      ],
+      "rdia_category": "Sustainable Environment & Supply of Essential Needs"
+    },
+    {
+      "group_id": "G036",
+      "recommended_projects": [
+        {
+          "rank": 1,
+          "project_id": "F08-42-20",
+          "project_title": "Detecting Malicious PowerShell Scripts using Machine Learning"
+        },
+        {
+          "rank": 2,
+          "project_id": "F01-42-20",
+          "project_title": "COVID-19 Detection Using Deep Neural Networks"
+        },
+        {
+          "rank": 3,
+          "project_id": "F24-45-20",
+          "project_title": "Botnet Attack Detection Using Machine Learning"
+        },
+        {
+          "rank": 4,
+          "project_id": "M02-45-20",
+          "project_title": "Detection of Adversarial Attacks Malwares Using Machine Learning Models"
+        },
+        {
+          "rank": 5,
+          "project_id": "F09-42-20",
+          "project_title": "Finding Deleted Regions in Human DNA"
+        },
+        {
+          "rank": 6,
+          "project_id": "F14-42-20",
+          "project_title": "Book Recommendation System based on Collaboration Filtering (RICO)"
+        },
+        {
+          "rank": 7,
+          "project_id": "F02-45-20",
+          "project_title": "DeepFake Videos Detection Based on A Hybrid Model Using Deep Learning"
+        },
+        {
+          "rank": 8,
+          "project_id": "F22-45-20",
+          "project_title": "Smart Attendance Management System Using iBeacon Technology (حضورك)"
+        },
+        {
+          "rank": 9,
+          "project_id": "F20-45-20",
+          "project_title": "Abnormal Event Detection for Video Surveillance (SecuritEye)"
+        },
+        {
+          "rank": 10,
+          "project_id": "F16-45-10",
+          "project_title": "Automatic audio files summarization System, EJAZ Website"
+        }
+      ],
+      "top_interests": [
+        "Cybersecurity",
+        "Artificial Intelligence / Machine Learning",
+        "Web Development"
+      ],
+      "top_applications": [
+        "Security & Privacy",
+        "Healthcare / Medical",
+        "Entertainment & Media"
+      ],
+      "rdia_category": "Energy & Industrial Leadership"
+    }
+  ]
+}
