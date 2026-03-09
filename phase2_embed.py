@@ -112,7 +112,11 @@ def embed_courses(model: SentenceTransformer, course_map: dict, plos_map: dict):
 
     Segments per course:
       - title + description  (1 segment)
+      - level 
+      - prerequisites
+      - credit hours
       - each CLO statement with its PLOs (N segments, one per CLO)
+      
 
     Saved as: embeddings/courses/{course_code}.npy
     """
@@ -149,7 +153,7 @@ def embed_projects(
 
     Segments per project (up to 10):
       title | abstract | keywords | problem | aim | objectives |
-      results | future_work | domain_labels | acm_descriptions
+      results | future_work | domain_labels&des| acm_descriptions
 
     Each segment encoded separately → averaged → one project vector.
 
