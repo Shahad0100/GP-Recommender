@@ -197,7 +197,7 @@ def get_course_texts(course: dict, plos_map: Dict[str, str] = None) -> List[str]
                 plo_descriptions = []
                 for plo_id in mapped_plos:
                    if plo_id in plos_map:
-                       # include both المعرف والوصف
+                       # include both id and description
                        plo_descriptions.append(f"{plo_id}: {plos_map[plo_id]}")
                 if plo_descriptions:
                    stmt += " [Associated PLOs: " + " | ".join(plo_descriptions) + "]"
