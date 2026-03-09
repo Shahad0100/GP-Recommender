@@ -162,7 +162,7 @@ def load_all_projects(projects_dir: str) -> List[dict]:
 def get_course_texts(course: dict, plos_map: Dict[str, str] = None) -> List[str]:
     """
     Extract meaningful text segments from a course.
-    Returns: [title+description, clo1 with Associated plos, clo2 with Associated plos, ...]
+    Returns: [title+description, level, prerequisites, credit hours, clo1 with Associated plos, clo2 with Associated plos, ...]
     Excludes: course_code, credit_hours, clo_number,prequisites
     """
     segments = []
