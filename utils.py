@@ -266,7 +266,7 @@ def get_project_segments(
         segments.append(conclusion["future_work"])
 
     # Domain labels joined as one segment
-    # If domain maps are provided, enrich with descriptions; else fall back to names only.
+    #  domain maps are provided, enrich with descriptions.
     domain_parts = []
 
     for name in clf.get("interest", []):
