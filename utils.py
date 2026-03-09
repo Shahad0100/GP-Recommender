@@ -163,7 +163,7 @@ def get_course_texts(course: dict, plos_map: Dict[str, str] = None) -> List[str]
     """
     Extract meaningful text segments from a course.
     Returns: [title+description, level, prerequisites, credit hours, clo1 with Associated plos, clo2 with Associated plos, ...]
-    Excludes: course_code, credit_hours, clo_number,prequisites
+    Excludes: course_code, clo_number
     """
     segments = []
 
@@ -225,7 +225,7 @@ def get_project_segments(
       5. objectives joined
       6. results
       7. future work
-      8. domain labels (application + interest + rdia joined)
+      8. domain labels and descriptions (application + interest + rdia joined)
      9. ACM descriptions (codes resolved to text)
 
     Excludes: id, supervisor_name, supervisor_id, academic_year, semester, acm codes directly
@@ -266,7 +266,7 @@ def get_project_segments(
         segments.append(conclusion["future_work"])
 
     # Domain labels joined as one segment
-    #  domain maps are provided, enrich with descriptions.
+    # Domain maps are provided, enrich with descriptions.
     domain_parts = []
 
     for name in clf.get("interest", []):
