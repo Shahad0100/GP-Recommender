@@ -11,7 +11,7 @@ Late Fusion approach:
   - This avoids the 512-token SBERT limit and gives each component equal weight
 
 What gets embedded:
-  A. Courses   → one vector per course  (title+desc segment + each CLO separately)
+  A. Courses   → one vector per course  (title+desc segment + each CLO separately with its plos)
   B. Projects  → one vector per project (10 segments encoded separately, then averaged)
   
 
