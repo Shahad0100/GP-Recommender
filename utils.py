@@ -163,7 +163,7 @@ def get_course_texts(course: dict, plos_map: Dict[str, str] = None) -> List[str]
     """
     Extract meaningful text segments from a course.
     Returns: [title+description, level, prerequisites, credit hours, clo1 with Associated plos, clo2 with Associated plos, ...]
-    Excludes: course_code, clo_number
+    Excludes: course_code
     """
     segments = []
 
