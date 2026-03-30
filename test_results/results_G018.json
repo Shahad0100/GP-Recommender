@@ -1,0 +1,490 @@
+{
+  "group_id": "G018",
+  "group_profile": {
+    "selected_interests": [
+      "Web Development",
+      "DevOps",
+      "Distributed Systems",
+      "Game Development"
+    ],
+    "selected_applications": [
+      "Entertainment & Media",
+      "Education",
+      "Social Good & Community",
+      "Business & Productivity"
+    ],
+    "selected_rdia": [
+      "Economies of the Future"
+    ]
+  },
+  "recommended_projects": [
+    {
+      "rank": 1,
+      "project_id": "F06-42-20",
+      "title": "Developing A Web Application for Automatic Code Generation",
+      "supervisor_name": " Aram Saleh Al-Sedrani ",
+      "supervisor_id": "ASSe",
+      "academic_year": "1442",
+      "keywords": [
+        "Automatic Code Generation",
+        "ACG",
+        "software development",
+        "web application",
+        "Python",
+        "Java",
+        "XML parser",
+        "flowchart",
+        "algorithms",
+        "GUI"
+      ],
+      "application": [
+        "Education"
+      ],
+      "interest": [
+        "Artificial Intelligence / Machine Learning",
+        "Web Development",
+        "Software Engineering"
+      ],
+      "rdia": [
+        "Economies of the Future"
+      ],
+      "scores": {
+        "final_score": 0.7101,
+        "semantic_sim": 0.7951,
+        "context_score": 0.25,
+        "rdia_score": 1.0,
+        "rrf_score": 0.029052
+      },
+      "explanation": "Highly similar to the group's profile. Matches application domain(s): education. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 2,
+      "project_id": "M09-45-10",
+      "title": "Qaimni: An Interactive, Web-Based System for Rating Faculty Members",
+      "supervisor_name": "Adel Ebrahim Al-Salem",
+      "supervisor_id": "AESa",
+      "academic_year": "1445",
+      "keywords": [
+        "Faculty Rating",
+        "Student Reviews",
+        "Anonymous Feedback",
+        "Web Application",
+        "College Platform"
+      ],
+      "application": [
+        "Education"
+      ],
+      "interest": [
+        "Web Development",
+        "Database Systems",
+        "Human-Computer Interaction"
+      ],
+      "rdia": [
+        "Economies of the Future"
+      ],
+      "scores": {
+        "final_score": 0.6963,
+        "semantic_sim": 0.7677,
+        "context_score": 0.25,
+        "rdia_score": 1.0,
+        "rrf_score": 0.029462
+      },
+      "explanation": "Highly similar to the group's profile. Matches application domain(s): education. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 3,
+      "project_id": "F05-42-10",
+      "title": "Decentralized Social Application: Moments",
+      "supervisor_name": " Tahani Fahad Albalawi",
+      "supervisor_id": "TFba",
+      "academic_year": "1442",
+      "keywords": [
+        "Social applications",
+        "Centralized system",
+        "Blockchain technology",
+        "Security",
+        "Privacy",
+        "Decentralized systems"
+      ],
+      "application": [
+        "Social Good & Community"
+      ],
+      "interest": [
+        "Blockchain",
+        "Web Development",
+        "Cybersecurity"
+      ],
+      "rdia": [
+        "Economies of the Future"
+      ],
+      "scores": {
+        "final_score": 0.6888,
+        "semantic_sim": 0.7526,
+        "context_score": 0.25,
+        "rdia_score": 1.0,
+        "rrf_score": 0.032266
+      },
+      "explanation": "Highly similar to the group's profile. Matches application domain(s): social good & community. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 4,
+      "project_id": "F04-45-20",
+      "title": "CCIS Student Assistant Chatbot",
+      "supervisor_name": "Ahmed Mohammed Ahmed Gadallah",
+      "supervisor_id": "AMda",
+      "academic_year": "1445",
+      "keywords": [
+        "Educational Chatbot",
+        "Natural Language Processing (NLP)",
+        "Student Support System",
+        "Higher Education",
+        "FAISS",
+        "Falcon-Instructor LLM",
+        "Information Retrieval",
+        "Academic Advising",
+        "FAQ Automation",
+        "Course Management",
+        "Professor Information",
+        "Virtual Assistant",
+        "College of Computer and Information Sciences (CCIS)",
+        "Imam Muhammad Ibn Saud Islamic University",
+        "Student Services"
+      ],
+      "application": [
+        "Education"
+      ],
+      "interest": [
+        "Natural Language Processing",
+        "Artificial Intelligence / Machine Learning"
+      ],
+      "rdia": [
+        "Economies of the Future"
+      ],
+      "scores": {
+        "final_score": 0.6868,
+        "semantic_sim": 0.7485,
+        "context_score": 0.25,
+        "rdia_score": 1.0,
+        "rrf_score": 0.015625
+      },
+      "explanation": "Good match with the group's background. Matches application domain(s): education. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 5,
+      "project_id": "F06-45-20",
+      "title": "Predicting Programming Skills Among Novice Programmers",
+      "supervisor_name": " Basma Suleiman Alqadi ",
+      "supervisor_id": "BSqa",
+      "academic_year": "1445",
+      "keywords": [
+        "Programming Skills Prediction",
+        "Debugging Ability",
+        "Novice Programmers",
+        "Machine Learning",
+        "Educational Data Mining",
+        "Logical Errors",
+        "K-Nearest Neighbors (KNN)",
+        "Support Vector Machine (SVM)",
+        "Naive Bayes (NB)",
+        "Programming Education",
+        "Debugging Assessment",
+        "Correlation Analysis",
+        "Error Analysis",
+        "Code Debugging",
+        "Programming Proficiency",
+        "English Proficiency",
+        "Skill Prediction"
+      ],
+      "application": [
+        "Education"
+      ],
+      "interest": [
+        "Artificial Intelligence / Machine Learning",
+        "Data Science"
+      ],
+      "rdia": [
+        "Economies of the Future"
+      ],
+      "scores": {
+        "final_score": 0.6858,
+        "semantic_sim": 0.7465,
+        "context_score": 0.25,
+        "rdia_score": 1.0,
+        "rrf_score": 0.015385
+      },
+      "explanation": "Good match with the group's background. Matches application domain(s): education. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 6,
+      "project_id": "F14-42-20",
+      "title": "Book Recommendation System based on Collaboration Filtering (RICO)",
+      "supervisor_name": " Wojdan Mohammed BinSaeedan",
+      "supervisor_id": "WMnS",
+      "academic_year": "42",
+      "keywords": [
+        "Recommendation System",
+        "Collaborative Filtering",
+        "User Preferences",
+        "KNN Algorithm",
+        "Django Framework",
+        "Information Filtering",
+        "Content Personalization",
+        "Data Overload Management"
+      ],
+      "application": [
+        "Entertainment & Media"
+      ],
+      "interest": [
+        "Web Development",
+        "Artificial Intelligence / Machine Learning",
+        "Database Systems"
+      ],
+      "rdia": [
+        "Economies of the Future"
+      ],
+      "scores": {
+        "final_score": 0.685,
+        "semantic_sim": 0.745,
+        "context_score": 0.25,
+        "rdia_score": 1.0,
+        "rrf_score": 0.030777
+      },
+      "explanation": "Good match with the group's background. Matches application domain(s): entertainment & media. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 7,
+      "project_id": "F13-42-10",
+      "title": "Dolphin Application ",
+      "supervisor_name": " Eman AbdulHamid Alzaid ",
+      "supervisor_id": "EAza",
+      "academic_year": "42",
+      "keywords": [
+        "Mobile Application",
+        "Video Management",
+        "Video Retrieval",
+        "Machine Learning",
+        "Video Indexing",
+        "Smartphone Videos"
+      ],
+      "application": [
+        "Entertainment & Media"
+      ],
+      "interest": [
+        "Artificial Intelligence / Machine Learning",
+        "Mobile Development",
+        "Computer Vision"
+      ],
+      "rdia": [
+        "Economies of the Future"
+      ],
+      "scores": {
+        "final_score": 0.6811,
+        "semantic_sim": 0.7371,
+        "context_score": 0.25,
+        "rdia_score": 1.0,
+        "rrf_score": 0.029857
+      },
+      "explanation": "Good match with the group's background. Matches application domain(s): entertainment & media. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 8,
+      "project_id": "F04-42-10",
+      "title": "Evaluating Website Quality Using Machine Learning",
+      "supervisor_name": "Aram Saleh Al-Sedrani ",
+      "supervisor_id": "ASSe",
+      "academic_year": "1442",
+      "keywords": [
+        "Academic websites",
+        "Quality evaluator",
+        "Random forest",
+        "Supervised machine learning",
+        "Feature extraction"
+      ],
+      "application": [
+        "Education"
+      ],
+      "interest": [
+        "Artificial Intelligence / Machine Learning",
+        "Web Development",
+        "Data Science"
+      ],
+      "rdia": [
+        "Economies of the Future"
+      ],
+      "scores": {
+        "final_score": 0.6791,
+        "semantic_sim": 0.7332,
+        "context_score": 0.25,
+        "rdia_score": 1.0,
+        "rrf_score": 0.026993
+      },
+      "explanation": "Good match with the group's background. Matches application domain(s): education. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 9,
+      "project_id": "M08-45-20",
+      "title": "Nab’a Application",
+      "supervisor_name": "Mohammed Hussein Alkhatib",
+      "supervisor_id": "MHkh",
+      "academic_year": "1445",
+      "keywords": [
+        "News",
+        "Verified News",
+        "Trusted Information",
+        "Misinformation",
+        "Blockchain"
+      ],
+      "application": [
+        "Entertainment & Media"
+      ],
+      "interest": [
+        "Blockchain",
+        "Web Development",
+        "Mobile Development"
+      ],
+      "rdia": [
+        "Economies of the Future"
+      ],
+      "scores": {
+        "final_score": 0.6785,
+        "semantic_sim": 0.732,
+        "context_score": 0.25,
+        "rdia_score": 1.0,
+        "rrf_score": 0.030159
+      },
+      "explanation": "Good match with the group's background. Matches application domain(s): entertainment & media. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 10,
+      "project_id": "F16-45-10",
+      "title": "Automatic audio files summarization System, EJAZ Website",
+      "supervisor_name": " Manal Khaled Alsabhan ",
+      "supervisor_id": "MKsa",
+      "academic_year": "1445",
+      "keywords": [
+        "Audio Summarization",
+        "Speech Recognition",
+        "Natural Language Processing (NLP)",
+        "Automatic Transcription",
+        "Text Summarization",
+        "Pegasus Model",
+        "BART Model",
+        "T5 Model",
+        "Meeting Summarization",
+        "Information Extraction",
+        "Audio Processing",
+        "Deep Learning",
+        "Collaborative Tools",
+        "Time Efficiency",
+        "Content Accessibility",
+        "Multilingual Support",
+        "Cloud Storage"
+      ],
+      "application": [
+        "Business & Productivity"
+      ],
+      "interest": [
+        "Natural Language Processing",
+        "Artificial Intelligence / Machine Learning",
+        "Web Development"
+      ],
+      "rdia": [
+        "Economies of the Future"
+      ],
+      "scores": {
+        "final_score": 0.6774,
+        "semantic_sim": 0.7298,
+        "context_score": 0.25,
+        "rdia_score": 1.0,
+        "rrf_score": 0.028169
+      },
+      "explanation": "Good match with the group's background. Matches application domain(s): business & productivity. Aligns with the group's RDIA priority."
+    }
+  ],
+  "recommended_interests": [
+    {
+      "name": "Web Development",
+      "description": "Covers the design and implementation of websites and web applications, including frontend, backend, and full‑stack development.",
+      "combined_score": 0.8736,
+      "semantic_score": 0.8194,
+      "frequency_in_top_projects": 1.0,
+      "already_selected": true
+    },
+    {
+      "name": "Artificial Intelligence / Machine Learning",
+      "description": "Focuses on building systems that learn from data, make predictions, and perform intelligent tasks without explicit programming.",
+      "combined_score": 0.8509,
+      "semantic_score": 0.787,
+      "frequency_in_top_projects": 1.0,
+      "already_selected": false
+    },
+    {
+      "name": "Mobile Development",
+      "description": "Involves creating applications for mobile platforms such as iOS and Android, focusing on performance, UI, and device integration.",
+      "combined_score": 0.7045,
+      "semantic_score": 0.7922,
+      "frequency_in_top_projects": 0.5,
+      "already_selected": false
+    }
+  ],
+  "recommended_applications": [
+    {
+      "name": "Education",
+      "description": "Focuses on systems and applications for learning, teaching, and academic support.",
+      "combined_score": 0.863,
+      "semantic_score": 0.8042,
+      "frequency_in_top_projects": 1.0,
+      "already_selected": true
+    },
+    {
+      "name": "Entertainment & Media",
+      "description": "Covers applications for leisure and content creation.",
+      "combined_score": 0.6957,
+      "semantic_score": 0.7796,
+      "frequency_in_top_projects": 0.5,
+      "already_selected": true
+    },
+    {
+      "name": "Social Good & Community",
+      "description": "Relates to technology that aims to benefit society.",
+      "combined_score": 0.5782,
+      "semantic_score": 0.7545,
+      "frequency_in_top_projects": 0.16666666666666666,
+      "already_selected": true
+    }
+  ],
+  "recommended_rdia": [
+    {
+      "label": "Economies of the Future",
+      "description": "Reimagine urban living and establish Saudi Arabia as a global leader in future-oriented sectors. ",
+      "combined_score": 0.805,
+      "semantic_score": 0.7215,
+      "frequency_in_top_projects": 1.0,
+      "already_selected": true
+    },
+    {
+      "label": "Sustainable Environment & Supply of Essential Needs",
+      "description": "Secure sustainable access to water, food, and energy resources for the population and industries.",
+      "combined_score": 0.4684,
+      "semantic_score": 0.6692,
+      "frequency_in_top_projects": 0,
+      "already_selected": false
+    },
+    {
+      "label": "Health & Wellness",
+      "description": "Address prevalent health and therapeutic challenges in the Kingdom.",
+      "combined_score": 0.4584,
+      "semantic_score": 0.6073,
+      "frequency_in_top_projects": 0.1111111111111111,
+      "already_selected": false
+    },
+    {
+      "label": "Energy & Industrial Leadership",
+      "description": "Maintain and strengthen Saudi Arabia's global leadership in the energy sector while diversifying into new areas.",
+      "combined_score": 0.4376,
+      "semantic_score": 0.6251,
+      "frequency_in_top_projects": 0,
+      "already_selected": false
+    }
+  ]
+}

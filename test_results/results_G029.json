@@ -1,0 +1,537 @@
+{
+  "group_id": "G029",
+  "group_profile": {
+    "selected_interests": [
+      "Distributed Systems",
+      "Software Engineering",
+      "Database Systems",
+      "Cloud Computing",
+      "Cybersecurity",
+      "Network Systems"
+    ],
+    "selected_applications": [
+      "Security & Privacy",
+      "Government & Public Sector",
+      "Finance & Economics",
+      "Business & Productivity"
+    ],
+    "selected_rdia": [
+      "Energy & Industrial Leadership"
+    ]
+  },
+  "recommended_projects": [
+    {
+      "rank": 1,
+      "project_id": "F24-45-20",
+      "title": "Botnet Attack Detection Using Machine Learning",
+      "supervisor_name": " Fatmah Ratiyan Alanazi ",
+      "supervisor_id": "FRan",
+      "academic_year": "1445",
+      "keywords": [
+        "Botnet Detection",
+        "Machine Learning",
+        "Ensemble Learning",
+        "Voting Classifier",
+        "Internet of Things (IoT) Security",
+        "Cybersecurity",
+        "N-BaIoT Dataset",
+        "BASHLITE Botnet",
+        "Mirai Botnet",
+        "Principal Component Analysis (PCA)",
+        "Decision Tree",
+        "K-Nearest Neighbors (KNN)",
+        "Support Vector Classifier (SVC)",
+        "Network Intrusion Detection",
+        "Anomaly Detection",
+        "Class Imbalance",
+        "Resampling Techniques",
+        "Feature Extraction"
+      ],
+      "application": [
+        "Security & Privacy"
+      ],
+      "interest": [
+        "Artificial Intelligence / Machine Learning",
+        "Cybersecurity",
+        "Data Science"
+      ],
+      "rdia": [
+        "Economies of the Future"
+      ],
+      "scores": {
+        "final_score": 0.4223,
+        "semantic_sim": 0.7196,
+        "context_score": 0.25,
+        "rdia_score": 0.0,
+        "rrf_score": 0.028382
+      },
+      "explanation": "Good match with the group's background. Matches application domain(s): security & privacy."
+    },
+    {
+      "rank": 2,
+      "project_id": "F08-42-20",
+      "title": "Detecting Malicious PowerShell Scripts using Machine Learning",
+      "supervisor_name": " Wojdan Mohammed BinSaeedan",
+      "supervisor_id": "WMnS",
+      "academic_year": "1442",
+      "keywords": [
+        "PowerShell Security",
+        "Malicious Script Detection",
+        "Machine Learning",
+        "Stacked Denoising Autoencoders (SdA)",
+        "Feature Extraction",
+        "Support Vector Machine (SVM)",
+        "Gaussian Naïve Bayes",
+        "Random Forest (RF)",
+        "XGBoost",
+        "Detection Model",
+        "Cybersecurity"
+      ],
+      "application": [
+        "Security & Privacy"
+      ],
+      "interest": [
+        "Cybersecurity",
+        "Artificial Intelligence / Machine Learning"
+      ],
+      "rdia": [
+        "Economies of the Future"
+      ],
+      "scores": {
+        "final_score": 0.4164,
+        "semantic_sim": 0.7078,
+        "context_score": 0.25,
+        "rdia_score": 0.0,
+        "rrf_score": 0.027588
+      },
+      "explanation": "Good match with the group's background. Matches application domain(s): security & privacy."
+    },
+    {
+      "rank": 3,
+      "project_id": "M02-45-20",
+      "title": "Detection of Adversarial Attacks Malwares Using Machine Learning Models",
+      "supervisor_name": "Wojdan Mohammed BinSaeedan",
+      "supervisor_id": "WMnS",
+      "academic_year": "1445",
+      "keywords": [
+        "Malware Detection",
+        "Adversarial Attacks",
+        "Machine Learning",
+        "Cybersecurity",
+        "Windows Malware",
+        "Fast Gradient Sign Method (FGSM)",
+        "Adversarial Machine Learning",
+        "XGBoost",
+        "AdaBoost",
+        "Random Forest",
+        "Decision Tree",
+        "Support Vector Machine (SVM)",
+        "K-Nearest Neighbors (KNN)",
+        "Static Analysis",
+        "DLL Analysis",
+        "Robustness Evaluation",
+        "Threat Detection"
+      ],
+      "application": [
+        "Security & Privacy"
+      ],
+      "interest": [
+        "Cybersecurity",
+        "Artificial Intelligence / Machine Learning"
+      ],
+      "rdia": [
+        "Economies of the Future"
+      ],
+      "scores": {
+        "final_score": 0.4103,
+        "semantic_sim": 0.6956,
+        "context_score": 0.25,
+        "rdia_score": 0.0,
+        "rrf_score": 0.026199
+      },
+      "explanation": "Good match with the group's background. Matches application domain(s): security & privacy."
+    },
+    {
+      "rank": 4,
+      "project_id": "F02-43-10",
+      "title": "Facial Expression Recognition for Investigations",
+      "supervisor_name": "Lamees Abdullah Alhazzaa",
+      "supervisor_id": "LAha",
+      "academic_year": "1443",
+      "keywords": [
+        "Facial Expression Analysis",
+        "Non-Verbal Communication",
+        "Emotion Recognition",
+        "Computer Vision",
+        "Police Investigations",
+        "Interview Analysis",
+        "Human Behavior Analysis",
+        "Automated Facial Recognition",
+        "Deception Detection"
+      ],
+      "application": [
+        "Security & Privacy"
+      ],
+      "interest": [
+        "Computer Vision",
+        "Artificial Intelligence / Machine Learning",
+        "Cybersecurity"
+      ],
+      "rdia": [
+        "Health & Wellness"
+      ],
+      "scores": {
+        "final_score": 0.4083,
+        "semantic_sim": 0.6916,
+        "context_score": 0.25,
+        "rdia_score": 0.0,
+        "rrf_score": 0.027651
+      },
+      "explanation": "Good match with the group's background. Matches application domain(s): security & privacy."
+    },
+    {
+      "rank": 5,
+      "project_id": "F20-45-20",
+      "title": "Abnormal Event Detection for Video Surveillance (SecuritEye)",
+      "supervisor_name": " Wojdan Mohammed BinSaeedan ",
+      "supervisor_id": "WMnS",
+      "academic_year": "1445",
+      "keywords": [
+        "Abnormal Event Detection",
+        "Video Surveillance",
+        "Deep Learning",
+        "ConvLSTM",
+        "Long-term Recurrent Convolutional Networks (LRCN)",
+        "Smart Cities",
+        "Public Safety",
+        "UCF Crime Dataset",
+        "Anomaly Detection",
+        "Computer Vision",
+        "Convolutional Neural Networks (CNN)",
+        "Recurrent Neural Networks (RNN)",
+        "Long Short-Term Memory (LSTM)",
+        "Real-time Monitoring",
+        "Security Systems",
+        "Crime Detection",
+        "Video Analysis",
+        "SecuritEye"
+      ],
+      "application": [
+        "Security & Privacy"
+      ],
+      "interest": [
+        "Artificial Intelligence / Machine Learning",
+        "Computer Vision",
+        "Data Science"
+      ],
+      "rdia": [
+        "Economies of the Future"
+      ],
+      "scores": {
+        "final_score": 0.4061,
+        "semantic_sim": 0.6873,
+        "context_score": 0.25,
+        "rdia_score": 0.0,
+        "rrf_score": 0.026944
+      },
+      "explanation": "Good match with the group's background. Matches application domain(s): security & privacy."
+    },
+    {
+      "rank": 6,
+      "project_id": "F16-45-10",
+      "title": "Automatic audio files summarization System, EJAZ Website",
+      "supervisor_name": " Manal Khaled Alsabhan ",
+      "supervisor_id": "MKsa",
+      "academic_year": "1445",
+      "keywords": [
+        "Audio Summarization",
+        "Speech Recognition",
+        "Natural Language Processing (NLP)",
+        "Automatic Transcription",
+        "Text Summarization",
+        "Pegasus Model",
+        "BART Model",
+        "T5 Model",
+        "Meeting Summarization",
+        "Information Extraction",
+        "Audio Processing",
+        "Deep Learning",
+        "Collaborative Tools",
+        "Time Efficiency",
+        "Content Accessibility",
+        "Multilingual Support",
+        "Cloud Storage"
+      ],
+      "application": [
+        "Business & Productivity"
+      ],
+      "interest": [
+        "Natural Language Processing",
+        "Artificial Intelligence / Machine Learning",
+        "Web Development"
+      ],
+      "rdia": [
+        "Economies of the Future"
+      ],
+      "scores": {
+        "final_score": 0.405,
+        "semantic_sim": 0.685,
+        "context_score": 0.25,
+        "rdia_score": 0.0,
+        "rrf_score": 0.026014
+      },
+      "explanation": "Good match with the group's background. Matches application domain(s): business & productivity."
+    },
+    {
+      "rank": 7,
+      "project_id": "M05-45-20",
+      "title": "Musanif (مصنف): A Categorization and Product Information API for E-Commerce Product Images)",
+      "supervisor_name": "Sultan Shuraidah Al-dera",
+      "supervisor_id": "SSde",
+      "academic_year": "1445",
+      "keywords": [
+        "E-commerce",
+        "Image Recognition",
+        "Product Categorization",
+        "API Development",
+        "Machine Learning",
+        "AWS Rekognition",
+        "Web Scraping",
+        "Product Information Extraction",
+        "Automated Data Entry",
+        "Inventory Management",
+        "REST API",
+        "Image Classification",
+        "Product Labeling",
+        "React",
+        "Node.js",
+        "Cloud Computing",
+        "Retail Technology"
+      ],
+      "application": [
+        "Business & Productivity"
+      ],
+      "interest": [
+        "Computer Vision",
+        "Artificial Intelligence / Machine Learning",
+        "Web Development"
+      ],
+      "rdia": [
+        "Economies of the Future"
+      ],
+      "scores": {
+        "final_score": 0.4048,
+        "semantic_sim": 0.6847,
+        "context_score": 0.25,
+        "rdia_score": 0.0,
+        "rrf_score": 0.028475
+      },
+      "explanation": "Good match with the group's background. Matches application domain(s): business & productivity."
+    },
+    {
+      "rank": 8,
+      "project_id": "F06-45-10",
+      "title": "Get It: A Deep Learning Approach for Identifying and Discriminating Spoken Arabic Among English",
+      "supervisor_name": "Wojdan Mohammed BinSaeedan",
+      "supervisor_id": "WMnS",
+      "academic_year": "1445",
+      "keywords": [
+        "Language Identification",
+        "Spoken Language Recognition",
+        "Deep Learning",
+        "Arabic Speech Recognition",
+        "English Speech Recognition",
+        "Multilingual Systems",
+        "Customer Service Automation",
+        "ECAPA-TDNN",
+        "SpeechBrain",
+        "Convolutional Neural Network (CNN)",
+        "Recurrent Neural Network (RNN)",
+        "Capsule Network (CapsNet)",
+        "Natural Language Processing (NLP)",
+        "Voice Analysis",
+        "Mozilla Common Voice Dataset",
+        "Real-time Speech Processing",
+        "Call Center Automation",
+        "Audio Processing"
+      ],
+      "application": [
+        "Business & Productivity"
+      ],
+      "interest": [
+        "Artificial Intelligence / Machine Learning",
+        "Natural Language Processing"
+      ],
+      "rdia": [
+        "Economies of the Future"
+      ],
+      "scores": {
+        "final_score": 0.4004,
+        "semantic_sim": 0.6758,
+        "context_score": 0.25,
+        "rdia_score": 0.0,
+        "rrf_score": 0.027433
+      },
+      "explanation": "Good match with the group's background. Matches application domain(s): business & productivity."
+    },
+    {
+      "rank": 9,
+      "project_id": "F07-42-10",
+      "title": "Text Similarity Search with Application to kNN Classifier",
+      "supervisor_name": " Meznah Rashid Almutairy ",
+      "supervisor_id": "MRmu",
+      "academic_year": "1442",
+      "keywords": [
+        "Patent Analysis",
+        "Document Similarity",
+        "Text Representation",
+        "Vectorization Methods",
+        "Similarity Measures",
+        "KNN Classification",
+        "Text Classification"
+      ],
+      "application": [
+        "Business & Productivity"
+      ],
+      "interest": [
+        "Artificial Intelligence / Machine Learning",
+        "Natural Language Processing",
+        "Data Science"
+      ],
+      "rdia": [
+        "Economies of the Future"
+      ],
+      "scores": {
+        "final_score": 0.3936,
+        "semantic_sim": 0.6622,
+        "context_score": 0.25,
+        "rdia_score": 0.0,
+        "rrf_score": 0.024585
+      },
+      "explanation": "Good match with the group's background. Matches application domain(s): business & productivity."
+    },
+    {
+      "rank": 10,
+      "project_id": "F08-45-20",
+      "title": "XIPHER: Visualization Tool for Security Algorithms",
+      "supervisor_name": " Tahani Fahad Albalawi",
+      "supervisor_id": "TFba",
+      "academic_year": "1445",
+      "keywords": [
+        "Security Algorithms",
+        "Algorithm Visualization",
+        "Security Education",
+        "Usability Evaluation",
+        "Human-Computer Interaction (HCI)",
+        "Educational Web Platform",
+        "Visualization Tools",
+        "User Experience (UX)"
+      ],
+      "application": [
+        "Education"
+      ],
+      "interest": [
+        "Cybersecurity",
+        "Web Development",
+        "Human-Computer Interaction"
+      ],
+      "rdia": [
+        "Economies of the Future"
+      ],
+      "scores": {
+        "final_score": 0.3921,
+        "semantic_sim": 0.7842,
+        "context_score": 0.0,
+        "rdia_score": 0.0,
+        "rrf_score": 0.016393
+      },
+      "explanation": "Highly similar to the group's profile."
+    }
+  ],
+  "recommended_interests": [
+    {
+      "name": "Web Development",
+      "description": "Covers the design and implementation of websites and web applications, including frontend, backend, and full‑stack development.",
+      "combined_score": 0.8137,
+      "semantic_score": 0.7338,
+      "frequency_in_top_projects": 1.0,
+      "already_selected": false
+    },
+    {
+      "name": "Cybersecurity",
+      "description": "Deals with protecting systems, networks, and data from attacks, vulnerabilities, and unauthorized access.",
+      "combined_score": 0.8116,
+      "semantic_score": 0.8737,
+      "frequency_in_top_projects": 0.6666666666666666,
+      "already_selected": true
+    },
+    {
+      "name": "Artificial Intelligence / Machine Learning",
+      "description": "Focuses on building systems that learn from data, make predictions, and perform intelligent tasks without explicit programming.",
+      "combined_score": 0.7289,
+      "semantic_score": 0.7556,
+      "frequency_in_top_projects": 0.6666666666666666,
+      "already_selected": false
+    }
+  ],
+  "recommended_applications": [
+    {
+      "name": "Education",
+      "description": "Focuses on systems and applications for learning, teaching, and academic support.",
+      "combined_score": 0.8204,
+      "semantic_score": 0.7434,
+      "frequency_in_top_projects": 1.0,
+      "already_selected": false
+    },
+    {
+      "name": "Security & Privacy",
+      "description": "Pertains to protecting data, networks, and systems from unauthorized access.",
+      "combined_score": 0.6603,
+      "semantic_score": 0.8361,
+      "frequency_in_top_projects": 0.25,
+      "already_selected": true
+    },
+    {
+      "name": "Entertainment & Media",
+      "description": "Covers applications for leisure and content creation.",
+      "combined_score": 0.6022,
+      "semantic_score": 0.646,
+      "frequency_in_top_projects": 0.5,
+      "already_selected": false
+    }
+  ],
+  "recommended_rdia": [
+    {
+      "label": "Economies of the Future",
+      "description": "Reimagine urban living and establish Saudi Arabia as a global leader in future-oriented sectors. ",
+      "combined_score": 0.7658,
+      "semantic_score": 0.6654,
+      "frequency_in_top_projects": 1.0,
+      "already_selected": false
+    },
+    {
+      "label": "Sustainable Environment & Supply of Essential Needs",
+      "description": "Secure sustainable access to water, food, and energy resources for the population and industries.",
+      "combined_score": 0.5221,
+      "semantic_score": 0.6922,
+      "frequency_in_top_projects": 0.125,
+      "already_selected": false
+    },
+    {
+      "label": "Energy & Industrial Leadership",
+      "description": "Maintain and strengthen Saudi Arabia's global leadership in the energy sector while diversifying into new areas.",
+      "combined_score": 0.4802,
+      "semantic_score": 0.686,
+      "frequency_in_top_projects": 0,
+      "already_selected": true
+    },
+    {
+      "label": "Health & Wellness",
+      "description": "Address prevalent health and therapeutic challenges in the Kingdom.",
+      "combined_score": 0.4344,
+      "semantic_score": 0.5669,
+      "frequency_in_top_projects": 0.125,
+      "already_selected": false
+    }
+  ]
+}

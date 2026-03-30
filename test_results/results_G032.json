@@ -1,0 +1,511 @@
+{
+  "group_id": "G032",
+  "group_profile": {
+    "selected_interests": [
+      "Internet of Things (IoT)",
+      "Distributed Systems",
+      "Bioinformatics",
+      "Artificial Intelligence / Machine Learning",
+      "Cybersecurity",
+      "Network Systems"
+    ],
+    "selected_applications": [
+      "Security & Privacy",
+      "Finance & Economics",
+      "Healthcare / Medical",
+      "Sustainability & Environment"
+    ],
+    "selected_rdia": [
+      "Energy & Industrial Leadership",
+      "Health & Wellness",
+      "Sustainable Environment & Supply of Essential Needs"
+    ]
+  },
+  "recommended_projects": [
+    {
+      "rank": 1,
+      "project_id": "F07-45-10",
+      "title": "Secure Healthcare Information Exchange Platform ‘KEEP SAFE’",
+      "supervisor_name": "Eman AbdulHamid Alzaid",
+      "supervisor_id": "EAza",
+      "academic_year": "1445",
+      "keywords": [
+        "Electronic Medical Records (EMR)",
+        "Blockchain Technology",
+        "Healthcare Information Systems",
+        "Secure Medical Data Sharing",
+        "Decentralized Data Protection",
+        "Patient Data Privacy",
+        "EMR Exchange Scheme",
+        "Digital Identity Verification",
+        "Healthcare Cybersecurity"
+      ],
+      "application": [
+        "Healthcare / Medical"
+      ],
+      "interest": [
+        "Blockchain",
+        "Cybersecurity",
+        "Mobile Development"
+      ],
+      "rdia": [
+        "Health & Wellness"
+      ],
+      "scores": {
+        "final_score": 0.5248,
+        "semantic_sim": 0.7579,
+        "context_score": 0.25,
+        "rdia_score": 0.3333,
+        "rrf_score": 0.030835
+      },
+      "explanation": "Highly similar to the group's profile. Matches application domain(s): healthcare / medical. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 2,
+      "project_id": "F02-43-10",
+      "title": "Facial Expression Recognition for Investigations",
+      "supervisor_name": "Lamees Abdullah Alhazzaa",
+      "supervisor_id": "LAha",
+      "academic_year": "1443",
+      "keywords": [
+        "Facial Expression Analysis",
+        "Non-Verbal Communication",
+        "Emotion Recognition",
+        "Computer Vision",
+        "Police Investigations",
+        "Interview Analysis",
+        "Human Behavior Analysis",
+        "Automated Facial Recognition",
+        "Deception Detection"
+      ],
+      "application": [
+        "Security & Privacy"
+      ],
+      "interest": [
+        "Computer Vision",
+        "Artificial Intelligence / Machine Learning",
+        "Cybersecurity"
+      ],
+      "rdia": [
+        "Health & Wellness"
+      ],
+      "scores": {
+        "final_score": 0.5013,
+        "semantic_sim": 0.711,
+        "context_score": 0.25,
+        "rdia_score": 0.3333,
+        "rrf_score": 0.027619
+      },
+      "explanation": "Good match with the group's background. Matches application domain(s): security & privacy. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 3,
+      "project_id": "F03-45-10",
+      "title": "Energy-aware Multi-Object Detection and Compression in WMSN",
+      "supervisor_name": " Manal Khaled Alsabhan ",
+      "supervisor_id": "MKsa",
+      "academic_year": "1445",
+      "keywords": [
+        "Wireless Multimedia Sensor Networks (WMSNs)",
+        "Wireless Sensor Networks (WSNs)",
+        "Multimedia",
+        "Recognition of Interest",
+        "Feature Extraction"
+      ],
+      "application": [
+        "Sustainability & Environment"
+      ],
+      "interest": [
+        "Internet of Things (IoT)",
+        "Computer Vision",
+        "Embedded Systems"
+      ],
+      "rdia": [
+        "Sustainable Environment & Supply of Essential Needs"
+      ],
+      "scores": {
+        "final_score": 0.4973,
+        "semantic_sim": 0.7029,
+        "context_score": 0.25,
+        "rdia_score": 0.3333,
+        "rrf_score": 0.029214
+      },
+      "explanation": "Good match with the group's background. Matches application domain(s): sustainability & environment. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 4,
+      "project_id": "F01-45-20",
+      "title": "Baasyir:A YOLO Based approach to Assist Visually  Impaired People by leveraging Smart Glasses System",
+      "supervisor_name": "Dhouha Ahmed Ben Noureddine",
+      "supervisor_id": "DAur",
+      "academic_year": "1445",
+      "keywords": [
+        "Baasyir Smart glasseses",
+        "Deep Learning",
+        "Object Detection",
+        "YOLOv7",
+        "YOLOv7-tiny",
+        "Baasyir dataset",
+        "Furniture-detection dataset",
+        "Raspberry Pi"
+      ],
+      "application": [
+        "Healthcare / Medical"
+      ],
+      "interest": [
+        "Computer Vision",
+        "Embedded Systems",
+        "Artificial Intelligence / Machine Learning"
+      ],
+      "rdia": [
+        "Health & Wellness"
+      ],
+      "scores": {
+        "final_score": 0.4921,
+        "semantic_sim": 0.6924,
+        "context_score": 0.25,
+        "rdia_score": 0.3333,
+        "rrf_score": 0.025278
+      },
+      "explanation": "Good match with the group's background. Matches application domain(s): healthcare / medical. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 5,
+      "project_id": "F05-45-10",
+      "title": "Visualize: A Software Tool for Visualizing the Impact of Climate Change on Cities",
+      "supervisor_name": "Waad Mohammed Alhoshan, Tasniem Nasser Alyahya",
+      "supervisor_id": "WMho, TNya",
+      "academic_year": "1445",
+      "keywords": [
+        "Climate Change Visualization",
+        "Artificial Intelligence (AI)",
+        "Deep Learning",
+        "Cycle-Consistent Generative Adversarial Network (Cycle-GAN)",
+        "Image Processing",
+        "Computer Vision",
+        "Public Awareness",
+        "Environmental Education",
+        "Urban Impact",
+        "Sandstorm Visualization",
+        "AI Bot",
+        "DeepAI",
+        "Climate Communication",
+        "Global Warming",
+        "Sustainable Communities",
+        "Image Generation"
+      ],
+      "application": [
+        "Sustainability & Environment"
+      ],
+      "interest": [
+        "Artificial Intelligence / Machine Learning",
+        "Computer Vision",
+        "Data Science"
+      ],
+      "rdia": [
+        "Sustainable Environment & Supply of Essential Needs"
+      ],
+      "scores": {
+        "final_score": 0.4912,
+        "semantic_sim": 0.6907,
+        "context_score": 0.25,
+        "rdia_score": 0.3333,
+        "rrf_score": 0.027501
+      },
+      "explanation": "Good match with the group's background. Matches application domain(s): sustainability & environment. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 6,
+      "project_id": "F29-45-20",
+      "title": "Hudhud: AI-based Remote Rehabilitation",
+      "supervisor_name": " Manan Mohammed Almusallam ",
+      "supervisor_id": "MMmu",
+      "academic_year": "1445",
+      "keywords": [
+        "Remote Rehabilitation",
+        "Artificial Intelligence",
+        "Pose Estimation",
+        "Computer Vision",
+        "Mediapipe",
+        "Physical Therapy",
+        "Healthcare Technology",
+        "Exercise Monitoring",
+        "Real-time Feedback",
+        "Patient Progress Tracking",
+        "Telerehabilitation",
+        "Knee Rehabilitation",
+        "Motion Detection",
+        "Body Posture Analysis",
+        "Injury Prevention",
+        "Therapeutic Exercises"
+      ],
+      "application": [
+        "Healthcare / Medical"
+      ],
+      "interest": [
+        "Artificial Intelligence / Machine Learning",
+        "Computer Vision",
+        "Human-Computer Interaction"
+      ],
+      "rdia": [
+        "Health & Wellness"
+      ],
+      "scores": {
+        "final_score": 0.4911,
+        "semantic_sim": 0.6905,
+        "context_score": 0.25,
+        "rdia_score": 0.3333,
+        "rrf_score": 0.024481
+      },
+      "explanation": "Good match with the group's background. Matches application domain(s): healthcare / medical. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 7,
+      "project_id": "F01-43-10",
+      "title": "Treatment of stuttering problems in children Application - TSA",
+      "supervisor_name": "Amal Suleiman Alsaif",
+      "supervisor_id": "ASsa",
+      "academic_year": "1443",
+      "keywords": [
+        "Treatment",
+        "Speech",
+        "Recognition",
+        "Stuttering",
+        "Application",
+        "Therapist",
+        "Analyze",
+        "Error findings",
+        "Speech problems",
+        "Children"
+      ],
+      "application": [
+        "Healthcare / Medical"
+      ],
+      "interest": [
+        "Artificial Intelligence / Machine Learning",
+        "Natural Language Processing",
+        "Mobile Development"
+      ],
+      "rdia": [
+        "Health & Wellness"
+      ],
+      "scores": {
+        "final_score": 0.4896,
+        "semantic_sim": 0.6875,
+        "context_score": 0.25,
+        "rdia_score": 0.3333,
+        "rrf_score": 0.025
+      },
+      "explanation": "Good match with the group's background. Matches application domain(s): healthcare / medical. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 8,
+      "project_id": "M04-45-10",
+      "title": "Smart Car Parking Manager (SCPM)",
+      "supervisor_name": " Mostafa Elsayed Ahmed Ibrahim",
+      "supervisor_id": "MEra",
+      "academic_year": "1445",
+      "keywords": [
+        "Smart Parking System",
+        "Parking Management",
+        "Raspberry Pi",
+        "Sensor-Based Detection",
+        "License Plate Recognition",
+        "Computer Vision",
+        "Web Application",
+        "SQL Database",
+        "Real-Time Monitoring",
+        "Agile Development"
+      ],
+      "application": [
+        "Transportation & Mobility"
+      ],
+      "interest": [
+        "Computer Vision",
+        "Internet of Things (IoT)",
+        "Embedded Systems"
+      ],
+      "rdia": [
+        "Sustainable Environment & Supply of Essential Needs"
+      ],
+      "scores": {
+        "final_score": 0.4587,
+        "semantic_sim": 0.7507,
+        "context_score": 0.0,
+        "rdia_score": 0.3333,
+        "rrf_score": 0.031754
+      },
+      "explanation": "Highly similar to the group's profile. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 9,
+      "project_id": "M10-45-10",
+      "title": "School Bus Tracking and Management system",
+      "supervisor_name": "Ahmed Mohammed Ahmed Gadallah",
+      "supervisor_id": "AMda",
+      "academic_year": "1445",
+      "keywords": [
+        "School Bus Tracking",
+        "Student Transportation Management",
+        "Real-Time Location Tracking",
+        "Route Optimization",
+        "Google Maps API",
+        "Parent Notifications",
+        "Operational Efficiency",
+        "User-Friendly Interface"
+      ],
+      "application": [
+        "Transportation & Mobility"
+      ],
+      "interest": [
+        "Internet of Things (IoT)",
+        "Mobile Development",
+        "Web Development"
+      ],
+      "rdia": [
+        "Sustainable Environment & Supply of Essential Needs"
+      ],
+      "scores": {
+        "final_score": 0.4398,
+        "semantic_sim": 0.713,
+        "context_score": 0.0,
+        "rdia_score": 0.3333,
+        "rrf_score": 0.029139
+      },
+      "explanation": "Good match with the group's background. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 10,
+      "project_id": "F24-45-20",
+      "title": "Botnet Attack Detection Using Machine Learning",
+      "supervisor_name": " Fatmah Ratiyan Alanazi ",
+      "supervisor_id": "FRan",
+      "academic_year": "1445",
+      "keywords": [
+        "Botnet Detection",
+        "Machine Learning",
+        "Ensemble Learning",
+        "Voting Classifier",
+        "Internet of Things (IoT) Security",
+        "Cybersecurity",
+        "N-BaIoT Dataset",
+        "BASHLITE Botnet",
+        "Mirai Botnet",
+        "Principal Component Analysis (PCA)",
+        "Decision Tree",
+        "K-Nearest Neighbors (KNN)",
+        "Support Vector Classifier (SVC)",
+        "Network Intrusion Detection",
+        "Anomaly Detection",
+        "Class Imbalance",
+        "Resampling Techniques",
+        "Feature Extraction"
+      ],
+      "application": [
+        "Security & Privacy"
+      ],
+      "interest": [
+        "Artificial Intelligence / Machine Learning",
+        "Cybersecurity",
+        "Data Science"
+      ],
+      "rdia": [
+        "Economies of the Future"
+      ],
+      "scores": {
+        "final_score": 0.429,
+        "semantic_sim": 0.733,
+        "context_score": 0.25,
+        "rdia_score": 0.0,
+        "rrf_score": 0.030536
+      },
+      "explanation": "Good match with the group's background. Matches application domain(s): security & privacy."
+    }
+  ],
+  "recommended_interests": [
+    {
+      "name": "Cybersecurity",
+      "description": "Deals with protecting systems, networks, and data from attacks, vulnerabilities, and unauthorized access.",
+      "combined_score": 0.8412,
+      "semantic_score": 0.8589,
+      "frequency_in_top_projects": 0.8,
+      "already_selected": true
+    },
+    {
+      "name": "Web Development",
+      "description": "Covers the design and implementation of websites and web applications, including frontend, backend, and full‑stack development.",
+      "combined_score": 0.8129,
+      "semantic_score": 0.7327,
+      "frequency_in_top_projects": 1.0,
+      "already_selected": false
+    },
+    {
+      "name": "Artificial Intelligence / Machine Learning",
+      "description": "Focuses on building systems that learn from data, make predictions, and perform intelligent tasks without explicit programming.",
+      "combined_score": 0.8107,
+      "semantic_score": 0.8152,
+      "frequency_in_top_projects": 0.8,
+      "already_selected": true
+    }
+  ],
+  "recommended_applications": [
+    {
+      "name": "Education",
+      "description": "Focuses on systems and applications for learning, teaching, and academic support.",
+      "combined_score": 0.8356,
+      "semantic_score": 0.7651,
+      "frequency_in_top_projects": 1.0,
+      "already_selected": false
+    },
+    {
+      "name": "Security & Privacy",
+      "description": "Pertains to protecting data, networks, and systems from unauthorized access.",
+      "combined_score": 0.6475,
+      "semantic_score": 0.8179,
+      "frequency_in_top_projects": 0.25,
+      "already_selected": true
+    },
+    {
+      "name": "Entertainment & Media",
+      "description": "Covers applications for leisure and content creation.",
+      "combined_score": 0.606,
+      "semantic_score": 0.6514,
+      "frequency_in_top_projects": 0.5,
+      "already_selected": false
+    }
+  ],
+  "recommended_rdia": [
+    {
+      "label": "Economies of the Future",
+      "description": "Reimagine urban living and establish Saudi Arabia as a global leader in future-oriented sectors. ",
+      "combined_score": 0.7613,
+      "semantic_score": 0.659,
+      "frequency_in_top_projects": 1.0,
+      "already_selected": false
+    },
+    {
+      "label": "Sustainable Environment & Supply of Essential Needs",
+      "description": "Secure sustainable access to water, food, and energy resources for the population and industries.",
+      "combined_score": 0.5454,
+      "semantic_score": 0.7256,
+      "frequency_in_top_projects": 0.125,
+      "already_selected": true
+    },
+    {
+      "label": "Health & Wellness",
+      "description": "Address prevalent health and therapeutic challenges in the Kingdom.",
+      "combined_score": 0.4644,
+      "semantic_score": 0.6099,
+      "frequency_in_top_projects": 0.125,
+      "already_selected": true
+    },
+    {
+      "label": "Energy & Industrial Leadership",
+      "description": "Maintain and strengthen Saudi Arabia's global leadership in the energy sector while diversifying into new areas.",
+      "combined_score": 0.4518,
+      "semantic_score": 0.6454,
+      "frequency_in_top_projects": 0,
+      "already_selected": true
+    }
+  ]
+}

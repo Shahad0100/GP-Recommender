@@ -1,0 +1,523 @@
+{
+  "group_id": "G035",
+  "group_profile": {
+    "selected_interests": [
+      "Internet of Things (IoT)",
+      "Robotics",
+      "Embedded Systems",
+      "Data Science",
+      "Natural Language Processing",
+      "Drones"
+    ],
+    "selected_applications": [
+      "Education",
+      "Transportation & Mobility",
+      "Sustainability & Environment"
+    ],
+    "selected_rdia": [
+      "Energy & Industrial Leadership",
+      "Health & Wellness",
+      "Sustainable Environment & Supply of Essential Needs"
+    ]
+  },
+  "recommended_projects": [
+    {
+      "rank": 1,
+      "project_id": "M04-45-10",
+      "title": "Smart Car Parking Manager (SCPM)",
+      "supervisor_name": " Mostafa Elsayed Ahmed Ibrahim",
+      "supervisor_id": "MEra",
+      "academic_year": "1445",
+      "keywords": [
+        "Smart Parking System",
+        "Parking Management",
+        "Raspberry Pi",
+        "Sensor-Based Detection",
+        "License Plate Recognition",
+        "Computer Vision",
+        "Web Application",
+        "SQL Database",
+        "Real-Time Monitoring",
+        "Agile Development"
+      ],
+      "application": [
+        "Transportation & Mobility"
+      ],
+      "interest": [
+        "Computer Vision",
+        "Internet of Things (IoT)",
+        "Embedded Systems"
+      ],
+      "rdia": [
+        "Sustainable Environment & Supply of Essential Needs"
+      ],
+      "scores": {
+        "final_score": 0.5518,
+        "semantic_sim": 0.7703,
+        "context_score": 0.3333,
+        "rdia_score": 0.3333,
+        "rrf_score": 0.032258
+      },
+      "explanation": "Highly similar to the group's profile. Matches application domain(s): transportation & mobility. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 2,
+      "project_id": "M10-45-10",
+      "title": "School Bus Tracking and Management system",
+      "supervisor_name": "Ahmed Mohammed Ahmed Gadallah",
+      "supervisor_id": "AMda",
+      "academic_year": "1445",
+      "keywords": [
+        "School Bus Tracking",
+        "Student Transportation Management",
+        "Real-Time Location Tracking",
+        "Route Optimization",
+        "Google Maps API",
+        "Parent Notifications",
+        "Operational Efficiency",
+        "User-Friendly Interface"
+      ],
+      "application": [
+        "Transportation & Mobility"
+      ],
+      "interest": [
+        "Internet of Things (IoT)",
+        "Mobile Development",
+        "Web Development"
+      ],
+      "rdia": [
+        "Sustainable Environment & Supply of Essential Needs"
+      ],
+      "scores": {
+        "final_score": 0.5461,
+        "semantic_sim": 0.759,
+        "context_score": 0.3333,
+        "rdia_score": 0.3333,
+        "rrf_score": 0.031746
+      },
+      "explanation": "Highly similar to the group's profile. Matches application domain(s): transportation & mobility. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 3,
+      "project_id": "F04-45-10",
+      "title": "Baseera بصيرة : Accessible Mobile App for Blind Children",
+      "supervisor_name": " Manan Mohammed Almusallam ",
+      "supervisor_id": "MMmu",
+      "academic_year": "1445",
+      "keywords": [
+        "Accessible Mobile Application",
+        "Blind Children",
+        "Visual Impairment",
+        "Assistive Technology",
+        "Educational Game",
+        "Arabic Language Support",
+        "Preschool Education",
+        "Audio Feedback",
+        "Numbers Learning",
+        "Counting Skills",
+        "Inclusive Design",
+        "Accessibility Standards",
+        "Child Development",
+        "Habilitation",
+        "Touch-screen Accessibility"
+      ],
+      "application": [
+        "Education"
+      ],
+      "interest": [
+        "Human-Computer Interaction",
+        "Mobile Development"
+      ],
+      "rdia": [
+        "Health & Wellness"
+      ],
+      "scores": {
+        "final_score": 0.5282,
+        "semantic_sim": 0.723,
+        "context_score": 0.3333,
+        "rdia_score": 0.3333,
+        "rrf_score": 0.026199
+      },
+      "explanation": "Good match with the group's background. Matches application domain(s): education. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 4,
+      "project_id": "F03-45-10",
+      "title": "Energy-aware Multi-Object Detection and Compression in WMSN",
+      "supervisor_name": " Manal Khaled Alsabhan ",
+      "supervisor_id": "MKsa",
+      "academic_year": "1445",
+      "keywords": [
+        "Wireless Multimedia Sensor Networks (WMSNs)",
+        "Wireless Sensor Networks (WSNs)",
+        "Multimedia",
+        "Recognition of Interest",
+        "Feature Extraction"
+      ],
+      "application": [
+        "Sustainability & Environment"
+      ],
+      "interest": [
+        "Internet of Things (IoT)",
+        "Computer Vision",
+        "Embedded Systems"
+      ],
+      "rdia": [
+        "Sustainable Environment & Supply of Essential Needs"
+      ],
+      "scores": {
+        "final_score": 0.526,
+        "semantic_sim": 0.7186,
+        "context_score": 0.3333,
+        "rdia_score": 0.3333,
+        "rrf_score": 0.029907
+      },
+      "explanation": "Good match with the group's background. Matches application domain(s): sustainability & environment. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 5,
+      "project_id": "F05-45-10",
+      "title": "Visualize: A Software Tool for Visualizing the Impact of Climate Change on Cities",
+      "supervisor_name": "Waad Mohammed Alhoshan, Tasniem Nasser Alyahya",
+      "supervisor_id": "WMho, TNya",
+      "academic_year": "1445",
+      "keywords": [
+        "Climate Change Visualization",
+        "Artificial Intelligence (AI)",
+        "Deep Learning",
+        "Cycle-Consistent Generative Adversarial Network (Cycle-GAN)",
+        "Image Processing",
+        "Computer Vision",
+        "Public Awareness",
+        "Environmental Education",
+        "Urban Impact",
+        "Sandstorm Visualization",
+        "AI Bot",
+        "DeepAI",
+        "Climate Communication",
+        "Global Warming",
+        "Sustainable Communities",
+        "Image Generation"
+      ],
+      "application": [
+        "Sustainability & Environment"
+      ],
+      "interest": [
+        "Artificial Intelligence / Machine Learning",
+        "Computer Vision",
+        "Data Science"
+      ],
+      "rdia": [
+        "Sustainable Environment & Supply of Essential Needs"
+      ],
+      "scores": {
+        "final_score": 0.5258,
+        "semantic_sim": 0.7182,
+        "context_score": 0.3333,
+        "rdia_score": 0.3333,
+        "rrf_score": 0.028783
+      },
+      "explanation": "Good match with the group's background. Matches application domain(s): sustainability & environment. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 6,
+      "project_id": "F04-45-20",
+      "title": "CCIS Student Assistant Chatbot",
+      "supervisor_name": "Ahmed Mohammed Ahmed Gadallah",
+      "supervisor_id": "AMda",
+      "academic_year": "1445",
+      "keywords": [
+        "Educational Chatbot",
+        "Natural Language Processing (NLP)",
+        "Student Support System",
+        "Higher Education",
+        "FAISS",
+        "Falcon-Instructor LLM",
+        "Information Retrieval",
+        "Academic Advising",
+        "FAQ Automation",
+        "Course Management",
+        "Professor Information",
+        "Virtual Assistant",
+        "College of Computer and Information Sciences (CCIS)",
+        "Imam Muhammad Ibn Saud Islamic University",
+        "Student Services"
+      ],
+      "application": [
+        "Education"
+      ],
+      "interest": [
+        "Natural Language Processing",
+        "Artificial Intelligence / Machine Learning"
+      ],
+      "rdia": [
+        "Economies of the Future"
+      ],
+      "scores": {
+        "final_score": 0.4716,
+        "semantic_sim": 0.7766,
+        "context_score": 0.3333,
+        "rdia_score": 0.0,
+        "rrf_score": 0.028158
+      },
+      "explanation": "Highly similar to the group's profile. Matches application domain(s): education."
+    },
+    {
+      "rank": 7,
+      "project_id": "F06-42-20",
+      "title": "Developing A Web Application for Automatic Code Generation",
+      "supervisor_name": " Aram Saleh Al-Sedrani ",
+      "supervisor_id": "ASSe",
+      "academic_year": "1442",
+      "keywords": [
+        "Automatic Code Generation",
+        "ACG",
+        "software development",
+        "web application",
+        "Python",
+        "Java",
+        "XML parser",
+        "flowchart",
+        "algorithms",
+        "GUI"
+      ],
+      "application": [
+        "Education"
+      ],
+      "interest": [
+        "Artificial Intelligence / Machine Learning",
+        "Web Development",
+        "Software Engineering"
+      ],
+      "rdia": [
+        "Economies of the Future"
+      ],
+      "scores": {
+        "final_score": 0.4597,
+        "semantic_sim": 0.7528,
+        "context_score": 0.3333,
+        "rdia_score": 0.0,
+        "rrf_score": 0.015625
+      },
+      "explanation": "Highly similar to the group's profile. Matches application domain(s): education."
+    },
+    {
+      "rank": 8,
+      "project_id": "F22-45-20",
+      "title": "Smart Attendance Management System Using iBeacon Technology (حضورك)",
+      "supervisor_name": " Tahani Fahad Albalawi",
+      "supervisor_id": "TFba",
+      "academic_year": "1445",
+      "keywords": [
+        "Attendance Management System",
+        "iBeacon Technology",
+        "Bluetooth Low Energy (BLE)",
+        "Mobile Application",
+        "Automated Attendance",
+        "Educational Technology",
+        "Real-time Tracking",
+        "Student Authentication",
+        "Location Verification",
+        "Signal Processing",
+        "User Interface Design",
+        "Data Analytics",
+        "Higher Education",
+        "Proximity Detection",
+        "Hudurk",
+        "Classroom Management",
+        "Smart Campus"
+      ],
+      "application": [
+        "Education"
+      ],
+      "interest": [
+        "Mobile Development",
+        "Human-Computer Interaction",
+        "Internet of Things (IoT)"
+      ],
+      "rdia": [
+        "Economies of the Future"
+      ],
+      "scores": {
+        "final_score": 0.4534,
+        "semantic_sim": 0.7401,
+        "context_score": 0.3333,
+        "rdia_score": 0.0,
+        "rrf_score": 0.030077
+      },
+      "explanation": "Good match with the group's background. Matches application domain(s): education."
+    },
+    {
+      "rank": 9,
+      "project_id": "F28-45-20",
+      "title": "AI-trip planner and advisor",
+      "supervisor_name": " Raad Abdullah Alturki",
+      "supervisor_id": "RAtu",
+      "academic_year": "1445",
+      "keywords": [
+        "AI Trip Planner",
+        "Travel Advisor",
+        "Personalized Itinerary",
+        "Artificial Intelligence",
+        "Recommendation System",
+        "Smart Assistant",
+        "Travel Planning",
+        "Budget Optimization",
+        "User Preferences",
+        "Multilingual Support",
+        "Arabic Language",
+        "English Language",
+        "Real-time Guidance",
+        "Chatbot",
+        "Travel Technology",
+        "Itinerary Generation",
+        "PDF Export",
+        "Tourism"
+      ],
+      "application": [
+        "Transportation & Mobility"
+      ],
+      "interest": [
+        "Artificial Intelligence / Machine Learning",
+        "Natural Language Processing",
+        "Web Development"
+      ],
+      "rdia": [
+        "Economies of the Future"
+      ],
+      "scores": {
+        "final_score": 0.4523,
+        "semantic_sim": 0.7379,
+        "context_score": 0.3333,
+        "rdia_score": 0.0,
+        "rrf_score": 0.029631
+      },
+      "explanation": "Good match with the group's background. Matches application domain(s): transportation & mobility."
+    },
+    {
+      "rank": 10,
+      "project_id": "M02-45-10",
+      "title": "Automated Attendance System Using Facial Recognition (FRA)",
+      "supervisor_name": "Hachemi Ahmed Nasser",
+      "supervisor_id": "HAss",
+      "academic_year": "1445",
+      "keywords": [
+        "Facial Recognition",
+        "Automated Attendance System",
+        "Computer Vision",
+        "Raspberry Pi",
+        "Image Processing",
+        "Database Management",
+        "Web Application",
+        "Educational Technology",
+        "Biometric Authentication",
+        "Real-Time Recognition"
+      ],
+      "application": [
+        "Education"
+      ],
+      "interest": [
+        "Computer Vision",
+        "Artificial Intelligence / Machine Learning",
+        "Embedded Systems"
+      ],
+      "rdia": [
+        "Economies of the Future"
+      ],
+      "scores": {
+        "final_score": 0.4477,
+        "semantic_sim": 0.7287,
+        "context_score": 0.3333,
+        "rdia_score": 0.0,
+        "rrf_score": 0.025397
+      },
+      "explanation": "Good match with the group's background. Matches application domain(s): education."
+    }
+  ],
+  "recommended_interests": [
+    {
+      "name": "Artificial Intelligence / Machine Learning",
+      "description": "Focuses on building systems that learn from data, make predictions, and perform intelligent tasks without explicit programming.",
+      "combined_score": 0.8811,
+      "semantic_score": 0.8302,
+      "frequency_in_top_projects": 1.0,
+      "already_selected": false
+    },
+    {
+      "name": "Natural Language Processing",
+      "description": "Deals with enabling computers to understand, interpret, and generate human language in text or speech form.",
+      "combined_score": 0.7056,
+      "semantic_score": 0.7632,
+      "frequency_in_top_projects": 0.5714285714285714,
+      "already_selected": true
+    },
+    {
+      "name": "Internet of Things (IoT)",
+      "description": "Focuses on connecting physical devices to the internet to collect, exchange, and analyze data for automation and smart systems.",
+      "combined_score": 0.7037,
+      "semantic_score": 0.8216,
+      "frequency_in_top_projects": 0.42857142857142855,
+      "already_selected": true
+    }
+  ],
+  "recommended_applications": [
+    {
+      "name": "Education",
+      "description": "Focuses on systems and applications for learning, teaching, and academic support.",
+      "combined_score": 0.8536,
+      "semantic_score": 0.7909,
+      "frequency_in_top_projects": 1.0,
+      "already_selected": true
+    },
+    {
+      "name": "Transportation & Mobility",
+      "description": "Pertains to technology related to the movement of people and goods.",
+      "combined_score": 0.744,
+      "semantic_score": 0.7414,
+      "frequency_in_top_projects": 0.75,
+      "already_selected": true
+    },
+    {
+      "name": "Business & Productivity",
+      "description": "Involves the application of computing to enhance business operations.",
+      "combined_score": 0.6721,
+      "semantic_score": 0.7459,
+      "frequency_in_top_projects": 0.5,
+      "already_selected": false
+    }
+  ],
+  "recommended_rdia": [
+    {
+      "label": "Economies of the Future",
+      "description": "Reimagine urban living and establish Saudi Arabia as a global leader in future-oriented sectors. ",
+      "combined_score": 0.774,
+      "semantic_score": 0.6772,
+      "frequency_in_top_projects": 1.0,
+      "already_selected": false
+    },
+    {
+      "label": "Sustainable Environment & Supply of Essential Needs",
+      "description": "Secure sustainable access to water, food, and energy resources for the population and industries.",
+      "combined_score": 0.5814,
+      "semantic_score": 0.7234,
+      "frequency_in_top_projects": 0.25,
+      "already_selected": true
+    },
+    {
+      "label": "Energy & Industrial Leadership",
+      "description": "Maintain and strengthen Saudi Arabia's global leadership in the energy sector while diversifying into new areas.",
+      "combined_score": 0.4511,
+      "semantic_score": 0.6444,
+      "frequency_in_top_projects": 0,
+      "already_selected": true
+    },
+    {
+      "label": "Health & Wellness",
+      "description": "Address prevalent health and therapeutic challenges in the Kingdom.",
+      "combined_score": 0.4201,
+      "semantic_score": 0.6002,
+      "frequency_in_top_projects": 0,
+      "already_selected": true
+    }
+  ]
+}

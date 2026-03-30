@@ -2,186 +2,401 @@
   "group_id": "G011",
   "group_profile": {
     "selected_interests": [
-      "Computer Vision",
-      "Natural Language Processing"
+      "Internet of Things (IoT)",
+      "Embedded Systems",
+      "Database Systems",
+      "Distributed Systems"
     ],
     "selected_applications": [
-      "Education",
-      "Security & Privacy"
+      "Government & Public Sector",
+      "Business & Productivity",
+      "Sustainability & Environment"
     ],
     "selected_rdia": [
+      "Energy & Industrial Leadership",
+      "Sustainable Environment & Supply of Essential Needs",
       "Economies of the Future"
     ]
   },
   "recommended_projects": [
     {
       "rank": 1,
-      "project_id": "F04-45-20",
-      "title": "CCIS Student Assistant Chatbot",
+      "project_id": "F03-45-10",
+      "title": "Energy-aware Multi-Object Detection and Compression in WMSN",
+      "supervisor_name": " Manal Khaled Alsabhan ",
+      "supervisor_id": "MKsa",
+      "academic_year": "1445",
+      "keywords": [
+        "Wireless Multimedia Sensor Networks (WMSNs)",
+        "Wireless Sensor Networks (WSNs)",
+        "Multimedia",
+        "Recognition of Interest",
+        "Feature Extraction"
+      ],
+      "application": [
+        "Sustainability & Environment"
+      ],
+      "interest": [
+        "Internet of Things (IoT)",
+        "Computer Vision",
+        "Embedded Systems"
+      ],
+      "rdia": [
+        "Sustainable Environment & Supply of Essential Needs"
+      ],
+      "scores": {
+        "final_score": 0.5251,
+        "semantic_sim": 0.7169,
+        "context_score": 0.3333,
+        "rdia_score": 0.3333,
+        "rrf_score": 0.030478
+      },
+      "explanation": "Good match with the group's background. Matches application domain(s): sustainability & environment. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 2,
+      "project_id": "M05-45-20",
+      "title": "Musanif (مصنف): A Categorization and Product Information API for E-Commerce Product Images)",
+      "supervisor_name": "Sultan Shuraidah Al-dera",
+      "supervisor_id": "SSde",
+      "academic_year": "1445",
+      "keywords": [
+        "E-commerce",
+        "Image Recognition",
+        "Product Categorization",
+        "API Development",
+        "Machine Learning",
+        "AWS Rekognition",
+        "Web Scraping",
+        "Product Information Extraction",
+        "Automated Data Entry",
+        "Inventory Management",
+        "REST API",
+        "Image Classification",
+        "Product Labeling",
+        "React",
+        "Node.js",
+        "Cloud Computing",
+        "Retail Technology"
+      ],
+      "application": [
+        "Business & Productivity"
+      ],
+      "interest": [
+        "Computer Vision",
+        "Artificial Intelligence / Machine Learning",
+        "Web Development"
+      ],
+      "rdia": [
+        "Economies of the Future"
+      ],
+      "scores": {
+        "final_score": 0.523,
+        "semantic_sim": 0.7127,
+        "context_score": 0.3333,
+        "rdia_score": 0.3333,
+        "rrf_score": 0.026014
+      },
+      "explanation": "Good match with the group's background. Matches application domain(s): business & productivity. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 3,
+      "project_id": "F06-45-10",
+      "title": "Get It: A Deep Learning Approach for Identifying and Discriminating Spoken Arabic Among English",
+      "supervisor_name": "Wojdan Mohammed BinSaeedan",
+      "supervisor_id": "WMnS",
+      "academic_year": "1445",
+      "keywords": [
+        "Language Identification",
+        "Spoken Language Recognition",
+        "Deep Learning",
+        "Arabic Speech Recognition",
+        "English Speech Recognition",
+        "Multilingual Systems",
+        "Customer Service Automation",
+        "ECAPA-TDNN",
+        "SpeechBrain",
+        "Convolutional Neural Network (CNN)",
+        "Recurrent Neural Network (RNN)",
+        "Capsule Network (CapsNet)",
+        "Natural Language Processing (NLP)",
+        "Voice Analysis",
+        "Mozilla Common Voice Dataset",
+        "Real-time Speech Processing",
+        "Call Center Automation",
+        "Audio Processing"
+      ],
+      "application": [
+        "Business & Productivity"
+      ],
+      "interest": [
+        "Artificial Intelligence / Machine Learning",
+        "Natural Language Processing"
+      ],
+      "rdia": [
+        "Economies of the Future"
+      ],
+      "scores": {
+        "final_score": 0.5186,
+        "semantic_sim": 0.7038,
+        "context_score": 0.3333,
+        "rdia_score": 0.3333,
+        "rrf_score": 0.026667
+      },
+      "explanation": "Good match with the group's background. Matches application domain(s): business & productivity. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 4,
+      "project_id": "F16-45-10",
+      "title": "Automatic audio files summarization System, EJAZ Website",
+      "supervisor_name": " Manal Khaled Alsabhan ",
+      "supervisor_id": "MKsa",
+      "academic_year": "1445",
+      "keywords": [
+        "Audio Summarization",
+        "Speech Recognition",
+        "Natural Language Processing (NLP)",
+        "Automatic Transcription",
+        "Text Summarization",
+        "Pegasus Model",
+        "BART Model",
+        "T5 Model",
+        "Meeting Summarization",
+        "Information Extraction",
+        "Audio Processing",
+        "Deep Learning",
+        "Collaborative Tools",
+        "Time Efficiency",
+        "Content Accessibility",
+        "Multilingual Support",
+        "Cloud Storage"
+      ],
+      "application": [
+        "Business & Productivity"
+      ],
+      "interest": [
+        "Natural Language Processing",
+        "Artificial Intelligence / Machine Learning",
+        "Web Development"
+      ],
+      "rdia": [
+        "Economies of the Future"
+      ],
+      "scores": {
+        "final_score": 0.5169,
+        "semantic_sim": 0.7004,
+        "context_score": 0.3333,
+        "rdia_score": 0.3333,
+        "rrf_score": 0.025645
+      },
+      "explanation": "Good match with the group's background. Matches application domain(s): business & productivity. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 5,
+      "project_id": "F27-45-20",
+      "title": "Maseer: Advanced Pilgrimage Mapping for Effective Crowd Management during Hajj",
+      "supervisor_name": " Huda AbdulRahman Al-Muzaini ",
+      "supervisor_id": "HAMu",
+      "academic_year": "1445",
+      "keywords": [
+        "Crowd Management",
+        "Hajj Pilgrimage",
+        "Pilgrim Safety",
+        "Fully Convolutional Neural Network (FCNN)",
+        "Object Detection",
+        "Image Processing",
+        "Real-time Monitoring",
+        "Smart Navigation",
+        "Crowd Density Estimation",
+        "Holy Sites",
+        "Makkah",
+        "Mina",
+        "Arafat",
+        "Gate Management",
+        "Deep Learning",
+        "Computer Vision",
+        "Crowd Counting",
+        "HAJJ Crowd Dataset",
+        "Umrah Management"
+      ],
+      "application": [
+        "Government & Public Sector"
+      ],
+      "interest": [
+        "Computer Vision",
+        "Artificial Intelligence / Machine Learning",
+        "Web Development"
+      ],
+      "rdia": [
+        "Economies of the Future"
+      ],
+      "scores": {
+        "final_score": 0.5119,
+        "semantic_sim": 0.6906,
+        "context_score": 0.3333,
+        "rdia_score": 0.3333,
+        "rrf_score": 0.026944
+      },
+      "explanation": "Good match with the group's background. Matches application domain(s): government & public sector. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 6,
+      "project_id": "F05-45-10",
+      "title": "Visualize: A Software Tool for Visualizing the Impact of Climate Change on Cities",
+      "supervisor_name": "Waad Mohammed Alhoshan, Tasniem Nasser Alyahya",
+      "supervisor_id": "WMho, TNya",
+      "academic_year": "1445",
+      "keywords": [
+        "Climate Change Visualization",
+        "Artificial Intelligence (AI)",
+        "Deep Learning",
+        "Cycle-Consistent Generative Adversarial Network (Cycle-GAN)",
+        "Image Processing",
+        "Computer Vision",
+        "Public Awareness",
+        "Environmental Education",
+        "Urban Impact",
+        "Sandstorm Visualization",
+        "AI Bot",
+        "DeepAI",
+        "Climate Communication",
+        "Global Warming",
+        "Sustainable Communities",
+        "Image Generation"
+      ],
+      "application": [
+        "Sustainability & Environment"
+      ],
+      "interest": [
+        "Artificial Intelligence / Machine Learning",
+        "Computer Vision",
+        "Data Science"
+      ],
+      "rdia": [
+        "Sustainable Environment & Supply of Essential Needs"
+      ],
+      "scores": {
+        "final_score": 0.509,
+        "semantic_sim": 0.6847,
+        "context_score": 0.3333,
+        "rdia_score": 0.3333,
+        "rrf_score": 0.02753
+      },
+      "explanation": "Good match with the group's background. Matches application domain(s): sustainability & environment. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 7,
+      "project_id": "M04-45-10",
+      "title": "Smart Car Parking Manager (SCPM)",
+      "supervisor_name": " Mostafa Elsayed Ahmed Ibrahim",
+      "supervisor_id": "MEra",
+      "academic_year": "1445",
+      "keywords": [
+        "Smart Parking System",
+        "Parking Management",
+        "Raspberry Pi",
+        "Sensor-Based Detection",
+        "License Plate Recognition",
+        "Computer Vision",
+        "Web Application",
+        "SQL Database",
+        "Real-Time Monitoring",
+        "Agile Development"
+      ],
+      "application": [
+        "Transportation & Mobility"
+      ],
+      "interest": [
+        "Computer Vision",
+        "Internet of Things (IoT)",
+        "Embedded Systems"
+      ],
+      "rdia": [
+        "Sustainable Environment & Supply of Essential Needs"
+      ],
+      "scores": {
+        "final_score": 0.4701,
+        "semantic_sim": 0.7736,
+        "context_score": 0.0,
+        "rdia_score": 0.3333,
+        "rrf_score": 0.032522
+      },
+      "explanation": "Highly similar to the group's profile. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 8,
+      "project_id": "M10-45-10",
+      "title": "School Bus Tracking and Management system",
       "supervisor_name": "Ahmed Mohammed Ahmed Gadallah",
       "supervisor_id": "AMda",
       "academic_year": "1445",
       "keywords": [
-        "Educational Chatbot",
-        "Natural Language Processing (NLP)",
-        "Student Support System",
-        "Higher Education",
-        "FAISS",
-        "Falcon-Instructor LLM",
-        "Information Retrieval",
-        "Academic Advising",
-        "FAQ Automation",
-        "Course Management",
-        "Professor Information",
-        "Virtual Assistant",
-        "College of Computer and Information Sciences (CCIS)",
-        "Imam Muhammad Ibn Saud Islamic University",
-        "Student Services"
+        "School Bus Tracking",
+        "Student Transportation Management",
+        "Real-Time Location Tracking",
+        "Route Optimization",
+        "Google Maps API",
+        "Parent Notifications",
+        "Operational Efficiency",
+        "User-Friendly Interface"
       ],
       "application": [
-        "Education"
+        "Transportation & Mobility"
       ],
       "interest": [
-        "Natural Language Processing",
-        "Artificial Intelligence / Machine Learning"
+        "Internet of Things (IoT)",
+        "Mobile Development",
+        "Web Development"
       ],
       "rdia": [
-        "Economies of the Future"
+        "Sustainable Environment & Supply of Essential Needs"
       ],
       "scores": {
-        "final_score": 0.7739,
-        "semantic_sim": 0.7977,
-        "context_score": 0.5,
-        "rdia_score": 1.0,
-        "rrf_score": 0.032787
+        "final_score": 0.4662,
+        "semantic_sim": 0.7657,
+        "context_score": 0.0,
+        "rdia_score": 0.3333,
+        "rrf_score": 0.032002
       },
-      "explanation": "Highly similar to the group's profile. Matches application domain(s): education. Aligns with the group's RDIA priority."
+      "explanation": "Highly similar to the group's profile. Aligns with the group's RDIA priority."
     },
     {
-      "rank": 2,
-      "project_id": "M02-45-10",
-      "title": "Automated Attendance System Using Facial Recognition (FRA)",
-      "supervisor_name": "Hachemi Ahmed Nasser",
-      "supervisor_id": "HAss",
-      "academic_year": "1445",
-      "keywords": [
-        "Facial Recognition",
-        "Automated Attendance System",
-        "Computer Vision",
-        "Raspberry Pi",
-        "Image Processing",
-        "Database Management",
-        "Web Application",
-        "Educational Technology",
-        "Biometric Authentication",
-        "Real-Time Recognition"
-      ],
-      "application": [
-        "Education"
-      ],
-      "interest": [
-        "Computer Vision",
-        "Artificial Intelligence / Machine Learning",
-        "Embedded Systems"
-      ],
-      "rdia": [
-        "Economies of the Future"
-      ],
-      "scores": {
-        "final_score": 0.7586,
-        "semantic_sim": 0.7673,
-        "context_score": 0.5,
-        "rdia_score": 1.0,
-        "rrf_score": 0.028718
-      },
-      "explanation": "Highly similar to the group's profile. Matches application domain(s): education. Aligns with the group's RDIA priority."
-    },
-    {
-      "rank": 3,
-      "project_id": "F06-42-20",
-      "title": "Developing A Web Application for Automatic Code Generation",
-      "supervisor_name": " Aram Saleh Al-Sedrani ",
-      "supervisor_id": "ASSe",
+      "rank": 9,
+      "project_id": "F05-42-10",
+      "title": "Decentralized Social Application: Moments",
+      "supervisor_name": " Tahani Fahad Albalawi",
+      "supervisor_id": "TFba",
       "academic_year": "1442",
       "keywords": [
-        "Automatic Code Generation",
-        "ACG",
-        "software development",
-        "web application",
-        "Python",
-        "Java",
-        "XML parser",
-        "flowchart",
-        "algorithms",
-        "GUI"
+        "Social applications",
+        "Centralized system",
+        "Blockchain technology",
+        "Security",
+        "Privacy",
+        "Decentralized systems"
       ],
       "application": [
-        "Education"
+        "Social Good & Community"
       ],
       "interest": [
-        "Artificial Intelligence / Machine Learning",
+        "Blockchain",
         "Web Development",
-        "Software Engineering"
+        "Cybersecurity"
       ],
       "rdia": [
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.7575,
-        "semantic_sim": 0.7649,
-        "context_score": 0.5,
-        "rdia_score": 1.0,
-        "rrf_score": 0.026515
+        "final_score": 0.4636,
+        "semantic_sim": 0.7605,
+        "context_score": 0.0,
+        "rdia_score": 0.3333,
+        "rrf_score": 0.030366
       },
-      "explanation": "Highly similar to the group's profile. Matches application domain(s): education. Aligns with the group's RDIA priority."
+      "explanation": "Highly similar to the group's profile. Aligns with the group's RDIA priority."
     },
     {
-      "rank": 4,
-      "project_id": "F06-45-20",
-      "title": "Predicting Programming Skills Among Novice Programmers",
-      "supervisor_name": " Basma Suleiman Alqadi ",
-      "supervisor_id": "BSqa",
-      "academic_year": "1445",
-      "keywords": [
-        "Programming Skills Prediction",
-        "Debugging Ability",
-        "Novice Programmers",
-        "Machine Learning",
-        "Educational Data Mining",
-        "Logical Errors",
-        "K-Nearest Neighbors (KNN)",
-        "Support Vector Machine (SVM)",
-        "Naive Bayes (NB)",
-        "Programming Education",
-        "Debugging Assessment",
-        "Correlation Analysis",
-        "Error Analysis",
-        "Code Debugging",
-        "Programming Proficiency",
-        "English Proficiency",
-        "Skill Prediction"
-      ],
-      "application": [
-        "Education"
-      ],
-      "interest": [
-        "Artificial Intelligence / Machine Learning",
-        "Data Science"
-      ],
-      "rdia": [
-        "Economies of the Future"
-      ],
-      "scores": {
-        "final_score": 0.7466,
-        "semantic_sim": 0.7433,
-        "context_score": 0.5,
-        "rdia_score": 1.0,
-        "rrf_score": 0.013889
-      },
-      "explanation": "Good match with the group's background. Matches application domain(s): education. Aligns with the group's RDIA priority."
-    },
-    {
-      "rank": 5,
+      "rank": 10,
       "project_id": "F22-45-20",
       "title": "Smart Attendance Management System Using iBeacon Technology (حضورك)",
       "supervisor_name": " Tahani Fahad Albalawi",
@@ -218,263 +433,64 @@
         "Economies of the Future"
       ],
       "scores": {
-        "final_score": 0.7451,
-        "semantic_sim": 0.7403,
-        "context_score": 0.5,
-        "rdia_score": 1.0,
-        "rrf_score": 0.025894
+        "final_score": 0.4533,
+        "semantic_sim": 0.7399,
+        "context_score": 0.0,
+        "rdia_score": 0.3333,
+        "rrf_score": 0.02971
       },
-      "explanation": "Good match with the group's background. Matches application domain(s): education. Aligns with the group's RDIA priority."
-    },
-    {
-      "rank": 6,
-      "project_id": "F25-45-20",
-      "title": "Automatic Recognition of Children's Handwritten Arabic Characters",
-      "supervisor_name": " Asma Badr AlSaleh ",
-      "supervisor_id": "ABSa",
-      "academic_year": "1445",
-      "keywords": [
-        "Handwritten Character Recognition",
-        "Arabic Handwriting",
-        "Children's Handwriting",
-        "Deep Learning",
-        "Convolutional Neural Networks (CNN)",
-        "Hybrid CNN-SVM",
-        "Ensemble Learning",
-        "Transfer Learning",
-        "Hijja Dataset",
-        "Optical Character Recognition (OCR)",
-        "Feature Extraction",
-        "Support Vector Machine (SVM)",
-        "Voting Mechanisms",
-        "AHCD Dataset",
-        "Educational Technology",
-        "Arabic Language Processing",
-        "Computer Vision",
-        "Pattern Recognition"
-      ],
-      "application": [
-        "Education"
-      ],
-      "interest": [
-        "Artificial Intelligence / Machine Learning",
-        "Computer Vision",
-        "Natural Language Processing"
-      ],
-      "rdia": [
-        "Economies of the Future"
-      ],
-      "scores": {
-        "final_score": 0.7416,
-        "semantic_sim": 0.7331,
-        "context_score": 0.5,
-        "rdia_score": 1.0,
-        "rrf_score": 0.028612
-      },
-      "explanation": "Good match with the group's background. Matches application domain(s): education. Aligns with the group's RDIA priority."
-    },
-    {
-      "rank": 7,
-      "project_id": "M09-45-10",
-      "title": "Qaimni: An Interactive, Web-Based System for Rating Faculty Members",
-      "supervisor_name": "Adel Ebrahim Al-Salem",
-      "supervisor_id": "AESa",
-      "academic_year": "1445",
-      "keywords": [
-        "Faculty Rating",
-        "Student Reviews",
-        "Anonymous Feedback",
-        "Web Application",
-        "College Platform"
-      ],
-      "application": [
-        "Education"
-      ],
-      "interest": [
-        "Web Development",
-        "Database Systems",
-        "Human-Computer Interaction"
-      ],
-      "rdia": [
-        "Economies of the Future"
-      ],
-      "scores": {
-        "final_score": 0.7411,
-        "semantic_sim": 0.7321,
-        "context_score": 0.5,
-        "rdia_score": 1.0,
-        "rrf_score": 0.024869
-      },
-      "explanation": "Good match with the group's background. Matches application domain(s): education. Aligns with the group's RDIA priority."
-    },
-    {
-      "rank": 8,
-      "project_id": "F08-45-20",
-      "title": "XIPHER: Visualization Tool for Security Algorithms",
-      "supervisor_name": " Tahani Fahad Albalawi",
-      "supervisor_id": "TFba",
-      "academic_year": "1445",
-      "keywords": [
-        "Security Algorithms",
-        "Algorithm Visualization",
-        "Security Education",
-        "Usability Evaluation",
-        "Human-Computer Interaction (HCI)",
-        "Educational Web Platform",
-        "Visualization Tools",
-        "User Experience (UX)"
-      ],
-      "application": [
-        "Education"
-      ],
-      "interest": [
-        "Cybersecurity",
-        "Web Development",
-        "Human-Computer Interaction"
-      ],
-      "rdia": [
-        "Economies of the Future"
-      ],
-      "scores": {
-        "final_score": 0.7404,
-        "semantic_sim": 0.7309,
-        "context_score": 0.5,
-        "rdia_score": 1.0,
-        "rrf_score": 0.028043
-      },
-      "explanation": "Good match with the group's background. Matches application domain(s): education. Aligns with the group's RDIA priority."
-    },
-    {
-      "rank": 9,
-      "project_id": "F04-42-10",
-      "title": "Evaluating Website Quality Using Machine Learning",
-      "supervisor_name": "Aram Saleh Al-Sedrani ",
-      "supervisor_id": "ASSe",
-      "academic_year": "1442",
-      "keywords": [
-        "Academic websites",
-        "Quality evaluator",
-        "Random forest",
-        "Supervised machine learning",
-        "Feature extraction"
-      ],
-      "application": [
-        "Education"
-      ],
-      "interest": [
-        "Artificial Intelligence / Machine Learning",
-        "Web Development",
-        "Data Science"
-      ],
-      "rdia": [
-        "Economies of the Future"
-      ],
-      "scores": {
-        "final_score": 0.7388,
-        "semantic_sim": 0.7276,
-        "context_score": 0.5,
-        "rdia_score": 1.0,
-        "rrf_score": 0.0241
-      },
-      "explanation": "Good match with the group's background. Matches application domain(s): education. Aligns with the group's RDIA priority."
-    },
-    {
-      "rank": 10,
-      "project_id": "F20-45-20",
-      "title": "Abnormal Event Detection for Video Surveillance (SecuritEye)",
-      "supervisor_name": " Wojdan Mohammed BinSaeedan ",
-      "supervisor_id": "WMnS",
-      "academic_year": "1445",
-      "keywords": [
-        "Abnormal Event Detection",
-        "Video Surveillance",
-        "Deep Learning",
-        "ConvLSTM",
-        "Long-term Recurrent Convolutional Networks (LRCN)",
-        "Smart Cities",
-        "Public Safety",
-        "UCF Crime Dataset",
-        "Anomaly Detection",
-        "Computer Vision",
-        "Convolutional Neural Networks (CNN)",
-        "Recurrent Neural Networks (RNN)",
-        "Long Short-Term Memory (LSTM)",
-        "Real-time Monitoring",
-        "Security Systems",
-        "Crime Detection",
-        "Video Analysis",
-        "SecuritEye"
-      ],
-      "application": [
-        "Security & Privacy"
-      ],
-      "interest": [
-        "Artificial Intelligence / Machine Learning",
-        "Computer Vision",
-        "Data Science"
-      ],
-      "rdia": [
-        "Economies of the Future"
-      ],
-      "scores": {
-        "final_score": 0.7374,
-        "semantic_sim": 0.7249,
-        "context_score": 0.5,
-        "rdia_score": 1.0,
-        "rrf_score": 0.026916
-      },
-      "explanation": "Good match with the group's background. Matches application domain(s): security & privacy. Aligns with the group's RDIA priority."
+      "explanation": "Good match with the group's background. Aligns with the group's RDIA priority."
     }
   ],
   "recommended_interests": [
     {
       "name": "Artificial Intelligence / Machine Learning",
       "description": "Focuses on building systems that learn from data, make predictions, and perform intelligent tasks without explicit programming.",
-      "combined_score": 0.8814,
-      "semantic_score": 0.8306,
+      "combined_score": 0.8558,
+      "semantic_score": 0.794,
       "frequency_in_top_projects": 1.0,
       "already_selected": false
     },
     {
-      "name": "Natural Language Processing",
-      "description": "Deals with enabling computers to understand, interpret, and generate human language in text or speech form.",
-      "combined_score": 0.733,
-      "semantic_score": 0.809,
-      "frequency_in_top_projects": 0.5555555555555556,
+      "name": "Internet of Things (IoT)",
+      "description": "Focuses on connecting physical devices to the internet to collect, exchange, and analyze data for automation and smart systems.",
+      "combined_score": 0.8312,
+      "semantic_score": 0.866,
+      "frequency_in_top_projects": 0.75,
       "already_selected": true
     },
     {
-      "name": "Computer Vision",
-      "description": "Enables machines to interpret and understand visual information from images and videos using AI techniques.",
-      "combined_score": 0.6867,
-      "semantic_score": 0.7906,
-      "frequency_in_top_projects": 0.4444444444444444,
-      "already_selected": true
+      "name": "Web Development",
+      "description": "Covers the design and implementation of websites and web applications, including frontend, backend, and full‑stack development.",
+      "combined_score": 0.8194,
+      "semantic_score": 0.742,
+      "frequency_in_top_projects": 1.0,
+      "already_selected": false
     }
   ],
   "recommended_applications": [
     {
       "name": "Education",
       "description": "Focuses on systems and applications for learning, teaching, and academic support.",
-      "combined_score": 0.8784,
-      "semantic_score": 0.8263,
+      "combined_score": 0.8281,
+      "semantic_score": 0.7544,
       "frequency_in_top_projects": 1.0,
-      "already_selected": true
-    },
-    {
-      "name": "Business & Productivity",
-      "description": "Involves the application of computing to enhance business operations.",
-      "combined_score": 0.7309,
-      "semantic_score": 0.7584,
-      "frequency_in_top_projects": 0.6666666666666666,
       "already_selected": false
     },
     {
       "name": "Transportation & Mobility",
       "description": "Pertains to technology related to the movement of people and goods.",
-      "combined_score": 0.7022,
-      "semantic_score": 0.7174,
-      "frequency_in_top_projects": 0.6666666666666666,
+      "combined_score": 0.6297,
+      "semantic_score": 0.7282,
+      "frequency_in_top_projects": 0.4,
+      "already_selected": false
+    },
+    {
+      "name": "Social Good & Community",
+      "description": "Relates to technology that aims to benefit society.",
+      "combined_score": 0.5685,
+      "semantic_score": 0.7264,
+      "frequency_in_top_projects": 0.2,
       "already_selected": false
     }
   ],
@@ -482,33 +498,33 @@
     {
       "label": "Economies of the Future",
       "description": "Reimagine urban living and establish Saudi Arabia as a global leader in future-oriented sectors. ",
-      "combined_score": 0.8222,
-      "semantic_score": 0.746,
+      "combined_score": 0.7889,
+      "semantic_score": 0.6985,
       "frequency_in_top_projects": 1.0,
       "already_selected": true
     },
     {
       "label": "Sustainable Environment & Supply of Essential Needs",
       "description": "Secure sustainable access to water, food, and energy resources for the population and industries.",
-      "combined_score": 0.529,
-      "semantic_score": 0.6945,
-      "frequency_in_top_projects": 0.14285714285714285,
-      "already_selected": false
-    },
-    {
-      "label": "Health & Wellness",
-      "description": "Address prevalent health and therapeutic challenges in the Kingdom.",
-      "combined_score": 0.4851,
-      "semantic_score": 0.5706,
+      "combined_score": 0.5946,
+      "semantic_score": 0.727,
       "frequency_in_top_projects": 0.2857142857142857,
-      "already_selected": false
+      "already_selected": true
     },
     {
       "label": "Energy & Industrial Leadership",
       "description": "Maintain and strengthen Saudi Arabia's global leadership in the energy sector while diversifying into new areas.",
-      "combined_score": 0.4506,
-      "semantic_score": 0.6437,
+      "combined_score": 0.4589,
+      "semantic_score": 0.6556,
       "frequency_in_top_projects": 0,
+      "already_selected": true
+    },
+    {
+      "label": "Health & Wellness",
+      "description": "Address prevalent health and therapeutic challenges in the Kingdom.",
+      "combined_score": 0.4452,
+      "semantic_score": 0.5748,
+      "frequency_in_top_projects": 0.14285714285714285,
       "already_selected": false
     }
   ]

@@ -1,0 +1,502 @@
+{
+  "group_id": "G026",
+  "group_profile": {
+    "selected_interests": [
+      "Robotics",
+      "Bioinformatics",
+      "Artificial Intelligence / Machine Learning",
+      "Embedded Systems"
+    ],
+    "selected_applications": [
+      "Education",
+      "Transportation & Mobility",
+      "Healthcare / Medical"
+    ],
+    "selected_rdia": [
+      "Health & Wellness"
+    ]
+  },
+  "recommended_projects": [
+    {
+      "rank": 1,
+      "project_id": "F29-45-20",
+      "title": "Hudhud: AI-based Remote Rehabilitation",
+      "supervisor_name": " Manan Mohammed Almusallam ",
+      "supervisor_id": "MMmu",
+      "academic_year": "1445",
+      "keywords": [
+        "Remote Rehabilitation",
+        "Artificial Intelligence",
+        "Pose Estimation",
+        "Computer Vision",
+        "Mediapipe",
+        "Physical Therapy",
+        "Healthcare Technology",
+        "Exercise Monitoring",
+        "Real-time Feedback",
+        "Patient Progress Tracking",
+        "Telerehabilitation",
+        "Knee Rehabilitation",
+        "Motion Detection",
+        "Body Posture Analysis",
+        "Injury Prevention",
+        "Therapeutic Exercises"
+      ],
+      "application": [
+        "Healthcare / Medical"
+      ],
+      "interest": [
+        "Artificial Intelligence / Machine Learning",
+        "Computer Vision",
+        "Human-Computer Interaction"
+      ],
+      "rdia": [
+        "Health & Wellness"
+      ],
+      "scores": {
+        "final_score": 0.7184,
+        "semantic_sim": 0.7701,
+        "context_score": 0.3333,
+        "rdia_score": 1.0,
+        "rrf_score": 0.031545
+      },
+      "explanation": "Highly similar to the group's profile. Matches application domain(s): healthcare / medical. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 2,
+      "project_id": "F01-45-20",
+      "title": "Baasyir:A YOLO Based approach to Assist Visually  Impaired People by leveraging Smart Glasses System",
+      "supervisor_name": "Dhouha Ahmed Ben Noureddine",
+      "supervisor_id": "DAur",
+      "academic_year": "1445",
+      "keywords": [
+        "Baasyir Smart glasseses",
+        "Deep Learning",
+        "Object Detection",
+        "YOLOv7",
+        "YOLOv7-tiny",
+        "Baasyir dataset",
+        "Furniture-detection dataset",
+        "Raspberry Pi"
+      ],
+      "application": [
+        "Healthcare / Medical"
+      ],
+      "interest": [
+        "Computer Vision",
+        "Embedded Systems",
+        "Artificial Intelligence / Machine Learning"
+      ],
+      "rdia": [
+        "Health & Wellness"
+      ],
+      "scores": {
+        "final_score": 0.7084,
+        "semantic_sim": 0.7501,
+        "context_score": 0.3333,
+        "rdia_score": 1.0,
+        "rrf_score": 0.031746
+      },
+      "explanation": "Highly similar to the group's profile. Matches application domain(s): healthcare / medical. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 3,
+      "project_id": "F01-43-10",
+      "title": "Treatment of stuttering problems in children Application - TSA",
+      "supervisor_name": "Amal Suleiman Alsaif",
+      "supervisor_id": "ASsa",
+      "academic_year": "1443",
+      "keywords": [
+        "Treatment",
+        "Speech",
+        "Recognition",
+        "Stuttering",
+        "Application",
+        "Therapist",
+        "Analyze",
+        "Error findings",
+        "Speech problems",
+        "Children"
+      ],
+      "application": [
+        "Healthcare / Medical"
+      ],
+      "interest": [
+        "Artificial Intelligence / Machine Learning",
+        "Natural Language Processing",
+        "Mobile Development"
+      ],
+      "rdia": [
+        "Health & Wellness"
+      ],
+      "scores": {
+        "final_score": 0.7033,
+        "semantic_sim": 0.7399,
+        "context_score": 0.3333,
+        "rdia_score": 1.0,
+        "rrf_score": 0.03031
+      },
+      "explanation": "Good match with the group's background. Matches application domain(s): healthcare / medical. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 4,
+      "project_id": "F04-45-10",
+      "title": "Baseera بصيرة : Accessible Mobile App for Blind Children",
+      "supervisor_name": " Manan Mohammed Almusallam ",
+      "supervisor_id": "MMmu",
+      "academic_year": "1445",
+      "keywords": [
+        "Accessible Mobile Application",
+        "Blind Children",
+        "Visual Impairment",
+        "Assistive Technology",
+        "Educational Game",
+        "Arabic Language Support",
+        "Preschool Education",
+        "Audio Feedback",
+        "Numbers Learning",
+        "Counting Skills",
+        "Inclusive Design",
+        "Accessibility Standards",
+        "Child Development",
+        "Habilitation",
+        "Touch-screen Accessibility"
+      ],
+      "application": [
+        "Education"
+      ],
+      "interest": [
+        "Human-Computer Interaction",
+        "Mobile Development"
+      ],
+      "rdia": [
+        "Health & Wellness"
+      ],
+      "scores": {
+        "final_score": 0.6964,
+        "semantic_sim": 0.7262,
+        "context_score": 0.3333,
+        "rdia_score": 1.0,
+        "rrf_score": 0.013699
+      },
+      "explanation": "Good match with the group's background. Matches application domain(s): education. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 5,
+      "project_id": "F07-45-10",
+      "title": "Secure Healthcare Information Exchange Platform ‘KEEP SAFE’",
+      "supervisor_name": "Eman AbdulHamid Alzaid",
+      "supervisor_id": "EAza",
+      "academic_year": "1445",
+      "keywords": [
+        "Electronic Medical Records (EMR)",
+        "Blockchain Technology",
+        "Healthcare Information Systems",
+        "Secure Medical Data Sharing",
+        "Decentralized Data Protection",
+        "Patient Data Privacy",
+        "EMR Exchange Scheme",
+        "Digital Identity Verification",
+        "Healthcare Cybersecurity"
+      ],
+      "application": [
+        "Healthcare / Medical"
+      ],
+      "interest": [
+        "Blockchain",
+        "Cybersecurity",
+        "Mobile Development"
+      ],
+      "rdia": [
+        "Health & Wellness"
+      ],
+      "scores": {
+        "final_score": 0.6952,
+        "semantic_sim": 0.7238,
+        "context_score": 0.3333,
+        "rdia_score": 1.0,
+        "rrf_score": 0.028083
+      },
+      "explanation": "Good match with the group's background. Matches application domain(s): healthcare / medical. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 6,
+      "project_id": "F01-42-20",
+      "title": "COVID-19 Detection Using Deep Neural Networks",
+      "supervisor_name": "Siwar Abdelfattah Rekik",
+      "supervisor_id": "SAki",
+      "academic_year": "1442",
+      "keywords": [
+        "COVID-19",
+        "Deep Neural Networks",
+        "YOLOv5",
+        "Chest X-ray Images",
+        "Detection"
+      ],
+      "application": [
+        "Healthcare / Medical"
+      ],
+      "interest": [
+        "Computer Vision",
+        "Artificial Intelligence / Machine Learning",
+        "Bioinformatics"
+      ],
+      "rdia": [
+        "Health & Wellness"
+      ],
+      "scores": {
+        "final_score": 0.6895,
+        "semantic_sim": 0.7124,
+        "context_score": 0.3333,
+        "rdia_score": 1.0,
+        "rrf_score": 0.02938
+      },
+      "explanation": "Good match with the group's background. Matches application domain(s): healthcare / medical. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 7,
+      "project_id": "F09-42-20",
+      "title": "Finding Deleted Regions in Human DNA",
+      "supervisor_name": " Eman AbdulHamid Alzaid",
+      "supervisor_id": "EAza",
+      "academic_year": "1442",
+      "keywords": [
+        "Human DNA Analysis",
+        "Deleted Regions Detection",
+        "Next-Generation Sequencing (NGS)",
+        "Deep Learning",
+        "Bioinformatics Software",
+        "Graphical User Interface (GUI)",
+        "Genomic Data Analysis"
+      ],
+      "application": [
+        "Healthcare / Medical"
+      ],
+      "interest": [
+        "Artificial Intelligence / Machine Learning",
+        "Bioinformatics",
+        "Data Science"
+      ],
+      "rdia": [
+        "Health & Wellness"
+      ],
+      "scores": {
+        "final_score": 0.6776,
+        "semantic_sim": 0.6886,
+        "context_score": 0.3333,
+        "rdia_score": 1.0,
+        "rrf_score": 0.027365
+      },
+      "explanation": "Good match with the group's background. Matches application domain(s): healthcare / medical. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 8,
+      "project_id": "F17-45-20",
+      "title": "Mu’nis: Enhancing Deaf Communication with Realtime Subtitles in Arabic Language",
+      "supervisor_name": " Tasniem Nasser Alyahya ",
+      "supervisor_id": "TNya",
+      "academic_year": "1445",
+      "keywords": [
+        "Arabic Sign Language (ArSL)",
+        "Deaf and Hard of Hearing (DHH)",
+        "Real-time Translation",
+        "Sign Language Recognition",
+        "Mobile Application",
+        "Core ML",
+        "Hand Gesture Recognition",
+        "KArSL Dataset",
+        "Assistive Technology",
+        "Human-Computer Interaction",
+        "Accessibility",
+        "Two-way Communication",
+        "Audio-to-Text",
+        "Sign-to-Text",
+        "Hand Action Tool",
+        "Inclusive Design",
+        "Communication Barriers"
+      ],
+      "application": [
+        "Social Good & Community"
+      ],
+      "interest": [
+        "Natural Language Processing",
+        "Human-Computer Interaction",
+        "Artificial Intelligence / Machine Learning"
+      ],
+      "rdia": [
+        "Health & Wellness"
+      ],
+      "scores": {
+        "final_score": 0.6149,
+        "semantic_sim": 0.7298,
+        "context_score": 0.0,
+        "rdia_score": 1.0,
+        "rrf_score": 0.026585
+      },
+      "explanation": "Good match with the group's background. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 9,
+      "project_id": "F02-43-10",
+      "title": "Facial Expression Recognition for Investigations",
+      "supervisor_name": "Lamees Abdullah Alhazzaa",
+      "supervisor_id": "LAha",
+      "academic_year": "1443",
+      "keywords": [
+        "Facial Expression Analysis",
+        "Non-Verbal Communication",
+        "Emotion Recognition",
+        "Computer Vision",
+        "Police Investigations",
+        "Interview Analysis",
+        "Human Behavior Analysis",
+        "Automated Facial Recognition",
+        "Deception Detection"
+      ],
+      "application": [
+        "Security & Privacy"
+      ],
+      "interest": [
+        "Computer Vision",
+        "Artificial Intelligence / Machine Learning",
+        "Cybersecurity"
+      ],
+      "rdia": [
+        "Health & Wellness"
+      ],
+      "scores": {
+        "final_score": 0.6122,
+        "semantic_sim": 0.7245,
+        "context_score": 0.0,
+        "rdia_score": 1.0,
+        "rrf_score": 0.027598
+      },
+      "explanation": "Good match with the group's background. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 10,
+      "project_id": "F10-42-20",
+      "title": "Monitoring and Tracking of Vulnerable Individuals Using Mini-UAVs",
+      "supervisor_name": " Areeb Abdullah Alowisheq",
+      "supervisor_id": "AAow",
+      "academic_year": "1442",
+      "keywords": [
+        "UAV Surveillance",
+        "Tracking System",
+        "Vision-Based Control",
+        "Autonomous Drones",
+        "Object Detection",
+        "Person Re-Identification",
+        "Deep Learning",
+        "Mobile Application",
+        "Simulation and Prototyping",
+        "Safety Monitoring"
+      ],
+      "application": [
+        "Social Good & Community"
+      ],
+      "interest": [
+        "Computer Vision",
+        "Artificial Intelligence / Machine Learning",
+        "Drones"
+      ],
+      "rdia": [
+        "Health & Wellness"
+      ],
+      "scores": {
+        "final_score": 0.6122,
+        "semantic_sim": 0.7244,
+        "context_score": 0.0,
+        "rdia_score": 1.0,
+        "rrf_score": 0.027222
+      },
+      "explanation": "Good match with the group's background. Aligns with the group's RDIA priority."
+    }
+  ],
+  "recommended_interests": [
+    {
+      "name": "Artificial Intelligence / Machine Learning",
+      "description": "Focuses on building systems that learn from data, make predictions, and perform intelligent tasks without explicit programming.",
+      "combined_score": 0.8981,
+      "semantic_score": 0.8544,
+      "frequency_in_top_projects": 1.0,
+      "already_selected": true
+    },
+    {
+      "name": "Embedded Systems",
+      "description": "Involves programming and designing specialized computing systems integrated into hardware devices.",
+      "combined_score": 0.6621,
+      "semantic_score": 0.8507,
+      "frequency_in_top_projects": 0.2222222222222222,
+      "already_selected": true
+    },
+    {
+      "name": "Natural Language Processing",
+      "description": "Deals with enabling computers to understand, interpret, and generate human language in text or speech form.",
+      "combined_score": 0.6531,
+      "semantic_score": 0.7426,
+      "frequency_in_top_projects": 0.4444444444444444,
+      "already_selected": false
+    }
+  ],
+  "recommended_applications": [
+    {
+      "name": "Healthcare / Medical",
+      "description": "Relates to the use of technology to improve medical processes and patient care.",
+      "combined_score": 0.8642,
+      "semantic_score": 0.806,
+      "frequency_in_top_projects": 1.0,
+      "already_selected": true
+    },
+    {
+      "name": "Education",
+      "description": "Focuses on systems and applications for learning, teaching, and academic support.",
+      "combined_score": 0.8616,
+      "semantic_score": 0.8024,
+      "frequency_in_top_projects": 1.0,
+      "already_selected": true
+    },
+    {
+      "name": "Transportation & Mobility",
+      "description": "Pertains to technology related to the movement of people and goods.",
+      "combined_score": 0.7062,
+      "semantic_score": 0.7231,
+      "frequency_in_top_projects": 0.6666666666666666,
+      "already_selected": true
+    }
+  ],
+  "recommended_rdia": [
+    {
+      "label": "Economies of the Future",
+      "description": "Reimagine urban living and establish Saudi Arabia as a global leader in future-oriented sectors. ",
+      "combined_score": 0.76,
+      "semantic_score": 0.6571,
+      "frequency_in_top_projects": 1.0,
+      "already_selected": false
+    },
+    {
+      "label": "Health & Wellness",
+      "description": "Address prevalent health and therapeutic challenges in the Kingdom.",
+      "combined_score": 0.6223,
+      "semantic_score": 0.6747,
+      "frequency_in_top_projects": 0.5,
+      "already_selected": true
+    },
+    {
+      "label": "Sustainable Environment & Supply of Essential Needs",
+      "description": "Secure sustainable access to water, food, and energy resources for the population and industries.",
+      "combined_score": 0.5122,
+      "semantic_score": 0.6602,
+      "frequency_in_top_projects": 0.16666666666666666,
+      "already_selected": false
+    },
+    {
+      "label": "Energy & Industrial Leadership",
+      "description": "Maintain and strengthen Saudi Arabia's global leadership in the energy sector while diversifying into new areas.",
+      "combined_score": 0.4208,
+      "semantic_score": 0.6011,
+      "frequency_in_top_projects": 0,
+      "already_selected": false
+    }
+  ]
+}

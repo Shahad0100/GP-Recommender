@@ -2,11 +2,15 @@
   "group_id": "G013",
   "group_profile": {
     "selected_interests": [
+      "Data Science",
       "Artificial Intelligence / Machine Learning",
-      "Data Science"
+      "Bioinformatics",
+      "Computer Vision"
     ],
     "selected_applications": [
-      "Healthcare / Medical"
+      "Education",
+      "Healthcare / Medical",
+      "Business & Productivity"
     ],
     "selected_rdia": [
       "Health & Wellness"
@@ -15,39 +19,38 @@
   "recommended_projects": [
     {
       "rank": 1,
-      "project_id": "F07-45-10",
-      "title": "Secure Healthcare Information Exchange Platform ‘KEEP SAFE’",
-      "supervisor_name": "Eman AbdulHamid Alzaid",
-      "supervisor_id": "EAza",
+      "project_id": "F01-45-20",
+      "title": "Baasyir:A YOLO Based approach to Assist Visually  Impaired People by leveraging Smart Glasses System",
+      "supervisor_name": "Dhouha Ahmed Ben Noureddine",
+      "supervisor_id": "DAur",
       "academic_year": "1445",
       "keywords": [
-        "Electronic Medical Records (EMR)",
-        "Blockchain Technology",
-        "Healthcare Information Systems",
-        "Secure Medical Data Sharing",
-        "Decentralized Data Protection",
-        "Patient Data Privacy",
-        "EMR Exchange Scheme",
-        "Digital Identity Verification",
-        "Healthcare Cybersecurity"
+        "Baasyir Smart glasseses",
+        "Deep Learning",
+        "Object Detection",
+        "YOLOv7",
+        "YOLOv7-tiny",
+        "Baasyir dataset",
+        "Furniture-detection dataset",
+        "Raspberry Pi"
       ],
       "application": [
         "Healthcare / Medical"
       ],
       "interest": [
-        "Blockchain",
-        "Cybersecurity",
-        "Mobile Development"
+        "Computer Vision",
+        "Embedded Systems",
+        "Artificial Intelligence / Machine Learning"
       ],
       "rdia": [
         "Health & Wellness"
       ],
       "scores": {
-        "final_score": 0.8817,
-        "semantic_sim": 0.7634,
-        "context_score": 1.0,
+        "final_score": 0.7153,
+        "semantic_sim": 0.764,
+        "context_score": 0.3333,
         "rdia_score": 1.0,
-        "rrf_score": 0.031281
+        "rrf_score": 0.03101
       },
       "explanation": "Highly similar to the group's profile. Matches application domain(s): healthcare / medical. Aligns with the group's RDIA priority."
     },
@@ -88,16 +91,50 @@
         "Health & Wellness"
       ],
       "scores": {
-        "final_score": 0.8709,
-        "semantic_sim": 0.7417,
-        "context_score": 1.0,
+        "final_score": 0.7152,
+        "semantic_sim": 0.7637,
+        "context_score": 0.3333,
         "rdia_score": 1.0,
-        "rrf_score": 0.030331
+        "rrf_score": 0.031258
       },
-      "explanation": "Good match with the group's background. Matches application domain(s): healthcare / medical. Aligns with the group's RDIA priority."
+      "explanation": "Highly similar to the group's profile. Matches application domain(s): healthcare / medical. Aligns with the group's RDIA priority."
     },
     {
       "rank": 3,
+      "project_id": "F01-42-20",
+      "title": "COVID-19 Detection Using Deep Neural Networks",
+      "supervisor_name": "Siwar Abdelfattah Rekik",
+      "supervisor_id": "SAki",
+      "academic_year": "1442",
+      "keywords": [
+        "COVID-19",
+        "Deep Neural Networks",
+        "YOLOv5",
+        "Chest X-ray Images",
+        "Detection"
+      ],
+      "application": [
+        "Healthcare / Medical"
+      ],
+      "interest": [
+        "Computer Vision",
+        "Artificial Intelligence / Machine Learning",
+        "Bioinformatics"
+      ],
+      "rdia": [
+        "Health & Wellness"
+      ],
+      "scores": {
+        "final_score": 0.711,
+        "semantic_sim": 0.7553,
+        "context_score": 0.3333,
+        "rdia_score": 1.0,
+        "rrf_score": 0.031054
+      },
+      "explanation": "Highly similar to the group's profile. Matches application domain(s): healthcare / medical. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 4,
       "project_id": "F01-43-10",
       "title": "Treatment of stuttering problems in children Application - TSA",
       "supervisor_name": "Amal Suleiman Alsaif",
@@ -127,48 +164,11 @@
         "Health & Wellness"
       ],
       "scores": {
-        "final_score": 0.8621,
-        "semantic_sim": 0.7242,
-        "context_score": 1.0,
+        "final_score": 0.7078,
+        "semantic_sim": 0.749,
+        "context_score": 0.3333,
         "rdia_score": 1.0,
-        "rrf_score": 0.029206
-      },
-      "explanation": "Good match with the group's background. Matches application domain(s): healthcare / medical. Aligns with the group's RDIA priority."
-    },
-    {
-      "rank": 4,
-      "project_id": "F01-45-20",
-      "title": "Baasyir:A YOLO Based approach to Assist Visually  Impaired People by leveraging Smart Glasses System",
-      "supervisor_name": "Dhouha Ahmed Ben Noureddine",
-      "supervisor_id": "DAur",
-      "academic_year": "1445",
-      "keywords": [
-        "Baasyir Smart glasseses",
-        "Deep Learning",
-        "Object Detection",
-        "YOLOv7",
-        "YOLOv7-tiny",
-        "Baasyir dataset",
-        "Furniture-detection dataset",
-        "Raspberry Pi"
-      ],
-      "application": [
-        "Healthcare / Medical"
-      ],
-      "interest": [
-        "Computer Vision",
-        "Embedded Systems",
-        "Artificial Intelligence / Machine Learning"
-      ],
-      "rdia": [
-        "Health & Wellness"
-      ],
-      "scores": {
-        "final_score": 0.8597,
-        "semantic_sim": 0.7194,
-        "context_score": 1.0,
-        "rdia_score": 1.0,
-        "rrf_score": 0.028372
+        "rrf_score": 0.029644
       },
       "explanation": "Good match with the group's background. Matches application domain(s): healthcare / medical. Aligns with the group's RDIA priority."
     },
@@ -200,89 +200,54 @@
         "Health & Wellness"
       ],
       "scores": {
-        "final_score": 0.75,
-        "semantic_sim": 0.5,
-        "context_score": 1.0,
+        "final_score": 0.6973,
+        "semantic_sim": 0.7278,
+        "context_score": 0.3333,
         "rdia_score": 1.0,
-        "rrf_score": 0.016393
+        "rrf_score": 0.028893
       },
-      "explanation": "Partial match with the group profile. Matches application domain(s): healthcare / medical. Aligns with the group's RDIA priority."
+      "explanation": "Good match with the group's background. Matches application domain(s): healthcare / medical. Aligns with the group's RDIA priority."
     },
     {
       "rank": 6,
-      "project_id": "F01-42-20",
-      "title": "COVID-19 Detection Using Deep Neural Networks",
-      "supervisor_name": "Siwar Abdelfattah Rekik",
-      "supervisor_id": "SAki",
-      "academic_year": "1442",
+      "project_id": "F07-45-10",
+      "title": "Secure Healthcare Information Exchange Platform ‘KEEP SAFE’",
+      "supervisor_name": "Eman AbdulHamid Alzaid",
+      "supervisor_id": "EAza",
+      "academic_year": "1445",
       "keywords": [
-        "COVID-19",
-        "Deep Neural Networks",
-        "YOLOv5",
-        "Chest X-ray Images",
-        "Detection"
+        "Electronic Medical Records (EMR)",
+        "Blockchain Technology",
+        "Healthcare Information Systems",
+        "Secure Medical Data Sharing",
+        "Decentralized Data Protection",
+        "Patient Data Privacy",
+        "EMR Exchange Scheme",
+        "Digital Identity Verification",
+        "Healthcare Cybersecurity"
       ],
       "application": [
         "Healthcare / Medical"
       ],
       "interest": [
-        "Computer Vision",
-        "Artificial Intelligence / Machine Learning",
-        "Bioinformatics"
+        "Blockchain",
+        "Cybersecurity",
+        "Mobile Development"
       ],
       "rdia": [
         "Health & Wellness"
       ],
       "scores": {
-        "final_score": 0.75,
-        "semantic_sim": 0.5,
-        "context_score": 1.0,
+        "final_score": 0.6938,
+        "semantic_sim": 0.721,
+        "context_score": 0.3333,
         "rdia_score": 1.0,
-        "rrf_score": 0.016129
+        "rrf_score": 0.026754
       },
-      "explanation": "Partial match with the group profile. Matches application domain(s): healthcare / medical. Aligns with the group's RDIA priority."
+      "explanation": "Good match with the group's background. Matches application domain(s): healthcare / medical. Aligns with the group's RDIA priority."
     },
     {
       "rank": 7,
-      "project_id": "F11-42-20",
-      "title": "Energy-Efficient Data Reduction Techniques for Sensor-based ECG Monitoring Applications",
-      "supervisor_name": " Manan Mohammed Almusallam",
-      "supervisor_id": "MMmu",
-      "academic_year": "42",
-      "keywords": [
-        "Remote Heart Monitoring",
-        "IoT Healthcare",
-        "Wireless Body Sensor Network (WBSN)",
-        "ECG Signal Processing",
-        "Arrhythmia Detection",
-        "Data Reduction Techniques",
-        "Feature Extraction",
-        "ECG Compression",
-        "Heart Rate Monitoring",
-        "Sensor Efficiency"
-      ],
-      "application": [
-        "Healthcare / Medical"
-      ],
-      "interest": [
-        "Embedded Systems",
-        "Data Science",
-        "Bioinformatics"
-      ],
-      "rdia": [
-        "Health & Wellness"
-      ],
-      "scores": {
-        "final_score": 0.75,
-        "semantic_sim": 0.5,
-        "context_score": 1.0,
-        "rdia_score": 1.0,
-        "rrf_score": 0.014925
-      },
-      "explanation": "Partial match with the group profile. Matches application domain(s): healthcare / medical. Aligns with the group's RDIA priority."
-    },
-    {
-      "rank": 8,
       "project_id": "F02-43-10",
       "title": "Facial Expression Recognition for Investigations",
       "supervisor_name": "Lamees Abdullah Alhazzaa",
@@ -311,16 +276,16 @@
         "Health & Wellness"
       ],
       "scores": {
-        "final_score": 0.6167,
-        "semantic_sim": 0.7334,
+        "final_score": 0.6327,
+        "semantic_sim": 0.7654,
         "context_score": 0.0,
         "rdia_score": 1.0,
-        "rrf_score": 0.028175
+        "rrf_score": 0.030018
       },
-      "explanation": "Good match with the group's background. Aligns with the group's RDIA priority."
+      "explanation": "Highly similar to the group's profile. Aligns with the group's RDIA priority."
     },
     {
-      "rank": 9,
+      "rank": 8,
       "project_id": "F17-45-20",
       "title": "Mu’nis: Enhancing Deaf Communication with Realtime Subtitles in Arabic Language",
       "supervisor_name": " Tasniem Nasser Alyahya ",
@@ -357,128 +322,175 @@
         "Health & Wellness"
       ],
       "scores": {
-        "final_score": 0.6071,
-        "semantic_sim": 0.7143,
+        "final_score": 0.6173,
+        "semantic_sim": 0.7345,
         "context_score": 0.0,
         "rdia_score": 1.0,
-        "rrf_score": 0.024394
+        "rrf_score": 0.025063
       },
       "explanation": "Good match with the group's background. Aligns with the group's RDIA priority."
     },
     {
-      "rank": 10,
-      "project_id": "F09-45-10",
-      "title": "Detecting Cyberbullying in Twitter for Arabic Language",
-      "supervisor_name": " Haifa Hamad Alkasem",
-      "supervisor_id": "HHka",
-      "academic_year": "1445",
+      "rank": 9,
+      "project_id": "F10-42-20",
+      "title": "Monitoring and Tracking of Vulnerable Individuals Using Mini-UAVs",
+      "supervisor_name": " Areeb Abdullah Alowisheq",
+      "supervisor_id": "AAow",
+      "academic_year": "1442",
       "keywords": [
-        "Cyberbullying",
-        "Twitter(X)",
-        "Deep learning"
+        "UAV Surveillance",
+        "Tracking System",
+        "Vision-Based Control",
+        "Autonomous Drones",
+        "Object Detection",
+        "Person Re-Identification",
+        "Deep Learning",
+        "Mobile Application",
+        "Simulation and Prototyping",
+        "Safety Monitoring"
       ],
       "application": [
         "Social Good & Community"
       ],
       "interest": [
-        "Natural Language Processing",
-        "Artificial Intelligence / Machine Learning"
+        "Computer Vision",
+        "Artificial Intelligence / Machine Learning",
+        "Drones"
       ],
       "rdia": [
         "Health & Wellness"
       ],
       "scores": {
-        "final_score": 0.5,
-        "semantic_sim": 0.5,
+        "final_score": 0.6055,
+        "semantic_sim": 0.711,
         "context_score": 0.0,
         "rdia_score": 1.0,
-        "rrf_score": 0.014706
+        "rrf_score": 0.025008
       },
-      "explanation": "Partial match with the group profile. Aligns with the group's RDIA priority."
+      "explanation": "Good match with the group's background. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 10,
+      "project_id": "F11-42-20",
+      "title": "Energy-Efficient Data Reduction Techniques for Sensor-based ECG Monitoring Applications",
+      "supervisor_name": " Manan Mohammed Almusallam",
+      "supervisor_id": "MMmu",
+      "academic_year": "42",
+      "keywords": [
+        "Remote Heart Monitoring",
+        "IoT Healthcare",
+        "Wireless Body Sensor Network (WBSN)",
+        "ECG Signal Processing",
+        "Arrhythmia Detection",
+        "Data Reduction Techniques",
+        "Feature Extraction",
+        "ECG Compression",
+        "Heart Rate Monitoring",
+        "Sensor Efficiency"
+      ],
+      "application": [
+        "Healthcare / Medical"
+      ],
+      "interest": [
+        "Embedded Systems",
+        "Data Science",
+        "Bioinformatics"
+      ],
+      "rdia": [
+        "Health & Wellness"
+      ],
+      "scores": {
+        "final_score": 0.5833,
+        "semantic_sim": 0.5,
+        "context_score": 0.3333,
+        "rdia_score": 1.0,
+        "rrf_score": 0.015625
+      },
+      "explanation": "Partial match with the group profile. Matches application domain(s): healthcare / medical. Aligns with the group's RDIA priority."
     }
   ],
   "recommended_interests": [
     {
       "name": "Artificial Intelligence / Machine Learning",
       "description": "Focuses on building systems that learn from data, make predictions, and perform intelligent tasks without explicit programming.",
-      "combined_score": 0.9041,
-      "semantic_score": 0.863,
+      "combined_score": 0.9024,
+      "semantic_score": 0.8606,
       "frequency_in_top_projects": 1.0,
-      "already_selected": true
-    },
-    {
-      "name": "Data Science",
-      "description": "Involves extracting insights from structured and unstructured data using statistics, machine learning, and analytical techniques.",
-      "combined_score": 0.6607,
-      "semantic_score": 0.8366,
-      "frequency_in_top_projects": 0.25,
       "already_selected": true
     },
     {
       "name": "Computer Vision",
       "description": "Enables machines to interpret and understand visual information from images and videos using AI techniques.",
-      "combined_score": 0.6435,
-      "semantic_score": 0.705,
+      "combined_score": 0.6979,
+      "semantic_score": 0.7828,
       "frequency_in_top_projects": 0.5,
-      "already_selected": false
+      "already_selected": true
+    },
+    {
+      "name": "Data Science",
+      "description": "Involves extracting insights from structured and unstructured data using statistics, machine learning, and analytical techniques.",
+      "combined_score": 0.6379,
+      "semantic_score": 0.8256,
+      "frequency_in_top_projects": 0.2,
+      "already_selected": true
     }
   ],
   "recommended_applications": [
     {
-      "name": "Education",
-      "description": "Focuses on systems and applications for learning, teaching, and academic support.",
-      "combined_score": 0.8538,
-      "semantic_score": 0.7911,
-      "frequency_in_top_projects": 1.0,
-      "already_selected": false
-    },
-    {
       "name": "Healthcare / Medical",
       "description": "Relates to the use of technology to improve medical processes and patient care.",
-      "combined_score": 0.7109,
-      "semantic_score": 0.8012,
-      "frequency_in_top_projects": 0.5,
+      "combined_score": 0.8649,
+      "semantic_score": 0.8071,
+      "frequency_in_top_projects": 1.0,
+      "already_selected": true
+    },
+    {
+      "name": "Education",
+      "description": "Focuses on systems and applications for learning, teaching, and academic support.",
+      "combined_score": 0.7802,
+      "semantic_score": 0.7932,
+      "frequency_in_top_projects": 0.75,
       "already_selected": true
     },
     {
       "name": "Business & Productivity",
       "description": "Involves the application of computing to enhance business operations.",
-      "combined_score": 0.6134,
-      "semantic_score": 0.7691,
+      "combined_score": 0.6239,
+      "semantic_score": 0.7841,
       "frequency_in_top_projects": 0.25,
-      "already_selected": false
+      "already_selected": true
     }
   ],
   "recommended_rdia": [
     {
+      "label": "Health & Wellness",
+      "description": "Address prevalent health and therapeutic challenges in the Kingdom.",
+      "combined_score": 0.7739,
+      "semantic_score": 0.677,
+      "frequency_in_top_projects": 1.0,
+      "already_selected": true
+    },
+    {
       "label": "Economies of the Future",
       "description": "Reimagine urban living and establish Saudi Arabia as a global leader in future-oriented sectors. ",
-      "combined_score": 0.7503,
-      "semantic_score": 0.6433,
+      "combined_score": 0.7478,
+      "semantic_score": 0.6396,
       "frequency_in_top_projects": 1.0,
       "already_selected": false
     },
     {
-      "label": "Health & Wellness",
-      "description": "Address prevalent health and therapeutic challenges in the Kingdom.",
-      "combined_score": 0.6303,
-      "semantic_score": 0.6861,
-      "frequency_in_top_projects": 0.5,
-      "already_selected": true
-    },
-    {
       "label": "Sustainable Environment & Supply of Essential Needs",
       "description": "Secure sustainable access to water, food, and energy resources for the population and industries.",
-      "combined_score": 0.5151,
-      "semantic_score": 0.6644,
-      "frequency_in_top_projects": 0.16666666666666666,
+      "combined_score": 0.4502,
+      "semantic_score": 0.6432,
+      "frequency_in_top_projects": 0,
       "already_selected": false
     },
     {
       "label": "Energy & Industrial Leadership",
       "description": "Maintain and strengthen Saudi Arabia's global leadership in the energy sector while diversifying into new areas.",
-      "combined_score": 0.4264,
-      "semantic_score": 0.6091,
+      "combined_score": 0.426,
+      "semantic_score": 0.6085,
       "frequency_in_top_projects": 0,
       "already_selected": false
     }

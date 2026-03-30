@@ -1,0 +1,516 @@
+{
+  "group_id": "G016",
+  "group_profile": {
+    "selected_interests": [
+      "Robotics",
+      "Artificial Intelligence / Machine Learning",
+      "Embedded Systems",
+      "Natural Language Processing"
+    ],
+    "selected_applications": [
+      "Transportation & Mobility",
+      "Healthcare / Medical",
+      "Sustainability & Environment"
+    ],
+    "selected_rdia": [
+      "Energy & Industrial Leadership",
+      "Health & Wellness",
+      "Sustainable Environment & Supply of Essential Needs"
+    ]
+  },
+  "recommended_projects": [
+    {
+      "rank": 1,
+      "project_id": "M04-45-10",
+      "title": "Smart Car Parking Manager (SCPM)",
+      "supervisor_name": " Mostafa Elsayed Ahmed Ibrahim",
+      "supervisor_id": "MEra",
+      "academic_year": "1445",
+      "keywords": [
+        "Smart Parking System",
+        "Parking Management",
+        "Raspberry Pi",
+        "Sensor-Based Detection",
+        "License Plate Recognition",
+        "Computer Vision",
+        "Web Application",
+        "SQL Database",
+        "Real-Time Monitoring",
+        "Agile Development"
+      ],
+      "application": [
+        "Transportation & Mobility"
+      ],
+      "interest": [
+        "Computer Vision",
+        "Internet of Things (IoT)",
+        "Embedded Systems"
+      ],
+      "rdia": [
+        "Sustainable Environment & Supply of Essential Needs"
+      ],
+      "scores": {
+        "final_score": 0.5504,
+        "semantic_sim": 0.7674,
+        "context_score": 0.3333,
+        "rdia_score": 0.3333,
+        "rrf_score": 0.032522
+      },
+      "explanation": "Highly similar to the group's profile. Matches application domain(s): transportation & mobility. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 2,
+      "project_id": "F29-45-20",
+      "title": "Hudhud: AI-based Remote Rehabilitation",
+      "supervisor_name": " Manan Mohammed Almusallam ",
+      "supervisor_id": "MMmu",
+      "academic_year": "1445",
+      "keywords": [
+        "Remote Rehabilitation",
+        "Artificial Intelligence",
+        "Pose Estimation",
+        "Computer Vision",
+        "Mediapipe",
+        "Physical Therapy",
+        "Healthcare Technology",
+        "Exercise Monitoring",
+        "Real-time Feedback",
+        "Patient Progress Tracking",
+        "Telerehabilitation",
+        "Knee Rehabilitation",
+        "Motion Detection",
+        "Body Posture Analysis",
+        "Injury Prevention",
+        "Therapeutic Exercises"
+      ],
+      "application": [
+        "Healthcare / Medical"
+      ],
+      "interest": [
+        "Artificial Intelligence / Machine Learning",
+        "Computer Vision",
+        "Human-Computer Interaction"
+      ],
+      "rdia": [
+        "Health & Wellness"
+      ],
+      "scores": {
+        "final_score": 0.537,
+        "semantic_sim": 0.7407,
+        "context_score": 0.3333,
+        "rdia_score": 0.3333,
+        "rrf_score": 0.02901
+      },
+      "explanation": "Good match with the group's background. Matches application domain(s): healthcare / medical. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 3,
+      "project_id": "M10-45-10",
+      "title": "School Bus Tracking and Management system",
+      "supervisor_name": "Ahmed Mohammed Ahmed Gadallah",
+      "supervisor_id": "AMda",
+      "academic_year": "1445",
+      "keywords": [
+        "School Bus Tracking",
+        "Student Transportation Management",
+        "Real-Time Location Tracking",
+        "Route Optimization",
+        "Google Maps API",
+        "Parent Notifications",
+        "Operational Efficiency",
+        "User-Friendly Interface"
+      ],
+      "application": [
+        "Transportation & Mobility"
+      ],
+      "interest": [
+        "Internet of Things (IoT)",
+        "Mobile Development",
+        "Web Development"
+      ],
+      "rdia": [
+        "Sustainable Environment & Supply of Essential Needs"
+      ],
+      "scores": {
+        "final_score": 0.5357,
+        "semantic_sim": 0.738,
+        "context_score": 0.3333,
+        "rdia_score": 0.3333,
+        "rrf_score": 0.030331
+      },
+      "explanation": "Good match with the group's background. Matches application domain(s): transportation & mobility. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 4,
+      "project_id": "F01-45-20",
+      "title": "Baasyir:A YOLO Based approach to Assist Visually  Impaired People by leveraging Smart Glasses System",
+      "supervisor_name": "Dhouha Ahmed Ben Noureddine",
+      "supervisor_id": "DAur",
+      "academic_year": "1445",
+      "keywords": [
+        "Baasyir Smart glasseses",
+        "Deep Learning",
+        "Object Detection",
+        "YOLOv7",
+        "YOLOv7-tiny",
+        "Baasyir dataset",
+        "Furniture-detection dataset",
+        "Raspberry Pi"
+      ],
+      "application": [
+        "Healthcare / Medical"
+      ],
+      "interest": [
+        "Computer Vision",
+        "Embedded Systems",
+        "Artificial Intelligence / Machine Learning"
+      ],
+      "rdia": [
+        "Health & Wellness"
+      ],
+      "scores": {
+        "final_score": 0.5352,
+        "semantic_sim": 0.7371,
+        "context_score": 0.3333,
+        "rdia_score": 0.3333,
+        "rrf_score": 0.029418
+      },
+      "explanation": "Good match with the group's background. Matches application domain(s): healthcare / medical. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 5,
+      "project_id": "F01-43-10",
+      "title": "Treatment of stuttering problems in children Application - TSA",
+      "supervisor_name": "Amal Suleiman Alsaif",
+      "supervisor_id": "ASsa",
+      "academic_year": "1443",
+      "keywords": [
+        "Treatment",
+        "Speech",
+        "Recognition",
+        "Stuttering",
+        "Application",
+        "Therapist",
+        "Analyze",
+        "Error findings",
+        "Speech problems",
+        "Children"
+      ],
+      "application": [
+        "Healthcare / Medical"
+      ],
+      "interest": [
+        "Artificial Intelligence / Machine Learning",
+        "Natural Language Processing",
+        "Mobile Development"
+      ],
+      "rdia": [
+        "Health & Wellness"
+      ],
+      "scores": {
+        "final_score": 0.5291,
+        "semantic_sim": 0.7249,
+        "context_score": 0.3333,
+        "rdia_score": 0.3333,
+        "rrf_score": 0.029274
+      },
+      "explanation": "Good match with the group's background. Matches application domain(s): healthcare / medical. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 6,
+      "project_id": "F05-45-10",
+      "title": "Visualize: A Software Tool for Visualizing the Impact of Climate Change on Cities",
+      "supervisor_name": "Waad Mohammed Alhoshan, Tasniem Nasser Alyahya",
+      "supervisor_id": "WMho, TNya",
+      "academic_year": "1445",
+      "keywords": [
+        "Climate Change Visualization",
+        "Artificial Intelligence (AI)",
+        "Deep Learning",
+        "Cycle-Consistent Generative Adversarial Network (Cycle-GAN)",
+        "Image Processing",
+        "Computer Vision",
+        "Public Awareness",
+        "Environmental Education",
+        "Urban Impact",
+        "Sandstorm Visualization",
+        "AI Bot",
+        "DeepAI",
+        "Climate Communication",
+        "Global Warming",
+        "Sustainable Communities",
+        "Image Generation"
+      ],
+      "application": [
+        "Sustainability & Environment"
+      ],
+      "interest": [
+        "Artificial Intelligence / Machine Learning",
+        "Computer Vision",
+        "Data Science"
+      ],
+      "rdia": [
+        "Sustainable Environment & Supply of Essential Needs"
+      ],
+      "scores": {
+        "final_score": 0.526,
+        "semantic_sim": 0.7187,
+        "context_score": 0.3333,
+        "rdia_score": 0.3333,
+        "rrf_score": 0.029387
+      },
+      "explanation": "Good match with the group's background. Matches application domain(s): sustainability & environment. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 7,
+      "project_id": "F03-45-10",
+      "title": "Energy-aware Multi-Object Detection and Compression in WMSN",
+      "supervisor_name": " Manal Khaled Alsabhan ",
+      "supervisor_id": "MKsa",
+      "academic_year": "1445",
+      "keywords": [
+        "Wireless Multimedia Sensor Networks (WMSNs)",
+        "Wireless Sensor Networks (WSNs)",
+        "Multimedia",
+        "Recognition of Interest",
+        "Feature Extraction"
+      ],
+      "application": [
+        "Sustainability & Environment"
+      ],
+      "interest": [
+        "Internet of Things (IoT)",
+        "Computer Vision",
+        "Embedded Systems"
+      ],
+      "rdia": [
+        "Sustainable Environment & Supply of Essential Needs"
+      ],
+      "scores": {
+        "final_score": 0.5182,
+        "semantic_sim": 0.7031,
+        "context_score": 0.3333,
+        "rdia_score": 0.3333,
+        "rrf_score": 0.028298
+      },
+      "explanation": "Good match with the group's background. Matches application domain(s): sustainability & environment. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 8,
+      "project_id": "F07-45-10",
+      "title": "Secure Healthcare Information Exchange Platform ‘KEEP SAFE’",
+      "supervisor_name": "Eman AbdulHamid Alzaid",
+      "supervisor_id": "EAza",
+      "academic_year": "1445",
+      "keywords": [
+        "Electronic Medical Records (EMR)",
+        "Blockchain Technology",
+        "Healthcare Information Systems",
+        "Secure Medical Data Sharing",
+        "Decentralized Data Protection",
+        "Patient Data Privacy",
+        "EMR Exchange Scheme",
+        "Digital Identity Verification",
+        "Healthcare Cybersecurity"
+      ],
+      "application": [
+        "Healthcare / Medical"
+      ],
+      "interest": [
+        "Blockchain",
+        "Cybersecurity",
+        "Mobile Development"
+      ],
+      "rdia": [
+        "Health & Wellness"
+      ],
+      "scores": {
+        "final_score": 0.5118,
+        "semantic_sim": 0.6903,
+        "context_score": 0.3333,
+        "rdia_score": 0.3333,
+        "rrf_score": 0.025062
+      },
+      "explanation": "Good match with the group's background. Matches application domain(s): healthcare / medical. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 9,
+      "project_id": "F28-45-20",
+      "title": "AI-trip planner and advisor",
+      "supervisor_name": " Raad Abdullah Alturki",
+      "supervisor_id": "RAtu",
+      "academic_year": "1445",
+      "keywords": [
+        "AI Trip Planner",
+        "Travel Advisor",
+        "Personalized Itinerary",
+        "Artificial Intelligence",
+        "Recommendation System",
+        "Smart Assistant",
+        "Travel Planning",
+        "Budget Optimization",
+        "User Preferences",
+        "Multilingual Support",
+        "Arabic Language",
+        "English Language",
+        "Real-time Guidance",
+        "Chatbot",
+        "Travel Technology",
+        "Itinerary Generation",
+        "PDF Export",
+        "Tourism"
+      ],
+      "application": [
+        "Transportation & Mobility"
+      ],
+      "interest": [
+        "Artificial Intelligence / Machine Learning",
+        "Natural Language Processing",
+        "Web Development"
+      ],
+      "rdia": [
+        "Economies of the Future"
+      ],
+      "scores": {
+        "final_score": 0.461,
+        "semantic_sim": 0.7554,
+        "context_score": 0.3333,
+        "rdia_score": 0.0,
+        "rrf_score": 0.030331
+      },
+      "explanation": "Highly similar to the group's profile. Matches application domain(s): transportation & mobility."
+    },
+    {
+      "rank": 10,
+      "project_id": "F17-45-20",
+      "title": "Mu’nis: Enhancing Deaf Communication with Realtime Subtitles in Arabic Language",
+      "supervisor_name": " Tasniem Nasser Alyahya ",
+      "supervisor_id": "TNya",
+      "academic_year": "1445",
+      "keywords": [
+        "Arabic Sign Language (ArSL)",
+        "Deaf and Hard of Hearing (DHH)",
+        "Real-time Translation",
+        "Sign Language Recognition",
+        "Mobile Application",
+        "Core ML",
+        "Hand Gesture Recognition",
+        "KArSL Dataset",
+        "Assistive Technology",
+        "Human-Computer Interaction",
+        "Accessibility",
+        "Two-way Communication",
+        "Audio-to-Text",
+        "Sign-to-Text",
+        "Hand Action Tool",
+        "Inclusive Design",
+        "Communication Barriers"
+      ],
+      "application": [
+        "Social Good & Community"
+      ],
+      "interest": [
+        "Natural Language Processing",
+        "Human-Computer Interaction",
+        "Artificial Intelligence / Machine Learning"
+      ],
+      "rdia": [
+        "Health & Wellness"
+      ],
+      "scores": {
+        "final_score": 0.4513,
+        "semantic_sim": 0.736,
+        "context_score": 0.0,
+        "rdia_score": 0.3333,
+        "rrf_score": 0.027799
+      },
+      "explanation": "Good match with the group's background. Aligns with the group's RDIA priority."
+    }
+  ],
+  "recommended_interests": [
+    {
+      "name": "Artificial Intelligence / Machine Learning",
+      "description": "Focuses on building systems that learn from data, make predictions, and perform intelligent tasks without explicit programming.",
+      "combined_score": 0.8957,
+      "semantic_score": 0.8509,
+      "frequency_in_top_projects": 1.0,
+      "already_selected": true
+    },
+    {
+      "name": "Natural Language Processing",
+      "description": "Deals with enabling computers to understand, interpret, and generate human language in text or speech form.",
+      "combined_score": 0.6937,
+      "semantic_score": 0.7766,
+      "frequency_in_top_projects": 0.5,
+      "already_selected": true
+    },
+    {
+      "name": "Embedded Systems",
+      "description": "Involves programming and designing specialized computing systems integrated into hardware devices.",
+      "combined_score": 0.6802,
+      "semantic_score": 0.8645,
+      "frequency_in_top_projects": 0.25,
+      "already_selected": true
+    }
+  ],
+  "recommended_applications": [
+    {
+      "name": "Transportation & Mobility",
+      "description": "Pertains to technology related to the movement of people and goods.",
+      "combined_score": 0.8444,
+      "semantic_score": 0.7777,
+      "frequency_in_top_projects": 1.0,
+      "already_selected": true
+    },
+    {
+      "name": "Education",
+      "description": "Focuses on systems and applications for learning, teaching, and academic support.",
+      "combined_score": 0.7386,
+      "semantic_score": 0.7694,
+      "frequency_in_top_projects": 0.6666666666666666,
+      "already_selected": false
+    },
+    {
+      "name": "Healthcare / Medical",
+      "description": "Relates to the use of technology to improve medical processes and patient care.",
+      "combined_score": 0.7208,
+      "semantic_score": 0.744,
+      "frequency_in_top_projects": 0.6666666666666666,
+      "already_selected": true
+    }
+  ],
+  "recommended_rdia": [
+    {
+      "label": "Economies of the Future",
+      "description": "Reimagine urban living and establish Saudi Arabia as a global leader in future-oriented sectors. ",
+      "combined_score": 0.7841,
+      "semantic_score": 0.6916,
+      "frequency_in_top_projects": 1.0,
+      "already_selected": false
+    },
+    {
+      "label": "Sustainable Environment & Supply of Essential Needs",
+      "description": "Secure sustainable access to water, food, and energy resources for the population and industries.",
+      "combined_score": 0.6193,
+      "semantic_score": 0.7133,
+      "frequency_in_top_projects": 0.4,
+      "already_selected": true
+    },
+    {
+      "label": "Health & Wellness",
+      "description": "Address prevalent health and therapeutic challenges in the Kingdom.",
+      "combined_score": 0.6091,
+      "semantic_score": 0.613,
+      "frequency_in_top_projects": 0.6,
+      "already_selected": true
+    },
+    {
+      "label": "Energy & Industrial Leadership",
+      "description": "Maintain and strengthen Saudi Arabia's global leadership in the energy sector while diversifying into new areas.",
+      "combined_score": 0.4538,
+      "semantic_score": 0.6483,
+      "frequency_in_top_projects": 0,
+      "already_selected": true
+    }
+  ]
+}

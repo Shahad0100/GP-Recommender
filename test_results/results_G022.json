@@ -1,0 +1,498 @@
+{
+  "group_id": "G022",
+  "group_profile": {
+    "selected_interests": [
+      "Web Development",
+      "Game Development",
+      "Database Systems",
+      "Cloud Computing"
+    ],
+    "selected_applications": [
+      "Entertainment & Media",
+      "Finance & Economics",
+      "Business & Productivity"
+    ],
+    "selected_rdia": [
+      "Economies of the Future"
+    ]
+  },
+  "recommended_projects": [
+    {
+      "rank": 1,
+      "project_id": "F14-42-20",
+      "title": "Book Recommendation System based on Collaboration Filtering (RICO)",
+      "supervisor_name": " Wojdan Mohammed BinSaeedan",
+      "supervisor_id": "WMnS",
+      "academic_year": "42",
+      "keywords": [
+        "Recommendation System",
+        "Collaborative Filtering",
+        "User Preferences",
+        "KNN Algorithm",
+        "Django Framework",
+        "Information Filtering",
+        "Content Personalization",
+        "Data Overload Management"
+      ],
+      "application": [
+        "Entertainment & Media"
+      ],
+      "interest": [
+        "Web Development",
+        "Artificial Intelligence / Machine Learning",
+        "Database Systems"
+      ],
+      "rdia": [
+        "Economies of the Future"
+      ],
+      "scores": {
+        "final_score": 0.7086,
+        "semantic_sim": 0.7505,
+        "context_score": 0.3333,
+        "rdia_score": 1.0,
+        "rrf_score": 0.031754
+      },
+      "explanation": "Highly similar to the group's profile. Matches application domain(s): entertainment & media. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 2,
+      "project_id": "F13-42-10",
+      "title": "Dolphin Application ",
+      "supervisor_name": " Eman AbdulHamid Alzaid ",
+      "supervisor_id": "EAza",
+      "academic_year": "42",
+      "keywords": [
+        "Mobile Application",
+        "Video Management",
+        "Video Retrieval",
+        "Machine Learning",
+        "Video Indexing",
+        "Smartphone Videos"
+      ],
+      "application": [
+        "Entertainment & Media"
+      ],
+      "interest": [
+        "Artificial Intelligence / Machine Learning",
+        "Mobile Development",
+        "Computer Vision"
+      ],
+      "rdia": [
+        "Economies of the Future"
+      ],
+      "scores": {
+        "final_score": 0.7042,
+        "semantic_sim": 0.7418,
+        "context_score": 0.3333,
+        "rdia_score": 1.0,
+        "rrf_score": 0.03031
+      },
+      "explanation": "Good match with the group's background. Matches application domain(s): entertainment & media. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 3,
+      "project_id": "M08-45-20",
+      "title": "Nab’a Application",
+      "supervisor_name": "Mohammed Hussein Alkhatib",
+      "supervisor_id": "MHkh",
+      "academic_year": "1445",
+      "keywords": [
+        "News",
+        "Verified News",
+        "Trusted Information",
+        "Misinformation",
+        "Blockchain"
+      ],
+      "application": [
+        "Entertainment & Media"
+      ],
+      "interest": [
+        "Blockchain",
+        "Web Development",
+        "Mobile Development"
+      ],
+      "rdia": [
+        "Economies of the Future"
+      ],
+      "scores": {
+        "final_score": 0.7024,
+        "semantic_sim": 0.738,
+        "context_score": 0.3333,
+        "rdia_score": 1.0,
+        "rrf_score": 0.030366
+      },
+      "explanation": "Good match with the group's background. Matches application domain(s): entertainment & media. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 4,
+      "project_id": "F16-45-10",
+      "title": "Automatic audio files summarization System, EJAZ Website",
+      "supervisor_name": " Manal Khaled Alsabhan ",
+      "supervisor_id": "MKsa",
+      "academic_year": "1445",
+      "keywords": [
+        "Audio Summarization",
+        "Speech Recognition",
+        "Natural Language Processing (NLP)",
+        "Automatic Transcription",
+        "Text Summarization",
+        "Pegasus Model",
+        "BART Model",
+        "T5 Model",
+        "Meeting Summarization",
+        "Information Extraction",
+        "Audio Processing",
+        "Deep Learning",
+        "Collaborative Tools",
+        "Time Efficiency",
+        "Content Accessibility",
+        "Multilingual Support",
+        "Cloud Storage"
+      ],
+      "application": [
+        "Business & Productivity"
+      ],
+      "interest": [
+        "Natural Language Processing",
+        "Artificial Intelligence / Machine Learning",
+        "Web Development"
+      ],
+      "rdia": [
+        "Economies of the Future"
+      ],
+      "scores": {
+        "final_score": 0.6986,
+        "semantic_sim": 0.7306,
+        "context_score": 0.3333,
+        "rdia_score": 1.0,
+        "rrf_score": 0.029236
+      },
+      "explanation": "Good match with the group's background. Matches application domain(s): business & productivity. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 5,
+      "project_id": "M05-45-20",
+      "title": "Musanif (مصنف): A Categorization and Product Information API for E-Commerce Product Images)",
+      "supervisor_name": "Sultan Shuraidah Al-dera",
+      "supervisor_id": "SSde",
+      "academic_year": "1445",
+      "keywords": [
+        "E-commerce",
+        "Image Recognition",
+        "Product Categorization",
+        "API Development",
+        "Machine Learning",
+        "AWS Rekognition",
+        "Web Scraping",
+        "Product Information Extraction",
+        "Automated Data Entry",
+        "Inventory Management",
+        "REST API",
+        "Image Classification",
+        "Product Labeling",
+        "React",
+        "Node.js",
+        "Cloud Computing",
+        "Retail Technology"
+      ],
+      "application": [
+        "Business & Productivity"
+      ],
+      "interest": [
+        "Computer Vision",
+        "Artificial Intelligence / Machine Learning",
+        "Web Development"
+      ],
+      "rdia": [
+        "Economies of the Future"
+      ],
+      "scores": {
+        "final_score": 0.6865,
+        "semantic_sim": 0.7064,
+        "context_score": 0.3333,
+        "rdia_score": 1.0,
+        "rrf_score": 0.029551
+      },
+      "explanation": "Good match with the group's background. Matches application domain(s): business & productivity. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 6,
+      "project_id": "F06-45-10",
+      "title": "Get It: A Deep Learning Approach for Identifying and Discriminating Spoken Arabic Among English",
+      "supervisor_name": "Wojdan Mohammed BinSaeedan",
+      "supervisor_id": "WMnS",
+      "academic_year": "1445",
+      "keywords": [
+        "Language Identification",
+        "Spoken Language Recognition",
+        "Deep Learning",
+        "Arabic Speech Recognition",
+        "English Speech Recognition",
+        "Multilingual Systems",
+        "Customer Service Automation",
+        "ECAPA-TDNN",
+        "SpeechBrain",
+        "Convolutional Neural Network (CNN)",
+        "Recurrent Neural Network (RNN)",
+        "Capsule Network (CapsNet)",
+        "Natural Language Processing (NLP)",
+        "Voice Analysis",
+        "Mozilla Common Voice Dataset",
+        "Real-time Speech Processing",
+        "Call Center Automation",
+        "Audio Processing"
+      ],
+      "application": [
+        "Business & Productivity"
+      ],
+      "interest": [
+        "Artificial Intelligence / Machine Learning",
+        "Natural Language Processing"
+      ],
+      "rdia": [
+        "Economies of the Future"
+      ],
+      "scores": {
+        "final_score": 0.6796,
+        "semantic_sim": 0.6925,
+        "context_score": 0.3333,
+        "rdia_score": 1.0,
+        "rrf_score": 0.026389
+      },
+      "explanation": "Good match with the group's background. Matches application domain(s): business & productivity. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 7,
+      "project_id": "F02-42-20",
+      "title": "Online Context-Aware Recommender System",
+      "supervisor_name": " Meznah Rashid Almutairy",
+      "supervisor_id": "MRmu",
+      "academic_year": "1442",
+      "keywords": [
+        "Recommender System",
+        "Large-scale",
+        "Online Learning",
+        "Context-aware",
+        "Multi-armed Bandit",
+        "Reinforcement Learning",
+        "Clustering"
+      ],
+      "application": [
+        "Entertainment & Media"
+      ],
+      "interest": [
+        "Artificial Intelligence / Machine Learning",
+        "Distributed Systems",
+        "Data Science"
+      ],
+      "rdia": [
+        "Economies of the Future"
+      ],
+      "scores": {
+        "final_score": 0.6695,
+        "semantic_sim": 0.6723,
+        "context_score": 0.3333,
+        "rdia_score": 1.0,
+        "rrf_score": 0.02753
+      },
+      "explanation": "Good match with the group's background. Matches application domain(s): entertainment & media. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 8,
+      "project_id": "F07-42-10",
+      "title": "Text Similarity Search with Application to kNN Classifier",
+      "supervisor_name": " Meznah Rashid Almutairy ",
+      "supervisor_id": "MRmu",
+      "academic_year": "1442",
+      "keywords": [
+        "Patent Analysis",
+        "Document Similarity",
+        "Text Representation",
+        "Vectorization Methods",
+        "Similarity Measures",
+        "KNN Classification",
+        "Text Classification"
+      ],
+      "application": [
+        "Business & Productivity"
+      ],
+      "interest": [
+        "Artificial Intelligence / Machine Learning",
+        "Natural Language Processing",
+        "Data Science"
+      ],
+      "rdia": [
+        "Economies of the Future"
+      ],
+      "scores": {
+        "final_score": 0.6576,
+        "semantic_sim": 0.6486,
+        "context_score": 0.3333,
+        "rdia_score": 1.0,
+        "rrf_score": 0.02607
+      },
+      "explanation": "Good match with the group's background. Matches application domain(s): business & productivity. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 9,
+      "project_id": "F03-42-10",
+      "title": "Examining the effectiveness of pretrained language models for Arabic NLP tasks",
+      "supervisor_name": "Areeb Abdullah Alowisheq , Waad Mohammed Alhoshan",
+      "supervisor_id": "AAow, WMho",
+      "academic_year": "1442",
+      "keywords": [
+        "Arabic NLP",
+        "Sentiment Analysis",
+        "AraBERT",
+        "Transformer Models",
+        "SVM",
+        "TF-IDF",
+        "Hotel Arabic Reviews Dataset"
+      ],
+      "application": [
+        "Business & Productivity"
+      ],
+      "interest": [
+        "Natural Language Processing",
+        "Artificial Intelligence / Machine Learning",
+        "Web Development"
+      ],
+      "rdia": [
+        "Economies of the Future"
+      ],
+      "scores": {
+        "final_score": 0.6547,
+        "semantic_sim": 0.6427,
+        "context_score": 0.3333,
+        "rdia_score": 1.0,
+        "rrf_score": 0.026036
+      },
+      "explanation": "Good match with the group's background. Matches application domain(s): business & productivity. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 10,
+      "project_id": "F06-42-20",
+      "title": "Developing A Web Application for Automatic Code Generation",
+      "supervisor_name": " Aram Saleh Al-Sedrani ",
+      "supervisor_id": "ASSe",
+      "academic_year": "1442",
+      "keywords": [
+        "Automatic Code Generation",
+        "ACG",
+        "software development",
+        "web application",
+        "Python",
+        "Java",
+        "XML parser",
+        "flowchart",
+        "algorithms",
+        "GUI"
+      ],
+      "application": [
+        "Education"
+      ],
+      "interest": [
+        "Artificial Intelligence / Machine Learning",
+        "Web Development",
+        "Software Engineering"
+      ],
+      "rdia": [
+        "Economies of the Future"
+      ],
+      "scores": {
+        "final_score": 0.6494,
+        "semantic_sim": 0.7989,
+        "context_score": 0.0,
+        "rdia_score": 1.0,
+        "rrf_score": 0.028589
+      },
+      "explanation": "Highly similar to the group's profile. Aligns with the group's RDIA priority."
+    }
+  ],
+  "recommended_interests": [
+    {
+      "name": "Web Development",
+      "description": "Covers the design and implementation of websites and web applications, including frontend, backend, and full‑stack development.",
+      "combined_score": 0.8795,
+      "semantic_score": 0.8278,
+      "frequency_in_top_projects": 1.0,
+      "already_selected": true
+    },
+    {
+      "name": "Artificial Intelligence / Machine Learning",
+      "description": "Focuses on building systems that learn from data, make predictions, and perform intelligent tasks without explicit programming.",
+      "combined_score": 0.8477,
+      "semantic_score": 0.7825,
+      "frequency_in_top_projects": 1.0,
+      "already_selected": false
+    },
+    {
+      "name": "Mobile Development",
+      "description": "Involves creating applications for mobile platforms such as iOS and Android, focusing on performance, UI, and device integration.",
+      "combined_score": 0.7008,
+      "semantic_score": 0.7869,
+      "frequency_in_top_projects": 0.5,
+      "already_selected": false
+    }
+  ],
+  "recommended_applications": [
+    {
+      "name": "Education",
+      "description": "Focuses on systems and applications for learning, teaching, and academic support.",
+      "combined_score": 0.8435,
+      "semantic_score": 0.7765,
+      "frequency_in_top_projects": 1.0,
+      "already_selected": false
+    },
+    {
+      "name": "Entertainment & Media",
+      "description": "Covers applications for leisure and content creation.",
+      "combined_score": 0.679,
+      "semantic_score": 0.7558,
+      "frequency_in_top_projects": 0.5,
+      "already_selected": true
+    },
+    {
+      "name": "Business & Productivity",
+      "description": "Involves the application of computing to enhance business operations.",
+      "combined_score": 0.5646,
+      "semantic_score": 0.8065,
+      "frequency_in_top_projects": 0,
+      "already_selected": true
+    }
+  ],
+  "recommended_rdia": [
+    {
+      "label": "Economies of the Future",
+      "description": "Reimagine urban living and establish Saudi Arabia as a global leader in future-oriented sectors. ",
+      "combined_score": 0.811,
+      "semantic_score": 0.73,
+      "frequency_in_top_projects": 1.0,
+      "already_selected": true
+    },
+    {
+      "label": "Sustainable Environment & Supply of Essential Needs",
+      "description": "Secure sustainable access to water, food, and energy resources for the population and industries.",
+      "combined_score": 0.4657,
+      "semantic_score": 0.6653,
+      "frequency_in_top_projects": 0,
+      "already_selected": false
+    },
+    {
+      "label": "Health & Wellness",
+      "description": "Address prevalent health and therapeutic challenges in the Kingdom.",
+      "combined_score": 0.4485,
+      "semantic_score": 0.593,
+      "frequency_in_top_projects": 0.1111111111111111,
+      "already_selected": false
+    },
+    {
+      "label": "Energy & Industrial Leadership",
+      "description": "Maintain and strengthen Saudi Arabia's global leadership in the energy sector while diversifying into new areas.",
+      "combined_score": 0.438,
+      "semantic_score": 0.6258,
+      "frequency_in_top_projects": 0,
+      "already_selected": false
+    }
+  ]
+}
