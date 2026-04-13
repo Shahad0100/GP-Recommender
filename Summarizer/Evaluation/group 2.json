@@ -1,0 +1,240 @@
+{
+  "group_id": "GP-2",
+  "group_profile": {
+    "selected_interests": [
+      "Artificial Intelligence / Machine Learning",
+      "Natural Language Processing",
+      "Database Systems",
+      "Cloud Computing",
+      "Web Development"
+    ],
+    "selected_applications": [
+      "Business & Productivity",
+      "Education",
+      "Healthcare / Medical"
+    ],
+    "selected_rdia": [
+      "Health & Wellness",
+      "Economies of the Future"
+    ]
+  },
+  "recommended_projects": [
+    {
+      "rank": 1,
+      "project_id": "F06-42-20",
+      "title": "Developing A Web Application for Automatic Code Generation",
+      "abstract": "Automatic Code Generation (ACG) is an important part of today’s software development. It is a technique that processes a user description, algorithms, or a model to write programs and uses it for a small part of a code or entire applications by using different techniques. It increases software quality, decreases code errors, reduces effort and coding time. The objective of this project is to develop a web application for ACG to be an assistant for developers and Computer Science (CS) students. This report defines a comparative study of several research by examining the features and limitations, after the study, we detect some gaps, and we try to fill out these gaps by using a flowchart as input, Python, and Java as source code, and using the Extensible Markup Language (XML) parser technique. We analyze the user and system requirements for the web application that matches with user's needs. The report contains the system structure and organization, also, described the alternative methods of our web application, algorithms that we used. Additionally, we designed the graphical user interface for the web application. We concentrate on providing a detailed description of the implementation requirement and its details. Also, we examined the test and results for our ACG web.",
+      "supervisor_name": " Aram Saleh Al-Sedrani ",
+      "supervisor_id": "ASSe",
+      "academic_year": "1442",
+      "keywords": [
+        "Automatic Code Generation",
+        "ACG",
+        "software development",
+        "web application",
+        "Python",
+        "Java",
+        "XML parser",
+        "flowchart",
+        "algorithms",
+        "GUI"
+      ],
+      "future_work": "This project is aiming to add more properties and shapes, for example, do-while, methods, classes, shapes such as document, multi-document, and database. In addition, the system could display a validation message to the user that verifying his/her drawn flowchart as feedback, also it could use compiler to run the generated code and edit it. Also, it could be extending the source code in many various languages like C++, C#, PHP, etc., and utilizing it with OOP. Moreover, developing it to be run on Android and iOS mobile apps to make it easier to reach.",
+      "application": [
+        "Education"
+      ],
+      "interest": [
+        "Artificial Intelligence / Machine Learning",
+        "Web Development",
+        "Software Engineering"
+      ],
+      "rdia": [
+        "Economies of the Future"
+      ],
+      "scores": {
+        "final_score": 0.6059,
+        "semantic_sim": 0.7951,
+        "context_score": 0.3333,
+        "rdia_score": 0.5,
+        "rrf_score": 0.028589
+      },
+      "explanation": "Highly similar to the group's profile. Matches application domain(s): education. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 2,
+      "project_id": "F04-45-20",
+      "title": "CCIS Student Assistant Chatbot",
+      "abstract": "This project introduces a chatbot designed specifically for the College of Computer and Information Sciences (CCIS) students at Imam Muhammad Ibn Saud Islamic University. It's a helpful tool that offers support, reducing the need for humans. Using advanced natural language processing (NLP) techniques, it provides quick and accurate answers. It uses (FAISS) for efficient data retrieval and integrates with Falcon-Instructor LLM for adaptable responses. The focus is on accuracy, clarity, and relevance when addressing student questions. With a vast knowledge base, the chatbot acts as a virtual assistant for answering the students queries about professors' info, curriculum details, and academic support.",
+      "supervisor_name": "Ahmed Mohammed Ahmed Gadallah",
+      "supervisor_id": "AMda",
+      "academic_year": "1445",
+      "keywords": [
+        "Educational Chatbot",
+        "Natural Language Processing (NLP)",
+        "Student Support System",
+        "Higher Education",
+        "FAISS",
+        "Falcon-Instructor LLM",
+        "Information Retrieval",
+        "Academic Advising",
+        "FAQ Automation",
+        "Course Management",
+        "Professor Information",
+        "Virtual Assistant",
+        "College of Computer and Information Sciences (CCIS)",
+        "Imam Muhammad Ibn Saud Islamic University",
+        "Student Services"
+      ],
+      "future_work": "Our vision for the CCIS Student Assistant Chatbot's future is bold. We aim to expand its functionalities, making it a truly comprehensive academic companion. This includes incorporating features like proactive exam reminders, personalized study planner recommendations, and seamless integration with student portals for real-time access to grades and schedules. By streamlining daily tasks and offering tailored support, we'll empower students to focus on their academic goals. Furthermore, we recognize the diverse needs of our students. Therefore, we plan to add multilingual capabilities, making the chatbot accessible to Arabic speakers and fostering a more inclusive environment. By breaking down language barriers, we can ensure everyone feels supported and empowered to navigate their academic journey.",
+      "application": [
+        "Education"
+      ],
+      "interest": [
+        "Natural Language Processing",
+        "Artificial Intelligence / Machine Learning"
+      ],
+      "rdia": [
+        "Economies of the Future"
+      ],
+      "scores": {
+        "final_score": 0.592,
+        "semantic_sim": 0.7673,
+        "context_score": 0.3333,
+        "rdia_score": 0.5,
+        "rrf_score": 0.029287
+      },
+      "explanation": "Highly similar to the group's profile. Matches application domain(s): education. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 3,
+      "project_id": "F16-45-10",
+      "title": "Automatic audio files summarization System, EJAZ Website",
+      "abstract": "In our fast-paced, time-constrained lives flooded with audio files and text, there is a pressing need for an innovative solution. This project proposes to develop a website called “EJAZ” designed to automatically summarize spoken content. Using speech recognition technology, the app transcribes audio files and then uses natural language processing to extract basic information. The importance of this application extends beyond just saving time, as it not only eliminates manual copying of various sources, but also enhances the overall quality of information extraction. Furthermore, the application opens up avenues to build a repository of extensive, searchable content, providing valuable resources for future reference in our information-rich environment",
+      "supervisor_name": " Manal Khaled Alsabhan ",
+      "supervisor_id": "MKsa",
+      "academic_year": "1445",
+      "keywords": [
+        "Audio Summarization",
+        "Speech Recognition",
+        "Natural Language Processing (NLP)",
+        "Automatic Transcription",
+        "Text Summarization",
+        "Pegasus Model",
+        "BART Model",
+        "T5 Model",
+        "Meeting Summarization",
+        "Information Extraction",
+        "Audio Processing",
+        "Deep Learning",
+        "Collaborative Tools",
+        "Time Efficiency",
+        "Content Accessibility",
+        "Multilingual Support",
+        "Cloud Storage"
+      ],
+      "future_work": "The development of the EJAZ website, while comprehensive, is viewed as an ongoing process. Given the constraints of time, certain functionalities were prioritized, leaving room for the integration of additional features in the future. These enhancements are envisaged to elevate user experience and broaden the utility of the platform: • Cross-Platform Compatibility: Enhancing the website's responsiveness to ensure seamless operation across various devices, including smartphones and tablets, catering to the needs of users on the go. • Expanded File Support: Broadening the spectrum of acceptable file formats for input beyond audio to include text documents (.doc, .pdf) and even content from web URLs. This expansion would accommodate a wider range of user preferences and needs. • Diverse Export Options: Introducing flexibility in the export formats of summaries, allowing users to choose from formats like .doc, enabling ease of use in professional and academic contexts. • Editable Summaries: Implementing features that allow users to personalize summaries by adding highlights, deleting irrelevant sections, or enriching them with images, catering to diverse user requirements for information presentation. • Email Integration: Facilitating the direct sharing of summaries via email, enhancing the platform's utility for collaborative and academic purposes. • Customizable Summaries: Offering users the option to omit titles from summaries and to categorize them, providing a tailored summary experience. • Adjustable Summary Length: Allowing users to specify the desired length of summaries, accommodating varied depth of detail requirements. • User Interface Enhancements: Continuously improving the graphical user interface to enhance usability and accessibility for a diverse user base, ensuring an intuitive and engaging experience. • Advanced Summarization Models: Exploring the integration of newer and more sophisticated summarization algorithms to improve the quality and accuracy of summaries, keeping pace with advancements in AI and machine learning. • Multilingual Support: Expanding the platform to support multiple languages, thereby increasing its global accessibility and utility. • Community Features: Developing a community aspect where users can share and discuss summaries, fostering a collaborative environment. • Privacy and Security Enhancements: Strengthening data protection measures to safeguard user uploads and personal information, ensuring a secure and trustworthy platform.",
+      "application": [
+        "Business & Productivity"
+      ],
+      "interest": [
+        "Natural Language Processing",
+        "Artificial Intelligence / Machine Learning",
+        "Web Development"
+      ],
+      "rdia": [
+        "Economies of the Future"
+      ],
+      "scores": {
+        "final_score": 0.5915,
+        "semantic_sim": 0.7664,
+        "context_score": 0.3333,
+        "rdia_score": 0.5,
+        "rrf_score": 0.032266
+      },
+      "explanation": "Highly similar to the group's profile. Matches application domain(s): business & productivity. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 4,
+      "project_id": "F06-45-20",
+      "title": "Predicting Programming Skills Among Novice Programmers",
+      "abstract": "This project discussed predicting the programming skills of novice programmers while gaining insights into the challenges they face in debugging and programming. The primary objectives include analyzing common errors encountered during debugging, utilizing debugging assessment data to estimate programming abilities, evaluating the effectiveness of prediction models, and identifying obstacles in the learning and practice of programming. The methodology involves collecting data on grades and debugging capabilities, applying machine learning (ML) algorithms, and statistically evaluating the predictions. The research seeks to enhance our understanding of debugging assessments and improve the learning experience for novice programmers",
+      "supervisor_name": " Basma Suleiman Alqadi ",
+      "supervisor_id": "BSqa",
+      "academic_year": "1445",
+      "keywords": [
+        "Programming Skills Prediction",
+        "Debugging Ability",
+        "Novice Programmers",
+        "Machine Learning",
+        "Educational Data Mining",
+        "Logical Errors",
+        "K-Nearest Neighbors (KNN)",
+        "Support Vector Machine (SVM)",
+        "Naive Bayes (NB)",
+        "Programming Education",
+        "Debugging Assessment",
+        "Correlation Analysis",
+        "Error Analysis",
+        "Code Debugging",
+        "Programming Proficiency",
+        "English Proficiency",
+        "Skill Prediction"
+      ],
+      "future_work": "In future work, the subsequent phase of this study will focus on creating an assessment system in the form of a survey. The primary objective of this survey will be to identify the most effective instructional strategies for teaching and enhancing debugging expertise. To improve the reliability and accuracy of our results, we plan to augment the dataset by including a larger sample size and we will focus on making the participants more diverse in terms of age, experience, and gender. By expanding the dataset, we aim to obtain more comprehensive data to strengthen the correlation analysis and enhance the performance of the ML models.",
+      "application": [
+        "Education"
+      ],
+      "interest": [
+        "Artificial Intelligence / Machine Learning",
+        "Data Science"
+      ],
+      "rdia": [
+        "Economies of the Future"
+      ],
+      "scores": {
+        "final_score": 0.5895,
+        "semantic_sim": 0.7624,
+        "context_score": 0.3333,
+        "rdia_score": 0.5,
+        "rrf_score": 0.015385
+      },
+      "explanation": "Highly similar to the group's profile. Matches application domain(s): education. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 5,
+      "project_id": "F04-42-10",
+      "title": "Evaluating Website Quality Using Machine Learning",
+      "abstract": "Academic websites are important references for every student and every teacher, it represents the quality of the university and the links between the university and its students or teachers. There are many academic websites, but not all of them are considered as a high-quality website. We implemented a quality evaluator to evaluate the quality of the academic websites using Random forest which is a supervised machine learning technique. The quality evaluator evaluates the academic website based on chosen features and standards. The features will be extracted automatically from the website source code. Our quality evaluator will help different domains such as website designers and education institution management.",
+      "supervisor_name": "Aram Saleh Al-Sedrani ",
+      "supervisor_id": "ASSe",
+      "academic_year": "1442",
+      "keywords": [
+        "Academic websites",
+        "Quality evaluator",
+        "Random forest",
+        "Supervised machine learning",
+        "Feature extraction"
+      ],
+      "future_work": "Improving the dataset with an additional number of websites . Include foreign academic websites in the dataset. Release the quality evaluator website as an IOS and Android application. Adding semantic evaluation to the quality evaluator website. Make the quality evaluator website evaluate both academic and non-academic websites. Increment the number of the extracted feature to improve the evaluation.",
+      "application": [
+        "Education"
+      ],
+      "interest": [
+        "Artificial Intelligence / Machine Learning",
+        "Web Development",
+        "Data Science"
+      ],
+      "rdia": [
+        "Economies of the Future"
+      ],
+      "scores": {
+        "final_score": 0.5889,
+        "semantic_sim": 0.7612,
+        "context_score": 0.3333,
+        "rdia_score": 0.5,
+        "rrf_score": 0.028139
+      },
+      "explanation": "Highly similar to the group's profile. Matches application domain(s): education. Aligns with the group's RDIA priority."
+    }
+  ]
+}

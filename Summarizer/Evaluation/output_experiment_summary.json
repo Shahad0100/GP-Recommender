@@ -1,0 +1,35 @@
+[
+  {
+    "group_id": "GP-1",
+    "top5_project_ids": [
+      "F01-45-20",
+      "F29-45-20",
+      "F01-43-10",
+      "F01-42-20",
+      "F09-42-20"
+    ],
+    "summary": "The top five recommended projects collectively explore various aspects of health and wellness through computer vision, artificial intelligence, and machine learning techniques. Projects such as Baasyir, Hudhud, and Treatment of stuttering problems in children all address critical issues in healthcare, particularly focusing on remote rehabilitation and speech therapy. These projects leverage deep learning algorithms to enhance diagnostic accuracy and provide real-time feedback, which aligns perfectly with the group's interest areas in artificial intelligence/machine learning and computer vision. Additionally, projects like COVID-19 detection and finding deleted regions in human DNA utilize advanced bioinformatics tools and next-generation sequencing technology to analyze genomic data, contributing significantly to the field of genomics and personalized medicine. The common theme among these projects is their commitment to improving patient outcomes and enhancing accessibility in healthcare settings, making them highly relevant and beneficial for your studies and future career aspirations."
+  },
+  {
+    "group_id": "GP-2",
+    "top5_project_ids": [
+      "F06-42-20",
+      "F04-45-20",
+      "F16-45-10",
+      "F06-45-20",
+      "F04-42-10"
+    ],
+    "summary": "These five projects collectively aim to address key challenges in both education and business & productivity through innovative technological solutions. They all seek to improve efficiency, accessibility, and effectiveness in various applications such as automatic code generation, chatbots, audio summarization systems, programming skills prediction, website quality evaluation, and more. The projects align closely with the group's profile, focusing on artificial intelligence/machine learning, natural language processing, and web development. By tackling these issues, these projects contribute to the broader goal of enhancing economies of the future, particularly in terms of education and business productivity. Each project represents a unique approach to solving specific problems, from improving student support systems and AI-driven educational data mining to developing efficient tools for debugging and predicting programming proficiency. These initiatives are well-suited for your group because they reflect the intersection of your areas of interest—Artificial Intelligence/ML, NLP, and Web Development—with the RDIA priorities of health and wellness and economics. Together, they offer valuable insights and practical applications that can be beneficial for your studies and career aspirations."
+  },
+  {
+    "group_id": "GP-3",
+    "top5_project_ids": [
+      "F24-45-20",
+      "F08-42-20",
+      "M02-45-20",
+      "F20-45-20",
+      "F27-45-20"
+    ],
+    "summary": "These five projects collectively explore cutting-edge solutions to pressing cybersecurity issues, particularly focusing on detection and prevention techniques. Projects such as \"Botnet Attack Detection Using Machine Learning,\" which employs ensemble learning and principal component analysis to identify botnets, and \"Detecting Malicious PowerShell Scripts using Machine Learning,\" which utilizes stacked denoising autoencoders and support vector machines for malicious script detection, demonstrate how machine learning can be applied to secure IoT environments. Another notable project, \"Detection of Adversarial Attacks Malwares Using Machine Learning Models,\" addresses the challenge of detecting adversarial attacks against malware, employing advanced models like fast gradient sign method and random forests. These projects highlight the importance of robust cybersecurity measures, aligning well with the group's interest areas in artificial intelligence/machine learning and cybersecurity. Additionally, projects like \"Abnormal Event Detection for Video Surveillance (SecuritEye)\" and \"Maseer: Advanced Pilgrimage Mapping for Effective Crowd Management during Hajj\" showcase how deep learning and computer vision can enhance real-time monitoring and management systems, further solidifying the relevance of these projects to the group's applications in finance/economics and government/public sector. The combination of these projects reflects a strong alignment with the group's RDIA priorities, making them ideal for students interested in both economic futures and technological advancements in cybersecurity."
+  }
+]

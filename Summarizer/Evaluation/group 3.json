@@ -1,0 +1,257 @@
+{
+  "group_id": "GP-3",
+  "group_profile": {
+    "selected_interests": [
+      "Cybersecurity",
+      "Network Systems",
+      "Database Systems"
+    ],
+    "selected_applications": [
+      "Finance & Economics",
+      "Government & Public Sector",
+      "Security & Privacy"
+    ],
+    "selected_rdia": [
+      "Energy & Industrial Leadership",
+      "Economies of the Future"
+    ]
+  },
+  "recommended_projects": [
+    {
+      "rank": 1,
+      "project_id": "F24-45-20",
+      "title": "Botnet Attack Detection Using Machine Learning",
+      "abstract": "The increasing threat of cyberattacks, particularly botnet activities, has underscored the necessity for adaptive defensive strategies. This research project aims to enhance botnet attack detection accuracy in the context of Internet of Things (IoT) environments through the application of machine learning. The project emphasizes the critical need to address IoT device security vulnerabilities and mitigate botnet threats. The research methodology comprises data preprocessing, feature selection, model training, and performance evaluation. The N-BaIoT dataset, which captures network traffic data before and after infection by the BASHLITE and Mirai botnets, is used for training and evaluation. To address the imbalanced nature of the dataset, resampling techniques are applied for each attack type. The data is subjected to various preprocessing steps, including cleaning, shuffling, feature extraction using Principal Component Analysis (PCA), and label encoding. The dataset is split into training and testing subsets, and data normalization and standardization techniques are applied. The models are trained using an ensemble technique called Voting Classifier, which combines the predictions of Decision Tree, KNN , and Support Vector Classifier models. Performance evaluation metrics such as accuracy, precision, recall, and F1 - score are used to assess the effectiveness of the models. The results are compared with existing research to provide insights into the strengths and weaknesses of the proposed approach. This project aims to contribute to the advancement of IoT security and the prevention of botnet attacks, ultimately enhancing the cybersecurity landscape",
+      "supervisor_name": " Fatmah Ratiyan Alanazi ",
+      "supervisor_id": "FRan",
+      "academic_year": "1445",
+      "keywords": [
+        "Botnet Detection",
+        "Machine Learning",
+        "Ensemble Learning",
+        "Voting Classifier",
+        "Internet of Things (IoT) Security",
+        "Cybersecurity",
+        "N-BaIoT Dataset",
+        "BASHLITE Botnet",
+        "Mirai Botnet",
+        "Principal Component Analysis (PCA)",
+        "Decision Tree",
+        "K-Nearest Neighbors (KNN)",
+        "Support Vector Classifier (SVC)",
+        "Network Intrusion Detection",
+        "Anomaly Detection",
+        "Class Imbalance",
+        "Resampling Techniques",
+        "Feature Extraction"
+      ],
+      "future_work": "While our research has yielded promising results, there remain several opportunities for further exploration and improvement. Some potential avenues for future work include: Exploring Advanced Ensemble Techniques: Investigating more sophisticated ensemble methods or combining multiple ensemble approaches could further enhance the detection capabilities. Techniques such as meta-learning, ensemble pruning, or ensemble stacking could be explored to optimize the ensemble's decision-making process and improve model performance. Enhancing Feature Extraction: Experimenting with more advanced feature extraction techniques beyond Principal Component Analysis (PCA) could yield more discriminative features and enhance model generalization. Techniques such as deep learning-based feature extraction or domain-specific feature engineering tailored to IoT botnet traffic data could be explored to capture more nuanced patterns. Handling Class Imbalance: Further research is needed to explore the impact of different resampling techniques for handling class imbalance in the dataset. Experimenting with oversampling, undersampling, or hybrid approaches tailored to the characteristics of the N-BaIoT dataset could lead to better model performance and robustness. Evaluation on Multiple Datasets: Conducting experiments on multiple datasets would help assess the generalization capability of the model and evaluate its performance across different scenarios. Testing the model on diverse datasets would provide a more comprehensive understanding of its effectiveness and practical utility. Real-world Deployment: Evaluating the model's performance in real-world scenarios or deploying it in a practical environment for live monitoring and detection could provide valuable insights into its effectiveness and practical utility. This would involve testing the model's scalability, reliability, and efficiency in real-time botnet detection scenarios.",
+      "application": [
+        "Security & Privacy"
+      ],
+      "interest": [
+        "Artificial Intelligence / Machine Learning",
+        "Cybersecurity",
+        "Data Science"
+      ],
+      "rdia": [
+        "Economies of the Future"
+      ],
+      "scores": {
+        "final_score": 0.5773,
+        "semantic_sim": 0.7379,
+        "context_score": 0.3333,
+        "rdia_score": 0.5,
+        "rrf_score": 0.03101
+      },
+      "explanation": "Good match with the group's background. Matches application domain(s): security & privacy. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 2,
+      "project_id": "F08-42-20",
+      "title": "Detecting Malicious PowerShell Scripts using Machine Learning",
+      "abstract": "PowerShell is an important tool used to automate administrative tasks. It is an opensource tool that is incorporated in Windows machines and many other operating systems. Administrators utilize PowerShell to carry out a range of typical management tasks such as, adding and deleting accounts, editing groups, and accessing hard-to-find user information. However, researchers recently have found that PowerShell was used to execute different types of attacks. These attacks used PowerShell to either access privileged information, gain control of the entire machine or spread over an organization. This project presents MPSdetect, a detection model that relies on machine learning (ML) techniques to detect malicious PowerShell scripts. MPSdetect leverages stacked denoising autoencoders (SdA) during the process of extracting features, which is executed automatically. These features will be fed to a number of ML classifiers which are, support vector machine (SVM), Gaussian Naïve Bayes, Random Forest (RF) and eXtreme Gradiant Boosting (XGBoost), which are used to detect the malicious PowerShell scripts. MPSdetect is implemented and evaluated with respect to two collected datasets of varying ratios of benign and malicious PowerShell samples. The experiments conducted with the collected datasets were to evaluate the performance of the model. The result showed that MPSdetect with the XGBoost classifier, maintained a low 0.6% false positive rate (FPR) and a high 98% true positive rate (TPR).",
+      "supervisor_name": " Wojdan Mohammed BinSaeedan",
+      "supervisor_id": "WMnS",
+      "academic_year": "1442",
+      "keywords": [
+        "PowerShell Security",
+        "Malicious Script Detection",
+        "Machine Learning",
+        "Stacked Denoising Autoencoders (SdA)",
+        "Feature Extraction",
+        "Support Vector Machine (SVM)",
+        "Gaussian Naïve Bayes",
+        "Random Forest (RF)",
+        "XGBoost",
+        "Detection Model",
+        "Cybersecurity"
+      ],
+      "future_work": "Collect more malicious samples to keep the model effective with changing attack techniques. Extend the approach to detect attacks written in different programming languages. Increase the specificality of the classification into script’s malware families and assessing whether an introduction of a new malware family can be detected. Integrate the use of unlabeled scripts due to their availability, making the model semi-supervised. Develop a tool to detect malicious scripts raising warnings to users.",
+      "application": [
+        "Security & Privacy"
+      ],
+      "interest": [
+        "Cybersecurity",
+        "Artificial Intelligence / Machine Learning"
+      ],
+      "rdia": [
+        "Economies of the Future"
+      ],
+      "scores": {
+        "final_score": 0.5737,
+        "semantic_sim": 0.7307,
+        "context_score": 0.3333,
+        "rdia_score": 0.5,
+        "rrf_score": 0.030536
+      },
+      "explanation": "Good match with the group's background. Matches application domain(s): security & privacy. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 3,
+      "project_id": "M02-45-20",
+      "title": "Detection of Adversarial Attacks Malwares Using Machine Learning Models",
+      "abstract": "The field of cybersecurity has been a constant battleground between malicious actors and defenders, with the perpetual evolution of malware representing a particularly pressing challenge. As Windows continues to be one of the most targeted operating systems, detecting and mitigating Windows malware remains a critical focus in this arena. In response to the ever-changing landscape of threats, innovative solutions are continuously sought to enhance the precision and adaptability of malware detection systems. This paper presents an approach to Windows malware detection by harnessing the capabilities of Machine Learning and Adversarial Attacks. It extends its reach to encompass various features of Windows malware, including the analysis of static files and elements such as imported DLLs. Furthermore, the study delves into the critical issue of identifying and addressing vulnerabilities stemming from adversarial attacks within this sophisticated malware detection framework, offering a comprehensive solution to enhance the security of Windows systems.",
+      "supervisor_name": "Wojdan Mohammed BinSaeedan",
+      "supervisor_id": "WMnS",
+      "academic_year": "1445",
+      "keywords": [
+        "Malware Detection",
+        "Adversarial Attacks",
+        "Machine Learning",
+        "Cybersecurity",
+        "Windows Malware",
+        "Fast Gradient Sign Method (FGSM)",
+        "Adversarial Machine Learning",
+        "XGBoost",
+        "AdaBoost",
+        "Random Forest",
+        "Decision Tree",
+        "Support Vector Machine (SVM)",
+        "K-Nearest Neighbors (KNN)",
+        "Static Analysis",
+        "DLL Analysis",
+        "Robustness Evaluation",
+        "Threat Detection"
+      ],
+      "future_work": "Incorporating Reinforcement Learning: The integration of reinforcement learning techniques holds the promise of enhancing our model’s adaptability and resilience. By allowing the model to learn from interactions and dynamically adjust its responses to emerging threats, we can bolster its effectiveness in real-world cybersecurity scenarios. Improving Detection Accuracy: To stay ahead of evolving adversarial techniques, we must investigate ways to further enhance the model’s detection accuracy. This may involve exploring novel deep learning architectures or fine-tuning the existing model architecture to better discern subtle patterns in malware samples. Investigating Novel Features and Representations: To expand the model’s capabilities, we should delve into incorporating new features or representations of malware samples. Dynamic analysis data and behavior-based features are promising avenues to explore, as they may provide richer insights into the behavior of malicious software, enabling more accurate classification. Incorporating Real-Time Monitoring Capabilities: As the threat landscape continues to evolve, it is crucial to consider the feasibility of implementing our model in a real-time monitoring system. This would enable the detection and response to adversarial malware in near real-time, significantly enhancing overall cybersecurity posture. In conclusion, our journey in this research has laid a strong foundation, but the path ahead is filled with opportunities for innovation and enhancement. By embracing these future directions, we aim to fortify our model’s capabilities and contribute to the ongoing efforts to secure digital environments against ever-evolving threats.",
+      "application": [
+        "Security & Privacy"
+      ],
+      "interest": [
+        "Cybersecurity",
+        "Artificial Intelligence / Machine Learning"
+      ],
+      "rdia": [
+        "Economies of the Future"
+      ],
+      "scores": {
+        "final_score": 0.572,
+        "semantic_sim": 0.7274,
+        "context_score": 0.3333,
+        "rdia_score": 0.5,
+        "rrf_score": 0.029631
+      },
+      "explanation": "Good match with the group's background. Matches application domain(s): security & privacy. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 4,
+      "project_id": "F20-45-20",
+      "title": "Abnormal Event Detection for Video Surveillance (SecuritEye)",
+      "abstract": "Abnormal event detection (AED) is a critical task in video surveillance systems, aiming to identify and report abnormal events. As the demand for enhanced security measures and the availability of surveillance cameras increase, effective AED algorithms have become essential. This project introduces a developed convolutional network model that utilizes Deep Learning (DL) techniques to detect abnormal events. This study seeks to evaluate the performance of DL algorithms, Convolutional Long Short-Term Memory (ConvLSTM), and Long-term Recurrent Convolutional Networks (LRCN), on the UCF crime dataset provided by the University of Central Florida (UCF crime). We conducted several experiments to implement ConvLSTM and LRCN and optimize their parameters on the target dataset. Our findings indicate that both models achieved an average accuracy of 94%, demonstrating promising results for this research. The LRCN model performed slightly better than the ConvLSTM, with an accuracy of 96%.",
+      "supervisor_name": " Wojdan Mohammed BinSaeedan ",
+      "supervisor_id": "WMnS",
+      "academic_year": "1445",
+      "keywords": [
+        "Abnormal Event Detection",
+        "Video Surveillance",
+        "Deep Learning",
+        "ConvLSTM",
+        "Long-term Recurrent Convolutional Networks (LRCN)",
+        "Smart Cities",
+        "Public Safety",
+        "UCF Crime Dataset",
+        "Anomaly Detection",
+        "Computer Vision",
+        "Convolutional Neural Networks (CNN)",
+        "Recurrent Neural Networks (RNN)",
+        "Long Short-Term Memory (LSTM)",
+        "Real-time Monitoring",
+        "Security Systems",
+        "Crime Detection",
+        "Video Analysis",
+        "SecuritEye"
+      ],
+      "future_work": "• Deploy the model for real-world use. • Train the model on numerous datasets to ensure generality across them. • Deploy the model to detect and classify in real-time. • The model is incorporated into a network connected to employee devices and sends notifications in the event of abnormal events.",
+      "application": [
+        "Security & Privacy"
+      ],
+      "interest": [
+        "Artificial Intelligence / Machine Learning",
+        "Computer Vision",
+        "Data Science"
+      ],
+      "rdia": [
+        "Economies of the Future"
+      ],
+      "scores": {
+        "final_score": 0.561,
+        "semantic_sim": 0.7054,
+        "context_score": 0.3333,
+        "rdia_score": 0.5,
+        "rrf_score": 0.029437
+      },
+      "explanation": "Good match with the group's background. Matches application domain(s): security & privacy. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 5,
+      "project_id": "F27-45-20",
+      "title": "Maseer: Advanced Pilgrimage Mapping for Effective Crowd Management during Hajj",
+      "abstract": "Hajj, the fifth pillar of Islam, is one of the most massive gathering events in the world. Every year around 3 million Muslims across the globe visit Makkah to perform Hajj. This project aims to develop a smart system for crowd management during the Hajj pilgrimage, focusing on monitoring the density of pilgrim movement and making informed decisions regarding gate status. The system utilizes Fully Convolutional Neural Network (FCNN) model to provide real-time information to administrators and pilgrims. The objectives of the project include exploring the latest research in crowd management, assessing image processing and object detection techniques, organize the necessary dataset and information, designing a monitoring system for pilgrim density and gate operations, creating a practical navigation map for pilgrims, and testing the implemented system. The methodology involves conducting a comprehensive literature review, comparing different methodologies, and testing the system using the collected dataset. The system caters to administrators by enabling effective control of entry and exit points, analyzing crowd density and movement patterns, and implementing crowd control measures. For pilgrims, the system provides notifications about gate closures. The proposed smart system aims to enhance safety, efficiency, and the overall experience of pilgrims during the Hajj pilgrimage. Notably, we trained the model on three different datasets. The model used in the system demonstrated exceptional performance, achieving 100% accuracy, precision, and F1 score for both training and testing on the Version2 dataset. These outstanding results, obtained after training the model on multiple datasets, reinforce the reliability and effectiveness of the implemented system, setting a strong foundation for its successful integration into crowd management during the Hajj pilgrimage.",
+      "supervisor_name": " Huda AbdulRahman Al-Muzaini ",
+      "supervisor_id": "HAMu",
+      "academic_year": "1445",
+      "keywords": [
+        "Crowd Management",
+        "Hajj Pilgrimage",
+        "Pilgrim Safety",
+        "Fully Convolutional Neural Network (FCNN)",
+        "Object Detection",
+        "Image Processing",
+        "Real-time Monitoring",
+        "Smart Navigation",
+        "Crowd Density Estimation",
+        "Holy Sites",
+        "Makkah",
+        "Mina",
+        "Arafat",
+        "Gate Management",
+        "Deep Learning",
+        "Computer Vision",
+        "Crowd Counting",
+        "HAJJ Crowd Dataset",
+        "Umrah Management"
+      ],
+      "future_work": "In future, Maseer website can be extended and built as a mobile app with more features such as adding other Hajj areas that were not included, providing additional classifications for crowding levels, and providing the shortest route for the pilgrim from h is location to his arrival point, and the arrival time. In addition, more details can be added to the user's main page, such as: daily alerts about rituals, actions for each day of Hajj, and expected times for ease of movement. Finally, the datasets can be expanded to include more real and actual datasets for the Hajj season",
+      "application": [
+        "Government & Public Sector"
+      ],
+      "interest": [
+        "Computer Vision",
+        "Artificial Intelligence / Machine Learning",
+        "Web Development"
+      ],
+      "rdia": [
+        "Economies of the Future"
+      ],
+      "scores": {
+        "final_score": 0.5324,
+        "semantic_sim": 0.6482,
+        "context_score": 0.3333,
+        "rdia_score": 0.5,
+        "rrf_score": 0.027894
+      },
+      "explanation": "Good match with the group's background. Matches application domain(s): government & public sector. Aligns with the group's RDIA priority."
+    }
+  ]
+}

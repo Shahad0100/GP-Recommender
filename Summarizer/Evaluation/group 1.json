@@ -1,0 +1,222 @@
+{
+    "group_id": "GP-L65K41",
+  "group_profile": {
+    "selected_interests": [
+      "Natural Language Processing",
+      "Artificial Intelligence / Machine Learning",
+      "Computer Vision",
+      "Data Science"
+    ],
+    "selected_applications": [
+      "Finance & Economics",
+      "Education",
+      "Healthcare / Medical"
+    ],
+    "selected_rdia": [
+      "Health & Wellness"
+    ]
+  },
+  "recommended_projects": [
+    {
+      "rank": 1,
+      "project_id": "F01-45-20",
+      "title": "Baasyir:A YOLO Based approach to Assist Visually  Impaired People by leveraging Smart Glasses System",
+      "abstract": "In this project, we aim to address the challenges faced by blind individuals due to resource limitations by introducing the ’Baasyir’ smart glasses system, incorporating Deep Learning for obstacle detection. The system aims to assist blind people in recognizing objects, overcoming obstacles, and enhancing their independence. We proposed an approach that integrates two models the YOLO version 7 real-time object detection algorithm and the YOLOv7-tiny model, supported by an extensive literature review and we used relevant datasets. The developed approach’s performance is evaluated using metrics such as Precision, Recall, F1-Score, IoU, and mAP. We conducted multiple experiments with YOLOv7 and YOLOv7-tiny implementation and parameter optimization on target datasets that showed promising results, achieving a higher mAP. The object detection models YOLOv7_Furniture, YOLOv7-tiny_Furniture, YOLOv7_Baasyir, and YOLOv7-tiny_Baasyir achieved detection accuracies of 75.3%, 71.1%, 49.4%, and 42.7%, respectively, on their respective datasets. Following the implementation of the object detection model, the Baasyir smart glass system was developed on the Raspberry Pi 3 Model B+. We concluded by suggesting potential future directions and areas for further research in this field",
+      "supervisor_name": "Dhouha Ahmed Ben Noureddine",
+      "supervisor_id": "DAur",
+      "academic_year": "1445",
+      "keywords": [
+        "Baasyir Smart glasseses",
+        "Deep Learning",
+        "Object Detection",
+        "YOLOv7",
+        "YOLOv7-tiny",
+        "Baasyir dataset",
+        "Furniture-detection dataset",
+        "Raspberry Pi"
+      ],
+      "future_work": "In our future work, we aim to enhance the dataset by incorporating additional variants, specifically focusing on small everyday objects such as pens, cups, and other items that play a vital role in the daily lives of individuals with impaired people. This expansion is intended to refine and diversify the model’s ability to detect and interact with a broader range of objects, contributing to its practical utility in real-world scenarios. Furthermore, we have aspirations to optimize and develop the hardware, aiming to make it more compact and impactful in everyday life. The goal is to create a hardware system that seamlessly integrates into daily routines, providing valuable assistance to individuals with specific needs. This involves not only downsizing the hardware but also refining its functionalities to enhance user experience and overall effectiveness. In essence, our future work is geared towards continuous improvement, both in terms of the model’s capabilities through dataset enrichment and the hardware’s design to better align with the needs of individuals with impaired dependencies. By addressing these aspects, we strive to create a more robust and user-friendly system that can make a meaningful impact in the lives of those who benefit from assistive technologies.",
+      "application": [
+        "Healthcare / Medical"
+      ],
+      "interest": [
+        "Computer Vision",
+        "Embedded Systems",
+        "Artificial Intelligence / Machine Learning"
+      ],
+      "rdia": [
+        "Health & Wellness"
+      ],
+      "scores": {
+        "final_score": 0.7145,
+        "semantic_sim": 0.7623,
+        "context_score": 0.3333,
+        "rdia_score": 1,
+        "rrf_score": 0.030536
+      },
+      "explanation": "Highly similar to the group's profile. Matches application domain(s): healthcare / medical. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 2,
+      "project_id": "F29-45-20",
+      "title": "Hudhud: AI-based Remote Rehabilitation",
+      "abstract": "Rehabilitation is critical to regaining physical health, but its effectiveness depends on accurate monitoring and feedback mechanisms. Traditional methods often rely on manual observation, which requires more effort and time. Sometimes patients must travel to the hospital to receive physical therapy, and it may require more time or an increase in the number of physical therapists to serve a larger number of patients. This project presents an innovative solution that uses AI-based posture estimation to improve rehabilitation monitoring. The proposed system uses AI to automatically estimate body positions during rehabilitation exercises, providing healthcare professionals with an objective tool to evaluate the progression of patients. In addition, patients receive immediate visual feedback about their form, encouraging proper exercise performance and reducing the risk of injury. The system records and stores workout performance data, facilitating long-term trend tracking and analysis. This project bridges the gap between traditional rehabilitation monitoring methods and AI posture estimation, providing accurate real-time feedback during exercises, thereby improving quality and outcomes of rehabilitation programs. In this project, we utilized Mediapipe, a computer vision model, to recognize and count knee rehabilitation exercises. As the field of rehabilitation monitoring evolves, this approach will have a significant impact on the health of countless people throughout their recovery journey.",
+      "supervisor_name": " Manan Mohammed Almusallam ",
+      "supervisor_id": "MMmu",
+      "academic_year": "1445",
+      "keywords": [
+        "Remote Rehabilitation",
+        "Artificial Intelligence",
+        "Pose Estimation",
+        "Computer Vision",
+        "Mediapipe",
+        "Physical Therapy",
+        "Healthcare Technology",
+        "Exercise Monitoring",
+        "Real-time Feedback",
+        "Patient Progress Tracking",
+        "Telerehabilitation",
+        "Knee Rehabilitation",
+        "Motion Detection",
+        "Body Posture Analysis",
+        "Injury Prevention",
+        "Therapeutic Exercises"
+      ],
+      "future_work": "The website developed in this project can only classify two rehab workouts. In the future, we will make it recognize multiple workouts. The project aims to expand its capabilities by implementing a more comprehensive and adaptable solution for human pose detection in rehabilitation scenarios.",
+      "application": [
+        "Healthcare / Medical"
+      ],
+      "interest": [
+        "Artificial Intelligence / Machine Learning",
+        "Computer Vision",
+        "Human-Computer Interaction"
+      ],
+      "rdia": [
+        "Health & Wellness"
+      ],
+      "scores": {
+        "final_score": 0.7107,
+        "semantic_sim": 0.7547,
+        "context_score": 0.3333,
+        "rdia_score": 1,
+        "rrf_score": 0.03009
+      },
+      "explanation": "Highly similar to the group's profile. Matches application domain(s): healthcare / medical. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 3,
+      "project_id": "F01-43-10",
+      "title": "Treatment of stuttering problems in children Application - TSA",
+      "abstract": "The project is an application focused on treating children who suffer from stuttering problems in speech, allowing them to practice at home without needing to visit a specialist. It presents explanatory videos understandable to children, followed by exercises where the child repeatedly pronounces sentences. Finally, the child is trained to synchronize inhalation and exhalation with natural speech duration. These exercises are carefully designed under the supervision and guidance of speech therapists. The application specifically targets Arabic-speaking children, addressing a gap in available apps, which primarily serve speakers of other languages such as English.",
+      "supervisor_name": "Amal Suleiman Alsaif",
+      "supervisor_id": "ASsa",
+      "academic_year": "1443",
+      "keywords": [
+        "Treatment",
+        "Speech",
+        "Recognition",
+        "Stuttering",
+        "Application",
+        "Therapist",
+        "Analyze",
+        "Error findings",
+        "Speech problems",
+        "Children"
+      ],
+      "future_work": "Measure and improve the accuracy of stuttering detection, enhance post-detection word processing, add English language support, increase the number of exercises, and implement live chat with an external therapist for consultations.",
+      "application": [
+        "Healthcare / Medical"
+      ],
+      "interest": [
+        "Artificial Intelligence / Machine Learning",
+        "Natural Language Processing",
+        "Mobile Development"
+      ],
+      "rdia": [
+        "Health & Wellness"
+      ],
+      "scores": {
+        "final_score": 0.7098,
+        "semantic_sim": 0.7529,
+        "context_score": 0.3333,
+        "rdia_score": 1,
+        "rrf_score": 0.030886
+      },
+      "explanation": "Highly similar to the group's profile. Matches application domain(s): healthcare / medical. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 4,
+      "project_id": "F01-42-20",
+      "title": "COVID-19 Detection Using Deep Neural Networks",
+      "abstract": "On December 31, 2019, the first confirmed case of the COVID-19 pandemic was announced. COVID-19 disease causes a dry cough, muscle pain, headache, fever, loss of smell and taste, shortness of breath, and more symptoms. Also, some infected patients may not have any symptoms at all; that makes the detection of those patients challenging. However, since that time, many researchers have worked in this field doing different studies, research, and experiments in order to find a solution to the COVID-19 detection problem. This research project’s importance came from the significant need to limit the spreading of the COVID-19 pandemic to save more lives as much as we can, and that is our high goal. However, this research project aimed to develop a model for detecting COVID-19 patients using deep neural networks with chest x-ray images. We use chest x-ray because it is often used for emergency diagnosis due to its fast and easy to use and a small amount of radiation. Furthermore, we used the YOLOv5 model that has been useful to accomplish our goal. We finally found that the fast and accurate way to detect COVID-19 infected people with accuracy equals approximately 99.7%, and we achieved our purpose.",
+      "supervisor_name": "Siwar Abdelfattah Rekik",
+      "supervisor_id": "SAki",
+      "academic_year": "1442",
+      "keywords": [
+        "COVID-19",
+        "Deep Neural Networks",
+        "YOLOv5",
+        "Chest X-ray Images",
+        "Detection"
+      ],
+      "future_work": "In the future, we are looking forward to see our project being useful for the medical departments, also scientific department. Our future work we are looking to collect and test the model with bigger dataset, improve the way of using the model by creating an application and website, coupled with keeping the result we got which the high accuracy result.",
+      "application": [
+        "Healthcare / Medical"
+      ],
+      "interest": [
+        "Computer Vision",
+        "Artificial Intelligence / Machine Learning",
+        "Bioinformatics"
+      ],
+      "rdia": [
+        "Health & Wellness"
+      ],
+      "scores": {
+        "final_score": 0.7036,
+        "semantic_sim": 0.7405,
+        "context_score": 0.3333,
+        "rdia_score": 1,
+        "rrf_score": 0.029206
+      },
+      "explanation": "Good match with the group's background. Matches application domain(s): healthcare / medical. Aligns with the group's RDIA priority."
+    },
+    {
+      "rank": 5,
+      "project_id": "F09-42-20",
+      "title": "Finding Deleted Regions in Human DNA",
+      "abstract": "Deleted regions in the human DNA are responsible for serious diseases, for that reason, it is important to find these regions accurately. Unfortunately, there is no software yet easy to use by end-user because all available tools are with a command-line interface only. The aim of this project is to develop a software with a friendly graphical user interface to interact with it easily, the system should also allow the user to view the details of the deleted regions. The proposed software will analyze the Next-generation sequencing dataset to find missing regions in the human DNA. The deep learning techniques will be used to improve the accuracy of finding deleted regions.",
+      "supervisor_name": " Eman AbdulHamid Alzaid",
+      "supervisor_id": "EAza",
+      "academic_year": "1442",
+      "keywords": [
+        "Human DNA Analysis",
+        "Deleted Regions Detection",
+        "Next-Generation Sequencing (NGS)",
+        "Deep Learning",
+        "Bioinformatics Software",
+        "Graphical User Interface (GUI)",
+        "Genomic Data Analysis"
+      ],
+      "future_work": "we plan to support more references genome, also, DeepFinder application to have its own database for genes and diseases, finally, we are looking for improving model’s accuracy since it is an important factor to the application.",
+      "application": [
+        "Healthcare / Medical"
+      ],
+      "interest": [
+        "Artificial Intelligence / Machine Learning",
+        "Bioinformatics",
+        "Data Science"
+      ],
+      "rdia": [
+        "Health & Wellness"
+      ],
+      "scores": {
+        "final_score": 0.689,
+        "semantic_sim": 0.7114,
+        "context_score": 0.3333,
+        "rdia_score": 1,
+        "rrf_score": 0.027623
+      },
+      "explanation": "Good match with the group's background. Matches application domain(s): healthcare / medical. Aligns with the group's RDIA priority."
+    }
+  ]
+}
