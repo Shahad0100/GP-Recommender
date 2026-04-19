@@ -182,39 +182,42 @@
     },
     {
       "rank": 5,
-      "project_id": "F09-42-20",
-      "title": "Finding Deleted Regions in Human DNA",
-      "abstract": "Deleted regions in the human DNA are responsible for serious diseases, for that reason, it is important to find these regions accurately. Unfortunately, there is no software yet easy to use by end-user because all available tools are with a command-line interface only. The aim of this project is to develop a software with a friendly graphical user interface to interact with it easily, the system should also allow the user to view the details of the deleted regions. The proposed software will analyze the Next-generation sequencing dataset to find missing regions in the human DNA. The deep learning techniques will be used to improve the accuracy of finding deleted regions.",
-      "supervisor_name": " Eman AbdulHamid Alzaid",
-      "supervisor_id": "EAza",
-      "academic_year": "1442",
-      "keywords": [
-        "Human DNA Analysis",
-        "Deleted Regions Detection",
-        "Next-Generation Sequencing (NGS)",
-        "Deep Learning",
-        "Bioinformatics Software",
-        "Graphical User Interface (GUI)",
-        "Genomic Data Analysis"
-      ],
-      "future_work": "we plan to support more references genome, also, DeepFinder application to have its own database for genes and diseases, finally, we are looking for improving model’s accuracy since it is an important factor to the application.",
-      "application": [
-        "Healthcare / Medical"
-      ],
-      "interest": [
-        "Artificial Intelligence / Machine Learning",
-        "Bioinformatics",
-        "Data Science"
-      ],
-      "rdia": [
-        "Health & Wellness"
-      ],
-      "scores": {
-        "final_score": 0.689,
-        "semantic_sim": 0.7114,
+    "project_id": "F07-45-10",
+    "title": "Secure Healthcare Information Exchange Platform ‘KEEP SAFE’",
+    "supervisor_name": "Eman AbdulHamid Alzaid",
+    "supervisor_id": "EAza",
+    "academic_year": "1445",
+    "semester": "10",
+    "keywords": [
+      "Electronic Medical Records (EMR)",
+      "Blockchain Technology",
+      "Healthcare Information Systems",
+      "Secure Medical Data Sharing",
+      "Decentralized Data Protection",
+      "Patient Data Privacy",
+      "EMR Exchange Scheme",
+      "Digital Identity Verification",
+      "Healthcare Cybersecurity"
+    ],
+    "abstract": "In recent years, several hospitals have began maintaining electronic medical records (EMRs) for each patient using health information systems. When a patient visits a new hospital for the first time, the hospital's help desk asks them to fill out relevant personal information and verify their identity on the spot. This patient will find that many of the electronic records they have are in many hospitals' health information systems that were previously visited, and each EMR in these hospitals' information systems cannot be accessed or shared between these hospitals. It is inconvenient for this patient because they will have to provide their records again and retell their medical history. In addition to being time consuming, this is not practical. Thus, in this project, we propose a practical and provable patient EMR fair exchange scheme. In this system, medical records are securely stored using blockchain technology, enabling decentralised data protection in healthcare and avoiding specific threats. Patients can securely share their EMRs using barcodes or their National IDs/Residence Numbers. The patient can also control who accesses the EMR. This project aims to facilitate the exchange of medical records in the Saudi Arabian community.",
+    "future_work": "Enhancing and expanding our application. This can be achieved by incorporating a range of features to enhance the security and reliability of our system.  Enhancing and expanding your application. Provide the patient with the option of adding a family member.  Making our application available to all Saudi Arabian hospitals and clinics. 104  Enhancing and expanding our application. By making it compatible with iOS.  Enhancing and expanding our application. By adding Arabic language support. Developing our application so that it can be used by all healthcare providers and patients. Improve performance to ensure that the application is always available. Enhancing and expanding our application to be as easy to use as possible even for people who do not know anything about computers. Enhancing and expanding our application. by making the app Ministry of Health certified",
+    "application": [
+      "Healthcare / Medical"
+    ],
+    "interest": [
+      "Blockchain",
+      "Cybersecurity",
+      "Mobile Development"
+    ],
+    "rdia": [
+      "Health & Wellness"
+    ],
+     "scores": {
+        "final_score": 0.6889,
+        "semantic_sim": 0.7112,
         "context_score": 0.3333,
         "rdia_score": 1,
-        "rrf_score": 0.027623
+        "rrf_score": 0.02669
       },
       "explanation": "Good match with the group's background. Matches application domain(s): healthcare / medical. Aligns with the group's RDIA priority."
     }
