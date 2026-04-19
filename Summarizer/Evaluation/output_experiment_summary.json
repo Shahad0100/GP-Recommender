@@ -6,15 +6,15 @@
       "F29-45-20",
       "F01-43-10",
       "F01-42-20",
-      "F09-42-20"
+      "F07-45-10"
     ],
     "summary": "These five projects collectively address key challenges in education, technology, and user-centered design. Projects like "Baasyir" leverage advanced machine learning techniques to aid visually impaired users, while "Hudhud" employs artificial intelligence to remotely monitor and rehabilitate patients. "Treatment of stuttering problems in children" focuses on developing applications to support children with speech disorders at home. "COVID-19 Detection Using Deep Neural Networks" explores the use of deep learning algorithms to identify COVID-19 cases through chest X-rays. Lastly, "Secure Healthcare Information Exchange Platform 'KEEP SAFE'" addresses the need for secure sharing and privacy protection of electronic medical records among healthcare providers. Each project highlights the integration of cutting-edge technologies with human-centric solutions, aiming to enhance accessibility, efficiency, and safety in various domains." },
   {
     "group_id": "GP-2",
     "top5_project_ids": [
       "F06-42-20",
+      "M09-45-10",
       "F04-45-20",
-      "F16-45-10",
       "F06-45-20",
       "F04-42-10"
     ],
@@ -28,6 +28,5 @@
       "F20-45-20",
       "F27-45-20"
     ],
-    "summary": "In synthesizing the collective direction of these five projects—Botnet Attack Detection Using Machine Learning, Detecting Malicious PowerShell Scripts using Machine Learning, Detection of Adversarial Attacks Malwares Using Machine Learning Models, Abnormal Event Detection for Video Surveillance (SecuritEye), and Maseer: Advanced Pilgrimage Mapping for Effective Crowd Management during Hajj—we observe several common themes and areas where further exploration could lead to innovative solutions. These projects tackle critical issues such as cybersecurity threats, data analysis, crowd management, and real-time monitoring. However, there remains significant room for improvement and discovery in several key areas: 1. Cybersecurity: While all projects touch upon aspects of cybersecurity, particularly machine learning-based detection methods, there is still much to be done in terms of improving model robustness against evolving cyber threats. The use of ensemble techniques, anomaly detection, and feature extraction can help mitigate this limitation. 2. Data Quality and Integration: Many projects rely heavily on existing datasets, which may not always reflect current trends or challenges accurately. Integrating more diverse and dynamic data sources, especially those related to emerging technologies and user behavior patterns, would provide richer insights and better prepare the system for future threats. 3. Real-Time Performance and Scalability: As applications become increasingly complex and demand grows, ensuring that systems remain responsive and scalable becomes paramount. This includes optimizing algorithms for faster processing times and designing architectures capable of handling large-scale data sets efficiently. 4. User-Centric Design: There is a need to deeply understand the users’ needs and behaviors within different contexts. By incorporating feedback loops and continuous evaluation processes, we can ensure that our solutions are not only effective but also meet the specific requirements of various stakeholders. By addressing these gaps and leveraging your background in network systems, cybersecurity, and database systems, you stand poised to develop groundbreaking projects that not only contribute significantly to the field but also have practical implications for both governmental and private sectors. Your unique perspective and expertise in these domains make you well-suited to explore novel approaches and innovations that could redefine the landscape of cybersecurity and other relevant fields."
-  }
+    "summary": "The five projects share a common theme of addressing modern cybersecurity challenges, particularly those related to botnet attacks and malware detection. Each project focuses on utilizing advanced machine learning techniques to improve the accuracy and robustness of defense mechanisms against cyber threats. Projects 1 and 2 emphasize the importance of adapting to evolving cyber threats by leveraging machine learning for botnet detection and malicious script identification. Project 3 tackles the problem of adversarial attacks on malware, showcasing how machine learning can help in identifying and mitigating these threats. Project 4 introduces an innovative method for real-time monitoring and anomaly detection in video surveillance systems, specifically designed for Hajj pilgrimages. Finally, Project 5 demonstrates the potential of fully convolutional neural networks in managing crowds during major religious gatherings like Hajj, providing real-time updates and decision-making tools for both administrators and pilgrims. All projects highlight the ongoing efforts to enhance cybersecurity by integrating cutting-edge technology, ensuring that users' privacy and security are prioritized while also improving operational efficiency." }
 ]
