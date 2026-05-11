@@ -168,7 +168,10 @@ class EmbeddingEngine:
                 self.project_ids.append(pid)
                 vecs.append(load_vector(path))
 
-        self.project_matrix = np.array(vecs)   # shape: (N, D)
+        if not vecs:
+            self.project_matrix = np.empty((0, 384), dtype=np.float32)
+        else:
+            self.project_matrix = np.array(vecs)
         print(f"  Project matrix loaded: {self.project_matrix.shape}")
 
 
@@ -191,7 +194,10 @@ class EmbeddingEngine:
             corpus.append(text.split())
             self.bm25_order.append(pid)
 
-        self.bm25 = BM25Okapi(corpus)
+        if corpus:
+            self.bm25 = BM25Okapi(corpus)
+        else:
+            self.bm25 = None
         print(f"  BM25 index built: {len(self.bm25_order)} documents")
 
 
