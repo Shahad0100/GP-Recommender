@@ -378,8 +378,8 @@ Compares `test_results/all_results.json` against `Silver Ground Truth/Experiment
 **Setup:**
 
 ```bash
+HF_TOKEN="your_token_here"
 pip install openai
-export HF_TOKEN="your_token_here"
 ```
 
 **Usage from app:**
