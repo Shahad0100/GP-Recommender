@@ -25,11 +25,19 @@ GRADE_WEIGHTS = {
     "D": 0.30
 }
 
-def grade_to_weight(grade: str) -> float:
-    """Convert letter grade to embedding weight."""
-    grade = grade.strip().upper()
-    return GRADE_WEIGHTS.get(grade, 0.50)
-
+def grade_to_weight(grade) -> float:
+    if isinstance(grade, (int, float)):
+        if grade >= 4.5:   grade_str = "A+"
+        elif grade >= 4.0: grade_str = "A"
+        elif grade >= 3.5: grade_str = "B+"
+        elif grade >= 3.0: grade_str = "B"
+        elif grade >= 2.5: grade_str = "C+"
+        elif grade >= 2.0: grade_str = "C"
+        elif grade >= 1.5: grade_str = "D+"
+        else:              grade_str = "D"
+    else:
+        grade_str = str(grade).strip().upper()
+    return GRADE_WEIGHTS.get(grade_str, 0.50)
 # ─────────────────────────────────────────────────────────────────────────────
 # LOADE PLOs from courses.json
 # ─────────────────────────────────────────────────────────────────────────────
