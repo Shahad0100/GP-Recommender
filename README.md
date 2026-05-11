@@ -371,7 +371,7 @@ Compares `test_results/all_results.json` against `Silver Ground Truth/Experiment
 
 ---
 
-## 7. Optional: Summarizer
+## 7. Summarizer
 
 `Summarizer/summarizer.py` generates a single cohesive paragraph summarizing the top-5 recommended projects, using an LLM via the HuggingFace Inference Router.
 
