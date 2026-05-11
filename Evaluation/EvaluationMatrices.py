@@ -6,33 +6,41 @@ from datetime import datetime
 import glob
 
 # ------------------------------------------------------------
-# PATHS - MODIFIED TO WORK ON ANY DEVICE
+# PATHS - ADAPTED TO YOUR FOLDER STRUCTURE
 # ------------------------------------------------------------
 
 # Get the directory where this script is located
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-# Go up one level to reach the project root (since script is in Evaluation folder)
+# Go up one level to reach the project root
 PROJECT_ROOT = os.path.dirname(SCRIPT_DIR)
 
-# Define paths relative to project root
-SILVER_GT_PATH = os.path.join(PROJECT_ROOT, "Silver Ground Truth", "Experimental Groups with Recommendations.json")
-MODEL_RESULTS_PATH = os.path.join(PROJECT_ROOT, "test_results", "all_results.json")
+# Input files are in the same folder as the script
+SILVER_GT_PATH = os.path.join(SCRIPT_DIR, "Experimental Groups with Recommendations.json")
+MODEL_RESULTS_PATH = os.path.join(SCRIPT_DIR, "all_results.json")
+
+# Projects folder is in data directory at project root
 PROJECTS_FOLDER_PATH = os.path.join(PROJECT_ROOT, "data", "projects")
-BASELINE_PATH = os.path.join(PROJECT_ROOT, "Evaluation", "evaluation_baseline.json")
-HISTORY_PATH = os.path.join(PROJECT_ROOT, "Evaluation", "evaluation_history.json")
+
+# Output files will be saved in the same folder as the script
+BASELINE_PATH = os.path.join(SCRIPT_DIR, "evaluation_baseline.json")
+HISTORY_PATH = os.path.join(SCRIPT_DIR, "evaluation_history.json")
 
 # Print paths for debugging
+print("=" * 70)
+print("PATH CONFIGURATION")
+print("=" * 70)
 print(f"Script location: {SCRIPT_DIR}")
 print(f"Project root: {PROJECT_ROOT}")
 print(f"Silver GT path: {SILVER_GT_PATH}")
 print(f"Model results path: {MODEL_RESULTS_PATH}")
 print(f"Projects folder: {PROJECTS_FOLDER_PATH}")
+print(f"Baseline save path: {BASELINE_PATH}")
+print(f"History save path: {HISTORY_PATH}")
+print("=" * 70)
 
 # Different K values for evaluation
 K_VALUES_PROJECTS = [3, 5, 7, 10]  # For projects
 K_VALUES_INTEREST_APP = [1, 3]      # For interests and applications
-
-ALPHA = 0.5   # for alpha-NDCG
 
 # ------------------------------------------------------------
 # BASIC METRICS
@@ -51,15 +59,6 @@ def mrr(rec, rel):
         if r in rel:
             return 1 / i
     return 0
-
-def average_precision(rec, rel, k):
-    score = 0
-    hits = 0
-    for i, r in enumerate(rec[:k], 1):
-        if r in rel:
-            hits += 1
-            score += hits / i
-    return score / min(len(rel), k) if rel else 0
 
 def dcg_at_k(rec, rel, k):
     score = 0
@@ -93,61 +92,27 @@ def f1_score(rec, rel):
     return 2 * (precision * recall) / (precision + recall)
 
 # ------------------------------------------------------------
-# alpha-NDCG
-# ------------------------------------------------------------
-
-def alpha_ndcg(rec_projects, gt_interests, k, alpha=0.5):
-    covered = defaultdict(int)
-    score = 0
-
-    for i, project in enumerate(rec_projects[:k], 1):
-        gain = 0
-        project_interests = project.get("interest", [])
-
-        for interest in project_interests:
-            if interest in gt_interests:
-                gain += (1 - alpha) ** covered[interest]
-                covered[interest] += 1
-
-        score += gain / np.log2(i + 1)
-
-    ideal = len(gt_interests)
-    return score / ideal if ideal > 0 else 0
-
-# ------------------------------------------------------------
-# ILD (Intra-List Diversity)
-# ------------------------------------------------------------
-
-def intra_list_diversity(projects, k):
-    if not projects or len(projects) < 2:
-        return 0
-
-    interest_sets = []
-    for p in projects[:k]:
-        interest_set = set(p.get("interest", []))
-        if interest_set:
-            interest_sets.append(interest_set)
-
-    if len(interest_sets) < 2:
-        return 0
-
-    similarities = []
-    for i in range(len(interest_sets)):
-        for j in range(i + 1, len(interest_sets)):
-            if interest_sets[i] and interest_sets[j]:
-                jaccard = len(interest_sets[i] & interest_sets[j]) / len(interest_sets[i] | interest_sets[j])
-                similarities.append(jaccard)
-            else:
-                similarities.append(0)
-
-    return 1 - np.mean(similarities) if similarities else 0
-
-# ------------------------------------------------------------
 # Catalog Coverage - based on files in the projects folder
 # ------------------------------------------------------------
 
 def get_all_projects_from_folder():
-    project_files = glob.glob(os.path.join(PROJECTS_FOLDER_PATH, "*.json"))
+    if not os.path.exists(PROJECTS_FOLDER_PATH):
+        print(f"\nERROR: Projects folder not found at: {PROJECTS_FOLDER_PATH}")
+        print("Looking for projects in alternative location...")
+        
+        # Try alternative path: same folder as script
+        alt_path = os.path.join(SCRIPT_DIR, "projects")
+        if os.path.exists(alt_path):
+            print(f"Found projects at: {alt_path}")
+            return get_projects_from_path(alt_path)
+        else:
+            print(f"Projects folder not found at {alt_path} either")
+            return set()
+    
+    return get_projects_from_path(PROJECTS_FOLDER_PATH)
+
+def get_projects_from_path(folder_path):
+    project_files = glob.glob(os.path.join(folder_path, "*.json"))
     project_ids = []
 
     for file_path in project_files:
@@ -155,7 +120,7 @@ def get_all_projects_from_folder():
         project_id = file_name.replace('.json', '')
         project_ids.append(project_id)
 
-    print(f"Found {len(project_ids)} project files in {PROJECTS_FOLDER_PATH}")
+    print(f"Found {len(project_ids)} project files in {folder_path}")
     return set(project_ids)
 
 def catalog_coverage(recommended_projects, all_projects_set):
@@ -175,13 +140,15 @@ def catalog_coverage(recommended_projects, all_projects_set):
 # ------------------------------------------------------------
 
 def load_silver_gt():
+    if not os.path.exists(SILVER_GT_PATH):
+        raise FileNotFoundError(f"Silver Ground Truth file not found at: {SILVER_GT_PATH}")
+    
     with open(SILVER_GT_PATH, "r", encoding="utf-8") as f:
         data = json.load(f)
     
     silver_dict = {}
     for group in data:
         group_id = group["group_id"]
-        # Directly extract from the group object
         silver_dict[group_id] = {
             "recommended_projects": group.get("recommended_projects", []),
             "top_interests": group.get("top_interests", []),
@@ -191,13 +158,15 @@ def load_silver_gt():
     return silver_dict
 
 def load_model_results():
+    if not os.path.exists(MODEL_RESULTS_PATH):
+        raise FileNotFoundError(f"Model results file not found at: {MODEL_RESULTS_PATH}")
+    
     with open(MODEL_RESULTS_PATH, "r", encoding="utf-8") as f:
         data = json.load(f)
     
     results_dict = {}
     for group in data["results"]:
         group_id = group["group_id"]
-        # Structure is as seen in the file
         results_dict[group_id] = {
             "recommended_projects": group.get("recommended_projects", []),
             "recommended_interests": group.get("recommended_interests", []),
@@ -212,14 +181,33 @@ def load_model_results():
 # ------------------------------------------------------------
 
 def evaluate():
-    print("Loading data...")
-    silver = load_silver_gt()
-    results = load_model_results()
+    print("\nLoading data...")
+    
+    # Check if required files exist in script directory
+    if not os.path.exists(SILVER_GT_PATH):
+        print(f"\nError: Silver Ground Truth file not found at: {SILVER_GT_PATH}")
+        print("Please place 'Experimental Groups with Recommendations.json' in the same folder as this script.")
+        return
+    
+    if not os.path.exists(MODEL_RESULTS_PATH):
+        print(f"\nError: Model results file not found at: {MODEL_RESULTS_PATH}")
+        print("Please place 'all_results.json' in the same folder as this script.")
+        return
+    
+    try:
+        silver = load_silver_gt()
+        results = load_model_results()
+    except Exception as e:
+        print(f"\nError loading files: {e}")
+        return
 
     print(f"Loaded {len(silver)} groups from silver GT")
     print(f"Loaded {len(results)} groups from model results")
 
     all_projects_set = get_all_projects_from_folder()
+    if len(all_projects_set) == 0:
+        print("\nWarning: No project files found. Catalog coverage will be 0.")
+    
     print(f"Total projects in folder: {len(all_projects_set)}")
 
     project_metrics_by_k = {k: defaultdict(list) for k in K_VALUES_PROJECTS}
@@ -234,15 +222,14 @@ def evaluate():
             print(f"Warning: group {gid} not in model results, skipping.")
             continue
 
-        # --- Ground truth data (from Silver Ground Truth) ---
+        # Ground truth data (from Silver Ground Truth)
         gt_projects = [p["project_id"] for p in gt.get("recommended_projects", [])]
         gt_interests = gt.get("top_interests", [])
         gt_applications = gt.get("top_applications", [])
-        # rdia_category might be a string, we put it in a list for consistency
         gt_rdia_raw = gt.get("rdia_category")
         gt_rdia = [gt_rdia_raw] if gt_rdia_raw else []
 
-        # --- Model recommendations (from all_results.json) ---
+        # Model recommendations (from all_results.json)
         model_group = results[gid]
         rec_projects = model_group.get("recommended_projects", [])
         rec_ids = [p["project_id"] for p in rec_projects]
@@ -250,20 +237,17 @@ def evaluate():
 
         rec_interests = [i["name"] for i in model_group.get("recommended_interests", [])[:K_VALUES_INTEREST_APP[-1]]]
         rec_applications = [a["name"] for a in model_group.get("recommended_applications", [])[:K_VALUES_INTEREST_APP[-1]]]
-        rec_rdia = [r["label"] for r in model_group.get("recommended_rdia", [])]  # Take all recommendations
+        rec_rdia = [r["label"] for r in model_group.get("recommended_rdia", [])]
 
-        # --- Project Metrics ---
+        # Project Metrics
         for k in K_VALUES_PROJECTS:
             project_metrics_by_k[k]["precision"].append(precision_at_k(rec_ids, gt_projects, k))
             project_metrics_by_k[k]["recall"].append(recall_at_k(rec_ids, gt_projects, k))
-            project_metrics_by_k[k]["map"].append(average_precision(rec_ids, gt_projects, k))
             project_metrics_by_k[k]["ndcg"].append(ndcg_at_k(rec_ids, gt_projects, k))
-            project_metrics_by_k[k]["alpha_ndcg"].append(alpha_ndcg(rec_projects, gt_interests, k, ALPHA))
-            project_metrics_by_k[k]["ild"].append(intra_list_diversity(rec_projects, k))
 
         project_metrics_by_k[K_VALUES_PROJECTS[0]]["mrr"].append(mrr(rec_ids, gt_projects))
 
-        # --- Interest Metrics ---
+        # Interest Metrics
         if gt_interests:
             for k in K_VALUES_INTEREST_APP:
                 interest_metrics_by_k[k]["precision"].append(precision_at_k(rec_interests, gt_interests, k))
@@ -271,7 +255,7 @@ def evaluate():
                 interest_metrics_by_k[k]["ndcg"].append(ndcg_at_k(rec_interests, gt_interests, k))
             interest_metrics_by_k[K_VALUES_INTEREST_APP[0]]["mrr"].append(mrr(rec_interests, gt_interests))
 
-        # --- Application Metrics ---
+        # Application Metrics
         if gt_applications:
             for k in K_VALUES_INTEREST_APP:
                 application_metrics_by_k[k]["precision"].append(precision_at_k(rec_applications, gt_applications, k))
@@ -279,23 +263,19 @@ def evaluate():
                 application_metrics_by_k[k]["ndcg"].append(ndcg_at_k(rec_applications, gt_applications, k))
             application_metrics_by_k[K_VALUES_INTEREST_APP[0]]["mrr"].append(mrr(rec_applications, gt_applications))
 
-        # --- RDIA Metrics (Enhanced) ---
+        # RDIA Metrics
         if gt_rdia:
-            gt_value = gt_rdia[0]  # Extract the single ground truth value
+            gt_value = gt_rdia[0]
             total_recs = len(rec_rdia)
             
-            # 1. Check if the correct value exists in the recommendations (Hit Rate)
             hit = 1 if gt_value in rec_rdia else 0
             rdia_metrics["hit_rate"].append(hit)
             
-            # 2. Determine the rank of the correct value (if found)
             if hit:
-                # Calculate rank and Reciprocal Rank (MRR component)
                 rank = rec_rdia.index(gt_value) + 1
                 rdia_metrics["rank"].append(rank)
                 rdia_metrics["mrr"].append(1.0 / rank)
             else:
-                # Assign a rank outside the recommendation list and set MRR to 0
                 rdia_metrics["rank"].append(total_recs + 1)  
                 rdia_metrics["mrr"].append(0)
 
@@ -391,19 +371,19 @@ def display_results_with_history(current_results):
             current_k = current_results["project_metrics_by_k"][k_str]
             prev_k = previous_run["project_metrics_by_k"][k_str]
 
-            for metric in ["precision", "recall", "map", "ndcg", "alpha_ndcg", "ild", "mrr"]:
+            for metric in ["precision", "recall", "ndcg", "mrr"]:
                 if metric in current_k and metric in prev_k:
                     current_val = current_k[metric]
                     prev_val = prev_k[metric]
                     diff = current_val - prev_val
 
                     if abs(diff) < 0.001:
-                        status = "⚪"
+                        status = "o"
                     elif diff > 0:
-                        status = "🟢"
+                        status = "+"
                         improvements += 1
                     else:
-                        status = "🔴"
+                        status = "-"
                         regressions += 1
 
                     print(f"    {metric:<10}: {status} {diff:+.4f} ({current_val:.4f} vs {prev_val:.4f})")
@@ -422,12 +402,12 @@ def display_results_with_history(current_results):
                     diff = current_val - prev_val
 
                     if abs(diff) < 0.001:
-                        status = "⚪"
+                        status = "o"
                     elif diff > 0:
-                        status = "🟢"
+                        status = "+"
                         improvements += 1
                     else:
-                        status = "🔴"
+                        status = "-"
                         regressions += 1
 
                     print(f"    {metric}@{k:<2}: {status} {diff:+.4f} ({current_val:.4f} vs {prev_val:.4f})")
@@ -446,12 +426,12 @@ def display_results_with_history(current_results):
                     diff = current_val - prev_val
 
                     if abs(diff) < 0.001:
-                        status = "⚪"
+                        status = "o"
                     elif diff > 0:
-                        status = "🟢"
+                        status = "+"
                         improvements += 1
                     else:
-                        status = "🔴"
+                        status = "-"
                         regressions += 1
 
                     print(f"    {metric}@{k:<2}: {status} {diff:+.4f} ({current_val:.4f} vs {prev_val:.4f})")
@@ -465,22 +445,20 @@ def display_results_with_history(current_results):
                 diff = current_val - prev_val
 
                 if abs(diff) < 0.001:
-                    status = "⚪"
+                    status = "o"
                 elif metric == "rank":
-                    # For rank, lower is better
                     if diff < 0:
-                        status = "🟢"
+                        status = "+"
                         improvements += 1
                     else:
-                        status = "🔴"
+                        status = "-"
                         regressions += 1
                 else:
-                    # For hit_rate and mrr, higher is better
                     if diff > 0:
-                        status = "🟢"
+                        status = "+"
                         improvements += 1
                     else:
-                        status = "🔴"
+                        status = "-"
                         regressions += 1
 
                 print(f"    {metric:<10}: {status} {diff:+.4f} ({current_val:.4f} vs {prev_val:.4f})")
@@ -492,17 +470,17 @@ def display_results_with_history(current_results):
             diff = current_cov - prev_cov
 
             if abs(diff) < 0.001:
-                status = "⚪"
+                status = "o"
             elif diff > 0:
-                status = "🟢"
+                status = "+"
                 improvements += 1
             else:
-                status = "🔴"
+                status = "-"
                 regressions += 1
 
             print(f"\n Catalog Coverage: {status} {diff:+.4f} ({current_cov:.4f} vs {prev_cov:.4f})")
 
-        print(f"\n 🟢 Improvements: {improvements}  |  🔴 Regressions: {regressions}  |  ⚪ No Change: {len([m for m in ['precision', 'recall', 'map', 'ndcg', 'alpha_ndcg', 'ild', 'mrr']]) - improvements - regressions}")
+        print(f"\n Improvements: {improvements}  |  Regressions: {regressions}  |  No Change: {len(['precision', 'recall', 'ndcg', 'mrr']) - improvements - regressions}")
 
     # Display current results
     print("\n" + "="*70)
@@ -519,7 +497,7 @@ def display_results_with_history(current_results):
     print(header)
     print("-" * 70)
 
-    metrics_order = ["precision", "recall", "map", "ndcg", "alpha_ndcg", "ild", "mrr"]
+    metrics_order = ["precision", "recall", "ndcg", "mrr"]
     for metric in metrics_order:
         row = metric.ljust(15)
         for k in K_VALUES_PROJECTS:
